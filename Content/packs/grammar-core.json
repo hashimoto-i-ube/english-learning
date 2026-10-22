@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "grammar.core",
- "revision": 5,
+ "revision": 6,
  "skill": "grammar",
  "title": "文法・語法 基本〜発展",
  "description": "高校文法の全分野を入試頻出ポイントに絞って解説＋演習",
@@ -3656,6 +3656,52 @@
       "I stayed",
       "stay"
      ]
+    },
+    {
+     "id": "g-se-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "not"
+     ],
+     "explanation": "残念ながら来ない → I'm afraid not.",
+     "sentence": "\"Is he coming to the party?\" \"I'm afraid ___.\"",
+     "choices": [
+      "no",
+      "not",
+      "so",
+      "it"
+     ]
+    },
+    {
+     "id": "g-se-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "do so"
+     ],
+     "explanation": "do so = call me（動詞句の代用）。",
+     "sentence": "She said she would call me, but she didn't ___.",
+     "choices": [
+      "do",
+      "do so",
+      "so",
+      "it"
+     ]
+    },
+    {
+     "id": "g-se-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "朝に働くのを好む人もいれば、夜に働くのを好む人もいる。"
+     ],
+     "explanation": "後半で prefer to work が省略されている。",
+     "sentence": "Some people prefer to work in the morning, others at night.",
+     "keyPoints": [
+      "others (prefer to work) at night の省略を補う",
+      "Some 〜, others …「〜な人もいれば…な人もいる」"
+     ]
     }
    ]
   },
@@ -3756,6 +3802,54 @@
       "(C) that",
       "(D) to read"
      ]
+    },
+    {
+     "id": "g-ae-6",
+     "type": "choice",
+     "prompt": "誤りを含む箇所を選びなさい。",
+     "answers": [
+      "(A) Despite of"
+     ],
+     "explanation": "despite は前置詞で of を伴わない（in spite of と混同しない）。",
+     "sentence": "誤りを含む箇所を選びなさい。\n(A) Despite of (B) the heavy rain, the game (C) was held (D) as scheduled.",
+     "choices": [
+      "(A) Despite of",
+      "(B) the heavy rain",
+      "(C) was held",
+      "(D) as scheduled"
+     ]
+    },
+    {
+     "id": "g-ae-7",
+     "type": "choice",
+     "prompt": "誤りを含む箇所を選びなさい。",
+     "answers": [
+      "(B) were"
+     ],
+     "explanation": "information は不可算名詞で単数扱い → was。",
+     "sentence": "誤りを含む箇所を選びなさい。\nThe information (A) he gave me (B) were (C) very (D) useful.",
+     "choices": [
+      "(A) he gave me",
+      "(B) were",
+      "(C) very",
+      "(D) useful"
+     ]
+    },
+    {
+     "id": "g-ae-8",
+     "type": "choice",
+     "prompt": "誤りを含む箇所を選びなさい。",
+     "answers": [
+      "(B) to visit"
+     ],
+     "explanation": "worth の後は動名詞（worth visiting）。",
+     "sentence": "誤りを含む箇所を選びなさい。\nThis museum is (A) worth (B) to visit (C) at least once (D) in your life.",
+     "choices": [
+      "(A) worth",
+      "(B) to visit",
+      "(C) at least once",
+      "(D) in your life"
+     ]
     }
    ]
   },
@@ -3851,6 +3945,50 @@
      "keyPoints": [
       "It is (high / about) time S + 過去形",
       "reconsider / review the way we live"
+     ]
+    },
+    {
+     "id": "g-ax-6",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「情報が多ければ多いほど、正しい判断を下すのが難しくなることもある。」",
+     "answers": [
+      "The more information we have, the more difficult it can be to make the right decision.",
+      "The more information we have, the harder it sometimes becomes to make a correct judgment."
+     ],
+     "explanation": "the 比較級構文と形式主語を組み合わせる。",
+     "keyPoints": [
+      "the 比較級 …, the 比較級 ～",
+      "形式主語 it … to do",
+      "can / sometimes で「〜こともある」"
+     ]
+    },
+    {
+     "id": "g-ax-7",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「教育が人生を変える力をもつことは、言うまでもない。」",
+     "answers": [
+      "It goes without saying that education has the power to change people's lives.",
+      "Needless to say, education has the power to change lives."
+     ],
+     "explanation": "定型表現で前置きする。",
+     "keyPoints": [
+      "It goes without saying that 〜 / Needless to say",
+      "the power to do"
+     ]
+    },
+    {
+     "id": "g-ax-8",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「重要なのは失敗しないことではなく、失敗から学ぶことだ。」",
+     "answers": [
+      "What matters is not avoiding failure but learning from it.",
+      "What is important is not never failing but learning from failure.",
+      "It is not avoiding failure but learning from it that matters."
+     ],
+     "explanation": "not A but B の A・B を同じ形（動名詞）にそろえる。",
+     "keyPoints": [
+      "What matters is not A but B",
+      "A・B は動名詞で並列"
      ]
     }
    ]
@@ -3955,6 +4093,52 @@
       "be said to have been done「〜されたと言われている」（完了・受動不定詞）",
       "had never left（過去完了）"
      ]
+    },
+    {
+     "id": "g-ia-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "to have been"
+     ],
+     "explanation": "in his youth（過去）を現在の is said で述べる → 完了不定詞。",
+     "sentence": "He is said ___ a great athlete in his youth.",
+     "choices": [
+      "to be",
+      "to have been",
+      "being",
+      "having been"
+     ]
+    },
+    {
+     "id": "g-ia-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "To"
+     ],
+     "explanation": "独立不定詞 To be frank with you「率直に言えば」。",
+     "sentence": "___ be frank with you, I don't like the plan.",
+     "choices": [
+      "To",
+      "For",
+      "As",
+      "So"
+     ]
+    },
+    {
+     "id": "g-ia-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "空には星一つ見えなかった。"
+     ],
+     "explanation": "be to be done の否定は「〜できなかった」。",
+     "sentence": "Not a single star was to be seen in the sky.",
+     "keyPoints": [
+      "be to 構文（可能）：否定・受動で「〜できる」",
+      "Not a single 〜「〜一つない」"
+     ]
     }
    ]
   },
@@ -4058,6 +4242,52 @@
       "be sure of + 意味上の主語 + doing",
       "または be sure that S will do"
      ]
+    },
+    {
+     "id": "g-ga-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "knowing"
+     ],
+     "explanation": "There is no doing「〜することはできない」。",
+     "sentence": "There is no ___ what he will do next.",
+     "choices": [
+      "know",
+      "knowing",
+      "to know",
+      "known"
+     ]
+    },
+    {
+     "id": "g-ga-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "going"
+     ],
+     "explanation": "make a point of doing「必ず〜することにしている」。",
+     "sentence": "She makes a point of ___ for a walk every morning.",
+     "choices": [
+      "go",
+      "to go",
+      "going",
+      "gone"
+     ]
+    },
+    {
+     "id": "g-ga-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その会議について知らされた覚えはない。"
+     ],
+     "explanation": "完了受動の動名詞 having been done。",
+     "sentence": "I don't remember having been told about the meeting.",
+     "keyPoints": [
+      "having been told（完了・受動の動名詞）",
+      "remember doing「〜したことを覚えている」"
+     ]
     }
    ]
   },
@@ -4159,6 +4389,53 @@
      "keyPoints": [
       "関係代名詞 than（先行詞 more people）",
       "had been expected（過去完了受動）"
+     ]
+    },
+    {
+     "id": "g-rx-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "as"
+     ],
+     "explanation": "先行詞に such が付くと関係代名詞 as。",
+     "sentence": "Choose such books ___ will help you grow.",
+     "choices": [
+      "as",
+      "that",
+      "which",
+      "what"
+     ]
+    },
+    {
+     "id": "g-rx-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "whom"
+     ],
+     "explanation": "数量表現 + of + 関係代名詞（人なので whom）。",
+     "sentence": "He has three sons, all of ___ are doctors.",
+     "choices": [
+      "them",
+      "who",
+      "whom",
+      "which"
+     ]
+    },
+    {
+     "id": "g-rx-8",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「彼女は頼れる人が誰もいなかった。」",
+     "answers": [
+      "She had no one on whom to rely.",
+      "She had no one to rely on.",
+      "She had nobody to depend on."
+     ],
+     "explanation": "no one to rely on = no one on whom to rely。",
+     "keyPoints": [
+      "前置詞 + 関係代名詞 + to 不定詞 / 形容詞的用法 + 前置詞",
+      "rely on / depend on"
      ]
     }
    ]
@@ -4263,6 +4540,52 @@
       "take A for B「AをBだと思う」",
       "would（仮定法）"
      ]
+    },
+    {
+     "id": "g-sx-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "eat"
+     ],
+     "explanation": "suggest that S (should) 原形（仮定法現在）。",
+     "sentence": "The doctor suggested that he ___ more vegetables.",
+     "choices": [
+      "eats",
+      "eat",
+      "ate",
+      "will eat"
+     ]
+    },
+    {
+     "id": "g-sx-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Had"
+     ],
+     "explanation": "If it had not been for の倒置 Had it not been for。",
+     "sentence": "___ it not been for the map, we would have got lost.",
+     "choices": [
+      "If",
+      "Were",
+      "Had",
+      "Should"
+     ]
+    },
+    {
+     "id": "g-sx-8",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「仮に明日世界が終わるとしたら、あなたは何をしますか。」",
+     "answers": [
+      "If the world were to end tomorrow, what would you do?",
+      "Were the world to end tomorrow, what would you do?"
+     ],
+     "explanation": "were to で実現性を問わない仮定を表す。",
+     "keyPoints": [
+      "If S were to do（純粋な仮定）",
+      "主節 would"
+     ]
     }
    ]
   },
@@ -4366,6 +4689,51 @@
       "not so much A as B",
       "the way in which they are reached「それらが下される方法・過程」"
      ]
+    },
+    {
+     "id": "g-cx-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "better"
+     ],
+     "explanation": "know better than to do「〜するほど愚かではない」。",
+     "sentence": "You should know ___ than to trust such a man.",
+     "choices": [
+      "better",
+      "more",
+      "best",
+      "well"
+     ]
+    },
+    {
+     "id": "g-cx-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "not"
+     ],
+     "explanation": "more often than not「たいてい」。",
+     "sentence": "More often than ___, he forgets his umbrella.",
+     "choices": [
+      "never",
+      "not",
+      "ever",
+      "usual"
+     ]
+    },
+    {
+     "id": "g-cx-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼は科学者というよりむしろ哲学者だ。"
+     ],
+     "explanation": "比較の慣用構文。",
+     "sentence": "He is not so much a scientist as a philosopher.",
+     "keyPoints": [
+      "not so much A as B「AというよりむしろB」"
+     ]
     }
    ]
   },
@@ -4468,6 +4836,54 @@
       "in that 〜「〜という点で」",
       "both assume that 〜",
       "differ in how 〜「どのように〜かという点で異なる」"
+     ]
+    },
+    {
+     "id": "g-jx-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "far"
+     ],
+     "explanation": "as far as I know「私の知る限り」（範囲）。",
+     "sentence": "As ___ as I know, she has never been late.",
+     "choices": [
+      "far",
+      "long",
+      "soon",
+      "much"
+     ]
+    },
+    {
+     "id": "g-jx-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "in case"
+     ],
+     "explanation": "in case「〜するといけないから」。",
+     "sentence": "Take a map ___ you get lost.",
+     "choices": [
+      "unless",
+      "in case",
+      "so that",
+      "although"
+     ]
+    },
+    {
+     "id": "g-jx-8",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "whereas"
+     ],
+     "explanation": "whereas「〜である一方」（対比）。",
+     "sentence": "Some people like the sea, ___ others prefer the mountains.",
+     "choices": [
+      "whereas",
+      "unless",
+      "lest",
+      "once"
      ]
     }
    ]
@@ -4574,6 +4990,51 @@
       "always + 進行形（非難・いらだち）",
       "speak ill of 〜「〜の悪口を言う」"
      ]
+    },
+    {
+     "id": "g-an7-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "would"
+     ],
+     "explanation": "過去の習慣「よく〜したものだ」の would。",
+     "sentence": "My grandfather ___ take me fishing on Sundays when I was little.",
+     "choices": [
+      "would",
+      "will",
+      "is used to",
+      "was used to"
+     ]
+    },
+    {
+     "id": "g-an7-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "was wondering"
+     ],
+     "explanation": "過去進行形で婉曲な依頼。",
+     "sentence": "I ___ if you could lend me your notes.",
+     "choices": [
+      "wonder",
+      "was wondering",
+      "wondered at",
+      "had wondered"
+     ]
+    },
+    {
+     "id": "g-an7-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼はいつも物を床に置きっぱなしにしてばかりいる。"
+     ],
+     "explanation": "話し手のいらだちを表す進行形。",
+     "sentence": "He is always leaving his things on the floor.",
+     "keyPoints": [
+      "always + 進行形（非難・いらだち）"
+     ]
     }
    ]
   },
@@ -4673,6 +5134,51 @@
       "may / might（ヘッジ）",
       "lack of sleep / sleep deprivation"
      ]
+    },
+    {
+     "id": "g-mn-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "should"
+     ],
+     "explanation": "当然を表す形容詞の後の that 節の should（感情・判断の should）。",
+     "sentence": "It is natural that she ___ be upset after such an experience.",
+     "choices": [
+      "should",
+      "shall",
+      "would",
+      "must"
+     ]
+    },
+    {
+     "id": "g-mn-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "may"
+     ],
+     "explanation": "but 以下でさらなる研究が必要としているので、断定を避ける may。",
+     "sentence": "The results ___ suggest that the treatment is effective, but more research is needed.",
+     "choices": [
+      "must",
+      "may",
+      "will",
+      "shall"
+     ]
+    },
+    {
+     "id": "g-mn-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "駅で会ったのは、なんと昔の先生だった。"
+     ],
+     "explanation": "驚きを表す疑問詞 + should の慣用表現。",
+     "sentence": "Who should I meet at the station but my old teacher!",
+     "keyPoints": [
+      "Who should 〜 but …!「〜したのはなんと…だった」（意外）"
+     ]
     }
    ]
   },
@@ -4771,6 +5277,53 @@
      "keyPoints": [
       "Arguably / It could be argued that（ヘッジ）",
       "deal with / address の受動態"
+     ]
+    },
+    {
+     "id": "g-aw-6",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "The rapid aging of the population has increased government spending on health care."
+     ],
+     "explanation": "名詞化（the rapid aging of the population）を無生物主語にし、文法的にも正しい。",
+     "sentence": "名詞化を用いて最も簡潔に書き換えたものを選びなさい。\n\"Because the population is aging rapidly, the government is spending more on health care.\"",
+     "choices": [
+      "Population is aging, so more health care.",
+      "The rapid aging of the population has increased government spending on health care.",
+      "Because aging, health care spending.",
+      "The population which ages rapidly is spending more on health care."
+     ]
+    },
+    {
+     "id": "g-aw-7",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「この研究は、睡眠時間と学業成績の間に関連があることを示している。」",
+     "answers": [
+      "This study shows that there is a link between sleep time and academic performance.",
+      "This study indicates a relationship between hours of sleep and academic performance.",
+      "This study shows a correlation between sleeping hours and academic achievement."
+     ],
+     "explanation": "学術的な無生物主語構文。",
+     "keyPoints": [
+      "無生物主語 This study shows / indicates",
+      "a link / relationship / correlation between A and B",
+      "academic performance"
+     ]
+    },
+    {
+     "id": "g-aw-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "技術は生産性を高めると広く考えられているが、その証拠は一般に認識されているよりもまちまちである。"
+     ],
+     "explanation": "than is often recognized の than は関係代名詞的に働いている。",
+     "sentence": "It is widely assumed that technology increases productivity; however, the evidence is more mixed than is often recognized.",
+     "keyPoints": [
+      "It is widely assumed that 〜",
+      "more mixed than is often recognized（関係代名詞的な than）",
+      "however（逆接）"
      ]
     }
    ]
