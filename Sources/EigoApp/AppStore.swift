@@ -13,6 +13,8 @@ final class AppStore {
     var isUpdating = false
     var availableRelease: AppUpdateChecker.Release?
     var lastSaveError: String?
+    /// 進行中の模擬試験（画面を移動しても保持）
+    var mockSession: MockExamSession?
 
     private var progressFile: ProgressFile
     private var sessionStart = Date()
@@ -142,6 +144,26 @@ final class AppStore {
     func updateComposition(_ a: CompositionAttempt) {
         if let i = progress.compositions.firstIndex(where: { $0.id == a.id }) { progress.compositions[i] = a } else { progress.compositions.append(a) }
         save()
+    }
+
+    func startMockExam(level: Level) {
+        mockSession = MockExamSession(exam: MockExamBuilder(library: library).build(level: level))
+        beginStudy()
+    }
+
+    /// 模擬試験の結果を保存し、各問題の正誤を復習スケジュールに反映する
+    func saveMockExam(_ session: MockExamSession) {
+        guard !session.saved else { return }
+        for g in session.reviewGrades() { progress.record(key: g.key, grade: g.grade, skill: g.skill) }
+        progress.mockExams.append(session.result())
+        if let prompt = session.exam.sections.first(where: { $0.kind == .composition })?.composition,
+           !session.compositionText.trimmingCharacters(in: .whitespaces).isEmpty {
+            progress.compositions.append(CompositionAttempt(
+                promptID: prompt.id, date: session.submittedAt ?? Date(), text: session.compositionText,
+                selfScore: session.compositionSelfScore, aiFeedback: session.aiFeedback))
+        }
+        session.saved = true
+        flushStudyTime()
     }
 
     func addReading(_ r: ReadingRecord) {

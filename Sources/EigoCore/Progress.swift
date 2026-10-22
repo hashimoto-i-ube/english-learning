@@ -70,6 +70,7 @@ public struct LearnerProgress: Codable, Sendable {
     public var readings: [ReadingRecord] = []
     public var completedUnits: Set<String> = []
     public var bookmarks: Set<String> = []
+    public var mockExams: [MockExamResult] = []
     public var settings = LearnerSettings()
 
     public init() {}
@@ -199,6 +200,7 @@ extension LearnerProgress {
         readings = try c.decodeIfPresent([ReadingRecord].self, forKey: .readings) ?? []
         completedUnits = try c.decodeIfPresent(Set<String>.self, forKey: .completedUnits) ?? []
         bookmarks = try c.decodeIfPresent(Set<String>.self, forKey: .bookmarks) ?? []
+        mockExams = try c.decodeIfPresent([MockExamResult].self, forKey: .mockExams) ?? []
         settings = try c.decodeIfPresent(LearnerSettings.self, forKey: .settings) ?? LearnerSettings()
     }
 }

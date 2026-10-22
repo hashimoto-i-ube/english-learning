@@ -1,6 +1,6 @@
 {
-  "generatedAt" : "2026-10-22T20:28:34Z",
-  "minAppVersion" : "1.0.0",
+  "generatedAt" : "2026-10-22T20:36:07Z",
+  "minAppVersion" : "0.1.0",
   "packs" : [
     {
       "file" : "packs/composition-core.json",

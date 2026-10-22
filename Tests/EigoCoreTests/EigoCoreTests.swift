@@ -139,3 +139,72 @@ let repoRoot = URL(fileURLWithPath: #filePath).deletingLastPathComponent().delet
         #expect(f.corrections.count == 1)
     }
 }
+
+@Suite struct MockExamTests {
+    let library = ContentLibrary(directories: [repoRoot.appendingPathComponent("Content/packs")])
+
+    @Test func buildsAllSectionsForEveryLevel() {
+        for level in Level.allCases {
+            let exam = MockExamBuilder(library: library).build(level: level, seed: 42)
+            let kinds = exam.sections.map(\.kind)
+            #expect(kinds == ExamSectionKind.allCases, "\(level): \(kinds)")
+            #expect(MockExamScorer.maxScore(exam) == 100)
+            #expect(exam.timeLimitMinutes == MockExam.timeLimit(for: level))
+            // 試験内の問題IDは一意
+            #expect(Set(exam.allItems.map(\.id)).count == exam.allItems.count)
+            // 語彙問題は正解を含む4択
+            for item in exam.sections[0].items {
+                #expect(item.exercise.choices?.count == 4)
+                #expect(item.exercise.choices?.contains(item.exercise.answers[0]) == true)
+            }
+            #expect(exam.sections.first { $0.kind == .reading }?.passage?.level == level)
+        }
+    }
+
+    @Test func sameSeedGivesSameExam() {
+        let b = MockExamBuilder(library: library)
+        let a = b.build(level: .l4, seed: 7), c = b.build(level: .l4, seed: 7), d = b.build(level: .l4, seed: 8)
+        #expect(a.allItems.map(\.exercise.id) == c.allItems.map(\.exercise.id))
+        #expect(a.allItems.map(\.exercise.id) != d.allItems.map(\.exercise.id))
+    }
+
+    @Test func scoresSections() {
+        let exam = MockExamBuilder(library: library).build(level: .l3, seed: 3)
+        let grammar = exam.sections.first { $0.kind == .grammar }!
+        var answers: [String: String] = [:]
+        for (i, item) in grammar.items.enumerated() where i < grammar.items.count / 2 {
+            answers[item.id] = item.exercise.answers[0]
+        }
+        let half = Double(grammar.items.count / 2) / Double(grammar.items.count)
+        #expect(abs(MockExamScorer.sectionScore(grammar, answers: answers, selfScores: [:], compositionScore: nil) - 20 * half) < 0.001)
+
+        let comp = exam.sections.first { $0.kind == .composition }!
+        #expect(MockExamScorer.sectionScore(comp, answers: [:], selfScores: [:], compositionScore: 0.6) == 9)
+
+        // 自己採点問題：空欄は自己採点を付けても0点
+        let tr = ExamItem(id: "x", exercise: Exercise(id: "t", type: .translateToJa, prompt: "", sentence: "A", choices: nil,
+                          answers: ["a"], explanation: "", hint: nil, keyPoints: nil, level: nil, tags: nil, media: nil),
+                          sourceKey: "ex:t", skill: .construction)
+        #expect(MockExamScorer.points(tr, answer: "", selfScore: 1) == 0)
+        #expect(MockExamScorer.points(tr, answer: "訳", selfScore: 0.5) == 0.5)
+    }
+
+    @Test func oldProgressWithoutExamsStillLoads() throws {
+        let p = try JSONDecoder().decode(LearnerProgress.self, from: Data(#"{"cards":{}}"#.utf8))
+        #expect(p.mockExams.isEmpty)
+    }
+}
+
+@Suite struct ReleaseConsistencyTests {
+    @Test func manifestDoesNotRequireNewerAppThanThisRelease() throws {
+        let data = try Data(contentsOf: repoRoot.appendingPathComponent("Content/manifest.json"))
+        let manifest = try JSONDecoder().decode(ContentManifest.self, from: data)
+        let appVersion = try String(contentsOf: repoRoot.appendingPathComponent("VERSION"), encoding: .utf8)
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+        if let min = manifest.minAppVersion {
+            // minAppVersion がアプリより新しいと、配布済みアプリがコンテンツ更新を受け取れなくなる
+            #expect(ContentUpdater.compareVersions(min, appVersion) != .orderedDescending,
+                    "manifest の minAppVersion \(min) が VERSION \(appVersion) より新しい")
+        }
+    }
+}

@@ -53,7 +53,7 @@
 ```bash
 scripts/swiftpm.sh build --product eigo-tool
 .build/debug/eigo-tool validate Content     # 形式・ID重複・正解の整合性
-.build/debug/eigo-tool manifest Content     # manifest.json を再生成
+.build/debug/eigo-tool manifest Content 0.1.0   # manifest.json を再生成（引数＝このコンテンツを読める最古のアプリ版。現行アプリ版より新しくしないこと）
 .build/debug/eigo-tool stats Content        # レベル別の収録数
 scripts/swiftpm.sh test                     # manifest とパックの整合性も検査
 git commit -am "content: ..." && git push
