@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "reading.core",
- "revision": 4,
+ "revision": 5,
  "skill": "reading",
  "title": "長文読解",
  "description": "オリジナル英文（全訳・語注・設問付き）。共通テストから難関大・医学部レベルまで",
@@ -2489,6 +2489,769 @@
       "新たに買わない＝手持ちの服を使う",
       "金銭的な安さだけでなく環境・人の代償も考慮",
       "cheapest の二重の意味"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-nudge",
+   "title": "Nudges: Changing Behavior Without Rules",
+   "level": 5,
+   "topic": "行動経済学・社会",
+   "targetMinutes": 5,
+   "paragraphs": [
+    "Governments traditionally try to change people's behavior in two ways: by making rules and by offering money. Smoking is banned in public places; taxes make cigarettes more expensive. Over the past two decades, however, a third approach has attracted attention. It is known as the \"nudge.\"",
+    "The idea was popularized by the economist Richard Thaler and the legal scholar Cass Sunstein. A nudge is a small change in the way choices are presented that makes a desirable choice easier, without forbidding any option or significantly changing its cost. Placing fruit at eye level in a school cafeteria, for example, may lead more students to choose fruit over dessert, even though the dessert is still available.",
+    "One of the most powerful nudges involves default options — what happens if a person does nothing. Studies of organ donation have found that countries in which citizens are automatically registered as donors unless they choose to opt out tend to have far higher registration rates than countries in which people must actively opt in. Since few people bother to change the default, the way the question is framed can matter more than people's stated preferences.",
+    "Supporters argue that nudges respect freedom while helping people act in their own long-term interests. Critics, however, warn that nudges can be manipulative. If people are steered toward certain choices without realizing it, they may lose the habit of thinking for themselves. There is also the question of who decides what counts as a \"good\" choice.",
+    "Perhaps the most reasonable response is to demand transparency. A nudge that could be openly explained to the public without losing its legitimacy is easier to defend than one that works only because people do not notice it."
+   ],
+   "translation": [
+    "政府は伝統的に、2つの方法で人々の行動を変えようとしてきた。規則を作ることと、お金を提供することである。公共の場での喫煙は禁止され、税金はたばこを高くしている。しかし過去20年ほどの間に、第三の方法が注目を集めてきた。それは「ナッジ」として知られている。",
+    "この考え方は、経済学者のリチャード・セイラーと法学者のキャス・サンスティーンによって広められた。ナッジとは、どの選択肢も禁止せず、その費用を大きく変えることもなく、望ましい選択をしやすくするような、選択肢の示し方の小さな変更である。たとえば、学校の食堂で果物を目の高さに置けば、デザートは依然として選べるにもかかわらず、より多くの生徒がデザートより果物を選ぶようになるかもしれない。",
+    "最も強力なナッジの一つは、初期設定（デフォルト）、すなわち人が何もしなかった場合にどうなるかに関わるものである。臓器提供についての研究によれば、本人が拒否を選ばない限り自動的に提供者として登録される国々は、自ら積極的に登録しなければならない国々よりも、登録率がはるかに高い傾向があることがわかっている。わざわざ初期設定を変える人はほとんどいないので、問いの立て方が、人々が表明する好みよりも重要になりうるのである。",
+    "支持する人々は、ナッジは自由を尊重しつつ、人々が自分の長期的な利益にかなう行動をとる手助けになると主張する。しかし批判する人々は、ナッジが人を操るものになりうると警告する。人々が気づかないうちに特定の選択へと誘導されれば、自分で考える習慣を失うかもしれない。また、何を「良い」選択とみなすかを誰が決めるのかという問題もある。",
+    "おそらく最も妥当な対応は、透明性を求めることだろう。正当性を失わずに市民に公然と説明できるナッジは、人々が気づかないからこそ機能するナッジよりも擁護しやすい。"
+   ],
+   "glossary": [
+    {
+     "term": "nudge",
+     "meaning": "ナッジ（そっと後押しすること）"
+    },
+    {
+     "term": "default",
+     "meaning": "初期設定"
+    },
+    {
+     "term": "opt out",
+     "meaning": "（制度から）抜けることを選ぶ"
+    },
+    {
+     "term": "opt in",
+     "meaning": "（制度に）参加することを選ぶ"
+    },
+    {
+     "term": "frame",
+     "meaning": "（問いを）組み立てる・表現する"
+    },
+    {
+     "term": "steer",
+     "meaning": "誘導する"
+    },
+    {
+     "term": "legitimacy",
+     "meaning": "正当性"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-nd-1",
+     "type": "choice",
+     "prompt": "Which best describes a nudge?",
+     "answers": [
+      "A small change in how choices are presented"
+     ],
+     "explanation": "第2段落第2文の定義。",
+     "choices": [
+      "A law that bans unhealthy choices",
+      "A tax that makes some choices more expensive",
+      "A small change in how choices are presented",
+      "A reward paid to people who make good choices"
+     ]
+    },
+    {
+     "id": "r-nd-2",
+     "type": "choice",
+     "prompt": "Why do default options have such a strong effect?",
+     "answers": [
+      "Because few people bother to change them."
+     ],
+     "explanation": "第3段落最終文。",
+     "choices": [
+      "Because people are forced to accept them.",
+      "Because few people bother to change them.",
+      "Because they are always the cheapest option.",
+      "Because governments explain them clearly."
+     ]
+    },
+    {
+     "id": "r-nd-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "even though the dessert is still available。ナッジは選択肢を禁止しない。",
+     "sentence": "In the cafeteria example, dessert is removed from the menu.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-nd-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "正当性を失わずに市民に公然と説明できるナッジは、人々が気づかないからこそ機能するナッジよりも擁護しやすい。"
+     ],
+     "explanation": "長い主語と比較の対象 one（= a nudge）を正確に捉える。",
+     "sentence": "A nudge that could be openly explained to the public without losing its legitimacy is easier to defend than one that works only because people do not notice it.",
+     "keyPoints": [
+      "主語 A nudge that could be ... legitimacy（関係詞節）",
+      "is easier to defend「擁護しやすい」",
+      "one = a nudge",
+      "works only because 〜「〜だからこそ機能する」"
+     ]
+    },
+    {
+     "id": "r-nd-5",
+     "type": "shortAnswer",
+     "prompt": "第4段落で挙げられている、ナッジに対する批判を2点、日本語で説明しなさい。",
+     "answers": [
+      "人々が気づかないうちに特定の選択へ誘導されると、自分で考える習慣を失うおそれがあること。何を「良い」選択とするかを誰が決めるのかという問題があること。"
+     ],
+     "explanation": "Critics, however, warn ... と There is also the question of ... の2点。",
+     "keyPoints": [
+      "manipulative → 自分で考える習慣を失う",
+      "who decides what counts as a good choice"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-fake-news",
+   "title": "Why False Stories Spread",
+   "level": 5,
+   "topic": "メディア・心理",
+   "targetMinutes": 5,
+   "paragraphs": [
+    "It is often said that a lie can travel halfway around the world while the truth is still putting on its shoes. Research on social media suggests that this old saying contains more than a little truth. One large study of stories shared on Twitter found that false news tended to spread farther and faster than true news.",
+    "Why should this be so? One explanation is novelty. False stories are often surprising, because they are not constrained by what actually happened. Surprising information attracts attention, and people are more inclined to share something that seems new or shocking. Emotion also plays a role: stories that provoke anger or fear are passed on more readily than calm, balanced reports.",
+    "Interestingly, the same study found that automated accounts, or \"bots,\" spread true and false news at similar rates. This suggests that the main reason false news spreads is not technology itself but human behavior. We, not machines, are the ones pressing the \"share\" button.",
+    "Our own psychology makes us vulnerable in other ways as well. We tend to believe information that confirms what we already think, a tendency known as confirmation bias. We are also more likely to trust a claim we have seen many times, even if each repetition came from an unreliable source.",
+    "What can be done? Platforms can label disputed stories and slow down the spread of unverified claims, but individual habits matter too. Pausing before sharing, checking where a story comes from, and asking whether it seems designed to make us angry are simple steps. In an age when anyone can publish, everyone shares some responsibility for what is believed."
+   ],
+   "translation": [
+    "うそは真実がまだ靴を履いている間に世界を半周できる、とよく言われる。ソーシャルメディアに関する研究は、この古いことわざに少なからぬ真実が含まれていることを示唆している。ツイッターで共有された話題についてのある大規模な研究によれば、偽のニュースは本当のニュースよりも遠くまで、速く広がる傾向があった。",
+    "なぜそうなるのだろうか。一つの説明は目新しさである。偽の話は、実際に起きたことに縛られないので、しばしば意外性がある。意外な情報は注目を集め、人は新しいと思えるものや衝撃的なものを共有したくなりやすい。感情も一役買っている。怒りや恐怖を引き起こす話は、落ち着いたバランスのとれた報道よりも容易に広められる。",
+    "興味深いことに、同じ研究では、自動化されたアカウント、つまり「ボット」は、本当のニュースと偽のニュースを同程度の割合で広めていることがわかった。これは、偽のニュースが広がる主な理由は技術そのものではなく、人間の行動であることを示唆している。「共有」ボタンを押しているのは機械ではなく、私たちなのだ。",
+    "私たち自身の心理は、ほかの面でも私たちを弱い立場に置いている。私たちはすでに考えていることを裏付ける情報を信じる傾向があり、これは確証バイアスとして知られている。また、たとえ毎回信頼できない情報源からのものであっても、何度も目にした主張ほど信じやすい。",
+    "何ができるだろうか。プラットフォームは真偽に争いのある話にラベルを付けたり、検証されていない主張の拡散を遅らせたりできるが、個人の習慣も重要である。共有する前に一呼吸おくこと、その話がどこから来たのかを確かめること、そしてそれが自分を怒らせるように作られていないかを問うことは、簡単な手段である。誰もが発信できる時代においては、何が信じられるかについて、誰もがいくらかの責任を負っているのである。"
+   ],
+   "glossary": [
+    {
+     "term": "novelty",
+     "meaning": "目新しさ"
+    },
+    {
+     "term": "constrain",
+     "meaning": "制約する"
+    },
+    {
+     "term": "provoke",
+     "meaning": "引き起こす"
+    },
+    {
+     "term": "automated account",
+     "meaning": "自動化されたアカウント"
+    },
+    {
+     "term": "confirmation bias",
+     "meaning": "確証バイアス"
+    },
+    {
+     "term": "unverified",
+     "meaning": "検証されていない"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-fn-1",
+     "type": "choice",
+     "prompt": "According to the passage, why are false stories often surprising?",
+     "answers": [
+      "They are not limited by what actually happened."
+     ],
+     "explanation": "第2段落 they are not constrained by what actually happened。",
+     "choices": [
+      "They are written by experts.",
+      "They are not limited by what actually happened.",
+      "They are always about famous people.",
+      "They are shared by bots."
+     ]
+    },
+    {
+     "id": "r-fn-2",
+     "type": "choice",
+     "prompt": "What does the finding about bots suggest?",
+     "answers": [
+      "Human behavior is the main reason false news spreads."
+     ],
+     "explanation": "第3段落第2文。",
+     "choices": [
+      "Bots are the main cause of false news.",
+      "Human behavior is the main reason false news spreads.",
+      "Bots only spread true news.",
+      "Technology cannot spread news."
+     ]
+    },
+    {
+     "id": "r-fn-3",
+     "type": "choice",
+     "prompt": "What is confirmation bias?",
+     "answers": [
+      "Believing information that supports what we already think"
+     ],
+     "explanation": "第4段落第2文。",
+     "choices": [
+      "Trusting only official sources",
+      "Believing information that supports what we already think",
+      "Checking facts before sharing",
+      "Sharing news many times"
+     ]
+    },
+    {
+     "id": "r-fn-4",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "最終段落 ... but individual habits matter too。",
+     "sentence": "The writer thinks that platforms alone can solve the problem.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-fn-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "誰もが発信できる時代においては、何が信じられるかについて、誰もがいくらかの責任を負っている。"
+     ],
+     "explanation": "関係副詞 when と what 節に注意。",
+     "sentence": "In an age when anyone can publish, everyone shares some responsibility for what is believed.",
+     "keyPoints": [
+      "In an age when 〜（関係副詞 when）",
+      "publish「発信する・公開する」",
+      "share some responsibility for 〜",
+      "what is believed「信じられること」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-goodhart",
+   "title": "When a Measure Becomes a Target",
+   "level": 6,
+   "topic": "社会・組織論",
+   "targetMinutes": 6,
+   "paragraphs": [
+    "Organizations love numbers. Hospitals track waiting times, schools publish test scores, and companies reward employees who meet sales targets. Numbers seem objective and easy to compare, and they allow managers to judge performance from a distance. Yet there is a well-known problem with relying on them, often summarized as Goodhart's law, after the British economist Charles Goodhart: when a measure becomes a target, it ceases to be a good measure.",
+    "The logic is simple. A number is useful because it reflects something we care about but cannot observe directly. Test scores, for instance, are meant to indicate how much students have learned. But once teachers and students are rewarded or punished according to those scores, they have an incentive to raise the number itself, whether or not learning improves. Time may be shifted away from subjects that are not tested, and lessons may come to focus on exam techniques rather than understanding.",
+    "Similar distortions appear in many fields. If a hospital is judged by how quickly patients are seen, it may find ways to start the clock later rather than treat people sooner. If police are evaluated by the number of reported crimes, there may be pressure, subtle or otherwise, to record fewer of them. In each case, the indicator improves while the reality it was supposed to capture does not — or even gets worse.",
+    "None of this means that measurement should be abandoned. Without data, it would be far harder to detect problems or to hold institutions accountable. The lesson is rather that numbers should inform judgment, not replace it. Using several indicators instead of one, changing them from time to time, and combining them with direct observation can all reduce the temptation to game the system.",
+    "Ultimately, Goodhart's law is a reminder of something easily forgotten: what can be counted is not always what counts. A wise organization keeps its eye on the purpose behind the numbers, and treats a sudden improvement in its statistics with curiosity rather than unquestioning celebration."
+   ],
+   "translation": [
+    "組織は数字を好む。病院は待ち時間を記録し、学校はテストの点数を公表し、企業は販売目標を達成した従業員に報いる。数字は客観的で比較しやすく見え、管理者は離れたところから成果を判断することができる。しかし、数字に頼ることにはよく知られた問題があり、それはイギリスの経済学者チャールズ・グッドハートにちなんでグッドハートの法則としてしばしば要約される。すなわち、ある指標が目標になると、それはよい指標ではなくなる、というものだ。",
+    "その論理は単純である。数字が役立つのは、私たちが重視しているが直接観察できない何かを反映しているからだ。たとえばテストの点数は、生徒がどれだけ学んだかを示すためのものである。しかし、いったん教師や生徒がその点数によって報われたり罰せられたりするようになると、学習が向上するかどうかにかかわらず、数字そのものを上げようとする動機が生まれる。試験に出ない科目から時間が移され、授業は理解よりも試験の技術に重点を置くようになるかもしれない。",
+    "同様の歪みは多くの分野に現れる。病院が患者を診るまでの速さで評価されれば、人々をより早く治療するのではなく、計測の開始を遅らせる方法を見つけるかもしれない。警察が届け出のあった犯罪の件数で評価されれば、それとなく、あるいはそうでない形で、記録する件数を減らそうとする圧力が生じるかもしれない。いずれの場合も、指標は改善する一方で、それがとらえるはずだった現実は改善しない。それどころか悪化することさえある。",
+    "これは測定をやめるべきだということではまったくない。データがなければ、問題を発見したり、組織に説明責任を果たさせたりすることははるかに難しくなるだろう。教訓はむしろ、数字は判断に情報を与えるべきであって、判断に取って代わるべきではないということである。一つではなく複数の指標を用いること、時々指標を変えること、そして直接の観察と組み合わせることは、いずれも制度の抜け穴を利用したくなる誘惑を減らしうる。",
+    "結局のところ、グッドハートの法則は、忘れられがちなことを思い出させてくれる。数えられるものが、常に大切なものであるとは限らないということだ。賢明な組織は数字の背後にある目的から目を離さず、統計の突然の改善を、無批判に祝うのではなく好奇心をもって扱うのである。"
+   ],
+   "glossary": [
+    {
+     "term": "objective",
+     "meaning": "客観的な"
+    },
+    {
+     "term": "cease to do",
+     "meaning": "〜しなくなる"
+    },
+    {
+     "term": "incentive",
+     "meaning": "動機づけ"
+    },
+    {
+     "term": "distortion",
+     "meaning": "歪み"
+    },
+    {
+     "term": "accountable",
+     "meaning": "説明責任のある"
+    },
+    {
+     "term": "game the system",
+     "meaning": "制度の抜け穴を利用する"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-gh-1",
+     "type": "choice",
+     "prompt": "According to the passage, why is a number useful in the first place?",
+     "answers": [
+      "Because it reflects something important that cannot be observed directly."
+     ],
+     "explanation": "第2段落第2文。",
+     "choices": [
+      "Because it is always accurate.",
+      "Because it reflects something important that cannot be observed directly.",
+      "Because managers like to celebrate.",
+      "Because it replaces human judgment."
+     ]
+    },
+    {
+     "id": "r-gh-2",
+     "type": "choice",
+     "prompt": "What does the hospital example illustrate?",
+     "answers": [
+      "An indicator can improve without the reality improving."
+     ],
+     "explanation": "第3段落最終文。",
+     "choices": [
+      "Hospitals treat patients faster when measured.",
+      "An indicator can improve without the reality improving.",
+      "Measurement should be abandoned.",
+      "Waiting times are impossible to measure."
+     ]
+    },
+    {
+     "id": "r-gh-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落 None of this means that measurement should be abandoned。",
+     "sentence": "The writer argues that organizations should stop collecting data.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-gh-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "教訓はむしろ、数字は判断に情報を与えるべきであって、判断に取って代わるべきではないということである。"
+     ],
+     "explanation": "inform と replace が judgment を共通の目的語としている。",
+     "sentence": "The lesson is rather that numbers should inform judgment, not replace it.",
+     "keyPoints": [
+      "rather「むしろ」（前文の否定を受ける）",
+      "inform judgment「判断に情報を与える・判断の材料となる」",
+      "A, not B",
+      "it = judgment"
+     ]
+    },
+    {
+     "id": "r-gh-5",
+     "type": "shortAnswer",
+     "prompt": "\"what can be counted is not always what counts\" とはどういうことか、本文の例を1つ用いて100字程度の日本語で説明しなさい。",
+     "answers": [
+      "数値として測れるものが、本当に重要なものとは限らないということ。例えば、テストの点数は学習の成果を測るための指標だが、点数そのものが目標になると、理解が深まらなくても点数だけが上がることがある。"
+     ],
+     "explanation": "count の2つの意味（数える／重要である）を踏まえて説明する。",
+     "keyPoints": [
+      "counted（数えられる）と counts（重要である）の言葉遊び",
+      "指標と本来の目的のずれ",
+      "本文の具体例（テスト・病院・警察のいずれか）"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-trust-science",
+   "title": "Trusting What We Cannot Check",
+   "level": 6,
+   "topic": "科学・社会",
+   "targetMinutes": 6,
+   "paragraphs": [
+    "Most of what we believe about the world, we have never verified for ourselves. Few of us have measured the distance to the sun, examined a virus under a microscope, or analyzed climate data. We accept such knowledge because we trust the people and institutions that produced it. Trust, in other words, is not the opposite of knowledge; it is one of its foundations.",
+    "This raises a difficult question. If ordinary citizens cannot check scientific claims directly, on what basis should they decide whom to believe? Blind trust is clearly dangerous, since experts can be mistaken and institutions can be captured by interests. Yet universal suspicion is equally unworkable. A person who refused to accept any claim he or she could not personally confirm would be unable to function in a modern society.",
+    "Philosophers who have studied this problem suggest that what matters is not whether to trust but how. Reasonable trust is directed not at individual scientists so much as at the process by which scientific claims are tested. Findings are published so that others can examine them; experiments are repeated; errors are, at least in principle, corrected over time. The authority of science, on this view, comes not from the infallibility of scientists but from a system designed to expose their mistakes.",
+    "This also explains why disagreement among scientists, which often confuses the public, can actually be a sign of health. When new evidence appears, experts are expected to revise their views. A field in which no one ever changed their mind would be more worrying, not less, than one in which debate is open and visible.",
+    "For citizens, the practical lesson is to ask different questions. Instead of \"Is this person an expert?\" we might ask: Has this claim been examined by others? Is there broad agreement among independent researchers? Are the uncertainties stated honestly? Such questions do not require scientific training, but they allow us to place our trust where it is most likely to be deserved."
+   ],
+   "translation": [
+    "世界について私たちが信じていることのほとんどを、私たちは自分で確かめたことがない。太陽までの距離を測ったり、顕微鏡でウイルスを調べたり、気候データを分析したりしたことのある人はほとんどいない。私たちがそうした知識を受け入れるのは、それを生み出した人々や機関を信頼しているからである。言い換えれば、信頼は知識の反対物ではなく、知識の土台の一つなのである。",
+    "このことは難しい問いを提起する。一般の市民が科学的な主張を直接確かめられないとすれば、誰を信じるかを何を根拠に決めるべきなのだろうか。盲目的な信頼は明らかに危険である。専門家も誤ることがあり、組織が特定の利害にとらわれることもあるからだ。しかし、あらゆるものを疑うことも同じように実行不可能である。自分で確かめられない主張を一切受け入れることを拒む人は、現代社会で生活を営むことができないだろう。",
+    "この問題を研究してきた哲学者たちは、重要なのは信頼するかどうかではなく、どのように信頼するかだと示唆している。理にかなった信頼は、個々の科学者に向けられるというよりも、科学的な主張が検証される過程に向けられる。発見は他の人々が検討できるように公表され、実験は繰り返され、誤りは少なくとも原理上は時間とともに修正される。この見方によれば、科学の権威は科学者が誤りを犯さないことから生じるのではなく、彼らの誤りを明るみに出すように設計された仕組みから生じるのである。",
+    "このことはまた、しばしば一般の人々を混乱させる科学者間の意見の不一致が、実は健全さのしるしでありうる理由も説明する。新しい証拠が現れれば、専門家は見解を修正することが期待される。誰一人として考えを変えることのない分野のほうが、議論が開かれて目に見える分野よりも、心配が少ないどころかむしろ心配なのである。",
+    "市民にとっての実践的な教訓は、別の問いを立てることである。「この人は専門家か」と問う代わりに、こう問うことができるだろう。この主張は他の人々によって検討されたか。独立した研究者の間で幅広い合意があるか。不確実性は正直に述べられているか。こうした問いには科学的な訓練は必要ないが、信頼に最も値しそうなところに私たちの信頼を置くことを可能にしてくれる。"
+   ],
+   "glossary": [
+    {
+     "term": "verify",
+     "meaning": "確かめる"
+    },
+    {
+     "term": "foundation",
+     "meaning": "土台"
+    },
+    {
+     "term": "captured by interests",
+     "meaning": "利害にとらわれる"
+    },
+    {
+     "term": "unworkable",
+     "meaning": "実行不可能な"
+    },
+    {
+     "term": "infallibility",
+     "meaning": "誤りがないこと・無謬性"
+    },
+    {
+     "term": "expose",
+     "meaning": "明るみに出す"
+    },
+    {
+     "term": "revise",
+     "meaning": "修正する"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-ts-1",
+     "type": "choice",
+     "prompt": "What does the writer mean by \"Trust ... is not the opposite of knowledge\"?",
+     "answers": [
+      "Much of our knowledge depends on trusting others."
+     ],
+     "explanation": "第1段落：自分で確かめていない知識を信頼によって受け入れている。",
+     "choices": [
+      "Knowledge is not important.",
+      "Much of our knowledge depends on trusting others.",
+      "We should not trust scientists.",
+      "Trust is more important than facts."
+     ]
+    },
+    {
+     "id": "r-ts-2",
+     "type": "choice",
+     "prompt": "According to paragraph 3, where does the authority of science come from?",
+     "answers": [
+      "A system designed to expose mistakes"
+     ],
+     "explanation": "第3段落最終文。",
+     "choices": [
+      "The fact that scientists never make mistakes",
+      "A system designed to expose mistakes",
+      "The number of scientists",
+      "Government support"
+     ]
+    },
+    {
+     "id": "r-ts-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落 disagreement ... can actually be a sign of health。",
+     "sentence": "The writer believes that disagreement among scientists is always a bad sign.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-ts-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "誰一人として考えを変えることのない分野のほうが、議論が開かれて目に見える分野よりも、心配が少ないどころかむしろ心配であろう。"
+     ],
+     "explanation": "挿入 not less が比較の方向を強調している。",
+     "sentence": "A field in which no one ever changed their mind would be more worrying, not less, than one in which debate is open and visible.",
+     "keyPoints": [
+      "A field in which ...（前置詞＋関係代名詞）",
+      "would be（仮定法：そのような分野があるとしたら）",
+      "more worrying, not less「少ないのではなく、より心配」",
+      "one = a field"
+     ]
+    },
+    {
+     "id": "r-ts-5",
+     "type": "shortAnswer",
+     "prompt": "最終段落で筆者が提案する問いは、なぜ一般の市民にとって有効なのか、本文全体の議論を踏まえて日本語で説明しなさい。",
+     "answers": [
+      "科学の権威は個々の専門家ではなく、主張が他者に検証され誤りが修正される過程にあるので、その過程が機能しているかを問うことは、専門的な訓練がなくても、信頼に値する主張を見分ける手がかりになるから。"
+     ],
+     "explanation": "第3段落の「過程への信頼」と最終段落の問いを結びつける。",
+     "keyPoints": [
+      "信頼の対象＝検証の過程",
+      "他者による検討・独立した合意・不確実性の明示",
+      "科学的訓練なしで判断できる"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-triage",
+   "title": "Triage and the Ethics of Scarcity",
+   "level": 7,
+   "topic": "医療倫理",
+   "targetMinutes": 7,
+   "paragraphs": [
+    "The word \"triage\" comes from a French verb meaning \"to sort.\" In medicine, it refers to the practice of deciding the order in which patients are treated when resources are insufficient to treat everyone at once. Triage is routine in emergency departments, where the most seriously ill are seen first regardless of when they arrived. But in disasters and pandemics, when the gap between need and capacity becomes extreme, it raises questions that medicine alone cannot answer.",
+    "In ordinary circumstances, the guiding principle is relatively uncontroversial: treat those in greatest need first. Under conditions of severe scarcity, however, this principle can conflict with another — doing the greatest good for the greatest number. A patient who is critically ill may require a ventilator for weeks, during which the same machine might save several patients with better prospects of recovery. To follow one principle is, in such cases, to compromise the other.",
+    "Various criteria have been proposed to guide such choices, and each carries its own difficulties. Prioritizing those most likely to survive maximizes the number of lives saved, but it may systematically disadvantage people whose chances are lower because of disability or chronic illness, conditions that often reflect social inequality rather than individual choice. Prioritizing the young can be defended on the grounds that they stand to lose more years of life, yet it seems to imply that an older person's life is worth less. A lottery treats everyone as equal, but it ignores differences that most people regard as morally relevant.",
+    "What makes these dilemmas especially painful is that they cannot be resolved simply by gathering more data. Medical evidence can estimate a patient's chances of survival; it cannot determine how much weight such estimates should carry relative to other values. That is a question of justice, and in a democratic society, questions of justice are not the property of experts alone.",
+    "For this reason, many ethicists argue that triage policies should be developed in advance, through public deliberation, rather than improvised by exhausted clinicians at the bedside. Clear, openly discussed guidelines do not eliminate tragedy, but they distribute its burden more fairly. They protect patients from arbitrary decisions, and they protect doctors from having to carry, alone and in the moment, choices that properly belong to society as a whole."
+   ],
+   "translation": [
+    "「トリアージ」という語は「選別する」という意味のフランス語の動詞に由来する。医療においては、全員を一度に治療するには資源が不十分なときに、患者を治療する順番を決める営みを指す。トリアージは救急部門では日常的なものであり、そこでは到着した時刻にかかわらず、最も重い患者が最初に診察される。しかし、災害や感染症の大流行のときのように、必要と能力の差が極端になると、トリアージは医学だけでは答えられない問いを提起する。",
+    "通常の状況では、指針となる原則は比較的議論の余地がない。最も必要としている人を最初に治療する、というものだ。しかし深刻な資源不足のもとでは、この原則はもう一つの原則、すなわち最大多数のために最大の善をなすという原則と衝突することがある。重篤な患者は何週間も人工呼吸器を必要とするかもしれないが、その間に同じ機械が、回復の見込みがより高い数人の患者を救えるかもしれない。そうした場合、一方の原則に従うことは、もう一方の原則を損なうことになるのである。",
+    "こうした選択の指針としてさまざまな基準が提案されてきたが、どれもそれぞれに難しさを抱えている。生存の可能性が最も高い人を優先すれば救われる命の数は最大になるが、障害や慢性疾患のために生存の見込みが低い人々を、組織的に不利な立場に置くかもしれない。そうした状態はしばしば、個人の選択ではなく社会的な不平等を反映したものである。若い人を優先することは、彼らのほうが失う人生の年数が多いという理由で擁護できるが、高齢者の命の価値が低いことを含意しているように思われる。くじ引きは全員を平等に扱うが、ほとんどの人が道徳的に重要だとみなす違いを無視してしまう。",
+    "これらのジレンマをとりわけ苦しいものにしているのは、より多くのデータを集めるだけでは解決できないということである。医学的な証拠は患者の生存の可能性を推定することはできるが、そうした推定が他の価値と比べてどれほどの重みをもつべきかを決めることはできない。それは正義の問題であり、民主的な社会においては、正義の問題は専門家だけのものではない。",
+    "このため、多くの倫理学者は、トリアージの方針は、疲れ切った臨床医によってベッドサイドで即興的に決められるのではなく、公の熟議を通じて前もって策定されるべきだと主張する。明確で公開の場で議論された指針は、悲劇をなくすわけではないが、その重荷をより公平に分配する。それは患者を恣意的な決定から守り、そして医師を、本来社会全体に属する選択を、その場で一人で背負わなければならないことから守るのである。"
+   ],
+   "glossary": [
+    {
+     "term": "triage",
+     "meaning": "トリアージ（治療の優先順位づけ）"
+    },
+    {
+     "term": "scarcity",
+     "meaning": "不足"
+    },
+    {
+     "term": "ventilator",
+     "meaning": "人工呼吸器"
+    },
+    {
+     "term": "compromise",
+     "meaning": "損なう・妥協する"
+    },
+    {
+     "term": "disadvantage",
+     "meaning": "不利にする"
+    },
+    {
+     "term": "deliberation",
+     "meaning": "熟議"
+    },
+    {
+     "term": "improvise",
+     "meaning": "即興で行う"
+    },
+    {
+     "term": "clinician",
+     "meaning": "臨床医"
+    },
+    {
+     "term": "arbitrary",
+     "meaning": "恣意的な"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-tr-1",
+     "type": "choice",
+     "prompt": "In ordinary emergency departments, who is treated first?",
+     "answers": [
+      "The most seriously ill"
+     ],
+     "explanation": "第1段落第3文。",
+     "choices": [
+      "Those who arrived first",
+      "The most seriously ill",
+      "The youngest patients",
+      "Those chosen by lottery"
+     ]
+    },
+    {
+     "id": "r-tr-2",
+     "type": "choice",
+     "prompt": "What conflict is described in paragraph 2?",
+     "answers": [
+      "Between treating those in greatest need and doing the most good for the most people"
+     ],
+     "explanation": "第2段落：2つの原則の衝突。",
+     "choices": [
+      "Between doctors and nurses",
+      "Between treating those in greatest need and doing the most good for the most people",
+      "Between young and old doctors",
+      "Between hospitals and governments"
+     ]
+    },
+    {
+     "id": "r-tr-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落 they cannot be resolved simply by gathering more data。",
+     "sentence": "The writer believes that collecting more medical data can fully resolve triage dilemmas.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-tr-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "生存の可能性が最も高い人を優先すれば、救われる命の数は最大になるが、障害や慢性疾患のために生存の見込みが低い人々を組織的に不利な立場に置くかもしれない。そうした状態はしばしば、個人の選択ではなく社会的な不平等を反映したものである。"
+     ],
+     "explanation": "最後の conditions は disability or chronic illness の言い換え（同格）。訳し下すと自然。",
+     "sentence": "Prioritizing those most likely to survive maximizes the number of lives saved, but it may systematically disadvantage people whose chances are lower because of disability or chronic illness, conditions that often reflect social inequality rather than individual choice.",
+     "keyPoints": [
+      "動名詞主語 Prioritizing those most likely to survive（無生物主語→条件的に訳す）",
+      "the number of lives saved（過去分詞の後置修飾）",
+      "people whose chances are lower（所有格関係代名詞）",
+      "conditions that ...（disability or chronic illness と同格）",
+      "A rather than B"
+     ]
+    },
+    {
+     "id": "r-tr-5",
+     "type": "shortAnswer",
+     "prompt": "最終段落で、トリアージの方針を事前に公の熟議で定めるべきだとされる理由を、2つの観点から日本語で説明しなさい。",
+     "answers": [
+      "患者にとっては、恣意的な判断から守られ、悲劇の重荷がより公平に分配されるから。医師にとっては、本来社会全体が負うべき正義に関わる選択を、その場で一人で背負わされずに済むから。"
+     ],
+     "explanation": "最終段落第2・3文と、第4段落の「正義の問題」を結びつける。",
+     "keyPoints": [
+      "患者の保護：恣意的な決定を防ぐ・重荷を公平に分配",
+      "医師の保護：社会に属する選択を一人で背負わない",
+      "正義の問題は専門家だけのものではない（第4段落）"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-health-definition",
+   "title": "What Does It Mean to Be Healthy?",
+   "level": 7,
+   "topic": "医療・社会",
+   "targetMinutes": 7,
+   "paragraphs": [
+    "When the World Health Organization was founded in 1948, its constitution defined health not merely as the absence of disease but as a state of complete physical, mental, and social well-being. The definition was admirably ambitious. It insisted that medicine should be concerned with the whole person, and it helped to bring mental health and social conditions into discussions that had been dominated by infections and injuries.",
+    "Decades later, however, some physicians and scholars have begun to question whether the definition still serves us well. Their objection centers on the word \"complete.\" In an aging society in which most older adults live with at least one chronic condition, very few people could be described as completely healthy. If health means complete well-being, then most of us are, strictly speaking, unhealthy most of the time.",
+    "This is not merely a matter of words. A definition that makes almost everyone a patient may encourage the medicalization of ordinary life, in which normal variations in mood, energy, or appearance come to be treated as problems requiring intervention. It may also set goals that medicine cannot reach, leaving both patients and doctors with a permanent sense of failure.",
+    "In response, some have proposed defining health as the ability to adapt and to manage one's own life in the face of physical, emotional, and social challenges. On this view, a person with diabetes who controls the condition, works, and maintains close relationships may be considered healthy, even though the disease has not disappeared. Health becomes less a state to be achieved than a capacity to be exercised.",
+    "Critics of this alternative worry that it could be used to justify reducing care: if people are expected to adapt, they might be blamed when they fail to do so, even when the obstacles they face are social rather than personal. Any definition, it seems, carries values as well as facts. The question of what it means to be healthy is therefore not only a scientific one, but also a question about what kind of lives we hope people will be able to live."
+   ],
+   "translation": [
+    "1948年に世界保健機関（WHO）が設立されたとき、その憲章は健康を、単に病気がないことではなく、身体的・精神的・社会的に完全に良好な状態であると定義した。この定義は見事なほど意欲的だった。それは医療が人間全体に関心をもつべきだと主張し、それまで感染症やけがが中心だった議論に、心の健康や社会的条件を持ち込むのに貢献した。",
+    "しかし数十年後、一部の医師や研究者は、この定義が今もなお私たちの役に立っているのかを疑問視し始めている。その異議の中心は「完全な」という語にある。ほとんどの高齢者が少なくとも一つの慢性疾患を抱えて暮らしている高齢化社会では、完全に健康だと言える人はごくわずかであろう。健康が完全に良好な状態を意味するのなら、私たちのほとんどは、厳密に言えば、ほとんどの時間、健康ではないことになる。",
+    "これは単なる言葉の問題ではない。ほとんど誰もが患者になってしまう定義は、日常生活の医療化を促すかもしれない。そこでは、気分や活力や外見の正常な変動が、介入を必要とする問題として扱われるようになる。それはまた医療が到達できない目標を設定し、患者と医師の双方に永続的な挫折感を残すかもしれない。",
+    "これを受けて、健康を、身体的・感情的・社会的な困難に直面しながら適応し、自分の生活を自ら管理する能力として定義しようという提案もなされている。この見方によれば、糖尿病を抱えていても病状をコントロールし、働き、親密な人間関係を保っている人は、病気がなくなっていなくても健康だとみなされうる。健康は、達成されるべき状態というよりも、発揮されるべき能力になるのである。",
+    "この代案を批判する人々は、それがケアを減らすことを正当化するために使われかねないと懸念する。人々が適応することを期待されると、たとえ直面している障害が個人的なものではなく社会的なものであっても、適応できなかったときに責められるかもしれないのだ。どのような定義も、事実だけでなく価値観を伴っているようである。それゆえ、健康であるとはどういうことかという問いは、科学的な問いであるだけでなく、人々がどのような人生を送れるようになってほしいと私たちが願うのかについての問いでもあるのだ。"
+   ],
+   "glossary": [
+    {
+     "term": "constitution",
+     "meaning": "憲章"
+    },
+    {
+     "term": "well-being",
+     "meaning": "良好な状態・幸福"
+    },
+    {
+     "term": "ambitious",
+     "meaning": "意欲的な"
+    },
+    {
+     "term": "chronic condition",
+     "meaning": "慢性疾患"
+    },
+    {
+     "term": "medicalization",
+     "meaning": "医療化"
+    },
+    {
+     "term": "intervention",
+     "meaning": "介入"
+    },
+    {
+     "term": "diabetes",
+     "meaning": "糖尿病"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-hd-1",
+     "type": "choice",
+     "prompt": "What was admirable about the 1948 definition?",
+     "answers": [
+      "It insisted that medicine should consider the whole person."
+     ],
+     "explanation": "第1段落第3文。",
+     "choices": [
+      "It focused only on infections.",
+      "It insisted that medicine should consider the whole person.",
+      "It was easy to achieve.",
+      "It was written by doctors only."
+     ]
+    },
+    {
+     "id": "r-hd-2",
+     "type": "choice",
+     "prompt": "What is the main objection to the 1948 definition?",
+     "answers": [
+      "The word \"complete\" makes almost everyone unhealthy."
+     ],
+     "explanation": "第2段落。",
+     "choices": [
+      "It ignores mental health.",
+      "The word \"complete\" makes almost everyone unhealthy.",
+      "It is too short.",
+      "It does not mention diseases."
+     ]
+    },
+    {
+     "id": "r-hd-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落の糖尿病の例：病気が残っていても健康とみなされうる。",
+     "sentence": "Under the alternative definition, a person with a chronic disease cannot be considered healthy.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-hd-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "健康は、達成されるべき状態というよりも、発揮されるべき能力になる。"
+     ],
+     "explanation": "less A than B と、受動不定詞の対比を正確に訳す。",
+     "sentence": "Health becomes less a state to be achieved than a capacity to be exercised.",
+     "keyPoints": [
+      "less A than B「AというよりむしろB」",
+      "a state to be achieved / a capacity to be exercised（受動の不定詞による修飾）",
+      "exercise「（能力を）発揮する」"
+     ]
+    },
+    {
+     "id": "r-hd-5",
+     "type": "shortAnswer",
+     "prompt": "筆者が最終文で、健康の定義は「科学的な問いであるだけではない」と述べる理由を、本文に即して100字程度の日本語で説明しなさい。",
+     "answers": [
+      "健康の定義は、日常生活の医療化を招いたり、適応できない人を責めてケアを減らす口実になったりと、人々の扱われ方に影響するため、どの定義を選ぶかには、人々にどのような人生を送ってほしいかという価値判断が含まれるから。"
+     ],
+     "explanation": "第3段落と最終段落の懸念を根拠として、Any definition ... carries values as well as facts を説明する。",
+     "keyPoints": [
+      "定義は事実だけでなく価値観を伴う",
+      "旧定義の問題：医療化・挫折感",
+      "新定義の問題：自己責任化・ケアの削減",
+      "どのような人生を望むかという価値の問い"
      ]
     }
    ]
