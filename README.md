@@ -62,6 +62,16 @@ scripts/swiftpm.sh test
 3. `.build/debug/eigo-tool manifest Content` で `manifest.json` を更新する
 4. commit して `main` に push する → 各アプリが自動で取得
 
+## ULSハブ版（Web 版）
+
+ULSハブで動かす Web 版（素の HTML/CSS/JS）が `hub/` にあります。ホーム・英単語/英熟語のカード学習と4択・文法・長文読解を収録（AI添削・模試などは未対応）。学習記録はハブのブリッジ経由で保存し、ブラウザ単体では localStorage に保存します。
+
+```bash
+scripts/build_hub_package.sh            # dist/hub/eigo-master-<build>.zip を作成（build は日付＋連番。引数で指定も可）
+```
+
+zip のサイズと SHA-256 が表示されます。ブラウザで確認するには、zip を展開したフォルダで `python3 -m http.server 8000` を実行し、http://localhost:8000/ を開きます。
+
 ## 構成
 
 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) を参照してください。
