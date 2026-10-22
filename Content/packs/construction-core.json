@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "construction.core",
- "revision": 4,
+ "revision": 5,
  "skill": "construction",
  "title": "英文解釈・構文",
  "description": "文型判定から難関大の下線部和訳まで、精読の技術を段階的に習得",
@@ -941,6 +941,77 @@
       "encourage O to do（無生物主語）",
       "reduce waste「廃棄物を減らす」"
      ]
+    },
+    {
+     "id": "c-an-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼が突然去ったことに皆が驚いた。"
+     ],
+     "explanation": "名詞構文を節に開く。",
+     "sentence": "His sudden departure surprised everyone.",
+     "keyPoints": [
+      "His sudden departure → 「彼が突然去ったこと」",
+      "形容詞 + 名詞 → 副詞 + 動詞"
+     ]
+    },
+    {
+     "id": "c-an-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "ペニシリンが発見されたことで、医学の歴史は変わった。"
+     ],
+     "explanation": "of が「〜を」の関係を表す（目的格）。",
+     "sentence": "The discovery of penicillin changed the history of medicine.",
+     "keyPoints": [
+      "the discovery of penicillin（目的格の of）→「ペニシリンが発見されたこと」",
+      "無生物主語 → 原因として訳す"
+     ]
+    },
+    {
+     "id": "c-an-6",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼女がその問題を注意深く分析したことで、効果的な解決策が見つかった。"
+     ],
+     "explanation": "所有格 = 主語、of = 目的語として開く。",
+     "sentence": "Her careful analysis of the problem led to an effective solution.",
+     "keyPoints": [
+      "Her careful analysis of the problem → 「彼女が問題を注意深く分析したこと」",
+      "lead to 〜「〜につながる」"
+     ]
+    },
+    {
+     "id": "c-an-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "明確な規則がなかったために、職員の間で混乱が生じた。"
+     ],
+     "explanation": "absence は「ないこと」と開いて訳す。",
+     "sentence": "The absence of clear rules caused confusion among the staff.",
+     "keyPoints": [
+      "The absence of 〜 →「〜がないこと」",
+      "無生物主語 → 原因"
+     ]
+    },
+    {
+     "id": "c-an-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "政府がその問題を認めようとしなかったことで、事態はいっそう悪化しただけだった。"
+     ],
+     "explanation": "名詞構文 refusal to acknowledge を節に開く。",
+     "sentence": "The government's refusal to acknowledge the problem only made matters worse.",
+     "keyPoints": [
+      "refusal to do →「〜するのを拒んだこと」",
+      "make matters worse「事態を悪化させる」",
+      "only の訳出"
+     ]
     }
    ]
   },
@@ -1508,6 +1579,63 @@
       "ダッシュ以下 a fact that ... は前の文全体と同格",
       "that surprises は関係代名詞"
      ]
+    },
+    {
+     "id": "c-in-5",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "成功の見込みは、あるとしてもほとんどない。"
+     ],
+     "explanation": "little, if any「あるとしてもほとんどない」。",
+     "sentence": "There is little, if any, chance of success.",
+     "choices": [
+      "成功の見込みはかなりある。",
+      "成功の見込みは、あるとしてもほとんどない。",
+      "成功の見込みはまったくない。",
+      "成功の見込みは少しある。"
+     ]
+    },
+    {
+     "id": "c-in-6",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "私の見る限り、問題は意思疎通の不足にある。"
+     ],
+     "explanation": "骨格は The problem lies in the lack of communication。",
+     "sentence": "The problem, as far as I can see, lies in the lack of communication.",
+     "keyPoints": [
+      "挿入 as far as I can see を外す",
+      "lie in 〜「〜にある」"
+     ]
+    },
+    {
+     "id": "c-in-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼はどちらかと言えば兄（弟）よりも慎重だ。"
+     ],
+     "explanation": "挿入 if anything の意味に注意。",
+     "sentence": "He is, if anything, more careful than his brother.",
+     "keyPoints": [
+      "if anything「どちらかと言えば・むしろ」"
+     ]
+    },
+    {
+     "id": "c-in-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "日本の古都である京都には毎年何百万人もの観光客が訪れ、その数は増え続けている。"
+     ],
+     "explanation": "同格を2か所含む文。",
+     "sentence": "Kyoto, the ancient capital of Japan, attracts millions of tourists every year — a number that continues to grow.",
+     "keyPoints": [
+      "the ancient capital of Japan は Kyoto の同格",
+      "ダッシュ以下 a number that ... は millions of tourists の言い換え"
+     ]
     }
    ]
   },
@@ -1590,6 +1718,66 @@
       "Admittedly（譲歩）→ still（主張）",
       "remain C「Cのままである」",
       "one of the + 最上級 + 複数名詞"
+     ]
+    },
+    {
+     "id": "c-cc-5",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "若いけれども彼は責任感が強い。"
+     ],
+     "explanation": "形容詞 + as + S + V は譲歩。",
+     "sentence": "Young as he is, he is very responsible.",
+     "choices": [
+      "若いので彼は責任感が強い。",
+      "若いけれども彼は責任感が強い。",
+      "彼は若いころ責任感が強かった。",
+      "彼は若くて無責任だ。"
+     ]
+    },
+    {
+     "id": "c-cc-6",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "インターネットは誤情報も広める。"
+     ],
+     "explanation": "Of course 〜. However, … の However 以下が主張。",
+     "sentence": "Of course the internet is useful. However, it also spreads false information.\n筆者が主に伝えたいことは？",
+     "choices": [
+      "インターネットは便利だ。",
+      "インターネットは誤情報も広める。",
+      "インターネットは使うべきでない。",
+      "誤情報は存在しない。"
+     ]
+    },
+    {
+     "id": "c-cc-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "私は彼をとても尊敬しているが、彼の意見には賛成できない。"
+     ],
+     "explanation": "Much as は譲歩。",
+     "sentence": "Much as I respect him, I cannot agree with his opinion.",
+     "keyPoints": [
+      "Much as S V「どれほど〜でも／〜だけれども」"
+     ]
+    },
+    {
+     "id": "c-cc-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その計画に費用がかかることは認めるとしても、それでもなお、それが利用できる最善の選択肢かもしれない。"
+     ],
+     "explanation": "Granted that で譲歩し、主節で主張する。",
+     "sentence": "Granted that the plan is expensive, it may still be the best option available.",
+     "keyPoints": [
+      "Granted that 〜「〜は認めるとしても」",
+      "still「それでもなお」",
+      "the best option available"
      ]
     }
    ]
@@ -1794,6 +1982,65 @@
       "even then not without a long struggle（省略：were they allowed to vote）",
       "not without「〜なしにではない」→「〜を経て」"
      ]
+    },
+    {
+     "id": "c-ns-5",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "健康にはいくら注意してもしすぎることはない。"
+     ],
+     "explanation": "cannot 〜 too …「いくら〜してもしすぎることはない」。",
+     "sentence": "You cannot be too careful with your health.",
+     "choices": [
+      "健康に注意しすぎてはいけない。",
+      "健康にはいくら注意してもしすぎることはない。",
+      "健康に注意することはできない。",
+      "健康にはあまり注意しなくてよい。"
+     ]
+    },
+    {
+     "id": "c-ns-6",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "ドアの所の男はほかならぬ市長だった。"
+     ],
+     "explanation": "none other than 〜「ほかならぬ〜」。",
+     "sentence": "The man at the door was none other than the mayor.",
+     "choices": [
+      "ドアの所の男は市長ではなかった。",
+      "ドアの所の男はほかならぬ市長だった。",
+      "ドアの所には誰もいなかった。",
+      "市長以外の男がドアの所にいた。"
+     ]
+    },
+    {
+     "id": "c-ns-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "明日は雨が降らないと思う。"
+     ],
+     "explanation": "日本語では従属節を否定して訳すと自然。",
+     "sentence": "I don't think it will rain tomorrow.",
+     "keyPoints": [
+      "否定の転移：I don't think 〜 → 「〜ではないと思う」"
+     ]
+    },
+    {
+     "id": "c-ns-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "数えられるものがすべて重要なわけではなく、重要なものがすべて数えられるわけでもない。"
+     ],
+     "explanation": "部分否定と count の多義性に注意。",
+     "sentence": "Not everything that can be counted counts, and not everything that counts can be counted.",
+     "keyPoints": [
+      "Not everything 〜（部分否定）",
+      "count の2つの意味（数える／重要である）"
+     ]
     }
    ]
   },
@@ -1876,6 +2123,66 @@
       "attribute A to B の受動態「AはBに起因する」",
       "not solely「〜だけではない」（部分否定）",
       "play a part「一役買う」"
+     ]
+    },
+    {
+     "id": "c-ce-5",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "彼女の指導力"
+     ],
+     "explanation": "A owe much to B「AはBに負うところが大きい」→ Bが原因。",
+     "sentence": "The success of the project owed much to her leadership.\n原因はどれか。",
+     "choices": [
+      "計画の成功",
+      "彼女の指導力",
+      "両方",
+      "どちらでもない"
+     ]
+    },
+    {
+     "id": "c-ce-6",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "さまざまな健康問題"
+     ],
+     "explanation": "A give rise to B：Aが原因、Bが結果。",
+     "sentence": "Lack of exercise can give rise to various health problems.\n結果はどれか。",
+     "choices": [
+      "運動不足",
+      "さまざまな健康問題",
+      "両方",
+      "どちらでもない"
+     ]
+    },
+    {
+     "id": "c-ce-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "ストライキのため、多くの列車が運休になった。"
+     ],
+     "explanation": "owing to = because of。",
+     "sentence": "Owing to the strike, many trains were canceled.",
+     "keyPoints": [
+      "owing to 〜「〜のために」（原因）"
+     ]
+    },
+    {
+     "id": "c-ce-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "気温の上昇は温室効果ガスの増加と関連づけられてきたが、他の要因も関わっているかもしれない。"
+     ],
+     "explanation": "be linked to は関連を示し、因果を断定していない点に注意。",
+     "sentence": "The rise in temperatures has been linked to the increase in greenhouse gases, although other factors may also be involved.",
+     "keyPoints": [
+      "be linked to 〜「〜と関連づけられる」",
+      "although 以下（譲歩）",
+      "may also be involved（ヘッジ）"
      ]
     }
    ]
