@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "construction.core",
- "revision": 5,
+ "revision": 6,
  "skill": "construction",
  "title": "英文解釈・構文",
  "description": "文型判定から難関大の下線部和訳まで、精読の技術を段階的に習得",
@@ -1076,6 +1076,78 @@
       "wish otherwise「そうでないことを望む」",
       "no single diet suits everyone「すべての人に合う食事法は一つもない」"
      ]
+    },
+    {
+     "id": "c-ls-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "生き残るのは種の中で最も強いものではなく、変化に最もよく反応するものである。"
+     ],
+     "explanation": "強調構文で not A ... but B が分離している。",
+     "sentence": "It is not the strongest of the species that survives, but the one most responsive to change.",
+     "keyPoints": [
+      "強調構文 It is not A but B that 〜（語順に注意：but B が後置）",
+      "the one most responsive to change（形容詞句の後置修飾）"
+     ]
+    },
+    {
+     "id": "c-ls-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "スマートフォンほど深く日常生活を変えた発明は、めったにない。"
+     ],
+     "explanation": "否定的副詞による倒置と比較の省略。",
+     "sentence": "Rarely has a single invention changed daily life as profoundly as the smartphone has.",
+     "keyPoints": [
+      "Rarely 文頭 → 倒置（has a single invention changed）",
+      "as profoundly as the smartphone has (changed daily life)"
+     ]
+    },
+    {
+     "id": "c-ls-6",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "子どもが最も必要としているのは、より多くの物ではなく、自分を愛してくれる人々と過ごすより多くの時間である。"
+     ],
+     "explanation": "名詞節主語 + not A but B。",
+     "sentence": "What children need most is not more things but more time with the people who love them.",
+     "keyPoints": [
+      "What children need most（主語）",
+      "not A but B",
+      "the people who love them"
+     ]
+    },
+    {
+     "id": "c-ls-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "知能は生まれつき決まっているという考えは、今なお広く信じられているものの、脳は生涯を通じて変化しうることを示す研究によって疑問視されてきた。"
+     ],
+     "explanation": "同格・挿入・分詞の後置修飾が重なった文。",
+     "sentence": "The idea that intelligence is fixed at birth, though still widely held, has been challenged by research showing that the brain can change throughout life.",
+     "keyPoints": [
+      "The idea that 〜（同格）",
+      "挿入 though still widely held",
+      "research showing that 〜（現在分詞の後置修飾）"
+     ]
+    },
+    {
+     "id": "c-ls-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "もしボランティアの努力がなかったら、これらの歴史的建造物の多くはずっと前に失われていただろう。"
+     ],
+     "explanation": "条件は現在まで続く状況、主節は過去の結果の混合型。",
+     "sentence": "Were it not for the efforts of volunteers, many of these historic buildings would have been lost long ago.",
+     "keyPoints": [
+      "Were it not for 〜（If it were not for の倒置）",
+      "would have been lost（主節は過去への仮定：混合型）"
+     ]
     }
    ]
   },
@@ -1838,6 +1910,73 @@
       "others (argue) that ...",
       "made us smarter / more easily distracted（SVOC）"
      ]
+    },
+    {
+     "id": "c-el-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "一人で勉強するのを好む生徒もいれば、グループで勉強するのを好む生徒もいる。"
+     ],
+     "explanation": "カンマが省略位置を示す。",
+     "sentence": "Some students prefer to study alone; others, in groups.",
+     "keyPoints": [
+      "others (prefer to study) in groups の省略"
+     ]
+    },
+    {
+     "id": "c-el-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "必要であれば、会議は延期される。"
+     ],
+     "explanation": "副詞節の S + be の省略。",
+     "sentence": "If necessary, the meeting will be postponed.",
+     "keyPoints": [
+      "If (it is) necessary の省略"
+     ]
+    },
+    {
+     "id": "c-el-6",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼は賢明であると同時に親切でもある。",
+      "彼は賢いのと同じくらい親切だ。"
+     ],
+     "explanation": "同一人物の2つの性質を同程度に持つことを表す。",
+     "sentence": "He is as kind as he is wise.",
+     "keyPoints": [
+      "as A as B（同一人物の2つの性質）"
+     ]
+    },
+    {
+     "id": "c-el-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "疲れていたけれども、彼女は真夜中まで働き続けた。"
+     ],
+     "explanation": "譲歩の副詞節の S + be の省略。",
+     "sentence": "Though tired, she kept working until midnight.",
+     "keyPoints": [
+      "Though (she was) tired の省略"
+     ]
+    },
+    {
+     "id": "c-el-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "他の文化について学べば学ぶほど、私たちは自分自身の文化をよりよく理解する。"
+     ],
+     "explanation": "our own の後に culture が省略されている。",
+     "sentence": "The more we learn about other cultures, the better we understand our own.",
+     "keyPoints": [
+      "the 比較級 …, the 比較級 ～",
+      "our own (culture) の省略"
+     ]
     }
    ]
   },
@@ -1900,6 +2039,80 @@
       "be obliged to do「〜せざるをえない」",
       "a question (that) it once had the luxury of ignoring",
       "a life worth prolonging「延ばす価値のある生命」"
+     ]
+    },
+    {
+     "id": "c-at-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "自由とは制約がないことではなく、どの制約を受け入れるかを選べる能力である。"
+     ],
+     "explanation": "名詞構文を開き、not A but B を明確に訳す。",
+     "sentence": "Freedom is not the absence of constraints but the ability to choose which constraints to accept.",
+     "keyPoints": [
+      "not A but B",
+      "the absence of constraints →「制約がないこと」",
+      "which constraints to accept（疑問詞 + to 不定詞）"
+     ]
+    },
+    {
+     "id": "c-at-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "科学者の仕事は、最終的な答えを出すことというよりも、より良い問いを立てることである。"
+     ],
+     "explanation": "less A than B の訳出。",
+     "sentence": "A scientist's job is less to provide final answers than to ask better questions.",
+     "keyPoints": [
+      "less A than B「AというよりむしろB」",
+      "不定詞の名詞的用法"
+     ]
+    },
+    {
+     "id": "c-at-6",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "過去は決して単純に取り戻されるものではなく、常に現在の立場から再構成されるものである。"
+     ],
+     "explanation": "セミコロンの前後で対比。",
+     "sentence": "The past is never simply recovered; it is always reconstructed from the standpoint of the present.",
+     "keyPoints": [
+      "never simply「決して単純に〜ではない」",
+      "reconstructed from the standpoint of the present"
+     ]
+    },
+    {
+     "id": "c-at-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "皮肉なことに、私たちを仕事から解放するはずだったまさにその技術が、仕事をやめることをかつてないほど難しくしてしまった。"
+     ],
+     "explanation": "形式目的語 it と the very の強調に注意。",
+     "sentence": "Ironically, the very technologies that were supposed to free us from work have made it harder than ever to stop working.",
+     "keyPoints": [
+      "the very 〜「まさにその〜」",
+      "were supposed to do「〜するはずだった」",
+      "make it C to do（形式目的語）",
+      "than ever"
+     ]
+    },
+    {
+     "id": "c-at-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "患者を一人の人間としてではなく症状の集まりとして扱うことは、医療が何のためにあるのかを誤解することである。"
+     ],
+     "explanation": "不定詞主語 = 不定詞補語の構文。",
+     "sentence": "To treat a patient as a collection of symptoms rather than as a person is to misunderstand what medicine is for.",
+     "keyPoints": [
+      "To treat 〜 is to misunderstand …「〜することは…することだ」",
+      "A rather than B",
+      "what medicine is for（間接疑問）"
      ]
     }
    ]
@@ -2264,6 +2477,65 @@
       "would be（仮定法過去）",
       "in ways that are difficult to describe"
      ]
+    },
+    {
+     "id": "c-hs-5",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "もう少し時間があれば、試験を終えられたのに。"
+     ],
+     "explanation": "With 〜 が条件（仮定法過去完了）。",
+     "sentence": "With a little more time, I could have finished the test.",
+     "choices": [
+      "少し時間があったので、試験を終えることができた。",
+      "もう少し時間があれば、試験を終えられたのに。",
+      "少しの時間で試験を終えた。",
+      "試験にはもう少し時間がかかるだろう。"
+     ]
+    },
+    {
+     "id": "c-hs-6",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "日本人ならそんなことは言わないだろう。"
+     ],
+     "explanation": "主語に仮定の意味が含まれる。",
+     "sentence": "A Japanese would not say such a thing.",
+     "keyPoints": [
+      "主語に条件（日本人なら）",
+      "would（仮定法）"
+     ]
+    },
+    {
+     "id": "c-hs-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "手伝ってあげたかったのだが、忙しすぎた。",
+      "手伝ってあげられたのだが、あまりに忙しかった。"
+     ],
+     "explanation": "but 以下が現実を述べ、前半が仮定。",
+     "sentence": "I would have helped you, but I was too busy.",
+     "keyPoints": [
+      "would have helped（仮定法過去完了）",
+      "but 以下が事実"
+     ]
+    },
+    {
+     "id": "c-hs-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "抗生物質のない世界では、ちょっとした切り傷が命取りになりうるだろう。"
+     ],
+     "explanation": "副詞句が仮定の条件を表す。",
+     "sentence": "In a world without antibiotics, a simple cut could prove fatal.",
+     "keyPoints": [
+      "In a world without antibiotics（条件）",
+      "could prove fatal（仮定法：〜になりうるだろう）"
+     ]
     }
    ]
   },
@@ -2343,6 +2615,62 @@
       "Few things 〜 more clearly than …「…ほどはっきり〜するものはほとんどない」（最上級相当）",
       "the way it treats 〜「〜の扱い方」",
       "it = a society"
+     ]
+    },
+    {
+     "id": "c-cxr-5",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "彼女は賢いより親切だ（親切さのほうが勝る）。"
+     ],
+     "explanation": "同一人物の性質の比較は more + 原級 + than + 原級「〜というよりむしろ…」。",
+     "sentence": "She is more kind than clever.",
+     "choices": [
+      "彼女は賢いより親切だ（親切さのほうが勝る）。",
+      "彼女は他の人より親切で賢い。",
+      "彼女は親切でも賢くもない。",
+      "彼女は賢くなるほど親切になる。"
+     ]
+    },
+    {
+     "id": "c-cxr-6",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "日本の女性は男性よりも長生きする。"
+     ],
+     "explanation": "than 以下の倒置（文語）。",
+     "sentence": "Women in Japan live longer than do men.",
+     "keyPoints": [
+      "than の後の倒置 do men（= men do）"
+     ]
+    },
+    {
+     "id": "c-cxr-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その本は短いからといって面白さが少しも劣るわけではない。"
+     ],
+     "explanation": "none the less / no less + for 〜 の構文。",
+     "sentence": "The book is no less interesting for being short.",
+     "keyPoints": [
+      "no less + 原級 + for 〜「〜だからといって少しも…でないわけではない」"
+     ]
+    },
+    {
+     "id": "c-cxr-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "わずかな知識に大きな自信が結びついたものほど危険なものはない。"
+     ],
+     "explanation": "否定主語 + 比較級で最上級の意味。",
+     "sentence": "Nothing is more dangerous than a little knowledge combined with great confidence.",
+     "keyPoints": [
+      "Nothing is more A than B（最上級相当）",
+      "combined with 〜（過去分詞の後置修飾）"
      ]
     }
    ]
@@ -2425,6 +2753,64 @@
       "which doors we ought to open = どこまで使うべきかの判断",
       "倫理的な問題"
      ]
+    },
+    {
+     "id": "c-fg-5",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "SNSでは自分と似た意見ばかりが反響し、異なる意見に触れにくい。"
+     ],
+     "explanation": "echo chamber（反響室）＝同じ意見ばかりが返ってくる環境。",
+     "sentence": "Social media can be an echo chamber.\nこの比喩が意味することは？",
+     "choices": [
+      "SNSは音楽を広める。",
+      "SNSでは自分と似た意見ばかりが反響し、異なる意見に触れにくい。",
+      "SNSは静かな場所である。",
+      "SNSは誰にでも開かれている。"
+     ]
+    },
+    {
+     "id": "c-fg-6",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "言語は、それを使う人々とともに成長し変化する生き物である。"
+     ],
+     "explanation": "言語を生き物にたとえた比喩。",
+     "sentence": "Language is a living thing that grows and changes with the people who use it.",
+     "keyPoints": [
+      "比喩 a living thing",
+      "関係詞節 that grows and changes 〜"
+     ]
+    },
+    {
+     "id": "c-fg-7",
+     "type": "shortAnswer",
+     "prompt": "次の英文の比喩が表す内容を、比喩を使わずに日本語で説明しなさい。\nA good teacher is not a fountain of knowledge but a gardener who helps each student grow.",
+     "answers": [
+      "良い教師とは、知識を一方的に与える存在ではなく、生徒一人ひとりが自ら成長するのを支える存在だということ。"
+     ],
+     "explanation": "2つの比喩の対比を、比喩を用いずに説明する。",
+     "keyPoints": [
+      "fountain of knowledge = 知識を一方的に与える存在",
+      "gardener = 成長を支える存在",
+      "not A but B"
+     ]
+    },
+    {
+     "id": "c-fg-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "データは新しい石油である。価値はあるが、それは精製されて初めてのことだ。"
+     ],
+     "explanation": "データを、加工して初めて価値が出る石油にたとえている。",
+     "sentence": "Data are the new oil: valuable, but only once refined.",
+     "keyPoints": [
+      "比喩 the new oil",
+      "only once refined「精製されて初めて」（once = 〜するとすぐ・いったん〜すれば）"
+     ]
     }
    ]
   },
@@ -2487,6 +2873,80 @@
       "Had 〜 been taken（if の省略による倒置・仮定法過去完了）",
       "非制限の which 節 in retrospect seems to have been almost inevitable",
       "might well have been avoided「十分に回避できたかもしれない」"
+     ]
+    },
+    {
+     "id": "c-ls2-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "健康を当たり前と思うのをやめて初めて、私たちはどれほど多くのことが健康にかかっているかを理解し始める。"
+     ],
+     "explanation": "Only + 副詞節が文頭に出た倒置。",
+     "sentence": "Only when we stop taking our health for granted do we begin to appreciate how much depends on it.",
+     "keyPoints": [
+      "Only when 〜 do we begin（倒置）",
+      "take ~ for granted",
+      "how much depends on it（間接疑問）"
+     ]
+    },
+    {
+     "id": "c-ls2-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "地震の威力は非常に大きく、何百キロも離れた建物が損傷を受けた。"
+     ],
+     "explanation": "such 〜 that の倒置形。",
+     "sentence": "Such was the force of the earthquake that buildings hundreds of kilometers away were damaged.",
+     "keyPoints": [
+      "Such was A that 〜（= A was such that 〜 の倒置）",
+      "hundreds of kilometers away が buildings を修飾"
+     ]
+    },
+    {
+     "id": "c-ls2-6",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "実験が失敗したことは、それがなぜ失敗したのかという理由ほどには、研究者たちにとって驚くべきことではなかった。"
+     ],
+     "explanation": "that 節主語と比較の対象（the reason）を正確に捉える。",
+     "sentence": "That the experiment failed was less surprising to the researchers than the reason why it did.",
+     "keyPoints": [
+      "That 節が主語",
+      "less A than B",
+      "did = failed（代動詞）"
+     ]
+    },
+    {
+     "id": "c-ls2-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その問題を解決するのをこれほど難しくしているのは、資源の不足ではなく、どの目標を優先すべきかについての合意の欠如である。"
+     ],
+     "explanation": "主語の what 節内に make O C の構造がある。",
+     "sentence": "What makes the problem so difficult to solve is not a lack of resources but a lack of agreement about which goals should take priority.",
+     "keyPoints": [
+      "What makes the problem so difficult to solve（主語の名詞節・SVOC）",
+      "not A but B",
+      "which goals should take priority（間接疑問）"
+     ]
+    },
+    {
+     "id": "c-ls2-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "医師たちによれば、もし患者の病院への到着があと1時間でも遅かったら、彼女の命を救えた可能性は低かったという。"
+     ],
+     "explanation": "仮定法の倒置と挿入を外して骨格をつかむ。",
+     "sentence": "Had the patient arrived at the hospital even an hour later, the doctors say, it is unlikely that they could have saved her life.",
+     "keyPoints": [
+      "Had 〜 arrived（if の省略による倒置）",
+      "挿入 the doctors say",
+      "it is unlikely that 〜 could have saved"
      ]
     }
    ]
