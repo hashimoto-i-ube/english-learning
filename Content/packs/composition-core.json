@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "composition.core",
- "revision": 3,
+ "revision": 4,
  "skill": "composition",
  "title": "英作文",
  "description": "和文英訳・自由英作文・要約",
@@ -702,6 +702,217 @@
     {
      "en": "The data shows that ~",
      "ja": "データは〜を示している"
+    }
+   ]
+  },
+  {
+   "id": "comp-l4-jaen-2",
+   "kind": "jaToEn",
+   "title": "和文英訳：強調構文と分詞構文",
+   "level": 4,
+   "promptJa": "留学して初めて、私は自分がいかに日本の文化について知らなかったかに気づいた。",
+   "modelAnswers": [
+    "It was not until I studied abroad that I realized how little I knew about Japanese culture.",
+    "Only after I went abroad to study did I realize how little I knew about the culture of Japan."
+   ],
+   "keyPoints": [
+    "「〜して初めて」It was not until ... that ... / Only after ... did I ...",
+    "「いかに知らなかったか」how little I knew（間接疑問）",
+    "時制の一致（knew）",
+    "study abroad（abroad は副詞）"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "It was not until ~ that ...",
+     "ja": "〜して初めて…した"
+    },
+    {
+     "en": "how little S knew",
+     "ja": "Sがいかに知らなかったか"
+    }
+   ]
+  },
+  {
+   "id": "comp-l4-graph-1",
+   "kind": "graph",
+   "title": "図表描写：通学手段の変化",
+   "level": 4,
+   "promptJa": "次の表は、ある町の中学生の通学手段の割合を示している。表から読み取れる変化を説明し、その変化についてのあなたの意見を英語で書きなさい。\n【表】徒歩：2005年 60% → 2025年 40%　／　自転車：2005年 30% → 2025年 25%　／　車での送迎：2005年 10% → 2025年 35%",
+   "conditions": "70〜90語",
+   "minWords": 70,
+   "maxWords": 90,
+   "modelAnswers": [
+    "The table shows how junior high school students in a town got to school in 2005 and 2025. The percentage of students who walked dropped from 60% to 40%, while those driven by car rose sharply from 10% to 35%. Cycling decreased slightly. In my opinion, this change is not desirable. Walking to school is good exercise, and it gives children chances to talk with friends. Parents should drive their children only when it is truly necessary."
+   ],
+   "keyPoints": [
+    "表の内容の要約（何のデータか）",
+    "最も大きな変化（車送迎の増加・徒歩の減少）を数値で示す",
+    "while で対比",
+    "意見を In my opinion で明示し、理由を添える",
+    "語数条件 70〜90 語"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "rise sharply from A to B",
+     "ja": "AからBへ急増する"
+    },
+    {
+     "en": "drop from A to B",
+     "ja": "AからBへ減少する"
+    },
+    {
+     "en": "decrease slightly",
+     "ja": "わずかに減少する"
+    }
+   ]
+  },
+  {
+   "id": "comp-l5-jaen-1",
+   "kind": "jaToEn",
+   "title": "和文英訳：抽象名詞と無生物主語",
+   "level": 5,
+   "promptJa": "便利な道具が増えたことで、私たちは自分で考える機会を失いつつあるのではないだろうか。",
+   "modelAnswers": [
+    "I wonder if the increase in convenient tools is depriving us of opportunities to think for ourselves.",
+    "Isn't it possible that, as convenient devices have become more common, we are losing chances to think on our own?"
+   ],
+   "keyPoints": [
+    "「〜ではないだろうか」I wonder if ... / Isn't it possible that ...?",
+    "無生物主語 the increase in ... deprives us of ...",
+    "「失いつつある」進行形 is depriving / are losing",
+    "think for ourselves / on our own"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "deprive A of B",
+     "ja": "AからBを奪う"
+    },
+    {
+     "en": "think for oneself",
+     "ja": "自分で考える"
+    }
+   ]
+  },
+  {
+   "id": "comp-l5-jaen-2",
+   "kind": "jaToEn",
+   "title": "和文英訳：譲歩と主張",
+   "level": 5,
+   "promptJa": "失敗を恐れる気持ちは誰にでもある。だが、その気持ちに負けて挑戦をやめてしまえば、成長の機会も同時に失うことになる。",
+   "modelAnswers": [
+    "Everyone is afraid of failure to some extent. However, if you give in to that fear and stop trying, you will lose the chance to grow at the same time.",
+    "It is natural for anyone to fear failure, but if we let that fear stop us from taking on challenges, we also lose opportunities to grow."
+   ],
+   "keyPoints": [
+    "「誰にでもある」Everyone ... / It is natural for anyone to ...",
+    "「その気持ちに負けて」give in to that fear / let the fear stop us",
+    "条件 if 節（現在形）",
+    "「同時に失う」lose ... at the same time / also lose"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "give in to ~",
+     "ja": "〜に屈する"
+    },
+    {
+     "en": "take on a challenge",
+     "ja": "挑戦する"
+    },
+    {
+     "en": "to some extent",
+     "ja": "ある程度"
+    }
+   ]
+  },
+  {
+   "id": "comp-l5-free-1",
+   "kind": "free",
+   "title": "自由英作文：18歳からの選挙権",
+   "level": 5,
+   "promptJa": "日本では18歳から選挙で投票できる。若者の投票率を上げるためにはどうすればよいか、あなたの考えを具体的に英語で述べなさい。",
+   "conditions": "100〜120語",
+   "minWords": 100,
+   "maxWords": 120,
+   "modelAnswers": [
+    "I believe that two changes would encourage more young people to vote. First, schools should teach politics in a more practical way. Many students know how elections work but do not understand how political decisions affect their own lives, such as university fees or job opportunities. If they learned about such connections, they would feel that voting matters. Second, voting should be made easier. Allowing people to vote online, for example, would help students who live away from home or who are busy with part-time jobs. Of course, online voting must be secure. However, if these steps were taken, I am sure that young people would participate more actively in elections."
+   ],
+   "keyPoints": [
+    "提案を最初に明示（two changes）",
+    "具体的な提案2つ（教育・投票方法）と効果",
+    "具体例（学費・オンライン投票）",
+    "譲歩（Of course ... However ...）で懸念に対応",
+    "仮定法 would で提案の効果を述べている",
+    "語数条件 100〜120 語"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "encourage O to do",
+     "ja": "Oに〜するよう促す"
+    },
+    {
+     "en": "participate in ~",
+     "ja": "〜に参加する"
+    },
+    {
+     "en": "voter turnout",
+     "ja": "投票率"
+    }
+   ]
+  },
+  {
+   "id": "comp-l6-jaen-1",
+   "kind": "jaToEn",
+   "title": "和文英訳：比較の慣用表現",
+   "level": 6,
+   "promptJa": "大切なのは、どれだけ多くの本を読んだかではなく、一冊の本からどれだけ深く考えたかである。",
+   "modelAnswers": [
+    "What matters is not how many books you have read but how deeply you have thought about each one.",
+    "It is not the number of books you read but the depth of thought you gain from a single book that really counts."
+   ],
+   "keyPoints": [
+    "What matters is not A but B / It is not A but B that counts",
+    "how many books / how deeply（間接疑問の並列）",
+    "「一冊の本から」each one / a single book",
+    "名詞化 the number of ... / the depth of ..."
+   ],
+   "usefulExpressions": [
+    {
+     "en": "What matters is ~",
+     "ja": "大切なのは〜だ"
+    },
+    {
+     "en": "It is A that counts",
+     "ja": "重要なのはAだ"
+    }
+   ]
+  },
+  {
+   "id": "comp-l6-summary-1",
+   "kind": "summary",
+   "title": "要約：テクノロジーと孤独",
+   "level": 6,
+   "promptJa": "次の内容を英語50〜70語で要約しなさい。\n「SNSのおかげで、私たちはかつてないほど多くの人とつながっている。それにもかかわらず、孤独を感じる人は減っていない。その一因は、オンラインでのやりとりが、他人の成功ばかりを目にさせ、自分と比べて落ち込む機会を増やしていることにあると考えられる。大切なのは、つながりの数ではなく、本音を話せる関係の質である。」",
+   "conditions": "50〜70語",
+   "minWords": 50,
+   "maxWords": 70,
+   "modelAnswers": [
+    "Although social media connects us with more people than ever, loneliness has not decreased. One reason may be that online interaction mainly shows us other people's successes, which leads us to compare ourselves with them and feel worse. Therefore, what matters is not how many connections we have but the quality of relationships in which we can speak honestly."
+   ],
+   "keyPoints": [
+    "逆接（つながっているのに孤独は減らない）",
+    "原因（他人の成功を見て比較し落ち込む）",
+    "結論（数ではなく質）",
+    "Although / Therefore による論理の明示",
+    "語数条件 50〜70 語"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "than ever",
+     "ja": "かつてないほど"
+    },
+    {
+     "en": "compare oneself with ~",
+     "ja": "自分を〜と比べる"
     }
    ]
   }
