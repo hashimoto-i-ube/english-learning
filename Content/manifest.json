@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T13:18:38Z",
+  "generatedAt" : "2026-10-22T13:36:09Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -85,8 +85,8 @@
     {
       "file" : "packs/knowledge-core.json",
       "id" : "knowledge.core",
-      "revision" : 1,
-      "sha256" : "95a4d75bf241d89482ea18c63e049d188bebabaf0e1d04be6aaea2dca3ad01d0",
+      "revision" : 2,
+      "sha256" : "62fb505a471ab1aca2b8601301f189cd7a2cdc0196485ae3ef3356e0c58c92ef",
       "skill" : "knowledge",
       "title" : "基礎知識"
     },

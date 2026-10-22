@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "knowledge.core",
- "revision": 1,
+ "revision": 2,
  "skill": "knowledge",
  "title": "基礎知識",
  "description": "発音・アクセント、会話表現、読解・英作文の技術",
@@ -73,6 +73,86 @@
       "visit",
       "answer"
      ]
+    },
+    {
+     "id": "k-ac-4",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "important"
+     ],
+     "explanation": "im-POR-tant（第2音節）。他は第1音節（COM-, IN-, VEG-）。",
+     "sentence": "最も強く発音する位置が第2音節であるものを選びなさい。",
+     "choices": [
+      "comfortable",
+      "interesting",
+      "important",
+      "vegetable"
+     ]
+    },
+    {
+     "id": "k-ac-5",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "Arabic"
+     ],
+     "explanation": "AR-a-bic は例外で第1音節。他は eco-NO-mic, scien-TI-fic, demo-CRA-tic。",
+     "sentence": "「-ic の直前の音節に第1アクセント」という規則に当てはまらない語を選びなさい。",
+     "choices": [
+      "economic",
+      "scientific",
+      "Arabic",
+      "democratic"
+     ]
+    },
+    {
+     "id": "k-ac-6",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "promise"
+     ],
+     "explanation": "promise は名詞・動詞とも PROM-ise。他は名前動後。",
+     "sentence": "名詞と動詞でアクセントの位置が変わらない語を選びなさい。",
+     "choices": [
+      "record",
+      "present",
+      "increase",
+      "promise"
+     ]
+    },
+    {
+     "id": "k-ac-7",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "第3音節 ee"
+     ],
+     "explanation": "-ee で終わる語はその語尾にアクセント（em-ploy-EE）。",
+     "sentence": "employee の第1アクセントの位置を選びなさい。",
+     "choices": [
+      "第1音節 em",
+      "第2音節 ploy",
+      "第3音節 ee",
+      "どこでもよい"
+     ]
+    },
+    {
+     "id": "k-ac-8",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "photographic"
+     ],
+     "explanation": "pho-to-GRAPH-ic（-ic の直前）。photograph は第1、photographer / photography は第2音節。",
+     "sentence": "第3音節に第1アクセントがある語を選びなさい。",
+     "choices": [
+      "photograph",
+      "photographer",
+      "photography",
+      "photographic"
+     ]
     }
    ]
   },
@@ -141,6 +221,86 @@
       "It doesn't matter to me.",
       "I'm afraid so."
      ]
+    },
+    {
+     "id": "k-cv-4",
+     "type": "choice",
+     "prompt": "会話が成り立つように空所に入るものを選びなさい。",
+     "answers": [
+      "Sure, here you are."
+     ],
+     "explanation": "物を手渡すときは Here you are.",
+     "sentence": "A: Can I have a look at your notes?\nB: ___",
+     "choices": [
+      "Sure, here you are.",
+      "Yes, I have.",
+      "No, you can see.",
+      "Here are you."
+     ]
+    },
+    {
+     "id": "k-cv-5",
+     "type": "choice",
+     "prompt": "会話が成り立つように空所に入るものを選びなさい。",
+     "answers": [
+      "That's all right."
+     ],
+     "explanation": "謝罪への応答は That's all right. / No problem.",
+     "sentence": "A: I'm sorry I'm late.\nB: ___ The meeting hasn't started yet.",
+     "choices": [
+      "That's all right.",
+      "You're welcome.",
+      "Me too.",
+      "I hope so."
+     ]
+    },
+    {
+     "id": "k-cv-6",
+     "type": "choice",
+     "prompt": "会話が成り立つように空所に入るものを選びなさい。",
+     "answers": [
+      "Hold on, please."
+     ],
+     "explanation": "電話で「少々お待ちください」は Hold on, please.",
+     "sentence": "A: May I speak to Mr. Sato?\nB: ___ I'll get him.",
+     "choices": [
+      "Hold on, please.",
+      "Speaking of which.",
+      "You're speaking.",
+      "Take care."
+     ]
+    },
+    {
+     "id": "k-cv-7",
+     "type": "choice",
+     "prompt": "会話が成り立つように空所に入るものを選びなさい。",
+     "answers": [
+      "Thank you. They look delicious."
+     ],
+     "explanation": "Help yourself (to 〜) は「ご自由にどうぞ」。お礼で応じる。",
+     "sentence": "A: Help yourself to the cookies.\nB: ___",
+     "choices": [
+      "Thank you. They look delicious.",
+      "Yes, I'll help you.",
+      "No, I'm helping.",
+      "You're welcome."
+     ]
+    },
+    {
+     "id": "k-cv-8",
+     "type": "choice",
+     "prompt": "会話が成り立つように空所に入るものを選びなさい。",
+     "answers": [
+      "I'll take it."
+     ],
+     "explanation": "買い物で「それをください」は I'll take it.",
+     "sentence": "A: How about this blue shirt?\nB: It's nice. ___",
+     "choices": [
+      "I'll take it.",
+      "I'll bring it.",
+      "I take it off.",
+      "I'll have taken."
+     ]
     }
    ]
   },
@@ -206,6 +366,86 @@
       "so",
       "for"
      ]
+    },
+    {
+     "id": "k-dm-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "For example"
+     ],
+     "explanation": "前の一般論（絶滅危惧）の具体例（トキ）。",
+     "sentence": "Many animals in Japan are endangered. ___, the Japanese crested ibis almost disappeared in the wild.",
+     "choices": [
+      "For example",
+      "However",
+      "In contrast",
+      "Nevertheless"
+     ]
+    },
+    {
+     "id": "k-dm-5",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "As a result"
+     ],
+     "explanation": "原因（勉強しない）→ 結果（不合格）。",
+     "sentence": "He did not study at all. ___, he failed the exam.",
+     "choices": [
+      "As a result",
+      "For instance",
+      "On the other hand",
+      "In addition"
+     ]
+    },
+    {
+     "id": "k-dm-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Moreover"
+     ],
+     "explanation": "同じ方向（利点）の追加。",
+     "sentence": "The plan is cheap. ___, it is easy to carry out.",
+     "choices": [
+      "Moreover",
+      "However",
+      "Otherwise",
+      "Instead"
+     ]
+    },
+    {
+     "id": "k-dm-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "that is"
+     ],
+     "explanation": "前の内容の言い換え（that is / in other words）。",
+     "sentence": "She is a vegetarian; ___, she does not eat meat or fish.",
+     "choices": [
+      "that is",
+      "however",
+      "otherwise",
+      "instead"
+     ]
+    },
+    {
+     "id": "k-dm-8",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "(1)"
+     ],
+     "explanation": "(1) が段落全体の主張で、(2)(3) はその具体的な説明。",
+     "sentence": "次の段落の主題文（トピックセンテンス）はどれか。\n(1) Sleep plays a key role in learning. (2) During sleep, the brain organizes new information. (3) Students who sleep well also tend to concentrate better in class.",
+     "choices": [
+      "(1)",
+      "(2)",
+      "(3)",
+      "どれでもない"
+     ]
     }
    ]
   },
@@ -256,6 +496,102 @@
      "keyPoints": [
       "For these reasons（結論の定型）",
       "study abroad（abroad は副詞：×study in abroad）"
+     ]
+    },
+    {
+     "id": "k-es-3",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "I believe that high school students should have part-time jobs."
+     ],
+     "explanation": "最初の文で設問に対する立場を明確に示す。",
+     "sentence": "テーマ「高校生はアルバイトをすべきか」に対する最初の文として最も適切なものを選びなさい。",
+     "choices": [
+      "Part-time jobs are things that many people do.",
+      "I believe that high school students should have part-time jobs.",
+      "My friend has a part-time job at a convenience store.",
+      "There are many kinds of jobs in the world."
+     ]
+    },
+    {
+     "id": "k-es-4",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "For these reasons, I believe that high school students should take part in volunteer work."
+     ],
+     "explanation": "結論は For these reasons などで主張を言い換えて締めくくる。",
+     "sentence": "結論の文として最も適切なものを選びなさい。（主張：高校生はボランティア活動をすべきだ）",
+     "choices": [
+      "For these reasons, I believe that high school students should take part in volunteer work.",
+      "Volunteer work is sometimes hard.",
+      "My brother did volunteer work last year.",
+      "Some people do not like volunteer work."
+     ]
+    },
+    {
+     "id": "k-es-5",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "Everyone in the world hates homework."
+     ],
+     "explanation": "Everyone / always / never などの断定は反例が容易で、論理的な弱点になる。",
+     "sentence": "自由英作文で避けるべき「過度な一般化」の文を選びなさい。",
+     "choices": [
+      "Many students find it hard to wake up early.",
+      "Smartphones can be useful for studying.",
+      "Everyone in the world hates homework.",
+      "Some people prefer to study at night."
+     ]
+    },
+    {
+     "id": "k-es-6",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "As a result,"
+     ],
+     "explanation": "As a result は結果を表す。譲歩には It is true that / Admittedly などを使う。",
+     "sentence": "反対意見に触れる（譲歩する）表現として不適切なものを選びなさい。",
+     "choices": [
+      "Some people may argue that",
+      "It is true that",
+      "Admittedly,",
+      "As a result,"
+     ]
+    },
+    {
+     "id": "k-es-7",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「第一に、オンライン授業によって生徒は通学時間を節約できる。」",
+     "answers": [
+      "First, online classes allow students to save commuting time.",
+      "First, online classes enable students to save the time they spend commuting.",
+      "First, students can save commuting time thanks to online classes."
+     ],
+     "explanation": "理由を述べる文の典型的な形。",
+     "keyPoints": [
+      "First,（理由の導入）",
+      "無生物主語 allow / enable O to do",
+      "commuting time「通学時間」"
+     ]
+    },
+    {
+     "id": "k-es-8",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「確かにスマートフォンは便利だが、使いすぎると睡眠に悪影響を与えうる。」",
+     "answers": [
+      "It is true that smartphones are convenient, but using them too much can have a bad effect on sleep.",
+      "Admittedly, smartphones are convenient. However, overusing them can harm our sleep.",
+      "Smartphones are certainly convenient, but using them too much can affect our sleep negatively."
+     ],
+     "explanation": "譲歩 → 主張の型。",
+     "keyPoints": [
+      "譲歩 It is true that 〜, but … / Admittedly, 〜. However, …",
+      "動名詞主語 using them too much",
+      "have a bad effect on 〜"
      ]
     }
    ]
