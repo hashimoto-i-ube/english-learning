@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T13:05:46Z",
+  "generatedAt" : "2026-10-22T13:07:27Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -41,6 +41,22 @@
       "sha256" : "e2b93c37c87a2d526820f70c973be96f3c2ca7216ace9f5a7c9f30e21973b4ed",
       "skill" : "vocabulary",
       "title" : "Lv2 熟語・イディオム"
+    },
+    {
+      "file" : "packs/idioms-l3.json",
+      "id" : "idioms.l3",
+      "revision" : 1,
+      "sha256" : "94bae7b98a6e0bbb2a115001f165e2f2e2804e1dcac7f16ff2af757d95826adc",
+      "skill" : "vocabulary",
+      "title" : "Lv3 熟語・イディオム"
+    },
+    {
+      "file" : "packs/idioms-l4.json",
+      "id" : "idioms.l4",
+      "revision" : 1,
+      "sha256" : "d7f46b4fa85e961f887a158b2a4c83fad3cef78b7016ec46b4645d44b746a1f1",
+      "skill" : "vocabulary",
+      "title" : "Lv4 熟語・イディオム"
     },
     {
       "file" : "packs/knowledge-core.json",

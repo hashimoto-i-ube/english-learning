@@ -1,0 +1,899 @@
+{
+ "schemaVersion": 1,
+ "id": "idioms.l4",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv4 熟語・イディオム",
+ "description": "入試頻出の熟語・句動詞・慣用表現（オリジナル例文付き）",
+ "words": [
+  {
+   "id": "i-abide-by",
+   "headword": "abide by",
+   "pos": "熟",
+   "meanings": [
+    "（規則などに）従う"
+   ],
+   "level": 4,
+   "example": {
+    "en": "All members must abide by the rules.",
+    "ja": "すべての会員は規則に従わなければならない。"
+   },
+   "note": "= obey / comply with",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-allow-for",
+   "headword": "allow for",
+   "pos": "熟",
+   "meanings": [
+    "〜を考慮に入れる"
+   ],
+   "level": 4,
+   "example": {
+    "en": "We should allow for delays.",
+    "ja": "遅れを考慮に入れておくべきだ。"
+   },
+   "note": "= take ~ into account",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-attend-to",
+   "headword": "attend to",
+   "pos": "熟",
+   "meanings": [
+    "〜に対処する",
+    "〜に注意を払う"
+   ],
+   "level": 4,
+   "example": {
+    "en": "I have some business to attend to.",
+    "ja": "片付けなければならない用事がある。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-back-up",
+   "headword": "back up",
+   "pos": "熟",
+   "meanings": [
+    "支持する",
+    "（データを）バックアップする"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Can you back up your claim with evidence?",
+    "ja": "あなたの主張を証拠で裏付けられますか。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-boil-down-to",
+   "headword": "boil down to",
+   "pos": "熟",
+   "meanings": [
+    "結局〜ということになる"
+   ],
+   "level": 4,
+   "example": {
+    "en": "The problem boils down to a lack of money.",
+    "ja": "問題は結局のところ資金不足に行き着く。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-brush-up-on",
+   "headword": "brush up on",
+   "pos": "熟",
+   "meanings": [
+    "（知識・技術を）磨き直す"
+   ],
+   "level": 4,
+   "example": {
+    "en": "I need to brush up on my English before the trip.",
+    "ja": "旅行の前に英語を磨き直す必要がある。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-clear-up",
+   "headword": "clear up",
+   "pos": "熟",
+   "meanings": [
+    "晴れる",
+    "解決する",
+    "片付ける"
+   ],
+   "level": 4,
+   "example": {
+    "en": "The sky cleared up in the afternoon.",
+    "ja": "午後には空が晴れ上がった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-come-down-with",
+   "headword": "come down with",
+   "pos": "熟",
+   "meanings": [
+    "（病気に）かかる"
+   ],
+   "level": 4,
+   "example": {
+    "en": "She came down with the flu.",
+    "ja": "彼女はインフルエンザにかかった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-come-to-terms-with",
+   "headword": "come to terms with",
+   "pos": "熟",
+   "meanings": [
+    "〜を受け入れる",
+    "〜と折り合いをつける"
+   ],
+   "level": 4,
+   "example": {
+    "en": "He finally came to terms with his father's death.",
+    "ja": "彼はついに父の死を受け入れた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-cut-down-on",
+   "headword": "cut down on",
+   "pos": "熟",
+   "meanings": [
+    "〜を減らす"
+   ],
+   "level": 4,
+   "example": {
+    "en": "You should cut down on sugar.",
+    "ja": "砂糖を控えたほうがいい。"
+   },
+   "note": "= reduce",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-do-away-with",
+   "headword": "do away with",
+   "pos": "熟",
+   "meanings": [
+    "〜を廃止する"
+   ],
+   "level": 4,
+   "example": {
+    "en": "The school did away with uniforms.",
+    "ja": "その学校は制服を廃止した。"
+   },
+   "note": "= abolish",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-draw-on",
+   "headword": "draw on",
+   "pos": "熟",
+   "meanings": [
+    "〜を利用する",
+    "〜に頼る"
+   ],
+   "level": 4,
+   "example": {
+    "en": "The writer drew on her own experience.",
+    "ja": "その作家は自身の経験を題材にした。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-fill-in-for",
+   "headword": "fill in for",
+   "pos": "熟",
+   "meanings": [
+    "〜の代理を務める"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Could you fill in for me tomorrow?",
+    "ja": "明日、私の代わりを務めてもらえますか。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-give-off",
+   "headword": "give off",
+   "pos": "熟",
+   "meanings": [
+    "（光・においなどを）発する"
+   ],
+   "level": 4,
+   "example": {
+    "en": "The flowers give off a sweet smell.",
+    "ja": "その花は甘い香りを放つ。"
+   },
+   "note": "= emit",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-give-way-to",
+   "headword": "give way to",
+   "pos": "熟",
+   "meanings": [
+    "〜に取って代わられる",
+    "〜に屈する"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Old traditions gave way to new customs.",
+    "ja": "古い伝統は新しい慣習に取って代わられた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-go-over",
+   "headword": "go over",
+   "pos": "熟",
+   "meanings": [
+    "〜を見直す",
+    "調べる"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Let's go over the main points again.",
+    "ja": "要点をもう一度見直そう。"
+   },
+   "note": "= review",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-hit-on",
+   "headword": "hit on",
+   "pos": "熟",
+   "meanings": [
+    "（考えを）ふと思いつく"
+   ],
+   "level": 4,
+   "example": {
+    "en": "She hit on a brilliant idea.",
+    "ja": "彼女はすばらしい考えを思いついた。"
+   },
+   "note": "= come up with",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-hold-back",
+   "headword": "hold back",
+   "pos": "熟",
+   "meanings": [
+    "抑える",
+    "ためらう"
+   ],
+   "level": 4,
+   "example": {
+    "en": "She held back her tears.",
+    "ja": "彼女は涙をこらえた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-keep-from-doing",
+   "headword": "keep ~ from doing",
+   "pos": "熟",
+   "meanings": [
+    "〜が…するのを妨げる"
+   ],
+   "level": 4,
+   "example": {
+    "en": "The noise kept me from sleeping.",
+    "ja": "騒音で眠れなかった。"
+   },
+   "note": "= prevent ~ from doing",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-live-on",
+   "headword": "live on",
+   "pos": "熟",
+   "meanings": [
+    "〜を主食にする",
+    "〜で生計を立てる"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Many students live on a small income.",
+    "ja": "多くの学生はわずかな収入で暮らしている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-look-on-a-as-b",
+   "headword": "look on A as B",
+   "pos": "熟",
+   "meanings": [
+    "AをBとみなす"
+   ],
+   "level": 4,
+   "example": {
+    "en": "They look on him as a hero.",
+    "ja": "彼らは彼を英雄とみなしている。"
+   },
+   "note": "= regard A as B / see A as B",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-make-do-with",
+   "headword": "make do with",
+   "pos": "熟",
+   "meanings": [
+    "〜で間に合わせる"
+   ],
+   "level": 4,
+   "example": {
+    "en": "We had to make do with what we had.",
+    "ja": "手持ちのもので間に合わせなければならなかった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-make-for",
+   "headword": "make for",
+   "pos": "熟",
+   "meanings": [
+    "〜に向かう",
+    "〜に役立つ"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Good communication makes for a happy family.",
+    "ja": "良い意思疎通は家族の幸せにつながる。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-make-light-of",
+   "headword": "make light of",
+   "pos": "熟",
+   "meanings": [
+    "〜を軽んじる"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Don't make light of the danger.",
+    "ja": "危険を軽く見てはいけない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-pass-on",
+   "headword": "pass on",
+   "pos": "熟",
+   "meanings": [
+    "伝える",
+    "次に回す"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Please pass on this message to her.",
+    "ja": "この伝言を彼女に伝えてください。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-pull-through",
+   "headword": "pull through",
+   "pos": "熟",
+   "meanings": [
+    "（病気・困難を）切り抜ける"
+   ],
+   "level": 4,
+   "example": {
+    "en": "The doctors think he will pull through.",
+    "ja": "医師たちは彼が持ち直すと考えている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-put-forward",
+   "headword": "put forward",
+   "pos": "熟",
+   "meanings": [
+    "（意見などを）提出する"
+   ],
+   "level": 4,
+   "example": {
+    "en": "She put forward a new proposal.",
+    "ja": "彼女は新しい提案を出した。"
+   },
+   "note": "= propose",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-put-aside",
+   "headword": "put aside",
+   "pos": "熟",
+   "meanings": [
+    "取っておく",
+    "脇に置く"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Let's put aside our differences.",
+    "ja": "意見の違いはひとまず置いておこう。"
+   },
+   "note": "= set aside",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-rule-out",
+   "headword": "rule out",
+   "pos": "熟",
+   "meanings": [
+    "除外する",
+    "排除する"
+   ],
+   "level": 4,
+   "example": {
+    "en": "The police have not ruled out murder.",
+    "ja": "警察は殺人の可能性を排除していない。"
+   },
+   "note": "= exclude",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-see-to-it-that",
+   "headword": "see to it that",
+   "pos": "熟",
+   "meanings": [
+    "〜するように取り計らう"
+   ],
+   "level": 4,
+   "example": {
+    "en": "See to it that the door is locked.",
+    "ja": "必ずドアに鍵がかかっているようにしなさい。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-set-about",
+   "headword": "set about",
+   "pos": "熟",
+   "meanings": [
+    "〜に取りかかる"
+   ],
+   "level": 4,
+   "example": {
+    "en": "She set about cleaning the room.",
+    "ja": "彼女は部屋の掃除に取りかかった。"
+   },
+   "note": "set about doing",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-side-with",
+   "headword": "side with",
+   "pos": "熟",
+   "meanings": [
+    "〜の味方をする"
+   ],
+   "level": 4,
+   "example": {
+    "en": "My mother always sides with my sister.",
+    "ja": "母はいつも妹の味方をする。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-sort-out",
+   "headword": "sort out",
+   "pos": "熟",
+   "meanings": [
+    "整理する",
+    "解決する"
+   ],
+   "level": 4,
+   "example": {
+    "en": "We need to sort out this problem.",
+    "ja": "この問題を解決する必要がある。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-speak-ill-of",
+   "headword": "speak ill of",
+   "pos": "熟",
+   "meanings": [
+    "〜の悪口を言う"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Don't speak ill of others.",
+    "ja": "他人の悪口を言うな。"
+   },
+   "note": "反対は speak well of。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-take-on",
+   "headword": "take on",
+   "pos": "熟",
+   "meanings": [
+    "引き受ける",
+    "（性質を）帯びる"
+   ],
+   "level": 4,
+   "example": {
+    "en": "She took on too much work.",
+    "ja": "彼女は仕事を引き受けすぎた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-take-to",
+   "headword": "take to",
+   "pos": "熟",
+   "meanings": [
+    "〜が好きになる",
+    "〜を習慣にする"
+   ],
+   "level": 4,
+   "example": {
+    "en": "He took to his new teacher at once.",
+    "ja": "彼はすぐに新しい先生を好きになった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-tell-a-from-b",
+   "headword": "tell A from B",
+   "pos": "熟",
+   "meanings": [
+    "AとBを見分ける"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Can you tell a crocodile from an alligator?",
+    "ja": "クロコダイルとアリゲーターを見分けられますか。"
+   },
+   "note": "= distinguish A from B",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-think-over",
+   "headword": "think over",
+   "pos": "熟",
+   "meanings": [
+    "よく考える"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Let me think it over.",
+    "ja": "よく考えさせてください。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-turn-to",
+   "headword": "turn to",
+   "pos": "熟",
+   "meanings": [
+    "〜に頼る",
+    "〜に取りかかる"
+   ],
+   "level": 4,
+   "example": {
+    "en": "She turned to her friends for help.",
+    "ja": "彼女は友人たちに助けを求めた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-wear-off",
+   "headword": "wear off",
+   "pos": "熟",
+   "meanings": [
+    "（効果などが）徐々に消える"
+   ],
+   "level": 4,
+   "example": {
+    "en": "The effect of the medicine wore off.",
+    "ja": "薬の効き目が切れた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-be-bound-for",
+   "headword": "be bound for",
+   "pos": "熟",
+   "meanings": [
+    "〜行きの"
+   ],
+   "level": 4,
+   "example": {
+    "en": "This train is bound for Tokyo.",
+    "ja": "この電車は東京行きだ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-at-stake",
+   "headword": "at stake",
+   "pos": "熟",
+   "meanings": [
+    "危機に瀕して",
+    "かかって"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Thousands of jobs are at stake.",
+    "ja": "何千もの雇用が危機に瀕している。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-at-the-mercy-of",
+   "headword": "at the mercy of",
+   "pos": "熟",
+   "meanings": [
+    "〜のなすがままに"
+   ],
+   "level": 4,
+   "example": {
+    "en": "The boat was at the mercy of the waves.",
+    "ja": "ボートは波のなすがままだった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-by-and-large",
+   "headword": "by and large",
+   "pos": "熟",
+   "meanings": [
+    "概して"
+   ],
+   "level": 4,
+   "example": {
+    "en": "By and large, the plan worked well.",
+    "ja": "概してその計画はうまくいった。"
+   },
+   "note": "= on the whole / generally",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-for-the-time-being",
+   "headword": "for the time being",
+   "pos": "熟",
+   "meanings": [
+    "当分の間"
+   ],
+   "level": 4,
+   "example": {
+    "en": "I'll stay here for the time being.",
+    "ja": "当分の間ここに滞在します。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-the-long-run",
+   "headword": "in the long run",
+   "pos": "熟",
+   "meanings": [
+    "長い目で見れば"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Exercise will pay off in the long run.",
+    "ja": "長い目で見れば運動は報われる。"
+   },
+   "note": "反対は in the short run。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-vain",
+   "headword": "in vain",
+   "pos": "熟",
+   "meanings": [
+    "無駄に"
+   ],
+   "level": 4,
+   "example": {
+    "en": "They tried in vain to save him.",
+    "ja": "彼らは彼を救おうとしたが無駄だった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-the-verge-of",
+   "headword": "on the verge of",
+   "pos": "熟",
+   "meanings": [
+    "今にも〜しそうで"
+   ],
+   "level": 4,
+   "example": {
+    "en": "She was on the verge of tears.",
+    "ja": "彼女は今にも泣き出しそうだった。"
+   },
+   "note": "= on the brink of",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-out-of-the-question",
+   "headword": "out of the question",
+   "pos": "熟",
+   "meanings": [
+    "論外で",
+    "不可能で"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Going out in this storm is out of the question.",
+    "ja": "この嵐の中を出かけるなんて論外だ。"
+   },
+   "note": "out of question（疑いなく）と区別。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-under-way",
+   "headword": "under way",
+   "pos": "熟",
+   "meanings": [
+    "進行中で"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Preparations are well under way.",
+    "ja": "準備は着々と進んでいる。"
+   },
+   "note": "= in progress",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-with-regard-to",
+   "headword": "with regard to",
+   "pos": "熟",
+   "meanings": [
+    "〜に関して"
+   ],
+   "level": 4,
+   "example": {
+    "en": "With regard to your question, I'll answer later.",
+    "ja": "ご質問に関しては後でお答えします。"
+   },
+   "note": "= regarding / as regards / concerning",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-lose-sight-of",
+   "headword": "lose sight of",
+   "pos": "熟",
+   "meanings": [
+    "〜を見失う"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Don't lose sight of your goal.",
+    "ja": "目標を見失うな。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-make-the-most-of",
+   "headword": "make the most of",
+   "pos": "熟",
+   "meanings": [
+    "〜を最大限に活用する"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Make the most of your time at university.",
+    "ja": "大学での時間を最大限に生かしなさい。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  }
+ ]
+}
