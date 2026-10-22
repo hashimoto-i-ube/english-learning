@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "reading.core",
- "revision": 1,
+ "revision": 2,
  "skill": "reading",
  "title": "長文読解",
  "description": "オリジナル英文（全訳・語注・設問付き）。共通テストから難関大・医学部レベルまで",
@@ -726,6 +726,914 @@
       "ケア＝医師の言葉・話を聞く時間・患者の信頼",
       "オープンラベル研究：欺瞞なしでも効果",
       "癒やしは純粋に化学の問題ではない"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-letter-canada",
+   "title": "A Letter from Canada",
+   "level": 1,
+   "topic": "留学・異文化",
+   "targetMinutes": 2,
+   "paragraphs": [
+    "Dear Mom and Dad,\nI have been in Vancouver for two weeks now, and I am enjoying my homestay very much. My host family, the Browns, are very kind. They have two children, Emma and Jack, and a big dog named Max.",
+    "At first, I was surprised by some differences. For example, the Browns eat dinner at around six, which is earlier than we do in Japan. Also, people here often say \"thank you\" to bus drivers when they get off the bus. I think that is a nice custom.",
+    "My English is getting better, but sometimes I still can't understand people when they speak fast. Emma helps me every evening. In return, I am teaching her how to write her name in Japanese.",
+    "Next weekend, we are going to visit a national park. I will send you some pictures.\nLove,\nYuki"
+   ],
+   "translation": [
+    "お父さん、お母さんへ\nバンクーバーに来て2週間になり、ホームステイをとても楽しんでいます。ホストファミリーのブラウン家の人たちはとても親切です。エマとジャックという2人の子どもと、マックスという名前の大きな犬がいます。",
+    "最初はいくつかの違いに驚きました。たとえば、ブラウン家は6時ごろに夕食を食べますが、これは日本の私たちより早いです。また、ここの人たちはバスを降りるときによく運転手に「ありがとう」と言います。すてきな習慣だと思います。",
+    "英語は上達してきていますが、速く話されるとまだ理解できないことがあります。エマが毎晩手伝ってくれます。そのお礼に、私は彼女に自分の名前を日本語で書く方法を教えています。",
+    "来週末は国立公園に行く予定です。写真を送りますね。\n愛を込めて\nユキ"
+   ],
+   "glossary": [
+    {
+     "term": "host family",
+     "meaning": "ホストファミリー"
+    },
+    {
+     "term": "custom",
+     "meaning": "習慣"
+    },
+    {
+     "term": "in return",
+     "meaning": "お返しに"
+    },
+    {
+     "term": "national park",
+     "meaning": "国立公園"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-lc-1",
+     "type": "choice",
+     "prompt": "How long has Yuki been in Vancouver?",
+     "answers": [
+      "Two weeks"
+     ],
+     "explanation": "第1段落 I have been in Vancouver for two weeks now。",
+     "choices": [
+      "One week",
+      "Two weeks",
+      "One month",
+      "Two months"
+     ]
+    },
+    {
+     "id": "r-lc-2",
+     "type": "choice",
+     "prompt": "What surprised Yuki?",
+     "answers": [
+      "People thank bus drivers."
+     ],
+     "explanation": "第2段落 people here often say \"thank you\" to bus drivers。",
+     "choices": [
+      "The Browns have a dog.",
+      "People thank bus drivers.",
+      "Emma speaks Japanese.",
+      "The weather is cold."
+     ]
+    },
+    {
+     "id": "r-lc-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "True"
+     ],
+     "explanation": "第3段落最終文に一致。",
+     "sentence": "Yuki teaches Emma how to write her name in Japanese.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-lc-4",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第3段落 sometimes I still can't understand people when they speak fast。",
+     "sentence": "Yuki can understand everything people say in English.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-why-sleep",
+   "title": "Why Do We Need Sleep?",
+   "level": 1,
+   "topic": "健康・生活",
+   "targetMinutes": 2,
+   "paragraphs": [
+    "We spend about one third of our lives sleeping. That may sound like a waste of time, but sleep is very important for both our bodies and our minds.",
+    "While we sleep, our bodies repair themselves. Our muscles grow, and our immune system becomes stronger. That is why we often feel better after a good night's sleep when we are sick.",
+    "Sleep is also important for learning. During sleep, the brain organizes the things we learned during the day. Students who sleep well usually remember more than students who stay up late.",
+    "Doctors say that teenagers need about eight to ten hours of sleep every night. However, many students sleep much less because they use their smartphones in bed. If you want to study well, try putting your phone away an hour before bedtime."
+   ],
+   "translation": [
+    "私たちは人生の約3分の1を眠って過ごす。それは時間の無駄のように聞こえるかもしれないが、睡眠は体と心の両方にとってとても大切だ。",
+    "眠っている間、私たちの体は自らを修復する。筋肉が成長し、免疫系が強くなる。だから病気のときに一晩よく眠ると、気分が良くなることが多いのだ。",
+    "睡眠は学習にとっても大切だ。睡眠中、脳はその日に学んだことを整理する。よく眠る生徒は、たいてい夜更かしする生徒より多くのことを覚えている。",
+    "医師によれば、10代の若者は毎晩約8〜10時間の睡眠が必要だという。しかし、多くの生徒はベッドでスマートフォンを使うため、睡眠時間がそれよりずっと短い。しっかり勉強したいなら、寝る1時間前にはスマートフォンを片づけるようにしてみよう。"
+   ],
+   "glossary": [
+    {
+     "term": "one third",
+     "meaning": "3分の1"
+    },
+    {
+     "term": "repair",
+     "meaning": "修復する"
+    },
+    {
+     "term": "immune system",
+     "meaning": "免疫系"
+    },
+    {
+     "term": "stay up late",
+     "meaning": "夜更かしする"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-ws-1",
+     "type": "choice",
+     "prompt": "How much of our lives do we spend sleeping?",
+     "answers": [
+      "About one third"
+     ],
+     "explanation": "第1段落第1文。",
+     "choices": [
+      "About one half",
+      "About one third",
+      "About one quarter",
+      "About one tenth"
+     ]
+    },
+    {
+     "id": "r-ws-2",
+     "type": "choice",
+     "prompt": "What happens to the brain during sleep?",
+     "answers": [
+      "It organizes what we learned."
+     ],
+     "explanation": "第3段落第2文。",
+     "choices": [
+      "It stops working.",
+      "It organizes what we learned.",
+      "It forgets everything.",
+      "It grows bigger."
+     ]
+    },
+    {
+     "id": "r-ws-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落 about eight to ten hours。",
+     "sentence": "Teenagers need about six hours of sleep every night.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-ws-4",
+     "type": "choice",
+     "prompt": "What does the writer suggest?",
+     "answers": [
+      "Putting your phone away before bed"
+     ],
+     "explanation": "最終文の提案。",
+     "choices": [
+      "Studying late at night",
+      "Putting your phone away before bed",
+      "Sleeping less than eight hours",
+      "Using your phone in bed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-ocean-plastic",
+   "title": "Plastic in the Ocean",
+   "level": 2,
+   "topic": "環境",
+   "targetMinutes": 3,
+   "paragraphs": [
+    "Plastic is cheap, light, and strong, so it is used everywhere. However, these same qualities make it a serious problem for the environment. Every year, millions of tons of plastic waste end up in the ocean.",
+    "Much of this plastic comes from the land. Bags, bottles, and packaging that are not properly thrown away are carried by wind and rivers into the sea. Once there, plastic does not disappear. Instead, sunlight and waves slowly break it into tiny pieces called microplastics.",
+    "These pieces cause many problems. Sea animals such as turtles and birds often mistake plastic for food. Eating it can make them sick or even kill them. Microplastics have also been found in fish and shellfish, which means they may enter our own bodies through the food we eat.",
+    "What can we do? Some countries have banned free plastic bags, and many companies are developing packaging made from plants. As individuals, we can carry our own bags and bottles and make sure that our waste is recycled. Small actions, repeated by millions of people, can make a big difference."
+   ],
+   "translation": [
+    "プラスチックは安く、軽く、丈夫なので、あらゆる所で使われている。しかし、まさにこうした性質が、プラスチックを環境にとって深刻な問題にしている。毎年、何百万トンものプラスチックごみが海に行き着いている。",
+    "このプラスチックの多くは陸から来る。適切に捨てられなかった袋やボトル、包装は、風や川によって海へ運ばれる。いったん海に入ると、プラスチックは消えない。代わりに、日光と波がそれをゆっくりとマイクロプラスチックと呼ばれる小さなかけらに砕いていく。",
+    "これらのかけらは多くの問題を引き起こす。カメや鳥のような海の動物は、しばしばプラスチックを食べ物と間違える。それを食べると病気になったり、死んでしまったりすることさえある。マイクロプラスチックは魚や貝からも見つかっており、それは私たちが食べる物を通して私たち自身の体に入るかもしれないということを意味する。",
+    "私たちに何ができるだろうか。無料のレジ袋を禁止した国もあり、多くの企業が植物から作られた包装を開発している。個人としては、自分の袋やボトルを持ち歩き、ごみが確実にリサイクルされるようにすることができる。何百万もの人々が繰り返す小さな行動が、大きな違いを生むのだ。"
+   ],
+   "glossary": [
+    {
+     "term": "packaging",
+     "meaning": "包装"
+    },
+    {
+     "term": "properly",
+     "meaning": "適切に"
+    },
+    {
+     "term": "microplastics",
+     "meaning": "マイクロプラスチック（微小なプラスチック片）"
+    },
+    {
+     "term": "shellfish",
+     "meaning": "貝類"
+    },
+    {
+     "term": "ban",
+     "meaning": "禁止する"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-op-1",
+     "type": "choice",
+     "prompt": "Why is plastic used everywhere?",
+     "answers": [
+      "Because it is cheap, light, and strong."
+     ],
+     "explanation": "第1段落第1文。",
+     "choices": [
+      "Because it disappears quickly.",
+      "Because it is cheap, light, and strong.",
+      "Because it is made from plants.",
+      "Because it is good for the ocean."
+     ]
+    },
+    {
+     "id": "r-op-2",
+     "type": "choice",
+     "prompt": "How does plastic become microplastics?",
+     "answers": [
+      "Sunlight and waves break it."
+     ],
+     "explanation": "第2段落最終文。",
+     "choices": [
+      "Animals eat it.",
+      "People cut it.",
+      "Sunlight and waves break it.",
+      "It melts in rivers."
+     ]
+    },
+    {
+     "id": "r-op-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "True"
+     ],
+     "explanation": "第3段落最終文に一致。",
+     "sentence": "Microplastics may enter human bodies through food.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-op-4",
+     "type": "shortAnswer",
+     "prompt": "最終段落で筆者が個人にできることとして挙げているものを2つ、日本語で答えなさい。",
+     "answers": [
+      "自分の袋やボトルを持ち歩くこと。ごみが確実にリサイクルされるようにすること。"
+     ],
+     "explanation": "As individuals, we can ... 以下。",
+     "keyPoints": [
+      "自分の袋・ボトルを持ち歩く",
+      "ごみのリサイクルを徹底する"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-motivation",
+   "title": "Where Does Motivation Come From?",
+   "level": 3,
+   "topic": "心理・教育",
+   "targetMinutes": 4,
+   "paragraphs": [
+    "Why do some students keep studying even when no one is watching, while others give up as soon as a task becomes difficult? Psychologists often answer this question by distinguishing between two kinds of motivation.",
+    "Extrinsic motivation comes from outside rewards or punishments, such as grades, money, or praise. It can be useful for getting started. However, when the reward disappears, the motivation often disappears with it. In some experiments, people who were paid to do an interesting puzzle actually spent less free time on it later than people who were not paid at all.",
+    "Intrinsic motivation, on the other hand, comes from the activity itself. People who are intrinsically motivated study because they find the subject interesting or because they enjoy the feeling of improving. This kind of motivation tends to last longer and leads to deeper learning.",
+    "How can we develop intrinsic motivation? Researchers suggest three key factors: a sense of choice, a feeling of growing ability, and connection with others. Students who can choose what to read, who can see their own progress, and who learn together with friends are more likely to enjoy learning for its own sake.",
+    "This does not mean that rewards are always bad. A good grade can be a pleasant sign of progress. The important thing is to make sure that rewards support, rather than replace, our natural curiosity."
+   ],
+   "translation": [
+    "なぜ、誰も見ていなくても勉強し続ける生徒がいる一方で、課題が難しくなるとすぐにあきらめてしまう生徒がいるのだろうか。心理学者は、2種類の動機づけを区別することでこの問いに答えることが多い。",
+    "外発的動機づけは、成績やお金、称賛のような外部からの報酬や罰から生じる。それは物事を始めるのには役立ちうる。しかし、報酬がなくなると、動機づけも一緒に消えてしまうことが多い。ある実験では、おもしろいパズルを解くのに報酬を支払われた人々は、まったく支払われなかった人々よりも、後の自由時間にそのパズルに費やす時間が実際には短かった。",
+    "一方、内発的動機づけは、活動そのものから生じる。内発的に動機づけられた人は、その科目をおもしろいと思うから、あるいは上達する感覚を楽しむから勉強する。この種の動機づけはより長続きし、より深い学習につながる傾向がある。",
+    "どうすれば内発的動機づけを育てられるだろうか。研究者は3つの重要な要因を挙げている。選択できるという感覚、能力が伸びているという感覚、そして他者とのつながりである。何を読むかを選ぶことができ、自分の進歩を確認でき、友人とともに学ぶ生徒は、学ぶこと自体を楽しむ可能性が高い。",
+    "これは報酬が常に悪いという意味ではない。良い成績は進歩の喜ばしいしるしになりうる。大切なのは、報酬が私たちの生まれつきの好奇心に取って代わるのではなく、それを支えるようにすることである。"
+   ],
+   "glossary": [
+    {
+     "term": "extrinsic",
+     "meaning": "外発的な"
+    },
+    {
+     "term": "intrinsic",
+     "meaning": "内発的な"
+    },
+    {
+     "term": "punishment",
+     "meaning": "罰"
+    },
+    {
+     "term": "for its own sake",
+     "meaning": "それ自体のために"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-mt-1",
+     "type": "choice",
+     "prompt": "What is an example of extrinsic motivation?",
+     "answers": [
+      "Getting good grades"
+     ],
+     "explanation": "第2段落 such as grades, money, or praise。",
+     "choices": [
+      "Enjoying a subject",
+      "Getting good grades",
+      "Feeling curious",
+      "Liking a puzzle"
+     ]
+    },
+    {
+     "id": "r-mt-2",
+     "type": "choice",
+     "prompt": "What happened in the puzzle experiment?",
+     "answers": [
+      "Paid people spent less free time on the puzzle."
+     ],
+     "explanation": "第2段落最終文。",
+     "choices": [
+      "Paid people spent more free time on the puzzle.",
+      "Paid people spent less free time on the puzzle.",
+      "Nobody solved the puzzle.",
+      "Unpaid people quit immediately."
+     ]
+    },
+    {
+     "id": "r-mt-3",
+     "type": "choice",
+     "prompt": "Which is NOT one of the three key factors?",
+     "answers": [
+      "Strict punishment"
+     ],
+     "explanation": "第4段落の3要因に罰は含まれない。",
+     "choices": [
+      "A sense of choice",
+      "A feeling of growing ability",
+      "Connection with others",
+      "Strict punishment"
+     ]
+    },
+    {
+     "id": "r-mt-4",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "最終段落 This does not mean that rewards are always bad。",
+     "sentence": "The writer thinks rewards should never be used.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-mt-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "大切なのは、報酬が私たちの生まれつきの好奇心に取って代わるのではなく、それを支えるようにすることである。"
+     ],
+     "explanation": "support と replace が our natural curiosity を共通の目的語とする。",
+     "sentence": "The important thing is to make sure that rewards support, rather than replace, our natural curiosity.",
+     "keyPoints": [
+      "make sure that 〜「確実に〜するようにする」",
+      "support, rather than replace, our natural curiosity（共通の目的語）",
+      "A rather than B「BではなくA」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-remote-work",
+   "title": "Will Remote Work Change Our Cities?",
+   "level": 4,
+   "topic": "社会・経済",
+   "targetMinutes": 5,
+   "paragraphs": [
+    "For most of the twentieth century, cities grew because that was where the jobs were. Workers moved from the countryside to urban centers, and companies gathered in the same districts so that they could easily meet clients and share information. Remote work, which became common in many countries during the COVID-19 pandemic, has challenged this pattern.",
+    "Supporters of remote work point to several benefits. Employees save time and money by not commuting, and many report a better balance between work and family life. Companies can reduce office costs and hire talented people who live far away. Some regional towns have even started campaigns to attract remote workers, hoping to revive local economies.",
+    "However, remote work is not without drawbacks. Many people find it difficult to separate work from private life when their home is also their office. Younger employees in particular may miss opportunities to learn from experienced colleagues through casual conversation. Some studies also suggest that creative ideas often emerge from unplanned meetings, which are rare when everyone works alone.",
+    "As a result, many organizations have adopted a hybrid model, in which employees spend part of the week in the office and part at home. This compromise suggests that cities will not disappear. Instead, their role may shift: offices may become places for collaboration and training rather than for routine tasks that can be done anywhere.",
+    "The long-term effects are still uncertain. What seems clear is that the question is no longer simply where work must be done, but where it is best done."
+   ],
+   "translation": [
+    "20世紀の大半を通じて、都市が成長したのはそこに仕事があったからである。労働者は地方から都市の中心部へ移り住み、企業は顧客と会ったり情報を共有したりしやすいよう、同じ地区に集まった。リモートワークは、新型コロナウイルスの世界的流行の間に多くの国で一般的になったが、このパターンに疑問を投げかけている。",
+    "リモートワークの支持者はいくつかの利点を挙げる。従業員は通勤しないことで時間とお金を節約でき、多くの人が仕事と家庭生活のバランスが良くなったと述べている。企業はオフィスの費用を削減でき、遠くに住む有能な人材を雇うことができる。地方の町の中には、地域経済を再生させることを期待して、リモートワーカーを誘致する運動を始めたところさえある。",
+    "しかし、リモートワークに欠点がないわけではない。自宅が職場でもあると、仕事と私生活を切り離すのが難しいと感じる人は多い。特に若手の従業員は、気軽な会話を通して経験豊富な同僚から学ぶ機会を逃すかもしれない。また、創造的なアイデアはしばしば予定外の出会いから生まれるが、全員が一人で働いているとそうした出会いはめったにないことを示唆する研究もある。",
+    "その結果、多くの組織がハイブリッド型を採用している。これは従業員が週の一部をオフィスで、一部を自宅で過ごす形態である。この折衷案は、都市が消えることはないことを示唆している。むしろ、都市の役割が変わるのかもしれない。オフィスは、どこでもできる定型業務の場ではなく、協働と研修の場になる可能性がある。",
+    "長期的な影響はまだはっきりしない。明らかだと思われるのは、問題はもはや単に仕事をどこでしなければならないかではなく、どこでするのが最もよいかだということである。"
+   ],
+   "glossary": [
+    {
+     "term": "commute",
+     "meaning": "通勤する"
+    },
+    {
+     "term": "revive",
+     "meaning": "復活させる"
+    },
+    {
+     "term": "drawback",
+     "meaning": "欠点"
+    },
+    {
+     "term": "hybrid",
+     "meaning": "混成の"
+    },
+    {
+     "term": "compromise",
+     "meaning": "妥協（案）"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-rw-1",
+     "type": "choice",
+     "prompt": "Why did companies gather in the same districts in the twentieth century?",
+     "answers": [
+      "To easily meet clients and share information"
+     ],
+     "explanation": "第1段落第2文 so that 以下。",
+     "choices": [
+      "To pay lower rent",
+      "To easily meet clients and share information",
+      "To avoid traffic",
+      "To attract tourists"
+     ]
+    },
+    {
+     "id": "r-rw-2",
+     "type": "choice",
+     "prompt": "Which is mentioned as a drawback of remote work?",
+     "answers": [
+      "Difficulty separating work from private life"
+     ],
+     "explanation": "第3段落第2文。",
+     "choices": [
+      "Higher office costs",
+      "Difficulty separating work from private life",
+      "Longer commuting time",
+      "Fewer talented workers"
+     ]
+    },
+    {
+     "id": "r-rw-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落 This compromise suggests that cities will not disappear。",
+     "sentence": "The writer predicts that cities will disappear because of remote work.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-rw-4",
+     "type": "choice",
+     "prompt": "According to paragraph 4, offices may become places for",
+     "answers": [
+      "collaboration and training"
+     ],
+     "explanation": "第4段落最終文。",
+     "choices": [
+      "routine tasks",
+      "collaboration and training",
+      "living",
+      "storing documents"
+     ]
+    },
+    {
+     "id": "r-rw-5",
+     "type": "shortAnswer",
+     "prompt": "最終文の内容を、本文の議論を踏まえて日本語で説明しなさい。",
+     "answers": [
+      "リモートワークの普及により、仕事は必ずしも決まった場所でしなければならないものではなくなったので、今後はそれぞれの仕事に最も適した場所はどこかを考えることが問題になるということ。"
+     ],
+     "explanation": "the question is no longer simply A but B の対比をはっきり示す。",
+     "keyPoints": [
+      "no longer simply A but B",
+      "where work must be done → where it is best done",
+      "場所の制約がなくなり、最適な場所を選ぶ問題になった"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-zoos",
+   "title": "Should Zoos Still Exist?",
+   "level": 5,
+   "topic": "倫理・環境",
+   "targetMinutes": 5,
+   "paragraphs": [
+    "For many people, a trip to the zoo is a cherished childhood memory. Yet in recent decades, zoos have become the subject of intense debate. Critics argue that keeping wild animals in captivity, however comfortable the enclosures, deprives them of the freedom that is essential to their nature. Supporters reply that modern zoos play a vital role in conservation and education.",
+    "The critics' concerns are not without foundation. Animals that naturally travel long distances, such as elephants and polar bears, often show signs of stress in captivity, including repetitive movements like pacing back and forth. For such species, even large enclosures may be inadequate substitutes for the vast territories they would occupy in the wild.",
+    "Supporters, however, point out that many species now survive largely because of captive breeding programs. Some animals that had disappeared from the wild have been bred in zoos and later reintroduced into protected habitats. Zoos also fund field research and allow scientists to study animal health and behavior in ways that would be difficult in the wild.",
+    "The educational value of zoos is harder to measure. Seeing a living animal may inspire a lasting interest in nature in a way that a documentary cannot. On the other hand, visitors who spend only a few seconds at each enclosure may learn little, and some critics worry that zoos teach children that it is acceptable to keep animals for human entertainment.",
+    "Perhaps the most reasonable position lies between the extremes. Rather than asking whether zoos should exist, we might ask which animals should be kept, under what conditions, and for what purpose. A zoo that focuses on conservation, limits itself to species that can thrive in captivity, and is honest about its limitations may be easier to justify than one designed mainly to entertain."
+   ],
+   "translation": [
+    "多くの人にとって、動物園に行ったことは大切な子ども時代の思い出である。しかしここ数十年で、動物園は激しい議論の的となっている。批判する人々は、どれほど快適な囲いであっても、野生動物を飼育下に置くことは、その本性に不可欠な自由を動物から奪うことだと主張する。支持する人々は、現代の動物園は保護と教育において極めて重要な役割を果たしていると反論する。",
+    "批判する人々の懸念には根拠がないわけではない。ゾウやホッキョクグマのように、本来長い距離を移動する動物は、飼育下では、行ったり来たりを繰り返すといった反復的な動きを含むストレスの兆候をしばしば示す。そのような種にとっては、大きな囲いでさえ、野生で占めるであろう広大な縄張りの代わりとしては不十分かもしれない。",
+    "しかし、支持する人々は、多くの種が現在生き残っているのは主に飼育下繁殖計画のおかげだと指摘する。野生から姿を消していた動物の中には、動物園で繁殖され、その後保護された生息地に再導入されたものもいる。動物園はまた野外研究に資金を提供し、野生では難しい方法で科学者が動物の健康や行動を研究することを可能にしている。",
+    "動物園の教育的価値を測るのはより難しい。生きた動物を見ることは、ドキュメンタリーにはできない形で自然への長く続く関心を呼び起こすかもしれない。一方で、それぞれの囲いの前で数秒しか過ごさない来園者はほとんど何も学ばないかもしれず、動物園が子どもたちに、人間の娯楽のために動物を飼ってもよいと教えてしまうことを心配する批評家もいる。",
+    "おそらく最も妥当な立場は両極端の間にある。動物園が存在すべきかどうかを問うのではなく、どの動物を、どのような条件で、何のために飼育すべきかを問うことができるだろう。保護に重点を置き、飼育下でも元気に暮らせる種に限定し、自らの限界について正直である動物園は、主に娯楽のために作られた動物園よりも正当化しやすいかもしれない。"
+   ],
+   "glossary": [
+    {
+     "term": "captivity",
+     "meaning": "飼育下・監禁状態"
+    },
+    {
+     "term": "enclosure",
+     "meaning": "囲い（飼育スペース）"
+    },
+    {
+     "term": "conservation",
+     "meaning": "保護・保全"
+    },
+    {
+     "term": "pace",
+     "meaning": "行ったり来たりする"
+    },
+    {
+     "term": "reintroduce",
+     "meaning": "再導入する"
+    },
+    {
+     "term": "habitat",
+     "meaning": "生息地"
+    },
+    {
+     "term": "justify",
+     "meaning": "正当化する"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-zo-1",
+     "type": "choice",
+     "prompt": "What do critics of zoos argue?",
+     "answers": [
+      "Captivity deprives animals of essential freedom."
+     ],
+     "explanation": "第1段落第3文。",
+     "choices": [
+      "Zoos are too expensive.",
+      "Captivity deprives animals of essential freedom.",
+      "Zoos do not have enough visitors.",
+      "Animals in zoos live too long."
+     ]
+    },
+    {
+     "id": "r-zo-2",
+     "type": "choice",
+     "prompt": "What is given as evidence of stress in captive animals?",
+     "answers": [
+      "Repetitive movements like pacing"
+     ],
+     "explanation": "第2段落第2文。",
+     "choices": [
+      "Eating too much",
+      "Repetitive movements like pacing",
+      "Sleeping all day",
+      "Fighting with visitors"
+     ]
+    },
+    {
+     "id": "r-zo-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "True"
+     ],
+     "explanation": "第3段落第2文に一致。",
+     "sentence": "Some animals bred in zoos have been returned to protected habitats.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-zo-4",
+     "type": "choice",
+     "prompt": "What is the writer's overall position?",
+     "answers": [
+      "Whether zoos are justified depends on which animals, conditions, and purposes are involved."
+     ],
+     "explanation": "最終段落：両極端の間の立場。",
+     "choices": [
+      "All zoos should be closed.",
+      "Zoos are perfect as they are.",
+      "Whether zoos are justified depends on which animals, conditions, and purposes are involved.",
+      "Only documentaries should be used for education."
+     ]
+    },
+    {
+     "id": "r-zo-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "批判する人々は、どれほど快適な囲いであっても、野生動物を飼育下に置くことは、その本性に不可欠な自由を動物から奪うことだと主張する。"
+     ],
+     "explanation": "however 〜 の挿入を外すと keeping ... deprives them of the freedom の骨格が見える。",
+     "sentence": "Critics argue that keeping wild animals in captivity, however comfortable the enclosures, deprives them of the freedom that is essential to their nature.",
+     "keyPoints": [
+      "主語 keeping wild animals in captivity（動名詞句）",
+      "挿入 however comfortable the enclosures (are)",
+      "deprive A of B「AからBを奪う」",
+      "the freedom that is essential to their nature"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-school-start",
+   "title": "Should Schools Start Later?",
+   "level": 6,
+   "topic": "教育・健康",
+   "targetMinutes": 6,
+   "paragraphs": [
+    "Teachers have long complained that students in early morning classes seem half asleep. It is tempting to blame this on late-night smartphone use, and screens certainly play a part. Yet research in sleep science suggests that something more fundamental is at work: during adolescence, the body's internal clock shifts, so that teenagers naturally feel sleepy later at night and find it harder to wake up early.",
+    "This biological shift means that a teenager who goes to bed at eleven is not necessarily being lazy or undisciplined; he or she may simply be unable to fall asleep earlier. If school begins at eight, and the student must leave home by seven, the result is chronic sleep deprivation. Over time, insufficient sleep has been linked to poorer concentration, lower mood, and an increased risk of accidents.",
+    "In response, some school districts, particularly in the United States, have experimented with later start times. Several studies of these changes have reported that students slept longer, attended class more regularly, and in some cases performed slightly better on tests. The effects were not dramatic, but they were consistent enough to attract the attention of policymakers.",
+    "Critics raise practical objections. Later start times may conflict with parents' working hours, require changes to bus schedules, and push after-school activities and part-time jobs later into the evening. Some also worry that students will simply stay up later, cancelling out any benefit. The evidence on this last point is mixed, but most studies suggest that students do gain at least some additional sleep.",
+    "The debate illustrates a broader point about how institutions are designed. School schedules were set largely for the convenience of adults and for historical reasons that have little to do with how adolescents learn best. Whether or not a later start is the right solution for every community, the research invites us to ask whose needs our timetables are really built to serve."
+   ],
+   "translation": [
+    "教師たちは昔から、朝早い授業の生徒は半分眠っているように見えると嘆いてきた。これを夜遅くのスマートフォン使用のせいにしたくなるし、画面が一因であることは確かだ。しかし睡眠科学の研究は、もっと根本的な何かが作用していることを示唆している。思春期には体内時計がずれるため、10代の若者は自然と夜遅くに眠くなり、早起きすることがより難しくなるのである。",
+    "この生物学的なずれは、11時に寝る10代の若者は必ずしも怠惰だったりだらしなかったりするわけではないことを意味する。単にそれより早く眠りにつけないだけかもしれないのだ。学校が8時に始まり、生徒が7時までに家を出なければならないとすれば、その結果は慢性的な睡眠不足である。長期的には、睡眠不足は集中力の低下、気分の落ち込み、事故のリスクの増加と関連づけられてきた。",
+    "これを受けて、特に米国の一部の学区では、始業時刻を遅らせる試みが行われてきた。こうした変更に関するいくつかの研究は、生徒がより長く眠り、より規則正しく授業に出席し、場合によってはテストの成績がわずかに上がったと報告している。効果は劇的ではなかったが、政策立案者の注目を集めるには十分なほど一貫していた。",
+    "批判する人々は現実的な異議を唱える。始業時刻を遅らせると、親の勤務時間と食い違ったり、バスの時刻表の変更が必要になったり、放課後の活動やアルバイトが夜遅くにずれ込んだりするかもしれない。また、生徒が単にもっと遅くまで起きているだけで、利点が帳消しになるのではないかと心配する人もいる。この最後の点に関する証拠はまちまちだが、ほとんどの研究は、生徒が少なくともある程度は睡眠時間を増やしていることを示唆している。",
+    "この議論は、制度がどのように設計されているかについてのより広い論点を示している。学校の時間割は、主に大人の都合のために、そして青年がどのように最もよく学ぶかとはほとんど関係のない歴史的な理由で定められてきた。始業時刻を遅らせることがあらゆる地域にとって正しい解決策であるかどうかはともかく、この研究は、私たちの時間割が実際には誰の必要を満たすために作られているのかを問うよう促しているのである。"
+   ],
+   "glossary": [
+    {
+     "term": "adolescence",
+     "meaning": "思春期"
+    },
+    {
+     "term": "internal clock",
+     "meaning": "体内時計"
+    },
+    {
+     "term": "undisciplined",
+     "meaning": "だらしない・規律のない"
+    },
+    {
+     "term": "sleep deprivation",
+     "meaning": "睡眠不足"
+    },
+    {
+     "term": "policymaker",
+     "meaning": "政策立案者"
+    },
+    {
+     "term": "cancel out",
+     "meaning": "相殺する・帳消しにする"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-ss-1",
+     "type": "choice",
+     "prompt": "According to the passage, what is the more fundamental cause of teenagers' sleepiness in the morning?",
+     "answers": [
+      "A shift in the body's internal clock during adolescence"
+     ],
+     "explanation": "第1段落最終文。",
+     "choices": [
+      "Smartphone use only",
+      "A shift in the body's internal clock during adolescence",
+      "Too much homework",
+      "Eating breakfast late"
+     ]
+    },
+    {
+     "id": "r-ss-2",
+     "type": "choice",
+     "prompt": "What did studies of later start times report?",
+     "answers": [
+      "Longer sleep and more regular attendance"
+     ],
+     "explanation": "第3段落第2文。The effects were not dramatic にも注意。",
+     "choices": [
+      "Dramatic improvements in all areas",
+      "No change at all",
+      "Longer sleep and more regular attendance",
+      "Lower test scores"
+     ]
+    },
+    {
+     "id": "r-ss-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落最終文 most studies suggest that students do gain at least some additional sleep。",
+     "sentence": "Most studies suggest that students simply stay up later and gain no extra sleep.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-ss-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "始業時刻を遅らせることがあらゆる地域にとって正しい解決策であるかどうかはともかく、この研究は、私たちの時間割が実際には誰の必要を満たすために作られているのかを問うよう促している。"
+     ],
+     "explanation": "whose needs が serve の目的語として前に出た間接疑問。",
+     "sentence": "Whether or not a later start is the right solution for every community, the research invites us to ask whose needs our timetables are really built to serve.",
+     "keyPoints": [
+      "Whether or not 〜「〜かどうかはともかく」（譲歩）",
+      "invite O to do「Oに〜するよう促す」",
+      "whose needs ... serve（間接疑問、serve の目的語が whose needs）"
+     ]
+    },
+    {
+     "id": "r-ss-5",
+     "type": "shortAnswer",
+     "prompt": "第5段落で筆者が述べている「より広い論点」とは何か。日本語で説明しなさい。",
+     "answers": [
+      "学校の時間割のような制度は、主に大人の都合や歴史的な理由で作られており、それを利用する生徒にとって何が最善かに基づいて設計されているとは限らないということ。"
+     ],
+     "explanation": "School schedules were set largely for the convenience of adults ... の部分をまとめる。",
+     "keyPoints": [
+      "制度設計の問題",
+      "大人の都合・歴史的理由で決められた",
+      "青年の学び方とは無関係",
+      "誰のための制度かを問う"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-gene-editing",
+   "title": "Editing the Human Future",
+   "level": 7,
+   "topic": "生命倫理・医療",
+   "targetMinutes": 7,
+   "paragraphs": [
+    "In 2012, researchers including Jennifer Doudna and Emmanuelle Charpentier described how a bacterial defense system known as CRISPR-Cas9 could be adapted to cut DNA at precisely chosen locations. The technique was faster, cheaper, and more accurate than earlier methods, and within a few years laboratories around the world were using it. In 2020, the two scientists received the Nobel Prize in Chemistry for their work.",
+    "The medical promise of gene editing is considerable. Many diseases, such as sickle cell disease, are caused by errors in a single gene. If such an error could be corrected in a patient's own cells, the disease might be cured rather than merely managed. Treatments of this kind, which alter cells that are not passed on to future generations, have already reached patients and are widely regarded as an extension of ordinary medicine.",
+    "Far more controversial is the editing of embryos, sperm, or eggs, known as germline editing. Changes made at this stage would be inherited by every cell of the resulting person and by his or her descendants. In 2018, a Chinese scientist announced that he had edited the genes of twin babies in an attempt to make them resistant to HIV. The announcement was met with near-universal condemnation, not only because the procedure was unnecessary and potentially dangerous, but because it had been carried out without adequate oversight or genuinely informed consent.",
+    "The objections to germline editing are not merely technical. Even if the procedure could someday be made safe, critics ask who would decide which traits count as defects, and whether the line between treating disease and enhancing ability could be maintained. If only wealthy families could afford such interventions, existing inequalities might become written, quite literally, into the bodies of the next generation.",
+    "Supporters counter that it would be equally troubling to refuse a safe treatment to a family at risk of passing on a devastating disease. Their argument rests on a principle few would reject: that preventable suffering should be prevented. The challenge, then, is not to choose between progress and caution, but to build institutions capable of deciding, openly and with broad public participation, how far we are prepared to go. Science can tell us what is possible; it cannot, by itself, tell us what is wise."
+   ],
+   "translation": [
+    "2012年、ジェニファー・ダウドナとエマニュエル・シャルパンティエを含む研究者たちは、CRISPR-Cas9として知られる細菌の防御システムを、DNAを正確に選んだ位置で切断するために応用できる仕組みを報告した。この技術は以前の方法よりも速く、安く、正確であり、数年のうちに世界中の研究室がそれを使うようになった。2020年、この2人の科学者はその業績によりノーベル化学賞を受賞した。",
+    "遺伝子編集の医学的な可能性は大きい。鎌状赤血球症のような多くの病気は、単一の遺伝子の誤りによって引き起こされる。もしそのような誤りを患者自身の細胞で修正できれば、その病気は単に管理されるのではなく治癒するかもしれない。この種の治療は、将来の世代に受け継がれない細胞を改変するものであり、すでに患者のもとに届いていて、通常の医療の延長として広く受け止められている。",
+    "はるかに論争的なのは、生殖細胞系列の編集として知られる、胚や精子、卵子の編集である。この段階で加えられた変化は、生まれてくる人のすべての細胞と、その子孫に受け継がれることになる。2018年、中国のある科学者が、HIVへの耐性をもたせようとして双子の赤ちゃんの遺伝子を編集したと発表した。この発表はほぼ全世界から非難を浴びた。それは、その処置が不必要で潜在的に危険だったからだけでなく、適切な監督も、真に十分な説明に基づく同意もないまま行われていたからであった。",
+    "生殖細胞系列の編集に対する異議は、単に技術的なものではない。たとえその処置がいつか安全にできるようになったとしても、批判する人々は、どの特性を欠陥とみなすかを誰が決めるのか、そして病気の治療と能力の増強の間の線引きを維持できるのかを問う。もし裕福な家庭だけがそのような介入を受ける余裕があるとすれば、既存の不平等が、文字どおり次の世代の体に書き込まれてしまうかもしれない。",
+    "支持する人々は、壊滅的な病気を子に伝えるおそれのある家族に安全な治療を拒むことも、同じくらい問題があると反論する。彼らの主張は、ほとんど誰も否定しないであろう原則、すなわち予防できる苦しみは予防されるべきだという原則に基づいている。そうだとすれば、課題は進歩と慎重さのどちらかを選ぶことではなく、私たちがどこまで進む覚悟があるかを、公開の場で、幅広い市民の参加のもとに決定できる制度を築くことである。科学は何が可能かを教えてくれる。しかし科学はそれだけでは、何が賢明かを教えてはくれないのである。"
+   ],
+   "glossary": [
+    {
+     "term": "germline",
+     "meaning": "生殖細胞系列"
+    },
+    {
+     "term": "sickle cell disease",
+     "meaning": "鎌状赤血球症"
+    },
+    {
+     "term": "descendant",
+     "meaning": "子孫"
+    },
+    {
+     "term": "condemnation",
+     "meaning": "非難"
+    },
+    {
+     "term": "oversight",
+     "meaning": "監督"
+    },
+    {
+     "term": "enhance",
+     "meaning": "増強する・高める"
+    },
+    {
+     "term": "devastating",
+     "meaning": "壊滅的な"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-ge-1",
+     "type": "choice",
+     "prompt": "Why did CRISPR-Cas9 spread quickly among laboratories?",
+     "answers": [
+      "It was faster, cheaper, and more accurate than earlier methods."
+     ],
+     "explanation": "第1段落第2文。",
+     "choices": [
+      "It was required by law.",
+      "It was faster, cheaper, and more accurate than earlier methods.",
+      "It could only be used on bacteria.",
+      "It won a prize before it was used."
+     ]
+    },
+    {
+     "id": "r-ge-2",
+     "type": "choice",
+     "prompt": "How does the passage describe gene editing of a patient's own non-inherited cells?",
+     "answers": [
+      "As an extension of ordinary medicine"
+     ],
+     "explanation": "第2段落最終文。",
+     "choices": [
+      "As illegal everywhere",
+      "As an extension of ordinary medicine",
+      "As more controversial than germline editing",
+      "As impossible with current technology"
+     ]
+    },
+    {
+     "id": "r-ge-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "not only because ... but because 以下で、監督や同意の欠如も理由に挙げている。",
+     "sentence": "The 2018 announcement was criticized only because the procedure was dangerous.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-ge-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "もし裕福な家庭だけがそのような介入を受ける余裕があるとすれば、既存の不平等が、文字どおり次の世代の体に書き込まれてしまうかもしれない。"
+     ],
+     "explanation": "仮定法過去（could / might）。quite literally は遺伝子＝体に書き込まれた情報という比喩を強調する挿入。",
+     "sentence": "If only wealthy families could afford such interventions, existing inequalities might become written, quite literally, into the bodies of the next generation.",
+     "keyPoints": [
+      "仮定法過去 If only wealthy families could ..., ... might ...",
+      "afford「〜する余裕がある」",
+      "挿入 quite literally「文字どおり」",
+      "become written into ~「〜に書き込まれる」"
+     ]
+    },
+    {
+     "id": "r-ge-5",
+     "type": "shortAnswer",
+     "prompt": "最終文 \"Science can tell us what is possible; it cannot, by itself, tell us what is wise.\" の意味を、本文全体の議論を踏まえて100字程度の日本語で説明しなさい。",
+     "answers": [
+      "遺伝子編集のような科学技術は何ができるかを示すが、それをどこまで用いるべきかという判断は科学だけでは下せず、治療と増強の線引きや公平性などを考慮し、社会が公開の場で幅広い参加を得て決める必要があるということ。"
+     ],
+     "explanation": "直前の文（制度を築くことが課題）と第4・5段落の倫理的論点を根拠にまとめる。",
+     "keyPoints": [
+      "科学＝可能性を示す",
+      "賢明さ＝どこまで使うべきかの価値判断",
+      "by itself「それだけでは」",
+      "社会的・倫理的判断（線引き・公平性）の必要",
+      "公開の場での幅広い市民参加による制度"
      ]
     }
    ]
