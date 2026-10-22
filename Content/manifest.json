@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T12:58:51Z",
+  "generatedAt" : "2026-10-22T13:00:06Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -93,8 +93,8 @@
     {
       "file" : "packs/vocab-l6.json",
       "id" : "vocab.core.l6",
-      "revision" : 2,
-      "sha256" : "edb7da192118ac5d4f33b5347c483276a8a607613690216c836d6dd81efc4cfd",
+      "revision" : 3,
+      "sha256" : "cd7cadb58581a13468236d945c21c4da00160c0c87f56de363c0a638e544172a",
       "skill" : "vocabulary",
       "title" : "Lv6 旧帝大・早慶 語彙"
     },

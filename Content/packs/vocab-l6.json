@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "vocab.core.l6",
- "revision": 2,
+ "revision": 3,
  "skill": "vocabulary",
  "title": "Lv6 旧帝大・早慶 語彙",
  "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
@@ -1656,6 +1656,1634 @@
    "synonyms": [
     "beginner"
    ]
+  },
+  {
+   "id": "w-abound",
+   "headword": "abound",
+   "pos": "動",
+   "meanings": [
+    "たくさんある"
+   ],
+   "level": 6,
+   "ipa": "/əˈbaʊnd/",
+   "example": {
+    "en": "Opportunities abound for those who look for them.",
+    "ja": "探す人には機会がいくらでもある。"
+   },
+   "collocations": [
+    "abound in / with ~"
+   ]
+  },
+  {
+   "id": "w-absurd",
+   "headword": "absurd",
+   "pos": "形",
+   "meanings": [
+    "ばかげた"
+   ],
+   "level": 6,
+   "ipa": "/əbˈsɜːd/",
+   "example": {
+    "en": "It is absurd to blame the victim.",
+    "ja": "被害者を責めるのはばかげている。"
+   },
+   "synonyms": [
+    "ridiculous"
+   ]
+  },
+  {
+   "id": "w-adversity",
+   "headword": "adversity",
+   "pos": "名",
+   "meanings": [
+    "逆境"
+   ],
+   "level": 6,
+   "ipa": "/ədˈvɜːsəti/",
+   "example": {
+    "en": "She showed courage in the face of adversity.",
+    "ja": "彼女は逆境に直面して勇気を示した。"
+   }
+  },
+  {
+   "id": "w-affirm",
+   "headword": "affirm",
+   "pos": "動",
+   "meanings": [
+    "断言する",
+    "肯定する"
+   ],
+   "level": 6,
+   "ipa": "/əˈfɜːm/",
+   "example": {
+    "en": "The court affirmed the decision.",
+    "ja": "裁判所はその判決を支持した。"
+   },
+   "derivatives": [
+    "affirmative 形 肯定的な"
+   ]
+  },
+  {
+   "id": "w-amend",
+   "headword": "amend",
+   "pos": "動",
+   "meanings": [
+    "修正する",
+    "改正する"
+   ],
+   "level": 6,
+   "ipa": "/əˈmend/",
+   "example": {
+    "en": "The law was amended last year.",
+    "ja": "その法律は昨年改正された。"
+   },
+   "derivatives": [
+    "amendment 名 修正（条項）"
+   ]
+  },
+  {
+   "id": "w-amplify",
+   "headword": "amplify",
+   "pos": "動",
+   "meanings": [
+    "増幅する",
+    "拡大する"
+   ],
+   "level": 6,
+   "ipa": "/ˈæmplɪfaɪ/",
+   "example": {
+    "en": "Social media can amplify rumors.",
+    "ja": "SNSはうわさを増幅しうる。"
+   }
+  },
+  {
+   "id": "w-apprehensive",
+   "headword": "apprehensive",
+   "pos": "形",
+   "meanings": [
+    "気がかりな",
+    "心配して"
+   ],
+   "level": 6,
+   "ipa": "/ˌæprɪˈhensɪv/",
+   "example": {
+    "en": "She felt apprehensive about the operation.",
+    "ja": "彼女は手術のことが気がかりだった。"
+   }
+  },
+  {
+   "id": "w-arouse",
+   "headword": "arouse",
+   "pos": "動",
+   "meanings": [
+    "呼び起こす"
+   ],
+   "level": 6,
+   "ipa": "/əˈraʊz/",
+   "example": {
+    "en": "The case aroused public interest.",
+    "ja": "その事件は世間の関心を呼び起こした。"
+   }
+  },
+  {
+   "id": "w-bestow",
+   "headword": "bestow",
+   "pos": "動",
+   "meanings": [
+    "授ける"
+   ],
+   "level": 6,
+   "ipa": "/bɪˈstəʊ/",
+   "example": {
+    "en": "The title was bestowed on him by the king.",
+    "ja": "その称号は国王から彼に授けられた。"
+   },
+   "collocations": [
+    "bestow A on B"
+   ]
+  },
+  {
+   "id": "w-breach",
+   "headword": "breach",
+   "pos": "名",
+   "meanings": [
+    "違反",
+    "破ること"
+   ],
+   "level": 6,
+   "ipa": "/briːtʃ/",
+   "example": {
+    "en": "This is a breach of the contract.",
+    "ja": "これは契約違反だ。"
+   }
+  },
+  {
+   "id": "w-brink",
+   "headword": "brink",
+   "pos": "名",
+   "meanings": [
+    "瀬戸際"
+   ],
+   "level": 6,
+   "ipa": "/brɪŋk/",
+   "example": {
+    "en": "The species is on the brink of extinction.",
+    "ja": "その種は絶滅の瀬戸際にある。"
+   },
+   "collocations": [
+    "on the brink of ~"
+   ]
+  },
+  {
+   "id": "w-chaos",
+   "headword": "chaos",
+   "pos": "名",
+   "meanings": [
+    "混沌",
+    "大混乱"
+   ],
+   "level": 6,
+   "ipa": "/ˈkeɪɒs/",
+   "example": {
+    "en": "The storm left the city in chaos.",
+    "ja": "嵐で都市は大混乱に陥った。"
+   },
+   "derivatives": [
+    "chaotic 形 混沌とした"
+   ]
+  },
+  {
+   "id": "w-cherish",
+   "headword": "cherish",
+   "pos": "動",
+   "meanings": [
+    "大切にする"
+   ],
+   "level": 6,
+   "ipa": "/ˈtʃerɪʃ/",
+   "example": {
+    "en": "I cherish the memories of my childhood.",
+    "ja": "私は子どもの頃の思い出を大切にしている。"
+   }
+  },
+  {
+   "id": "w-compassion",
+   "headword": "compassion",
+   "pos": "名",
+   "meanings": [
+    "思いやり",
+    "同情"
+   ],
+   "level": 6,
+   "ipa": "/kəmˈpæʃn/",
+   "example": {
+    "en": "Nurses treat patients with compassion.",
+    "ja": "看護師は思いやりをもって患者に接する。"
+   },
+   "derivatives": [
+    "compassionate 形 思いやりのある"
+   ]
+  },
+  {
+   "id": "w-concur",
+   "headword": "concur",
+   "pos": "動",
+   "meanings": [
+    "同意する",
+    "同時に起こる"
+   ],
+   "level": 6,
+   "ipa": "/kənˈkɜːr/",
+   "example": {
+    "en": "I concur with your opinion.",
+    "ja": "私はあなたの意見に同意する。"
+   }
+  },
+  {
+   "id": "w-confer",
+   "headword": "confer",
+   "pos": "動",
+   "meanings": [
+    "授与する",
+    "協議する"
+   ],
+   "level": 6,
+   "ipa": "/kənˈfɜːr/",
+   "example": {
+    "en": "The university conferred an honorary degree on her.",
+    "ja": "大学は彼女に名誉学位を授与した。"
+   },
+   "derivatives": [
+    "conference 名 会議"
+   ]
+  },
+  {
+   "id": "w-counterpart",
+   "headword": "counterpart",
+   "pos": "名",
+   "meanings": [
+    "対応するもの",
+    "相手方"
+   ],
+   "level": 6,
+   "ipa": "/ˈkaʊntəpɑːt/",
+   "example": {
+    "en": "The minister met his French counterpart.",
+    "ja": "大臣はフランスの大臣と会談した。"
+   }
+  },
+  {
+   "id": "w-cynical",
+   "headword": "cynical",
+   "pos": "形",
+   "meanings": [
+    "冷笑的な",
+    "皮肉な"
+   ],
+   "level": 6,
+   "ipa": "/ˈsɪnɪkl/",
+   "example": {
+    "en": "Many voters are cynical about politicians.",
+    "ja": "多くの有権者は政治家に冷ややかだ。"
+   }
+  },
+  {
+   "id": "w-deposit",
+   "headword": "deposit",
+   "pos": "名",
+   "meanings": [
+    "預金",
+    "堆積物",
+    "手付金"
+   ],
+   "level": 6,
+   "ipa": "/dɪˈpɒzɪt/",
+   "example": {
+    "en": "They found rich deposits of gold.",
+    "ja": "彼らは豊かな金の鉱床を発見した。"
+   }
+  },
+  {
+   "id": "w-detach",
+   "headword": "detach",
+   "pos": "動",
+   "meanings": [
+    "切り離す"
+   ],
+   "level": 6,
+   "ipa": "/dɪˈtætʃ/",
+   "example": {
+    "en": "Detach the form and send it to us.",
+    "ja": "用紙を切り離して送ってください。"
+   },
+   "derivatives": [
+    "detached 形 超然とした"
+   ],
+   "antonyms": [
+    "attach 取り付ける"
+   ]
+  },
+  {
+   "id": "w-dilute",
+   "headword": "dilute",
+   "pos": "動",
+   "meanings": [
+    "薄める"
+   ],
+   "level": 6,
+   "ipa": "/daɪˈluːt/",
+   "example": {
+    "en": "Dilute the juice with water.",
+    "ja": "ジュースを水で薄めなさい。"
+   }
+  },
+  {
+   "id": "w-doctrine",
+   "headword": "doctrine",
+   "pos": "名",
+   "meanings": [
+    "教義",
+    "主義"
+   ],
+   "level": 6,
+   "ipa": "/ˈdɒktrɪn/",
+   "example": {
+    "en": "The doctrine shaped the nation's foreign policy.",
+    "ja": "その主義は国家の外交政策を形づくった。"
+   }
+  },
+  {
+   "id": "w-dwindle",
+   "headword": "dwindle",
+   "pos": "動",
+   "meanings": [
+    "次第に減少する"
+   ],
+   "level": 6,
+   "ipa": "/ˈdwɪndl/",
+   "example": {
+    "en": "The population of the village has dwindled.",
+    "ja": "その村の人口は次第に減少している。"
+   }
+  },
+  {
+   "id": "w-eccentric",
+   "headword": "eccentric",
+   "pos": "形",
+   "meanings": [
+    "風変わりな"
+   ],
+   "level": 6,
+   "ipa": "/ɪkˈsentrɪk/",
+   "example": {
+    "en": "The professor was known for his eccentric habits.",
+    "ja": "その教授は風変わりな習慣で知られていた。"
+   }
+  },
+  {
+   "id": "w-elevate",
+   "headword": "elevate",
+   "pos": "動",
+   "meanings": [
+    "高める",
+    "持ち上げる"
+   ],
+   "level": 6,
+   "ipa": "/ˈelɪveɪt/",
+   "example": {
+    "en": "Exercise elevates your mood.",
+    "ja": "運動は気分を高める。"
+   },
+   "derivatives": [
+    "elevation 名 高度"
+   ]
+  },
+  {
+   "id": "w-embed",
+   "headword": "embed",
+   "pos": "動",
+   "meanings": [
+    "埋め込む",
+    "深く根付かせる"
+   ],
+   "level": 6,
+   "ipa": "/ɪmˈbed/",
+   "example": {
+    "en": "These values are deeply embedded in our culture.",
+    "ja": "これらの価値観は私たちの文化に深く根付いている。"
+   }
+  },
+  {
+   "id": "w-endure",
+   "headword": "endure",
+   "pos": "動",
+   "meanings": [
+    "耐える",
+    "持続する"
+   ],
+   "level": 6,
+   "ipa": "/ɪnˈdjʊər/",
+   "example": {
+    "en": "They endured years of hardship.",
+    "ja": "彼らは何年もの苦難に耐えた。"
+   },
+   "derivatives": [
+    "endurance 名 忍耐力"
+   ]
+  },
+  {
+   "id": "w-enlighten",
+   "headword": "enlighten",
+   "pos": "動",
+   "meanings": [
+    "啓発する"
+   ],
+   "level": 6,
+   "ipa": "/ɪnˈlaɪtn/",
+   "example": {
+    "en": "The lecture enlightened us about the issue.",
+    "ja": "その講義はその問題について私たちを啓発した。"
+   },
+   "derivatives": [
+    "enlightenment 名 啓発；啓蒙"
+   ]
+  },
+  {
+   "id": "w-envy",
+   "headword": "envy",
+   "pos": "名",
+   "meanings": [
+    "羨望",
+    "ねたみ"
+   ],
+   "level": 6,
+   "ipa": "/ˈenvi/",
+   "example": {
+    "en": "His success was the envy of his classmates.",
+    "ja": "彼の成功は同級生の羨望の的だった。"
+   },
+   "derivatives": [
+    "envious 形 うらやんで"
+   ]
+  },
+  {
+   "id": "w-erratic",
+   "headword": "erratic",
+   "pos": "形",
+   "meanings": [
+    "不規則な",
+    "気まぐれな"
+   ],
+   "level": 6,
+   "ipa": "/ɪˈrætɪk/",
+   "example": {
+    "en": "His behavior became erratic.",
+    "ja": "彼の振る舞いは不安定になった。"
+   }
+  },
+  {
+   "id": "w-excel",
+   "headword": "excel",
+   "pos": "動",
+   "meanings": [
+    "秀でる"
+   ],
+   "level": 6,
+   "ipa": "/ɪkˈsel/",
+   "example": {
+    "en": "She excels at mathematics.",
+    "ja": "彼女は数学に秀でている。"
+   },
+   "derivatives": [
+    "excellence 名 卓越"
+   ],
+   "collocations": [
+    "excel at / in ~"
+   ]
+  },
+  {
+   "id": "w-exempt",
+   "headword": "exempt",
+   "pos": "形",
+   "meanings": [
+    "免除された"
+   ],
+   "level": 6,
+   "ipa": "/ɪɡˈzempt/",
+   "example": {
+    "en": "Students are exempt from the fee.",
+    "ja": "学生は料金を免除される。"
+   },
+   "collocations": [
+    "be exempt from ~"
+   ]
+  },
+  {
+   "id": "w-expire",
+   "headword": "expire",
+   "pos": "動",
+   "meanings": [
+    "期限が切れる"
+   ],
+   "level": 6,
+   "ipa": "/ɪkˈspaɪər/",
+   "example": {
+    "en": "My passport expires next month.",
+    "ja": "私のパスポートは来月期限が切れる。"
+   },
+   "derivatives": [
+    "expiration 名 満了"
+   ]
+  },
+  {
+   "id": "w-fabricate",
+   "headword": "fabricate",
+   "pos": "動",
+   "meanings": [
+    "でっち上げる",
+    "製造する"
+   ],
+   "level": 6,
+   "ipa": "/ˈfæbrɪkeɪt/",
+   "example": {
+    "en": "The data had been fabricated.",
+    "ja": "データはねつ造されていた。"
+   }
+  },
+  {
+   "id": "w-finite",
+   "headword": "finite",
+   "pos": "形",
+   "meanings": [
+    "有限の"
+   ],
+   "level": 6,
+   "ipa": "/ˈfaɪnaɪt/",
+   "example": {
+    "en": "Fossil fuels are a finite resource.",
+    "ja": "化石燃料は有限の資源だ。"
+   },
+   "antonyms": [
+    "infinite 無限の"
+   ]
+  },
+  {
+   "id": "w-fiscal",
+   "headword": "fiscal",
+   "pos": "形",
+   "meanings": [
+    "財政の"
+   ],
+   "level": 6,
+   "ipa": "/ˈfɪskl/",
+   "example": {
+    "en": "The fiscal year begins in April.",
+    "ja": "会計年度は4月に始まる。"
+   }
+  },
+  {
+   "id": "w-flaw",
+   "headword": "flaw",
+   "pos": "名",
+   "meanings": [
+    "欠陥",
+    "欠点"
+   ],
+   "level": 6,
+   "ipa": "/flɔː/",
+   "example": {
+    "en": "There is a serious flaw in the argument.",
+    "ja": "その議論には重大な欠陥がある。"
+   },
+   "derivatives": [
+    "flawless 形 完璧な"
+   ]
+  },
+  {
+   "id": "w-formidable",
+   "headword": "formidable",
+   "pos": "形",
+   "meanings": [
+    "手ごわい",
+    "恐るべき"
+   ],
+   "level": 6,
+   "ipa": "/ˈfɔːmɪdəbl/",
+   "example": {
+    "en": "They faced a formidable task.",
+    "ja": "彼らは手ごわい課題に直面した。"
+   }
+  },
+  {
+   "id": "w-fragment",
+   "headword": "fragment",
+   "pos": "名",
+   "meanings": [
+    "断片",
+    "かけら"
+   ],
+   "level": 6,
+   "ipa": "/ˈfræɡmənt/",
+   "example": {
+    "en": "Fragments of glass were everywhere.",
+    "ja": "ガラスの破片がそこら中にあった。"
+   }
+  },
+  {
+   "id": "w-friction",
+   "headword": "friction",
+   "pos": "名",
+   "meanings": [
+    "摩擦",
+    "不和"
+   ],
+   "level": 6,
+   "ipa": "/ˈfrɪkʃn/",
+   "example": {
+    "en": "There was friction between the two groups.",
+    "ja": "2つのグループの間には不和があった。"
+   }
+  },
+  {
+   "id": "w-frontier",
+   "headword": "frontier",
+   "pos": "名",
+   "meanings": [
+    "最先端",
+    "辺境"
+   ],
+   "level": 6,
+   "ipa": "/ˈfrʌntɪər/",
+   "example": {
+    "en": "Space is the final frontier.",
+    "ja": "宇宙は最後のフロンティアだ。"
+   }
+  },
+  {
+   "id": "w-gauge",
+   "headword": "gauge",
+   "pos": "動",
+   "meanings": [
+    "測る",
+    "判断する"
+   ],
+   "level": 6,
+   "ipa": "/ɡeɪdʒ/",
+   "example": {
+    "en": "It is hard to gauge public opinion.",
+    "ja": "世論を判断するのは難しい。"
+   }
+  },
+  {
+   "id": "w-grief",
+   "headword": "grief",
+   "pos": "名",
+   "meanings": [
+    "深い悲しみ"
+   ],
+   "level": 6,
+   "ipa": "/ɡriːf/",
+   "example": {
+    "en": "She was overcome with grief.",
+    "ja": "彼女は深い悲しみに打ちひしがれた。"
+   },
+   "derivatives": [
+    "grieve 動 深く悲しむ"
+   ]
+  },
+  {
+   "id": "w-humility",
+   "headword": "humility",
+   "pos": "名",
+   "meanings": [
+    "謙虚さ"
+   ],
+   "level": 6,
+   "ipa": "/hjuːˈmɪləti/",
+   "example": {
+    "en": "True experts show humility.",
+    "ja": "真の専門家は謙虚さを示す。"
+   },
+   "derivatives": [
+    "humble 形 謙虚な"
+   ]
+  },
+  {
+   "id": "w-irrigation",
+   "headword": "irrigation",
+   "pos": "名",
+   "meanings": [
+    "灌漑"
+   ],
+   "level": 6,
+   "ipa": "/ˌɪrɪˈɡeɪʃn/",
+   "example": {
+    "en": "Irrigation made farming possible in the desert.",
+    "ja": "灌漑によって砂漠での農業が可能になった。"
+   }
+  },
+  {
+   "id": "w-linguistic",
+   "headword": "linguistic",
+   "pos": "形",
+   "meanings": [
+    "言語の",
+    "言語学の"
+   ],
+   "level": 6,
+   "ipa": "/lɪŋˈɡwɪstɪk/",
+   "example": {
+    "en": "Children show remarkable linguistic ability.",
+    "ja": "子どもは驚くべき言語能力を示す。"
+   },
+   "derivatives": [
+    "linguistics 名 言語学"
+   ]
+  },
+  {
+   "id": "w-misery",
+   "headword": "misery",
+   "pos": "名",
+   "meanings": [
+    "惨めさ",
+    "苦痛"
+   ],
+   "level": 6,
+   "ipa": "/ˈmɪzəri/",
+   "example": {
+    "en": "War brings misery to millions.",
+    "ja": "戦争は何百万人もの人々に苦しみをもたらす。"
+   },
+   "derivatives": [
+    "miserable 形 惨めな"
+   ]
+  },
+  {
+   "id": "w-novel",
+   "headword": "novel",
+   "pos": "形",
+   "meanings": [
+    "斬新な",
+    "新奇な"
+   ],
+   "level": 6,
+   "ipa": "/ˈnɒvl/",
+   "example": {
+    "en": "They proposed a novel approach.",
+    "ja": "彼らは斬新な方法を提案した。"
+   },
+   "note": "名詞「小説」とは別の意味。novelty 名 目新しさ。"
+  },
+  {
+   "id": "w-oblige",
+   "headword": "oblige",
+   "pos": "動",
+   "meanings": [
+    "義務づける"
+   ],
+   "level": 6,
+   "ipa": "/əˈblaɪdʒ/",
+   "example": {
+    "en": "We are obliged to follow the rules.",
+    "ja": "私たちは規則に従う義務がある。"
+   },
+   "collocations": [
+    "be obliged to do",
+    "I'm much obliged.（大変感謝しています）"
+   ]
+  },
+  {
+   "id": "w-obsess",
+   "headword": "obsess",
+   "pos": "動",
+   "meanings": [
+    "取りつく"
+   ],
+   "level": 6,
+   "ipa": "/əbˈses/",
+   "example": {
+    "en": "He is obsessed with his appearance.",
+    "ja": "彼は外見のことで頭がいっぱいだ。"
+   },
+   "derivatives": [
+    "obsession 名 強迫観念"
+   ],
+   "collocations": [
+    "be obsessed with ~"
+   ]
+  },
+  {
+   "id": "w-patent",
+   "headword": "patent",
+   "pos": "名",
+   "meanings": [
+    "特許"
+   ],
+   "level": 6,
+   "ipa": "/ˈpætnt/",
+   "example": {
+    "en": "The company holds a patent on the technology.",
+    "ja": "その会社はその技術の特許をもっている。"
+   }
+  },
+  {
+   "id": "w-peripheral",
+   "headword": "peripheral",
+   "pos": "形",
+   "meanings": [
+    "周辺的な",
+    "重要でない"
+   ],
+   "level": 6,
+   "ipa": "/pəˈrɪfərəl/",
+   "example": {
+    "en": "These are peripheral issues.",
+    "ja": "これらは周辺的な問題だ。"
+   }
+  },
+  {
+   "id": "w-plague",
+   "headword": "plague",
+   "pos": "名",
+   "meanings": [
+    "疫病",
+    "災い"
+   ],
+   "level": 6,
+   "ipa": "/pleɪɡ/",
+   "example": {
+    "en": "The plague killed millions in the Middle Ages.",
+    "ja": "中世にはペストで何百万人もが亡くなった。"
+   },
+   "note": "動詞「悩ます」：be plagued by ~。"
+  },
+  {
+   "id": "w-pledge",
+   "headword": "pledge",
+   "pos": "動",
+   "meanings": [
+    "誓う",
+    "約束する"
+   ],
+   "level": 6,
+   "ipa": "/pledʒ/",
+   "example": {
+    "en": "The government pledged to cut emissions.",
+    "ja": "政府は排出削減を誓約した。"
+   }
+  },
+  {
+   "id": "w-predecessor",
+   "headword": "predecessor",
+   "pos": "名",
+   "meanings": [
+    "前任者",
+    "前身"
+   ],
+   "level": 6,
+   "ipa": "/ˈpriːdɪsesər/",
+   "example": {
+    "en": "The new model is lighter than its predecessor.",
+    "ja": "新型は前のモデルより軽い。"
+   },
+   "antonyms": [
+    "successor 後継者"
+   ]
+  },
+  {
+   "id": "w-prestige",
+   "headword": "prestige",
+   "pos": "名",
+   "meanings": [
+    "名声",
+    "威信"
+   ],
+   "level": 6,
+   "ipa": "/preˈstiːʒ/",
+   "example": {
+    "en": "The university has great prestige.",
+    "ja": "その大学は高い名声を誇る。"
+   },
+   "derivatives": [
+    "prestigious 形 名声のある"
+   ]
+  },
+  {
+   "id": "w-proclaim",
+   "headword": "proclaim",
+   "pos": "動",
+   "meanings": [
+    "宣言する"
+   ],
+   "level": 6,
+   "ipa": "/prəˈkleɪm/",
+   "example": {
+    "en": "The country proclaimed its independence.",
+    "ja": "その国は独立を宣言した。"
+   },
+   "derivatives": [
+    "proclamation 名 宣言"
+   ]
+  },
+  {
+   "id": "w-prosper",
+   "headword": "prosper",
+   "pos": "動",
+   "meanings": [
+    "繁栄する"
+   ],
+   "level": 6,
+   "ipa": "/ˈprɒspər/",
+   "example": {
+    "en": "The town prospered thanks to trade.",
+    "ja": "その町は交易のおかげで繁栄した。"
+   },
+   "derivatives": [
+    "prosperity 名 繁栄",
+    "prosperous 形 繁栄している"
+   ]
+  },
+  {
+   "id": "w-provision",
+   "headword": "provision",
+   "pos": "名",
+   "meanings": [
+    "供給",
+    "規定",
+    "備え"
+   ],
+   "level": 6,
+   "ipa": "/prəˈvɪʒn/",
+   "example": {
+    "en": "The law includes a provision for emergencies.",
+    "ja": "その法律には緊急時の規定が含まれている。"
+   },
+   "collocations": [
+    "make provision for ~（〜に備える）"
+   ]
+  },
+  {
+   "id": "w-proximity",
+   "headword": "proximity",
+   "pos": "名",
+   "meanings": [
+    "近接"
+   ],
+   "level": 6,
+   "ipa": "/prɒkˈsɪməti/",
+   "example": {
+    "en": "The hotel's proximity to the station is convenient.",
+    "ja": "そのホテルは駅に近くて便利だ。"
+   }
+  },
+  {
+   "id": "w-quest",
+   "headword": "quest",
+   "pos": "名",
+   "meanings": [
+    "探求"
+   ],
+   "level": 6,
+   "ipa": "/kwest/",
+   "example": {
+    "en": "The quest for knowledge never ends.",
+    "ja": "知識の探求に終わりはない。"
+   }
+  },
+  {
+   "id": "w-rationale",
+   "headword": "rationale",
+   "pos": "名",
+   "meanings": [
+    "根本的理由",
+    "論拠"
+   ],
+   "level": 6,
+   "ipa": "/ˌræʃəˈnɑːl/",
+   "example": {
+    "en": "What is the rationale behind this decision?",
+    "ja": "この決定の根拠は何か。"
+   }
+  },
+  {
+   "id": "w-realm",
+   "headword": "realm",
+   "pos": "名",
+   "meanings": [
+    "領域",
+    "王国"
+   ],
+   "level": 6,
+   "ipa": "/relm/",
+   "example": {
+    "en": "This is outside the realm of science.",
+    "ja": "これは科学の領域外だ。"
+   }
+  },
+  {
+   "id": "w-recession",
+   "headword": "recession",
+   "pos": "名",
+   "meanings": [
+    "景気後退"
+   ],
+   "level": 6,
+   "ipa": "/rɪˈseʃn/",
+   "example": {
+    "en": "The country is in a deep recession.",
+    "ja": "その国は深刻な不況にある。"
+   }
+  },
+  {
+   "id": "w-reckless",
+   "headword": "reckless",
+   "pos": "形",
+   "meanings": [
+    "無謀な"
+   ],
+   "level": 6,
+   "ipa": "/ˈrekləs/",
+   "example": {
+    "en": "Reckless driving causes accidents.",
+    "ja": "無謀な運転は事故を引き起こす。"
+   }
+  },
+  {
+   "id": "w-refine",
+   "headword": "refine",
+   "pos": "動",
+   "meanings": [
+    "洗練する",
+    "精製する"
+   ],
+   "level": 6,
+   "ipa": "/rɪˈfaɪn/",
+   "example": {
+    "en": "Scientists refined their methods.",
+    "ja": "科学者たちは手法を改良した。"
+   },
+   "derivatives": [
+    "refined 形 洗練された"
+   ]
+  },
+  {
+   "id": "w-refrain",
+   "headword": "refrain",
+   "pos": "動",
+   "meanings": [
+    "控える"
+   ],
+   "level": 6,
+   "ipa": "/rɪˈfreɪn/",
+   "example": {
+    "en": "Please refrain from smoking.",
+    "ja": "喫煙はご遠慮ください。"
+   },
+   "collocations": [
+    "refrain from doing"
+   ]
+  },
+  {
+   "id": "w-reign",
+   "headword": "reign",
+   "pos": "名",
+   "meanings": [
+    "治世"
+   ],
+   "level": 6,
+   "ipa": "/reɪn/",
+   "example": {
+    "en": "The temple was built during the reign of the emperor.",
+    "ja": "その寺はその天皇の治世に建てられた。"
+   },
+   "note": "g は発音しない。rain, rein と同音。"
+  },
+  {
+   "id": "w-render",
+   "headword": "render",
+   "pos": "動",
+   "meanings": [
+    "〜にする",
+    "与える"
+   ],
+   "level": 6,
+   "ipa": "/ˈrendər/",
+   "example": {
+    "en": "The storm rendered the road impassable.",
+    "ja": "嵐で道路は通行不能になった。"
+   },
+   "collocations": [
+    "render O C（OをCにする）"
+   ]
+  },
+  {
+   "id": "w-renewable",
+   "headword": "renewable",
+   "pos": "形",
+   "meanings": [
+    "再生可能な"
+   ],
+   "level": 6,
+   "ipa": "/rɪˈnjuːəbl/",
+   "example": {
+    "en": "Renewable energy is becoming cheaper.",
+    "ja": "再生可能エネルギーは安くなりつつある。"
+   }
+  },
+  {
+   "id": "w-resign",
+   "headword": "resign",
+   "pos": "動",
+   "meanings": [
+    "辞職する"
+   ],
+   "level": 6,
+   "ipa": "/rɪˈzaɪn/",
+   "example": {
+    "en": "The minister resigned after the scandal.",
+    "ja": "不祥事の後、大臣は辞任した。"
+   },
+   "derivatives": [
+    "resignation 名 辞職；あきらめ"
+   ],
+   "collocations": [
+    "resign oneself to ~（〜を甘受する）"
+   ]
+  },
+  {
+   "id": "w-retrieve",
+   "headword": "retrieve",
+   "pos": "動",
+   "meanings": [
+    "取り戻す",
+    "検索する"
+   ],
+   "level": 6,
+   "ipa": "/rɪˈtriːv/",
+   "example": {
+    "en": "He retrieved the data from the old computer.",
+    "ja": "彼は古いコンピューターからデータを取り出した。"
+   }
+  },
+  {
+   "id": "w-reverse",
+   "headword": "reverse",
+   "pos": "動",
+   "meanings": [
+    "逆にする",
+    "覆す"
+   ],
+   "level": 6,
+   "ipa": "/rɪˈvɜːs/",
+   "example": {
+    "en": "The court reversed the earlier decision.",
+    "ja": "裁判所は以前の判決を覆した。"
+   },
+   "derivatives": [
+    "reversible 形 元に戻せる"
+   ]
+  },
+  {
+   "id": "w-revolve",
+   "headword": "revolve",
+   "pos": "動",
+   "meanings": [
+    "回転する",
+    "中心に展開する"
+   ],
+   "level": 6,
+   "ipa": "/rɪˈvɒlv/",
+   "example": {
+    "en": "The story revolves around a young doctor.",
+    "ja": "その物語は若い医師を中心に展開する。"
+   },
+   "collocations": [
+    "revolve around ~"
+   ]
+  },
+  {
+   "id": "w-rigorous",
+   "headword": "rigorous",
+   "pos": "形",
+   "meanings": [
+    "厳密な",
+    "厳格な"
+   ],
+   "level": 6,
+   "ipa": "/ˈrɪɡərəs/",
+   "example": {
+    "en": "The drug went through rigorous testing.",
+    "ja": "その薬は厳密な試験を経た。"
+   }
+  },
+  {
+   "id": "w-ritual",
+   "headword": "ritual",
+   "pos": "名",
+   "meanings": [
+    "儀式",
+    "習慣的行為"
+   ],
+   "level": 6,
+   "ipa": "/ˈrɪtʃuəl/",
+   "example": {
+    "en": "Morning coffee is a daily ritual for me.",
+    "ja": "朝のコーヒーは私の日課だ。"
+   }
+  },
+  {
+   "id": "w-robust",
+   "headword": "robust",
+   "pos": "形",
+   "meanings": [
+    "頑健な",
+    "しっかりした"
+   ],
+   "level": 6,
+   "ipa": "/rəʊˈbʌst/",
+   "example": {
+    "en": "The economy remains robust.",
+    "ja": "経済は依然として堅調だ。"
+   }
+  },
+  {
+   "id": "w-sanitation",
+   "headword": "sanitation",
+   "pos": "名",
+   "meanings": [
+    "公衆衛生",
+    "衛生設備"
+   ],
+   "level": 6,
+   "ipa": "/ˌsænɪˈteɪʃn/",
+   "example": {
+    "en": "Poor sanitation spreads disease.",
+    "ja": "劣悪な衛生環境は病気を広める。"
+   }
+  },
+  {
+   "id": "w-segregate",
+   "headword": "segregate",
+   "pos": "動",
+   "meanings": [
+    "分離する",
+    "隔離する"
+   ],
+   "level": 6,
+   "ipa": "/ˈseɡrɪɡeɪt/",
+   "example": {
+    "en": "Schools were once segregated by race.",
+    "ja": "かつて学校は人種で分けられていた。"
+   },
+   "derivatives": [
+    "segregation 名 分離"
+   ]
+  },
+  {
+   "id": "w-simulate",
+   "headword": "simulate",
+   "pos": "動",
+   "meanings": [
+    "模擬する"
+   ],
+   "level": 6,
+   "ipa": "/ˈsɪmjuleɪt/",
+   "example": {
+    "en": "The computer simulates climate change.",
+    "ja": "そのコンピューターは気候変動を模擬する。"
+   },
+   "derivatives": [
+    "simulation 名 模擬実験"
+   ]
+  },
+  {
+   "id": "w-soar",
+   "headword": "soar",
+   "pos": "動",
+   "meanings": [
+    "急上昇する",
+    "舞い上がる"
+   ],
+   "level": 6,
+   "ipa": "/sɔːr/",
+   "example": {
+    "en": "Prices soared after the disaster.",
+    "ja": "災害後、物価が急騰した。"
+   }
+  },
+  {
+   "id": "w-solitary",
+   "headword": "solitary",
+   "pos": "形",
+   "meanings": [
+    "孤独な",
+    "単独の"
+   ],
+   "level": 6,
+   "ipa": "/ˈsɒlətri/",
+   "example": {
+    "en": "He leads a solitary life.",
+    "ja": "彼は孤独な生活を送っている。"
+   },
+   "derivatives": [
+    "solitude 名 孤独"
+   ]
+  },
+  {
+   "id": "w-sovereign",
+   "headword": "sovereign",
+   "pos": "形",
+   "meanings": [
+    "主権を有する"
+   ],
+   "level": 6,
+   "ipa": "/ˈsɒvrɪn/",
+   "example": {
+    "en": "Japan is a sovereign state.",
+    "ja": "日本は主権国家だ。"
+   },
+   "derivatives": [
+    "sovereignty 名 主権"
+   ]
+  },
+  {
+   "id": "w-spontaneous",
+   "headword": "spontaneous",
+   "pos": "形",
+   "meanings": [
+    "自発的な",
+    "自然発生的な"
+   ],
+   "level": 6,
+   "ipa": "/spɒnˈteɪniəs/",
+   "example": {
+    "en": "The audience broke into spontaneous applause.",
+    "ja": "観客から自然に拍手が起こった。"
+   }
+  },
+  {
+   "id": "w-stereotype",
+   "headword": "stereotype",
+   "pos": "名",
+   "meanings": [
+    "固定観念"
+   ],
+   "level": 6,
+   "ipa": "/ˈsteriətaɪp/",
+   "example": {
+    "en": "We should not judge people by stereotypes.",
+    "ja": "固定観念で人を判断すべきではない。"
+   }
+  },
+  {
+   "id": "w-strive",
+   "headword": "strive",
+   "pos": "動",
+   "meanings": [
+    "努力する"
+   ],
+   "level": 6,
+   "ipa": "/straɪv/",
+   "example": {
+    "en": "We must strive for peace.",
+    "ja": "私たちは平和のために努力しなければならない。"
+   },
+   "collocations": [
+    "strive for ~ / to do"
+   ]
+  },
+  {
+   "id": "w-subordinate",
+   "headword": "subordinate",
+   "pos": "名",
+   "meanings": [
+    "部下"
+   ],
+   "level": 6,
+   "ipa": "/səˈbɔːdɪnət/",
+   "example": {
+    "en": "A good leader listens to subordinates.",
+    "ja": "良い指導者は部下の話を聞く。"
+   },
+   "note": "形容詞「従属的な」。"
+  },
+  {
+   "id": "w-subsidy",
+   "headword": "subsidy",
+   "pos": "名",
+   "meanings": [
+    "補助金"
+   ],
+   "level": 6,
+   "ipa": "/ˈsʌbsədi/",
+   "example": {
+    "en": "Farmers receive subsidies from the government.",
+    "ja": "農家は政府から補助金を受け取っている。"
+   }
+  },
+  {
+   "id": "w-successive",
+   "headword": "successive",
+   "pos": "形",
+   "meanings": [
+    "連続する"
+   ],
+   "level": 6,
+   "ipa": "/səkˈsesɪv/",
+   "example": {
+    "en": "The team won three successive games.",
+    "ja": "チームは3連勝した。"
+   },
+   "synonyms": [
+    "consecutive"
+   ]
+  },
+  {
+   "id": "w-supplement",
+   "headword": "supplement",
+   "pos": "名",
+   "meanings": [
+    "補足",
+    "栄養補助食品"
+   ],
+   "level": 6,
+   "ipa": "/ˈsʌplɪmənt/",
+   "example": {
+    "en": "Vitamin supplements are popular.",
+    "ja": "ビタミンのサプリメントは人気がある。"
+   }
+  },
+  {
+   "id": "w-surplus",
+   "headword": "surplus",
+   "pos": "名",
+   "meanings": [
+    "余剰",
+    "黒字"
+   ],
+   "level": 6,
+   "ipa": "/ˈsɜːpləs/",
+   "example": {
+    "en": "The country has a trade surplus.",
+    "ja": "その国は貿易黒字を抱えている。"
+   },
+   "antonyms": [
+    "deficit 赤字"
+   ]
+  },
+  {
+   "id": "w-tactics",
+   "headword": "tactics",
+   "pos": "名",
+   "meanings": [
+    "戦術"
+   ],
+   "level": 6,
+   "ipa": "/ˈtæktɪks/",
+   "example": {
+    "en": "The coach changed his tactics.",
+    "ja": "コーチは戦術を変えた。"
+   }
+  },
+  {
+   "id": "w-tempt",
+   "headword": "tempt",
+   "pos": "動",
+   "meanings": [
+    "誘惑する",
+    "その気にさせる"
+   ],
+   "level": 6,
+   "ipa": "/tempt/",
+   "example": {
+    "en": "I was tempted to skip class.",
+    "ja": "授業をさぼりたい気になった。"
+   },
+   "derivatives": [
+    "temptation 名 誘惑"
+   ]
+  },
+  {
+   "id": "w-tentative",
+   "headword": "tentative",
+   "pos": "形",
+   "meanings": [
+    "仮の",
+    "ためらいがちな"
+   ],
+   "level": 6,
+   "ipa": "/ˈtentətɪv/",
+   "example": {
+    "en": "We made tentative plans for the trip.",
+    "ja": "私たちは旅行の仮の計画を立てた。"
+   }
+  },
+  {
+   "id": "w-thrive",
+   "headword": "thrive",
+   "pos": "動",
+   "meanings": [
+    "繁栄する",
+    "よく育つ"
+   ],
+   "level": 6,
+   "ipa": "/θraɪv/",
+   "example": {
+    "en": "Some plants thrive in dry conditions.",
+    "ja": "乾燥した条件でよく育つ植物もある。"
+   }
+  },
+  {
+   "id": "w-uphold",
+   "headword": "uphold",
+   "pos": "動",
+   "meanings": [
+    "支持する",
+    "維持する"
+   ],
+   "level": 6,
+   "ipa": "/ʌpˈhəʊld/",
+   "example": {
+    "en": "Judges must uphold the law.",
+    "ja": "裁判官は法を守らなければならない。"
+   }
+  },
+  {
+   "id": "w-venture",
+   "headword": "venture",
+   "pos": "名",
+   "meanings": [
+    "冒険的事業"
+   ],
+   "level": 6,
+   "ipa": "/ˈventʃər/",
+   "example": {
+    "en": "The new business venture was a success.",
+    "ja": "新しい事業は成功した。"
+   }
+  },
+  {
+   "id": "w-verbal",
+   "headword": "verbal",
+   "pos": "形",
+   "meanings": [
+    "言葉の",
+    "口頭の"
+   ],
+   "level": 6,
+   "ipa": "/ˈvɜːbl/",
+   "example": {
+    "en": "They had a verbal agreement.",
+    "ja": "彼らは口頭で合意していた。"
+   },
+   "antonyms": [
+    "nonverbal 言葉によらない"
+   ]
+  },
+  {
+   "id": "w-vigorous",
+   "headword": "vigorous",
+   "pos": "形",
+   "meanings": [
+    "精力的な",
+    "活発な"
+   ],
+   "level": 6,
+   "ipa": "/ˈvɪɡərəs/",
+   "example": {
+    "en": "Vigorous exercise strengthens the heart.",
+    "ja": "激しい運動は心臓を強くする。"
+   }
+  },
+  {
+   "id": "w-warrant",
+   "headword": "warrant",
+   "pos": "動",
+   "meanings": [
+    "正当化する",
+    "保証する"
+   ],
+   "level": 6,
+   "ipa": "/ˈwɒrənt/",
+   "example": {
+    "en": "The situation does not warrant panic.",
+    "ja": "状況はパニックに値するものではない。"
+   },
+   "note": "名詞「令状」。"
+  },
+  {
+   "id": "w-withstand",
+   "headword": "withstand",
+   "pos": "動",
+   "meanings": [
+    "耐える"
+   ],
+   "level": 6,
+   "ipa": "/wɪðˈstænd/",
+   "example": {
+    "en": "The building can withstand strong earthquakes.",
+    "ja": "その建物は強い地震に耐えられる。"
+   }
   }
  ]
 }
