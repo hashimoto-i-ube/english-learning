@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "vocab.core.l6",
- "revision": 1,
+ "revision": 2,
  "skill": "vocabulary",
  "title": "Lv6 旧帝大・早慶 語彙",
  "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
@@ -420,6 +420,1241 @@
    },
    "collocations": [
     "deprive A of B（AからBを奪う）"
+   ]
+  },
+  {
+   "id": "w-acquiesce",
+   "headword": "acquiesce",
+   "pos": "動",
+   "meanings": [
+    "黙って従う",
+    "黙認する"
+   ],
+   "level": 6,
+   "ipa": "/ˌækwiˈes/",
+   "example": {
+    "en": "She reluctantly acquiesced to their demands.",
+    "ja": "彼女はしぶしぶ彼らの要求に従った。"
+   },
+   "collocations": [
+    "acquiesce in/to ~"
+   ]
+  },
+  {
+   "id": "w-adamant",
+   "headword": "adamant",
+   "pos": "形",
+   "meanings": [
+    "断固とした"
+   ],
+   "level": 6,
+   "ipa": "/ˈædəmənt/",
+   "example": {
+    "en": "He was adamant that he would not resign.",
+    "ja": "彼は辞任しないと断固として言い張った。"
+   }
+  },
+  {
+   "id": "w-adept",
+   "headword": "adept",
+   "pos": "形",
+   "meanings": [
+    "熟達した"
+   ],
+   "level": 6,
+   "ipa": "/əˈdept/",
+   "example": {
+    "en": "She is adept at solving puzzles.",
+    "ja": "彼女はパズルを解くのが得意だ。"
+   },
+   "collocations": [
+    "be adept at/in ~"
+   ]
+  },
+  {
+   "id": "w-aesthetic",
+   "headword": "aesthetic",
+   "pos": "形",
+   "meanings": [
+    "美的な",
+    "美学の"
+   ],
+   "level": 6,
+   "ipa": "/esˈθetɪk/",
+   "example": {
+    "en": "The building has great aesthetic value.",
+    "ja": "その建物は高い美的価値をもつ。"
+   }
+  },
+  {
+   "id": "w-alienate",
+   "headword": "alienate",
+   "pos": "動",
+   "meanings": [
+    "疎外する",
+    "遠ざける"
+   ],
+   "level": 6,
+   "ipa": "/ˈeɪliəneɪt/",
+   "example": {
+    "en": "His rude remarks alienated his friends.",
+    "ja": "失礼な発言で彼は友人たちを遠ざけてしまった。"
+   },
+   "derivatives": [
+    "alienation 名 疎外"
+   ]
+  },
+  {
+   "id": "w-allude",
+   "headword": "allude",
+   "pos": "動",
+   "meanings": [
+    "それとなく言う",
+    "言及する"
+   ],
+   "level": 6,
+   "ipa": "/əˈluːd/",
+   "example": {
+    "en": "He alluded to problems within the company.",
+    "ja": "彼は社内の問題をほのめかした。"
+   },
+   "derivatives": [
+    "allusion 名 言及；暗示"
+   ],
+   "collocations": [
+    "allude to ~"
+   ]
+  },
+  {
+   "id": "w-altruistic",
+   "headword": "altruistic",
+   "pos": "形",
+   "meanings": [
+    "利他的な"
+   ],
+   "level": 6,
+   "ipa": "/ˌæltruˈɪstɪk/",
+   "example": {
+    "en": "Some animals display altruistic behavior.",
+    "ja": "利他的な行動を示す動物もいる。"
+   },
+   "derivatives": [
+    "altruism 名 利他主義"
+   ],
+   "antonyms": [
+    "selfish 利己的な"
+   ]
+  },
+  {
+   "id": "w-analogous",
+   "headword": "analogous",
+   "pos": "形",
+   "meanings": [
+    "類似した"
+   ],
+   "level": 6,
+   "ipa": "/əˈnæləɡəs/",
+   "example": {
+    "en": "The heart is analogous to a pump.",
+    "ja": "心臓はポンプに似ている。"
+   },
+   "derivatives": [
+    "analogy 名 類推；たとえ"
+   ],
+   "collocations": [
+    "be analogous to ~"
+   ]
+  },
+  {
+   "id": "w-apathy",
+   "headword": "apathy",
+   "pos": "名",
+   "meanings": [
+    "無関心",
+    "無気力"
+   ],
+   "level": 6,
+   "ipa": "/ˈæpəθi/",
+   "example": {
+    "en": "Voter apathy is a serious problem.",
+    "ja": "有権者の無関心は深刻な問題だ。"
+   },
+   "derivatives": [
+    "apathetic 形 無関心な"
+   ]
+  },
+  {
+   "id": "w-arduous",
+   "headword": "arduous",
+   "pos": "形",
+   "meanings": [
+    "骨の折れる"
+   ],
+   "level": 6,
+   "ipa": "/ˈɑːdjuəs/",
+   "example": {
+    "en": "The climb was long and arduous.",
+    "ja": "登山は長く骨の折れるものだった。"
+   }
+  },
+  {
+   "id": "w-ascribe",
+   "headword": "ascribe",
+   "pos": "動",
+   "meanings": [
+    "（原因・起源を）帰する"
+   ],
+   "level": 6,
+   "ipa": "/əˈskraɪb/",
+   "example": {
+    "en": "He ascribed his failure to bad luck.",
+    "ja": "彼は失敗を不運のせいにした。"
+   },
+   "synonyms": [
+    "attribute"
+   ],
+   "collocations": [
+    "ascribe A to B"
+   ]
+  },
+  {
+   "id": "w-astute",
+   "headword": "astute",
+   "pos": "形",
+   "meanings": [
+    "鋭い",
+    "抜け目のない"
+   ],
+   "level": 6,
+   "ipa": "/əˈstjuːt/",
+   "example": {
+    "en": "She made an astute observation.",
+    "ja": "彼女は鋭い指摘をした。"
+   }
+  },
+  {
+   "id": "w-benign",
+   "headword": "benign",
+   "pos": "形",
+   "meanings": [
+    "良性の",
+    "温和な"
+   ],
+   "level": 6,
+   "ipa": "/bɪˈnaɪn/",
+   "example": {
+    "en": "Fortunately, the tumor was benign.",
+    "ja": "幸いその腫瘍は良性だった。"
+   },
+   "antonyms": [
+    "malignant 悪性の"
+   ],
+   "note": "g は発音しない。"
+  },
+  {
+   "id": "w-bolster",
+   "headword": "bolster",
+   "pos": "動",
+   "meanings": [
+    "強化する",
+    "支える"
+   ],
+   "level": 6,
+   "ipa": "/ˈbəʊlstər/",
+   "example": {
+    "en": "The success bolstered her confidence.",
+    "ja": "その成功が彼女の自信を強めた。"
+   }
+  },
+  {
+   "id": "w-circumvent",
+   "headword": "circumvent",
+   "pos": "動",
+   "meanings": [
+    "回避する",
+    "出し抜く"
+   ],
+   "level": 6,
+   "ipa": "/ˌsɜːkəmˈvent/",
+   "example": {
+    "en": "They found a way to circumvent the rules.",
+    "ja": "彼らは規則をすり抜ける方法を見つけた。"
+   }
+  },
+  {
+   "id": "w-cogent",
+   "headword": "cogent",
+   "pos": "形",
+   "meanings": [
+    "説得力のある"
+   ],
+   "level": 6,
+   "ipa": "/ˈkəʊdʒənt/",
+   "example": {
+    "en": "She presented a cogent argument.",
+    "ja": "彼女は説得力のある議論を示した。"
+   },
+   "synonyms": [
+    "convincing",
+    "compelling"
+   ]
+  },
+  {
+   "id": "w-commensurate",
+   "headword": "commensurate",
+   "pos": "形",
+   "meanings": [
+    "釣り合った",
+    "相応の"
+   ],
+   "level": 6,
+   "ipa": "/kəˈmenʃərət/",
+   "example": {
+    "en": "Salary will be commensurate with experience.",
+    "ja": "給与は経験に応じたものとなる。"
+   },
+   "collocations": [
+    "be commensurate with ~"
+   ]
+  },
+  {
+   "id": "w-compelling",
+   "headword": "compelling",
+   "pos": "形",
+   "meanings": [
+    "説得力のある",
+    "抗しがたい"
+   ],
+   "level": 6,
+   "ipa": "/kəmˈpelɪŋ/",
+   "example": {
+    "en": "There is compelling evidence that smoking causes cancer.",
+    "ja": "喫煙ががんを引き起こすという説得力ある証拠がある。"
+   },
+   "derivatives": [
+    "compel 動 強いる"
+   ]
+  },
+  {
+   "id": "w-conducive",
+   "headword": "conducive",
+   "pos": "形",
+   "meanings": [
+    "助けとなる",
+    "促進する"
+   ],
+   "level": 6,
+   "ipa": "/kənˈdjuːsɪv/",
+   "example": {
+    "en": "A quiet room is conducive to study.",
+    "ja": "静かな部屋は勉強に適している。"
+   },
+   "collocations": [
+    "be conducive to ~"
+   ]
+  },
+  {
+   "id": "w-connotation",
+   "headword": "connotation",
+   "pos": "名",
+   "meanings": [
+    "含意",
+    "言外の意味"
+   ],
+   "level": 6,
+   "ipa": "/ˌkɒnəˈteɪʃn/",
+   "example": {
+    "en": "The word has a negative connotation.",
+    "ja": "その語には否定的な含みがある。"
+   },
+   "antonyms": [
+    "denotation 明示的意味"
+   ]
+  },
+  {
+   "id": "w-consolidate",
+   "headword": "consolidate",
+   "pos": "動",
+   "meanings": [
+    "強化する",
+    "統合する"
+   ],
+   "level": 6,
+   "ipa": "/kənˈsɒlɪdeɪt/",
+   "example": {
+    "en": "Reviewing helps consolidate memories.",
+    "ja": "復習は記憶の定着を助ける。"
+   }
+  },
+  {
+   "id": "w-contentious",
+   "headword": "contentious",
+   "pos": "形",
+   "meanings": [
+    "論争を引き起こす"
+   ],
+   "level": 6,
+   "ipa": "/kənˈtenʃəs/",
+   "example": {
+    "en": "Immigration is a contentious issue.",
+    "ja": "移民は論争を呼ぶ問題だ。"
+   },
+   "synonyms": [
+    "controversial"
+   ]
+  },
+  {
+   "id": "w-culminate",
+   "headword": "culminate",
+   "pos": "動",
+   "meanings": [
+    "最高潮に達する",
+    "結果として〜になる"
+   ],
+   "level": 6,
+   "ipa": "/ˈkʌlmɪneɪt/",
+   "example": {
+    "en": "Years of research culminated in a major discovery.",
+    "ja": "長年の研究が重大な発見に結実した。"
+   },
+   "collocations": [
+    "culminate in ~"
+   ]
+  },
+  {
+   "id": "w-cumbersome",
+   "headword": "cumbersome",
+   "pos": "形",
+   "meanings": [
+    "扱いにくい",
+    "煩雑な"
+   ],
+   "level": 6,
+   "ipa": "/ˈkʌmbəsəm/",
+   "example": {
+    "en": "The application process is cumbersome.",
+    "ja": "申請の手続きが煩雑だ。"
+   }
+  },
+  {
+   "id": "w-dearth",
+   "headword": "dearth",
+   "pos": "名",
+   "meanings": [
+    "不足",
+    "欠乏"
+   ],
+   "level": 6,
+   "ipa": "/dɜːθ/",
+   "example": {
+    "en": "There is a dearth of reliable data.",
+    "ja": "信頼できるデータが不足している。"
+   },
+   "collocations": [
+    "a dearth of ~"
+   ]
+  },
+  {
+   "id": "w-delineate",
+   "headword": "delineate",
+   "pos": "動",
+   "meanings": [
+    "詳細に描写する",
+    "輪郭を描く"
+   ],
+   "level": 6,
+   "ipa": "/dɪˈlɪnieɪt/",
+   "example": {
+    "en": "The report delineates the main risks.",
+    "ja": "報告書は主なリスクを詳しく述べている。"
+   }
+  },
+  {
+   "id": "w-deplete",
+   "headword": "deplete",
+   "pos": "動",
+   "meanings": [
+    "枯渇させる"
+   ],
+   "level": 6,
+   "ipa": "/dɪˈpliːt/",
+   "example": {
+    "en": "Overfishing has depleted fish stocks.",
+    "ja": "乱獲が魚の資源を枯渇させた。"
+   },
+   "derivatives": [
+    "depletion 名 枯渇"
+   ]
+  },
+  {
+   "id": "w-disparity",
+   "headword": "disparity",
+   "pos": "名",
+   "meanings": [
+    "格差",
+    "不均衡"
+   ],
+   "level": 6,
+   "ipa": "/dɪˈspærəti/",
+   "example": {
+    "en": "There is a wide disparity between rich and poor.",
+    "ja": "富裕層と貧困層の間には大きな格差がある。"
+   }
+  },
+  {
+   "id": "w-dissipate",
+   "headword": "dissipate",
+   "pos": "動",
+   "meanings": [
+    "消散する",
+    "浪費する"
+   ],
+   "level": 6,
+   "ipa": "/ˈdɪsɪpeɪt/",
+   "example": {
+    "en": "The fog dissipated by noon.",
+    "ja": "霧は正午までに晴れた。"
+   }
+  },
+  {
+   "id": "w-dogmatic",
+   "headword": "dogmatic",
+   "pos": "形",
+   "meanings": [
+    "独断的な"
+   ],
+   "level": 6,
+   "ipa": "/dɒɡˈmætɪk/",
+   "example": {
+    "en": "Scientists should not be dogmatic.",
+    "ja": "科学者は独断的であってはならない。"
+   },
+   "derivatives": [
+    "dogma 名 教義；独断"
+   ]
+  },
+  {
+   "id": "w-egalitarian",
+   "headword": "egalitarian",
+   "pos": "形",
+   "meanings": [
+    "平等主義の"
+   ],
+   "level": 6,
+   "ipa": "/iˌɡælɪˈteəriən/",
+   "example": {
+    "en": "They aim to build an egalitarian society.",
+    "ja": "彼らは平等な社会を築くことを目指している。"
+   }
+  },
+  {
+   "id": "w-emulate",
+   "headword": "emulate",
+   "pos": "動",
+   "meanings": [
+    "見習う",
+    "張り合う"
+   ],
+   "level": 6,
+   "ipa": "/ˈemjuleɪt/",
+   "example": {
+    "en": "Children often emulate their parents.",
+    "ja": "子どもはしばしば親を手本にする。"
+   }
+  },
+  {
+   "id": "w-ephemeral",
+   "headword": "ephemeral",
+   "pos": "形",
+   "meanings": [
+    "はかない",
+    "短命の"
+   ],
+   "level": 6,
+   "ipa": "/ɪˈfemərəl/",
+   "example": {
+    "en": "Fame is often ephemeral.",
+    "ja": "名声はしばしばはかない。"
+   },
+   "synonyms": [
+    "transient",
+    "fleeting"
+   ]
+  },
+  {
+   "id": "w-eradicate",
+   "headword": "eradicate",
+   "pos": "動",
+   "meanings": [
+    "根絶する"
+   ],
+   "level": 6,
+   "ipa": "/ɪˈrædɪkeɪt/",
+   "example": {
+    "en": "Smallpox was eradicated in 1980.",
+    "ja": "天然痘は1980年に根絶された。"
+   },
+   "derivatives": [
+    "eradication 名 根絶"
+   ]
+  },
+  {
+   "id": "w-exemplify",
+   "headword": "exemplify",
+   "pos": "動",
+   "meanings": [
+    "例示する",
+    "典型となる"
+   ],
+   "level": 6,
+   "ipa": "/ɪɡˈzemplɪfaɪ/",
+   "example": {
+    "en": "His career exemplifies the value of persistence.",
+    "ja": "彼の経歴は粘り強さの価値をよく示している。"
+   }
+  },
+  {
+   "id": "w-extrapolate",
+   "headword": "extrapolate",
+   "pos": "動",
+   "meanings": [
+    "推定する",
+    "外挿する"
+   ],
+   "level": 6,
+   "ipa": "/ɪkˈstræpəleɪt/",
+   "example": {
+    "en": "We cannot extrapolate from such a small sample.",
+    "ja": "そのような小さな標本から推定することはできない。"
+   }
+  },
+  {
+   "id": "w-fallacy",
+   "headword": "fallacy",
+   "pos": "名",
+   "meanings": [
+    "誤った考え",
+    "誤謬"
+   ],
+   "level": 6,
+   "ipa": "/ˈfæləsi/",
+   "example": {
+    "en": "It is a fallacy that older people cannot learn.",
+    "ja": "高齢者は学べないというのは誤った考えだ。"
+   }
+  },
+  {
+   "id": "w-frugal",
+   "headword": "frugal",
+   "pos": "形",
+   "meanings": [
+    "質素な",
+    "倹約的な"
+   ],
+   "level": 6,
+   "ipa": "/ˈfruːɡl/",
+   "example": {
+    "en": "They live a frugal life.",
+    "ja": "彼らは質素な生活をしている。"
+   }
+  },
+  {
+   "id": "w-futile",
+   "headword": "futile",
+   "pos": "形",
+   "meanings": [
+    "無益な"
+   ],
+   "level": 6,
+   "ipa": "/ˈfjuːtaɪl/",
+   "example": {
+    "en": "It is futile to argue with him.",
+    "ja": "彼と議論しても無駄だ。"
+   }
+  },
+  {
+   "id": "w-heterogeneous",
+   "headword": "heterogeneous",
+   "pos": "形",
+   "meanings": [
+    "異種の",
+    "多様な"
+   ],
+   "level": 6,
+   "ipa": "/ˌhetərəˈdʒiːniəs/",
+   "example": {
+    "en": "The class is a heterogeneous group of learners.",
+    "ja": "そのクラスは多様な学習者の集まりだ。"
+   },
+   "antonyms": [
+    "homogeneous 同質の"
+   ]
+  },
+  {
+   "id": "w-homogeneous",
+   "headword": "homogeneous",
+   "pos": "形",
+   "meanings": [
+    "同質の",
+    "均質な"
+   ],
+   "level": 6,
+   "ipa": "/ˌhɒməˈdʒiːniəs/",
+   "example": {
+    "en": "Japan was once described as a homogeneous society.",
+    "ja": "日本はかつて同質的な社会だと言われていた。"
+   }
+  },
+  {
+   "id": "w-impede",
+   "headword": "impede",
+   "pos": "動",
+   "meanings": [
+    "妨げる"
+   ],
+   "level": 6,
+   "ipa": "/ɪmˈpiːd/",
+   "example": {
+    "en": "Lack of funds impeded progress.",
+    "ja": "資金不足が進展を妨げた。"
+   },
+   "derivatives": [
+    "impediment 名 障害"
+   ]
+  },
+  {
+   "id": "w-impetus",
+   "headword": "impetus",
+   "pos": "名",
+   "meanings": [
+    "推進力",
+    "勢い"
+   ],
+   "level": 6,
+   "ipa": "/ˈɪmpɪtəs/",
+   "example": {
+    "en": "The discovery gave new impetus to research.",
+    "ja": "その発見は研究に新たな弾みをつけた。"
+   }
+  },
+  {
+   "id": "w-incessant",
+   "headword": "incessant",
+   "pos": "形",
+   "meanings": [
+    "絶え間ない"
+   ],
+   "level": 6,
+   "ipa": "/ɪnˈsesnt/",
+   "example": {
+    "en": "The incessant noise kept me awake.",
+    "ja": "絶え間ない騒音で眠れなかった。"
+   }
+  },
+  {
+   "id": "w-indigenous",
+   "headword": "indigenous",
+   "pos": "形",
+   "meanings": [
+    "土着の",
+    "固有の"
+   ],
+   "level": 6,
+   "ipa": "/ɪnˈdɪdʒənəs/",
+   "example": {
+    "en": "Indigenous peoples have rich traditions.",
+    "ja": "先住民族は豊かな伝統をもっている。"
+   },
+   "collocations": [
+    "be indigenous to ~"
+   ]
+  },
+  {
+   "id": "w-ingenious",
+   "headword": "ingenious",
+   "pos": "形",
+   "meanings": [
+    "独創的な",
+    "巧妙な"
+   ],
+   "level": 6,
+   "ipa": "/ɪnˈdʒiːniəs/",
+   "example": {
+    "en": "What an ingenious idea!",
+    "ja": "なんと巧妙なアイデアだ。"
+   },
+   "note": "ingenuous（無邪気な）と区別。"
+  },
+  {
+   "id": "w-innate",
+   "headword": "innate",
+   "pos": "形",
+   "meanings": [
+    "生まれつきの"
+   ],
+   "level": 6,
+   "ipa": "/ɪˈneɪt/",
+   "example": {
+    "en": "Humans have an innate ability to learn language.",
+    "ja": "人間には言語を習得する生得的な能力がある。"
+   },
+   "synonyms": [
+    "inborn"
+   ]
+  },
+  {
+   "id": "w-intricate",
+   "headword": "intricate",
+   "pos": "形",
+   "meanings": [
+    "複雑な",
+    "入り組んだ"
+   ],
+   "level": 6,
+   "ipa": "/ˈɪntrɪkət/",
+   "example": {
+    "en": "The watch has an intricate mechanism.",
+    "ja": "その時計は複雑な仕組みをもつ。"
+   }
+  },
+  {
+   "id": "w-lucid",
+   "headword": "lucid",
+   "pos": "形",
+   "meanings": [
+    "明快な"
+   ],
+   "level": 6,
+   "ipa": "/ˈluːsɪd/",
+   "example": {
+    "en": "She gave a lucid explanation.",
+    "ja": "彼女は明快な説明をした。"
+   }
+  },
+  {
+   "id": "w-mundane",
+   "headword": "mundane",
+   "pos": "形",
+   "meanings": [
+    "平凡な",
+    "ありふれた"
+   ],
+   "level": 6,
+   "ipa": "/mʌnˈdeɪn/",
+   "example": {
+    "en": "He was tired of his mundane routine.",
+    "ja": "彼は平凡な日常に飽きていた。"
+   }
+  },
+  {
+   "id": "w-negligible",
+   "headword": "negligible",
+   "pos": "形",
+   "meanings": [
+    "無視できるほどの"
+   ],
+   "level": 6,
+   "ipa": "/ˈneɡlɪdʒəbl/",
+   "example": {
+    "en": "The risk is negligible.",
+    "ja": "そのリスクは無視できるほど小さい。"
+   },
+   "note": "negligent（怠慢な）と区別。"
+  },
+  {
+   "id": "w-oblivious",
+   "headword": "oblivious",
+   "pos": "形",
+   "meanings": [
+    "気づかない"
+   ],
+   "level": 6,
+   "ipa": "/əˈblɪviəs/",
+   "example": {
+    "en": "He was oblivious to the danger.",
+    "ja": "彼は危険に気づいていなかった。"
+   },
+   "collocations": [
+    "be oblivious to/of ~"
+   ]
+  },
+  {
+   "id": "w-paramount",
+   "headword": "paramount",
+   "pos": "形",
+   "meanings": [
+    "最も重要な"
+   ],
+   "level": 6,
+   "ipa": "/ˈpærəmaʊnt/",
+   "example": {
+    "en": "Safety is of paramount importance.",
+    "ja": "安全が最も重要である。"
+   }
+  },
+  {
+   "id": "w-perpetual",
+   "headword": "perpetual",
+   "pos": "形",
+   "meanings": [
+    "永続的な",
+    "絶え間ない"
+   ],
+   "level": 6,
+   "ipa": "/pəˈpetʃuəl/",
+   "example": {
+    "en": "They live in perpetual fear.",
+    "ja": "彼らは絶えず恐怖の中で暮らしている。"
+   }
+  },
+  {
+   "id": "w-plight",
+   "headword": "plight",
+   "pos": "名",
+   "meanings": [
+    "苦境"
+   ],
+   "level": 6,
+   "ipa": "/plaɪt/",
+   "example": {
+    "en": "The film shows the plight of refugees.",
+    "ja": "その映画は難民の苦境を描いている。"
+   }
+  },
+  {
+   "id": "w-ponder",
+   "headword": "ponder",
+   "pos": "動",
+   "meanings": [
+    "熟考する"
+   ],
+   "level": 6,
+   "ipa": "/ˈpɒndər/",
+   "example": {
+    "en": "She pondered the meaning of his words.",
+    "ja": "彼女は彼の言葉の意味をじっくり考えた。"
+   }
+  },
+  {
+   "id": "w-proliferate",
+   "headword": "proliferate",
+   "pos": "動",
+   "meanings": [
+    "急増する",
+    "拡散する"
+   ],
+   "level": 6,
+   "ipa": "/prəˈlɪfəreɪt/",
+   "example": {
+    "en": "Fake news proliferates on social media.",
+    "ja": "偽ニュースはSNS上で急増する。"
+   },
+   "derivatives": [
+    "proliferation 名 拡散"
+   ]
+  },
+  {
+   "id": "w-prudent",
+   "headword": "prudent",
+   "pos": "形",
+   "meanings": [
+    "慎重な",
+    "賢明な"
+   ],
+   "level": 6,
+   "ipa": "/ˈpruːdnt/",
+   "example": {
+    "en": "It would be prudent to save some money.",
+    "ja": "いくらか貯金しておくのが賢明だろう。"
+   }
+  },
+  {
+   "id": "w-rampant",
+   "headword": "rampant",
+   "pos": "形",
+   "meanings": [
+    "はびこる",
+    "蔓延した"
+   ],
+   "level": 6,
+   "ipa": "/ˈræmpənt/",
+   "example": {
+    "en": "Corruption was rampant in the government.",
+    "ja": "政府内には汚職がはびこっていた。"
+   }
+  },
+  {
+   "id": "w-rectify",
+   "headword": "rectify",
+   "pos": "動",
+   "meanings": [
+    "正す",
+    "修正する"
+   ],
+   "level": 6,
+   "ipa": "/ˈrektɪfaɪ/",
+   "example": {
+    "en": "We must rectify the error immediately.",
+    "ja": "直ちにその誤りを正さなければならない。"
+   }
+  },
+  {
+   "id": "w-redundant",
+   "headword": "redundant",
+   "pos": "形",
+   "meanings": [
+    "余分な",
+    "冗長な"
+   ],
+   "level": 6,
+   "ipa": "/rɪˈdʌndənt/",
+   "example": {
+    "en": "Delete redundant words from your essay.",
+    "ja": "作文から余分な語を削りなさい。"
+   }
+  },
+  {
+   "id": "w-relentless",
+   "headword": "relentless",
+   "pos": "形",
+   "meanings": [
+    "容赦のない",
+    "絶え間ない"
+   ],
+   "level": 6,
+   "ipa": "/rɪˈlentləs/",
+   "example": {
+    "en": "He faced relentless criticism.",
+    "ja": "彼は容赦ない批判にさらされた。"
+   }
+  },
+  {
+   "id": "w-replicate",
+   "headword": "replicate",
+   "pos": "動",
+   "meanings": [
+    "再現する",
+    "複製する"
+   ],
+   "level": 6,
+   "ipa": "/ˈreplɪkeɪt/",
+   "example": {
+    "en": "Other researchers failed to replicate the results.",
+    "ja": "他の研究者はその結果を再現できなかった。"
+   },
+   "derivatives": [
+    "replication 名 再現"
+   ]
+  },
+  {
+   "id": "w-sporadic",
+   "headword": "sporadic",
+   "pos": "形",
+   "meanings": [
+    "散発的な"
+   ],
+   "level": 6,
+   "ipa": "/spəˈrædɪk/",
+   "example": {
+    "en": "There were sporadic outbreaks of violence.",
+    "ja": "散発的に暴力が起きた。"
+   }
+  },
+  {
+   "id": "w-stagnant",
+   "headword": "stagnant",
+   "pos": "形",
+   "meanings": [
+    "停滞した",
+    "よどんだ"
+   ],
+   "level": 6,
+   "ipa": "/ˈstæɡnənt/",
+   "example": {
+    "en": "The economy has been stagnant for years.",
+    "ja": "経済は何年も停滞している。"
+   },
+   "derivatives": [
+    "stagnation 名 停滞"
+   ]
+  },
+  {
+   "id": "w-succinct",
+   "headword": "succinct",
+   "pos": "形",
+   "meanings": [
+    "簡潔な"
+   ],
+   "level": 6,
+   "ipa": "/səkˈsɪŋkt/",
+   "example": {
+    "en": "Give a succinct summary.",
+    "ja": "簡潔な要約を書きなさい。"
+   },
+   "synonyms": [
+    "concise"
+   ]
+  },
+  {
+   "id": "w-susceptible",
+   "headword": "susceptible",
+   "pos": "形",
+   "meanings": [
+    "影響を受けやすい",
+    "かかりやすい"
+   ],
+   "level": 6,
+   "ipa": "/səˈseptəbl/",
+   "example": {
+    "en": "Older people are more susceptible to infection.",
+    "ja": "高齢者はより感染しやすい。"
+   },
+   "collocations": [
+    "be susceptible to ~"
+   ]
+  },
+  {
+   "id": "w-tangible",
+   "headword": "tangible",
+   "pos": "形",
+   "meanings": [
+    "具体的な",
+    "触れられる"
+   ],
+   "level": 6,
+   "ipa": "/ˈtændʒəbl/",
+   "example": {
+    "en": "We need tangible results.",
+    "ja": "目に見える成果が必要だ。"
+   },
+   "antonyms": [
+    "intangible 無形の"
+   ]
+  },
+  {
+   "id": "w-tenacious",
+   "headword": "tenacious",
+   "pos": "形",
+   "meanings": [
+    "粘り強い"
+   ],
+   "level": 6,
+   "ipa": "/təˈneɪʃəs/",
+   "example": {
+    "en": "She is a tenacious negotiator.",
+    "ja": "彼女は粘り強い交渉者だ。"
+   },
+   "derivatives": [
+    "tenacity 名 粘り強さ"
+   ]
+  },
+  {
+   "id": "w-transient",
+   "headword": "transient",
+   "pos": "形",
+   "meanings": [
+    "一時的な",
+    "はかない"
+   ],
+   "level": 6,
+   "ipa": "/ˈtrænziənt/",
+   "example": {
+    "en": "The side effects are usually transient.",
+    "ja": "副作用は通常一時的なものだ。"
+   }
+  },
+  {
+   "id": "w-trivial",
+   "headword": "trivial",
+   "pos": "形",
+   "meanings": [
+    "ささいな",
+    "取るに足らない"
+   ],
+   "level": 6,
+   "ipa": "/ˈtrɪviəl/",
+   "example": {
+    "en": "Don't worry about such trivial matters.",
+    "ja": "そんなささいなことは気にするな。"
+   }
+  },
+  {
+   "id": "w-unanimous",
+   "headword": "unanimous",
+   "pos": "形",
+   "meanings": [
+    "満場一致の"
+   ],
+   "level": 6,
+   "ipa": "/juˈnænɪməs/",
+   "example": {
+    "en": "The decision was unanimous.",
+    "ja": "決定は満場一致だった。"
+   }
+  },
+  {
+   "id": "w-viable",
+   "headword": "viable",
+   "pos": "形",
+   "meanings": [
+    "実行可能な",
+    "生存可能な"
+   ],
+   "level": 6,
+   "ipa": "/ˈvaɪəbl/",
+   "example": {
+    "en": "Solar power is a viable alternative.",
+    "ja": "太陽光発電は実行可能な代替手段だ。"
+   },
+   "derivatives": [
+    "viability 名 実現可能性"
+   ]
+  },
+  {
+   "id": "w-volatile",
+   "headword": "volatile",
+   "pos": "形",
+   "meanings": [
+    "不安定な",
+    "揮発性の"
+   ],
+   "level": 6,
+   "ipa": "/ˈvɒlətaɪl/",
+   "example": {
+    "en": "The stock market is volatile.",
+    "ja": "株式市場は不安定だ。"
+   }
+  },
+  {
+   "id": "w-whereby",
+   "headword": "whereby",
+   "pos": "副",
+   "meanings": [
+    "（それによって）〜する"
+   ],
+   "level": 6,
+   "ipa": "/weəˈbaɪ/",
+   "example": {
+    "en": "They introduced a system whereby workers can choose their hours.",
+    "ja": "労働者が勤務時間を選べる制度を導入した。"
+   },
+   "note": "関係副詞的に用いる（= by which）。"
+  },
+  {
+   "id": "w-novice",
+   "headword": "novice",
+   "pos": "名",
+   "meanings": [
+    "初心者"
+   ],
+   "level": 6,
+   "ipa": "/ˈnɒvɪs/",
+   "example": {
+    "en": "This course is designed for novices.",
+    "ja": "この講座は初心者向けだ。"
+   },
+   "synonyms": [
+    "beginner"
    ]
   }
  ]

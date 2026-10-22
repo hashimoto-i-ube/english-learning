@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "vocab.core.l2",
- "revision": 1,
+ "revision": 2,
  "skill": "vocabulary",
  "title": "Lv2 高1標準語彙",
  "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
@@ -542,6 +542,1329 @@
     "ja": "大雨で川が氾濫した。"
    },
    "note": "cause O to do（Oに〜させる・引き起こす）。名詞「原因」。"
+  },
+  {
+   "id": "w-absence",
+   "headword": "absence",
+   "pos": "名",
+   "meanings": [
+    "不在",
+    "欠席",
+    "欠如"
+   ],
+   "level": 2,
+   "ipa": "/ˈæbsəns/",
+   "example": {
+    "en": "Nobody noticed his absence.",
+    "ja": "誰も彼がいないことに気づかなかった。"
+   },
+   "derivatives": [
+    "absent 形 不在の（be absent from ~）"
+   ],
+   "collocations": [
+    "in the absence of ~（〜がないときに）"
+   ]
+  },
+  {
+   "id": "w-according-to",
+   "headword": "according to",
+   "pos": "熟",
+   "meanings": [
+    "〜によれば",
+    "〜に従って"
+   ],
+   "level": 2,
+   "example": {
+    "en": "According to the weather forecast, it will snow tomorrow.",
+    "ja": "天気予報によると明日は雪だ。"
+   }
+  },
+  {
+   "id": "w-adapt",
+   "headword": "adapt",
+   "pos": "動",
+   "meanings": [
+    "適応する",
+    "適合させる"
+   ],
+   "level": 2,
+   "ipa": "/əˈdæpt/",
+   "example": {
+    "en": "Animals adapt to their environment.",
+    "ja": "動物は環境に適応する。"
+   },
+   "collocations": [
+    "adapt to ~"
+   ],
+   "note": "adopt（採用する・養子にする）と区別。"
+  },
+  {
+   "id": "w-adopt",
+   "headword": "adopt",
+   "pos": "動",
+   "meanings": [
+    "採用する",
+    "養子にする"
+   ],
+   "level": 2,
+   "ipa": "/əˈdɒpt/",
+   "example": {
+    "en": "The school adopted a new teaching method.",
+    "ja": "その学校は新しい指導法を採用した。"
+   },
+   "derivatives": [
+    "adoption 名 採用；養子縁組"
+   ]
+  },
+  {
+   "id": "w-aim",
+   "headword": "aim",
+   "pos": "名",
+   "meanings": [
+    "目的",
+    "狙い"
+   ],
+   "level": 2,
+   "ipa": "/eɪm/",
+   "example": {
+    "en": "The aim of this study is to reduce waste.",
+    "ja": "この研究の目的は廃棄物を減らすことだ。"
+   },
+   "collocations": [
+    "aim at ~（動 〜を狙う）"
+   ]
+  },
+  {
+   "id": "w-apply",
+   "headword": "apply",
+   "pos": "動",
+   "meanings": [
+    "申し込む",
+    "適用する"
+   ],
+   "level": 2,
+   "ipa": "/əˈplaɪ/",
+   "example": {
+    "en": "She applied for a scholarship.",
+    "ja": "彼女は奨学金に応募した。"
+   },
+   "derivatives": [
+    "application 名 申し込み；応用"
+   ],
+   "collocations": [
+    "apply for ~（〜に申し込む）",
+    "apply A to B（AをBに当てはめる）"
+   ]
+  },
+  {
+   "id": "w-appreciate",
+   "headword": "appreciate",
+   "pos": "動",
+   "meanings": [
+    "感謝する",
+    "正しく評価する"
+   ],
+   "level": 2,
+   "ipa": "/əˈpriːʃieɪt/",
+   "example": {
+    "en": "I really appreciate your help.",
+    "ja": "ご協力に本当に感謝します。"
+   },
+   "note": "感謝の対象は物事（×appreciate you）。"
+  },
+  {
+   "id": "w-approach",
+   "headword": "approach",
+   "pos": "動",
+   "meanings": [
+    "近づく",
+    "取り組む"
+   ],
+   "level": 2,
+   "ipa": "/əˈprəʊtʃ/",
+   "example": {
+    "en": "A typhoon is approaching Okinawa.",
+    "ja": "台風が沖縄に接近している。"
+   },
+   "note": "他動詞：×approach to Okinawa。名詞「取り組み方」は approach to ~。"
+  },
+  {
+   "id": "w-argue",
+   "headword": "argue",
+   "pos": "動",
+   "meanings": [
+    "議論する",
+    "主張する"
+   ],
+   "level": 2,
+   "ipa": "/ˈɑːɡjuː/",
+   "example": {
+    "en": "Some scientists argue that the theory is wrong.",
+    "ja": "その理論は誤りだと主張する科学者もいる。"
+   },
+   "derivatives": [
+    "argument 名 議論；主張"
+   ]
+  },
+  {
+   "id": "w-attempt",
+   "headword": "attempt",
+   "pos": "名",
+   "meanings": [
+    "試み"
+   ],
+   "level": 2,
+   "ipa": "/əˈtempt/",
+   "example": {
+    "en": "He passed the test on his first attempt.",
+    "ja": "彼は一回目の挑戦で試験に合格した。"
+   },
+   "collocations": [
+    "attempt to do（動 〜しようと試みる）"
+   ]
+  },
+  {
+   "id": "w-attract",
+   "headword": "attract",
+   "pos": "動",
+   "meanings": [
+    "引きつける"
+   ],
+   "level": 2,
+   "ipa": "/əˈtrækt/",
+   "example": {
+    "en": "The festival attracts thousands of tourists.",
+    "ja": "その祭りは何千人もの観光客を引きつける。"
+   },
+   "derivatives": [
+    "attraction 名 魅力；名所",
+    "attractive 形 魅力的な"
+   ]
+  },
+  {
+   "id": "w-aware",
+   "headword": "aware",
+   "pos": "形",
+   "meanings": [
+    "気づいている"
+   ],
+   "level": 2,
+   "ipa": "/əˈweər/",
+   "example": {
+    "en": "Are you aware of the danger?",
+    "ja": "その危険に気づいていますか。"
+   },
+   "derivatives": [
+    "awareness 名 意識"
+   ],
+   "collocations": [
+    "be aware of ~ / that ~"
+   ]
+  },
+  {
+   "id": "w-capable",
+   "headword": "capable",
+   "pos": "形",
+   "meanings": [
+    "能力がある"
+   ],
+   "level": 2,
+   "ipa": "/ˈkeɪpəbl/",
+   "example": {
+    "en": "She is capable of solving difficult problems.",
+    "ja": "彼女は難しい問題を解く能力がある。"
+   },
+   "collocations": [
+    "be capable of doing"
+   ],
+   "note": "be able to do と形が異なる点に注意。"
+  },
+  {
+   "id": "w-career",
+   "headword": "career",
+   "pos": "名",
+   "meanings": [
+    "経歴",
+    "職業"
+   ],
+   "level": 2,
+   "ipa": "/kəˈrɪər/",
+   "example": {
+    "en": "He started his career as a nurse.",
+    "ja": "彼は看護師として職業生活を始めた。"
+   },
+   "accentNote": "ca-REER（第2音節）。"
+  },
+  {
+   "id": "w-challenge",
+   "headword": "challenge",
+   "pos": "名",
+   "meanings": [
+    "課題",
+    "難題"
+   ],
+   "level": 2,
+   "ipa": "/ˈtʃælɪndʒ/",
+   "example": {
+    "en": "Climate change is a major challenge for the world.",
+    "ja": "気候変動は世界にとって大きな課題だ。"
+   },
+   "note": "日本語の「挑戦」より「難題・やりがいのある課題」の意味が中心。"
+  },
+  {
+   "id": "w-character",
+   "headword": "character",
+   "pos": "名",
+   "meanings": [
+    "性格",
+    "特徴",
+    "登場人物",
+    "文字"
+   ],
+   "level": 2,
+   "ipa": "/ˈkærəktər/",
+   "example": {
+    "en": "He has a strong character.",
+    "ja": "彼は意志の強い性格だ。"
+   },
+   "derivatives": [
+    "characteristic 名 特徴 / 形 特有の"
+   ]
+  },
+  {
+   "id": "w-claim",
+   "headword": "claim",
+   "pos": "動",
+   "meanings": [
+    "主張する",
+    "要求する"
+   ],
+   "level": 2,
+   "ipa": "/kleɪm/",
+   "example": {
+    "en": "He claims that he saw a UFO.",
+    "ja": "彼はUFOを見たと主張している。"
+   },
+   "note": "「クレームをつける」は complain。"
+  },
+  {
+   "id": "w-comfortable",
+   "headword": "comfortable",
+   "pos": "形",
+   "meanings": [
+    "快適な",
+    "心地よい"
+   ],
+   "level": 2,
+   "ipa": "/ˈkʌmftəbl/",
+   "example": {
+    "en": "This chair is very comfortable.",
+    "ja": "この椅子はとても座り心地がよい。"
+   },
+   "accentNote": "COM-for-ta-ble（第1音節）。"
+  },
+  {
+   "id": "w-complain",
+   "headword": "complain",
+   "pos": "動",
+   "meanings": [
+    "不平を言う"
+   ],
+   "level": 2,
+   "ipa": "/kəmˈpleɪn/",
+   "example": {
+    "en": "She complained about the noise.",
+    "ja": "彼女は騒音について苦情を言った。"
+   },
+   "derivatives": [
+    "complaint 名 不平"
+   ],
+   "collocations": [
+    "complain about/of ~"
+   ]
+  },
+  {
+   "id": "w-concentrate",
+   "headword": "concentrate",
+   "pos": "動",
+   "meanings": [
+    "集中する"
+   ],
+   "level": 2,
+   "ipa": "/ˈkɒnsntreɪt/",
+   "example": {
+    "en": "I can't concentrate on my work.",
+    "ja": "仕事に集中できない。"
+   },
+   "derivatives": [
+    "concentration 名 集中"
+   ],
+   "collocations": [
+    "concentrate on ~"
+   ]
+  },
+  {
+   "id": "w-concern",
+   "headword": "concern",
+   "pos": "名",
+   "meanings": [
+    "懸念",
+    "関心事"
+   ],
+   "level": 2,
+   "ipa": "/kənˈsɜːn/",
+   "example": {
+    "en": "There is growing concern about food safety.",
+    "ja": "食の安全に対する懸念が高まっている。"
+   },
+   "collocations": [
+    "be concerned about ~（〜を心配する）",
+    "be concerned with ~（〜に関係する）"
+   ]
+  },
+  {
+   "id": "w-confident",
+   "headword": "confident",
+   "pos": "形",
+   "meanings": [
+    "自信がある",
+    "確信している"
+   ],
+   "level": 2,
+   "ipa": "/ˈkɒnfɪdənt/",
+   "example": {
+    "en": "I'm confident that we will win.",
+    "ja": "私たちが勝つと確信している。"
+   },
+   "derivatives": [
+    "confidence 名 自信"
+   ]
+  },
+  {
+   "id": "w-confuse",
+   "headword": "confuse",
+   "pos": "動",
+   "meanings": [
+    "混乱させる",
+    "混同する"
+   ],
+   "level": 2,
+   "ipa": "/kənˈfjuːz/",
+   "example": {
+    "en": "Don't confuse \"affect\" with \"effect.\"",
+    "ja": "affect と effect を混同するな。"
+   },
+   "derivatives": [
+    "confusion 名 混乱"
+   ],
+   "collocations": [
+    "confuse A with B"
+   ]
+  },
+  {
+   "id": "w-contain",
+   "headword": "contain",
+   "pos": "動",
+   "meanings": [
+    "含む"
+   ],
+   "level": 2,
+   "ipa": "/kənˈteɪn/",
+   "example": {
+    "en": "This drink contains a lot of sugar.",
+    "ja": "この飲み物は砂糖を多く含んでいる。"
+   },
+   "derivatives": [
+    "container 名 容器"
+   ]
+  },
+  {
+   "id": "w-convenient",
+   "headword": "convenient",
+   "pos": "形",
+   "meanings": [
+    "便利な",
+    "都合のよい"
+   ],
+   "level": 2,
+   "ipa": "/kənˈviːniənt/",
+   "example": {
+    "en": "When is it convenient for you?",
+    "ja": "いつがご都合よろしいですか。"
+   },
+   "note": "人を主語にしない：×Are you convenient?"
+  },
+  {
+   "id": "w-crime",
+   "headword": "crime",
+   "pos": "名",
+   "meanings": [
+    "犯罪"
+   ],
+   "level": 2,
+   "ipa": "/kraɪm/",
+   "example": {
+    "en": "The crime rate has fallen.",
+    "ja": "犯罪率は下がった。"
+   },
+   "derivatives": [
+    "criminal 名 犯罪者 / 形 犯罪の"
+   ]
+  },
+  {
+   "id": "w-curious",
+   "headword": "curious",
+   "pos": "形",
+   "meanings": [
+    "好奇心の強い",
+    "奇妙な"
+   ],
+   "level": 2,
+   "ipa": "/ˈkjʊəriəs/",
+   "example": {
+    "en": "Children are curious about everything.",
+    "ja": "子どもは何にでも興味津々だ。"
+   },
+   "derivatives": [
+    "curiosity 名 好奇心"
+   ]
+  },
+  {
+   "id": "w-custom",
+   "headword": "custom",
+   "pos": "名",
+   "meanings": [
+    "慣習",
+    "風習"
+   ],
+   "level": 2,
+   "ipa": "/ˈkʌstəm/",
+   "example": {
+    "en": "Bowing is a Japanese custom.",
+    "ja": "お辞儀は日本の慣習だ。"
+   },
+   "note": "customs は「税関」。"
+  },
+  {
+   "id": "w-decline",
+   "headword": "decline",
+   "pos": "動",
+   "meanings": [
+    "減少する",
+    "断る"
+   ],
+   "level": 2,
+   "ipa": "/dɪˈklaɪn/",
+   "example": {
+    "en": "The birth rate has declined sharply.",
+    "ja": "出生率は急激に低下した。"
+   }
+  },
+  {
+   "id": "w-demand",
+   "headword": "demand",
+   "pos": "名",
+   "meanings": [
+    "需要",
+    "要求"
+   ],
+   "level": 2,
+   "ipa": "/dɪˈmɑːnd/",
+   "example": {
+    "en": "There is a high demand for nurses.",
+    "ja": "看護師の需要が高い。"
+   },
+   "antonyms": [
+    "supply 供給"
+   ],
+   "note": "動詞 demand that S (should) 原形。"
+  },
+  {
+   "id": "w-deserve",
+   "headword": "deserve",
+   "pos": "動",
+   "meanings": [
+    "〜に値する"
+   ],
+   "level": 2,
+   "ipa": "/dɪˈzɜːv/",
+   "example": {
+    "en": "You deserve a rest after working so hard.",
+    "ja": "そんなに頑張ったのだから休んで当然だ。"
+   }
+  },
+  {
+   "id": "w-determine",
+   "headword": "determine",
+   "pos": "動",
+   "meanings": [
+    "決定する",
+    "特定する"
+   ],
+   "level": 2,
+   "ipa": "/dɪˈtɜːmɪn/",
+   "example": {
+    "en": "Genes partly determine our height.",
+    "ja": "遺伝子は身長を部分的に決定する。"
+   },
+   "collocations": [
+    "be determined to do（〜しようと決心している）"
+   ]
+  },
+  {
+   "id": "w-device",
+   "headword": "device",
+   "pos": "名",
+   "meanings": [
+    "装置",
+    "機器"
+   ],
+   "level": 2,
+   "ipa": "/dɪˈvaɪs/",
+   "example": {
+    "en": "Turn off all electronic devices.",
+    "ja": "電子機器の電源をすべて切りなさい。"
+   },
+   "derivatives": [
+    "devise 動 考案する /dɪˈvaɪz/"
+   ]
+  },
+  {
+   "id": "w-disease",
+   "headword": "disease",
+   "pos": "名",
+   "meanings": [
+    "病気"
+   ],
+   "level": 2,
+   "ipa": "/dɪˈziːz/",
+   "example": {
+    "en": "Heart disease is a leading cause of death.",
+    "ja": "心臓病は主要な死因の一つだ。"
+   }
+  },
+  {
+   "id": "w-economy",
+   "headword": "economy",
+   "pos": "名",
+   "meanings": [
+    "経済",
+    "節約"
+   ],
+   "level": 2,
+   "ipa": "/ɪˈkɒnəmi/",
+   "example": {
+    "en": "The economy is growing slowly.",
+    "ja": "経済はゆっくりと成長している。"
+   },
+   "derivatives": [
+    "economic 形 経済の",
+    "economical 形 経済的な・節約になる"
+   ]
+  },
+  {
+   "id": "w-emotion",
+   "headword": "emotion",
+   "pos": "名",
+   "meanings": [
+    "感情"
+   ],
+   "level": 2,
+   "ipa": "/ɪˈməʊʃn/",
+   "example": {
+    "en": "She couldn't hide her emotions.",
+    "ja": "彼女は感情を隠せなかった。"
+   },
+   "derivatives": [
+    "emotional 形 感情的な"
+   ]
+  },
+  {
+   "id": "w-enable",
+   "headword": "enable",
+   "pos": "動",
+   "meanings": [
+    "可能にする"
+   ],
+   "level": 2,
+   "ipa": "/ɪˈneɪbl/",
+   "example": {
+    "en": "The Internet enables us to work from home.",
+    "ja": "インターネットのおかげで在宅勤務ができる。"
+   },
+   "collocations": [
+    "enable O to do"
+   ]
+  },
+  {
+   "id": "w-enormous",
+   "headword": "enormous",
+   "pos": "形",
+   "meanings": [
+    "巨大な",
+    "莫大な"
+   ],
+   "level": 2,
+   "ipa": "/ɪˈnɔːməs/",
+   "example": {
+    "en": "The project cost an enormous amount of money.",
+    "ja": "その計画には莫大な費用がかかった。"
+   },
+   "synonyms": [
+    "huge",
+    "vast"
+   ]
+  },
+  {
+   "id": "w-equal",
+   "headword": "equal",
+   "pos": "形",
+   "meanings": [
+    "等しい",
+    "平等な"
+   ],
+   "level": 2,
+   "ipa": "/ˈiːkwəl/",
+   "example": {
+    "en": "All people are equal before the law.",
+    "ja": "すべての人は法の下で平等だ。"
+   },
+   "derivatives": [
+    "equality 名 平等"
+   ]
+  },
+  {
+   "id": "w-escape",
+   "headword": "escape",
+   "pos": "動",
+   "meanings": [
+    "逃げる",
+    "免れる"
+   ],
+   "level": 2,
+   "ipa": "/ɪˈskeɪp/",
+   "example": {
+    "en": "The bird escaped from its cage.",
+    "ja": "鳥がかごから逃げ出した。"
+   }
+  },
+  {
+   "id": "w-expand",
+   "headword": "expand",
+   "pos": "動",
+   "meanings": [
+    "拡大する",
+    "膨張する"
+   ],
+   "level": 2,
+   "ipa": "/ɪkˈspænd/",
+   "example": {
+    "en": "The company plans to expand overseas.",
+    "ja": "その会社は海外への進出を計画している。"
+   },
+   "derivatives": [
+    "expansion 名 拡大"
+   ]
+  },
+  {
+   "id": "w-expense",
+   "headword": "expense",
+   "pos": "名",
+   "meanings": [
+    "費用",
+    "出費"
+   ],
+   "level": 2,
+   "ipa": "/ɪkˈspens/",
+   "example": {
+    "en": "Living expenses in Tokyo are high.",
+    "ja": "東京の生活費は高い。"
+   },
+   "derivatives": [
+    "expensive 形 高価な"
+   ],
+   "collocations": [
+    "at the expense of ~（〜を犠牲にして）"
+   ]
+  },
+  {
+   "id": "w-explore",
+   "headword": "explore",
+   "pos": "動",
+   "meanings": [
+    "探検する",
+    "探究する"
+   ],
+   "level": 2,
+   "ipa": "/ɪkˈsplɔːr/",
+   "example": {
+    "en": "We explored the old town on foot.",
+    "ja": "私たちは旧市街を歩いて探索した。"
+   },
+   "derivatives": [
+    "exploration 名 探検"
+   ]
+  },
+  {
+   "id": "w-focus",
+   "headword": "focus",
+   "pos": "動",
+   "meanings": [
+    "焦点を合わせる",
+    "集中する"
+   ],
+   "level": 2,
+   "ipa": "/ˈfəʊkəs/",
+   "example": {
+    "en": "Focus on the main points.",
+    "ja": "要点に集中しなさい。"
+   },
+   "collocations": [
+    "focus on ~"
+   ]
+  },
+  {
+   "id": "w-frequently",
+   "headword": "frequently",
+   "pos": "副",
+   "meanings": [
+    "頻繁に"
+   ],
+   "level": 2,
+   "ipa": "/ˈfriːkwəntli/",
+   "example": {
+    "en": "He frequently visits his grandparents.",
+    "ja": "彼は頻繁に祖父母を訪ねる。"
+   },
+   "derivatives": [
+    "frequent 形 頻繁な",
+    "frequency 名 頻度"
+   ]
+  },
+  {
+   "id": "w-function",
+   "headword": "function",
+   "pos": "名",
+   "meanings": [
+    "機能",
+    "働き"
+   ],
+   "level": 2,
+   "ipa": "/ˈfʌŋkʃn/",
+   "example": {
+    "en": "The function of the heart is to pump blood.",
+    "ja": "心臓の働きは血液を送り出すことだ。"
+   }
+  },
+  {
+   "id": "w-generation",
+   "headword": "generation",
+   "pos": "名",
+   "meanings": [
+    "世代"
+   ],
+   "level": 2,
+   "ipa": "/ˌdʒenəˈreɪʃn/",
+   "example": {
+    "en": "We must protect nature for future generations.",
+    "ja": "将来の世代のために自然を守らなければならない。"
+   }
+  },
+  {
+   "id": "w-gradually",
+   "headword": "gradually",
+   "pos": "副",
+   "meanings": [
+    "徐々に"
+   ],
+   "level": 2,
+   "ipa": "/ˈɡrædʒuəli/",
+   "example": {
+    "en": "The pain gradually disappeared.",
+    "ja": "痛みは徐々に消えた。"
+   },
+   "derivatives": [
+    "gradual 形 段階的な"
+   ]
+  },
+  {
+   "id": "w-ignore",
+   "headword": "ignore",
+   "pos": "動",
+   "meanings": [
+    "無視する"
+   ],
+   "level": 2,
+   "ipa": "/ɪɡˈnɔːr/",
+   "example": {
+    "en": "He ignored my advice.",
+    "ja": "彼は私の忠告を無視した。"
+   },
+   "derivatives": [
+    "ignorance 名 無知",
+    "ignorant 形 無知な"
+   ]
+  },
+  {
+   "id": "w-immediately",
+   "headword": "immediately",
+   "pos": "副",
+   "meanings": [
+    "すぐに"
+   ],
+   "level": 2,
+   "ipa": "/ɪˈmiːdiətli/",
+   "example": {
+    "en": "Call an ambulance immediately.",
+    "ja": "すぐに救急車を呼んで。"
+   },
+   "derivatives": [
+    "immediate 形 即座の"
+   ]
+  },
+  {
+   "id": "w-income",
+   "headword": "income",
+   "pos": "名",
+   "meanings": [
+    "収入"
+   ],
+   "level": 2,
+   "ipa": "/ˈɪnkʌm/",
+   "example": {
+    "en": "He has a high income.",
+    "ja": "彼は収入が多い。"
+   },
+   "note": "収入の大小は high / low（large / small）。"
+  },
+  {
+   "id": "w-independent",
+   "headword": "independent",
+   "pos": "形",
+   "meanings": [
+    "独立した",
+    "自立した"
+   ],
+   "level": 2,
+   "ipa": "/ˌɪndɪˈpendənt/",
+   "example": {
+    "en": "She became independent of her parents.",
+    "ja": "彼女は親から自立した。"
+   },
+   "antonyms": [
+    "dependent 依存した（on）"
+   ],
+   "collocations": [
+    "be independent of ~"
+   ]
+  },
+  {
+   "id": "w-individual",
+   "headword": "individual",
+   "pos": "名",
+   "meanings": [
+    "個人"
+   ],
+   "level": 2,
+   "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+   "example": {
+    "en": "Each individual has different needs.",
+    "ja": "一人ひとり必要とするものは違う。"
+   },
+   "note": "形容詞「個々の」。"
+  },
+  {
+   "id": "w-involve",
+   "headword": "involve",
+   "pos": "動",
+   "meanings": [
+    "含む",
+    "巻き込む",
+    "関係させる"
+   ],
+   "level": 2,
+   "ipa": "/ɪnˈvɒlv/",
+   "example": {
+    "en": "The job involves a lot of travel.",
+    "ja": "その仕事には多くの出張が伴う。"
+   },
+   "collocations": [
+    "be involved in ~（〜に関わる）"
+   ]
+  },
+  {
+   "id": "w-issue",
+   "headword": "issue",
+   "pos": "名",
+   "meanings": [
+    "問題",
+    "発行（物）"
+   ],
+   "level": 2,
+   "ipa": "/ˈɪʃuː/",
+   "example": {
+    "en": "Gender equality is an important issue.",
+    "ja": "男女平等は重要な問題だ。"
+   }
+  },
+  {
+   "id": "w-lack",
+   "headword": "lack",
+   "pos": "名",
+   "meanings": [
+    "欠如",
+    "不足"
+   ],
+   "level": 2,
+   "ipa": "/læk/",
+   "example": {
+    "en": "Lack of sleep affects your health.",
+    "ja": "睡眠不足は健康に影響する。"
+   },
+   "note": "動詞は他動詞：He lacks experience.（×lacks of）"
+  },
+  {
+   "id": "w-likely",
+   "headword": "likely",
+   "pos": "形",
+   "meanings": [
+    "〜しそうな",
+    "ありそうな"
+   ],
+   "level": 2,
+   "ipa": "/ˈlaɪkli/",
+   "example": {
+    "en": "It is likely to rain this afternoon.",
+    "ja": "今日の午後は雨が降りそうだ。"
+   },
+   "antonyms": [
+    "unlikely ありそうにない"
+   ],
+   "collocations": [
+    "be likely to do"
+   ]
+  },
+  {
+   "id": "w-mention",
+   "headword": "mention",
+   "pos": "動",
+   "meanings": [
+    "言及する"
+   ],
+   "level": 2,
+   "ipa": "/ˈmenʃn/",
+   "example": {
+    "en": "He didn't mention the accident.",
+    "ja": "彼はその事故には触れなかった。"
+   },
+   "note": "他動詞：×mention about。Don't mention it.（どういたしまして）"
+  },
+  {
+   "id": "w-mental",
+   "headword": "mental",
+   "pos": "形",
+   "meanings": [
+    "精神の"
+   ],
+   "level": 2,
+   "ipa": "/ˈmentl/",
+   "example": {
+    "en": "Exercise is good for mental health.",
+    "ja": "運動は心の健康に良い。"
+   },
+   "antonyms": [
+    "physical 身体の"
+   ]
+  },
+  {
+   "id": "w-nervous",
+   "headword": "nervous",
+   "pos": "形",
+   "meanings": [
+    "緊張した",
+    "神経の"
+   ],
+   "level": 2,
+   "ipa": "/ˈnɜːvəs/",
+   "example": {
+    "en": "I always get nervous before exams.",
+    "ja": "試験前はいつも緊張する。"
+   }
+  },
+  {
+   "id": "w-occur",
+   "headword": "occur",
+   "pos": "動",
+   "meanings": [
+    "起こる",
+    "（考えが）浮かぶ"
+   ],
+   "level": 2,
+   "ipa": "/əˈkɜːr/",
+   "example": {
+    "en": "The accident occurred at midnight.",
+    "ja": "事故は真夜中に起きた。"
+   },
+   "collocations": [
+    "It occurred to me that ~（ふと〜と思いついた）"
+   ]
+  },
+  {
+   "id": "w-participate",
+   "headword": "participate",
+   "pos": "動",
+   "meanings": [
+    "参加する"
+   ],
+   "level": 2,
+   "ipa": "/pɑːˈtɪsɪpeɪt/",
+   "example": {
+    "en": "Many students participated in the event.",
+    "ja": "多くの生徒がその行事に参加した。"
+   },
+   "synonyms": [
+    "take part in"
+   ],
+   "collocations": [
+    "participate in ~"
+   ]
+  },
+  {
+   "id": "w-particular",
+   "headword": "particular",
+   "pos": "形",
+   "meanings": [
+    "特定の",
+    "特別な"
+   ],
+   "level": 2,
+   "ipa": "/pəˈtɪkjələr/",
+   "example": {
+    "en": "Is there any particular reason?",
+    "ja": "何か特別な理由がありますか。"
+   },
+   "collocations": [
+    "in particular（特に）",
+    "be particular about ~（〜にうるさい）"
+   ]
+  },
+  {
+   "id": "w-physical",
+   "headword": "physical",
+   "pos": "形",
+   "meanings": [
+    "身体の",
+    "物理的な"
+   ],
+   "level": 2,
+   "ipa": "/ˈfɪzɪkl/",
+   "example": {
+    "en": "Physical activity is good for the brain.",
+    "ja": "身体活動は脳に良い。"
+   },
+   "derivatives": [
+    "physics 名 物理学"
+   ]
+  },
+  {
+   "id": "w-predict",
+   "headword": "predict",
+   "pos": "動",
+   "meanings": [
+    "予測する"
+   ],
+   "level": 2,
+   "ipa": "/prɪˈdɪkt/",
+   "example": {
+    "en": "It is difficult to predict the future.",
+    "ja": "未来を予測するのは難しい。"
+   },
+   "derivatives": [
+    "prediction 名 予測"
+   ]
+  },
+  {
+   "id": "w-pressure",
+   "headword": "pressure",
+   "pos": "名",
+   "meanings": [
+    "圧力",
+    "重圧"
+   ],
+   "level": 2,
+   "ipa": "/ˈpreʃər/",
+   "example": {
+    "en": "He is under a lot of pressure at work.",
+    "ja": "彼は仕事で大きな重圧を受けている。"
+   }
+  },
+  {
+   "id": "w-prevent",
+   "headword": "prevent",
+   "pos": "動",
+   "meanings": [
+    "妨げる",
+    "防ぐ"
+   ],
+   "level": 2,
+   "ipa": "/prɪˈvent/",
+   "example": {
+    "en": "Washing your hands helps prevent infection.",
+    "ja": "手洗いは感染予防に役立つ。"
+   },
+   "derivatives": [
+    "prevention 名 予防"
+   ],
+   "collocations": [
+    "prevent O from doing"
+   ]
+  },
+  {
+   "id": "w-progress",
+   "headword": "progress",
+   "pos": "名",
+   "meanings": [
+    "進歩",
+    "前進"
+   ],
+   "level": 2,
+   "ipa": "/ˈprəʊɡres/",
+   "example": {
+    "en": "She is making progress in English.",
+    "ja": "彼女は英語が上達している。"
+   },
+   "note": "不可算名詞（×a progress）。"
+  },
+  {
+   "id": "w-quality",
+   "headword": "quality",
+   "pos": "名",
+   "meanings": [
+    "質"
+   ],
+   "level": 2,
+   "ipa": "/ˈkwɒləti/",
+   "example": {
+    "en": "Quality is more important than quantity.",
+    "ja": "量より質が大切だ。"
+   },
+   "antonyms": [
+    "quantity 量"
+   ]
+  },
+  {
+   "id": "w-refuse",
+   "headword": "refuse",
+   "pos": "動",
+   "meanings": [
+    "拒否する",
+    "断る"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈfjuːz/",
+   "example": {
+    "en": "He refused to answer the question.",
+    "ja": "彼は質問に答えるのを拒んだ。"
+   },
+   "derivatives": [
+    "refusal 名 拒否"
+   ]
+  },
+  {
+   "id": "w-rely",
+   "headword": "rely",
+   "pos": "動",
+   "meanings": [
+    "頼る",
+    "当てにする"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈlaɪ/",
+   "example": {
+    "en": "You can rely on him.",
+    "ja": "彼は頼りになる。"
+   },
+   "derivatives": [
+    "reliable 形 信頼できる"
+   ],
+   "collocations": [
+    "rely on ~"
+   ]
+  },
+  {
+   "id": "w-remain",
+   "headword": "remain",
+   "pos": "動",
+   "meanings": [
+    "〜のままである",
+    "残る"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈmeɪn/",
+   "example": {
+    "en": "Please remain seated.",
+    "ja": "座ったままでいてください。"
+   },
+   "derivatives": [
+    "remains 名 遺跡；残り"
+   ]
+  },
+  {
+   "id": "w-responsible",
+   "headword": "responsible",
+   "pos": "形",
+   "meanings": [
+    "責任がある",
+    "原因である"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈspɒnsəbl/",
+   "example": {
+    "en": "Who is responsible for this mess?",
+    "ja": "この散らかりは誰の責任だ。"
+   },
+   "derivatives": [
+    "responsibility 名 責任"
+   ],
+   "collocations": [
+    "be responsible for ~"
+   ]
+  },
+  {
+   "id": "w-satisfy",
+   "headword": "satisfy",
+   "pos": "動",
+   "meanings": [
+    "満足させる"
+   ],
+   "level": 2,
+   "ipa": "/ˈsætɪsfaɪ/",
+   "example": {
+    "en": "I was satisfied with the result.",
+    "ja": "私はその結果に満足した。"
+   },
+   "derivatives": [
+    "satisfaction 名 満足"
+   ],
+   "collocations": [
+    "be satisfied with ~"
+   ]
+  },
+  {
+   "id": "w-valuable",
+   "headword": "valuable",
+   "pos": "形",
+   "meanings": [
+    "貴重な",
+    "高価な"
+   ],
+   "level": 2,
+   "ipa": "/ˈvæljuəbl/",
+   "example": {
+    "en": "This was a valuable experience.",
+    "ja": "これは貴重な経験だった。"
+   },
+   "note": "invaluable は「非常に貴重な」（否定ではない）。"
   }
  ]
 }

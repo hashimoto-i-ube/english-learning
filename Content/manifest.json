@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T11:14:34Z",
+  "generatedAt" : "2026-10-22T12:32:35Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -13,16 +13,16 @@
     {
       "file" : "packs/construction-core.json",
       "id" : "construction.core",
-      "revision" : 1,
-      "sha256" : "f241ff4cf65e746398338e61e9e0c7692f00296857defae79eec100e48623d2c",
+      "revision" : 2,
+      "sha256" : "35b0099bfc1c4f8544555202937d5d08d805c200dedac77cfd312da3599dcedd",
       "skill" : "construction",
       "title" : "英文解釈・構文"
     },
     {
       "file" : "packs/grammar-core.json",
       "id" : "grammar.core",
-      "revision" : 1,
-      "sha256" : "9b4a0d6dea2599ecd175c5bc6ed5d54aa743de351178ad168c34c953cc29596e",
+      "revision" : 2,
+      "sha256" : "4b6dade6d06e34beb9b99b1a34fa51c4e4b6ea994501b4a5bae028b6c09d881c",
       "skill" : "grammar",
       "title" : "文法・語法 基本〜発展"
     },
@@ -53,56 +53,56 @@
     {
       "file" : "packs/vocab-l1.json",
       "id" : "vocab.core.l1",
-      "revision" : 1,
-      "sha256" : "4881b4af751aae3332aa8068af69cf203e188559bfb83eb7b9edd1e635c6ea34",
+      "revision" : 2,
+      "sha256" : "3383aa2d6ea6f4af9c39a5668d15e06b2a67f504eb003a0810d9a8ab0c96711c",
       "skill" : "vocabulary",
       "title" : "Lv1 基本語彙"
     },
     {
       "file" : "packs/vocab-l2.json",
       "id" : "vocab.core.l2",
-      "revision" : 1,
-      "sha256" : "ffa1db6d88a46c36ca854b4c552454dadf1d02d889772336b7edff1668f48baa",
+      "revision" : 2,
+      "sha256" : "a7cb7d87d4d6bd7d060f81f3300d998cf3a6ad44bd95178667d695e8f14c3162",
       "skill" : "vocabulary",
       "title" : "Lv2 高1標準語彙"
     },
     {
       "file" : "packs/vocab-l3.json",
       "id" : "vocab.core.l3",
-      "revision" : 1,
-      "sha256" : "c38dfd2d3d0f001fb635b47ae07c204fcb9b86932c7376f56b086f3421e41e10",
+      "revision" : 2,
+      "sha256" : "15c9ffa7970c177f369c0361f542405b021e34e530ef46d4f36f76a71113359a",
       "skill" : "vocabulary",
       "title" : "Lv3 共通テスト基礎語彙"
     },
     {
       "file" : "packs/vocab-l4.json",
       "id" : "vocab.core.l4",
-      "revision" : 1,
-      "sha256" : "35602bb0bac2bf08b6c639622a542a214f2074f3ef1e977f6061861023a30fa9",
+      "revision" : 2,
+      "sha256" : "9b9c8f9b30555f01d16e7c3822e531647529a18cb15ea302fdea7459faf26d00",
       "skill" : "vocabulary",
       "title" : "Lv4 共通テスト・中堅大語彙"
     },
     {
       "file" : "packs/vocab-l5.json",
       "id" : "vocab.core.l5",
-      "revision" : 1,
-      "sha256" : "5ee5f1b1be4bf8e6723b2e08f9ef2a1dc7019bc5bab911c594b52cd845a07461",
+      "revision" : 2,
+      "sha256" : "7a40f741d05524ae2d1f9419018ddc0b8d13205b3bef24ecf4097d158ba3beae",
       "skill" : "vocabulary",
       "title" : "Lv5 国公立・GMARCH 語彙"
     },
     {
       "file" : "packs/vocab-l6.json",
       "id" : "vocab.core.l6",
-      "revision" : 1,
-      "sha256" : "a27e7409236747d6f83350ff17462203a3d4a68991cf16d93aee97541048e15c",
+      "revision" : 2,
+      "sha256" : "edb7da192118ac5d4f33b5347c483276a8a607613690216c836d6dd81efc4cfd",
       "skill" : "vocabulary",
       "title" : "Lv6 旧帝大・早慶 語彙"
     },
     {
       "file" : "packs/vocab-l7.json",
       "id" : "vocab.core.l7",
-      "revision" : 1,
-      "sha256" : "211beb24c91ed7105db1aad6b9c00b1582bcd4bf228a7a7f7368500b75bc89b4",
+      "revision" : 2,
+      "sha256" : "61b2d9902e28f752f7da88c8fe2ec8bbbc3caf7b399c028c9287e77385ae3d9a",
       "skill" : "vocabulary",
       "title" : "Lv7 最難関・医学部 語彙"
     }

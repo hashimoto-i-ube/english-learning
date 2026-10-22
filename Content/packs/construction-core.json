@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "construction.core",
- "revision": 1,
+ "revision": 2,
  "skill": "construction",
  "title": "英文解釈・構文",
  "description": "文型判定から難関大の下線部和訳まで、精読の技術を段階的に習得",
@@ -642,6 +642,533 @@
       "Much as S V「〜だけれども・どれほど〜でも」（譲歩）",
       "wish otherwise「そうでないことを望む」",
       "no single diet suits everyone「すべての人に合う食事法は一つもない」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-modifier-scope",
+   "title": "修飾関係を見抜く（前置詞句・分詞・不定詞の後置修飾）",
+   "level": 2,
+   "category": "修飾構造",
+   "summary": "名詞を後ろから修飾する要素を見つけ、どこまでが主語かを判定する。",
+   "explanation": "## 英語は「後ろから修飾」が基本\n\n日本語は「修飾語 → 名詞」だが、英語では2語以上のまとまりは**名詞の後ろ**に置かれる。\n\n| 修飾要素 | 例 |\n|---|---|\n| 前置詞句 | the book **on the desk** |\n| 現在分詞 | the girl **playing the piano** |\n| 過去分詞 | a car **made in Japan** |\n| 不定詞 | something **to drink** |\n| 関係詞節 | the man **who lives next door** |\n\n## 主語の範囲を決めるコツ\n\n文頭の名詞のあとに修飾語が続く場合、**述語動詞が出てくるまでが主語**。\n**The students [taking part in the program] [from various countries]** live together.\n→ 述語動詞は live。\n\n## 分詞か述語動詞か\n\n過去形と過去分詞が同じ形の動詞（used, called, based など）に注意。\nThe method **used** in the study **was** simple.\n→ used は過去分詞（修飾）、was が述語動詞。",
+   "examples": [
+    {
+     "en": "The number of people living alone is increasing.",
+     "ja": "一人暮らしをする人の数が増えている。"
+    },
+    {
+     "en": "The data collected by the team showed a clear trend.",
+     "ja": "そのチームが集めたデータははっきりした傾向を示した。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-ms-1",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "The man sitting next to the window in the last row"
+     ],
+     "explanation": "述語動詞 is の直前までが主語。",
+     "sentence": "The man sitting next to the window in the last row is my uncle.\n主語の範囲として正しいものを選びなさい。",
+     "choices": [
+      "The man",
+      "The man sitting next to the window",
+      "The man sitting next to the window in the last row",
+      "the last row"
+     ]
+    },
+    {
+     "id": "c-ms-2",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "sold"
+     ],
+     "explanation": "written は過去分詞で books を修飾。sold が述語動詞。",
+     "sentence": "The books written by the author sold millions of copies.\n述語動詞はどれか。",
+     "choices": [
+      "written",
+      "sold",
+      "copies",
+      "books"
+     ]
+    },
+    {
+     "id": "c-ms-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "二言語を使う家庭で育てられた子どもは、しばしば苦もなく言語を切り替える。"
+     ],
+     "explanation": "raised は過去分詞の後置修飾。述語動詞は switch。",
+     "sentence": "Children raised in bilingual families often switch between languages without effort.",
+     "keyPoints": [
+      "raised in bilingual families が Children を修飾（過去分詞）",
+      "述語動詞 switch",
+      "without effort「苦もなく」"
+     ]
+    },
+    {
+     "id": "c-ms-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "工場を閉鎖するという決定は、その町に住む何百人もの労働者に影響を与えた。"
+     ],
+     "explanation": "不定詞と現在分詞の後置修飾。",
+     "sentence": "The decision to close the factory affected hundreds of workers living in the town.",
+     "keyPoints": [
+      "to close the factory が decision を修飾（同格的な不定詞）",
+      "living in the town が workers を修飾"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-what-that",
+   "title": "what と that の判別",
+   "level": 3,
+   "category": "名詞節",
+   "summary": "関係代名詞 what・疑問詞 what・接続詞 that・関係代名詞 that を、後ろの文の形で見分ける。",
+   "explanation": "## 判別の基本：後ろが「完全な文」か「不完全な文」か\n\n| 語 | 後ろの文 | 意味 |\n|---|---|---|\n| 接続詞 that | **完全** | 〜ということ |\n| 関係代名詞 that | **不完全**（前に先行詞あり） | 〜する（名詞） |\n| 関係代名詞 what | **不完全**（先行詞なし） | 〜すること・もの |\n| 疑問詞 what | **不完全** | 何が／何を〜か |\n\n例：\n- I know **that** he likes music.（he likes music は完全 → 接続詞）\n- I know **what** he likes.（likes の目的語が欠ける → what）\n- This is the CD **that** he likes.（先行詞 the CD → 関係代名詞）\n\n## 関係代名詞 what と疑問詞 what\n\n文脈で判断する。訳し分けに迷ったら「〜こと・もの」と「何が〜か」の両方で考える。",
+   "examples": [
+    {
+     "en": "What he said turned out to be true.",
+     "ja": "彼が言ったことは本当だとわかった。"
+    },
+    {
+     "en": "The fact that she was absent surprised us.",
+     "ja": "彼女が欠席したという事実に私たちは驚いた。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-wt-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "What"
+     ],
+     "explanation": "surprised の主語が欠けた不完全な文で、先行詞がない → What。",
+     "sentence": "___ surprised me was his calmness.",
+     "choices": [
+      "That",
+      "What",
+      "Which",
+      "It"
+     ]
+    },
+    {
+     "id": "c-wt-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "that"
+     ],
+     "explanation": "後ろが完全な文（he has been to Africa）→ 接続詞 that。形式主語構文。",
+     "sentence": "It is true ___ he has been to Africa.",
+     "choices": [
+      "what",
+      "that",
+      "which",
+      "who"
+     ]
+    },
+    {
+     "id": "c-wt-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "what"
+     ],
+     "explanation": "ordered の目的語が欠け、先行詞がない → what。",
+     "sentence": "This is not ___ I ordered.",
+     "choices": [
+      "that",
+      "what",
+      "which",
+      "it"
+     ]
+    },
+    {
+     "id": "c-wt-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "私たちを人間たらしめているのは、何を知っているかではなく、その知識を使って何をすることを選ぶかである。"
+     ],
+     "explanation": "3つの what 節が主語・補語の位置に並んでいる。",
+     "sentence": "What makes us human is not what we know but what we choose to do with that knowledge.",
+     "keyPoints": [
+      "主語 What makes us human（関係代名詞 what）",
+      "not A but B",
+      "what we know / what we choose to do（名詞節）"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-reference",
+   "title": "指示語・代名詞の内容を特定する",
+   "level": 4,
+   "category": "読解の技術",
+   "summary": "it / this / that / they / such / so の指す内容を前後から特定し、和訳・内容説明で具体化する。",
+   "explanation": "## 指示語問題の基本手順\n\n1. 指示語が**単数か複数か**、**人か物か事柄か**を確認する\n2. **直前の文**から候補を探す（多くは直前）\n3. 候補を指示語の位置に入れて**意味が通るか**確認する\n\n## 指示語ごとの特徴\n\n| 指示語 | 指すもの |\n|---|---|\n| it | 前の名詞（単数）、または形式主語・形式目的語・天候など |\n| this | 直前の内容（文・段落の一部）を指すことが多い |\n| that | 前の名詞の繰り返し回避（that of 〜）、または直前の内容 |\n| they / them | 前の複数名詞（人とは限らない） |\n| such | 「そのような」：前の内容の性質 |\n| do so / so | 前の動詞句・that 節 |\n\n## 和訳での具体化\n\n和訳問題で「this を具体的に明らかにして訳せ」と指示されたら、指示語の部分を**内容に置き換えて**訳す。",
+   "examples": [
+    {
+     "en": "Some people learn languages easily. This may be partly due to their memory.",
+     "ja": "言語を簡単に習得する人もいる。これは一部には記憶力によるのかもしれない。",
+     "note": "This = 言語を簡単に習得すること"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-rf-1",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "南へ飛んで行くこと"
+     ],
+     "explanation": "do this = fly south in winter。",
+     "sentence": "Many birds fly south in winter. They do this to find food.\nthis が指す内容は？",
+     "choices": [
+      "冬になること",
+      "南へ飛んで行くこと",
+      "食べ物を見つけること",
+      "鳥であること"
+     ]
+    },
+    {
+     "id": "c-rf-2",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "the climate"
+     ],
+     "explanation": "that of 〜 は前の名詞（the climate）の繰り返しを避ける。",
+     "sentence": "The climate of Japan is milder than that of Canada.\nthat が指すものは？",
+     "choices": [
+      "Japan",
+      "the climate",
+      "Canada",
+      "mild"
+     ]
+    },
+    {
+     "id": "c-rf-3",
+     "type": "shortAnswer",
+     "prompt": "下線部 it の指す内容を日本語で具体的に説明しなさい。",
+     "answers": [
+      "自分の弱さを認めること。"
+     ],
+     "explanation": "it は直前の不定詞句 to admit one's weaknesses を指す（形式主語ではない点に注意）。",
+     "sentence": "To admit one's weaknesses is not easy, but it is the first step toward growth.",
+     "keyPoints": [
+      "it = to admit one's weaknesses",
+      "「自分の弱さを認めること」"
+     ]
+    },
+    {
+     "id": "c-rf-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "動物は私たちとほぼ同じように感情を感じると主張する科学者もいる。もしそうなら、私たちは動物の扱い方を考え直す必要があるかもしれない。"
+     ],
+     "explanation": "If so の so は前文の that 節の内容を受ける。",
+     "sentence": "Some scientists argue that animals feel emotions much as we do. If so, we may need to rethink how we treat them.",
+     "keyPoints": [
+      "much as we do「私たちとほぼ同じように」",
+      "If so = 動物が感情を感じるなら",
+      "them = animals"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-insertion",
+   "title": "挿入・同格・ダッシュを読む",
+   "level": 5,
+   "category": "文構造",
+   "summary": "カンマやダッシュで挟まれた挿入を外して骨格をつかみ、同格の名詞・節の関係を見抜く。",
+   "explanation": "## 挿入は「いったん外す」\n\nカンマ・ダッシュ・カッコで挟まれた部分は**挿入**のことが多い。外すと文の骨格が見える。\nThe problem, **as far as I can see**, is a lack of trust.\n→ The problem is a lack of trust.\n\n## よく出る挿入\n\n- S + think / believe / say：**who I think** is honest\n- 副詞句・節：however, of course, in fact, if any, if ever\n- 分詞構文：..., **considering his age**, ...\n\n## if any / if ever / if at all\n\n- There are few, **if any**, mistakes.（あるとしてもごくわずか）\n- He seldom, **if ever**, goes out.（たとえあるにしてもめったに〜ない）\n\n## 同格\n\n名詞をカンマやダッシュで言い換える：\nTokyo, **the capital of Japan**, is a huge city.\nOne thing is clear — **we cannot go back**.（ダッシュの後ろが前の内容を具体化）",
+   "examples": [
+    {
+     "en": "He is, if anything, a little better today.",
+     "ja": "彼はどちらかと言えば今日のほうが少し調子がいい。"
+    },
+    {
+     "en": "There is little, if any, hope of success.",
+     "ja": "成功の見込みは、あるとしてもほとんどない。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-in-1",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "彼女はめったに文句を言わない。"
+     ],
+     "explanation": "seldom, if ever「たとえあるにしてもめったに〜ない」。",
+     "sentence": "She seldom, if ever, complains.",
+     "choices": [
+      "彼女はよく文句を言う。",
+      "彼女はめったに文句を言わない。",
+      "彼女は時々文句を言う。",
+      "彼女は文句を言ったことがある。"
+     ]
+    },
+    {
+     "id": "c-in-2",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "多くの教育者が信じるところでは、最も重要な技能は生涯学び続ける能力である。"
+     ],
+     "explanation": "挿入を外すと S is C の単純な文。",
+     "sentence": "The most important skill, many educators believe, is the ability to keep learning throughout life.",
+     "keyPoints": [
+      "挿入 many educators believe を外す",
+      "骨格 The most important skill is the ability",
+      "to keep learning が ability を修飾"
+     ]
+    },
+    {
+     "id": "c-in-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "一つのことだけが確かなように思われた。それは、昔ながらの働き方は二度と戻ってこないということだ。"
+     ],
+     "explanation": "ダッシュの後ろが前の名詞を具体化している。",
+     "sentence": "Only one thing seemed certain — the old way of working would never return.",
+     "keyPoints": [
+      "ダッシュ以下が one thing の内容（同格）",
+      "would never return（過去から見た未来）"
+     ]
+    },
+    {
+     "id": "c-in-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その小説は作者がわずか19歳のときに書かれたものだが、今でも広く読まれている。これは多くの読者を驚かせる事実である。"
+     ],
+     "explanation": "a fact は前の文の内容全体を言い換えた同格表現。",
+     "sentence": "The novel, which was written when the author was only nineteen, is still widely read — a fact that surprises many readers.",
+     "keyPoints": [
+      "非制限用法の which 節（挿入的）",
+      "ダッシュ以下 a fact that ... は前の文全体と同格",
+      "that surprises は関係代名詞"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-concession",
+   "title": "譲歩と対比の読み方（while / granted / may ～ but）",
+   "level": 5,
+   "category": "論理構造",
+   "summary": "譲歩表現の後に来る筆者の本当の主張を見抜く。内容一致・要約問題の核心。",
+   "explanation": "## 譲歩 → 主張の型\n\n筆者はしばしば**反対意見を一度認めてから**自分の主張を述べる。主張は後半にある。\n\n| 譲歩の目印 | 主張の目印 |\n|---|---|\n| It is true that 〜 / Of course 〜 / Certainly 〜 | but / however / yet |\n| 〜 may ... | but ... |\n| Admittedly 〜 / Granted (that) 〜 | Still / Nevertheless |\n| While 〜 / Although 〜 | 主節 |\n\n## while の2つの意味\n\n- 時：〜している間\n- 譲歩・対比：〜だけれども／〜である一方\n\n**While** some people prefer cities, others love the countryside.（対比）\n\n## 形容詞・副詞 + as + S + V\n\n**Young as he is**, he is very wise.（若いけれども）\n**Much as** I like him, I can't agree with him.（どんなに好きでも）",
+   "examples": [
+    {
+     "en": "Granted that the plan has some merits, it is too risky.",
+     "ja": "その計画にいくつか利点があることは認めるとしても、危険すぎる。"
+    },
+    {
+     "en": "Strange as it may sound, I have never seen the sea.",
+     "ja": "奇妙に聞こえるかもしれないが、私は海を見たことがない。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-cc-1",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "技術は人をより孤立させる面もある。"
+     ],
+     "explanation": "It is true that 〜, but … の but 以下が主張。",
+     "sentence": "It is true that technology makes life convenient, but it also makes us more isolated.\n筆者の主張の中心はどれか。",
+     "choices": [
+      "技術は生活を便利にする。",
+      "技術は人をより孤立させる面もある。",
+      "技術は不要である。",
+      "技術は人をつなげる。"
+     ]
+    },
+    {
+     "id": "c-cc-2",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "疲れていたけれども、彼女は働き続けた。"
+     ],
+     "explanation": "形容詞 + as + S + V は譲歩「〜だけれども」。",
+     "sentence": "Tired as she was, she kept working.",
+     "choices": [
+      "疲れていたので、彼女は仕事をやめた。",
+      "疲れていたけれども、彼女は働き続けた。",
+      "疲れるまで彼女は働いた。",
+      "彼女はとても疲れているように見えた。"
+     ]
+    },
+    {
+     "id": "c-cc-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "SNSは遠く離れた人々をつなぐことができる一方で、人々にこれまで以上に孤独を感じさせることもある。"
+     ],
+     "explanation": "While は時ではなく対比。",
+     "sentence": "While social media can connect people across great distances, it can also make them feel lonelier than ever.",
+     "keyPoints": [
+      "While（対比・譲歩）「〜一方で」",
+      "can「〜しうる」",
+      "make O feel C",
+      "lonelier than ever"
+     ]
+    },
+    {
+     "id": "c-cc-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "確かに、共通試験には限界がある。それでも、それは多数の生徒を比較するための最も公平な方法の一つであり続けている。"
+     ],
+     "explanation": "Admittedly で譲歩、still 以下が主張。",
+     "sentence": "Admittedly, standardized tests have their limitations; still, they remain one of the fairest ways to compare large numbers of students.",
+     "keyPoints": [
+      "Admittedly（譲歩）→ still（主張）",
+      "remain C「Cのままである」",
+      "one of the + 最上級 + 複数名詞"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-ellipsis-reading",
+   "title": "省略を補って読む（共通語の省略・比較の省略）",
+   "level": 6,
+   "category": "文構造",
+   "summary": "繰り返しを避けて省略された語句を補い、正確な構造を把握する。",
+   "explanation": "## 等位接続での省略\n\n同じ語句の繰り返しは省略される。and / but / or の後ろで**何が欠けているか**を考える。\nSome students study in the library, **others at home**.\n→ others (study) at home\n\n## 比較構文での省略\n\nthan / as の後ろは前と共通の部分が省略される。\nThe population of Tokyo is larger than **that of any other city in Japan**.\nHe works harder **than he did** a year ago.\n\n## 代不定詞・助動詞の後の省略\n\nI asked him to help, but he didn't **want to**.\nShe can speak French, and **so can her brother**.\n\n## 難関大での典型\n\n省略が**複数重なる**文や、**倒置と組み合わさる**文が出題される。補った完全な文を頭の中で作ってから訳す。",
+   "examples": [
+    {
+     "en": "To some, the change was a threat; to others, an opportunity.",
+     "ja": "ある人々にとってその変化は脅威であり、他の人々にとっては好機だった。",
+     "note": "to others, (the change was) an opportunity"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-el-1",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "読書は私たちに知識を与え、会話はそれを使う能力を与える。"
+     ],
+     "explanation": "カンマが省略された動詞 gives us の位置を示している。",
+     "sentence": "Reading gives us knowledge; conversation, the ability to use it.",
+     "keyPoints": [
+      "conversation (gives us) the ability to use it",
+      "it = knowledge"
+     ]
+    },
+    {
+     "id": "c-el-2",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "脳は体と少なくとも同じくらい、もしかするとそれ以上に睡眠を必要とする。"
+     ],
+     "explanation": "does は needs sleep の代用。if not more は「それ以上とは言わないまでも」。",
+     "sentence": "The brain needs sleep just as much as the body does, if not more.",
+     "keyPoints": [
+      "as much as the body does (= needs sleep)",
+      "if not more「それ以上ではないとしても」"
+     ]
+    },
+    {
+     "id": "c-el-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "インターネットによって私たちは賢くなったと主張する人もいれば、それによって私たちは気が散りやすくなったと主張する人もいる。"
+     ],
+     "explanation": "セミコロンの後ろで argue が省略されている。",
+     "sentence": "Some argue that the internet has made us smarter; others, that it has made us more easily distracted.",
+     "keyPoints": [
+      "others (argue) that ...",
+      "made us smarter / more easily distracted（SVOC）"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-advanced-translation",
+   "title": "最難関の下線部和訳（抽象度の高い英文）",
+   "level": 7,
+   "category": "総合",
+   "summary": "東大・京大・医学部レベル。抽象名詞・比喩・多重修飾を含む英文を、構造を崩さず自然な日本語にする。",
+   "explanation": "## 抽象度の高い英文を訳す技術\n\n1. **構造の確定**：S V を特定し、修飾関係・並列・挿入を明示する\n2. **抽象名詞を開く**：the recognition that 〜 →「〜と認識すること」\n3. **比喩を処理する**：直訳で意味が通らないときは比喩の意図を汲む（ただし勝手な意訳はしない）\n4. **指示語・代名詞の確認**：it / this / they が何を指すか\n5. **日本語として読み直す**：主語と述語のねじれがないか\n\n## 減点されやすい点\n\n- 構造の取り違え（修飾先・並列の誤り）\n- 時制・助動詞のニュアンスの欠落（may / would / could）\n- 比較・否定の範囲の誤り\n- 訳語が文脈に合わない（同じ語を辞書の第一義で訳してしまう）",
+   "examples": [
+    {
+     "en": "To understand a culture is not to memorize its customs but to grasp the assumptions that make those customs seem natural to its members.",
+     "ja": "ある文化を理解するとは、その慣習を暗記することではなく、その成員にとってそうした慣習を自然なものに思わせている前提を把握することである。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-at-1",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "私たちは自分のことは意図で判断し、他人のことは行動で判断しがちであり、この習慣のせいで公平であることは見かけよりもはるかに難しくなっている。"
+     ],
+     "explanation": "a habit は前半の内容を言い換えた同格。that は関係代名詞。",
+     "sentence": "We tend to judge ourselves by our intentions and others by their actions, a habit that makes fairness far more difficult than it appears.",
+     "keyPoints": [
+      "judge A by B and C by D の並列（others (by) their actions）",
+      "a habit that ... は前の内容全体との同格",
+      "makes fairness far more difficult than it appears（SVOC + 比較）"
+     ]
+    },
+    {
+     "id": "c-at-2",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "科学理論の価値は、それが正しいということよりも、その理論を生み出した人々が予見できなかったであろう問いを生み出す力にある。"
+     ],
+     "explanation": "less A than B は「AというよりむしろB」。",
+     "sentence": "The value of a scientific theory lies less in its being correct than in its capacity to generate questions that its creators could not have foreseen.",
+     "keyPoints": [
+      "lie in 〜「〜にある」",
+      "less in A than in B「AよりもむしろBにある」",
+      "its being correct（動名詞の意味上の主語）",
+      "could not have foreseen「予見できなかったであろう」"
+     ]
+    },
+    {
+     "id": "c-at-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "医学は延命においてあまりに成功したため、今や、かつては無視していられた問い、すなわち延ばす価値のある生とは何か、という問いを問わざるをえなくなっている。"
+     ],
+     "explanation": "目的格の関係代名詞の省略と、コロン以下の同格に注意。",
+     "sentence": "Medicine has become so successful at prolonging life that it is now obliged to ask a question it once had the luxury of ignoring: what is a life worth prolonging?",
+     "keyPoints": [
+      "so 〜 that …「あまりに〜なので…」",
+      "be obliged to do「〜せざるをえない」",
+      "a question (that) it once had the luxury of ignoring",
+      "a life worth prolonging「延ばす価値のある生命」"
      ]
     }
    ]

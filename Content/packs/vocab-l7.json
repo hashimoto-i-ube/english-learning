@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "vocab.core.l7",
- "revision": 1,
+ "revision": 2,
  "skill": "vocabulary",
  "title": "Lv7 最難関・医学部 語彙",
  "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
@@ -417,6 +417,1204 @@
     "ja": "医師は手術前に十分な説明に基づく同意を得なければならない。"
    },
    "note": "医学部の面接・小論文でも頻出のテーマ。"
+  },
+  {
+   "id": "w-anesthesia",
+   "headword": "anesthesia",
+   "pos": "名",
+   "meanings": [
+    "麻酔"
+   ],
+   "level": 7,
+   "ipa": "/ˌænəsˈθiːziə/",
+   "example": {
+    "en": "The operation was performed under general anesthesia.",
+    "ja": "手術は全身麻酔下で行われた。"
+   },
+   "derivatives": [
+    "anesthetic 名 麻酔薬"
+   ]
+  },
+  {
+   "id": "w-antibiotic",
+   "headword": "antibiotic",
+   "pos": "名",
+   "meanings": [
+    "抗生物質"
+   ],
+   "level": 7,
+   "ipa": "/ˌæntibaɪˈɒtɪk/",
+   "example": {
+    "en": "Antibiotics do not work against viruses.",
+    "ja": "抗生物質はウイルスには効かない。"
+   },
+   "collocations": [
+    "antibiotic resistance（抗生物質耐性）"
+   ]
+  },
+  {
+   "id": "w-antibody",
+   "headword": "antibody",
+   "pos": "名",
+   "meanings": [
+    "抗体"
+   ],
+   "level": 7,
+   "ipa": "/ˈæntibɒdi/",
+   "example": {
+    "en": "The body produces antibodies to fight infection.",
+    "ja": "体は感染と闘うために抗体をつくる。"
+   },
+   "synonyms": [
+    "antigen 抗原（関連語）"
+   ]
+  },
+  {
+   "id": "w-artery",
+   "headword": "artery",
+   "pos": "名",
+   "meanings": [
+    "動脈"
+   ],
+   "level": 7,
+   "ipa": "/ˈɑːtəri/",
+   "example": {
+    "en": "Fat can build up in the arteries.",
+    "ja": "脂肪が動脈にたまることがある。"
+   },
+   "antonyms": [
+    "vein 静脈"
+   ]
+  },
+  {
+   "id": "w-carcinogen",
+   "headword": "carcinogen",
+   "pos": "名",
+   "meanings": [
+    "発がん性物質"
+   ],
+   "level": 7,
+   "ipa": "/kɑːˈsɪnədʒən/",
+   "example": {
+    "en": "Tobacco smoke contains many carcinogens.",
+    "ja": "たばこの煙には多くの発がん性物質が含まれる。"
+   },
+   "derivatives": [
+    "carcinogenic 形 発がん性の"
+   ]
+  },
+  {
+   "id": "w-cardiovascular",
+   "headword": "cardiovascular",
+   "pos": "形",
+   "meanings": [
+    "心臓血管の"
+   ],
+   "level": 7,
+   "ipa": "/ˌkɑːdiəʊˈvæskjələr/",
+   "example": {
+    "en": "Regular exercise reduces the risk of cardiovascular disease.",
+    "ja": "定期的な運動は心血管疾患のリスクを下げる。"
+   }
+  },
+  {
+   "id": "w-chromosome",
+   "headword": "chromosome",
+   "pos": "名",
+   "meanings": [
+    "染色体"
+   ],
+   "level": 7,
+   "ipa": "/ˈkrəʊməsəʊm/",
+   "example": {
+    "en": "Humans normally have 46 chromosomes.",
+    "ja": "ヒトは通常46本の染色体をもつ。"
+   }
+  },
+  {
+   "id": "w-clinical",
+   "headword": "clinical",
+   "pos": "形",
+   "meanings": [
+    "臨床の"
+   ],
+   "level": 7,
+   "ipa": "/ˈklɪnɪkl/",
+   "example": {
+    "en": "The drug is now in clinical trials.",
+    "ja": "その薬は現在臨床試験中だ。"
+   },
+   "derivatives": [
+    "clinic 名 診療所"
+   ]
+  },
+  {
+   "id": "w-congenital",
+   "headword": "congenital",
+   "pos": "形",
+   "meanings": [
+    "先天性の"
+   ],
+   "level": 7,
+   "ipa": "/kənˈdʒenɪtl/",
+   "example": {
+    "en": "The baby was born with a congenital heart defect.",
+    "ja": "その赤ちゃんは先天性心疾患をもって生まれた。"
+   }
+  },
+  {
+   "id": "w-dementia",
+   "headword": "dementia",
+   "pos": "名",
+   "meanings": [
+    "認知症"
+   ],
+   "level": 7,
+   "ipa": "/dɪˈmenʃə/",
+   "example": {
+    "en": "The number of people with dementia is rising.",
+    "ja": "認知症の人の数が増えている。"
+   }
+  },
+  {
+   "id": "w-dose",
+   "headword": "dose",
+   "pos": "名",
+   "meanings": [
+    "（薬の1回の）服用量"
+   ],
+   "level": 7,
+   "ipa": "/dəʊs/",
+   "example": {
+    "en": "Do not exceed the recommended dose.",
+    "ja": "推奨用量を超えないこと。"
+   },
+   "derivatives": [
+    "dosage 名 用量"
+   ]
+  },
+  {
+   "id": "w-embryo",
+   "headword": "embryo",
+   "pos": "名",
+   "meanings": [
+    "胚",
+    "胎芽"
+   ],
+   "level": 7,
+   "ipa": "/ˈembriəʊ/",
+   "example": {
+    "en": "The embryo develops rapidly in the first weeks.",
+    "ja": "胚は最初の数週間で急速に発達する。"
+   },
+   "derivatives": [
+    "embryonic 形 胚の；初期の"
+   ]
+  },
+  {
+   "id": "w-enzyme",
+   "headword": "enzyme",
+   "pos": "名",
+   "meanings": [
+    "酵素"
+   ],
+   "level": 7,
+   "ipa": "/ˈenzaɪm/",
+   "example": {
+    "en": "Enzymes speed up chemical reactions in the body.",
+    "ja": "酵素は体内の化学反応を速める。"
+   }
+  },
+  {
+   "id": "w-euthanasia",
+   "headword": "euthanasia",
+   "pos": "名",
+   "meanings": [
+    "安楽死"
+   ],
+   "level": 7,
+   "ipa": "/ˌjuːθəˈneɪziə/",
+   "example": {
+    "en": "Euthanasia remains a controversial issue.",
+    "ja": "安楽死はいまだに論争の的となっている。"
+   }
+  },
+  {
+   "id": "w-hormone",
+   "headword": "hormone",
+   "pos": "名",
+   "meanings": [
+    "ホルモン"
+   ],
+   "level": 7,
+   "ipa": "/ˈhɔːməʊn/",
+   "example": {
+    "en": "Stress hormones affect the immune system.",
+    "ja": "ストレスホルモンは免疫系に影響する。"
+   }
+  },
+  {
+   "id": "w-hypertension",
+   "headword": "hypertension",
+   "pos": "名",
+   "meanings": [
+    "高血圧"
+   ],
+   "level": 7,
+   "ipa": "/ˌhaɪpəˈtenʃn/",
+   "example": {
+    "en": "Too much salt can cause hypertension.",
+    "ja": "塩分のとりすぎは高血圧の原因となりうる。"
+   },
+   "synonyms": [
+    "high blood pressure"
+   ]
+  },
+  {
+   "id": "w-incubation",
+   "headword": "incubation",
+   "pos": "名",
+   "meanings": [
+    "潜伏",
+    "孵化"
+   ],
+   "level": 7,
+   "ipa": "/ˌɪŋkjuˈbeɪʃn/",
+   "example": {
+    "en": "The incubation period of the virus is about five days.",
+    "ja": "そのウイルスの潜伏期間は約5日だ。"
+   }
+  },
+  {
+   "id": "w-inflammation",
+   "headword": "inflammation",
+   "pos": "名",
+   "meanings": [
+    "炎症"
+   ],
+   "level": 7,
+   "ipa": "/ˌɪnfləˈmeɪʃn/",
+   "example": {
+    "en": "Ice can reduce inflammation.",
+    "ja": "氷で冷やすと炎症を抑えられる。"
+   },
+   "derivatives": [
+    "inflammatory 形 炎症性の"
+   ]
+  },
+  {
+   "id": "w-malignant",
+   "headword": "malignant",
+   "pos": "形",
+   "meanings": [
+    "悪性の"
+   ],
+   "level": 7,
+   "ipa": "/məˈlɪɡnənt/",
+   "example": {
+    "en": "The tumor turned out to be malignant.",
+    "ja": "その腫瘍は悪性だと判明した。"
+   },
+   "antonyms": [
+    "benign 良性の"
+   ]
+  },
+  {
+   "id": "w-malnutrition",
+   "headword": "malnutrition",
+   "pos": "名",
+   "meanings": [
+    "栄養失調"
+   ],
+   "level": 7,
+   "ipa": "/ˌmælnjuˈtrɪʃn/",
+   "example": {
+    "en": "Malnutrition affects millions of children.",
+    "ja": "何百万人もの子どもが栄養失調に苦しんでいる。"
+   }
+  },
+  {
+   "id": "w-mortality",
+   "headword": "mortality",
+   "pos": "名",
+   "meanings": [
+    "死亡率",
+    "死すべき運命"
+   ],
+   "level": 7,
+   "ipa": "/mɔːˈtæləti/",
+   "example": {
+    "en": "Infant mortality has fallen dramatically.",
+    "ja": "乳児死亡率は劇的に低下した。"
+   },
+   "derivatives": [
+    "mortal 形 死すべき",
+    "immortal 形 不死の"
+   ]
+  },
+  {
+   "id": "w-mutation",
+   "headword": "mutation",
+   "pos": "名",
+   "meanings": [
+    "突然変異"
+   ],
+   "level": 7,
+   "ipa": "/mjuːˈteɪʃn/",
+   "example": {
+    "en": "A single mutation can cause disease.",
+    "ja": "たった一つの突然変異が病気を引き起こしうる。"
+   },
+   "derivatives": [
+    "mutate 動 変異する"
+   ]
+  },
+  {
+   "id": "w-obesity",
+   "headword": "obesity",
+   "pos": "名",
+   "meanings": [
+    "肥満"
+   ],
+   "level": 7,
+   "ipa": "/əʊˈbiːsəti/",
+   "example": {
+    "en": "Childhood obesity is a growing concern.",
+    "ja": "子どもの肥満はますます懸念されている。"
+   },
+   "derivatives": [
+    "obese 形 肥満の"
+   ]
+  },
+  {
+   "id": "w-palliative",
+   "headword": "palliative",
+   "pos": "形",
+   "meanings": [
+    "緩和の"
+   ],
+   "level": 7,
+   "ipa": "/ˈpæliətɪv/",
+   "example": {
+    "en": "Palliative care focuses on relieving pain.",
+    "ja": "緩和ケアは痛みを和らげることに重点を置く。"
+   }
+  },
+  {
+   "id": "w-pandemic",
+   "headword": "pandemic",
+   "pos": "名",
+   "meanings": [
+    "（世界的な）大流行"
+   ],
+   "level": 7,
+   "ipa": "/pænˈdemɪk/",
+   "example": {
+    "en": "The pandemic changed the way people work.",
+    "ja": "世界的流行は人々の働き方を変えた。"
+   },
+   "note": "epidemic（局地的流行）、endemic（風土病的な）と区別。"
+  },
+  {
+   "id": "w-physiology",
+   "headword": "physiology",
+   "pos": "名",
+   "meanings": [
+    "生理学",
+    "生理機能"
+   ],
+   "level": 7,
+   "ipa": "/ˌfɪziˈɒlədʒi/",
+   "example": {
+    "en": "She studies human physiology.",
+    "ja": "彼女は人体生理学を研究している。"
+   },
+   "derivatives": [
+    "physiological 形 生理的な"
+   ]
+  },
+  {
+   "id": "w-prescription",
+   "headword": "prescription",
+   "pos": "名",
+   "meanings": [
+    "処方箋",
+    "処方"
+   ],
+   "level": 7,
+   "ipa": "/prɪˈskrɪpʃn/",
+   "example": {
+    "en": "This medicine is available only by prescription.",
+    "ja": "この薬は処方箋がなければ入手できない。"
+   },
+   "derivatives": [
+    "prescribe 動 処方する"
+   ]
+  },
+  {
+   "id": "w-psychiatric",
+   "headword": "psychiatric",
+   "pos": "形",
+   "meanings": [
+    "精神医学の"
+   ],
+   "level": 7,
+   "ipa": "/ˌsaɪkiˈætrɪk/",
+   "example": {
+    "en": "He received psychiatric treatment.",
+    "ja": "彼は精神科の治療を受けた。"
+   },
+   "derivatives": [
+    "psychiatrist 名 精神科医"
+   ],
+   "note": "p は発音しない。"
+  },
+  {
+   "id": "w-relapse",
+   "headword": "relapse",
+   "pos": "名",
+   "meanings": [
+    "再発",
+    "逆戻り"
+   ],
+   "level": 7,
+   "ipa": "/rɪˈlæps/",
+   "example": {
+    "en": "The patient suffered a relapse.",
+    "ja": "その患者は病気が再発した。"
+   }
+  },
+  {
+   "id": "w-respiratory",
+   "headword": "respiratory",
+   "pos": "形",
+   "meanings": [
+    "呼吸の"
+   ],
+   "level": 7,
+   "ipa": "/rəˈspɪrətri/",
+   "example": {
+    "en": "Smoking causes respiratory problems.",
+    "ja": "喫煙は呼吸器の問題を引き起こす。"
+   },
+   "derivatives": [
+    "respiration 名 呼吸"
+   ]
+  },
+  {
+   "id": "w-sedentary",
+   "headword": "sedentary",
+   "pos": "形",
+   "meanings": [
+    "座りがちな",
+    "運動不足の"
+   ],
+   "level": 7,
+   "ipa": "/ˈsedntri/",
+   "example": {
+    "en": "A sedentary lifestyle increases health risks.",
+    "ja": "座りがちな生活は健康上のリスクを高める。"
+   }
+  },
+  {
+   "id": "w-stem-cell",
+   "headword": "stem cell",
+   "pos": "名",
+   "meanings": [
+    "幹細胞"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Stem cells can develop into many types of cells.",
+    "ja": "幹細胞は多くの種類の細胞に分化しうる。"
+   },
+   "note": "iPS cell（人工多能性幹細胞）も医学部頻出。"
+  },
+  {
+   "id": "w-sterile",
+   "headword": "sterile",
+   "pos": "形",
+   "meanings": [
+    "無菌の",
+    "不妊の"
+   ],
+   "level": 7,
+   "ipa": "/ˈsteraɪl/",
+   "example": {
+    "en": "Surgical instruments must be sterile.",
+    "ja": "手術器具は無菌でなければならない。"
+   },
+   "derivatives": [
+    "sterilize 動 殺菌する"
+   ]
+  },
+  {
+   "id": "w-syndrome",
+   "headword": "syndrome",
+   "pos": "名",
+   "meanings": [
+    "症候群"
+   ],
+   "level": 7,
+   "ipa": "/ˈsɪndrəʊm/",
+   "example": {
+    "en": "Down syndrome is caused by an extra chromosome.",
+    "ja": "ダウン症候群は余分な染色体によって起こる。"
+   }
+  },
+  {
+   "id": "w-tissue",
+   "headword": "tissue",
+   "pos": "名",
+   "meanings": [
+    "（生体の）組織",
+    "ティッシュ"
+   ],
+   "level": 7,
+   "ipa": "/ˈtɪʃuː/",
+   "example": {
+    "en": "The doctor took a sample of tissue.",
+    "ja": "医師は組織の標本を採取した。"
+   }
+  },
+  {
+   "id": "w-toxic",
+   "headword": "toxic",
+   "pos": "形",
+   "meanings": [
+    "有毒な"
+   ],
+   "level": 7,
+   "ipa": "/ˈtɒksɪk/",
+   "example": {
+    "en": "Some plants are toxic to pets.",
+    "ja": "ペットにとって有毒な植物もある。"
+   },
+   "derivatives": [
+    "toxin 名 毒素",
+    "toxicity 名 毒性"
+   ]
+  },
+  {
+   "id": "w-trauma",
+   "headword": "trauma",
+   "pos": "名",
+   "meanings": [
+    "心的外傷",
+    "外傷"
+   ],
+   "level": 7,
+   "ipa": "/ˈtrɔːmə/",
+   "example": {
+    "en": "Many survivors suffer from trauma.",
+    "ja": "多くの生存者が心的外傷に苦しんでいる。"
+   },
+   "derivatives": [
+    "traumatic 形 衝撃的な"
+   ]
+  },
+  {
+   "id": "w-tumor",
+   "headword": "tumor",
+   "pos": "名",
+   "meanings": [
+    "腫瘍"
+   ],
+   "level": 7,
+   "ipa": "/ˈtjuːmər/",
+   "example": {
+    "en": "The surgeon removed the tumor.",
+    "ja": "外科医は腫瘍を摘出した。"
+   },
+   "note": "英式綴り tumour。"
+  },
+  {
+   "id": "w-transplant",
+   "headword": "transplant",
+   "pos": "名",
+   "meanings": [
+    "移植"
+   ],
+   "level": 7,
+   "ipa": "/ˈtrænsplɑːnt/",
+   "example": {
+    "en": "He is waiting for a kidney transplant.",
+    "ja": "彼は腎臓移植を待っている。"
+   },
+   "collocations": [
+    "organ transplant（臓器移植）"
+   ],
+   "accentNote": "名詞 TRANS-plant、動詞 trans-PLANT。"
+  },
+  {
+   "id": "w-vital-signs",
+   "headword": "vital signs",
+   "pos": "名",
+   "meanings": [
+    "バイタルサイン（脈拍・血圧などの生命徴候）"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The nurse checked the patient's vital signs.",
+    "ja": "看護師は患者のバイタルサインを確認した。"
+   }
+  },
+  {
+   "id": "w-abate",
+   "headword": "abate",
+   "pos": "動",
+   "meanings": [
+    "和らぐ",
+    "弱まる"
+   ],
+   "level": 7,
+   "ipa": "/əˈbeɪt/",
+   "example": {
+    "en": "The storm began to abate.",
+    "ja": "嵐は弱まり始めた。"
+   }
+  },
+  {
+   "id": "w-ameliorate",
+   "headword": "ameliorate",
+   "pos": "動",
+   "meanings": [
+    "改善する"
+   ],
+   "level": 7,
+   "ipa": "/əˈmiːliəreɪt/",
+   "example": {
+    "en": "Measures were taken to ameliorate poverty.",
+    "ja": "貧困を改善するための措置がとられた。"
+   },
+   "synonyms": [
+    "improve"
+   ]
+  },
+  {
+   "id": "w-attrition",
+   "headword": "attrition",
+   "pos": "名",
+   "meanings": [
+    "消耗",
+    "（人員の）自然減"
+   ],
+   "level": 7,
+   "ipa": "/əˈtrɪʃn/",
+   "example": {
+    "en": "The study suffered from high attrition.",
+    "ja": "その研究は脱落者が多かった。"
+   }
+  },
+  {
+   "id": "w-axiom",
+   "headword": "axiom",
+   "pos": "名",
+   "meanings": [
+    "公理",
+    "自明の理"
+   ],
+   "level": 7,
+   "ipa": "/ˈæksiəm/",
+   "example": {
+    "en": "It is an axiom that power corrupts.",
+    "ja": "権力は腐敗するというのは自明の理だ。"
+   }
+  },
+  {
+   "id": "w-conjecture",
+   "headword": "conjecture",
+   "pos": "名",
+   "meanings": [
+    "推測"
+   ],
+   "level": 7,
+   "ipa": "/kənˈdʒektʃər/",
+   "example": {
+    "en": "His theory is pure conjecture.",
+    "ja": "彼の理論は単なる推測にすぎない。"
+   }
+  },
+  {
+   "id": "w-entrench",
+   "headword": "entrench",
+   "pos": "動",
+   "meanings": [
+    "定着させる",
+    "確立する"
+   ],
+   "level": 7,
+   "ipa": "/ɪnˈtrentʃ/",
+   "example": {
+    "en": "These attitudes are deeply entrenched in society.",
+    "ja": "こうした考え方は社会に深く根付いている。"
+   }
+  },
+  {
+   "id": "w-ethos",
+   "headword": "ethos",
+   "pos": "名",
+   "meanings": [
+    "気風",
+    "精神"
+   ],
+   "level": 7,
+   "ipa": "/ˈiːθɒs/",
+   "example": {
+    "en": "The school has a strong ethos of service.",
+    "ja": "その学校には奉仕の精神が強く根付いている。"
+   }
+  },
+  {
+   "id": "w-hegemony",
+   "headword": "hegemony",
+   "pos": "名",
+   "meanings": [
+    "覇権",
+    "主導権"
+   ],
+   "level": 7,
+   "ipa": "/hɪˈdʒeməni/",
+   "example": {
+    "en": "The country sought regional hegemony.",
+    "ja": "その国は地域の覇権を求めた。"
+   }
+  },
+  {
+   "id": "w-heuristic",
+   "headword": "heuristic",
+   "pos": "名",
+   "meanings": [
+    "発見的手法",
+    "経験則"
+   ],
+   "level": 7,
+   "ipa": "/hjuˈrɪstɪk/",
+   "example": {
+    "en": "People often rely on simple heuristics when making decisions.",
+    "ja": "人は意思決定の際にしばしば単純な経験則に頼る。"
+   }
+  },
+  {
+   "id": "w-inextricably",
+   "headword": "inextricably",
+   "pos": "副",
+   "meanings": [
+    "切り離せないほどに"
+   ],
+   "level": 7,
+   "ipa": "/ˌɪnɪkˈstrɪkəbli/",
+   "example": {
+    "en": "Language and culture are inextricably linked.",
+    "ja": "言語と文化は切り離せないほど結びついている。"
+   }
+  },
+  {
+   "id": "w-nuance",
+   "headword": "nuance",
+   "pos": "名",
+   "meanings": [
+    "微妙な差異",
+    "ニュアンス"
+   ],
+   "level": 7,
+   "ipa": "/ˈnjuːɑːns/",
+   "example": {
+    "en": "Translators must capture subtle nuances.",
+    "ja": "翻訳者は微妙なニュアンスをとらえなければならない。"
+   }
+  },
+  {
+   "id": "w-obfuscate",
+   "headword": "obfuscate",
+   "pos": "動",
+   "meanings": [
+    "わかりにくくする"
+   ],
+   "level": 7,
+   "ipa": "/ˈɒbfʌskeɪt/",
+   "example": {
+    "en": "Officials tried to obfuscate the facts.",
+    "ja": "当局者は事実をわかりにくくしようとした。"
+   }
+  },
+  {
+   "id": "w-perfunctory",
+   "headword": "perfunctory",
+   "pos": "形",
+   "meanings": [
+    "おざなりの"
+   ],
+   "level": 7,
+   "ipa": "/pəˈfʌŋktəri/",
+   "example": {
+    "en": "He gave the report only a perfunctory glance.",
+    "ja": "彼は報告書にざっと目を通しただけだった。"
+   }
+  },
+  {
+   "id": "w-pernicious",
+   "headword": "pernicious",
+   "pos": "形",
+   "meanings": [
+    "有害な",
+    "破壊的な"
+   ],
+   "level": 7,
+   "ipa": "/pəˈnɪʃəs/",
+   "example": {
+    "en": "Prejudice has a pernicious effect on society.",
+    "ja": "偏見は社会に有害な影響を及ぼす。"
+   }
+  },
+  {
+   "id": "w-preclude",
+   "headword": "preclude",
+   "pos": "動",
+   "meanings": [
+    "不可能にする",
+    "排除する"
+   ],
+   "level": 7,
+   "ipa": "/prɪˈkluːd/",
+   "example": {
+    "en": "His injury precluded him from playing.",
+    "ja": "けがのため彼は出場できなかった。"
+   },
+   "collocations": [
+    "preclude O from doing"
+   ]
+  },
+  {
+   "id": "w-propensity",
+   "headword": "propensity",
+   "pos": "名",
+   "meanings": [
+    "傾向",
+    "性癖"
+   ],
+   "level": 7,
+   "ipa": "/prəˈpensəti/",
+   "example": {
+    "en": "He has a propensity to exaggerate.",
+    "ja": "彼には誇張する癖がある。"
+   },
+   "collocations": [
+    "a propensity to do / for ~"
+   ]
+  },
+  {
+   "id": "w-ramification",
+   "headword": "ramification",
+   "pos": "名",
+   "meanings": [
+    "（予期しない）影響",
+    "結果"
+   ],
+   "level": 7,
+   "ipa": "/ˌræmɪfɪˈkeɪʃn/",
+   "example": {
+    "en": "Few people understood the ramifications of the decision.",
+    "ja": "その決定の影響を理解していた人はほとんどいなかった。"
+   },
+   "note": "通例複数形。"
+  },
+  {
+   "id": "w-recalcitrant",
+   "headword": "recalcitrant",
+   "pos": "形",
+   "meanings": [
+    "反抗的な",
+    "手に負えない"
+   ],
+   "level": 7,
+   "ipa": "/rɪˈkælsɪtrənt/",
+   "example": {
+    "en": "Some bacteria are recalcitrant to treatment.",
+    "ja": "治療が効きにくい細菌もある。"
+   }
+  },
+  {
+   "id": "w-reticent",
+   "headword": "reticent",
+   "pos": "形",
+   "meanings": [
+    "無口な",
+    "話したがらない"
+   ],
+   "level": 7,
+   "ipa": "/ˈretɪsnt/",
+   "example": {
+    "en": "She was reticent about her past.",
+    "ja": "彼女は過去について話したがらなかった。"
+   }
+  },
+  {
+   "id": "w-sanction",
+   "headword": "sanction",
+   "pos": "名",
+   "meanings": [
+    "制裁",
+    "認可"
+   ],
+   "level": 7,
+   "ipa": "/ˈsæŋkʃn/",
+   "example": {
+    "en": "The UN imposed sanctions on the country.",
+    "ja": "国連はその国に制裁を科した。"
+   },
+   "note": "「認可」と「制裁」の正反対の意味をもつ。"
+  },
+  {
+   "id": "w-solicit",
+   "headword": "solicit",
+   "pos": "動",
+   "meanings": [
+    "求める",
+    "懇願する"
+   ],
+   "level": 7,
+   "ipa": "/səˈlɪsɪt/",
+   "example": {
+    "en": "The company solicited feedback from customers.",
+    "ja": "その会社は顧客に意見を求めた。"
+   }
+  },
+  {
+   "id": "w-spurious",
+   "headword": "spurious",
+   "pos": "形",
+   "meanings": [
+    "偽りの",
+    "もっともらしいが誤った"
+   ],
+   "level": 7,
+   "ipa": "/ˈspjʊəriəs/",
+   "example": {
+    "en": "The study found a spurious correlation.",
+    "ja": "その研究は見せかけの相関を見いだした。"
+   }
+  },
+  {
+   "id": "w-substantiate",
+   "headword": "substantiate",
+   "pos": "動",
+   "meanings": [
+    "実証する"
+   ],
+   "level": 7,
+   "ipa": "/səbˈstænʃieɪt/",
+   "example": {
+    "en": "There is no evidence to substantiate the claim.",
+    "ja": "その主張を立証する証拠はない。"
+   }
+  },
+  {
+   "id": "w-tenuous",
+   "headword": "tenuous",
+   "pos": "形",
+   "meanings": [
+    "希薄な",
+    "根拠の弱い"
+   ],
+   "level": 7,
+   "ipa": "/ˈtenjuəs/",
+   "example": {
+    "en": "The link between the two events is tenuous.",
+    "ja": "二つの出来事の関連は薄弱だ。"
+   }
+  },
+  {
+   "id": "w-unequivocal",
+   "headword": "unequivocal",
+   "pos": "形",
+   "meanings": [
+    "明確な",
+    "あいまいさのない"
+   ],
+   "level": 7,
+   "ipa": "/ˌʌnɪˈkwɪvəkl/",
+   "example": {
+    "en": "The answer was an unequivocal \"no.\"",
+    "ja": "答えははっきりとした「ノー」だった。"
+   },
+   "antonyms": [
+    "equivocal あいまいな"
+   ]
+  },
+  {
+   "id": "w-utilitarian",
+   "headword": "utilitarian",
+   "pos": "形",
+   "meanings": [
+    "功利主義の",
+    "実用的な"
+   ],
+   "level": 7,
+   "ipa": "/ˌjuːtɪlɪˈteəriən/",
+   "example": {
+    "en": "Utilitarian ethics seeks the greatest happiness for the greatest number.",
+    "ja": "功利主義の倫理は最大多数の最大幸福を追求する。"
+   }
+  },
+  {
+   "id": "w-veracity",
+   "headword": "veracity",
+   "pos": "名",
+   "meanings": [
+    "真実性"
+   ],
+   "level": 7,
+   "ipa": "/vəˈræsəti/",
+   "example": {
+    "en": "Some doubted the veracity of his account.",
+    "ja": "彼の話の真実性を疑う者もいた。"
+   }
+  },
+  {
+   "id": "w-vindicate",
+   "headword": "vindicate",
+   "pos": "動",
+   "meanings": [
+    "正しさを証明する"
+   ],
+   "level": 7,
+   "ipa": "/ˈvɪndɪkeɪt/",
+   "example": {
+    "en": "The results vindicated her approach.",
+    "ja": "結果は彼女の手法の正しさを証明した。"
+   }
+  },
+  {
+   "id": "w-quintessential",
+   "headword": "quintessential",
+   "pos": "形",
+   "meanings": [
+    "典型的な",
+    "本質的な"
+   ],
+   "level": 7,
+   "ipa": "/ˌkwɪntɪˈsenʃl/",
+   "example": {
+    "en": "He is the quintessential English gentleman.",
+    "ja": "彼は典型的な英国紳士だ。"
+   }
+  },
+  {
+   "id": "w-anthropology",
+   "headword": "anthropology",
+   "pos": "名",
+   "meanings": [
+    "人類学"
+   ],
+   "level": 7,
+   "ipa": "/ˌænθrəˈpɒlədʒi/",
+   "example": {
+    "en": "She majored in cultural anthropology.",
+    "ja": "彼女は文化人類学を専攻した。"
+   },
+   "derivatives": [
+    "anthropologist 名 人類学者"
+   ]
+  },
+  {
+   "id": "w-correlation",
+   "headword": "correlation",
+   "pos": "名",
+   "meanings": [
+    "相関（関係）"
+   ],
+   "level": 7,
+   "ipa": "/ˌkɒrəˈleɪʃn/",
+   "example": {
+    "en": "Correlation does not imply causation.",
+    "ja": "相関は因果関係を意味しない。"
+   },
+   "derivatives": [
+    "correlate 動 相関する"
+   ],
+   "collocations": [
+    "causation（因果関係）"
+   ]
+  },
+  {
+   "id": "w-causation",
+   "headword": "causation",
+   "pos": "名",
+   "meanings": [
+    "因果関係"
+   ],
+   "level": 7,
+   "ipa": "/kɔːˈzeɪʃn/",
+   "example": {
+    "en": "Proving causation requires careful experiments.",
+    "ja": "因果関係を証明するには慎重な実験が必要だ。"
+   }
+  },
+  {
+   "id": "w-bioethics",
+   "headword": "bioethics",
+   "pos": "名",
+   "meanings": [
+    "生命倫理（学）"
+   ],
+   "level": 7,
+   "ipa": "/ˌbaɪəʊˈeθɪks/",
+   "example": {
+    "en": "Gene editing raises many questions in bioethics.",
+    "ja": "遺伝子編集は生命倫理において多くの問題を提起する。"
+   }
+  },
+  {
+   "id": "w-autonomy",
+   "headword": "autonomy",
+   "pos": "名",
+   "meanings": [
+    "自律",
+    "自治"
+   ],
+   "level": 7,
+   "ipa": "/ɔːˈtɒnəmi/",
+   "example": {
+    "en": "Respect for patient autonomy is a basic principle of medical ethics.",
+    "ja": "患者の自律の尊重は医療倫理の基本原則だ。"
+   },
+   "derivatives": [
+    "autonomous 形 自律的な"
+   ]
+  },
+  {
+   "id": "w-confidentiality",
+   "headword": "confidentiality",
+   "pos": "名",
+   "meanings": [
+    "守秘義務",
+    "機密性"
+   ],
+   "level": 7,
+   "ipa": "/ˌkɒnfɪˌdenʃiˈæləti/",
+   "example": {
+    "en": "Doctors have a duty of confidentiality.",
+    "ja": "医師には守秘義務がある。"
+   },
+   "derivatives": [
+    "confidential 形 機密の"
+   ]
+  },
+  {
+   "id": "w-efficacy",
+   "headword": "efficacy",
+   "pos": "名",
+   "meanings": [
+    "（薬・治療などの）効能"
+   ],
+   "level": 7,
+   "ipa": "/ˈefɪkəsi/",
+   "example": {
+    "en": "The efficacy of the new drug has not been proven.",
+    "ja": "新薬の有効性はまだ証明されていない。"
+   },
+   "note": "efficiency（効率）と区別。"
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "grammar.core",
- "revision": 1,
+ "revision": 2,
  "skill": "grammar",
  "title": "文法・語法 基本〜発展",
  "description": "高校文法の全分野を入試頻出ポイントに絞って解説＋演習",
@@ -1433,6 +1433,1315 @@
      "keyPoints": [
       "talk 人 into doing / persuade 人 to do「説得して〜させる」",
       "cram school「塾」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-tense-basic",
+   "title": "時制の基本（現在・過去・進行形・未来）",
+   "level": 1,
+   "category": "時制",
+   "summary": "現在形は「いつもそうであること」、進行形は「一時的に進行中のこと」。未来の表し方も整理する。",
+   "explanation": "## 現在形と現在進行形\n\n| 形 | 表すもの | 例 |\n|---|---|---|\n| 現在形 | 習慣・不変の真理・現在の状態 | The earth **goes** around the sun. |\n| 現在進行形 | 今まさに進行中・一時的な状態 | Look! It **is snowing**. |\n\n状態動詞（know, like, have「持っている」, belong, resemble など）は原則として進行形にしない。\n\n## 時・条件の副詞節では未来のことも現在形\n\n**when, if, before, after, until, as soon as** などが作る**副詞節**では、未来のことでも現在形を使う。\n- I'll call you when he **arrives**.（×will arrive）\n- If it **rains** tomorrow, we will stay home.\n\nただし**名詞節**（「〜かどうか」「いつ〜か」）では will を使う：I don't know if he **will come**.\n\n## 未来の表し方\n\n| 表現 | ニュアンス |\n|---|---|\n| will | その場の意志・単純な予測 |\n| be going to | 前からの予定・兆候に基づく予測 |\n| 現在進行形 | 確定した近い予定（I'm leaving tomorrow.） |",
+   "examples": [
+    {
+     "en": "Water boils at 100°C.",
+     "ja": "水は100度で沸騰する。",
+     "note": "不変の真理"
+    },
+    {
+     "en": "I'll tell him the news as soon as he comes back.",
+     "ja": "彼が戻ったらすぐにその知らせを伝えよう。",
+     "note": "副詞節は現在形"
+    },
+    {
+     "en": "I wonder if it will rain tomorrow.",
+     "ja": "明日は雨が降るだろうか。",
+     "note": "名詞節なので will"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-tb-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "stops"
+     ],
+     "explanation": "until が作る時の副詞節なので、未来のことでも現在形。",
+     "sentence": "Let's wait here until the rain ___.",
+     "choices": [
+      "stops",
+      "will stop",
+      "stopped",
+      "is stopping"
+     ]
+    },
+    {
+     "id": "g-tb-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "will come"
+     ],
+     "explanation": "when 節は know の目的語（名詞節）なので未来は will で表す。",
+     "sentence": "I don't know when she ___ back.",
+     "choices": [
+      "comes",
+      "will come",
+      "came",
+      "has come"
+     ]
+    },
+    {
+     "id": "g-tb-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "belongs"
+     ],
+     "explanation": "belong は状態動詞なので進行形にしない。受動態にもならない。",
+     "sentence": "This bag ___ to my sister.",
+     "choices": [
+      "belongs",
+      "is belonging",
+      "belong",
+      "is belonged"
+     ]
+    },
+    {
+     "id": "g-tb-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "is going to"
+     ],
+     "explanation": "目の前の兆候（黒い雲）に基づく予測は be going to。",
+     "sentence": "Look at those dark clouds. It ___ rain.",
+     "choices": [
+      "is going to",
+      "will be",
+      "is",
+      "rains"
+     ]
+    },
+    {
+     "id": "g-tb-5",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "is"
+     ],
+     "explanation": "条件の副詞節では未来のことも現在形。",
+     "sentence": "If it ___ fine tomorrow, we will go hiking."
+    }
+   ]
+  },
+  {
+   "id": "g-auxiliary",
+   "title": "助動詞の基本（can / may / must / should）",
+   "level": 1,
+   "category": "助動詞",
+   "summary": "可能・許可・義務・推量の意味と、否定形の意味の違い（must not と don't have to）。",
+   "explanation": "## 主な助動詞の意味\n\n| 助動詞 | 意味 |\n|---|---|\n| can | 〜できる（能力）／〜してもよい（許可）／〜でありうる（可能性） |\n| may | 〜してもよい（許可）／〜かもしれない（推量） |\n| must | 〜しなければならない（義務）／〜に違いない（推量） |\n| should | 〜すべきだ／〜のはずだ |\n\n## 否定形の意味に注意\n\n- **must not** 〜：〜してはいけない（禁止）\n- **don't have to** 〜：〜する必要はない（不要）\n- **cannot** 〜：〜のはずがない（must「〜に違いない」の反対）\n\n## 助動詞を含む慣用表現\n\n- had better do「〜したほうがよい」（否定は had better not do）\n- would rather A than B「BよりむしろAしたい」\n- may well do「〜するのももっともだ／たぶん〜だろう」\n- may as well do「〜したほうがよい（〜するのも悪くない）」\n- cannot help doing「〜せずにはいられない」",
+   "examples": [
+    {
+     "en": "You must not park here.",
+     "ja": "ここに駐車してはいけない。"
+    },
+    {
+     "en": "You don't have to come if you're busy.",
+     "ja": "忙しければ来なくてもいい。"
+    },
+    {
+     "en": "He may well be angry with you.",
+     "ja": "彼があなたに怒るのももっともだ。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-aux-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "don't have to"
+     ],
+     "explanation": "休日なので「早起きする必要はない」。must not は禁止。",
+     "sentence": "Tomorrow is a holiday, so you ___ get up early.",
+     "choices": [
+      "must not",
+      "don't have to",
+      "cannot",
+      "should"
+     ]
+    },
+    {
+     "id": "g-aux-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "can't"
+     ],
+     "explanation": "彼はロンドンにいるので「ケンのはずがない」。",
+     "sentence": "That ___ be Ken. He is in London now.",
+     "choices": [
+      "must",
+      "can't",
+      "may",
+      "should"
+     ]
+    },
+    {
+     "id": "g-aux-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "not do"
+     ],
+     "explanation": "had better の否定は had better not do。",
+     "sentence": "You had better ___ that again.",
+     "choices": [
+      "not do",
+      "don't do",
+      "not to do",
+      "do not"
+     ]
+    },
+    {
+     "id": "g-aux-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "laughing"
+     ],
+     "explanation": "cannot help doing「〜せずにはいられない」。",
+     "sentence": "I couldn't help ___ when I heard the joke.",
+     "choices": [
+      "laugh",
+      "laughing",
+      "to laugh",
+      "laughed"
+     ]
+    },
+    {
+     "id": "g-aux-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「外出するより家にいたい。」",
+     "answers": [
+      "I would rather stay home than go out.",
+      "I would rather stay at home than go out.",
+      "I'd rather stay home than go out."
+     ],
+     "explanation": "would rather の後は動詞の原形。than の後も原形。",
+     "keyPoints": [
+      "would rather A than B（A・B は原形）"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-causative",
+   "title": "使役動詞と知覚動詞",
+   "level": 2,
+   "category": "動詞の型",
+   "summary": "make / let / have / get と see / hear / feel の後ろの形（原形・doing・過去分詞）を使い分ける。",
+   "explanation": "## 使役動詞\n\n| 動詞 | 形 | 意味 |\n|---|---|---|\n| make | make O **原形** | （強制的に）〜させる |\n| let | let O **原形** | （許可して）〜させてやる |\n| have | have O **原形** | （当然の依頼で）〜してもらう |\n| get | get O **to do** | （説得・依頼して）〜してもらう |\n\n## O と後ろの動詞が「受動」の関係なら過去分詞\n\n- I **had** my hair **cut**.（髪を切ってもらった：髪は「切られる」）\n- I **had** my bike **stolen**.（自転車を盗まれた：被害）\n- I couldn't **make** myself **understood**.（自分の言うことを理解してもらえなかった）\n\n## 知覚動詞（see, hear, feel, watch, notice）\n\n| 形 | 意味 |\n|---|---|\n| see O 原形 | Oが〜する（のを最初から最後まで）見る |\n| see O doing | Oが〜している（途中の場面）を見る |\n| see O 過去分詞 | Oが〜されるのを見る |\n\n## 受動態にすると to が復活\n\nHe was made **to** wait.／She was seen **to** enter the building.",
+   "examples": [
+    {
+     "en": "My mother made me clean my room.",
+     "ja": "母は私に部屋を掃除させた。"
+    },
+    {
+     "en": "I'll have him call you back.",
+     "ja": "彼に折り返し電話させます。"
+    },
+    {
+     "en": "I heard my name called.",
+     "ja": "自分の名前が呼ばれるのが聞こえた。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-cs-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "use"
+     ],
+     "explanation": "let O 原形「Oに〜させてやる」。",
+     "sentence": "My father let me ___ his car.",
+     "choices": [
+      "use",
+      "to use",
+      "using",
+      "used"
+     ]
+    },
+    {
+     "id": "g-cs-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "to help"
+     ],
+     "explanation": "get O to do「Oに〜してもらう」。get だけは to 不定詞。",
+     "sentence": "I got my brother ___ me with my homework.",
+     "choices": [
+      "help",
+      "to help",
+      "helped",
+      "helping"
+     ]
+    },
+    {
+     "id": "g-cs-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "repaired"
+     ],
+     "explanation": "時計は「修理される」側なので過去分詞。",
+     "sentence": "I had my watch ___ yesterday.",
+     "choices": [
+      "repair",
+      "repaired",
+      "repairing",
+      "to repair"
+     ]
+    },
+    {
+     "id": "g-cs-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "running"
+     ],
+     "explanation": "see O doing「Oが〜しているのを見る」。原形 run でも可だが選択肢にない。",
+     "sentence": "I saw a cat ___ across the road.",
+     "choices": [
+      "ran",
+      "running",
+      "to run",
+      "runs"
+     ]
+    },
+    {
+     "id": "g-cs-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「騒音のせいで、私は自分の声を聞いてもらえなかった。」",
+     "answers": [
+      "I couldn't make myself heard because of the noise.",
+      "I could not make myself heard because of the noise.",
+      "Because of the noise, I couldn't make myself heard."
+     ],
+     "explanation": "make O 過去分詞。自分の声が「聞かれる」ので heard。",
+     "keyPoints": [
+      "make oneself heard「自分の声を聞いてもらう」",
+      "because of + 名詞"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-pronoun",
+   "title": "代名詞（one / it / other / another）",
+   "level": 2,
+   "category": "代名詞",
+   "summary": "不特定の one と特定の it、残りを表す the other / others / the others を区別する。",
+   "explanation": "## one と it\n\n- **one**：同じ種類の不特定のもの（a + 名詞）\n  I lost my umbrella. I need to buy **one**.（新しい傘を1本）\n- **it**：前に出た特定のもの（the + 名詞）\n  I lost my umbrella, but I found **it** later.（なくしたその傘）\n- **that / those**：比較などで名詞の繰り返しを避ける（the + 名詞）\n  The climate of Tokyo is milder than **that** of Sapporo.\n\n## other の使い分け\n\n| 状況 | 表現 |\n|---|---|\n| 2つのうち、1つともう1つ | one 〜, **the other** … |\n| 3つ以上のうち、1つと残り全部 | one 〜, **the others** … |\n| 不特定の別の1つ | **another** |\n| 不特定の他のいくつか | some 〜, **others** … |\n\n## each / every / either / neither\n\n- each + 単数名詞、each of + 複数名詞（動詞は単数）\n- every は単数名詞の前のみ（every of は不可）\n- either（2者のどちらか）／ neither（どちらも〜ない）",
+   "examples": [
+    {
+     "en": "I have two brothers. One is a doctor, and the other is a teacher.",
+     "ja": "私には兄弟が2人いる。1人は医者で、もう1人は教師だ。"
+    },
+    {
+     "en": "Some people like summer; others prefer winter.",
+     "ja": "夏が好きな人もいれば、冬が好きな人もいる。"
+    },
+    {
+     "en": "This cup is dirty. Could you give me another?",
+     "ja": "このカップは汚れています。別のをいただけますか。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-pr-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "one"
+     ],
+     "explanation": "不特定のペン1本なので one。",
+     "sentence": "I don't have a pen. Can you lend me ___?",
+     "choices": [
+      "it",
+      "one",
+      "this",
+      "that"
+     ]
+    },
+    {
+     "id": "g-pr-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "the others"
+     ],
+     "explanation": "3つのうち1つを除いた残り全部なので the others。",
+     "sentence": "There are three apples. One is red, and ___ are green.",
+     "choices": [
+      "the other",
+      "others",
+      "the others",
+      "another"
+     ]
+    },
+    {
+     "id": "g-pr-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "that"
+     ],
+     "explanation": "the population を繰り返す代わりに that。",
+     "sentence": "The population of China is larger than ___ of Japan.",
+     "choices": [
+      "it",
+      "one",
+      "that",
+      "this"
+     ]
+    },
+    {
+     "id": "g-pr-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Every"
+     ],
+     "explanation": "student が単数形なので Every。",
+     "sentence": "___ student has to submit a report.",
+     "choices": [
+      "All",
+      "Every",
+      "Both",
+      "Most"
+     ]
+    },
+    {
+     "id": "g-pr-5",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "another"
+     ],
+     "explanation": "A is one thing, and B is another.「AとBは別物だ」。",
+     "sentence": "To know is one thing, and to teach is ___."
+    }
+   ]
+  },
+  {
+   "id": "g-article-noun",
+   "title": "名詞と冠詞（可算・不可算）",
+   "level": 2,
+   "category": "名詞",
+   "summary": "数えられない名詞、a と the の基本、総称の表し方。英作文での減点を防ぐ。",
+   "explanation": "## 不可算名詞（a を付けず、複数形にしない）\n\n- 物質：water, bread, paper, money\n- 抽象：information, advice, knowledge, progress, damage, evidence\n- 集合的なもの：furniture, baggage / luggage, equipment, homework, machinery\n\n数えるときは a piece of advice, two pieces of furniture のように表す。\n\n## a / an と the\n\n- **a**：聞き手にとって初めて出てくる・不特定のもの\n- **the**：話し手と聞き手が「どれのことか」わかるもの（既出・唯一のもの・限定されたもの）\n\n## 総称（〜というもの）\n\n**Dogs** are loyal animals.（無冠詞複数形が最も一般的）\nThe dog is a loyal animal.（the + 単数：やや硬い）\n\n## 数量を表す語\n\n| 可算名詞 | 不可算名詞 |\n|---|---|\n| many, (a) few, a number of | much, (a) little, a great deal of |\n| a lot of / lots of / plenty of は両方に使える | |",
+   "examples": [
+    {
+     "en": "Could you give me some advice?",
+     "ja": "何か助言をいただけますか。"
+    },
+    {
+     "en": "We don't have much furniture in our room.",
+     "ja": "部屋には家具があまりない。"
+    },
+    {
+     "en": "A number of students were absent.",
+     "ja": "何人もの生徒が欠席した。",
+     "note": "a number of + 複数名詞 + 複数動詞"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-an-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "some"
+     ],
+     "explanation": "information は不可算名詞なので a / many は使えない。",
+     "sentence": "She gave me ___ useful information.",
+     "choices": [
+      "a",
+      "many",
+      "some",
+      "an"
+     ]
+    },
+    {
+     "id": "g-an-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "much"
+     ],
+     "explanation": "homework は不可算名詞なので much。",
+     "sentence": "How ___ homework do you have today?",
+     "choices": [
+      "many",
+      "much",
+      "few",
+      "a lot"
+     ]
+    },
+    {
+     "id": "g-an-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "is"
+     ],
+     "explanation": "water は不可算名詞なので単数扱い。",
+     "sentence": "There ___ only a little water left in the bottle.",
+     "choices": [
+      "is",
+      "are",
+      "were",
+      "have"
+     ]
+    },
+    {
+     "id": "g-an-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "some"
+     ],
+     "explanation": "furniture は不可算名詞。",
+     "sentence": "I bought ___ new furniture for my room.",
+     "choices": [
+      "a",
+      "some",
+      "many",
+      "a few"
+     ]
+    },
+    {
+     "id": "g-an-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「旅行には荷物をあまり持っていかないほうがよい。」",
+     "answers": [
+      "You should not take much luggage on a trip.",
+      "You should not take much baggage on a trip.",
+      "You had better not take much luggage on a trip.",
+      "You shouldn't take much luggage when you travel."
+     ],
+     "explanation": "luggage / baggage は不可算名詞なので many ではなく much。",
+     "keyPoints": [
+      "luggage / baggage は不可算 → much",
+      "should not / had better not"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-tense-advanced",
+   "title": "過去完了・未来完了・時制の一致",
+   "level": 3,
+   "category": "時制",
+   "summary": "基準となる時点より前を表す完了形と、主節が過去のときの従属節の時制。",
+   "explanation": "## 過去完了（had + 過去分詞）\n\n**過去のある時点より前**のこと（大過去）、またはその時点までの完了・経験・継続を表す。\n- When I arrived at the station, the train **had** already **left**.\n- She **had lived** in Paris for ten years before she moved to Tokyo.\n\n## 未来完了（will have + 過去分詞）\n\n**未来のある時点まで**の完了・経験・継続。\n- I **will have finished** the report by tomorrow.\n- By next year, he **will have worked** here for 20 years.\n\n## 時制の一致\n\n主節が過去なら、従属節も過去（または過去完了）にずらす。\n- He said that he **was** tired.（言ったとき疲れていた）\n- He said that he **had seen** the movie.（言ったときより前に見た）\n\n**例外**：不変の真理・現在も続く習慣・歴史的事実は一致させない。\n- We learned that light **travels** faster than sound.\n- Our teacher told us that the war **ended** in 1945.",
+   "examples": [
+    {
+     "en": "I had never seen snow until I came to Hokkaido.",
+     "ja": "北海道に来るまで雪を見たことがなかった。"
+    },
+    {
+     "en": "By the time you get home, I will have cooked dinner.",
+     "ja": "あなたが帰宅するまでには夕食を作り終えているだろう。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-ta-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "had already started"
+     ],
+     "explanation": "劇場に着いた（過去）時点よりも前に始まっていた → 過去完了。",
+     "sentence": "When we got to the theater, the movie ___.",
+     "choices": [
+      "already started",
+      "has already started",
+      "had already started",
+      "will have started"
+     ]
+    },
+    {
+     "id": "g-ta-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "will have read"
+     ],
+     "explanation": "by the end of this week（未来の時点）までの完了 → 未来完了。",
+     "sentence": "I ___ this book by the end of this week.",
+     "choices": [
+      "will have read",
+      "had read",
+      "have read",
+      "read"
+     ]
+    },
+    {
+     "id": "g-ta-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "goes"
+     ],
+     "explanation": "不変の真理は時制の一致を受けない。",
+     "sentence": "The teacher told us that the earth ___ around the sun.",
+     "choices": [
+      "went",
+      "goes",
+      "had gone",
+      "was going"
+     ]
+    },
+    {
+     "id": "g-ta-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "had lost"
+     ],
+     "explanation": "said より前になくした → 過去完了。",
+     "sentence": "She said that she ___ her key.",
+     "choices": [
+      "loses",
+      "has lost",
+      "had lost",
+      "will lose"
+     ]
+    },
+    {
+     "id": "g-ta-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「彼から電話があったとき、私は3時間ずっと勉強していた。」",
+     "answers": [
+      "I had been studying for three hours when he called me.",
+      "When he called me, I had been studying for three hours.",
+      "I had been studying for three hours when he called."
+     ],
+     "explanation": "過去の時点までの動作の継続は過去完了進行形。",
+     "keyPoints": [
+      "過去完了進行形 had been doing",
+      "過去のある時点（電話）までの継続"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-negation",
+   "title": "否定の重要表現（部分否定・二重否定・否定語を使わない否定）",
+   "level": 3,
+   "category": "否定",
+   "summary": "not always / not all などの部分否定と、far from / anything but などの否定表現。",
+   "explanation": "## 部分否定と全体否定\n\n| 部分否定（すべてが〜とは限らない） | 全体否定（どれも〜ない） |\n|---|---|\n| not all / not every | no / none / not any |\n| not always | never |\n| not both | neither |\n| not necessarily / not quite | |\n\n例：**Not all** birds can fly.（すべての鳥が飛べるわけではない）\n\n## 二重否定（＝強い肯定）\n\n- **There is no** rule **without** exceptions.（例外のない規則はない）\n- **Never** do I see this photo **without** thinking of her.（この写真を見ると必ず彼女を思い出す）\n\n## not を使わない否定表現\n\n| 表現 | 意味 |\n|---|---|\n| far from 〜 | 決して〜ではない |\n| anything but 〜 | 決して〜ではない |\n| the last 〜 to do | 最も〜しそうにない |\n| fail to do | 〜しない・できない |\n| be free from 〜 | 〜がない |\n| remain to be done | まだ〜されていない |\n| too 〜 to do | 〜すぎて…できない |",
+   "examples": [
+    {
+     "en": "The rich are not always happy.",
+     "ja": "金持ちが必ずしも幸せだとは限らない。"
+    },
+    {
+     "en": "His explanation was far from clear.",
+     "ja": "彼の説明は決して明確ではなかった。"
+    },
+    {
+     "en": "He is the last person to tell a lie.",
+     "ja": "彼は決してうそをつくような人ではない。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-ng-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "knows"
+     ],
+     "explanation": "every + 単数名詞なので動詞は単数。部分否定「すべての生徒が知っているわけではない」。",
+     "sentence": "Not every student ___ the answer.",
+     "choices": [
+      "know",
+      "knows",
+      "knowing",
+      "are knowing"
+     ]
+    },
+    {
+     "id": "g-ng-2",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "not at all"
+     ],
+     "explanation": "anything but 〜「決して〜ではない」。",
+     "sentence": "\"Anything but\" in \"The test was anything but easy.\" means ___.",
+     "choices": [
+      "very",
+      "not at all",
+      "only",
+      "almost"
+     ]
+    },
+    {
+     "id": "g-ng-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "remain"
+     ],
+     "explanation": "remain to be done「まだ〜されていない」。",
+     "sentence": "Many problems ___ to be solved.",
+     "choices": [
+      "remain",
+      "keep",
+      "stay",
+      "leave"
+     ]
+    },
+    {
+     "id": "g-ng-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "この絵を見ると、必ず子どもの頃を思い出す。",
+      "この絵を見るたびに子ども時代を思い出す。"
+     ],
+     "explanation": "二重否定で強い肯定を表す。",
+     "sentence": "I cannot see this picture without remembering my childhood.",
+     "keyPoints": [
+      "cannot A without B「AするとBせずにはいない」→「Aすると必ずBする」"
+     ]
+    },
+    {
+     "id": "g-ng-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「高価な物が必ずしも良い物とは限らない。」",
+     "answers": [
+      "Expensive things are not always good.",
+      "Expensive things are not necessarily good.",
+      "Expensive goods are not always good."
+     ],
+     "explanation": "部分否定 not always / not necessarily を使う。",
+     "keyPoints": [
+      "部分否定 not always / not necessarily"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-preposition",
+   "title": "前置詞の重要用法",
+   "level": 3,
+   "category": "前置詞",
+   "summary": "時・場所の at / on / in、by と until、for と during など、入試で差がつく前置詞。",
+   "explanation": "## 時を表す前置詞\n\n| 前置詞 | 使う対象 | 例 |\n|---|---|---|\n| at | 時刻・一点 | at 7:00, at noon |\n| on | 曜日・日付・特定の日の朝など | on Monday, on May 5, on the morning of May 5 |\n| in | 月・年・季節・午前午後 | in July, in 2030, in the morning |\n\n## by と until\n\n- **by**：〜までに（期限：その時までに1回完了）Finish it **by** five.\n- **until (till)**：〜までずっと（継続）Wait here **until** five.\n\n## for と during\n\n- **for** + 期間の長さ（for three days）\n- **during** + 特定の期間（during the summer vacation）\n\n## 手段・原因・差を表す前置詞\n\n- by bus / by email（手段：無冠詞）、**in** ink（材料）、**with** a knife（道具）\n- die **of** cancer（病気）／ die **from** overwork（外的要因：近年は区別がゆるい）\n- He is older than me **by** three years.（差の by）\n\n## 前置詞 + 抽象名詞 = 副詞・形容詞\n\nwith ease（= easily）、of importance（= important）、by accident（偶然に）、on purpose（わざと）",
+   "examples": [
+    {
+     "en": "Please hand in your report by Friday.",
+     "ja": "金曜までにレポートを提出してください。"
+    },
+    {
+     "en": "I stayed in bed until noon.",
+     "ja": "正午までずっと寝ていた。"
+    },
+    {
+     "en": "This matter is of great importance.",
+     "ja": "この問題は非常に重要だ。",
+     "note": "of + 抽象名詞 = 形容詞"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-pp-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "on"
+     ],
+     "explanation": "特定の日の朝は on。in the morning との違いに注意。",
+     "sentence": "I was born ___ the morning of April 1.",
+     "choices": [
+      "in",
+      "at",
+      "on",
+      "by"
+     ]
+    },
+    {
+     "id": "g-pp-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "by"
+     ],
+     "explanation": "期限「〜までに」は by。",
+     "sentence": "You must return the book ___ next Monday.",
+     "choices": [
+      "until",
+      "by",
+      "for",
+      "in"
+     ]
+    },
+    {
+     "id": "g-pp-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "during"
+     ],
+     "explanation": "特定の期間を表す名詞の前は during。while は接続詞。",
+     "sentence": "I visited many temples ___ my stay in Kyoto.",
+     "choices": [
+      "for",
+      "while",
+      "during",
+      "since"
+     ]
+    },
+    {
+     "id": "g-pp-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "with"
+     ],
+     "explanation": "with ease = easily。",
+     "sentence": "He solved the problem ___ ease.",
+     "choices": [
+      "by",
+      "with",
+      "in",
+      "on"
+     ]
+    },
+    {
+     "id": "g-pp-5",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "by",
+      "for"
+     ],
+     "explanation": "差を表す by（30分遅れた）。for でも「30分間遅れた」の意味で成立する。",
+     "sentence": "The train was delayed ___ thirty minutes because of the snow."
+    }
+   ]
+  },
+  {
+   "id": "g-agreement",
+   "title": "主語と動詞の一致（正誤問題の頻出点）",
+   "level": 4,
+   "category": "一致",
+   "summary": "長い主語・相関接続詞・集合名詞・数量表現で、動詞が単数か複数かを判断する。",
+   "explanation": "## 長い主語は「中心の名詞」を見る\n\nThe **number** of students who study abroad **is** increasing.\n→ 主語の中心は number（単数）。of 以下や関係詞節にまどわされない。\n\n## 相関接続詞\n\n| 表現 | 動詞が一致するもの |\n|---|---|\n| A as well as B | **A** |\n| not only A but also B | **B** |\n| either A or B / neither A nor B | **B**（近い方） |\n| both A and B | 複数 |\n\n## 数量表現\n\n- **a number of** + 複数名詞 → 複数（多くの〜）\n- **the number of** + 複数名詞 → 単数（〜の数）\n- **most / some / half / the rest of** + 名詞 → of の後ろの名詞に一致\n- **each / every / one of** → 単数\n\n## その他\n\n- 時間・距離・金額のひとまとまりは単数：Ten years **is** a long time.\n- 学問名（physics, economics）、the news は単数\n- the + 形容詞（= 〜な人々）は複数：The rich **are** not always happy.\n- police, cattle は常に複数扱い",
+   "examples": [
+    {
+     "en": "The quality of these products is excellent.",
+     "ja": "これらの製品の品質はすばらしい。"
+    },
+    {
+     "en": "Not only the students but also the teacher was surprised.",
+     "ja": "生徒だけでなく先生も驚いた。"
+    },
+    {
+     "en": "Half of the money was spent on books.",
+     "ja": "お金の半分は本に使われた。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-ag-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "is"
+     ],
+     "explanation": "主語の中心は The number（単数）。",
+     "sentence": "The number of cars in this city ___ increasing.",
+     "choices": [
+      "is",
+      "are",
+      "have been",
+      "were"
+     ]
+    },
+    {
+     "id": "g-ag-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "is"
+     ],
+     "explanation": "either A or B は B（he）に一致。",
+     "sentence": "Either you or he ___ responsible for the mistake.",
+     "choices": [
+      "are",
+      "is",
+      "were",
+      "have"
+     ]
+    },
+    {
+     "id": "g-ag-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "was"
+     ],
+     "explanation": "most of + 不可算名詞（information）→ 単数。",
+     "sentence": "Most of the information ___ useful.",
+     "choices": [
+      "was",
+      "were",
+      "are",
+      "have been"
+     ]
+    },
+    {
+     "id": "g-ag-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "are"
+     ],
+     "explanation": "police は常に複数扱い。",
+     "sentence": "The police ___ looking for the missing child.",
+     "choices": [
+      "is",
+      "are",
+      "was",
+      "has been"
+     ]
+    },
+    {
+     "id": "g-ag-5",
+     "type": "choice",
+     "prompt": "誤りを含む箇所を選びなさい。",
+     "answers": [
+      "(B) has to"
+     ],
+     "explanation": "主語は The students（複数）なので have to が正しい。関係詞節 who live in the dormitory にまどわされない。",
+     "sentence": "下線部のうち誤りを含むものを選びなさい。\nThe students who (A) live in the dormitory (B) has to (C) follow strict rules (D) every day.",
+     "choices": [
+      "(A) live",
+      "(B) has to",
+      "(C) follow",
+      "(D) every day"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-adj-adv",
+   "title": "紛らわしい形容詞・副詞",
+   "level": 4,
+   "category": "形容詞・副詞",
+   "summary": "-ly の有無で意味が変わる副詞、感情を表す分詞形容詞、意味の紛らわしい形容詞ペア。",
+   "explanation": "## 感情を表す分詞形容詞\n\n| -ing（〜させる：物・事が主語） | -ed（〜させられた：人の感情） |\n|---|---|\n| The movie was **boring**. | I was **bored**. |\n| The news is **surprising**. | We were **surprised**. |\n\n## -ly で意味が変わる副詞\n\n| 語 | 意味 | -ly 形 | 意味 |\n|---|---|---|---|\n| hard | 熱心に | hardly | ほとんど〜ない |\n| late | 遅く | lately | 最近 |\n| near | 近くに | nearly | ほとんど・危うく |\n| high | 高く | highly | 非常に |\n| most | 最も | mostly | 主に |\n\n## 紛らわしい形容詞ペア\n\n| 語 | 意味 |\n|---|---|\n| economic / economical | 経済の／節約になる |\n| sensitive / sensible | 敏感な／分別のある |\n| industrial / industrious | 産業の／勤勉な |\n| respectful / respectable / respective | 敬意を表す／立派な／それぞれの |\n| imaginary / imaginative / imaginable | 架空の／想像力豊かな／想像できる |\n| considerable / considerate | かなりの／思いやりのある |",
+   "examples": [
+    {
+     "en": "I was disappointed with the result.",
+     "ja": "その結果にがっかりした。"
+    },
+    {
+     "en": "He hardly ever eats breakfast.",
+     "ja": "彼はめったに朝食を食べない。"
+    },
+    {
+     "en": "It would be sensible to leave early.",
+     "ja": "早めに出発するのが賢明だろう。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-aa-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "boring"
+     ],
+     "explanation": "講義が人を退屈させる → boring。",
+     "sentence": "The lecture was so ___ that many students fell asleep.",
+     "choices": [
+      "bored",
+      "boring",
+      "bore",
+      "boredom"
+     ]
+    },
+    {
+     "id": "g-aa-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "lately"
+     ],
+     "explanation": "lately「最近」は現在完了と使う。",
+     "sentence": "I have been very busy ___.",
+     "choices": [
+      "late",
+      "lately",
+      "later",
+      "latest"
+     ]
+    },
+    {
+     "id": "g-aa-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "considerate"
+     ],
+     "explanation": "considerate「思いやりのある」。considerable は「かなりの」。",
+     "sentence": "Thank you for being so ___. You always think of others.",
+     "choices": [
+      "considerable",
+      "considerate",
+      "considering",
+      "considered"
+     ]
+    },
+    {
+     "id": "g-aa-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "imaginative"
+     ],
+     "explanation": "imaginative「想像力豊かな」。",
+     "sentence": "He is a writer with a very ___ mind.",
+     "choices": [
+      "imaginary",
+      "imaginable",
+      "imaginative",
+      "imagination"
+     ]
+    },
+    {
+     "id": "g-aa-5",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "economical"
+     ],
+     "explanation": "economical「経済的な・節約になる」。economic は「経済（学）の」。",
+     "sentence": "The new car is ___ ; it uses very little fuel.",
+     "choices": [
+      "economic",
+      "economical",
+      "economy",
+      "economics"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-substitution-ellipsis",
+   "title": "代用と省略（so / not / do so / to）",
+   "level": 5,
+   "category": "代用・省略",
+   "summary": "前に出た内容を so・not・do so・代不定詞 to で受ける表現。難関大の和訳・英作文で必須。",
+   "explanation": "## that 節の代用 so / not\n\n- \"Will it rain?\" \"I **hope not**.\"（= I hope that it won't rain.）\n- \"Is he coming?\" \"I **think so**.\"（= I think that he is coming.）\n- I'm afraid **not**. / I suppose **so**.\n\n## 動詞句の代用 do so / do\n\nHe promised to clean his room, but he didn't **do so**.（= clean his room）\n\n## 代不定詞 to\n\nto 以下の繰り返しを避けて to だけ残す。\n- You can go if you want **to**.（= want to go）\n- \"Would you like to join us?\" \"I'd love **to**.\"\n\n## 比較・接続詞での省略\n\n- He is taller than I (am).\n- When (he was) young, he lived in Kyoto.\n- If (it is) necessary, call me.\n\n## 読解での注意\n\n省略・代用された部分を**具体的に補って**訳すことが、下線部和訳の採点ポイントになりやすい。",
+   "examples": [
+    {
+     "en": "\"Is the store open on Sunday?\" \"I'm afraid not.\"",
+     "ja": "「その店は日曜も開いていますか」「あいにく開いていません」"
+    },
+    {
+     "en": "I meant to call her, but I forgot to.",
+     "ja": "彼女に電話するつもりだったが、忘れてしまった。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-se-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "so"
+     ],
+     "explanation": "I hope so. = I hope that she will pass the exam.",
+     "sentence": "\"Will she pass the exam?\" \"I hope ___.\"",
+     "choices": [
+      "it",
+      "so",
+      "that",
+      "too"
+     ]
+    },
+    {
+     "id": "g-se-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "not"
+     ],
+     "explanation": "運転しなければならないので「降らないといい」→ I hope not.",
+     "sentence": "\"Is it going to snow tomorrow?\" \"I hope ___. I have to drive.\"",
+     "choices": [
+      "so",
+      "not",
+      "it",
+      "no"
+     ]
+    },
+    {
+     "id": "g-se-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "to"
+     ],
+     "explanation": "代不定詞：want to (come) の come を省略。",
+     "sentence": "You don't have to come if you don't want ___.",
+     "choices": [
+      "it",
+      "to",
+      "so",
+      "that"
+     ]
+    },
+    {
+     "id": "g-se-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼は謝罪するよう求められたが、謝罪することを拒んだ。"
+     ],
+     "explanation": "do so の内容を具体的に訳すのが和訳のポイント。",
+     "sentence": "He was asked to apologize, but he refused to do so.",
+     "keyPoints": [
+      "do so = apologize を具体的に補う"
+     ]
+    },
+    {
+     "id": "g-se-5",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "staying"
+     ],
+     "explanation": "While I was staying の I was を省略した形。While stayed は不可。",
+     "sentence": "While ___ in London, I visited the British Museum.",
+     "choices": [
+      "staying",
+      "stayed",
+      "I stayed",
+      "stay"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-advanced-error",
+   "title": "正誤問題・誤文訂正（難関大レベル）",
+   "level": 6,
+   "category": "総合",
+   "summary": "語法・一致・時制・準動詞・関係詞の誤りを見抜く。早慶・旧帝大の正誤問題対策。",
+   "explanation": "## 正誤問題で確認する順番\n\n1. **主語と動詞の一致**（長い主語・相関接続詞・数量表現）\n2. **時制**（過去を示す語と現在完了、時・条件の副詞節）\n3. **動詞の語法**（自動詞・他動詞、目的語の形：to do / doing / that 節）\n4. **準動詞**（不定詞・動名詞・分詞の能動受動）\n5. **関係詞**（先行詞と格、関係副詞との区別、what と that）\n6. **品詞・形**（形容詞と副詞、比較級、名詞の可算・不可算）\n7. **前置詞・冠詞**\n\n## 頻出の誤りパターン\n\n| 誤り | 正しい形 |\n|---|---|\n| discuss about the plan | discuss the plan |\n| I am looking forward to see you. | to seeing |\n| It is worth to visit. | worth visiting |\n| He suggested me to go. | suggested that I (should) go / suggested my going |\n| The man who I thought he was honest | who I thought was honest |\n| Despite of the rain | Despite the rain / In spite of the rain |\n| so a beautiful day | such a beautiful day / so beautiful a day |",
+   "examples": [
+    {
+     "en": "The proposal that the committee made last week has been widely criticized.",
+     "ja": "委員会が先週出した提案は広く批判されている。"
+    },
+    {
+     "en": "Hardly had the game started when it began to rain.",
+     "ja": "試合が始まるとすぐに雨が降り出した。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-ae-1",
+     "type": "choice",
+     "prompt": "誤りを含む箇所を選びなさい。",
+     "answers": [
+      "(B) was"
+     ],
+     "explanation": "neither A nor B は B（his assistants：複数）に一致するので were。",
+     "sentence": "誤りを含む箇所を選びなさい。\nNeither the manager (A) nor his assistants (B) was (C) aware of (D) the problem.",
+     "choices": [
+      "(A) nor",
+      "(B) was",
+      "(C) aware of",
+      "(D) the problem"
+     ]
+    },
+    {
+     "id": "g-ae-2",
+     "type": "choice",
+     "prompt": "誤りを含む箇所を選びなさい。",
+     "answers": [
+      "(A) have visited"
+     ],
+     "explanation": "when I was a student は明確な過去の時点 → visited（過去形）。",
+     "sentence": "誤りを含む箇所を選びなさい。\nI (A) have visited Kyoto (B) three times (C) when I was (D) a student.",
+     "choices": [
+      "(A) have visited",
+      "(B) three times",
+      "(C) when",
+      "(D) a student"
+     ]
+    },
+    {
+     "id": "g-ae-3",
+     "type": "choice",
+     "prompt": "誤りを含む箇所を選びなさい。",
+     "answers": [
+      "(B) me"
+     ],
+     "explanation": "explain は人を直接目的語にとらない。explain to me why … が正しい。",
+     "sentence": "誤りを含む箇所を選びなさい。\nHe (A) explained (B) me (C) why he had been (D) absent the day before.",
+     "choices": [
+      "(A) explained",
+      "(B) me",
+      "(C) why",
+      "(D) absent"
+     ]
+    },
+    {
+     "id": "g-ae-4",
+     "type": "choice",
+     "prompt": "誤りを含む箇所を選びなさい。",
+     "answers": [
+      "(A) which"
+     ],
+     "explanation": "stayed は自動詞で、後ろが完全な文 → 関係副詞 where（または at which）。",
+     "sentence": "誤りを含む箇所を選びなさい。\nThis is the hotel (A) which we (B) stayed (C) during our trip (D) last summer.",
+     "choices": [
+      "(A) which",
+      "(B) stayed",
+      "(C) during",
+      "(D) last summer"
+     ]
+    },
+    {
+     "id": "g-ae-5",
+     "type": "choice",
+     "prompt": "誤りを含む箇所を選びなさい。",
+     "answers": [
+      "(D) to read"
+     ],
+     "explanation": "「読むのをやめられなかった」は stop reading。stop to read は「読むために立ち止まる」。",
+     "sentence": "誤りを含む箇所を選びなさい。\n(A) It was (B) such an interesting book (C) that I could not stop (D) to read it.",
+     "choices": [
+      "(A) It was",
+      "(B) such an interesting book",
+      "(C) that",
+      "(D) to read"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-advanced-expression",
+   "title": "英作文で差がつく高度な文法表現",
+   "level": 7,
+   "category": "総合",
+   "summary": "最難関大の自由英作文・和文英訳で使える、正確で洗練された構文を身につける。",
+   "explanation": "## 抽象的な内容を簡潔に書く構文\n\n| 構文 | 例 |\n|---|---|\n| It is not A but B that … | It is not money but time that matters most. |\n| What matters is not A but B | What matters is not how much you know but how you use it. |\n| The more …, the more ～ | The more we rely on AI, the more important human judgment becomes. |\n| A is to B what C is to D | Data is to AI what fuel is to a car. |\n| Whether A or B, … | Whether we like it or not, technology will keep changing. |\n| Far from doing, … | Far from solving the problem, the policy made it worse. |\n| It is (high) time S + 過去形 | It is time we reconsidered our way of life. |\n| Given …, | Given the aging population, healthcare costs will rise. |\n\n## 譲歩→主張の型（論理性の評価が上がる）\n\n- **Admittedly**, A. **However**, B.\n- **While** it is true that A, B.\n- A **may** be true, **but** B.\n\n## 名詞構文で引き締める\n\nbecause people use smartphones widely → **the widespread use of smartphones**",
+   "examples": [
+    {
+     "en": "Given the rapid aging of society, the demand for nurses will continue to grow.",
+     "ja": "社会の急速な高齢化を考えると、看護師の需要は伸び続けるだろう。"
+    },
+    {
+     "en": "Far from being a waste of time, play is essential to children's development.",
+     "ja": "遊びは時間の無駄どころか、子どもの発達に不可欠である。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-ax-1",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「大切なのは何を知っているかではなく、知識をどう使うかである。」",
+     "answers": [
+      "What matters is not what you know but how you use your knowledge.",
+      "What is important is not what you know but how you use your knowledge.",
+      "It is not what you know but how you use your knowledge that matters."
+     ],
+     "explanation": "not A but B を名詞節で並列させる。",
+     "keyPoints": [
+      "What matters is not A but B / It is not A but B that matters",
+      "疑問詞節を A・B に置く"
+     ]
+    },
+    {
+     "id": "g-ax-2",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「高齢化を考えると、医療費は今後も増え続けるだろう。」",
+     "answers": [
+      "Given the aging of society, medical costs will continue to rise.",
+      "Given the aging population, healthcare costs will continue to increase.",
+      "Considering the aging of society, medical expenses will keep rising."
+     ],
+     "explanation": "前置詞的な Given で前提を簡潔に示す。",
+     "keyPoints": [
+      "Given 〜 / Considering 〜「〜を考慮すると」",
+      "the aging of society / an aging population",
+      "continue to rise"
+     ]
+    },
+    {
+     "id": "g-ax-3",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「その政策は問題を解決するどころか、かえって悪化させた。」",
+     "answers": [
+      "Far from solving the problem, the policy made it worse.",
+      "Far from solving the problem, the policy actually made it worse.",
+      "Instead of solving the problem, the policy made it worse."
+     ],
+     "explanation": "Far from doing は強い否定を伴う対比。",
+     "keyPoints": [
+      "Far from doing「〜するどころか」",
+      "make O worse"
+     ]
+    },
+    {
+     "id": "g-ax-4",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「好むと好まざるとにかかわらず、私たちは変化に適応しなければならない。」",
+     "answers": [
+      "Whether we like it or not, we must adapt to change.",
+      "Whether we like it or not, we have to adapt to changes.",
+      "Like it or not, we must adapt to change."
+     ],
+     "explanation": "譲歩の副詞節 whether 〜 or not。",
+     "keyPoints": [
+      "Whether A or not「Aであろうとなかろうと」",
+      "adapt to 〜"
+     ]
+    },
+    {
+     "id": "g-ax-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「私たちは生活の仕方を見直すべき時期に来ている。」",
+     "answers": [
+      "It is time we reconsidered our way of life.",
+      "It is high time we reconsidered the way we live.",
+      "It is about time we reconsidered our lifestyle."
+     ],
+     "explanation": "It is time の後は仮定法過去（過去形）。",
+     "keyPoints": [
+      "It is (high / about) time S + 過去形",
+      "reconsider / review the way we live"
      ]
     }
    ]

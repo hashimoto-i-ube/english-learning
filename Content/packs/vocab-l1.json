@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "vocab.core.l1",
- "revision": 1,
+ "revision": 2,
  "skill": "vocabulary",
  "title": "Lv1 基本語彙",
  "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
@@ -538,6 +538,1325 @@
     "ja": "電車はもう出てしまった。"
    },
    "note": "肯定文で使う。否定・疑問の「もう／まだ」は yet。"
+  },
+  {
+   "id": "w-accept",
+   "headword": "accept",
+   "pos": "動",
+   "meanings": [
+    "受け入れる",
+    "受け取る"
+   ],
+   "level": 1,
+   "ipa": "/əkˈsept/",
+   "example": {
+    "en": "She accepted the invitation to the party.",
+    "ja": "彼女はパーティーへの招待を受け入れた。"
+   },
+   "derivatives": [
+    "acceptance 名 受け入れ",
+    "acceptable 形 受け入れられる"
+   ]
+  },
+  {
+   "id": "w-advice",
+   "headword": "advice",
+   "pos": "名",
+   "meanings": [
+    "助言",
+    "忠告"
+   ],
+   "level": 1,
+   "ipa": "/ədˈvaɪs/",
+   "example": {
+    "en": "Let me give you a piece of advice.",
+    "ja": "一つ助言をさせてください。"
+   },
+   "derivatives": [
+    "advise 動 助言する /ədˈvaɪz/"
+   ],
+   "note": "不可算名詞。×an advice / ×advices。"
+  },
+  {
+   "id": "w-agree",
+   "headword": "agree",
+   "pos": "動",
+   "meanings": [
+    "同意する",
+    "意見が一致する"
+   ],
+   "level": 1,
+   "ipa": "/əˈɡriː/",
+   "example": {
+    "en": "I agree with you on this point.",
+    "ja": "この点ではあなたに同意します。"
+   },
+   "derivatives": [
+    "agreement 名 同意"
+   ],
+   "collocations": [
+    "agree with 人",
+    "agree to 提案"
+   ]
+  },
+  {
+   "id": "w-allow",
+   "headword": "allow",
+   "pos": "動",
+   "meanings": [
+    "許す",
+    "可能にする"
+   ],
+   "level": 1,
+   "ipa": "/əˈlaʊ/",
+   "example": {
+    "en": "My parents allowed me to go camping.",
+    "ja": "両親は私がキャンプに行くのを許してくれた。"
+   },
+   "note": "allow O to do。発音は /aʊ/（アラウ）。"
+  },
+  {
+   "id": "w-among",
+   "headword": "among",
+   "pos": "前",
+   "meanings": [
+    "〜の間で（3つ以上）"
+   ],
+   "level": 1,
+   "ipa": "/əˈmʌŋ/",
+   "example": {
+    "en": "The singer is popular among students.",
+    "ja": "その歌手は学生の間で人気がある。"
+   },
+   "note": "2者の間は between。"
+  },
+  {
+   "id": "w-appear",
+   "headword": "appear",
+   "pos": "動",
+   "meanings": [
+    "現れる",
+    "〜のように見える"
+   ],
+   "level": 1,
+   "ipa": "/əˈpɪər/",
+   "example": {
+    "en": "A rainbow appeared in the sky.",
+    "ja": "空に虹が現れた。"
+   },
+   "derivatives": [
+    "appearance 名 出現；外見"
+   ],
+   "antonyms": [
+    "disappear 消える"
+   ],
+   "collocations": [
+    "appear to be ~（〜のようだ）"
+   ]
+  },
+  {
+   "id": "w-article",
+   "headword": "article",
+   "pos": "名",
+   "meanings": [
+    "記事",
+    "品物",
+    "冠詞"
+   ],
+   "level": 1,
+   "ipa": "/ˈɑːtɪkl/",
+   "example": {
+    "en": "I read an interesting article about space.",
+    "ja": "宇宙についての興味深い記事を読んだ。"
+   }
+  },
+  {
+   "id": "w-attention",
+   "headword": "attention",
+   "pos": "名",
+   "meanings": [
+    "注意",
+    "注目"
+   ],
+   "level": 1,
+   "ipa": "/əˈtenʃn/",
+   "example": {
+    "en": "Please pay attention to the teacher.",
+    "ja": "先生の話に注意を払いなさい。"
+   },
+   "derivatives": [
+    "attend 動 注意を払う・出席する"
+   ],
+   "collocations": [
+    "pay attention to ~"
+   ]
+  },
+  {
+   "id": "w-average",
+   "headword": "average",
+   "pos": "名",
+   "meanings": [
+    "平均"
+   ],
+   "level": 1,
+   "ipa": "/ˈævərɪdʒ/",
+   "example": {
+    "en": "Her score was above average.",
+    "ja": "彼女の点数は平均以上だった。"
+   },
+   "collocations": [
+    "on average（平均して）"
+   ]
+  },
+  {
+   "id": "w-believe",
+   "headword": "believe",
+   "pos": "動",
+   "meanings": [
+    "信じる",
+    "〜と思う"
+   ],
+   "level": 1,
+   "ipa": "/bɪˈliːv/",
+   "example": {
+    "en": "I believe that he will come back.",
+    "ja": "彼は戻ってくると信じている。"
+   },
+   "derivatives": [
+    "belief 名 信念"
+   ],
+   "collocations": [
+    "believe in ~（〜の存在・価値を信じる）"
+   ]
+  },
+  {
+   "id": "w-careful",
+   "headword": "careful",
+   "pos": "形",
+   "meanings": [
+    "注意深い"
+   ],
+   "level": 1,
+   "ipa": "/ˈkeəfl/",
+   "example": {
+    "en": "Be careful when you cross the road.",
+    "ja": "道路を渡るときは気をつけなさい。"
+   },
+   "antonyms": [
+    "careless 不注意な"
+   ]
+  },
+  {
+   "id": "w-celebrate",
+   "headword": "celebrate",
+   "pos": "動",
+   "meanings": [
+    "祝う"
+   ],
+   "level": 1,
+   "ipa": "/ˈselɪbreɪt/",
+   "example": {
+    "en": "We celebrated my grandmother's 80th birthday.",
+    "ja": "祖母の80歳の誕生日を祝った。"
+   },
+   "derivatives": [
+    "celebration 名 祝賀"
+   ]
+  },
+  {
+   "id": "w-century",
+   "headword": "century",
+   "pos": "名",
+   "meanings": [
+    "世紀",
+    "100年"
+   ],
+   "level": 1,
+   "ipa": "/ˈsentʃəri/",
+   "example": {
+    "en": "The castle was built in the 16th century.",
+    "ja": "その城は16世紀に建てられた。"
+   }
+  },
+  {
+   "id": "w-choose",
+   "headword": "choose",
+   "pos": "動",
+   "meanings": [
+    "選ぶ"
+   ],
+   "level": 1,
+   "ipa": "/tʃuːz/",
+   "example": {
+    "en": "You can choose any book you like.",
+    "ja": "好きな本をどれでも選んでいいですよ。"
+   },
+   "derivatives": [
+    "choice 名 選択"
+   ],
+   "note": "活用 choose - chose - chosen。"
+  },
+  {
+   "id": "w-climate",
+   "headword": "climate",
+   "pos": "名",
+   "meanings": [
+    "気候"
+   ],
+   "level": 1,
+   "ipa": "/ˈklaɪmət/",
+   "example": {
+    "en": "Climate change is a global problem.",
+    "ja": "気候変動は世界的な問題だ。"
+   },
+   "note": "weather は日々の天気、climate は長期的な気候。"
+  },
+  {
+   "id": "w-communicate",
+   "headword": "communicate",
+   "pos": "動",
+   "meanings": [
+    "意思を伝え合う",
+    "伝える"
+   ],
+   "level": 1,
+   "ipa": "/kəˈmjuːnɪkeɪt/",
+   "example": {
+    "en": "We communicate with each other by email.",
+    "ja": "私たちはメールで連絡を取り合っている。"
+   },
+   "derivatives": [
+    "communication 名 意思疎通"
+   ]
+  },
+  {
+   "id": "w-condition",
+   "headword": "condition",
+   "pos": "名",
+   "meanings": [
+    "状態",
+    "条件"
+   ],
+   "level": 1,
+   "ipa": "/kənˈdɪʃn/",
+   "example": {
+    "en": "The car is in good condition.",
+    "ja": "その車は状態が良い。"
+   },
+   "collocations": [
+    "on condition that ~（〜という条件で）"
+   ]
+  },
+  {
+   "id": "w-continue",
+   "headword": "continue",
+   "pos": "動",
+   "meanings": [
+    "続ける",
+    "続く"
+   ],
+   "level": 1,
+   "ipa": "/kənˈtɪnjuː/",
+   "example": {
+    "en": "The rain continued all day.",
+    "ja": "雨は一日中降り続いた。"
+   },
+   "collocations": [
+    "continue to do / doing"
+   ]
+  },
+  {
+   "id": "w-create",
+   "headword": "create",
+   "pos": "動",
+   "meanings": [
+    "創造する",
+    "生み出す"
+   ],
+   "level": 1,
+   "ipa": "/kriˈeɪt/",
+   "example": {
+    "en": "The new factory will create many jobs.",
+    "ja": "新しい工場は多くの雇用を生み出すだろう。"
+   },
+   "derivatives": [
+    "creation 名 創造",
+    "creative 形 創造的な"
+   ]
+  },
+  {
+   "id": "w-damage",
+   "headword": "damage",
+   "pos": "名",
+   "meanings": [
+    "損害",
+    "被害"
+   ],
+   "level": 1,
+   "ipa": "/ˈdæmɪdʒ/",
+   "example": {
+    "en": "The storm caused serious damage to the town.",
+    "ja": "嵐は町に深刻な被害をもたらした。"
+   },
+   "note": "不可算名詞。動詞としても使う（damage the car）。"
+  },
+  {
+   "id": "w-depend",
+   "headword": "depend",
+   "pos": "動",
+   "meanings": [
+    "頼る",
+    "〜次第である"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈpend/",
+   "example": {
+    "en": "It depends on the weather.",
+    "ja": "それは天気次第だ。"
+   },
+   "derivatives": [
+    "dependent 形 依存している"
+   ],
+   "collocations": [
+    "depend on ~"
+   ]
+  },
+  {
+   "id": "w-destroy",
+   "headword": "destroy",
+   "pos": "動",
+   "meanings": [
+    "破壊する"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈstrɔɪ/",
+   "example": {
+    "en": "The earthquake destroyed many houses.",
+    "ja": "地震で多くの家が倒壊した。"
+   },
+   "derivatives": [
+    "destruction 名 破壊"
+   ]
+  },
+  {
+   "id": "w-develop",
+   "headword": "develop",
+   "pos": "動",
+   "meanings": [
+    "発達させる",
+    "開発する",
+    "発達する"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈveləp/",
+   "example": {
+    "en": "The company developed a new type of battery.",
+    "ja": "その会社は新型の電池を開発した。"
+   },
+   "derivatives": [
+    "development 名 発達；開発",
+    "developing country 発展途上国"
+   ]
+  },
+  {
+   "id": "w-discuss",
+   "headword": "discuss",
+   "pos": "動",
+   "meanings": [
+    "話し合う",
+    "議論する"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈskʌs/",
+   "example": {
+    "en": "We discussed the problem for hours.",
+    "ja": "私たちはその問題について何時間も話し合った。"
+   },
+   "note": "他動詞：×discuss about。"
+  },
+  {
+   "id": "w-earn",
+   "headword": "earn",
+   "pos": "動",
+   "meanings": [
+    "稼ぐ",
+    "得る"
+   ],
+   "level": 1,
+   "ipa": "/ɜːn/",
+   "example": {
+    "en": "He earns money by delivering newspapers.",
+    "ja": "彼は新聞配達でお金を稼いでいる。"
+   },
+   "collocations": [
+    "earn a living（生計を立てる）"
+   ]
+  },
+  {
+   "id": "w-education",
+   "headword": "education",
+   "pos": "名",
+   "meanings": [
+    "教育"
+   ],
+   "level": 1,
+   "ipa": "/ˌedʒuˈkeɪʃn/",
+   "example": {
+    "en": "Everyone has the right to education.",
+    "ja": "誰もが教育を受ける権利をもつ。"
+   },
+   "derivatives": [
+    "educate 動 教育する",
+    "educational 形 教育の"
+   ]
+  },
+  {
+   "id": "w-energy",
+   "headword": "energy",
+   "pos": "名",
+   "meanings": [
+    "エネルギー",
+    "精力"
+   ],
+   "level": 1,
+   "ipa": "/ˈenədʒi/",
+   "example": {
+    "en": "Solar energy is clean and renewable.",
+    "ja": "太陽エネルギーはクリーンで再生可能だ。"
+   },
+   "accentNote": "EN-er-gy（第1音節）。発音は「エナジー」。"
+  },
+  {
+   "id": "w-especially",
+   "headword": "especially",
+   "pos": "副",
+   "meanings": [
+    "特に"
+   ],
+   "level": 1,
+   "ipa": "/ɪˈspeʃəli/",
+   "example": {
+    "en": "I like fruit, especially apples.",
+    "ja": "果物が好きで、特にりんごが好きだ。"
+   }
+  },
+  {
+   "id": "w-expect",
+   "headword": "expect",
+   "pos": "動",
+   "meanings": [
+    "予期する",
+    "期待する"
+   ],
+   "level": 1,
+   "ipa": "/ɪkˈspekt/",
+   "example": {
+    "en": "I expect him to arrive soon.",
+    "ja": "彼はまもなく着くと思う。"
+   },
+   "derivatives": [
+    "expectation 名 期待"
+   ],
+   "collocations": [
+    "expect O to do"
+   ]
+  },
+  {
+   "id": "w-express",
+   "headword": "express",
+   "pos": "動",
+   "meanings": [
+    "表現する"
+   ],
+   "level": 1,
+   "ipa": "/ɪkˈspres/",
+   "example": {
+    "en": "It is hard to express my feelings in English.",
+    "ja": "自分の気持ちを英語で表すのは難しい。"
+   },
+   "derivatives": [
+    "expression 名 表現"
+   ]
+  },
+  {
+   "id": "w-fail",
+   "headword": "fail",
+   "pos": "動",
+   "meanings": [
+    "失敗する",
+    "〜しない"
+   ],
+   "level": 1,
+   "ipa": "/feɪl/",
+   "example": {
+    "en": "He failed to pass the exam.",
+    "ja": "彼は試験に合格できなかった。"
+   },
+   "derivatives": [
+    "failure 名 失敗"
+   ],
+   "collocations": [
+    "fail to do（〜しない・できない）"
+   ]
+  },
+  {
+   "id": "w-famous",
+   "headword": "famous",
+   "pos": "形",
+   "meanings": [
+    "有名な"
+   ],
+   "level": 1,
+   "ipa": "/ˈfeɪməs/",
+   "example": {
+    "en": "Kyoto is famous for its old temples.",
+    "ja": "京都は古い寺で有名だ。"
+   },
+   "collocations": [
+    "be famous for ~（〜で有名）",
+    "be famous as ~（〜として有名）"
+   ]
+  },
+  {
+   "id": "w-foreign",
+   "headword": "foreign",
+   "pos": "形",
+   "meanings": [
+    "外国の"
+   ],
+   "level": 1,
+   "ipa": "/ˈfɒrən/",
+   "example": {
+    "en": "Learning a foreign language opens doors.",
+    "ja": "外国語を学ぶことは可能性を広げる。"
+   },
+   "derivatives": [
+    "foreigner 名 外国人"
+   ],
+   "note": "g は発音しない。"
+  },
+  {
+   "id": "w-future",
+   "headword": "future",
+   "pos": "名",
+   "meanings": [
+    "未来",
+    "将来"
+   ],
+   "level": 1,
+   "ipa": "/ˈfjuːtʃər/",
+   "example": {
+    "en": "What do you want to be in the future?",
+    "ja": "将来何になりたいですか。"
+   }
+  },
+  {
+   "id": "w-habit",
+   "headword": "habit",
+   "pos": "名",
+   "meanings": [
+    "習慣",
+    "癖"
+   ],
+   "level": 1,
+   "ipa": "/ˈhæbɪt/",
+   "example": {
+    "en": "Reading before bed is a good habit.",
+    "ja": "寝る前の読書は良い習慣だ。"
+   },
+   "note": "個人の習慣は habit、社会の慣習は custom。"
+  },
+  {
+   "id": "w-health",
+   "headword": "health",
+   "pos": "名",
+   "meanings": [
+    "健康"
+   ],
+   "level": 1,
+   "ipa": "/helθ/",
+   "example": {
+    "en": "Sleep is important for your health.",
+    "ja": "睡眠は健康にとって大切だ。"
+   },
+   "derivatives": [
+    "healthy 形 健康な"
+   ]
+  },
+  {
+   "id": "w-however",
+   "headword": "however",
+   "pos": "副",
+   "meanings": [
+    "しかしながら",
+    "どんなに〜でも"
+   ],
+   "level": 1,
+   "ipa": "/haʊˈevər/",
+   "example": {
+    "en": "The plan sounds good. However, it costs too much.",
+    "ja": "その計画は良さそうだ。しかし費用がかかりすぎる。"
+   },
+   "note": "接続詞ではなく副詞なので、文と文をつなぐにはピリオドかセミコロンを使う。"
+  },
+  {
+   "id": "w-imagine",
+   "headword": "imagine",
+   "pos": "動",
+   "meanings": [
+    "想像する"
+   ],
+   "level": 1,
+   "ipa": "/ɪˈmædʒɪn/",
+   "example": {
+    "en": "Can you imagine life without the Internet?",
+    "ja": "インターネットのない生活を想像できますか。"
+   },
+   "derivatives": [
+    "imagination 名 想像力",
+    "imaginary 形 架空の"
+   ],
+   "note": "imagine doing。"
+  },
+  {
+   "id": "w-include",
+   "headword": "include",
+   "pos": "動",
+   "meanings": [
+    "含む"
+   ],
+   "level": 1,
+   "ipa": "/ɪnˈkluːd/",
+   "example": {
+    "en": "The price includes tax.",
+    "ja": "価格には税が含まれている。"
+   },
+   "antonyms": [
+    "exclude 除外する"
+   ]
+  },
+  {
+   "id": "w-industry",
+   "headword": "industry",
+   "pos": "名",
+   "meanings": [
+    "産業",
+    "勤勉"
+   ],
+   "level": 1,
+   "ipa": "/ˈɪndəstri/",
+   "example": {
+    "en": "Tourism is a major industry in Hawaii.",
+    "ja": "観光業はハワイの主要産業だ。"
+   },
+   "derivatives": [
+    "industrial 形 産業の",
+    "industrious 形 勤勉な"
+   ]
+  },
+  {
+   "id": "w-knowledge",
+   "headword": "knowledge",
+   "pos": "名",
+   "meanings": [
+    "知識"
+   ],
+   "level": 1,
+   "ipa": "/ˈnɒlɪdʒ/",
+   "example": {
+    "en": "He has a deep knowledge of history.",
+    "ja": "彼は歴史について深い知識をもっている。"
+   },
+   "note": "k は発音しない。不可算名詞だが a knowledge of ~ の形はある。"
+  },
+  {
+   "id": "w-local",
+   "headword": "local",
+   "pos": "形",
+   "meanings": [
+    "地元の",
+    "その地域の"
+   ],
+   "level": 1,
+   "ipa": "/ˈləʊkl/",
+   "example": {
+    "en": "We bought vegetables from local farmers.",
+    "ja": "地元の農家から野菜を買った。"
+   },
+   "note": "「田舎の」の意味はない（rural）。"
+  },
+  {
+   "id": "w-matter",
+   "headword": "matter",
+   "pos": "動",
+   "meanings": [
+    "重要である"
+   ],
+   "level": 1,
+   "ipa": "/ˈmætər/",
+   "example": {
+    "en": "It doesn't matter what others think.",
+    "ja": "他人がどう思うかは重要ではない。"
+   },
+   "note": "名詞「問題・事柄」。What's the matter?（どうしたの）"
+  },
+  {
+   "id": "w-memory",
+   "headword": "memory",
+   "pos": "名",
+   "meanings": [
+    "記憶",
+    "思い出"
+   ],
+   "level": 1,
+   "ipa": "/ˈmeməri/",
+   "example": {
+    "en": "I have good memories of my school days.",
+    "ja": "学生時代には良い思い出がある。"
+   },
+   "derivatives": [
+    "memorize 動 暗記する"
+   ]
+  },
+  {
+   "id": "w-mistake",
+   "headword": "mistake",
+   "pos": "名",
+   "meanings": [
+    "誤り",
+    "間違い"
+   ],
+   "level": 1,
+   "ipa": "/mɪˈsteɪk/",
+   "example": {
+    "en": "Everyone makes mistakes.",
+    "ja": "誰でも間違いをする。"
+   },
+   "collocations": [
+    "make a mistake",
+    "by mistake（誤って）"
+   ]
+  },
+  {
+   "id": "w-natural",
+   "headword": "natural",
+   "pos": "形",
+   "meanings": [
+    "自然の",
+    "当然の"
+   ],
+   "level": 1,
+   "ipa": "/ˈnætʃrəl/",
+   "example": {
+    "en": "It is natural for children to be curious.",
+    "ja": "子どもが好奇心旺盛なのは当然だ。"
+   },
+   "derivatives": [
+    "nature 名 自然；性質"
+   ]
+  },
+  {
+   "id": "w-notice",
+   "headword": "notice",
+   "pos": "動",
+   "meanings": [
+    "気づく"
+   ],
+   "level": 1,
+   "ipa": "/ˈnəʊtɪs/",
+   "example": {
+    "en": "I didn't notice that she had left.",
+    "ja": "彼女が帰ったことに気づかなかった。"
+   },
+   "note": "名詞「掲示・通知」。"
+  },
+  {
+   "id": "w-offer",
+   "headword": "offer",
+   "pos": "動",
+   "meanings": [
+    "申し出る",
+    "提供する"
+   ],
+   "level": 1,
+   "ipa": "/ˈɒfər/",
+   "example": {
+    "en": "He offered to help me.",
+    "ja": "彼は私を手伝おうと申し出た。"
+   },
+   "collocations": [
+    "offer to do"
+   ]
+  },
+  {
+   "id": "w-ordinary",
+   "headword": "ordinary",
+   "pos": "形",
+   "meanings": [
+    "普通の",
+    "平凡な"
+   ],
+   "level": 1,
+   "ipa": "/ˈɔːdnri/",
+   "example": {
+    "en": "It was just an ordinary day.",
+    "ja": "それはごく普通の一日だった。"
+   },
+   "antonyms": [
+    "extraordinary 並外れた"
+   ]
+  },
+  {
+   "id": "w-patient",
+   "headword": "patient",
+   "pos": "形",
+   "meanings": [
+    "忍耐強い"
+   ],
+   "level": 1,
+   "ipa": "/ˈpeɪʃnt/",
+   "example": {
+    "en": "Be patient with beginners.",
+    "ja": "初心者には辛抱強く接しなさい。"
+   },
+   "note": "名詞「患者」。patience 名 忍耐。"
+  },
+  {
+   "id": "w-pollution",
+   "headword": "pollution",
+   "pos": "名",
+   "meanings": [
+    "汚染",
+    "公害"
+   ],
+   "level": 1,
+   "ipa": "/pəˈluːʃn/",
+   "example": {
+    "en": "Air pollution is a serious problem in big cities.",
+    "ja": "大気汚染は大都市の深刻な問題だ。"
+   },
+   "derivatives": [
+    "pollute 動 汚染する"
+   ]
+  },
+  {
+   "id": "w-population",
+   "headword": "population",
+   "pos": "名",
+   "meanings": [
+    "人口"
+   ],
+   "level": 1,
+   "ipa": "/ˌpɒpjuˈleɪʃn/",
+   "example": {
+    "en": "Japan has a population of about 120 million.",
+    "ja": "日本の人口は約1億2千万人だ。"
+   },
+   "note": "人口の大小は large / small（×many / few）。"
+  },
+  {
+   "id": "w-practice",
+   "headword": "practice",
+   "pos": "動",
+   "meanings": [
+    "練習する",
+    "実践する"
+   ],
+   "level": 1,
+   "ipa": "/ˈpræktɪs/",
+   "example": {
+    "en": "She practices the piano every day.",
+    "ja": "彼女は毎日ピアノを練習する。"
+   },
+   "note": "practice doing。名詞「練習・慣行」。"
+  },
+  {
+   "id": "w-prefer",
+   "headword": "prefer",
+   "pos": "動",
+   "meanings": [
+    "〜のほうを好む"
+   ],
+   "level": 1,
+   "ipa": "/prɪˈfɜːr/",
+   "example": {
+    "en": "I prefer tea to coffee.",
+    "ja": "コーヒーより紅茶のほうが好きだ。"
+   },
+   "derivatives": [
+    "preference 名 好み"
+   ],
+   "collocations": [
+    "prefer A to B"
+   ],
+   "accentNote": "pre-FER（第2音節）。"
+  },
+  {
+   "id": "w-produce",
+   "headword": "produce",
+   "pos": "動",
+   "meanings": [
+    "生産する",
+    "生み出す"
+   ],
+   "level": 1,
+   "ipa": "/prəˈdjuːs/",
+   "example": {
+    "en": "This region produces a lot of rice.",
+    "ja": "この地域は多くの米を生産する。"
+   },
+   "derivatives": [
+    "product 名 製品",
+    "production 名 生産"
+   ]
+  },
+  {
+   "id": "w-public",
+   "headword": "public",
+   "pos": "形",
+   "meanings": [
+    "公共の",
+    "公の"
+   ],
+   "level": 1,
+   "ipa": "/ˈpʌblɪk/",
+   "example": {
+    "en": "Smoking is banned in public places.",
+    "ja": "公共の場所では喫煙が禁止されている。"
+   },
+   "antonyms": [
+    "private 私的な"
+   ],
+   "collocations": [
+    "in public（人前で）"
+   ]
+  },
+  {
+   "id": "w-realize",
+   "headword": "realize",
+   "pos": "動",
+   "meanings": [
+    "気づく",
+    "実現する"
+   ],
+   "level": 1,
+   "ipa": "/ˈriːəlaɪz/",
+   "example": {
+    "en": "I realized that I had made a mistake.",
+    "ja": "自分が間違えたことに気づいた。"
+   },
+   "derivatives": [
+    "realization 名 認識；実現"
+   ]
+  },
+  {
+   "id": "w-recently",
+   "headword": "recently",
+   "pos": "副",
+   "meanings": [
+    "最近"
+   ],
+   "level": 1,
+   "ipa": "/ˈriːsntli/",
+   "example": {
+    "en": "I have recently started jogging.",
+    "ja": "最近ジョギングを始めた。"
+   },
+   "note": "現在完了・過去形と使う（現在形とは使わない）。"
+  },
+  {
+   "id": "w-research",
+   "headword": "research",
+   "pos": "名",
+   "meanings": [
+    "研究",
+    "調査"
+   ],
+   "level": 1,
+   "ipa": "/rɪˈsɜːtʃ/",
+   "example": {
+    "en": "They are doing research on cancer.",
+    "ja": "彼らはがんの研究をしている。"
+   },
+   "note": "不可算名詞。do research on ~。"
+  },
+  {
+   "id": "w-respect",
+   "headword": "respect",
+   "pos": "動",
+   "meanings": [
+    "尊敬する",
+    "尊重する"
+   ],
+   "level": 1,
+   "ipa": "/rɪˈspekt/",
+   "example": {
+    "en": "We should respect other people's opinions.",
+    "ja": "他人の意見を尊重すべきだ。"
+   },
+   "derivatives": [
+    "respectful 形 敬意を表する",
+    "respectable 形 立派な",
+    "respective 形 それぞれの"
+   ]
+  },
+  {
+   "id": "w-result",
+   "headword": "result",
+   "pos": "名",
+   "meanings": [
+    "結果"
+   ],
+   "level": 1,
+   "ipa": "/rɪˈzʌlt/",
+   "example": {
+    "en": "The test results will be announced tomorrow.",
+    "ja": "試験の結果は明日発表される。"
+   },
+   "collocations": [
+    "as a result（その結果）",
+    "result in ~（〜という結果になる）",
+    "result from ~（〜に起因する）"
+   ]
+  },
+  {
+   "id": "w-safe",
+   "headword": "safe",
+   "pos": "形",
+   "meanings": [
+    "安全な"
+   ],
+   "level": 1,
+   "ipa": "/seɪf/",
+   "example": {
+    "en": "Keep your passport in a safe place.",
+    "ja": "パスポートは安全な場所に保管しなさい。"
+   },
+   "derivatives": [
+    "safety 名 安全"
+   ]
+  },
+  {
+   "id": "w-seem",
+   "headword": "seem",
+   "pos": "動",
+   "meanings": [
+    "〜のように思われる"
+   ],
+   "level": 1,
+   "ipa": "/siːm/",
+   "example": {
+    "en": "He seems to be tired.",
+    "ja": "彼は疲れているようだ。"
+   },
+   "collocations": [
+    "seem to do",
+    "It seems that ~"
+   ]
+  },
+  {
+   "id": "w-serious",
+   "headword": "serious",
+   "pos": "形",
+   "meanings": [
+    "深刻な",
+    "まじめな"
+   ],
+   "level": 1,
+   "ipa": "/ˈsɪəriəs/",
+   "example": {
+    "en": "This is a serious problem.",
+    "ja": "これは深刻な問題だ。"
+   }
+  },
+  {
+   "id": "w-share",
+   "headword": "share",
+   "pos": "動",
+   "meanings": [
+    "共有する",
+    "分け合う"
+   ],
+   "level": 1,
+   "ipa": "/ʃeər/",
+   "example": {
+    "en": "I share a room with my brother.",
+    "ja": "私は兄と部屋を共有している。"
+   }
+  },
+  {
+   "id": "w-similar",
+   "headword": "similar",
+   "pos": "形",
+   "meanings": [
+    "似ている"
+   ],
+   "level": 1,
+   "ipa": "/ˈsɪmələr/",
+   "example": {
+    "en": "My idea is similar to yours.",
+    "ja": "私の考えはあなたのと似ている。"
+   },
+   "derivatives": [
+    "similarity 名 類似点"
+   ],
+   "collocations": [
+    "be similar to ~"
+   ]
+  },
+  {
+   "id": "w-skill",
+   "headword": "skill",
+   "pos": "名",
+   "meanings": [
+    "技能",
+    "腕前"
+   ],
+   "level": 1,
+   "ipa": "/skɪl/",
+   "example": {
+    "en": "Communication skills are important in any job.",
+    "ja": "コミュニケーション能力はどんな仕事でも重要だ。"
+   },
+   "derivatives": [
+    "skillful 形 熟練した"
+   ]
+  },
+  {
+   "id": "w-spend",
+   "headword": "spend",
+   "pos": "動",
+   "meanings": [
+    "（時間・お金を）使う",
+    "過ごす"
+   ],
+   "level": 1,
+   "ipa": "/spend/",
+   "example": {
+    "en": "I spent two hours doing my homework.",
+    "ja": "宿題をするのに2時間を費やした。"
+   },
+   "collocations": [
+    "spend 時間 doing",
+    "spend お金 on 物"
+   ]
+  },
+  {
+   "id": "w-success",
+   "headword": "success",
+   "pos": "名",
+   "meanings": [
+    "成功"
+   ],
+   "level": 1,
+   "ipa": "/səkˈses/",
+   "example": {
+    "en": "Hard work is the key to success.",
+    "ja": "努力が成功の鍵だ。"
+   },
+   "derivatives": [
+    "succeed 動 成功する（succeed in ~）／継ぐ",
+    "successful 形 成功した"
+   ]
+  },
+  {
+   "id": "w-support",
+   "headword": "support",
+   "pos": "動",
+   "meanings": [
+    "支える",
+    "支持する"
+   ],
+   "level": 1,
+   "ipa": "/səˈpɔːt/",
+   "example": {
+    "en": "My family always supports me.",
+    "ja": "家族はいつも私を支えてくれる。"
+   }
+  },
+  {
+   "id": "w-survive",
+   "headword": "survive",
+   "pos": "動",
+   "meanings": [
+    "生き残る",
+    "〜より長生きする"
+   ],
+   "level": 1,
+   "ipa": "/səˈvaɪv/",
+   "example": {
+    "en": "Few plants can survive in the desert.",
+    "ja": "砂漠で生き延びられる植物はほとんどない。"
+   },
+   "derivatives": [
+    "survival 名 生存"
+   ]
+  },
+  {
+   "id": "w-technology",
+   "headword": "technology",
+   "pos": "名",
+   "meanings": [
+    "科学技術"
+   ],
+   "level": 1,
+   "ipa": "/tekˈnɒlədʒi/",
+   "example": {
+    "en": "Technology has changed the way we live.",
+    "ja": "科学技術は私たちの生活様式を変えた。"
+   },
+   "accentNote": "tech-NOL-o-gy（第2音節）。"
+  },
+  {
+   "id": "w-tradition",
+   "headword": "tradition",
+   "pos": "名",
+   "meanings": [
+    "伝統"
+   ],
+   "level": 1,
+   "ipa": "/trəˈdɪʃn/",
+   "example": {
+    "en": "It is a tradition to eat soba on New Year's Eve.",
+    "ja": "大晦日にそばを食べるのが伝統だ。"
+   },
+   "derivatives": [
+    "traditional 形 伝統的な"
+   ]
+  },
+  {
+   "id": "w-waste",
+   "headword": "waste",
+   "pos": "動",
+   "meanings": [
+    "浪費する",
+    "無駄にする"
+   ],
+   "level": 1,
+   "ipa": "/weɪst/",
+   "example": {
+    "en": "Don't waste your time.",
+    "ja": "時間を無駄にするな。"
+   },
+   "note": "名詞「浪費・廃棄物」。a waste of time。"
+  },
+  {
+   "id": "w-worth",
+   "headword": "worth",
+   "pos": "形",
+   "meanings": [
+    "〜の価値がある"
+   ],
+   "level": 1,
+   "ipa": "/wɜːθ/",
+   "example": {
+    "en": "This book is worth reading.",
+    "ja": "この本は読む価値がある。"
+   },
+   "collocations": [
+    "be worth doing"
+   ],
+   "note": "worth の後ろの動名詞は能動形（×worth being read）。"
   }
  ]
 }
