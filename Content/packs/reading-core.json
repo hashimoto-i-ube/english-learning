@@ -1893,16 +1893,16 @@
     {
      "id": "r-rr-2",
      "type": "choice",
-     "prompt": "Which is mentioned as a worry about robots in paragraph 3?",
+     "prompt": "According to paragraph 3, what do some people worry about?",
      "answers": [
       "Robots may take jobs away from people."
      ],
-     "explanation": "第3段落 Others worry that robots may take jobs away from people。「店員と話せないのがさびしい」も述べられているが、worry として挙げられているのは仕事を奪うこと。",
+     "explanation": "第3段落 Others worry that robots may take jobs away from people。他の選択肢は本文に述べられていない。",
      "choices": [
-      "Customers miss talking with friendly staff.",
+      "Robots may break dishes.",
       "Robots may take jobs away from people.",
       "Robots are too slow to carry food.",
-      "Robots can carry heavy dishes safely."
+      "Robots are too expensive for small restaurants."
      ]
     },
     {
