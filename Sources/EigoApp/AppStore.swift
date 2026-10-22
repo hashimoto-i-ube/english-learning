@@ -111,9 +111,9 @@ final class AppStore {
     func startupChecks() async {
         let key = "lastAutoUpdateCheck"
         let today = LearnerProgress.dayKey()
-        guard UserDefaults.standard.string(forKey: key) != today else { return }
+        guard UserDefaults.standard.string(forKey: key) != today, contentBaseURL != nil else { return }
         UserDefaults.standard.set(today, forKey: key)
-        if contentBaseURL != nil { await updateContent() }
+        await updateContent()
         await checkAppUpdate()
     }
 
