@@ -1,12 +1,12 @@
 {
-  "generatedAt" : "2026-10-22T12:40:16Z",
+  "generatedAt" : "2026-10-22T12:41:10Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
       "file" : "packs/composition-core.json",
       "id" : "composition.core",
-      "revision" : 1,
-      "sha256" : "445eefe9c08e611e47ed60edfd390e369f902c3de2233be175a72605b29f2cf6",
+      "revision" : 2,
+      "sha256" : "79c6399fd08a19b3bdba0087a068880b6361929467bb6755ead4421d1087e771",
       "skill" : "composition",
       "title" : "英作文"
     },

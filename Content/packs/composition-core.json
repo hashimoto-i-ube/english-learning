@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "composition.core",
- "revision": 1,
+ "revision": 2,
  "skill": "composition",
  "title": "英作文",
  "description": "和文英訳・自由英作文・要約",
@@ -249,6 +249,203 @@
     {
      "en": "long-term memory",
      "ja": "長期記憶"
+    }
+   ]
+  },
+  {
+   "id": "comp-l7-jaen-1",
+   "kind": "jaToEn",
+   "title": "和文英訳：知識と理解",
+   "level": 7,
+   "promptJa": "情報があふれる現代では、何かを知っていることそれ自体の価値は相対的に低くなった。むしろ問われているのは、得た知識を互いに結びつけ、まだ誰も答えを持たない問いに向き合う力である。",
+   "modelAnswers": [
+    "In today's world, which is flooded with information, simply knowing something has become relatively less valuable. What is required instead is the ability to connect the pieces of knowledge we have acquired and to face questions that no one has yet answered.",
+    "Now that we are surrounded by an overwhelming amount of information, the value of merely knowing something has declined in relative terms. Rather, what we are being tested on is our ability to link what we have learned and to confront questions to which nobody yet has an answer."
+   ],
+   "keyPoints": [
+    "「情報があふれる」flooded with / overwhelmed by information",
+    "「〜それ自体の価値」the value of merely knowing / simply knowing",
+    "「相対的に低くなった」has become relatively less valuable / has declined in relative terms",
+    "「むしろ問われているのは」What is required instead / Rather, what matters is",
+    "「まだ誰も答えを持たない問い」questions that no one has yet answered"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "in relative terms",
+     "ja": "相対的に"
+    },
+    {
+     "en": "be flooded with ~",
+     "ja": "〜であふれている"
+    },
+    {
+     "en": "confront / face a question",
+     "ja": "問いに向き合う"
+    }
+   ]
+  },
+  {
+   "id": "comp-l7-jaen-2",
+   "kind": "jaToEn",
+   "title": "和文英訳：医療と対話（医学部）",
+   "level": 7,
+   "promptJa": "医師にとって最も難しいのは、病名を告げることではなく、その知らせを受け止めた患者とともに、これからどう生きていくかを考えることなのかもしれない。",
+   "modelAnswers": [
+    "Perhaps the most difficult thing for a doctor is not telling patients the name of their illness but thinking together with them, after they have accepted the news, about how they will live from then on.",
+    "What doctors find hardest may not be informing patients of their diagnosis, but working with those patients, once they have come to terms with the news, to consider how they are going to live their lives from now on."
+   ],
+   "keyPoints": [
+    "not A but B の構文で「〜ではなく…」",
+    "「病名を告げる」tell patients the name of their illness / inform patients of their diagnosis",
+    "「知らせを受け止めた」accept the news / come to terms with the news",
+    "「これからどう生きていくか」how they will live from now on（間接疑問）",
+    "「〜なのかもしれない」Perhaps / may（ヘッジ）"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "come to terms with ~",
+     "ja": "〜を受け入れる"
+    },
+    {
+     "en": "inform A of B",
+     "ja": "AにBを知らせる"
+    }
+   ]
+  },
+  {
+   "id": "comp-l7-jaen-3",
+   "kind": "jaToEn",
+   "title": "和文英訳：異文化理解",
+   "level": 7,
+   "promptJa": "外国語を学ぶ意義は、単に別の言葉で同じことが言えるようになることにあるのではない。自分が当たり前だと思っていたものの見方が、数ある見方の一つにすぎないと気づくことにこそある。",
+   "modelAnswers": [
+    "The significance of learning a foreign language does not lie simply in becoming able to say the same things in different words. It lies, rather, in realizing that the way of seeing things you have taken for granted is only one of many possible perspectives.",
+    "Learning a foreign language is meaningful not merely because it enables us to express the same ideas in another language, but because it makes us aware that the view of the world we have always assumed to be natural is just one among many."
+   ],
+   "keyPoints": [
+    "「〜にあるのではない…にこそある」lie not in A but in B / not merely because A but because B",
+    "「当たり前だと思っていた」take 〜 for granted / assume 〜 to be natural",
+    "「数ある見方の一つにすぎない」only one of many perspectives",
+    "「気づく」realize / become aware"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "A lies in B",
+     "ja": "AはBにある"
+    },
+    {
+     "en": "take ~ for granted",
+     "ja": "〜を当然と思う"
+    },
+    {
+     "en": "one of many possible perspectives",
+     "ja": "数ある見方の一つ"
+    }
+   ]
+  },
+  {
+   "id": "comp-l7-free-1",
+   "kind": "free",
+   "title": "自由英作文：延命治療と生活の質",
+   "level": 7,
+   "promptJa": "医療技術の進歩により、以前なら助からなかった患者の命を長く保つことが可能になった。一方で、延命よりも生活の質（quality of life）を重視すべきだという意見もある。あなたの考えを、具体的な理由を挙げて英語で述べなさい。",
+   "conditions": "150〜180語",
+   "minWords": 150,
+   "maxWords": 180,
+   "modelAnswers": [
+    "In my view, medical decisions near the end of life should give priority to the patient's quality of life, as long as that choice reflects the patient's own wishes. Admittedly, extending life is one of the fundamental goals of medicine, and it would be dangerous to assume that a life with illness is less worth living. However, prolonging life by every available means can sometimes cause great physical pain and leave patients unable to communicate with their families. In such cases, additional weeks of life may mean more suffering rather than more meaningful time. More importantly, it is the patient, not the doctor or the family, who should decide what makes life worth living. For this reason, doctors need to talk with patients early, explain the options honestly, and respect their values even when they choose not to receive aggressive treatment. In conclusion, the aim of medicine should not be simply to make life longer, but to help each patient live the remaining time in the way he or she chooses."
+   ],
+   "keyPoints": [
+    "立場の明確さ（どちらを重視するか、条件付きか）",
+    "譲歩（Admittedly, 〜. However, …）で反対意見を認めた上で論じている",
+    "具体的な理由（苦痛・意思疎通・患者の価値観）",
+    "患者の自己決定（autonomy）・インフォームド・コンセントなど医療倫理の観点",
+    "語数 150〜180 語、結論で主張を言い換えている"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "give priority to ~",
+     "ja": "〜を優先する"
+    },
+    {
+     "en": "what makes life worth living",
+     "ja": "何が人生を生きる価値のあるものにするか"
+    },
+    {
+     "en": "aggressive treatment",
+     "ja": "積極的治療"
+    },
+    {
+     "en": "respect the patient's autonomy",
+     "ja": "患者の自己決定を尊重する"
+    }
+   ]
+  },
+  {
+   "id": "comp-l7-free-2",
+   "kind": "free",
+   "title": "自由英作文：科学研究の自由と責任",
+   "level": 7,
+   "promptJa": "「科学者は、自らの研究が社会に悪用される可能性について責任を負うべきだ」という意見について、あなたの考えを英語で述べなさい。",
+   "conditions": "130〜160語",
+   "minWords": 130,
+   "maxWords": 160,
+   "modelAnswers": [
+    "I partly agree with this statement. Scientists cannot be expected to foresee every possible misuse of their work, because almost any discovery can be used for harmful purposes. Chemistry gave us both medicines and poisons, and the internet supports education as well as crime. If researchers were held responsible for all such outcomes, many might avoid valuable lines of inquiry altogether. On the other hand, scientists are often the people who best understand the risks of new technologies, such as gene editing or artificial intelligence. They therefore have a duty to share those risks openly and to take part in public discussions about how their work should be regulated. In short, scientists should not bear the entire responsibility for misuse, but they should accept responsibility for warning society and helping it make informed decisions."
+   ],
+   "keyPoints": [
+    "部分的賛成など、立場を明確に示している",
+    "両面（責任を負わせることの問題点／科学者の専門性に伴う責任）を論じている",
+    "具体例（化学・インターネット・遺伝子編集・AI）",
+    "On the other hand / therefore / In short による論理展開",
+    "語数 130〜160 語"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "be held responsible for ~",
+     "ja": "〜の責任を問われる"
+    },
+    {
+     "en": "a line of inquiry",
+     "ja": "研究の方向性"
+    },
+    {
+     "en": "make informed decisions",
+     "ja": "十分な情報に基づいて判断する"
+    }
+   ]
+  },
+  {
+   "id": "comp-l7-summary-1",
+   "kind": "summary",
+   "title": "要約：専門家と市民",
+   "level": 7,
+   "promptJa": "次の内容を英語60〜80語で要約しなさい。\n「現代社会の重要な決定の多くは、気候変動や感染症対策のように、高度な専門知識を必要とする。そのため、専門家に判断を任せるべきだという考えには一定の説得力がある。しかし、どのリスクをどこまで受け入れるかという判断は、科学だけでは決まらない価値の問題を含んでいる。専門家の役割は、市民に代わって決めることではなく、市民が判断するために必要な情報を、不確実性も含めて正直に伝えることである。」",
+   "conditions": "60〜80語",
+   "minWords": 60,
+   "maxWords": 80,
+   "modelAnswers": [
+    "Many important decisions today, such as those on climate change or infectious diseases, require specialist knowledge, so leaving them to experts seems reasonable. However, deciding which risks to accept involves values that science alone cannot settle. Therefore, experts should not make decisions on behalf of citizens; instead, they should honestly provide the information, including its uncertainties, that citizens need in order to judge for themselves."
+   ],
+   "keyPoints": [
+    "前提（専門知識が必要→専門家に任せる考えに説得力）",
+    "転換（リスクの受容は価値の問題で科学だけでは決まらない）",
+    "結論（専門家の役割＝不確実性も含めた情報提供）",
+    "However / Therefore で論理の流れを示す",
+    "原文の直訳でなく言い換え、語数 60〜80 語"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "on behalf of ~",
+     "ja": "〜に代わって"
+    },
+    {
+     "en": "settle a question",
+     "ja": "問題に決着をつける"
+    },
+    {
+     "en": "including its uncertainties",
+     "ja": "不確実性も含めて"
     }
    ]
   }
