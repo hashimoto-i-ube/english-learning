@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "reading.core",
- "revision": 2,
+ "revision": 3,
  "skill": "reading",
  "title": "長文読解",
  "description": "オリジナル英文（全訳・語注・設問付き）。共通テストから難関大・医学部レベルまで",
@@ -1634,6 +1634,405 @@
       "by itself「それだけでは」",
       "社会的・倫理的判断（線引き・公平性）の必要",
       "公開の場での幅広い市民参加による制度"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-grandfather-garden",
+   "title": "My Grandfather's Garden",
+   "level": 1,
+   "topic": "家族・生活",
+   "targetMinutes": 2,
+   "paragraphs": [
+    "My grandfather lives in a small town near the mountains. Behind his house, there is a large garden. He grows tomatoes, cucumbers, and many other vegetables there.",
+    "Last summer, I stayed with him for a week. Every morning, we got up at five and worked in the garden before it got hot. At first, I was tired and wanted to sleep more. But after a few days, I started to enjoy it.",
+    "One day, my grandfather gave me a tomato that I had picked. It was not as beautiful as the tomatoes in supermarkets, but it was the most delicious tomato I had ever eaten. He smiled and said, \"Food tastes better when you grow it yourself.\"",
+    "Now I am growing tomatoes on the balcony of our apartment. They are still small, but I check them every day. I am looking forward to sending a picture of my first tomato to my grandfather."
+   ],
+   "translation": [
+    "私の祖父は山の近くの小さな町に住んでいる。家の裏には大きな畑がある。祖父はそこでトマトやキュウリ、その他たくさんの野菜を育てている。",
+    "去年の夏、私は1週間祖父の家に泊まった。毎朝5時に起き、暑くなる前に畑で作業をした。最初は疲れて、もっと寝ていたいと思った。でも数日たつと、それを楽しめるようになった。",
+    "ある日、祖父は私が収穫したトマトを私にくれた。それはスーパーのトマトほどきれいではなかったが、私がそれまでに食べた中で一番おいしいトマトだった。祖父はほほえんで「自分で育てると、食べ物はもっとおいしくなるんだよ」と言った。",
+    "今、私はマンションのベランダでトマトを育てている。まだ小さいが、毎日様子を見ている。最初のトマトの写真を祖父に送るのを楽しみにしている。"
+   ],
+   "glossary": [
+    {
+     "term": "grow",
+     "meaning": "育てる"
+    },
+    {
+     "term": "cucumber",
+     "meaning": "キュウリ"
+    },
+    {
+     "term": "pick",
+     "meaning": "摘む・収穫する"
+    },
+    {
+     "term": "balcony",
+     "meaning": "ベランダ"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-gg-1",
+     "type": "choice",
+     "prompt": "Why did they work in the garden early in the morning?",
+     "answers": [
+      "Because it was cool before it got hot."
+     ],
+     "explanation": "第2段落 before it got hot。",
+     "choices": [
+      "Because it was cool before it got hot.",
+      "Because the shops opened early.",
+      "Because the writer could not sleep.",
+      "Because it rained in the afternoon."
+     ]
+    },
+    {
+     "id": "r-gg-2",
+     "type": "choice",
+     "prompt": "How did the writer feel about the tomato?",
+     "answers": [
+      "It was the most delicious tomato the writer had ever eaten."
+     ],
+     "explanation": "第3段落第2文。",
+     "choices": [
+      "It was not delicious.",
+      "It was the most delicious tomato the writer had ever eaten.",
+      "It was more beautiful than supermarket tomatoes.",
+      "It was too small to eat."
+     ]
+    },
+    {
+     "id": "r-gg-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第2段落 At first, I was tired ... after a few days, I started to enjoy it。",
+     "sentence": "The writer enjoyed the garden work from the first day.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-gg-4",
+     "type": "choice",
+     "prompt": "What is the writer doing now?",
+     "answers": [
+      "Growing tomatoes on a balcony"
+     ],
+     "explanation": "第4段落第1文。",
+     "choices": [
+      "Living with the grandfather",
+      "Growing tomatoes on a balcony",
+      "Working at a supermarket",
+      "Selling vegetables"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-school-festival",
+   "title": "Our School Festival",
+   "level": 1,
+   "topic": "学校生活",
+   "targetMinutes": 2,
+   "paragraphs": [
+    "Our school festival will be held on Saturday, October 18, from 10 a.m. to 4 p.m. Everyone is welcome, and admission is free.",
+    "Each class will have a special event. Class 1-A will open a café, and Class 2-B will show a short movie they made themselves. In the gym, the brass band will play at 11 a.m., and the dance club will perform at 2 p.m.",
+    "This year, we are trying something new. We want to reduce waste, so please bring your own bag and bottle. There will be free water stations in the school building.",
+    "Visitors cannot use the school parking lot. Please come by train or bus. The school is a ten-minute walk from Midori Station. If you have any questions, please send an email to the festival committee."
+   ],
+   "translation": [
+    "私たちの学校の文化祭は10月18日（土）、午前10時から午後4時まで開かれます。どなたでも歓迎で、入場は無料です。",
+    "各クラスが特別な催しを行います。1年A組はカフェを開き、2年B組は自分たちで作った短編映画を上映します。体育館では、吹奏楽部が午前11時に演奏し、ダンス部が午後2時に発表します。",
+    "今年は新しいことに挑戦します。ごみを減らしたいので、自分の袋と水筒を持ってきてください。校舎内に無料の給水所を設けます。",
+    "来場者は学校の駐車場を利用できません。電車かバスでお越しください。学校はミドリ駅から徒歩10分です。ご質問があれば、文化祭実行委員会にメールを送ってください。"
+   ],
+   "glossary": [
+    {
+     "term": "be held",
+     "meaning": "開催される"
+    },
+    {
+     "term": "admission",
+     "meaning": "入場（料）"
+    },
+    {
+     "term": "brass band",
+     "meaning": "吹奏楽部"
+    },
+    {
+     "term": "perform",
+     "meaning": "上演する"
+    },
+    {
+     "term": "committee",
+     "meaning": "委員会"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-sf-1",
+     "type": "choice",
+     "prompt": "How much does it cost to enter the festival?",
+     "answers": [
+      "Nothing"
+     ],
+     "explanation": "第1段落 admission is free。",
+     "choices": [
+      "Nothing",
+      "100 yen",
+      "500 yen",
+      "It depends on the event."
+     ]
+    },
+    {
+     "id": "r-sf-2",
+     "type": "choice",
+     "prompt": "What time will the dance club perform?",
+     "answers": [
+      "2 p.m."
+     ],
+     "explanation": "第2段落最終文。",
+     "choices": [
+      "10 a.m.",
+      "11 a.m.",
+      "2 p.m.",
+      "4 p.m."
+     ]
+    },
+    {
+     "id": "r-sf-3",
+     "type": "choice",
+     "prompt": "Why are visitors asked to bring their own bags and bottles?",
+     "answers": [
+      "Because the school wants to reduce waste."
+     ],
+     "explanation": "第3段落 We want to reduce waste。",
+     "choices": [
+      "Because the café is closed.",
+      "Because the school wants to reduce waste.",
+      "Because water is expensive.",
+      "Because there are no shops."
+     ]
+    },
+    {
+     "id": "r-sf-4",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落 Visitors cannot use the school parking lot。",
+     "sentence": "Visitors can park their cars at the school.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-robot-restaurant",
+   "title": "Robots in Restaurants",
+   "level": 2,
+   "topic": "科学技術・社会",
+   "targetMinutes": 3,
+   "paragraphs": [
+    "In some restaurants in Japan, food is now carried to the tables by robots. When the robot arrives, customers take their dishes, and the robot goes back to the kitchen. Some robots even have faces on their screens and say \"Thank you!\" in a cheerful voice.",
+    "Why are more restaurants using robots? One major reason is a shortage of workers. As Japan's population gets older, it is becoming harder for many businesses to find enough staff. Robots can work long hours without getting tired, and they can carry heavy dishes safely.",
+    "However, not everyone is happy about this change. Some customers say that they miss talking with friendly staff. Others worry that robots may take jobs away from people. In fact, most restaurants still need human workers to cook, clean, and help customers who have special requests.",
+    "Many experts believe that the best future is one where robots and humans work together. Robots can do simple, repetitive tasks, while people can focus on work that needs kindness and creativity. If this balance is achieved, both workers and customers may benefit."
+   ],
+   "translation": [
+    "日本のいくつかのレストランでは、今では料理がロボットによってテーブルまで運ばれる。ロボットが着くと客は料理を取り、ロボットは厨房へ戻っていく。中には画面に顔があり、明るい声で「ありがとうございます！」と言うロボットさえある。",
+    "なぜロボットを使うレストランが増えているのだろうか。大きな理由の一つは人手不足である。日本の人口が高齢化するにつれ、多くの企業にとって十分な従業員を見つけることが難しくなっている。ロボットは疲れずに長時間働くことができ、重い料理も安全に運べる。",
+    "しかし、誰もがこの変化を喜んでいるわけではない。親しみやすい店員と話せないのがさびしいと言う客もいる。ロボットが人から仕事を奪うかもしれないと心配する人もいる。実際、ほとんどのレストランでは、料理をしたり、掃除をしたり、特別な要望のある客を手助けしたりするために、今でも人間の働き手が必要である。",
+    "多くの専門家は、最善の未来はロボットと人間が協力して働く未来だと考えている。ロボットは単純な繰り返しの作業を行い、人間は優しさや創造性を必要とする仕事に集中できる。このバランスが実現すれば、働く人も客も恩恵を受けるかもしれない。"
+   ],
+   "glossary": [
+    {
+     "term": "cheerful",
+     "meaning": "明るい・陽気な"
+    },
+    {
+     "term": "shortage",
+     "meaning": "不足"
+    },
+    {
+     "term": "repetitive",
+     "meaning": "繰り返しの"
+    },
+    {
+     "term": "benefit",
+     "meaning": "恩恵を受ける"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-rr-1",
+     "type": "choice",
+     "prompt": "What is one major reason restaurants use robots?",
+     "answers": [
+      "There are not enough workers."
+     ],
+     "explanation": "第2段落 a shortage of workers。",
+     "choices": [
+      "Robots are cheaper than food.",
+      "There are not enough workers.",
+      "Customers do not like people.",
+      "Robots can cook better."
+     ]
+    },
+    {
+     "id": "r-rr-2",
+     "type": "choice",
+     "prompt": "Which is mentioned as a worry about robots in paragraph 3?",
+     "answers": [
+      "Robots may take jobs away from people."
+     ],
+     "explanation": "第3段落 Others worry that robots may take jobs away from people。「店員と話せないのがさびしい」も述べられているが、worry として挙げられているのは仕事を奪うこと。",
+     "choices": [
+      "Customers miss talking with friendly staff.",
+      "Robots may take jobs away from people.",
+      "Robots are too slow to carry food.",
+      "Robots can carry heavy dishes safely."
+     ]
+    },
+    {
+     "id": "r-rr-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第3段落最終文 most restaurants still need human workers。",
+     "sentence": "Most restaurants no longer need human workers.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-rr-4",
+     "type": "shortAnswer",
+     "prompt": "最終段落で専門家が考える「最善の未来」とはどのようなものか、日本語で説明しなさい。",
+     "answers": [
+      "ロボットが単純な繰り返しの作業を行い、人間は優しさや創造性が必要な仕事に集中するという形で、ロボットと人間が協力して働く未来。"
+     ],
+     "explanation": "最終段落第1・2文をまとめる。",
+     "keyPoints": [
+      "ロボットと人間の協働",
+      "ロボット＝単純・反復作業",
+      "人間＝優しさ・創造性が必要な仕事"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-chocolate-history",
+   "title": "A Short History of Chocolate",
+   "level": 2,
+   "topic": "歴史・文化",
+   "targetMinutes": 3,
+   "paragraphs": [
+    "Today, chocolate is one of the most popular sweets in the world. But for most of its long history, chocolate was not a sweet food at all. It was a bitter drink.",
+    "Chocolate comes from the seeds of the cacao tree, which grows in hot, rainy areas. Thousands of years ago, people in Central and South America began to use cacao. The Maya and later the Aztecs made a drink from cacao seeds mixed with water and spices. It was so valuable that cacao seeds were sometimes used as money.",
+    "In the sixteenth century, Spanish explorers brought cacao back to Europe. Europeans added sugar to the bitter drink, and it soon became popular among rich people. For a long time, however, chocolate remained expensive, and most people could not afford it.",
+    "Things changed in the nineteenth century. New machines made it possible to produce chocolate more cheaply, and people learned how to make solid chocolate that could be eaten. As a result, chocolate became a food that ordinary people could enjoy. The next time you eat a piece of chocolate, remember its long journey from a bitter drink to a sweet treat."
+   ],
+   "translation": [
+    "今日、チョコレートは世界で最も人気のある菓子の一つである。しかし、その長い歴史の大部分において、チョコレートはまったく甘い食べ物ではなかった。それは苦い飲み物だったのである。",
+    "チョコレートはカカオの木の種子から作られる。カカオの木は暑く雨の多い地域で育つ。何千年も前、中南米の人々がカカオを利用し始めた。マヤの人々、そして後にはアステカの人々が、カカオの種子を水や香辛料と混ぜて飲み物を作った。それは非常に貴重だったので、カカオの種子が時にお金として使われたほどだった。",
+    "16世紀、スペインの探検家たちがカカオをヨーロッパに持ち帰った。ヨーロッパの人々はその苦い飲み物に砂糖を加え、それはまもなく裕福な人々の間で人気になった。しかし長い間、チョコレートは高価なままで、ほとんどの人には手が届かなかった。",
+    "19世紀に状況が変わった。新しい機械によってチョコレートをより安く生産できるようになり、人々は食べられる固形のチョコレートの作り方を身につけた。その結果、チョコレートは普通の人々が楽しめる食べ物になった。今度チョコレートを1かけら食べるときは、苦い飲み物から甘いお菓子への長い旅を思い出してほしい。"
+   ],
+   "glossary": [
+    {
+     "term": "bitter",
+     "meaning": "苦い"
+    },
+    {
+     "term": "seed",
+     "meaning": "種子"
+    },
+    {
+     "term": "explorer",
+     "meaning": "探検家"
+    },
+    {
+     "term": "afford",
+     "meaning": "〜を買う余裕がある"
+    },
+    {
+     "term": "solid",
+     "meaning": "固形の"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-ch-1",
+     "type": "choice",
+     "prompt": "What was chocolate like for most of its history?",
+     "answers": [
+      "A bitter drink"
+     ],
+     "explanation": "第1段落最終文。",
+     "choices": [
+      "A sweet cake",
+      "A bitter drink",
+      "A kind of bread",
+      "A medicine only for children"
+     ]
+    },
+    {
+     "id": "r-ch-2",
+     "type": "choice",
+     "prompt": "Why were cacao seeds sometimes used as money?",
+     "answers": [
+      "Because they were very valuable."
+     ],
+     "explanation": "第2段落最終文 It was so valuable that ...。",
+     "choices": [
+      "Because they were very valuable.",
+      "Because they were sweet.",
+      "Because they were easy to grow in Europe.",
+      "Because the Spanish asked for them."
+     ]
+    },
+    {
+     "id": "r-ch-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "True"
+     ],
+     "explanation": "第3段落第2文に一致。",
+     "sentence": "Europeans added sugar to the cacao drink.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-ch-4",
+     "type": "choice",
+     "prompt": "What happened in the nineteenth century?",
+     "answers": [
+      "Chocolate became cheaper and could be eaten as a solid."
+     ],
+     "explanation": "第4段落第2文。",
+     "choices": [
+      "Cacao trees were found in Europe.",
+      "Chocolate became cheaper and could be eaten as a solid.",
+      "Chocolate was used as money.",
+      "People stopped eating chocolate."
      ]
     }
    ]
