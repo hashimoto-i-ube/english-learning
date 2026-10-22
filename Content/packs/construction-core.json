@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "construction.core",
- "revision": 2,
+ "revision": 3,
  "skill": "construction",
  "title": "英文解釈・構文",
  "description": "文型判定から難関大の下線部和訳まで、精読の技術を段階的に習得",
@@ -1169,6 +1169,474 @@
       "be obliged to do「〜せざるをえない」",
       "a question (that) it once had the luxury of ignoring",
       "a life worth prolonging「延ばす価値のある生命」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-negation-scope",
+   "title": "否定の範囲を読み切る",
+   "level": 5,
+   "category": "否定構文",
+   "summary": "not が「どこまで」を否定しているかで意味が逆転する英文を正確に読む。",
+   "explanation": "## not … because ～ の2つの読み\n\n- I didn't go **because** it was raining.（雨が降っていたので行かなかった）\n- I didn't marry her **because** she was rich.（彼女が金持ちだから結婚したのではない）\n\n後者は not が「because 節」を否定している。**文脈と前後の論理**で判断する。\n\n## 否定語 + 比較・数量\n\n| 英文 | 意味 |\n|---|---|\n| I couldn't agree more. | 大賛成だ（これ以上同意できない） |\n| You can't be too careful. | いくら注意してもしすぎることはない |\n| not in the least / not at all | 少しも〜ない |\n| nothing but 〜 | 〜にすぎない（only） |\n| anything but 〜 | 決して〜ではない |\n| none other than 〜 | ほかならぬ〜 |\n\n## 否定の転移\n\nI **don't think** he will come.（= I think he won't come.）\nthink, believe, suppose, expect などは主節を否定するのが自然。\n\n## 準否定語\n\nhardly / scarcely（ほとんど〜ない：程度）、seldom / rarely（めったに〜ない：頻度）、few / little（ほとんどない）",
+   "examples": [
+    {
+     "en": "You cannot be too careful when you drive.",
+     "ja": "運転するときはいくら注意してもしすぎることはない。"
+    },
+    {
+     "en": "The man who greeted us was none other than the president.",
+     "ja": "私たちを迎えた人は、ほかならぬ社長だった。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-ns-1",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "あなたに大賛成だ。"
+     ],
+     "explanation": "「これ以上同意することはできない」→ 最大限に同意している。",
+     "sentence": "I couldn't agree with you more.",
+     "choices": [
+      "あなたにはまったく賛成できない。",
+      "あなたに大賛成だ。",
+      "あなたにもう賛成しない。",
+      "あなたに少し賛成だ。"
+     ]
+    },
+    {
+     "id": "c-ns-2",
+     "type": "choice",
+     "prompt": "最も自然な解釈を選びなさい。",
+     "answers": [
+      "彼が医者になったのは、父親が医者だったからではない。"
+     ],
+     "explanation": "文脈上、not は because 節を否定している（自ら選んだ、など別の理由がある）。",
+     "sentence": "He didn't become a doctor because his father was one.",
+     "choices": [
+      "父親が医者だったので、彼は医者にならなかった。",
+      "彼が医者になったのは、父親が医者だったからではない。",
+      "父親が医者だったので、彼は医者になった。",
+      "彼は医者にも父親にもならなかった。"
+     ]
+    },
+    {
+     "id": "c-ns-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "睡眠の重要性はいくら強調してもしすぎることはない。"
+     ],
+     "explanation": "over- + cannot で「いくら〜しても〜しすぎない」。",
+     "sentence": "The importance of sleep cannot be overemphasized.",
+     "keyPoints": [
+      "cannot be overemphasized「いくら強調してもしすぎることはない」",
+      "cannot 〜 too … と同じ発想"
+     ]
+    },
+    {
+     "id": "c-ns-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "多くの国で女性が投票を認められたのは20世紀になってからのことであり、しかもそれでさえ長い闘いを経ずには実現しなかった。"
+     ],
+     "explanation": "後半は省略を補うと even then they were not allowed to vote without a long struggle。",
+     "sentence": "It was not until the twentieth century that women in many countries were allowed to vote, and even then not without a long struggle.",
+     "keyPoints": [
+      "It was not until 〜 that …「〜になって初めて…」",
+      "even then not without a long struggle（省略：were they allowed to vote）",
+      "not without「〜なしにではない」→「〜を経て」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-cause-effect",
+   "title": "因果関係を表す表現の読み取り",
+   "level": 5,
+   "category": "論理構造",
+   "summary": "原因と結果の向きを取り違えやすい表現（result in / result from など）を正確に読み、内容一致問題に備える。",
+   "explanation": "## 向きに注意する表現\n\n| 表現 | 構造 |\n|---|---|\n| A **result in** B | 原因A → 結果B |\n| A **result from** B | 結果A ← 原因B |\n| A **lead to / bring about / give rise to** B | 原因A → 結果B |\n| A **be attributed to / be due to / stem from** B | 結果A ← 原因B |\n| A **contribute to** B | Aが（一因となって）B |\n| **thanks to / owing to / because of** A | Aのおかげで・Aのせいで |\n\n## 動詞以外の因果\n\n- 無生物主語：The storm **forced** us to cancel the trip.\n- 分詞構文：**Having lost** his job, he moved back home.\n- so 〜 that / such 〜 that\n- hence / thus / therefore（したがって）\n\n## 相関と因果の区別\n\nA **is associated with / correlated with** B は「関連がある」であって、AがBの原因とは限らない。評論ではこの区別がしばしば論点になる。",
+   "examples": [
+    {
+     "en": "The accident resulted from the driver's carelessness.",
+     "ja": "その事故は運転手の不注意から起こった。"
+    },
+    {
+     "en": "Heavy rain led to flooding in several areas.",
+     "ja": "大雨によっていくつかの地域で洪水が起きた。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-ce-1",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "出生率の低下"
+     ],
+     "explanation": "A result in B：Aが原因。",
+     "sentence": "The decline in birth rates has resulted in a shortage of workers.\n原因はどれか。",
+     "choices": [
+      "労働者の不足",
+      "出生率の低下",
+      "両方",
+      "どちらでもない"
+     ]
+    },
+    {
+     "id": "c-ce-2",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "ストレス"
+     ],
+     "explanation": "A stem from B：Bが原因。",
+     "sentence": "Many of his health problems stem from stress.\n原因はどれか。",
+     "choices": [
+      "健康問題",
+      "ストレス",
+      "両方",
+      "どちらでもない"
+     ]
+    },
+    {
+     "id": "c-ce-3",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "コーヒーと長寿には関連が見られる。"
+     ],
+     "explanation": "be associated with は関連（相関）を示すだけで因果は断定していない。",
+     "sentence": "Coffee consumption is associated with longer life. この文から確実に言えることは？",
+     "choices": [
+      "コーヒーを飲めば長生きする。",
+      "コーヒーと長寿には関連が見られる。",
+      "長生きの人はコーヒーを飲まない。",
+      "コーヒーは寿命を縮める。"
+     ]
+    },
+    {
+     "id": "c-ce-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "肥満の増加は食生活だけに原因があるとは言えない。私たちの働き方や移動の仕方の変化もその一因となっている。"
+     ],
+     "explanation": "solely の部分否定と、セミコロン以下の追加の原因。",
+     "sentence": "The rise in obesity cannot be attributed solely to diet; changes in the way we work and travel have also played a part.",
+     "keyPoints": [
+      "attribute A to B の受動態「AはBに起因する」",
+      "not solely「〜だけではない」（部分否定）",
+      "play a part「一役買う」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-hidden-subjunctive",
+   "title": "隠れた仮定法を見抜く",
+   "level": 6,
+   "category": "仮定法の読解",
+   "summary": "if のない仮定法（主語・副詞句・不定詞・文脈に条件がある）を見抜き、would / could のニュアンスを訳出する。",
+   "explanation": "## if がなくても仮定法\n\n助動詞の過去形（would / could / might）が**過去の意味でなく**使われていたら、どこかに仮定の条件が隠れている。\n\n| 条件の場所 | 例 |\n|---|---|\n| 主語 | **A true scientist** would not ignore the data.（本当の科学者なら） |\n| 副詞句 | **In a different era**, he might have become a great leader. |\n| 不定詞 | **To see** him now, you would never guess his past. |\n| with / without | **Without** your advice, I would have given up. |\n| 分詞構文 | **Born** in another country, she would have had a different life. |\n| 文脈（暗黙） | I **would** like to see you.（できることなら） |\n\n## 訳出のポイント\n\n- 条件部分を「〜なら」「〜だったら」と明示して訳す\n- would を「〜だろう」、could を「〜できるだろう／ありうる」と訳し、断定を避ける",
+   "examples": [
+    {
+     "en": "A wiser person would have kept silent.",
+     "ja": "もっと賢い人なら黙っていただろう。"
+    },
+    {
+     "en": "Left to himself, the child would soon get lost.",
+     "ja": "放っておかれたら、その子はすぐに迷子になるだろう。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-hs-1",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "正直な人なら賄賂を受け取らなかっただろう。"
+     ],
+     "explanation": "主語に条件「正直な人なら」が含まれる仮定法過去完了。暗に「実際に受け取った人は正直ではない」。",
+     "sentence": "An honest man would not have accepted the bribe.",
+     "choices": [
+      "正直な人は賄賂を受け取った。",
+      "正直な人なら賄賂を受け取らなかっただろう。",
+      "その正直な男は賄賂を受け取らなかった。",
+      "正直な人は賄賂を受け取るかもしれない。"
+     ]
+    },
+    {
+     "id": "c-hs-2",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "もっと平易な言葉で書かれていたら、その報告書ははるかに多くの読者に届いていただろう。"
+     ],
+     "explanation": "分詞構文が if 節の働きをしている。",
+     "sentence": "Written in plainer language, the report would have reached a much wider audience.",
+     "keyPoints": [
+      "Written 〜 が条件（分詞構文）「〜で書かれていたら」",
+      "would have reached（仮定法過去完了）",
+      "a much wider audience"
+     ]
+    },
+    {
+     "id": "c-hs-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "10年前なら、そのような発見は不可能に思えただろう。"
+     ],
+     "explanation": "副詞句が条件。",
+     "sentence": "Ten years ago, such a discovery would have seemed impossible.",
+     "keyPoints": [
+      "Ten years ago が条件「10年前だったら」",
+      "would have seemed（仮定法過去完了）"
+     ]
+    },
+    {
+     "id": "c-hs-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "音楽のない世界は、言葉では表しにくい形で貧しいものになるだろう。"
+     ],
+     "explanation": "主語 A world without music が「音楽のない世界があるとしたら」という仮定を含む。",
+     "sentence": "A world without music would be poorer in ways that are difficult to describe.",
+     "keyPoints": [
+      "A world without music（主語に条件）",
+      "would be（仮定法過去）",
+      "in ways that are difficult to describe"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-complex-comparison",
+   "title": "比較構文の精読（難関大）",
+   "level": 6,
+   "category": "比較構文",
+   "summary": "比較対象が省略・倒置された英文や、比較を用いた否定的・逆説的な表現を正確に読む。",
+   "explanation": "## 比較対象を明確にする\n\nthan / as の後ろは**前と同じ形**で比較対象が置かれ、共通部分は省略される。\nThe climate here is milder than (it is) in the north.\nChildren learn languages more easily than adults (do).\n\n## 倒置を含む比較\n\nthan / as の後ろで倒置が起こることがある（文語）：\nWomen live longer than **do men**.\n\n## 比較の逆説的・否定的表現\n\n| 表現 | 意味 |\n|---|---|\n| A is no more B than C is D | CがDでないのと同様にAはBではない |\n| A is no less B than C is D | CがDであるのと同様にAもBである |\n| nothing is more A than B | Bほど A なものはない |\n| more than + 名詞・形容詞 | 〜以上のもの・十分に〜 |\n| more A than B | BというよりむしろA（同一人物・物の性質） |\n\n例：He is **more** shy **than** unfriendly.（彼は無愛想というよりむしろ内気なのだ）",
+   "examples": [
+    {
+     "en": "He is more lazy than stupid.",
+     "ja": "彼は愚かというよりむしろ怠惰なのだ。",
+     "note": "同一人物の性質の比較では more + 原級"
+    },
+    {
+     "en": "The task was more than difficult; it was almost impossible.",
+     "ja": "その仕事は難しいどころではなかった。ほとんど不可能だった。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-cxr-1",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "健康は富に劣らず重要だ。"
+     ],
+     "explanation": "no less A than B「Bに劣らずA」。",
+     "sentence": "Health is no less important than wealth.",
+     "choices": [
+      "健康は富ほど重要ではない。",
+      "健康は富に劣らず重要だ。",
+      "健康は富よりはるかに重要でない。",
+      "健康も富も重要ではない。"
+     ]
+    },
+    {
+     "id": "c-cxr-2",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "音楽を聴くことが受け身の活動でないのと同様に、本を読むことも受け身の活動ではない。"
+     ],
+     "explanation": "両方を否定する構文。",
+     "sentence": "Reading a book is no more a passive activity than listening to music is.",
+     "keyPoints": [
+      "no more A than B（クジラの構文）",
+      "than 以下も否定で訳す"
+     ]
+    },
+    {
+     "id": "c-cxr-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "高齢者はしばしば、先週起きたことよりも若い頃の出来事のほうを鮮明に覚えている。"
+     ],
+     "explanation": "than の後ろの do は remember の代用。比較されているのは2つの目的語。",
+     "sentence": "Older people often remember events from their youth more vividly than they do what happened last week.",
+     "keyPoints": [
+      "do = remember（代動詞）",
+      "比較対象：events from their youth と what happened last week"
+     ]
+    },
+    {
+     "id": "c-cxr-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "社会が最も弱い立場の人々をどう扱うかほど、その社会の価値観をはっきりと示すものはほとんどない。"
+     ],
+     "explanation": "否定的な主語 + 比較級 + than で最上級の意味。",
+     "sentence": "Few things reveal a society's values more clearly than the way it treats its weakest members.",
+     "keyPoints": [
+      "Few things 〜 more clearly than …「…ほどはっきり〜するものはほとんどない」（最上級相当）",
+      "the way it treats 〜「〜の扱い方」",
+      "it = a society"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-figurative",
+   "title": "比喩と抽象表現の読解",
+   "level": 7,
+   "category": "読解の技術",
+   "summary": "評論・エッセイの比喩（メタファー）や抽象的な言い換えを、筆者の主張に結びつけて解釈する。",
+   "explanation": "## 比喩は「何を何にたとえているか」を特定する\n\nThe internet is **a double-edged sword**.\n→ たとえられるもの：インターネット／たとえ：もろ刃の剣 → 意味：利点と危険の両面がある\n\n## 言い換え（パラフレーズ）の連鎖\n\n評論では同じ概念が**別の表現で何度も言い換えられる**。比喩表現の意味は、前後の具体的な言い換えから決まる。\n1. 比喩を含む文を見つける\n2. 前後の文から、同じ内容を具体的に述べている部分を探す\n3. その具体的内容で比喩を説明する\n\n## よく出る比喩的表現\n\n| 表現 | 意味 |\n|---|---|\n| the tip of the iceberg | 氷山の一角 |\n| a blank slate | 白紙状態（生まれたときの心） |\n| a mirror of society | 社会を映す鏡 |\n| a window into 〜 | 〜をのぞく窓（〜を知る手がかり） |\n| a bridge between A and B | AとBの架け橋 |\n| a seed of 〜 | 〜の種（始まり） |\n\n## 内容説明問題での書き方\n\n比喩をそのまま使わず、**比喩を使わない日本語**で説明する（「〜は鏡である」→「〜は社会の価値観をそのまま反映している」）。",
+   "examples": [
+    {
+     "en": "Language is not a mirror of thought but a lens that shapes what we see.",
+     "ja": "言語は思考を映す鏡ではなく、私たちが見るものを形作るレンズである。"
+    },
+    {
+     "en": "The reported cases are only the tip of the iceberg.",
+     "ja": "報告された事例は氷山の一角にすぎない。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-fg-1",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "子どもは知識を受け身で詰め込まれるだけの存在ではない。"
+     ],
+     "explanation": "empty vessels to be filled（満たされるべき空の器）を否定している。",
+     "sentence": "Children are not empty vessels to be filled with facts.\nこの比喩が主張していることは？",
+     "choices": [
+      "子どもは事実を覚えるべきだ。",
+      "子どもは知識を受け身で詰め込まれるだけの存在ではない。",
+      "子どもには容器が必要だ。",
+      "子どもは事実を知らない。"
+     ]
+    },
+    {
+     "id": "c-fg-2",
+     "type": "shortAnswer",
+     "prompt": "下線部 \"a window into the past\" とはどういうことか、比喩を用いずに日本語で説明しなさい。",
+     "answers": [
+      "古い手紙は、過去の人々の生活や考え方を知るための手がかりになるということ。"
+     ],
+     "explanation": "window into 〜 は「〜をのぞき見る窓」＝「〜を知る手がかり」。具体的に何がわかるのかまで書く。",
+     "sentence": "Old letters offer a window into the past, revealing not only what people did but how they thought and felt.",
+     "keyPoints": [
+      "window into 〜 =〜を知る手がかり",
+      "過去の人々の行動だけでなく考えや感情がわかる",
+      "比喩を使わずに説明"
+     ]
+    },
+    {
+     "id": "c-fg-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "記憶は過去を録音・録画したものというより、現在に照らして私たちが書き直し続ける物語である。"
+     ],
+     "explanation": "記憶を「記録」と「書き直される物語」で対比している。",
+     "sentence": "Memory is less a recording of the past than a story we keep rewriting in the light of the present.",
+     "keyPoints": [
+      "less A than B「AというよりむしろB」",
+      "a recording / a story（比喩の対比）",
+      "in the light of 〜「〜に照らして」"
+     ]
+    },
+    {
+     "id": "c-fg-4",
+     "type": "shortAnswer",
+     "prompt": "次の英文の主張を、比喩を用いずに60字程度の日本語で説明しなさい。",
+     "answers": [
+      "医学の進歩は病気を治す力を高めたが、その力をいつ、誰に、どこまで使うべきかという倫理的な判断の難しさも生み出したということ。"
+     ],
+     "explanation": "a key that opens doors（可能性）と questions about which doors（使うべきかどうかの判断）を対比させる。",
+     "sentence": "Medical progress has handed us a key that opens many doors, but it has also left us with the harder question of which doors we ought to open.",
+     "keyPoints": [
+      "key / doors = 医学が可能にしたこと",
+      "which doors we ought to open = どこまで使うべきかの判断",
+      "倫理的な問題"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-long-sentence-2",
+   "title": "長文構造の総合 II（最難関の多重構造）",
+   "level": 7,
+   "category": "総合",
+   "summary": "挿入・倒置・省略・同格が複数組み合わさった英文を、構造図を描くように分解して訳す。",
+   "explanation": "## 多重構造の英文の分解手順\n\n1. **カンマ・ダッシュ・セミコロン**で区切り、それぞれの部分の役割（挿入・同格・並列）を判定\n2. **主節の S V** を確定（倒置・形式主語に注意）\n3. **従属節の範囲**をカッコでくくる（関係詞節・名詞節・副詞節）\n4. **省略**を補い、**指示語**の内容を確認\n5. 日本語の語順に組み替える（長い修飾は前から訳し下すことも検討）\n\n## 訳し下しのテクニック\n\n修飾部分が長すぎて日本語が不自然になる場合は、**関係詞節や分詞句を分けて後ろから補足**する。\n… a policy that, despite strong opposition, was eventually adopted by the government\n→「〜という政策で、それは強い反対にもかかわらず、最終的に政府によって採用された」",
+   "examples": [
+    {
+     "en": "Not only does the theory explain the data, but it also predicts phenomena that no one had thought to look for.",
+     "ja": "その理論はデータを説明するだけでなく、誰も探そうと思わなかった現象を予測しもする。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-ls2-1",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "技術があまりに急速に進歩したため、かつては生涯の職業を保証していた技能が、今では10年以内に時代遅れになりうる。"
+     ],
+     "explanation": "So + 副詞が文頭に出て倒置（has technology advanced）。",
+     "sentence": "So rapidly has technology advanced that skills which once guaranteed a lifelong career may now become outdated within a decade.",
+     "keyPoints": [
+      "So 〜 that の倒置（So rapidly has technology advanced）",
+      "skills which once guaranteed 〜（関係詞節）",
+      "may now become outdated「今では時代遅れになりうる」"
+     ]
+    },
+    {
+     "id": "c-ls2-2",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "良い医師を単に有能なだけの医師と区別するものは、本から得られる知識ではなく、話を聞く能力である。それは知識とは違い、直接教えることのできない能力なのだ。"
+     ],
+     "explanation": "ダッシュ以下を訳し下すと自然になる。",
+     "sentence": "What distinguishes a good doctor from a merely competent one is not knowledge, which can be acquired from books, but the ability to listen — an ability that, unlike knowledge, cannot be taught directly.",
+     "keyPoints": [
+      "What distinguishes A from B（主語の名詞節）",
+      "not A but B",
+      "which can be acquired from books（非制限）",
+      "ダッシュ以下は the ability to listen の同格",
+      "unlike knowledge（挿入）"
+     ]
+    },
+    {
+     "id": "c-ls2-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "もし警告の兆候が真剣に受け止められていたら、振り返ればほとんど避けられなかったように思えるその危機も、十分に回避できたかもしれない。"
+     ],
+     "explanation": "仮定法の倒置と、文中の非制限関係詞節の挿入。",
+     "sentence": "Had the warning signs been taken seriously, the crisis, which in retrospect seems to have been almost inevitable, might well have been avoided.",
+     "keyPoints": [
+      "Had 〜 been taken（if の省略による倒置・仮定法過去完了）",
+      "非制限の which 節 in retrospect seems to have been almost inevitable",
+      "might well have been avoided「十分に回避できたかもしれない」"
      ]
     }
    ]
