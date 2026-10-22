@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "knowledge.core",
- "revision": 3,
+ "revision": 4,
  "skill": "knowledge",
  "title": "基礎知識",
  "description": "発音・アクセント、会話表現、読解・英作文の技術",
@@ -1328,6 +1328,586 @@
       "Many students preferred studying at home.",
       "No students studied at home.",
       "Students never use the library."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-punctuation",
+   "title": "句読点・大文字・数字の書き方（英作文の形式面）",
+   "level": 4,
+   "category": "英作文の技術",
+   "summary": "英作文で減点されやすい形式面（カンマ・大文字・数字・短縮形）の規則を確認する。",
+   "explanation": "## 大文字\n\n- 文頭、固有名詞（Japan, Tokyo）、言語・国籍（English, Japanese）、曜日・月（Monday, April）\n- 季節は小文字（spring, summer）\n- 一人称 I は常に大文字\n\n## カンマ\n\n- 文頭の副詞句・副詞節の後：**However,** / **When I was young,** I lived in Kyoto.\n- 3つ以上の列挙：apples, oranges, and bananas\n- 非制限用法の関係詞節の前後\n- **独立した2つの文をカンマだけでつながない**（カンマ・スプライス）\n  ×I was tired, I went to bed. → ○I was tired, **so** I went to bed. / I was tired. I went to bed.\n\n## 数字\n\n- 文頭の数字は単語でつづる：**Twenty** students attended.（×20 students attended. で始めない）\n- 一般に一桁の数は単語で書くことが多い（three books）\n- 年・統計・大きな数は数字（in 2025, 1,200 people）\n\n## 短縮形・口語\n\n自由英作文では don't / can't より do not / cannot のほうが無難。gonna, wanna, kids（子ども）など口語的な語は避ける。",
+   "examples": [
+    {
+     "en": "However, I disagree with this idea.",
+     "ja": "しかし、私はこの考えに反対だ。"
+    },
+    {
+     "en": "Twenty percent of the students walk to school.",
+     "ja": "生徒の20%が徒歩で通学している。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-pu-1",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "I visited Kyoto in summer."
+     ],
+     "explanation": "固有名詞は大文字、季節は小文字。",
+     "sentence": "大文字の使い方が正しいものを選びなさい。",
+     "choices": [
+      "I visited kyoto in Summer.",
+      "I visited Kyoto in summer.",
+      "i visited Kyoto in summer.",
+      "I Visited Kyoto In Summer."
+     ]
+    },
+    {
+     "id": "k-pu-2",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "I was tired, I went to bed."
+     ],
+     "explanation": "独立した2文をカンマだけでつなぐのは誤り。",
+     "sentence": "カンマ・スプライス（誤り）になっている文を選びなさい。",
+     "choices": [
+      "I was tired, so I went to bed.",
+      "I was tired, I went to bed.",
+      "Because I was tired, I went to bed.",
+      "I was tired. I went to bed."
+     ]
+    },
+    {
+     "id": "k-pu-3",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "Fifteen students joined the club."
+     ],
+     "explanation": "文頭の数字は単語でつづり、大文字で始める。",
+     "sentence": "文頭の数字の書き方として正しいものを選びなさい。",
+     "choices": [
+      "15 students joined the club.",
+      "Fifteen students joined the club.",
+      "15students joined the club.",
+      "fifteen students joined the club."
+     ]
+    },
+    {
+     "id": "k-pu-4",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "However, I agree with you."
+     ],
+     "explanation": "文頭の However の後にはカンマ。",
+     "sentence": "カンマの使い方が正しいものを選びなさい。",
+     "choices": [
+      "However I agree with you.",
+      "However, I agree with you.",
+      "However I, agree with you.",
+      "However; I agree, with you."
+     ]
+    },
+    {
+     "id": "k-pu-5",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "Children will probably enjoy it."
+     ],
+     "explanation": "gonna / wanna / kids は口語的。",
+     "sentence": "自由英作文で最も適切な（フォーマルな）表現を選びなさい。",
+     "choices": [
+      "Kids gonna love it.",
+      "Children will probably enjoy it.",
+      "Kids wanna enjoy it.",
+      "Children are gonna enjoy it."
+     ]
+    },
+    {
+     "id": "k-pu-6",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "My father, who lives in Osaka, is a doctor."
+     ],
+     "explanation": "父は一人なので非制限用法。関係詞節の前後をカンマで区切る。",
+     "sentence": "非制限用法の関係詞節として、カンマの使い方が正しいものを選びなさい。",
+     "choices": [
+      "My father who lives in Osaka is a doctor.",
+      "My father, who lives in Osaka, is a doctor.",
+      "My father, who lives in Osaka is a doctor.",
+      "My father who, lives in Osaka, is a doctor."
+     ]
+    },
+    {
+     "id": "k-pu-7",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "I like apples, oranges, and bananas."
+     ],
+     "explanation": "3つ以上の列挙はカンマで区切り、最後に and。",
+     "sentence": "列挙の書き方として最も適切なものを選びなさい。",
+     "choices": [
+      "I like apples oranges and bananas.",
+      "I like apples, oranges, and bananas.",
+      "I like, apples, oranges, bananas.",
+      "I like apples and, oranges and, bananas."
+     ]
+    },
+    {
+     "id": "k-pu-8",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "on Monday, April 5"
+     ],
+     "explanation": "曜日・月は大文字で始める。",
+     "sentence": "曜日・月の表記として正しいものを選びなさい。",
+     "choices": [
+      "on monday, april 5",
+      "on Monday, April 5",
+      "on monday, April 5",
+      "on Monday, april 5"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-summary-skill",
+   "title": "要約の技術",
+   "level": 5,
+   "category": "英作文の技術",
+   "summary": "英文・日本文の要約問題で、主張と根拠を取り出し、言い換えて簡潔にまとめる手順を身につける。",
+   "explanation": "## 要約の手順\n\n1. **主張を見つける**：筆者が最も言いたいこと（多くは第1段落か最終段落、However の後）\n2. **根拠・理由を選ぶ**：主張を支える要点を1〜2つ\n3. **具体例は削る**：数字・人名・エピソードは原則として省く\n4. **言い換える**：本文の文をそのまま写さない\n5. **論理語でつなぐ**：However / Therefore / because など\n\n## 削るもの・残すもの\n\n| 残す | 削る |\n|---|---|\n| 主張・結論 | 具体例・細かい数字 |\n| 主要な理由 | 繰り返し |\n| 対比・因果の関係 | 修飾的な描写 |\n\n## 抽象化（まとめ上げ）の技術\n\n具体的な語をまとめて上位の語で表す。\napples, bananas, and grapes → **fruit** ／ cars, trains, and planes → **means of transportation**\n\n## 語数調整\n\n指定語数の±10%程度に収める。不足なら理由を補い、超過なら修飾語を削る。",
+   "examples": [
+    {
+     "en": "Cars, buses, and trains → various means of transportation",
+     "ja": "車・バス・列車 → さまざまな交通手段",
+     "note": "抽象化"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-su-1",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "具体例や細かい数字"
+     ],
+     "explanation": "要約は主張と主要な根拠を中心にまとめる。",
+     "sentence": "要約で原則として削るべきものを選びなさい。",
+     "choices": [
+      "筆者の主張",
+      "主張を支える主要な理由",
+      "具体例や細かい数字",
+      "結論"
+     ]
+    },
+    {
+     "id": "k-su-2",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "pets"
+     ],
+     "explanation": "具体語を上位語にまとめる（抽象化）。",
+     "sentence": "\"dogs, cats, and rabbits\" をまとめた表現として最も適切なものを選びなさい。",
+     "choices": [
+      "animals in the zoo",
+      "pets",
+      "wild animals",
+      "insects"
+     ]
+    },
+    {
+     "id": "k-su-3",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "具体例の途中"
+     ],
+     "explanation": "具体例は主張を支える部分であり、主張そのものではないことが多い。",
+     "sentence": "筆者の主張が置かれやすい位置として最も適切でないものを選びなさい。",
+     "choices": [
+      "第1段落",
+      "最終段落",
+      "However の直後",
+      "具体例の途中"
+     ]
+    },
+    {
+     "id": "k-su-4",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "本文を言い換えて簡潔にまとめる"
+     ],
+     "explanation": "要約は言い換えが基本。自分の意見は加えない。",
+     "sentence": "要約文の書き方として最も適切なものを選びなさい。",
+     "choices": [
+      "本文の文をそのまま写す",
+      "本文を言い換えて簡潔にまとめる",
+      "自分の意見を加える",
+      "具体例を中心にまとめる"
+     ]
+    },
+    {
+     "id": "k-su-5",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "Electric cars can save money in the long run despite their higher price."
+     ],
+     "explanation": "譲歩（高価）と主張（長期的には節約）の両方を含む。",
+     "sentence": "次の文の要旨として最も適切なものを選びなさい。\nAlthough electric cars are more expensive to buy, they cost less to run, and over ten years many owners end up saving money.",
+     "choices": [
+      "Electric cars are too expensive.",
+      "Electric cars can save money in the long run despite their higher price.",
+      "Electric cars are cheap to buy.",
+      "Nobody saves money with electric cars."
+     ]
+    },
+    {
+     "id": "k-su-6",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "means of transportation"
+     ],
+     "explanation": "飛行機も含むので「交通手段」。",
+     "sentence": "「cars, buses, trains, and planes」をまとめた表現として最も適切なものを選びなさい。",
+     "choices": [
+      "means of transportation",
+      "public facilities",
+      "machines in factories",
+      "vehicles on the road"
+     ]
+    },
+    {
+     "id": "k-su-7",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "Therefore"
+     ],
+     "explanation": "因果は Therefore / As a result。",
+     "sentence": "要約で論理関係を示すために最も適切な語を選びなさい。（原因 → 結果）",
+     "choices": [
+      "Therefore",
+      "For example",
+      "In contrast",
+      "Similarly"
+     ]
+    },
+    {
+     "id": "k-su-8",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「次の内容を英語1文で要約しなさい。\n「運動は体の健康だけでなく、気分を改善し、ストレスを減らすことで心の健康にも良い影響を与える。」」",
+     "answers": [
+      "Exercise benefits not only physical health but also mental health by improving mood and reducing stress.",
+      "Exercise is good for both the body and the mind because it improves mood and reduces stress."
+     ],
+     "explanation": "要点（体と心の両方に良い・その仕組み）を1文にまとめる。",
+     "keyPoints": [
+      "not only A but also B / both A and B",
+      "by doing で手段",
+      "簡潔な1文"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-answer-writing",
+   "title": "記述答案の書き方（和訳・内容説明）",
+   "level": 6,
+   "category": "答案作成の技術",
+   "summary": "国公立二次・難関私大の下線部和訳・内容説明問題で、採点ポイントを落とさない答案の作り方。",
+   "explanation": "## 下線部和訳の原則\n\n1. **構造を訳に反映する**：主語・動詞・修飾関係が採点ポイント\n2. **指示語を具体化するかは設問に従う**：「具体的に」とあれば内容を補う\n3. **単語は文脈に合う訳語を選ぶ**：辞書の第一義に固執しない\n4. **日本語として読める文にする**：直訳で意味が通らない部分だけ意訳\n\n## 内容説明問題の原則\n\n1. **該当箇所を特定**：下線部の前後、指示語・言い換えの範囲\n2. **要素を数える**：説明に必要な要素（理由・対比など）をすべて入れる\n3. **文末を設問に合わせる**：「なぜか」→「〜から」、「どういうことか」→「〜ということ」\n4. **字数の8〜10割**を目安に書く\n5. **比喩は比喩を使わずに説明する**\n\n## 減点されやすい答案\n\n- 文末が設問と対応していない\n- 本文の英語をカタカナにしただけ\n- 必要な要素の欠落（対比の片方だけなど）\n- 本文にない自分の推測を加える",
+   "examples": [
+    {
+     "en": "Why …? → 「〜から。」／ What does … mean? → 「〜ということ。」",
+     "ja": "設問と文末の対応"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-aw-1",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "〜から。"
+     ],
+     "explanation": "理由を問う設問には「〜から」で答える。",
+     "sentence": "「なぜ筆者はそう考えるのか」という設問の答案の文末として最も適切なものを選びなさい。",
+     "choices": [
+      "〜ということ。",
+      "〜から。",
+      "〜である。",
+      "〜と思う。"
+     ]
+    },
+    {
+     "id": "k-aw-2",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "〜ということ。"
+     ],
+     "explanation": "内容説明は「〜ということ」で締める。",
+     "sentence": "「下線部はどういうことか」という設問の答案の文末として最も適切なものを選びなさい。",
+     "choices": [
+      "〜から。",
+      "〜ということ。",
+      "〜ため。",
+      "〜だろう。"
+     ]
+    },
+    {
+     "id": "k-aw-3",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "本文にない自分の推測を加えた答案"
+     ],
+     "explanation": "答案は本文の根拠に基づく。",
+     "sentence": "内容説明問題で減点されやすい答案を選びなさい。",
+     "choices": [
+      "本文の対比の両方を含めた答案",
+      "比喩を使わずに説明した答案",
+      "本文にない自分の推測を加えた答案",
+      "字数の9割程度で書いた答案"
+     ]
+    },
+    {
+     "id": "k-aw-4",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "構造（主語・動詞・修飾関係）の正確な反映"
+     ],
+     "explanation": "構造の理解が訳文に表れているかが採点の中心。",
+     "sentence": "下線部和訳で最も重視される採点ポイントを選びなさい。",
+     "choices": [
+      "美しい文体",
+      "構造（主語・動詞・修飾関係）の正確な反映",
+      "できるだけ短く訳すこと",
+      "難しい漢字を使うこと"
+     ]
+    },
+    {
+     "id": "k-aw-5",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "A ではなく B が重要であるという対比"
+     ],
+     "explanation": "対比構造は両方の要素を含めて説明する。",
+     "sentence": "\"It is not A but B that matters.\" を含む下線部の内容説明で、必ず含めるべき要素を選びなさい。",
+     "choices": [
+      "A のみ",
+      "B のみ",
+      "A ではなく B が重要であるという対比",
+      "どちらも不要"
+     ]
+    },
+    {
+     "id": "k-aw-6",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "しかし、これは話の半分にすぎない。",
+      "しかし、これは事の一面にすぎない。"
+     ],
+     "explanation": "慣用的な表現を文脈に合わせて訳す。",
+     "sentence": "This, however, is only half the story.",
+     "keyPoints": [
+      "This の訳出（設問の指示がなければ「これ」で可）",
+      "only half the story「話の半分・一面にすぎない」"
+     ]
+    },
+    {
+     "id": "k-aw-7",
+     "type": "shortAnswer",
+     "prompt": "次の英文の下線部 it が指す内容を明らかにして、全文を和訳しなさい。\nMany people believe that talent is fixed at birth, but research shows that it can be developed through practice.",
+     "answers": [
+      "多くの人は才能は生まれつき決まっていると信じているが、研究によれば才能は練習によって伸ばすことができる。"
+     ],
+     "explanation": "指示語を具体化する指示があれば、訳文中で内容に置き換える。",
+     "keyPoints": [
+      "it = talent（才能）を具体化",
+      "be fixed at birth「生まれつき決まっている」",
+      "can be developed through practice"
+     ]
+    },
+    {
+     "id": "k-aw-8",
+     "type": "shortAnswer",
+     "prompt": "次の英文の下線部 a double-edged sword とはどういうことか、本文に即して日本語で説明しなさい。\nThe internet is a double-edged sword: it gives us instant access to information, but it also spreads misinformation quickly.",
+     "answers": [
+      "インターネットは情報にすぐにアクセスできるという利点がある一方で、誤情報も素早く広めてしまうという欠点もあるということ。"
+     ],
+     "explanation": "コロン以下の対比の両方を含めて説明する。",
+     "keyPoints": [
+      "比喩を使わない",
+      "利点（即座に情報にアクセスできる）",
+      "欠点（誤情報を素早く広める）",
+      "文末「〜ということ」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-medical-terms",
+   "title": "医学英語の語の成り立ち（医学部対策）",
+   "level": 7,
+   "category": "語彙の技術",
+   "summary": "医学・生命科学の英文に頻出する語根・接頭辞・接尾辞を知り、専門用語の意味を推測できるようにする。",
+   "explanation": "## 体の部位を表す語根\n\n| 語根 | 意味 | 例 |\n|---|---|---|\n| cardi(o)- | 心臓 | cardiology（心臓病学）, cardiac |\n| neur(o)- | 神経 | neurology（神経学）, neuron |\n| gastr(o)- | 胃 | gastritis（胃炎） |\n| hepat(o)- | 肝臓 | hepatitis（肝炎） |\n| derm(at)- | 皮膚 | dermatology（皮膚科学） |\n| oste(o)- | 骨 | osteoporosis（骨粗しょう症） |\n| pulmon- | 肺 | pulmonary（肺の） |\n\n## 状態・処置を表す接尾辞\n\n| 接尾辞 | 意味 | 例 |\n|---|---|---|\n| -itis | 炎症 | arthritis（関節炎）, bronchitis |\n| -ology | 学問 | biology, pathology（病理学） |\n| -ectomy | 切除術 | appendectomy（虫垂切除） |\n| -scope | 観察する器具 | microscope, endoscope（内視鏡） |\n| -emia | 血液の状態 | anemia（貧血） |\n| -pathy | 病気・感情 | neuropathy（神経障害）, empathy |\n\n## 接頭辞\n\nhyper-（過剰）hypertension ／ hypo-（不足）hypoglycemia（低血糖）／ anti-（対抗）antibiotic ／ inter-（間）intervention ／ intra-（内部）intravenous（静脈内の）／ tachy-（速い）, brady-（遅い）\n\n## 読解での使い方\n\n未知の医学用語も、語根と接辞から意味の見当をつけて読み進めればよい。設問で問われるのは多くの場合、専門用語そのものではなく論旨である。",
+   "examples": [
+    {
+     "en": "Hepatitis is an inflammation of the liver.",
+     "ja": "肝炎とは肝臓の炎症である。"
+    },
+    {
+     "en": "The doctor used an endoscope to examine the stomach.",
+     "ja": "医師は内視鏡を使って胃を調べた。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-md-1",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "炎症"
+     ],
+     "explanation": "arthritis（関節炎）、hepatitis（肝炎）。",
+     "sentence": "接尾辞 -itis の意味として最も適切なものを選びなさい。",
+     "choices": [
+      "炎症",
+      "切除",
+      "学問",
+      "腫瘍"
+     ]
+    },
+    {
+     "id": "k-md-2",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "心臓病学"
+     ],
+     "explanation": "cardi(o)-（心臓）+ -ology（学問）。",
+     "sentence": "cardiology の意味として最も適切なものを選びなさい。",
+     "choices": [
+      "心臓病学",
+      "皮膚科学",
+      "神経学",
+      "骨学"
+     ]
+    },
+    {
+     "id": "k-md-3",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "高血圧"
+     ],
+     "explanation": "hyper-（過剰）+ tension（圧）。",
+     "sentence": "hypertension の意味として最も適切なものを選びなさい。",
+     "choices": [
+      "低血圧",
+      "高血圧",
+      "緊張不足",
+      "低体温"
+     ]
+    },
+    {
+     "id": "k-md-4",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "切除術"
+     ],
+     "explanation": "appendectomy（虫垂切除術）。",
+     "sentence": "接尾辞 -ectomy が表すものを選びなさい。",
+     "choices": [
+      "検査",
+      "切除術",
+      "薬",
+      "痛み"
+     ]
+    },
+    {
+     "id": "k-md-5",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "低血糖"
+     ],
+     "explanation": "hypo-（不足）+ glyc（糖）+ -emia（血液の状態）。",
+     "sentence": "hypoglycemia の意味として最も適切なものを選びなさい。",
+     "choices": [
+      "高血糖",
+      "低血糖",
+      "貧血",
+      "高血圧"
+     ]
+    },
+    {
+     "id": "k-md-6",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "静脈内の"
+     ],
+     "explanation": "intra-（内部）+ venous（静脈の）。inter- は「間」。",
+     "sentence": "intravenous の意味として最も適切なものを選びなさい。",
+     "choices": [
+      "静脈内の",
+      "静脈間の",
+      "動脈外の",
+      "心臓内の"
+     ]
+    },
+    {
+     "id": "k-md-7",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "神経学"
+     ],
+     "explanation": "neur(o)-（神経）+ -ology。",
+     "sentence": "neurology の意味として最も適切なものを選びなさい。",
+     "choices": [
+      "神経学",
+      "腎臓学",
+      "心理学",
+      "皮膚科学"
+     ]
+    },
+    {
+     "id": "k-md-8",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "内視鏡"
+     ],
+     "explanation": "endo-（内部）+ -scope（観察する器具）。",
+     "sentence": "endoscope の意味として最も適切なものを選びなさい。",
+     "choices": [
+      "顕微鏡",
+      "内視鏡",
+      "聴診器",
+      "望遠鏡"
      ]
     }
    ]
