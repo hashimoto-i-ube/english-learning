@@ -1,0 +1,422 @@
+{
+ "schemaVersion": 1,
+ "id": "vocab.core.l7",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv7 最難関・医学部 語彙",
+ "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
+ "words": [
+  {
+   "id": "w-chronic",
+   "headword": "chronic",
+   "pos": "形",
+   "meanings": [
+    "慢性の"
+   ],
+   "level": 7,
+   "ipa": "/ˈkrɒnɪk/",
+   "example": {
+    "en": "Chronic stress can weaken the immune system.",
+    "ja": "慢性的なストレスは免疫系を弱めうる。"
+   },
+   "antonyms": [
+    "acute 急性の"
+   ]
+  },
+  {
+   "id": "w-contagious",
+   "headword": "contagious",
+   "pos": "形",
+   "meanings": [
+    "（接触）伝染性の"
+   ],
+   "level": 7,
+   "ipa": "/kənˈteɪdʒəs/",
+   "example": {
+    "en": "Measles is highly contagious.",
+    "ja": "はしかは非常に感染力が強い。"
+   },
+   "synonyms": [
+    "infectious"
+   ],
+   "note": "比喩的に「（笑いなどが）うつりやすい」。"
+  },
+  {
+   "id": "w-diagnose",
+   "headword": "diagnose",
+   "pos": "動",
+   "meanings": [
+    "診断する"
+   ],
+   "level": 7,
+   "ipa": "/ˈdaɪəɡnəʊz/",
+   "example": {
+    "en": "She was diagnosed with diabetes.",
+    "ja": "彼女は糖尿病と診断された。"
+   },
+   "derivatives": [
+    "diagnosis 名 診断（複 diagnoses）"
+   ],
+   "collocations": [
+    "be diagnosed with ~"
+   ]
+  },
+  {
+   "id": "w-epidemic",
+   "headword": "epidemic",
+   "pos": "名",
+   "meanings": [
+    "（局地的な）流行病",
+    "蔓延"
+   ],
+   "level": 7,
+   "ipa": "/ˌepɪˈdemɪk/",
+   "example": {
+    "en": "The country was hit by a cholera epidemic.",
+    "ja": "その国はコレラの流行に見舞われた。"
+   },
+   "note": "世界的大流行は pandemic、常在するものは endemic。"
+  },
+  {
+   "id": "w-immunity",
+   "headword": "immunity",
+   "pos": "名",
+   "meanings": [
+    "免疫",
+    "免除"
+   ],
+   "level": 7,
+   "ipa": "/ɪˈmjuːnəti/",
+   "example": {
+    "en": "Vaccination gives immunity to the disease.",
+    "ja": "予防接種はその病気への免疫を与える。"
+   },
+   "derivatives": [
+    "immune 形 免疫のある（be immune to ~）"
+   ]
+  },
+  {
+   "id": "w-metabolism",
+   "headword": "metabolism",
+   "pos": "名",
+   "meanings": [
+    "代謝"
+   ],
+   "level": 7,
+   "ipa": "/məˈtæbəlɪzəm/",
+   "example": {
+    "en": "Exercise speeds up your metabolism.",
+    "ja": "運動は代謝を高める。"
+   }
+  },
+  {
+   "id": "w-prognosis",
+   "headword": "prognosis",
+   "pos": "名",
+   "meanings": [
+    "予後",
+    "見通し"
+   ],
+   "level": 7,
+   "ipa": "/prɒɡˈnəʊsɪs/",
+   "example": {
+    "en": "The doctor said the prognosis was good.",
+    "ja": "医師は予後は良好だと言った。"
+   }
+  },
+  {
+   "id": "w-therapeutic",
+   "headword": "therapeutic",
+   "pos": "形",
+   "meanings": [
+    "治療の",
+    "心身を癒やす"
+   ],
+   "level": 7,
+   "ipa": "/ˌθerəˈpjuːtɪk/",
+   "example": {
+    "en": "Gardening can be therapeutic.",
+    "ja": "園芸には癒やし効果がありうる。"
+   },
+   "derivatives": [
+    "therapy 名 治療"
+   ]
+  },
+  {
+   "id": "w-cognitive",
+   "headword": "cognitive",
+   "pos": "形",
+   "meanings": [
+    "認知の"
+   ],
+   "level": 7,
+   "ipa": "/ˈkɒɡnətɪv/",
+   "example": {
+    "en": "Sleep is vital for cognitive function.",
+    "ja": "睡眠は認知機能にきわめて重要だ。"
+   },
+   "derivatives": [
+    "cognition 名 認知"
+   ]
+  },
+  {
+   "id": "w-neural",
+   "headword": "neural",
+   "pos": "形",
+   "meanings": [
+    "神経の"
+   ],
+   "level": 7,
+   "ipa": "/ˈnjʊərəl/",
+   "example": {
+    "en": "Learning changes neural connections in the brain.",
+    "ja": "学習は脳内の神経結合を変化させる。"
+   },
+   "derivatives": [
+    "neuron 名 神経細胞"
+   ]
+  },
+  {
+   "id": "w-genome",
+   "headword": "genome",
+   "pos": "名",
+   "meanings": [
+    "ゲノム",
+    "全遺伝情報"
+   ],
+   "level": 7,
+   "ipa": "/ˈdʒiːnəʊm/",
+   "example": {
+    "en": "Scientists completed the sequencing of the human genome in 2003.",
+    "ja": "科学者たちは2003年にヒトゲノムの解読を完了した。"
+   }
+  },
+  {
+   "id": "w-hereditary",
+   "headword": "hereditary",
+   "pos": "形",
+   "meanings": [
+    "遺伝性の",
+    "世襲の"
+   ],
+   "level": 7,
+   "ipa": "/həˈredɪtri/",
+   "example": {
+    "en": "Some forms of the disease are hereditary.",
+    "ja": "その病気の中には遺伝性のものもある。"
+   },
+   "derivatives": [
+    "heredity 名 遺伝"
+   ]
+  },
+  {
+   "id": "w-pathogen",
+   "headword": "pathogen",
+   "pos": "名",
+   "meanings": [
+    "病原体"
+   ],
+   "level": 7,
+   "ipa": "/ˈpæθədʒən/",
+   "example": {
+    "en": "Bacteria and viruses are common pathogens.",
+    "ja": "細菌やウイルスはよくある病原体だ。"
+   }
+  },
+  {
+   "id": "w-placebo",
+   "headword": "placebo",
+   "pos": "名",
+   "meanings": [
+    "偽薬",
+    "プラセボ"
+   ],
+   "level": 7,
+   "ipa": "/pləˈsiːbəʊ/",
+   "example": {
+    "en": "Half the patients received a placebo.",
+    "ja": "患者の半数は偽薬を投与された。"
+   },
+   "collocations": [
+    "placebo effect（プラセボ効果）"
+   ]
+  },
+  {
+   "id": "w-mitigate",
+   "headword": "mitigate",
+   "pos": "動",
+   "meanings": [
+    "緩和する",
+    "軽減する"
+   ],
+   "level": 7,
+   "ipa": "/ˈmɪtɪɡeɪt/",
+   "example": {
+    "en": "Trees can mitigate the effects of heat.",
+    "ja": "樹木は暑さの影響を和らげうる。"
+   },
+   "synonyms": [
+    "alleviate"
+   ]
+  },
+  {
+   "id": "w-exacerbate",
+   "headword": "exacerbate",
+   "pos": "動",
+   "meanings": [
+    "悪化させる"
+   ],
+   "level": 7,
+   "ipa": "/ɪɡˈzæsəbeɪt/",
+   "example": {
+    "en": "Stress may exacerbate the symptoms.",
+    "ja": "ストレスは症状を悪化させるかもしれない。"
+   },
+   "synonyms": [
+    "aggravate",
+    "worsen"
+   ]
+  },
+  {
+   "id": "w-corroborate",
+   "headword": "corroborate",
+   "pos": "動",
+   "meanings": [
+    "裏付ける"
+   ],
+   "level": 7,
+   "ipa": "/kəˈrɒbəreɪt/",
+   "example": {
+    "en": "Further studies corroborated the findings.",
+    "ja": "さらなる研究がその発見を裏付けた。"
+   },
+   "synonyms": [
+    "confirm"
+   ]
+  },
+  {
+   "id": "w-precarious",
+   "headword": "precarious",
+   "pos": "形",
+   "meanings": [
+    "不安定な",
+    "危うい"
+   ],
+   "level": 7,
+   "ipa": "/prɪˈkeəriəs/",
+   "example": {
+    "en": "Many young workers are in precarious jobs.",
+    "ja": "多くの若年労働者が不安定な仕事に就いている。"
+   }
+  },
+  {
+   "id": "w-salient",
+   "headword": "salient",
+   "pos": "形",
+   "meanings": [
+    "顕著な",
+    "目立った"
+   ],
+   "level": 7,
+   "ipa": "/ˈseɪliənt/",
+   "example": {
+    "en": "Summarize the salient points of the article.",
+    "ja": "記事の要点をまとめなさい。"
+   }
+  },
+  {
+   "id": "w-tacit",
+   "headword": "tacit",
+   "pos": "形",
+   "meanings": [
+    "暗黙の"
+   ],
+   "level": 7,
+   "ipa": "/ˈtæsɪt/",
+   "example": {
+    "en": "There was a tacit agreement between them.",
+    "ja": "彼らの間には暗黙の了解があった。"
+   },
+   "synonyms": [
+    "implicit"
+   ]
+  },
+  {
+   "id": "w-paradigm",
+   "headword": "paradigm",
+   "pos": "名",
+   "meanings": [
+    "パラダイム",
+    "（思考の）枠組み"
+   ],
+   "level": 7,
+   "ipa": "/ˈpærədaɪm/",
+   "example": {
+    "en": "The discovery caused a paradigm shift in physics.",
+    "ja": "その発見は物理学に枠組みの大転換をもたらした。"
+   },
+   "note": "g は発音しない。"
+  },
+  {
+   "id": "w-dichotomy",
+   "headword": "dichotomy",
+   "pos": "名",
+   "meanings": [
+    "二分法",
+    "対立"
+   ],
+   "level": 7,
+   "ipa": "/daɪˈkɒtəmi/",
+   "example": {
+    "en": "The dichotomy between nature and nurture is too simple.",
+    "ja": "「生まれか育ちか」という二分法は単純すぎる。"
+   }
+  },
+  {
+   "id": "w-ostensibly",
+   "headword": "ostensibly",
+   "pos": "副",
+   "meanings": [
+    "表向きは"
+   ],
+   "level": 7,
+   "ipa": "/ɒˈstensəbli/",
+   "example": {
+    "en": "He left, ostensibly to visit a friend.",
+    "ja": "彼は表向きは友人を訪ねるという理由で去った。"
+   }
+  },
+  {
+   "id": "w-idiosyncratic",
+   "headword": "idiosyncratic",
+   "pos": "形",
+   "meanings": [
+    "特異な",
+    "その人特有の"
+   ],
+   "level": 7,
+   "ipa": "/ˌɪdiəsɪŋˈkrætɪk/",
+   "example": {
+    "en": "He has an idiosyncratic writing style.",
+    "ja": "彼には独特の文体がある。"
+   },
+   "derivatives": [
+    "idiosyncrasy 名 特異性"
+   ]
+  },
+  {
+   "id": "w-informed-consent",
+   "headword": "informed consent",
+   "pos": "名",
+   "meanings": [
+    "インフォームド・コンセント（十分な説明に基づく同意）"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Doctors must obtain informed consent before surgery.",
+    "ja": "医師は手術前に十分な説明に基づく同意を得なければならない。"
+   },
+   "note": "医学部の面接・小論文でも頻出のテーマ。"
+  }
+ ]
+}

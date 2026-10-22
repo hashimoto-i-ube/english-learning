@@ -1,0 +1,528 @@
+{
+ "schemaVersion": 1,
+ "id": "vocab.core.l4",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv4 共通テスト・中堅大語彙",
+ "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
+ "words": [
+  {
+   "id": "w-accommodate",
+   "headword": "accommodate",
+   "pos": "動",
+   "meanings": [
+    "収容する",
+    "適応させる",
+    "（要求に）応じる"
+   ],
+   "level": 4,
+   "ipa": "/əˈkɒmədeɪt/",
+   "example": {
+    "en": "The hall can accommodate 2,000 people.",
+    "ja": "そのホールは2,000人を収容できる。"
+   },
+   "derivatives": [
+    "accommodation 名 宿泊施設"
+   ],
+   "note": "綴り注意：c と m が2つずつ。"
+  },
+  {
+   "id": "w-anticipate",
+   "headword": "anticipate",
+   "pos": "動",
+   "meanings": [
+    "予期する",
+    "見越す"
+   ],
+   "level": 4,
+   "ipa": "/ænˈtɪsɪpeɪt/",
+   "example": {
+    "en": "We did not anticipate such a large crowd.",
+    "ja": "これほどの人出は予想していなかった。"
+   },
+   "derivatives": [
+    "anticipation 名 予期"
+   ]
+  },
+  {
+   "id": "w-attribute",
+   "headword": "attribute",
+   "pos": "動",
+   "meanings": [
+    "（結果を原因に）帰する"
+   ],
+   "level": 4,
+   "ipa": "/əˈtrɪbjuːt/",
+   "example": {
+    "en": "He attributes his success to hard work.",
+    "ja": "彼は自分の成功を努力のおかげだと考えている。"
+   },
+   "collocations": [
+    "attribute A to B（AをBのせいにする・Bに帰する）"
+   ],
+   "accentNote": "動詞 at-TRI-bute、名詞 AT-tri-bute（属性）。"
+  },
+  {
+   "id": "w-distinguish",
+   "headword": "distinguish",
+   "pos": "動",
+   "meanings": [
+    "区別する"
+   ],
+   "level": 4,
+   "ipa": "/dɪˈstɪŋɡwɪʃ/",
+   "example": {
+    "en": "It is hard to distinguish the twins.",
+    "ja": "その双子を見分けるのは難しい。"
+   },
+   "collocations": [
+    "distinguish A from B",
+    "distinguish between A and B"
+   ]
+  },
+  {
+   "id": "w-enhance",
+   "headword": "enhance",
+   "pos": "動",
+   "meanings": [
+    "高める",
+    "強化する"
+   ],
+   "level": 4,
+   "ipa": "/ɪnˈhɑːns/",
+   "example": {
+    "en": "Good lighting can enhance your concentration.",
+    "ja": "良い照明は集中力を高めうる。"
+   }
+  },
+  {
+   "id": "w-exaggerate",
+   "headword": "exaggerate",
+   "pos": "動",
+   "meanings": [
+    "誇張する"
+   ],
+   "level": 4,
+   "ipa": "/ɪɡˈzædʒəreɪt/",
+   "example": {
+    "en": "The media tend to exaggerate risks.",
+    "ja": "メディアはリスクを誇張しがちだ。"
+   },
+   "derivatives": [
+    "exaggeration 名 誇張"
+   ]
+  },
+  {
+   "id": "w-imply",
+   "headword": "imply",
+   "pos": "動",
+   "meanings": [
+    "暗に意味する",
+    "ほのめかす"
+   ],
+   "level": 4,
+   "ipa": "/ɪmˈplaɪ/",
+   "example": {
+    "en": "His silence implied agreement.",
+    "ja": "彼の沈黙は同意を意味していた。"
+   },
+   "derivatives": [
+    "implication 名 含意；影響"
+   ],
+   "note": "infer（推論する）と区別：話し手が imply し、聞き手が infer する。"
+  },
+  {
+   "id": "w-alter",
+   "headword": "alter",
+   "pos": "動",
+   "meanings": [
+    "変える",
+    "改める"
+   ],
+   "level": 4,
+   "ipa": "/ˈɔːltər/",
+   "example": {
+    "en": "The experience altered her view of life.",
+    "ja": "その経験は彼女の人生観を変えた。"
+   },
+   "derivatives": [
+    "alteration 名 変更"
+   ]
+  },
+  {
+   "id": "w-assess",
+   "headword": "assess",
+   "pos": "動",
+   "meanings": [
+    "評価する",
+    "査定する"
+   ],
+   "level": 4,
+   "ipa": "/əˈses/",
+   "example": {
+    "en": "Teachers assess students in various ways.",
+    "ja": "教師はさまざまな方法で生徒を評価する。"
+   },
+   "derivatives": [
+    "assessment 名 評価"
+   ]
+  },
+  {
+   "id": "w-bias",
+   "headword": "bias",
+   "pos": "名",
+   "meanings": [
+    "偏見",
+    "偏り"
+   ],
+   "level": 4,
+   "ipa": "/ˈbaɪəs/",
+   "example": {
+    "en": "The survey results may contain bias.",
+    "ja": "その調査結果には偏りが含まれているかもしれない。"
+   },
+   "derivatives": [
+    "biased 形 偏った"
+   ]
+  },
+  {
+   "id": "w-concept",
+   "headword": "concept",
+   "pos": "名",
+   "meanings": [
+    "概念"
+   ],
+   "level": 4,
+   "ipa": "/ˈkɒnsept/",
+   "example": {
+    "en": "The concept of time differs among cultures.",
+    "ja": "時間の概念は文化によって異なる。"
+   },
+   "derivatives": [
+    "conceive 動 思いつく",
+    "conception 名 構想"
+   ]
+  },
+  {
+   "id": "w-controversy",
+   "headword": "controversy",
+   "pos": "名",
+   "meanings": [
+    "論争"
+   ],
+   "level": 4,
+   "ipa": "/ˈkɒntrəvɜːsi/",
+   "example": {
+    "en": "The new law caused a lot of controversy.",
+    "ja": "新しい法律は大きな論争を引き起こした。"
+   },
+   "derivatives": [
+    "controversial 形 論争を呼ぶ"
+   ]
+  },
+  {
+   "id": "w-criterion",
+   "headword": "criterion",
+   "pos": "名",
+   "meanings": [
+    "基準"
+   ],
+   "level": 4,
+   "ipa": "/kraɪˈtɪəriən/",
+   "example": {
+    "en": "What criteria do you use to choose a university?",
+    "ja": "大学を選ぶのにどんな基準を用いますか。"
+   },
+   "note": "複数形は criteria。"
+  },
+  {
+   "id": "w-hypothesis",
+   "headword": "hypothesis",
+   "pos": "名",
+   "meanings": [
+    "仮説"
+   ],
+   "level": 4,
+   "ipa": "/haɪˈpɒθəsɪs/",
+   "example": {
+    "en": "The experiment supported their hypothesis.",
+    "ja": "実験は彼らの仮説を支持した。"
+   },
+   "note": "複数形は hypotheses。"
+  },
+  {
+   "id": "w-tendency",
+   "headword": "tendency",
+   "pos": "名",
+   "meanings": [
+    "傾向"
+   ],
+   "level": 4,
+   "ipa": "/ˈtendənsi/",
+   "example": {
+    "en": "There is a tendency to eat more when stressed.",
+    "ja": "ストレスを感じると食べ過ぎる傾向がある。"
+   },
+   "derivatives": [
+    "tend 動 傾向がある（tend to do）"
+   ]
+  },
+  {
+   "id": "w-conventional",
+   "headword": "conventional",
+   "pos": "形",
+   "meanings": [
+    "従来の",
+    "慣習的な"
+   ],
+   "level": 4,
+   "ipa": "/kənˈvenʃənl/",
+   "example": {
+    "en": "The new method is faster than conventional ones.",
+    "ja": "新しい方法は従来の方法より速い。"
+   },
+   "derivatives": [
+    "convention 名 慣習；大会"
+   ]
+  },
+  {
+   "id": "w-diverse",
+   "headword": "diverse",
+   "pos": "形",
+   "meanings": [
+    "多様な"
+   ],
+   "level": 4,
+   "ipa": "/daɪˈvɜːs/",
+   "example": {
+    "en": "Tokyo has a diverse population.",
+    "ja": "東京には多様な人々が暮らしている。"
+   },
+   "derivatives": [
+    "diversity 名 多様性"
+   ]
+  },
+  {
+   "id": "w-explicit",
+   "headword": "explicit",
+   "pos": "形",
+   "meanings": [
+    "明示的な",
+    "はっきりした"
+   ],
+   "level": 4,
+   "ipa": "/ɪkˈsplɪsɪt/",
+   "example": {
+    "en": "The rules should be made explicit.",
+    "ja": "規則は明示されるべきだ。"
+   },
+   "antonyms": [
+    "implicit 暗黙の"
+   ]
+  },
+  {
+   "id": "w-fundamental",
+   "headword": "fundamental",
+   "pos": "形",
+   "meanings": [
+    "根本的な",
+    "基礎の"
+   ],
+   "level": 4,
+   "ipa": "/ˌfʌndəˈmentl/",
+   "example": {
+    "en": "Freedom of speech is a fundamental right.",
+    "ja": "言論の自由は基本的な権利だ。"
+   }
+  },
+  {
+   "id": "w-precise",
+   "headword": "precise",
+   "pos": "形",
+   "meanings": [
+    "正確な",
+    "精密な"
+   ],
+   "level": 4,
+   "ipa": "/prɪˈsaɪs/",
+   "example": {
+    "en": "Please give me the precise figures.",
+    "ja": "正確な数字を教えてください。"
+   },
+   "derivatives": [
+    "precision 名 正確さ",
+    "precisely 副 正確に"
+   ]
+  },
+  {
+   "id": "w-reluctant",
+   "headword": "reluctant",
+   "pos": "形",
+   "meanings": [
+    "気が進まない"
+   ],
+   "level": 4,
+   "ipa": "/rɪˈlʌktənt/",
+   "example": {
+    "en": "He was reluctant to admit his mistake.",
+    "ja": "彼は自分の誤りを認めたがらなかった。"
+   },
+   "synonyms": [
+    "unwilling"
+   ],
+   "collocations": [
+    "be reluctant to do"
+   ]
+  },
+  {
+   "id": "w-subtle",
+   "headword": "subtle",
+   "pos": "形",
+   "meanings": [
+    "微妙な",
+    "かすかな"
+   ],
+   "level": 4,
+   "ipa": "/ˈsʌtl/",
+   "example": {
+    "en": "There is a subtle difference between the two words.",
+    "ja": "その2語には微妙な違いがある。"
+   },
+   "note": "b は発音しない。"
+  },
+  {
+   "id": "w-take-for-granted",
+   "headword": "take ~ for granted",
+   "pos": "熟",
+   "meanings": [
+    "〜を当然と思う"
+   ],
+   "level": 4,
+   "example": {
+    "en": "We often take clean water for granted.",
+    "ja": "私たちはきれいな水を当たり前だと思いがちだ。"
+   },
+   "note": "take it for granted that ... の形も頻出。"
+  },
+  {
+   "id": "w-account-for",
+   "headword": "account for",
+   "pos": "熟",
+   "meanings": [
+    "〜を説明する",
+    "（割合を）占める"
+   ],
+   "level": 4,
+   "example": {
+    "en": "Young people account for 30% of the users.",
+    "ja": "若者が利用者の30%を占める。"
+   },
+   "synonyms": [
+    "explain",
+    "make up"
+   ]
+  },
+  {
+   "id": "w-deceive",
+   "headword": "deceive",
+   "pos": "動",
+   "meanings": [
+    "だます"
+   ],
+   "level": 4,
+   "ipa": "/dɪˈsiːv/",
+   "example": {
+    "en": "Don't be deceived by appearances.",
+    "ja": "見かけにだまされるな。"
+   },
+   "derivatives": [
+    "deception 名 欺くこと",
+    "deceit 名 欺き"
+   ]
+  },
+  {
+   "id": "w-evaluate",
+   "headword": "evaluate",
+   "pos": "動",
+   "meanings": [
+    "評価する"
+   ],
+   "level": 4,
+   "ipa": "/ɪˈvæljueɪt/",
+   "example": {
+    "en": "We need to evaluate the results carefully.",
+    "ja": "結果を慎重に評価する必要がある。"
+   },
+   "derivatives": [
+    "evaluation 名 評価"
+   ]
+  },
+  {
+   "id": "w-comprehend",
+   "headword": "comprehend",
+   "pos": "動",
+   "meanings": [
+    "理解する"
+   ],
+   "level": 4,
+   "ipa": "/ˌkɒmprɪˈhend/",
+   "example": {
+    "en": "The child could not comprehend the situation.",
+    "ja": "その子は状況を理解できなかった。"
+   },
+   "derivatives": [
+    "comprehension 名 理解",
+    "comprehensive 形 包括的な"
+   ],
+   "note": "comprehensible（理解できる）と comprehensive（包括的な）の区別は頻出。"
+  },
+  {
+   "id": "w-inevitable",
+   "headword": "inevitable",
+   "pos": "形",
+   "meanings": [
+    "避けられない"
+   ],
+   "level": 4,
+   "ipa": "/ɪnˈevɪtəbl/",
+   "example": {
+    "en": "Change is inevitable in any organization.",
+    "ja": "どんな組織でも変化は避けられない。"
+   },
+   "accentNote": "in-EV-i-ta-ble（第2音節）。"
+  },
+  {
+   "id": "w-symptom",
+   "headword": "symptom",
+   "pos": "名",
+   "meanings": [
+    "症状",
+    "兆候"
+   ],
+   "level": 4,
+   "ipa": "/ˈsɪmptəm/",
+   "example": {
+    "en": "Fever is a common symptom of the flu.",
+    "ja": "発熱はインフルエンザによく見られる症状だ。"
+   }
+  },
+  {
+   "id": "w-vaccine",
+   "headword": "vaccine",
+   "pos": "名",
+   "meanings": [
+    "ワクチン"
+   ],
+   "level": 4,
+   "ipa": "/ˈvæksiːn/",
+   "example": {
+    "en": "The vaccine reduced the number of severe cases.",
+    "ja": "そのワクチンは重症者数を減らした。"
+   },
+   "derivatives": [
+    "vaccinate 動 予防接種をする",
+    "vaccination 名 予防接種"
+   ]
+  }
+ ]
+}

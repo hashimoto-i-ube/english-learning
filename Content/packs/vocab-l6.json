@@ -1,0 +1,426 @@
+{
+ "schemaVersion": 1,
+ "id": "vocab.core.l6",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv6 旧帝大・早慶 語彙",
+ "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
+ "words": [
+  {
+   "id": "w-abolish",
+   "headword": "abolish",
+   "pos": "動",
+   "meanings": [
+    "廃止する"
+   ],
+   "level": 6,
+   "ipa": "/əˈbɒlɪʃ/",
+   "example": {
+    "en": "Many countries have abolished the death penalty.",
+    "ja": "多くの国が死刑を廃止している。"
+   },
+   "derivatives": [
+    "abolition 名 廃止"
+   ]
+  },
+  {
+   "id": "w-alleviate",
+   "headword": "alleviate",
+   "pos": "動",
+   "meanings": [
+    "軽減する",
+    "和らげる"
+   ],
+   "level": 6,
+   "ipa": "/əˈliːvieɪt/",
+   "example": {
+    "en": "The medicine alleviated her pain.",
+    "ja": "その薬は彼女の痛みを和らげた。"
+   },
+   "synonyms": [
+    "relieve",
+    "ease"
+   ]
+  },
+  {
+   "id": "w-ambivalent",
+   "headword": "ambivalent",
+   "pos": "形",
+   "meanings": [
+    "相反する感情をもつ"
+   ],
+   "level": 6,
+   "ipa": "/æmˈbɪvələnt/",
+   "example": {
+    "en": "She felt ambivalent about leaving home.",
+    "ja": "彼女は家を出ることに複雑な気持ちを抱いた。"
+   }
+  },
+  {
+   "id": "w-conceive",
+   "headword": "conceive",
+   "pos": "動",
+   "meanings": [
+    "思いつく",
+    "想像する",
+    "妊娠する"
+   ],
+   "level": 6,
+   "ipa": "/kənˈsiːv/",
+   "example": {
+    "en": "It is hard to conceive of life without electricity.",
+    "ja": "電気のない生活は想像しにくい。"
+   },
+   "derivatives": [
+    "conception 名 構想；受胎",
+    "conceivable 形 考えられる"
+   ]
+  },
+  {
+   "id": "w-conspicuous",
+   "headword": "conspicuous",
+   "pos": "形",
+   "meanings": [
+    "目立つ"
+   ],
+   "level": 6,
+   "ipa": "/kənˈspɪkjuəs/",
+   "example": {
+    "en": "He felt conspicuous in his bright suit.",
+    "ja": "派手なスーツを着て彼は浮いている気がした。"
+   },
+   "antonyms": [
+    "inconspicuous 目立たない"
+   ]
+  },
+  {
+   "id": "w-detrimental",
+   "headword": "detrimental",
+   "pos": "形",
+   "meanings": [
+    "有害な"
+   ],
+   "level": 6,
+   "ipa": "/ˌdetrɪˈmentl/",
+   "example": {
+    "en": "Smoking is detrimental to health.",
+    "ja": "喫煙は健康に有害だ。"
+   },
+   "synonyms": [
+    "harmful"
+   ],
+   "collocations": [
+    "be detrimental to ~"
+   ]
+  },
+  {
+   "id": "w-discrepancy",
+   "headword": "discrepancy",
+   "pos": "名",
+   "meanings": [
+    "食い違い",
+    "不一致"
+   ],
+   "level": 6,
+   "ipa": "/dɪˈskrepənsi/",
+   "example": {
+    "en": "There is a discrepancy between the two reports.",
+    "ja": "2つの報告書には食い違いがある。"
+   }
+  },
+  {
+   "id": "w-elicit",
+   "headword": "elicit",
+   "pos": "動",
+   "meanings": [
+    "引き出す"
+   ],
+   "level": 6,
+   "ipa": "/ɪˈlɪsɪt/",
+   "example": {
+    "en": "The question elicited a strong reaction.",
+    "ja": "その質問は強い反応を引き出した。"
+   },
+   "note": "illicit（不法な）と混同注意。"
+  },
+  {
+   "id": "w-empirical",
+   "headword": "empirical",
+   "pos": "形",
+   "meanings": [
+    "経験的な",
+    "実証的な"
+   ],
+   "level": 6,
+   "ipa": "/ɪmˈpɪrɪkl/",
+   "example": {
+    "en": "The theory lacks empirical evidence.",
+    "ja": "その理論には実証的証拠が欠けている。"
+   }
+  },
+  {
+   "id": "w-entail",
+   "headword": "entail",
+   "pos": "動",
+   "meanings": [
+    "必然的に伴う"
+   ],
+   "level": 6,
+   "ipa": "/ɪnˈteɪl/",
+   "example": {
+    "en": "The job entails a lot of travel.",
+    "ja": "その仕事には多くの出張が伴う。"
+   },
+   "synonyms": [
+    "involve"
+   ]
+  },
+  {
+   "id": "w-fluctuate",
+   "headword": "fluctuate",
+   "pos": "動",
+   "meanings": [
+    "変動する"
+   ],
+   "level": 6,
+   "ipa": "/ˈflʌktʃueɪt/",
+   "example": {
+    "en": "Prices fluctuate according to demand.",
+    "ja": "価格は需要に応じて変動する。"
+   },
+   "derivatives": [
+    "fluctuation 名 変動"
+   ]
+  },
+  {
+   "id": "w-indispensable",
+   "headword": "indispensable",
+   "pos": "形",
+   "meanings": [
+    "不可欠な"
+   ],
+   "level": 6,
+   "ipa": "/ˌɪndɪˈspensəbl/",
+   "example": {
+    "en": "Smartphones have become indispensable.",
+    "ja": "スマートフォンは不可欠なものになった。"
+   },
+   "synonyms": [
+    "essential"
+   ],
+   "collocations": [
+    "be indispensable to/for ~"
+   ]
+  },
+  {
+   "id": "w-intrinsic",
+   "headword": "intrinsic",
+   "pos": "形",
+   "meanings": [
+    "本質的な",
+    "内在的な"
+   ],
+   "level": 6,
+   "ipa": "/ɪnˈtrɪnsɪk/",
+   "example": {
+    "en": "Learning has intrinsic value.",
+    "ja": "学ぶことにはそれ自体に価値がある。"
+   },
+   "antonyms": [
+    "extrinsic 外在的な"
+   ]
+  },
+  {
+   "id": "w-meticulous",
+   "headword": "meticulous",
+   "pos": "形",
+   "meanings": [
+    "細心の",
+    "きわめて注意深い"
+   ],
+   "level": 6,
+   "ipa": "/məˈtɪkjələs/",
+   "example": {
+    "en": "She is meticulous about details.",
+    "ja": "彼女は細部に非常に気を配る。"
+   }
+  },
+  {
+   "id": "w-obsolete",
+   "headword": "obsolete",
+   "pos": "形",
+   "meanings": [
+    "時代遅れの",
+    "廃れた"
+   ],
+   "level": 6,
+   "ipa": "/ˈɒbsəliːt/",
+   "example": {
+    "en": "This technology will soon be obsolete.",
+    "ja": "この技術はまもなく時代遅れになるだろう。"
+   },
+   "synonyms": [
+    "outdated"
+   ]
+  },
+  {
+   "id": "w-pragmatic",
+   "headword": "pragmatic",
+   "pos": "形",
+   "meanings": [
+    "実用主義の",
+    "現実的な"
+   ],
+   "level": 6,
+   "ipa": "/præɡˈmætɪk/",
+   "example": {
+    "en": "We need a pragmatic solution.",
+    "ja": "現実的な解決策が必要だ。"
+   }
+  },
+  {
+   "id": "w-prerequisite",
+   "headword": "prerequisite",
+   "pos": "名",
+   "meanings": [
+    "前提条件"
+   ],
+   "level": 6,
+   "ipa": "/ˌpriːˈrekwəzɪt/",
+   "example": {
+    "en": "Trust is a prerequisite for cooperation.",
+    "ja": "信頼は協力の前提条件だ。"
+   }
+  },
+  {
+   "id": "w-reciprocal",
+   "headword": "reciprocal",
+   "pos": "形",
+   "meanings": [
+    "相互の",
+    "互恵的な"
+   ],
+   "level": 6,
+   "ipa": "/rɪˈsɪprəkl/",
+   "example": {
+    "en": "Friendship is a reciprocal relationship.",
+    "ja": "友情は相互的な関係だ。"
+   }
+  },
+  {
+   "id": "w-repercussion",
+   "headword": "repercussion",
+   "pos": "名",
+   "meanings": [
+    "（間接的な）影響",
+    "反響"
+   ],
+   "level": 6,
+   "ipa": "/ˌriːpəˈkʌʃn/",
+   "example": {
+    "en": "The decision had serious repercussions.",
+    "ja": "その決定は深刻な影響を及ぼした。"
+   },
+   "note": "通例複数形。"
+  },
+  {
+   "id": "w-skeptical",
+   "headword": "skeptical",
+   "pos": "形",
+   "meanings": [
+    "懐疑的な"
+   ],
+   "level": 6,
+   "ipa": "/ˈskeptɪkl/",
+   "example": {
+    "en": "Many experts are skeptical about the plan.",
+    "ja": "多くの専門家がその計画に懐疑的だ。"
+   },
+   "collocations": [
+    "be skeptical about/of ~"
+   ]
+  },
+  {
+   "id": "w-ubiquitous",
+   "headword": "ubiquitous",
+   "pos": "形",
+   "meanings": [
+    "至る所にある"
+   ],
+   "level": 6,
+   "ipa": "/juːˈbɪkwɪtəs/",
+   "example": {
+    "en": "Convenience stores are ubiquitous in Japan.",
+    "ja": "日本ではコンビニが至る所にある。"
+   }
+  },
+  {
+   "id": "w-unprecedented",
+   "headword": "unprecedented",
+   "pos": "形",
+   "meanings": [
+    "前例のない"
+   ],
+   "level": 6,
+   "ipa": "/ʌnˈpresɪdentɪd/",
+   "example": {
+    "en": "The city faced an unprecedented crisis.",
+    "ja": "その都市は前例のない危機に直面した。"
+   },
+   "derivatives": [
+    "precedent 名 前例"
+   ]
+  },
+  {
+   "id": "w-contemplate",
+   "headword": "contemplate",
+   "pos": "動",
+   "meanings": [
+    "熟考する",
+    "（〜することを）考える"
+   ],
+   "level": 6,
+   "ipa": "/ˈkɒntəmpleɪt/",
+   "example": {
+    "en": "He contemplated changing careers.",
+    "ja": "彼は転職を考えた。"
+   },
+   "note": "contemplate doing。"
+  },
+  {
+   "id": "w-inhibit",
+   "headword": "inhibit",
+   "pos": "動",
+   "meanings": [
+    "抑制する",
+    "妨げる"
+   ],
+   "level": 6,
+   "ipa": "/ɪnˈhɪbɪt/",
+   "example": {
+    "en": "Fear can inhibit learning.",
+    "ja": "恐怖は学習を妨げうる。"
+   },
+   "derivatives": [
+    "inhibition 名 抑制"
+   ]
+  },
+  {
+   "id": "w-deprive",
+   "headword": "deprive",
+   "pos": "動",
+   "meanings": [
+    "奪う"
+   ],
+   "level": 6,
+   "ipa": "/dɪˈpraɪv/",
+   "example": {
+    "en": "Lack of sleep deprives the brain of rest.",
+    "ja": "睡眠不足は脳から休息を奪う。"
+   },
+   "collocations": [
+    "deprive A of B（AからBを奪う）"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,734 @@
+{
+ "schemaVersion": 1,
+ "id": "reading.core",
+ "revision": 1,
+ "skill": "reading",
+ "title": "長文読解",
+ "description": "オリジナル英文（全訳・語注・設問付き）。共通テストから難関大・医学部レベルまで",
+ "passages": [
+  {
+   "id": "r-small-habits",
+   "title": "The Power of Small Habits",
+   "level": 2,
+   "topic": "生活・自己管理",
+   "targetMinutes": 3,
+   "paragraphs": [
+    "Many people make big plans at the start of a new year. They decide to study for three hours every day or to run ten kilometers every morning. However, most of these plans are given up within a few weeks. Why does this happen?",
+    "One reason is that big changes require a lot of energy. When we are tired or busy, it is easy to find an excuse and skip a day. Once we skip one day, skipping the next day becomes even easier.",
+    "Some experts suggest a different approach: start with a habit so small that it seems almost too easy. For example, instead of promising to study for three hours, you could promise to open your textbook and read just one page. Because the task is so easy, you will rarely skip it. And on many days, after reading one page, you will feel like reading more.",
+    "Small habits may not look impressive, but they add up. Reading one page a day means reading more than 350 pages in a year. The secret is not the size of the habit but the fact that you do it every day."
+   ],
+   "translation": [
+    "多くの人は新年の始めに大きな計画を立てる。毎日3時間勉強しようとか、毎朝10キロ走ろうと決心する。しかし、こうした計画の大半は数週間のうちに断念される。なぜこのようなことが起こるのだろうか。",
+    "理由の一つは、大きな変化には多くのエネルギーが必要だということだ。疲れていたり忙しかったりすると、言い訳を見つけて一日休むのは簡単だ。一度一日休むと、次の日に休むことはさらに簡単になる。",
+    "専門家の中には別の方法を勧める人もいる。ほとんど簡単すぎると思えるほど小さな習慣から始めるのだ。例えば、3時間勉強すると約束する代わりに、教科書を開いてたった1ページだけ読むと約束することができる。その作業はとても簡単なので、さぼることはめったにないだろう。そして多くの日には、1ページ読んだ後、もっと読みたい気分になるだろう。",
+    "小さな習慣は立派には見えないかもしれないが、積み重なっていく。1日1ページ読むことは、1年で350ページ以上読むことを意味する。秘訣は習慣の大きさではなく、それを毎日行うという事実なのである。"
+   ],
+   "glossary": [
+    {
+     "term": "excuse",
+     "meaning": "言い訳"
+    },
+    {
+     "term": "skip",
+     "meaning": "（予定などを）とばす・休む"
+    },
+    {
+     "term": "impressive",
+     "meaning": "印象的な・立派な"
+    },
+    {
+     "term": "add up",
+     "meaning": "積み重なる"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-sh-1",
+     "type": "choice",
+     "prompt": "According to the passage, why are many New Year's plans given up?",
+     "answers": [
+      "Because big changes need a lot of energy."
+     ],
+     "explanation": "第2段落第1文 One reason is that big changes require a lot of energy. に一致。",
+     "choices": [
+      "Because people do not make plans.",
+      "Because big changes need a lot of energy.",
+      "Because experts tell people to stop.",
+      "Because studying is not useful."
+     ]
+    },
+    {
+     "id": "r-sh-2",
+     "type": "choice",
+     "prompt": "What does the writer suggest?",
+     "answers": [
+      "Starting with a habit that is very easy to do."
+     ],
+     "explanation": "第3段落 start with a habit so small that it seems almost too easy。",
+     "choices": [
+      "Making a plan that is very difficult.",
+      "Studying for three hours every day.",
+      "Starting with a habit that is very easy to do.",
+      "Running ten kilometers every morning."
+     ]
+    },
+    {
+     "id": "r-sh-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "True"
+     ],
+     "explanation": "第4段落第2文に一致（365日 × 1ページ）。",
+     "sentence": "Reading one page a day means reading more than 350 pages a year.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-sh-4",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "最終文 The secret is not the size of the habit but ... と矛盾。",
+     "sentence": "The writer thinks the size of a habit is the most important thing.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-forgetting",
+   "title": "Why Do We Forget?",
+   "level": 3,
+   "topic": "心理・学習科学",
+   "targetMinutes": 4,
+   "paragraphs": [
+    "In the late nineteenth century, the German psychologist Hermann Ebbinghaus carried out a series of experiments on his own memory. He memorized lists of meaningless syllables, such as \"DAX\" or \"BOK,\" and then tested how many he could recall after different periods of time.",
+    "His results showed a clear pattern. Forgetting was fastest soon after learning: a large part of the material was lost within the first day. After that, the speed of forgetting slowed down. This pattern is now known as the \"forgetting curve.\"",
+    "Ebbinghaus also discovered something encouraging. When he reviewed the lists, he needed less time to relearn them than he had needed the first time. Moreover, each review made the memory last longer. In other words, forgetting is not the enemy of learning; it is a signal that tells us when to review.",
+    "Modern researchers have confirmed that reviewing material at increasing intervals — for example, after one day, three days, one week, and one month — is far more effective than reviewing it many times in a single day. This technique, called \"spaced repetition,\" is used in many language-learning apps today.",
+    "The lesson for students is simple. Instead of trying to remember everything at once, it is wiser to plan reviews over time. Forgetting a little before each review may even make your memory stronger in the end."
+   ],
+   "translation": [
+    "19世紀後半、ドイツの心理学者ヘルマン・エビングハウスは、自分自身の記憶について一連の実験を行った。彼は「DAX」や「BOK」のような無意味な音節のリストを暗記し、さまざまな時間が経った後にいくつ思い出せるかを調べた。",
+    "彼の結果ははっきりとした傾向を示した。忘却は学習直後に最も速く、学んだ内容の大部分が最初の1日のうちに失われた。その後、忘れる速度はゆるやかになった。この傾向は現在「忘却曲線」として知られている。",
+    "エビングハウスは励みになることも発見した。リストを復習すると、再び覚えるのに必要な時間は最初のときよりも少なくて済んだ。さらに、復習するたびに記憶はより長く続くようになった。言い換えれば、忘却は学習の敵ではなく、いつ復習すべきかを教えてくれる合図なのである。",
+    "現代の研究者たちは、間隔を広げながら復習すること――例えば1日後、3日後、1週間後、1か月後――のほうが、1日のうちに何度も復習するよりはるかに効果的であることを確かめている。「間隔反復」と呼ばれるこの技法は、今日多くの語学学習アプリで使われている。",
+    "生徒にとっての教訓は単純だ。すべてを一度に覚えようとするのではなく、時間をかけて復習の計画を立てるほうが賢明である。復習のたびに少し忘れていることが、最終的には記憶をより強くすることさえあるかもしれない。"
+   ],
+   "glossary": [
+    {
+     "term": "syllable",
+     "meaning": "音節"
+    },
+    {
+     "term": "recall",
+     "meaning": "思い出す"
+    },
+    {
+     "term": "interval",
+     "meaning": "間隔"
+    },
+    {
+     "term": "spaced repetition",
+     "meaning": "間隔反復（学習法）"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-fg-1",
+     "type": "choice",
+     "prompt": "What did Ebbinghaus use in his experiments?",
+     "answers": [
+      "Lists of meaningless syllables"
+     ],
+     "explanation": "第1段落 He memorized lists of meaningless syllables。",
+     "choices": [
+      "Lists of famous poems",
+      "Lists of meaningless syllables",
+      "Photographs of faces",
+      "Other people's memories"
+     ]
+    },
+    {
+     "id": "r-fg-2",
+     "type": "choice",
+     "prompt": "According to the forgetting curve, when is forgetting fastest?",
+     "answers": [
+      "Soon after learning"
+     ],
+     "explanation": "第2段落 Forgetting was fastest soon after learning。",
+     "choices": [
+      "Soon after learning",
+      "After one week",
+      "After one month",
+      "It is always the same"
+     ]
+    },
+    {
+     "id": "r-fg-3",
+     "type": "choice",
+     "prompt": "In paragraph 3, the writer says that forgetting is",
+     "answers": [
+      "a signal that shows when to review"
+     ],
+     "explanation": "In other words 以下の言い換えに注目。",
+     "choices": [
+      "something that makes learning impossible",
+      "a signal that shows when to review",
+      "only a problem for old people",
+      "the same as relearning"
+     ]
+    },
+    {
+     "id": "r-fg-4",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落 far more effective than reviewing it many times in a single day と逆。",
+     "sentence": "Reviewing material many times on the same day is more effective than spaced repetition.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-fg-5",
+     "type": "shortAnswer",
+     "prompt": "下線部に相当する \"forgetting is not the enemy of learning\" とはどういうことか、本文に即して日本語で説明しなさい。",
+     "answers": [
+      "忘れることは学習を妨げるものではなく、いつ復習すべきかを知らせる合図であり、復習によって記憶はより長く保たれるようになるということ。"
+     ],
+     "explanation": "第3段落の In other words 以下の言い換えと、その直前の発見（再学習の時間短縮・記憶の持続）をまとめる。",
+     "keyPoints": [
+      "忘却＝復習のタイミングを示す合図",
+      "復習すると再学習の時間が短くなり記憶が長続きする"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-food-loss",
+   "title": "Food Loss and Waste",
+   "level": 4,
+   "topic": "環境・社会",
+   "targetMinutes": 5,
+   "paragraphs": [
+    "Every year, a large share of the food produced around the world is never eaten. Some of it is lost on farms or during transport before it reaches stores, and some is thrown away by shops, restaurants, and households. At the same time, millions of people do not have enough to eat. This contradiction has made food loss and waste one of the most widely discussed problems of our time.",
+    "Food waste is not only an ethical issue but also an environmental one. Producing food requires land, water, and energy. When food is thrown away, all of these resources are wasted as well. In addition, food that ends up in landfills produces methane, a greenhouse gas that is far more powerful than carbon dioxide in the short term.",
+    "Why is so much food wasted in wealthy countries? One reason is that consumers often judge food by its appearance. Vegetables with unusual shapes may be rejected even though they taste just as good. Another reason is confusion about date labels. Many people throw away food as soon as its \"best before\" date has passed, although this date indicates quality rather than safety.",
+    "Solutions are being tried at many levels. Some supermarkets sell \"imperfect\" vegetables at lower prices, and food banks collect unsold food and deliver it to people in need. Apps now connect restaurants that have leftover meals with customers who want to buy them cheaply. Governments, too, have set targets to reduce waste.",
+    "Still, experts emphasize that individual action matters. Planning meals, buying only what we need, and understanding date labels correctly can make a real difference. Since households account for a large part of food waste in many developed countries, changes in our daily habits may be one of the most effective solutions of all."
+   ],
+   "translation": [
+    "毎年、世界中で生産される食料のかなりの割合が食べられることなく終わる。その一部は店に届く前に農場や輸送中に失われ、一部は商店、飲食店、家庭によって捨てられる。同時に、何百万もの人々が十分に食べられずにいる。この矛盾によって、食品ロスと食品廃棄は現代で最も広く議論される問題の一つとなっている。",
+    "食品廃棄は倫理的な問題であるだけでなく、環境問題でもある。食料を生産するには土地、水、エネルギーが必要だ。食品が捨てられると、これらの資源もすべて無駄になる。さらに、埋め立て地に行き着いた食品はメタンを発生させるが、これは短期的には二酸化炭素よりはるかに強力な温室効果ガスである。",
+    "なぜ豊かな国ではこれほど多くの食品が無駄になるのだろうか。理由の一つは、消費者がしばしば見た目で食品を判断することだ。変わった形の野菜は、味は同じくらい良くても敬遠されることがある。もう一つの理由は期限表示に関する混乱である。多くの人は「賞味期限」が過ぎるとすぐに食品を捨ててしまうが、この期限は安全性ではなく品質を示すものである。",
+    "さまざまなレベルで解決策が試みられている。「規格外」の野菜を安く売るスーパーもあれば、フードバンクは売れ残った食品を集めて困っている人々に届けている。今ではアプリが、食事を余らせた飲食店と、それを安く買いたい客とを結びつけている。政府もまた、廃棄を減らす目標を設定している。",
+    "それでも、専門家は個人の行動が重要だと強調する。献立を計画し、必要なものだけを買い、期限表示を正しく理解することは、実際に大きな違いを生みうる。多くの先進国では家庭が食品廃棄の大きな部分を占めているので、日々の習慣を変えることが、あらゆる解決策の中で最も効果的なものの一つかもしれない。"
+   ],
+   "glossary": [
+    {
+     "term": "contradiction",
+     "meaning": "矛盾"
+    },
+    {
+     "term": "landfill",
+     "meaning": "埋め立て地"
+    },
+    {
+     "term": "methane",
+     "meaning": "メタン"
+    },
+    {
+     "term": "best before (date)",
+     "meaning": "賞味期限"
+    },
+    {
+     "term": "food bank",
+     "meaning": "フードバンク（余剰食品を困窮者に届ける団体）"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-fl-1",
+     "type": "choice",
+     "prompt": "What is the \"contradiction\" mentioned in paragraph 1?",
+     "answers": [
+      "Much food is wasted while many people are hungry."
+     ],
+     "explanation": "直前の2文（大量の食品が食べられない／何百万人もが十分食べられない）の対比。",
+     "choices": [
+      "Food is expensive, but people buy a lot of it.",
+      "Much food is wasted while many people are hungry.",
+      "Farmers produce food, but stores do not sell it.",
+      "People want to eat healthy food, but they eat fast food."
+     ]
+    },
+    {
+     "id": "r-fl-2",
+     "type": "choice",
+     "prompt": "Why is food waste an environmental problem?",
+     "answers": [
+      "Because the resources used to produce it are wasted and it produces methane."
+     ],
+     "explanation": "第2段落の2つの理由（資源の無駄・メタン発生）。",
+     "choices": [
+      "Because it makes food more expensive.",
+      "Because the resources used to produce it are wasted and it produces methane.",
+      "Because animals eat the waste.",
+      "Because supermarkets use too much plastic."
+     ]
+    },
+    {
+     "id": "r-fl-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第3段落 this date indicates quality rather than safety。",
+     "sentence": "A \"best before\" date shows when food becomes unsafe to eat.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-fl-4",
+     "type": "choice",
+     "prompt": "Which is NOT mentioned as a solution in paragraph 4?",
+     "answers": [
+      "Banning restaurants from throwing away food"
+     ],
+     "explanation": "飲食店に廃棄を禁止するという記述はない。",
+     "choices": [
+      "Selling imperfect vegetables cheaply",
+      "Food banks delivering unsold food",
+      "Apps connecting restaurants and customers",
+      "Banning restaurants from throwing away food"
+     ]
+    },
+    {
+     "id": "r-fl-5",
+     "type": "shortAnswer",
+     "prompt": "筆者が最終段落で、日々の習慣を変えることが最も効果的な解決策の一つかもしれないと述べる理由を日本語で説明しなさい。",
+     "answers": [
+      "多くの先進国では、食品廃棄の大きな部分を家庭が占めているから。"
+     ],
+     "explanation": "Since households account for a large part ... が理由を表す。",
+     "keyPoints": [
+      "Since 以下が理由",
+      "households account for a large part of food waste"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-language-thought",
+   "title": "Does Language Shape the Way We Think?",
+   "level": 5,
+   "topic": "言語・認知",
+   "targetMinutes": 5,
+   "paragraphs": [
+    "Do speakers of different languages see the world differently? For much of the twentieth century, this question was associated with the strong claim that language determines thought — that we cannot think about something if our language lacks a word for it. Few researchers accept this extreme version today. After all, people regularly understand ideas for which their language has no single word.",
+    "Nevertheless, a weaker version of the idea has found considerable support. Rather than limiting what we can think, language may influence what we tend to notice and remember. Consider how languages describe space. Speakers of English usually describe locations relative to their own bodies: the cup is \"to the left of\" the plate. Some languages, however, rely mainly on fixed directions such as north and south, so that speakers would say the cup is \"to the north of\" the plate. Studies suggest that speakers of such languages keep track of directions remarkably well, even in unfamiliar places.",
+    "Similar effects have been reported for time and color. In one well-known line of research, speakers of languages that have separate basic words for light blue and dark blue distinguished between those shades slightly faster than speakers of languages that use one word for both. The difference was small, but it suggests that the categories provided by a language can make certain distinctions easier to perceive.",
+    "It is important not to exaggerate these findings. The effects are often subtle, and they can disappear when people are given a task that does not involve language. What emerges is a more balanced picture: language does not imprison thought, but it acts as a kind of habit, guiding attention in particular directions. Learning a second language, then, may offer more than a new set of words. It may also offer a new way of paying attention to the world."
+   ],
+   "translation": [
+    "異なる言語の話者は世界を異なって見ているのだろうか。20世紀の大半を通じて、この問いは、言語が思考を決定する――言語にある物事を表す語がなければ、それについて考えることはできない――という強い主張と結びつけられていた。今日、この極端な説を受け入れる研究者はほとんどいない。結局のところ、人は自分の言語に一語では表せない考えでも日常的に理解しているからだ。",
+    "それでも、この考えのより弱い説はかなりの支持を得ている。言語は私たちが考えられることを制限するというよりも、私たちが何に注意を向け、何を記憶しやすいかに影響を与えるのかもしれない。言語が空間をどう表すかを考えてみよう。英語話者は通常、自分の体を基準にして位置を表す。カップは皿の「左に」ある、というように。しかし言語の中には、主に北や南といった固定した方角に頼るものもあり、その話者はカップが皿の「北に」あると言うだろう。研究によれば、そうした言語の話者は、見知らぬ場所でも驚くほどよく方角を把握している。",
+    "同様の効果は時間や色についても報告されている。よく知られた一連の研究では、明るい青と暗い青を表す別々の基本語をもつ言語の話者は、両方に一つの語を用いる言語の話者よりも、それらの色合いをわずかに速く区別した。差は小さかったが、言語が与えるカテゴリーによって、ある種の区別が知覚しやすくなりうることを示唆している。",
+    "これらの発見を誇張しないことが重要だ。効果はしばしばわずかであり、言語を伴わない課題を与えられると消えてしまうこともある。浮かび上がってくるのは、よりバランスのとれた姿である。言語は思考を閉じ込めるのではなく、一種の習慣として働き、注意を特定の方向へ導くのだ。そうだとすれば、第二言語を学ぶことは、新しい単語の一式以上のものを与えてくれるかもしれない。世界に注意を向ける新しいやり方をも与えてくれるかもしれないのである。"
+   ],
+   "glossary": [
+    {
+     "term": "relative to ~",
+     "meaning": "〜を基準にして"
+    },
+    {
+     "term": "keep track of ~",
+     "meaning": "〜を把握し続ける"
+    },
+    {
+     "term": "shade",
+     "meaning": "色合い"
+    },
+    {
+     "term": "imprison",
+     "meaning": "閉じ込める"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-lt-1",
+     "type": "choice",
+     "prompt": "Why do few researchers accept the extreme version of the idea?",
+     "answers": [
+      "Because people understand ideas even without a single word for them."
+     ],
+     "explanation": "第1段落最終文 After all, people regularly understand ideas for which their language has no single word.",
+     "choices": [
+      "Because no one has studied it.",
+      "Because people understand ideas even without a single word for them.",
+      "Because all languages have the same words.",
+      "Because language has no effect on thought."
+     ]
+    },
+    {
+     "id": "r-lt-2",
+     "type": "choice",
+     "prompt": "According to the weaker version, language may",
+     "answers": [
+      "influence what we notice and remember"
+     ],
+     "explanation": "第2段落第2文。",
+     "choices": [
+      "make it impossible to think about some things",
+      "influence what we notice and remember",
+      "determine our personality",
+      "prevent us from learning other languages"
+     ]
+    },
+    {
+     "id": "r-lt-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第3段落 The difference was small。",
+     "sentence": "The difference in color perception between the two groups of speakers was very large.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-lt-4",
+     "type": "choice",
+     "prompt": "What does the writer mean by \"language does not imprison thought\"?",
+     "answers": [
+      "Language does not set strict limits on what we can think."
+     ],
+     "explanation": "imprison（閉じ込める）の否定 → 思考を厳しく制限するわけではない。後半の acts as a kind of habit と対比。",
+     "choices": [
+      "Language completely controls what we think.",
+      "Language does not set strict limits on what we can think.",
+      "Language is unrelated to thought.",
+      "People who speak two languages think faster."
+     ]
+    },
+    {
+     "id": "r-lt-5",
+     "type": "shortAnswer",
+     "prompt": "筆者は第二言語を学ぶことの意義をどのように述べているか。60字程度の日本語で説明しなさい。",
+     "answers": [
+      "第二言語を学ぶことは新しい語彙を得るだけでなく、言語が注意を導く習慣として働くため、世界への新たな注意の向け方を得ることにもなる。"
+     ],
+     "explanation": "最終段落の then 以下。前文の「言語は習慣として注意を導く」を根拠として含めるとよい。",
+     "keyPoints": [
+      "新しい単語以上のものを与える",
+      "言語＝注意を導く習慣",
+      "世界に注意を向ける新しい方法"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-antibiotic",
+   "title": "The Quiet Crisis of Antibiotic Resistance",
+   "level": 6,
+   "topic": "医療・科学",
+   "targetMinutes": 6,
+   "paragraphs": [
+    "When penicillin came into wide use in the 1940s, it seemed that humanity had finally won its long battle against bacterial infections. Diseases that had once been death sentences could now be cured in a matter of days. Yet even Alexander Fleming, who had discovered penicillin, warned that its misuse could lead bacteria to become resistant. His warning has proved remarkably accurate.",
+    "Antibiotic resistance is, at its core, an example of natural selection. Within any large population of bacteria, a few individuals may carry genetic variations that allow them to survive a particular drug. When an antibiotic kills the susceptible bacteria, these resistant ones are left with less competition and multiply. Moreover, bacteria can pass resistance genes to one another, even across species, which allows resistance to spread far faster than it would through inheritance alone.",
+    "Human behavior has accelerated this process. Antibiotics are often prescribed for viral illnesses such as the common cold, against which they have no effect. Patients sometimes stop taking their medicine as soon as they feel better, leaving the hardiest bacteria alive. In many parts of the world, large quantities of antibiotics are also given to farm animals, not to treat disease but to promote growth.",
+    "The consequences are already serious. Infections that were once easily treated are becoming harder to cure, and doctors are increasingly forced to rely on older drugs with more severe side effects. Routine procedures such as surgery and cancer treatment, which depend on effective antibiotics to prevent infection, could become far more dangerous. Some experts warn that, without decisive action, we may be heading toward a \"post-antibiotic era.\"",
+    "Addressing the problem requires action on several fronts at once. Doctors need faster diagnostic tests so that antibiotics are prescribed only when they are truly necessary. The use of antibiotics in agriculture must be reduced. And because developing new antibiotics offers drug companies little profit — such drugs are taken for short periods and, to preserve their effectiveness, are used as sparingly as possible — governments may need to create new incentives for research. Antibiotics, in short, should be regarded not as an inexhaustible resource but as a shared one that must be protected."
+   ],
+   "translation": [
+    "1940年代にペニシリンが広く使われるようになったとき、人類はついに細菌感染症との長い戦いに勝利したかに思われた。かつては死の宣告であった病気が、数日のうちに治せるようになったのだ。しかし、ペニシリンを発見したアレクサンダー・フレミングでさえ、その誤用によって細菌が耐性をもつようになりうると警告していた。彼の警告は驚くほど的確であったことが明らかになっている。",
+    "抗生物質耐性は、本質的には自然選択の一例である。細菌の大きな集団の中には、特定の薬に耐えて生き延びることを可能にする遺伝的変異をもつ個体がわずかに存在しうる。抗生物質が感受性のある細菌を殺すと、これらの耐性菌は競争相手が減った状態で残され、増殖する。さらに、細菌は耐性遺伝子を互いに、種を越えてさえ受け渡すことができ、そのため耐性は遺伝による継承だけの場合よりもはるかに速く広がる。",
+    "人間の行動がこの過程を加速させてきた。抗生物質は、普通の風邪のようなウイルス性の病気に対してしばしば処方されるが、そうした病気には効果がない。患者は気分が良くなるとすぐに薬の服用をやめてしまうことがあり、最もしぶとい細菌を生き残らせてしまう。世界の多くの地域ではまた、大量の抗生物質が家畜に与えられているが、それは病気を治療するためではなく成長を促すためである。",
+    "その影響はすでに深刻である。かつては簡単に治療できた感染症が治りにくくなりつつあり、医師はより重い副作用をもつ古い薬に頼らざるをえなくなってきている。手術やがん治療のような日常的な医療処置は、感染を防ぐために有効な抗生物質に依存しているため、はるかに危険なものになりうる。断固とした行動をとらなければ、私たちは「抗生物質後の時代」に向かっているのかもしれないと警告する専門家もいる。",
+    "この問題に対処するには、いくつもの方面で同時に行動することが必要である。医師には、抗生物質が本当に必要なときにだけ処方されるよう、より迅速な診断検査が必要だ。農業における抗生物質の使用は減らさなければならない。そして新しい抗生物質の開発は製薬会社にほとんど利益をもたらさない――そうした薬は短期間しか服用されず、有効性を保つためにできるだけ控えめに使われる――ので、政府は研究のための新たな動機づけを生み出す必要があるかもしれない。要するに、抗生物質は無尽蔵の資源ではなく、守らなければならない共有の資源とみなされるべきなのである。"
+   ],
+   "glossary": [
+    {
+     "term": "resistant",
+     "meaning": "耐性のある"
+    },
+    {
+     "term": "natural selection",
+     "meaning": "自然選択"
+    },
+    {
+     "term": "susceptible",
+     "meaning": "（影響を）受けやすい・感受性のある"
+    },
+    {
+     "term": "hardy",
+     "meaning": "頑健な・しぶとい"
+    },
+    {
+     "term": "sparingly",
+     "meaning": "控えめに"
+    },
+    {
+     "term": "incentive",
+     "meaning": "動機づけ・誘因"
+    },
+    {
+     "term": "inexhaustible",
+     "meaning": "無尽蔵の"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-ab-1",
+     "type": "choice",
+     "prompt": "What did Alexander Fleming warn about?",
+     "answers": [
+      "Misusing penicillin could make bacteria resistant."
+     ],
+     "explanation": "第1段落第3文。",
+     "choices": [
+      "Penicillin would be too expensive.",
+      "Misusing penicillin could make bacteria resistant.",
+      "Penicillin could not cure any disease.",
+      "Viruses would replace bacteria."
+     ]
+    },
+    {
+     "id": "r-ab-2",
+     "type": "choice",
+     "prompt": "According to paragraph 2, why can resistance spread so quickly?",
+     "answers": [
+      "Because bacteria can transfer resistance genes to one another."
+     ],
+     "explanation": "Moreover 以下：遺伝子の水平伝播により、継承だけより速く広がる。",
+     "choices": [
+      "Because bacteria can transfer resistance genes to one another.",
+      "Because antibiotics make bacteria larger.",
+      "Because people stop washing their hands.",
+      "Because resistant bacteria cannot reproduce."
+     ]
+    },
+    {
+     "id": "r-ab-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第3段落 viral illnesses such as the common cold, against which they have no effect。",
+     "sentence": "Antibiotics are effective against the common cold.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-ab-4",
+     "type": "choice",
+     "prompt": "Why are drug companies not eager to develop new antibiotics?",
+     "answers": [
+      "Because they bring little profit."
+     ],
+     "explanation": "第5段落 developing new antibiotics offers drug companies little profit。ダッシュ内がその理由。",
+     "choices": [
+      "Because they are illegal.",
+      "Because they bring little profit.",
+      "Because doctors refuse to use them.",
+      "Because they are too easy to make."
+     ]
+    },
+    {
+     "id": "r-ab-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "要するに、抗生物質は無尽蔵の資源ではなく、守らなければならない共有の資源とみなされるべきである。"
+     ],
+     "explanation": "regard A as B の受動態に not A but B が組み合わさった形。one は resource の代用。",
+     "sentence": "Antibiotics, in short, should be regarded not as an inexhaustible resource but as a shared one that must be protected.",
+     "keyPoints": [
+      "regard A as B の受動態",
+      "not as A but as B",
+      "one = resource",
+      "in short「要するに」"
+     ]
+    },
+    {
+     "id": "r-ab-6",
+     "type": "shortAnswer",
+     "prompt": "手術やがん治療がより危険になりうると筆者が述べるのはなぜか。日本語で説明しなさい。",
+     "answers": [
+      "手術やがん治療は感染を防ぐために有効な抗生物質に依存しており、耐性菌の拡大で抗生物質が効かなくなれば感染を防げなくなるから。"
+     ],
+     "explanation": "第4段落 which depend on effective antibiotics to prevent infection が根拠。",
+     "keyPoints": [
+      "感染予防に抗生物質が必要",
+      "耐性によって抗生物質が効かなくなる"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-placebo-ethics",
+   "title": "Can a Lie Heal? The Placebo Effect and Medical Ethics",
+   "level": 7,
+   "topic": "医療倫理",
+   "targetMinutes": 7,
+   "paragraphs": [
+    "It has long been known that patients sometimes improve after receiving a treatment that contains no active ingredient. A sugar pill, presented with confidence by a doctor, can reduce reported pain; a fake injection may be even more effective than a fake pill. This phenomenon, the placebo effect, is not simply imagination. Brain-imaging studies have shown that expecting relief can trigger the release of the body's own pain-relieving chemicals, suggesting that belief has measurable physiological consequences.",
+    "The placebo effect is indispensable to modern research. In a randomized controlled trial, one group of patients receives the drug being tested while another receives a placebo, and neither the patients nor, ideally, the doctors know who has received which. Only if the drug performs significantly better than the placebo can it be said to work. Without this comparison, improvements that would have occurred anyway — or that result from expectation alone — might be mistakenly attributed to the drug.",
+    "Outside research, however, the placebo raises a troubling ethical question. If a doctor knowingly prescribes an inactive pill while implying that it is a real medicine, the doctor is deceiving the patient. Modern medical ethics places great weight on informed consent: patients have the right to understand their treatment and to decide for themselves whether to accept it. Deception, however well-intentioned, undermines this right and, if discovered, may damage the trust on which the relationship between doctor and patient depends.",
+    "Intriguingly, recent studies have explored whether deception is necessary at all. In so-called \"open-label\" placebo trials, patients are told plainly that they are receiving pills containing no medicine, yet some of them still report meaningful improvement, particularly in conditions such as chronic pain and irritable bowel syndrome. Researchers suggest that the ritual of treatment — the consultation, the explanation, the act of taking a pill — may itself carry therapeutic power.",
+    "These findings should not be overinterpreted. Placebos do not shrink tumors or cure infections, and relying on them in place of effective treatment would be dangerous. What they do reveal is that healing is not purely a matter of chemistry. The words a doctor chooses, the time taken to listen, and the confidence a patient places in the process all form part of the treatment. Perhaps the most valuable lesson of the placebo, then, is not that a lie can heal, but that care itself can."
+   ],
+   "translation": [
+    "有効成分を含まない治療を受けた後に患者が改善することがあるのは、昔から知られている。医師が自信をもって差し出した砂糖の錠剤は、患者が訴える痛みを軽減しうるし、偽の注射は偽の錠剤よりさらに効果的なことさえある。この現象、すなわちプラセボ効果は、単なる気のせいではない。脳画像研究によって、痛みが和らぐと期待することが体内の鎮痛物質の放出を引き起こしうることが示されており、信じることが測定可能な生理的影響をもつことが示唆されている。",
+    "プラセボ効果は現代の研究に不可欠である。ランダム化比較試験では、一方の患者群が試験中の薬を投与され、もう一方がプラセボを投与されるが、患者も、理想的には医師も、誰がどちらを投与されたかを知らない。薬がプラセボよりも有意に良い結果を示した場合にのみ、その薬は効くと言える。この比較がなければ、いずれにせよ起こったであろう改善や、期待だけから生じた改善が、誤って薬のおかげだとされてしまうかもしれない。",
+    "しかし研究の場を離れると、プラセボは厄介な倫理的問題を提起する。医師が有効成分のない錠剤を、本物の薬であるとほのめかしながら故意に処方すれば、その医師は患者を欺いていることになる。現代の医療倫理はインフォームド・コンセントを非常に重視している。患者には自分の治療を理解し、それを受け入れるかどうかを自ら決める権利があるのだ。欺くことは、どれほど善意からであっても、この権利を損ない、また発覚すれば、医師と患者の関係が依って立つ信頼を傷つけるおそれがある。",
+    "興味深いことに、最近の研究では、そもそも欺くことが必要なのかどうかが探究されている。いわゆる「オープンラベル」プラセボ試験では、患者は薬の成分を含まない錠剤を受け取っているとはっきり告げられるが、それでも一部の患者は意味のある改善を報告しており、とりわけ慢性疼痛や過敏性腸症候群のような病態においてそうである。研究者たちは、診察、説明、錠剤を飲むという行為といった治療の儀式そのものが、治療的な力をもっているのかもしれないと示唆している。",
+    "これらの発見を過大に解釈すべきではない。プラセボは腫瘍を縮小させたり感染症を治したりはしないし、有効な治療の代わりにそれに頼ることは危険であろう。それらが実際に明らかにしているのは、癒やしが純粋に化学の問題ではないということだ。医師が選ぶ言葉、話を聞くのにかける時間、そして患者がその過程に寄せる信頼は、すべて治療の一部をなしている。そうだとすれば、プラセボの最も価値ある教訓はおそらく、嘘が人を癒やしうるということではなく、ケアそのものが人を癒やしうるということなのだろう。"
+   ],
+   "glossary": [
+    {
+     "term": "active ingredient",
+     "meaning": "有効成分"
+    },
+    {
+     "term": "physiological",
+     "meaning": "生理的な"
+    },
+    {
+     "term": "randomized controlled trial",
+     "meaning": "ランダム化比較試験"
+    },
+    {
+     "term": "informed consent",
+     "meaning": "十分な説明に基づく同意"
+    },
+    {
+     "term": "open-label",
+     "meaning": "（被験者に）内容を明かした"
+    },
+    {
+     "term": "irritable bowel syndrome",
+     "meaning": "過敏性腸症候群"
+    },
+    {
+     "term": "tumor",
+     "meaning": "腫瘍"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-pl-1",
+     "type": "choice",
+     "prompt": "What do brain-imaging studies suggest about the placebo effect?",
+     "answers": [
+      "Expectation can cause measurable changes in the body."
+     ],
+     "explanation": "第1段落最終文 belief has measurable physiological consequences。",
+     "choices": [
+      "It is purely imaginary.",
+      "Expectation can cause measurable changes in the body.",
+      "Sugar pills contain hidden medicine.",
+      "Only fake injections are effective."
+     ]
+    },
+    {
+     "id": "r-pl-2",
+     "type": "choice",
+     "prompt": "Why are placebos used in randomized controlled trials?",
+     "answers": [
+      "To distinguish the real effect of a drug from other causes of improvement."
+     ],
+     "explanation": "第2段落最終文：比較がなければ、自然に起こる改善や期待による改善が薬の効果と誤認されうる。",
+     "choices": [
+      "To save money on expensive drugs.",
+      "To make patients feel better quickly.",
+      "To distinguish the real effect of a drug from other causes of improvement.",
+      "To deceive doctors about the results."
+     ]
+    },
+    {
+     "id": "r-pl-3",
+     "type": "choice",
+     "prompt": "According to paragraph 3, what is the main ethical problem with prescribing placebos in ordinary practice?",
+     "answers": [
+      "It involves deceiving patients and violates informed consent."
+     ],
+     "explanation": "第3段落：欺瞞がインフォームド・コンセントの権利を損なう。",
+     "choices": [
+      "Placebos are too expensive.",
+      "It involves deceiving patients and violates informed consent.",
+      "Patients always discover the truth.",
+      "Placebos have dangerous side effects."
+     ]
+    },
+    {
+     "id": "r-pl-4",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落 some of them still report meaningful improvement。",
+     "sentence": "In open-label placebo trials, no patients report any improvement.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-pl-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "欺くことは、どれほど善意によるものであっても、この権利を損ない、また発覚した場合には、医師と患者の関係が依って立つ信頼を傷つけるおそれがある。"
+     ],
+     "explanation": "挿入（however well-intentioned / if discovered）を外すと Deception undermines this right and may damage the trust ... の骨格が見える。",
+     "sentence": "Deception, however well-intentioned, undermines this right and, if discovered, may damage the trust on which the relationship between doctor and patient depends.",
+     "keyPoints": [
+      "however well-intentioned（譲歩：どれほど善意でも）",
+      "undermines と may damage が並列",
+      "if discovered（= if it is discovered）",
+      "the trust on which ~ depends（前置詞＋関係代名詞）",
+      "this right = インフォームド・コンセントの権利"
+     ]
+    },
+    {
+     "id": "r-pl-6",
+     "type": "shortAnswer",
+     "prompt": "最終文の \"not that a lie can heal, but that care itself can\" とはどういうことか。本文全体の内容を踏まえて80字程度の日本語で説明しなさい。",
+     "answers": [
+      "プラセボの効果が示すのは、偽薬で患者を欺くことの効用ではなく、医師の言葉や傾聴、患者の信頼といった治療の過程そのものが癒やしの力をもつということ。"
+     ],
+     "explanation": "can の後ろには heal が省略されている。第4段落（欺瞞なしでも効果）と第5段落（癒やしは化学だけではない）を根拠にまとめる。",
+     "keyPoints": [
+      "「嘘（偽薬で欺くこと）が癒やす」の否定",
+      "ケア＝医師の言葉・話を聞く時間・患者の信頼",
+      "オープンラベル研究：欺瞞なしでも効果",
+      "癒やしは純粋に化学の問題ではない"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,543 @@
+{
+ "schemaVersion": 1,
+ "id": "vocab.core.l1",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv1 基本語彙",
+ "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
+ "words": [
+  {
+   "id": "w-decide",
+   "headword": "decide",
+   "pos": "動",
+   "meanings": [
+    "決める",
+    "決心する"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈsaɪd/",
+   "example": {
+    "en": "She decided to study abroad after graduation.",
+    "ja": "彼女は卒業後に留学することに決めた。"
+   },
+   "derivatives": [
+    "decision 名 決定",
+    "decisive 形 決定的な"
+   ],
+   "note": "decide to do（〜することに決める）。decide doing は不可。"
+  },
+  {
+   "id": "w-explain",
+   "headword": "explain",
+   "pos": "動",
+   "meanings": [
+    "説明する"
+   ],
+   "level": 1,
+   "ipa": "/ɪkˈspleɪn/",
+   "example": {
+    "en": "Could you explain the rule to me?",
+    "ja": "その規則を私に説明してくれませんか。"
+   },
+   "derivatives": [
+    "explanation 名 説明"
+   ],
+   "note": "explain A to B（BにAを説明する）。explain me A は不可。"
+  },
+  {
+   "id": "w-prepare",
+   "headword": "prepare",
+   "pos": "動",
+   "meanings": [
+    "準備する",
+    "用意する"
+   ],
+   "level": 1,
+   "ipa": "/prɪˈpeər/",
+   "example": {
+    "en": "We prepared for the exam together.",
+    "ja": "私たちは一緒に試験の準備をした。"
+   },
+   "derivatives": [
+    "preparation 名 準備"
+   ],
+   "collocations": [
+    "prepare for ~（〜に備える）"
+   ]
+  },
+  {
+   "id": "w-improve",
+   "headword": "improve",
+   "pos": "動",
+   "meanings": [
+    "改善する",
+    "向上する"
+   ],
+   "level": 1,
+   "ipa": "/ɪmˈpruːv/",
+   "example": {
+    "en": "Reading every day will improve your English.",
+    "ja": "毎日読むことで英語力は向上するだろう。"
+   },
+   "derivatives": [
+    "improvement 名 改善"
+   ]
+  },
+  {
+   "id": "w-describe",
+   "headword": "describe",
+   "pos": "動",
+   "meanings": [
+    "描写する",
+    "説明する"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈskraɪb/",
+   "example": {
+    "en": "Describe your hometown in three sentences.",
+    "ja": "あなたの故郷を3文で描写しなさい。"
+   },
+   "derivatives": [
+    "description 名 描写"
+   ]
+  },
+  {
+   "id": "w-increase",
+   "headword": "increase",
+   "pos": "動",
+   "meanings": [
+    "増える",
+    "増やす"
+   ],
+   "level": 1,
+   "ipa": "/ɪnˈkriːs/",
+   "example": {
+    "en": "The number of tourists has increased rapidly.",
+    "ja": "観光客の数が急速に増えている。"
+   },
+   "antonyms": [
+    "decrease 減る"
+   ],
+   "accentNote": "動詞は後ろ（in-CREASE）、名詞は前（IN-crease）にアクセント。"
+  },
+  {
+   "id": "w-reduce",
+   "headword": "reduce",
+   "pos": "動",
+   "meanings": [
+    "減らす"
+   ],
+   "level": 1,
+   "ipa": "/rɪˈdjuːs/",
+   "example": {
+    "en": "We should reduce the amount of plastic waste.",
+    "ja": "私たちはプラスチックごみの量を減らすべきだ。"
+   },
+   "derivatives": [
+    "reduction 名 削減"
+   ]
+  },
+  {
+   "id": "w-protect",
+   "headword": "protect",
+   "pos": "動",
+   "meanings": [
+    "守る",
+    "保護する"
+   ],
+   "level": 1,
+   "ipa": "/prəˈtekt/",
+   "example": {
+    "en": "Sunscreen protects your skin from UV rays.",
+    "ja": "日焼け止めは紫外線から肌を守る。"
+   },
+   "derivatives": [
+    "protection 名 保護"
+   ],
+   "collocations": [
+    "protect A from B（BからAを守る）"
+   ]
+  },
+  {
+   "id": "w-borrow",
+   "headword": "borrow",
+   "pos": "動",
+   "meanings": [
+    "借りる"
+   ],
+   "level": 1,
+   "ipa": "/ˈbɒrəʊ/",
+   "example": {
+    "en": "Can I borrow your dictionary?",
+    "ja": "辞書を借りてもいいですか。"
+   },
+   "antonyms": [
+    "lend 貸す"
+   ],
+   "note": "移動できない物（トイレ・電話）を「借りる」は use。"
+  },
+  {
+   "id": "w-lend",
+   "headword": "lend",
+   "pos": "動",
+   "meanings": [
+    "貸す"
+   ],
+   "level": 1,
+   "ipa": "/lend/",
+   "example": {
+    "en": "He lent me his umbrella.",
+    "ja": "彼は私に傘を貸してくれた。"
+   },
+   "note": "活用 lend - lent - lent。lend A B / lend B to A。"
+  },
+  {
+   "id": "w-arrive",
+   "headword": "arrive",
+   "pos": "動",
+   "meanings": [
+    "到着する"
+   ],
+   "level": 1,
+   "ipa": "/əˈraɪv/",
+   "example": {
+    "en": "We arrived at the station at noon.",
+    "ja": "私たちは正午に駅に着いた。"
+   },
+   "derivatives": [
+    "arrival 名 到着"
+   ],
+   "note": "arrive at（地点）/ arrive in（都市・国）。reach は他動詞で前置詞不要。"
+  },
+  {
+   "id": "w-discover",
+   "headword": "discover",
+   "pos": "動",
+   "meanings": [
+    "発見する"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈskʌvər/",
+   "example": {
+    "en": "Scientists discovered a new species of frog.",
+    "ja": "科学者たちは新種のカエルを発見した。"
+   },
+   "derivatives": [
+    "discovery 名 発見"
+   ]
+  },
+  {
+   "id": "w-invent",
+   "headword": "invent",
+   "pos": "動",
+   "meanings": [
+    "発明する"
+   ],
+   "level": 1,
+   "ipa": "/ɪnˈvent/",
+   "example": {
+    "en": "Who invented the telephone?",
+    "ja": "誰が電話を発明したのですか。"
+   },
+   "derivatives": [
+    "invention 名 発明"
+   ]
+  },
+  {
+   "id": "w-receive",
+   "headword": "receive",
+   "pos": "動",
+   "meanings": [
+    "受け取る"
+   ],
+   "level": 1,
+   "ipa": "/rɪˈsiːv/",
+   "example": {
+    "en": "I received a letter from my grandmother.",
+    "ja": "祖母から手紙を受け取った。"
+   },
+   "derivatives": [
+    "receipt 名 領収書（pは発音しない）",
+    "reception 名 受付"
+   ]
+  },
+  {
+   "id": "w-environment",
+   "headword": "environment",
+   "pos": "名",
+   "meanings": [
+    "環境"
+   ],
+   "level": 1,
+   "ipa": "/ɪnˈvaɪrənmənt/",
+   "example": {
+    "en": "We must protect the natural environment.",
+    "ja": "私たちは自然環境を守らなければならない。"
+   },
+   "derivatives": [
+    "environmental 形 環境の"
+   ],
+   "accentNote": "第2音節 -VI- にアクセント。"
+  },
+  {
+   "id": "w-experience",
+   "headword": "experience",
+   "pos": "名",
+   "meanings": [
+    "経験"
+   ],
+   "level": 1,
+   "ipa": "/ɪkˈspɪəriəns/",
+   "example": {
+    "en": "Traveling alone was a valuable experience.",
+    "ja": "一人旅は貴重な経験だった。"
+   },
+   "note": "「経験」は不可算、「（具体的な）体験」は可算。動詞としても使う。"
+  },
+  {
+   "id": "w-information",
+   "headword": "information",
+   "pos": "名",
+   "meanings": [
+    "情報"
+   ],
+   "level": 1,
+   "ipa": "/ˌɪnfəˈmeɪʃn/",
+   "example": {
+    "en": "This website gives useful information.",
+    "ja": "このウェブサイトは役に立つ情報を提供している。"
+   },
+   "note": "不可算名詞。×informations → a piece of information。"
+  },
+  {
+   "id": "w-opinion",
+   "headword": "opinion",
+   "pos": "名",
+   "meanings": [
+    "意見"
+   ],
+   "level": 1,
+   "ipa": "/əˈpɪnjən/",
+   "example": {
+    "en": "In my opinion, school uniforms are useful.",
+    "ja": "私の意見では、制服は便利だ。"
+   },
+   "collocations": [
+    "in my opinion（私の意見では）"
+   ]
+  },
+  {
+   "id": "w-culture",
+   "headword": "culture",
+   "pos": "名",
+   "meanings": [
+    "文化"
+   ],
+   "level": 1,
+   "ipa": "/ˈkʌltʃər/",
+   "example": {
+    "en": "Food is an important part of every culture.",
+    "ja": "食はあらゆる文化の重要な一部だ。"
+   },
+   "derivatives": [
+    "cultural 形 文化の"
+   ]
+  },
+  {
+   "id": "w-society",
+   "headword": "society",
+   "pos": "名",
+   "meanings": [
+    "社会"
+   ],
+   "level": 1,
+   "ipa": "/səˈsaɪəti/",
+   "example": {
+    "en": "Modern society depends on technology.",
+    "ja": "現代社会はテクノロジーに依存している。"
+   },
+   "derivatives": [
+    "social 形 社会の"
+   ],
+   "accentNote": "so-CI-e-ty（第2音節）。"
+  },
+  {
+   "id": "w-government",
+   "headword": "government",
+   "pos": "名",
+   "meanings": [
+    "政府"
+   ],
+   "level": 1,
+   "ipa": "/ˈɡʌvənmənt/",
+   "example": {
+    "en": "The government announced a new policy.",
+    "ja": "政府は新しい政策を発表した。"
+   },
+   "derivatives": [
+    "govern 動 統治する"
+   ]
+  },
+  {
+   "id": "w-language",
+   "headword": "language",
+   "pos": "名",
+   "meanings": [
+    "言語",
+    "言葉"
+   ],
+   "level": 1,
+   "ipa": "/ˈlæŋɡwɪdʒ/",
+   "example": {
+    "en": "Japanese is a difficult language to learn.",
+    "ja": "日本語は習得の難しい言語だ。"
+   }
+  },
+  {
+   "id": "w-solve",
+   "headword": "solve",
+   "pos": "動",
+   "meanings": [
+    "解決する",
+    "解く"
+   ],
+   "level": 1,
+   "ipa": "/sɒlv/",
+   "example": {
+    "en": "It took me an hour to solve the problem.",
+    "ja": "その問題を解くのに1時間かかった。"
+   },
+   "derivatives": [
+    "solution 名 解決策"
+   ]
+  },
+  {
+   "id": "w-effect",
+   "headword": "effect",
+   "pos": "名",
+   "meanings": [
+    "効果",
+    "影響"
+   ],
+   "level": 1,
+   "ipa": "/ɪˈfekt/",
+   "example": {
+    "en": "The medicine had a strong effect.",
+    "ja": "その薬は強い効果があった。"
+   },
+   "collocations": [
+    "have an effect on ~（〜に影響を与える）"
+   ],
+   "note": "affect（動 影響する）と区別。"
+  },
+  {
+   "id": "w-different",
+   "headword": "different",
+   "pos": "形",
+   "meanings": [
+    "異なる",
+    "さまざまな"
+   ],
+   "level": 1,
+   "ipa": "/ˈdɪfrənt/",
+   "example": {
+    "en": "My opinion is different from yours.",
+    "ja": "私の意見はあなたのとは違う。"
+   },
+   "derivatives": [
+    "difference 名 違い",
+    "differ 動 異なる"
+   ],
+   "collocations": [
+    "be different from ~"
+   ]
+  },
+  {
+   "id": "w-possible",
+   "headword": "possible",
+   "pos": "形",
+   "meanings": [
+    "可能な",
+    "ありうる"
+   ],
+   "level": 1,
+   "ipa": "/ˈpɒsəbl/",
+   "example": {
+    "en": "Is it possible to finish this by Friday?",
+    "ja": "これを金曜までに終えることは可能ですか。"
+   },
+   "antonyms": [
+    "impossible 不可能な"
+   ],
+   "note": "人を主語にしない：×I am possible to ... → It is possible for me to ..."
+  },
+  {
+   "id": "w-necessary",
+   "headword": "necessary",
+   "pos": "形",
+   "meanings": [
+    "必要な"
+   ],
+   "level": 1,
+   "ipa": "/ˈnesəsəri/",
+   "example": {
+    "en": "It is necessary for you to get enough sleep.",
+    "ja": "あなたは十分な睡眠をとる必要がある。"
+   },
+   "derivatives": [
+    "necessity 名 必要（性）"
+   ],
+   "note": "possible と同じく人を主語にしない。"
+  },
+  {
+   "id": "w-popular",
+   "headword": "popular",
+   "pos": "形",
+   "meanings": [
+    "人気のある"
+   ],
+   "level": 1,
+   "ipa": "/ˈpɒpjələr/",
+   "example": {
+    "en": "This song is popular among teenagers.",
+    "ja": "この歌は10代の間で人気がある。"
+   },
+   "collocations": [
+    "be popular among/with ~"
+   ]
+  },
+  {
+   "id": "w-instead",
+   "headword": "instead",
+   "pos": "副",
+   "meanings": [
+    "代わりに"
+   ],
+   "level": 1,
+   "ipa": "/ɪnˈsted/",
+   "example": {
+    "en": "I didn't take the bus; I walked instead.",
+    "ja": "バスに乗らず、代わりに歩いた。"
+   },
+   "collocations": [
+    "instead of ~（〜の代わりに）"
+   ]
+  },
+  {
+   "id": "w-already",
+   "headword": "already",
+   "pos": "副",
+   "meanings": [
+    "すでに",
+    "もう"
+   ],
+   "level": 1,
+   "ipa": "/ɔːlˈredi/",
+   "example": {
+    "en": "The train has already left.",
+    "ja": "電車はもう出てしまった。"
+   },
+   "note": "肯定文で使う。否定・疑問の「もう／まだ」は yet。"
+  }
+ ]
+}

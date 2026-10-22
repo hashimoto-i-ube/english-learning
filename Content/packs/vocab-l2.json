@@ -1,0 +1,547 @@
+{
+ "schemaVersion": 1,
+ "id": "vocab.core.l2",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv2 高1標準語彙",
+ "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
+ "words": [
+  {
+   "id": "w-achieve",
+   "headword": "achieve",
+   "pos": "動",
+   "meanings": [
+    "達成する",
+    "成し遂げる"
+   ],
+   "level": 2,
+   "ipa": "/əˈtʃiːv/",
+   "example": {
+    "en": "She worked hard to achieve her goal.",
+    "ja": "彼女は目標を達成するために懸命に努力した。"
+   },
+   "derivatives": [
+    "achievement 名 達成；業績"
+   ]
+  },
+  {
+   "id": "w-recognize",
+   "headword": "recognize",
+   "pos": "動",
+   "meanings": [
+    "認識する",
+    "（見て）わかる",
+    "認める"
+   ],
+   "level": 2,
+   "ipa": "/ˈrekəɡnaɪz/",
+   "example": {
+    "en": "I didn't recognize him with his new glasses.",
+    "ja": "新しい眼鏡をかけた彼が誰だかわからなかった。"
+   },
+   "derivatives": [
+    "recognition 名 認識"
+   ]
+  },
+  {
+   "id": "w-consider",
+   "headword": "consider",
+   "pos": "動",
+   "meanings": [
+    "よく考える",
+    "〜とみなす"
+   ],
+   "level": 2,
+   "ipa": "/kənˈsɪdər/",
+   "example": {
+    "en": "Have you considered studying abroad?",
+    "ja": "留学することを考えたことはありますか。"
+   },
+   "derivatives": [
+    "consideration 名 考慮",
+    "considerable 形 かなりの",
+    "considerate 形 思いやりのある"
+   ],
+   "note": "consider doing（to不定詞は不可）。consider O (to be) C「OをCとみなす」。"
+  },
+  {
+   "id": "w-suggest",
+   "headword": "suggest",
+   "pos": "動",
+   "meanings": [
+    "提案する",
+    "示唆する"
+   ],
+   "level": 2,
+   "ipa": "/səˈdʒest/",
+   "example": {
+    "en": "He suggested that we (should) take a break.",
+    "ja": "彼は休憩をとろうと提案した。"
+   },
+   "derivatives": [
+    "suggestion 名 提案"
+   ],
+   "note": "suggest that S (should) 原形。suggest doing。×suggest me to do。"
+  },
+  {
+   "id": "w-require",
+   "headword": "require",
+   "pos": "動",
+   "meanings": [
+    "必要とする",
+    "要求する"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈkwaɪər/",
+   "example": {
+    "en": "This job requires a lot of patience.",
+    "ja": "この仕事には多くの忍耐が必要だ。"
+   },
+   "derivatives": [
+    "requirement 名 必要条件"
+   ]
+  },
+  {
+   "id": "w-avoid",
+   "headword": "avoid",
+   "pos": "動",
+   "meanings": [
+    "避ける"
+   ],
+   "level": 2,
+   "ipa": "/əˈvɔɪd/",
+   "example": {
+    "en": "You should avoid eating too much sugar.",
+    "ja": "砂糖のとりすぎは避けるべきだ。"
+   },
+   "note": "avoid doing（動名詞を目的語にとる）。"
+  },
+  {
+   "id": "w-persuade",
+   "headword": "persuade",
+   "pos": "動",
+   "meanings": [
+    "説得する"
+   ],
+   "level": 2,
+   "ipa": "/pəˈsweɪd/",
+   "example": {
+    "en": "I persuaded my father to buy a new computer.",
+    "ja": "父を説得して新しいパソコンを買ってもらった。"
+   },
+   "derivatives": [
+    "persuasion 名 説得",
+    "persuasive 形 説得力のある"
+   ],
+   "note": "persuade O to do は「説得して〜させる（成功）」を含意。"
+  },
+  {
+   "id": "w-admit",
+   "headword": "admit",
+   "pos": "動",
+   "meanings": [
+    "認める"
+   ],
+   "level": 2,
+   "ipa": "/ədˈmɪt/",
+   "example": {
+    "en": "He admitted making a mistake.",
+    "ja": "彼は間違いを犯したことを認めた。"
+   },
+   "derivatives": [
+    "admission 名 入場（許可）；承認"
+   ],
+   "note": "admit doing / admit that節。"
+  },
+  {
+   "id": "w-deny",
+   "headword": "deny",
+   "pos": "動",
+   "meanings": [
+    "否定する"
+   ],
+   "level": 2,
+   "ipa": "/dɪˈnaɪ/",
+   "example": {
+    "en": "She denied having seen the man.",
+    "ja": "彼女はその男を見たことを否定した。"
+   },
+   "derivatives": [
+    "denial 名 否定"
+   ]
+  },
+  {
+   "id": "w-compare",
+   "headword": "compare",
+   "pos": "動",
+   "meanings": [
+    "比較する",
+    "たとえる"
+   ],
+   "level": 2,
+   "ipa": "/kəmˈpeər/",
+   "example": {
+    "en": "Compare your answer with the model answer.",
+    "ja": "自分の答えを模範解答と比べなさい。"
+   },
+   "derivatives": [
+    "comparison 名 比較",
+    "comparative 形 比較の"
+   ],
+   "collocations": [
+    "compare A with B（AをBと比べる）",
+    "compare A to B（AをBにたとえる）"
+   ]
+  },
+  {
+   "id": "w-provide",
+   "headword": "provide",
+   "pos": "動",
+   "meanings": [
+    "提供する",
+    "与える"
+   ],
+   "level": 2,
+   "ipa": "/prəˈvaɪd/",
+   "example": {
+    "en": "The school provides students with tablets.",
+    "ja": "その学校は生徒にタブレットを提供している。"
+   },
+   "collocations": [
+    "provide A with B = provide B for A"
+   ]
+  },
+  {
+   "id": "w-affect",
+   "headword": "affect",
+   "pos": "動",
+   "meanings": [
+    "影響を与える"
+   ],
+   "level": 2,
+   "ipa": "/əˈfekt/",
+   "example": {
+    "en": "Lack of sleep affects your concentration.",
+    "ja": "睡眠不足は集中力に影響する。"
+   },
+   "note": "他動詞：×affect on。名詞の effect と区別。"
+  },
+  {
+   "id": "w-opportunity",
+   "headword": "opportunity",
+   "pos": "名",
+   "meanings": [
+    "機会"
+   ],
+   "level": 2,
+   "ipa": "/ˌɒpəˈtjuːnəti/",
+   "example": {
+    "en": "This trip is a great opportunity to learn.",
+    "ja": "この旅行は学ぶ絶好の機会だ。"
+   },
+   "synonyms": [
+    "chance"
+   ],
+   "accentNote": "op-por-TU-ni-ty（第3音節）。"
+  },
+  {
+   "id": "w-ability",
+   "headword": "ability",
+   "pos": "名",
+   "meanings": [
+    "能力"
+   ],
+   "level": 2,
+   "ipa": "/əˈbɪləti/",
+   "example": {
+    "en": "Humans have the ability to use language.",
+    "ja": "人間には言語を使う能力がある。"
+   },
+   "derivatives": [
+    "able 形 できる"
+   ]
+  },
+  {
+   "id": "w-behavior",
+   "headword": "behavior",
+   "pos": "名",
+   "meanings": [
+    "行動",
+    "振る舞い"
+   ],
+   "level": 2,
+   "ipa": "/bɪˈheɪvjər/",
+   "example": {
+    "en": "The study examines animal behavior.",
+    "ja": "その研究は動物の行動を調べている。"
+   },
+   "derivatives": [
+    "behave 動 振る舞う"
+   ]
+  },
+  {
+   "id": "w-advantage",
+   "headword": "advantage",
+   "pos": "名",
+   "meanings": [
+    "利点",
+    "有利"
+   ],
+   "level": 2,
+   "ipa": "/ədˈvɑːntɪdʒ/",
+   "example": {
+    "en": "One advantage of city life is convenience.",
+    "ja": "都会生活の利点の一つは便利さだ。"
+   },
+   "antonyms": [
+    "disadvantage 不利な点"
+   ],
+   "collocations": [
+    "take advantage of ~（〜を利用する）"
+   ]
+  },
+  {
+   "id": "w-influence",
+   "headword": "influence",
+   "pos": "名",
+   "meanings": [
+    "影響（力）"
+   ],
+   "level": 2,
+   "ipa": "/ˈɪnfluəns/",
+   "example": {
+    "en": "Parents have a strong influence on their children.",
+    "ja": "親は子どもに強い影響力をもつ。"
+   },
+   "collocations": [
+    "have an influence on ~"
+   ],
+   "accentNote": "IN-flu-ence（第1音節）。"
+  },
+  {
+   "id": "w-method",
+   "headword": "method",
+   "pos": "名",
+   "meanings": [
+    "方法"
+   ],
+   "level": 2,
+   "ipa": "/ˈmeθəd/",
+   "example": {
+    "en": "This is an effective method of learning words.",
+    "ja": "これは単語を覚える効果的な方法だ。"
+   }
+  },
+  {
+   "id": "w-purpose",
+   "headword": "purpose",
+   "pos": "名",
+   "meanings": [
+    "目的"
+   ],
+   "level": 2,
+   "ipa": "/ˈpɜːpəs/",
+   "example": {
+    "en": "What is the purpose of your visit?",
+    "ja": "訪問の目的は何ですか。"
+   },
+   "collocations": [
+    "on purpose（わざと）"
+   ]
+  },
+  {
+   "id": "w-available",
+   "headword": "available",
+   "pos": "形",
+   "meanings": [
+    "利用できる",
+    "手に入る",
+    "手が空いている"
+   ],
+   "level": 2,
+   "ipa": "/əˈveɪləbl/",
+   "example": {
+    "en": "Tickets are available online.",
+    "ja": "チケットはオンラインで入手できる。"
+   },
+   "derivatives": [
+    "availability 名 利用できること"
+   ]
+  },
+  {
+   "id": "w-familiar",
+   "headword": "familiar",
+   "pos": "形",
+   "meanings": [
+    "よく知られた",
+    "精通した"
+   ],
+   "level": 2,
+   "ipa": "/fəˈmɪliər/",
+   "example": {
+    "en": "This song sounds familiar to me.",
+    "ja": "この歌は聞き覚えがある。"
+   },
+   "collocations": [
+    "A is familiar to B / B is familiar with A"
+   ]
+  },
+  {
+   "id": "w-various",
+   "headword": "various",
+   "pos": "形",
+   "meanings": [
+    "さまざまな"
+   ],
+   "level": 2,
+   "ipa": "/ˈveəriəs/",
+   "example": {
+    "en": "People come here for various reasons.",
+    "ja": "人々はさまざまな理由でここに来る。"
+   },
+   "derivatives": [
+    "variety 名 多様性",
+    "vary 動 異なる"
+   ]
+  },
+  {
+   "id": "w-efficient",
+   "headword": "efficient",
+   "pos": "形",
+   "meanings": [
+    "効率的な"
+   ],
+   "level": 2,
+   "ipa": "/ɪˈfɪʃnt/",
+   "example": {
+    "en": "Trains are an efficient way to travel.",
+    "ja": "鉄道は効率的な移動手段だ。"
+   },
+   "derivatives": [
+    "efficiency 名 効率"
+   ],
+   "note": "effective（効果的な）と区別。"
+  },
+  {
+   "id": "w-rapid",
+   "headword": "rapid",
+   "pos": "形",
+   "meanings": [
+    "急速な"
+   ],
+   "level": 2,
+   "ipa": "/ˈræpɪd/",
+   "example": {
+    "en": "The country achieved rapid economic growth.",
+    "ja": "その国は急速な経済成長を遂げた。"
+   },
+   "derivatives": [
+    "rapidly 副 急速に"
+   ]
+  },
+  {
+   "id": "w-ancient",
+   "headword": "ancient",
+   "pos": "形",
+   "meanings": [
+    "古代の",
+    "昔からの"
+   ],
+   "level": 2,
+   "ipa": "/ˈeɪnʃənt/",
+   "example": {
+    "en": "We visited the ruins of an ancient city.",
+    "ja": "私たちは古代都市の遺跡を訪れた。"
+   },
+   "antonyms": [
+    "modern 現代の"
+   ]
+  },
+  {
+   "id": "w-eventually",
+   "headword": "eventually",
+   "pos": "副",
+   "meanings": [
+    "最終的に",
+    "結局"
+   ],
+   "level": 2,
+   "ipa": "/ɪˈventʃuəli/",
+   "example": {
+    "en": "He eventually found a job he liked.",
+    "ja": "彼は最終的に気に入った仕事を見つけた。"
+   },
+   "synonyms": [
+    "finally",
+    "in the end"
+   ]
+  },
+  {
+   "id": "w-approximately",
+   "headword": "approximately",
+   "pos": "副",
+   "meanings": [
+    "おおよそ"
+   ],
+   "level": 2,
+   "ipa": "/əˈprɒksɪmətli/",
+   "example": {
+    "en": "The trip takes approximately three hours.",
+    "ja": "その旅はおよそ3時間かかる。"
+   },
+   "synonyms": [
+    "about",
+    "roughly"
+   ]
+  },
+  {
+   "id": "w-attend",
+   "headword": "attend",
+   "pos": "動",
+   "meanings": [
+    "出席する",
+    "（〜の）世話をする"
+   ],
+   "level": 2,
+   "ipa": "/əˈtend/",
+   "example": {
+    "en": "More than 500 people attended the meeting.",
+    "ja": "500人以上がその会議に出席した。"
+   },
+   "note": "「出席する」は他動詞：×attend to the meeting。attend to ~ は「〜に注意を払う・対応する」。"
+  },
+  {
+   "id": "w-suppose",
+   "headword": "suppose",
+   "pos": "動",
+   "meanings": [
+    "思う",
+    "仮定する"
+   ],
+   "level": 2,
+   "ipa": "/səˈpəʊz/",
+   "example": {
+    "en": "I suppose you're right.",
+    "ja": "あなたの言う通りだと思う。"
+   },
+   "collocations": [
+    "be supposed to do（〜することになっている）"
+   ]
+  },
+  {
+   "id": "w-cause",
+   "headword": "cause",
+   "pos": "動",
+   "meanings": [
+    "引き起こす"
+   ],
+   "level": 2,
+   "ipa": "/kɔːz/",
+   "example": {
+    "en": "Heavy rain caused the river to flood.",
+    "ja": "大雨で川が氾濫した。"
+   },
+   "note": "cause O to do（Oに〜させる・引き起こす）。名詞「原因」。"
+  }
+ ]
+}

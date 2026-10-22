@@ -1,0 +1,518 @@
+{
+ "schemaVersion": 1,
+ "id": "vocab.core.l5",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv5 国公立・GMARCH 語彙",
+ "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
+ "words": [
+  {
+   "id": "w-ambiguous",
+   "headword": "ambiguous",
+   "pos": "形",
+   "meanings": [
+    "あいまいな",
+    "多義的な"
+   ],
+   "level": 5,
+   "ipa": "/æmˈbɪɡjuəs/",
+   "example": {
+    "en": "The instructions were ambiguous.",
+    "ja": "その指示はあいまいだった。"
+   },
+   "derivatives": [
+    "ambiguity 名 あいまいさ"
+   ]
+  },
+  {
+   "id": "w-arbitrary",
+   "headword": "arbitrary",
+   "pos": "形",
+   "meanings": [
+    "恣意的な",
+    "任意の"
+   ],
+   "level": 5,
+   "ipa": "/ˈɑːbɪtrəri/",
+   "example": {
+    "en": "The decision seemed arbitrary.",
+    "ja": "その決定は恣意的に思えた。"
+   }
+  },
+  {
+   "id": "w-coherent",
+   "headword": "coherent",
+   "pos": "形",
+   "meanings": [
+    "首尾一貫した"
+   ],
+   "level": 5,
+   "ipa": "/kəʊˈhɪərənt/",
+   "example": {
+    "en": "Your essay needs a more coherent argument.",
+    "ja": "君の小論文にはもっと筋の通った論証が必要だ。"
+   },
+   "derivatives": [
+    "coherence 名 一貫性"
+   ]
+  },
+  {
+   "id": "w-compensate",
+   "headword": "compensate",
+   "pos": "動",
+   "meanings": [
+    "補う",
+    "償う"
+   ],
+   "level": 5,
+   "ipa": "/ˈkɒmpenseɪt/",
+   "example": {
+    "en": "Hard work can compensate for a lack of talent.",
+    "ja": "努力は才能の不足を補いうる。"
+   },
+   "derivatives": [
+    "compensation 名 補償"
+   ],
+   "collocations": [
+    "compensate for ~"
+   ]
+  },
+  {
+   "id": "w-deteriorate",
+   "headword": "deteriorate",
+   "pos": "動",
+   "meanings": [
+    "悪化する"
+   ],
+   "level": 5,
+   "ipa": "/dɪˈtɪəriəreɪt/",
+   "example": {
+    "en": "His health deteriorated rapidly.",
+    "ja": "彼の健康は急速に悪化した。"
+   },
+   "synonyms": [
+    "worsen"
+   ]
+  },
+  {
+   "id": "w-disclose",
+   "headword": "disclose",
+   "pos": "動",
+   "meanings": [
+    "公開する",
+    "暴露する"
+   ],
+   "level": 5,
+   "ipa": "/dɪsˈkləʊz/",
+   "example": {
+    "en": "The company refused to disclose the details.",
+    "ja": "会社は詳細の公表を拒んだ。"
+   },
+   "derivatives": [
+    "disclosure 名 公開"
+   ]
+  },
+  {
+   "id": "w-facilitate",
+   "headword": "facilitate",
+   "pos": "動",
+   "meanings": [
+    "促進する",
+    "容易にする"
+   ],
+   "level": 5,
+   "ipa": "/fəˈsɪlɪteɪt/",
+   "example": {
+    "en": "The Internet facilitates communication.",
+    "ja": "インターネットは意思疎通を容易にする。"
+   },
+   "note": "人を主語・目的語にしない（×facilitate him to do）。"
+  },
+  {
+   "id": "w-hinder",
+   "headword": "hinder",
+   "pos": "動",
+   "meanings": [
+    "妨げる"
+   ],
+   "level": 5,
+   "ipa": "/ˈhɪndər/",
+   "example": {
+    "en": "Bad weather hindered the rescue.",
+    "ja": "悪天候が救助を妨げた。"
+   },
+   "collocations": [
+    "hinder O from doing"
+   ]
+  },
+  {
+   "id": "w-impose",
+   "headword": "impose",
+   "pos": "動",
+   "meanings": [
+    "課す",
+    "押しつける"
+   ],
+   "level": 5,
+   "ipa": "/ɪmˈpəʊz/",
+   "example": {
+    "en": "The government imposed a new tax on sugar.",
+    "ja": "政府は砂糖に新税を課した。"
+   },
+   "collocations": [
+    "impose A on B（AをBに課す）"
+   ]
+  },
+  {
+   "id": "w-inherent",
+   "headword": "inherent",
+   "pos": "形",
+   "meanings": [
+    "本来備わっている",
+    "固有の"
+   ],
+   "level": 5,
+   "ipa": "/ɪnˈhɪərənt/",
+   "example": {
+    "en": "Risk is inherent in any investment.",
+    "ja": "どんな投資にもリスクは本来つきものだ。"
+   },
+   "collocations": [
+    "be inherent in ~"
+   ]
+  },
+  {
+   "id": "w-legitimate",
+   "headword": "legitimate",
+   "pos": "形",
+   "meanings": [
+    "正当な",
+    "合法的な"
+   ],
+   "level": 5,
+   "ipa": "/lɪˈdʒɪtɪmət/",
+   "example": {
+    "en": "That is a legitimate concern.",
+    "ja": "それはもっともな懸念だ。"
+   }
+  },
+  {
+   "id": "w-manipulate",
+   "headword": "manipulate",
+   "pos": "動",
+   "meanings": [
+    "操作する",
+    "（人を）巧みに操る"
+   ],
+   "level": 5,
+   "ipa": "/məˈnɪpjuleɪt/",
+   "example": {
+    "en": "Advertisements sometimes manipulate our desires.",
+    "ja": "広告は時に私たちの欲求を操作する。"
+   },
+   "derivatives": [
+    "manipulation 名 操作"
+   ]
+  },
+  {
+   "id": "w-notion",
+   "headword": "notion",
+   "pos": "名",
+   "meanings": [
+    "考え",
+    "概念"
+   ],
+   "level": 5,
+   "ipa": "/ˈnəʊʃn/",
+   "example": {
+    "en": "The notion that money brings happiness is questionable.",
+    "ja": "お金が幸福をもたらすという考えは疑わしい。"
+   },
+   "synonyms": [
+    "idea",
+    "concept"
+   ]
+  },
+  {
+   "id": "w-plausible",
+   "headword": "plausible",
+   "pos": "形",
+   "meanings": [
+    "もっともらしい"
+   ],
+   "level": 5,
+   "ipa": "/ˈplɔːzəbl/",
+   "example": {
+    "en": "His explanation sounds plausible.",
+    "ja": "彼の説明はもっともらしく聞こえる。"
+   }
+  },
+  {
+   "id": "w-prevail",
+   "headword": "prevail",
+   "pos": "動",
+   "meanings": [
+    "普及している",
+    "勝る"
+   ],
+   "level": 5,
+   "ipa": "/prɪˈveɪl/",
+   "example": {
+    "en": "This custom still prevails in rural areas.",
+    "ja": "この慣習は地方ではいまだに広く行われている。"
+   },
+   "derivatives": [
+    "prevalent 形 広く行き渡った"
+   ]
+  },
+  {
+   "id": "w-profound",
+   "headword": "profound",
+   "pos": "形",
+   "meanings": [
+    "深い",
+    "重大な"
+   ],
+   "level": 5,
+   "ipa": "/prəˈfaʊnd/",
+   "example": {
+    "en": "The book had a profound effect on me.",
+    "ja": "その本は私に深い影響を与えた。"
+   }
+  },
+  {
+   "id": "w-reconcile",
+   "headword": "reconcile",
+   "pos": "動",
+   "meanings": [
+    "和解させる",
+    "調和させる"
+   ],
+   "level": 5,
+   "ipa": "/ˈrekənsaɪl/",
+   "example": {
+    "en": "It is hard to reconcile work and family life.",
+    "ja": "仕事と家庭生活を両立させるのは難しい。"
+   },
+   "collocations": [
+    "reconcile A with B"
+   ]
+  },
+  {
+   "id": "w-scrutiny",
+   "headword": "scrutiny",
+   "pos": "名",
+   "meanings": [
+    "精査",
+    "綿密な調査"
+   ],
+   "level": 5,
+   "ipa": "/ˈskruːtəni/",
+   "example": {
+    "en": "The plan came under close scrutiny.",
+    "ja": "その計画は綿密な精査を受けた。"
+   },
+   "derivatives": [
+    "scrutinize 動 精査する"
+   ]
+  },
+  {
+   "id": "w-sustain",
+   "headword": "sustain",
+   "pos": "動",
+   "meanings": [
+    "持続させる",
+    "支える"
+   ],
+   "level": 5,
+   "ipa": "/səˈsteɪn/",
+   "example": {
+    "en": "Can the planet sustain this level of growth?",
+    "ja": "地球はこの水準の成長を維持できるだろうか。"
+   },
+   "derivatives": [
+    "sustainable 形 持続可能な"
+   ]
+  },
+  {
+   "id": "w-undermine",
+   "headword": "undermine",
+   "pos": "動",
+   "meanings": [
+    "（徐々に）弱める",
+    "損なう"
+   ],
+   "level": 5,
+   "ipa": "/ˌʌndəˈmaɪn/",
+   "example": {
+    "en": "Constant criticism can undermine confidence.",
+    "ja": "絶え間ない批判は自信を損ないうる。"
+   }
+  },
+  {
+   "id": "w-vulnerable",
+   "headword": "vulnerable",
+   "pos": "形",
+   "meanings": [
+    "弱い",
+    "傷つきやすい"
+   ],
+   "level": 5,
+   "ipa": "/ˈvʌlnərəbl/",
+   "example": {
+    "en": "Children are vulnerable to infection.",
+    "ja": "子どもは感染しやすい。"
+   },
+   "collocations": [
+    "be vulnerable to ~"
+   ]
+  },
+  {
+   "id": "w-consensus",
+   "headword": "consensus",
+   "pos": "名",
+   "meanings": [
+    "合意",
+    "総意"
+   ],
+   "level": 5,
+   "ipa": "/kənˈsensəs/",
+   "example": {
+    "en": "There is a growing consensus among scientists.",
+    "ja": "科学者の間で合意が広がっている。"
+   }
+  },
+  {
+   "id": "w-paradox",
+   "headword": "paradox",
+   "pos": "名",
+   "meanings": [
+    "逆説",
+    "矛盾"
+   ],
+   "level": 5,
+   "ipa": "/ˈpærədɒks/",
+   "example": {
+    "en": "It is a paradox that more choice can make us less happy.",
+    "ja": "選択肢が増えると幸福感が減りうるのは逆説的だ。"
+   },
+   "derivatives": [
+    "paradoxical 形 逆説的な"
+   ]
+  },
+  {
+   "id": "w-ethical",
+   "headword": "ethical",
+   "pos": "形",
+   "meanings": [
+    "倫理的な"
+   ],
+   "level": 5,
+   "ipa": "/ˈeθɪkl/",
+   "example": {
+    "en": "Genetic research raises ethical questions.",
+    "ja": "遺伝子研究は倫理的な問題を提起する。"
+   },
+   "derivatives": [
+    "ethics 名 倫理（学）"
+   ]
+  },
+  {
+   "id": "w-in-terms-of",
+   "headword": "in terms of",
+   "pos": "熟",
+   "meanings": [
+    "〜の観点から",
+    "〜に関して"
+   ],
+   "level": 5,
+   "example": {
+    "en": "In terms of cost, this plan is better.",
+    "ja": "費用の点では、この計画のほうがよい。"
+   }
+  },
+  {
+   "id": "w-exploit",
+   "headword": "exploit",
+   "pos": "動",
+   "meanings": [
+    "利用する",
+    "搾取する"
+   ],
+   "level": 5,
+   "ipa": "/ɪkˈsplɔɪt/",
+   "example": {
+    "en": "They exploited cheap labor.",
+    "ja": "彼らは安価な労働力を搾取した。"
+   },
+   "derivatives": [
+    "exploitation 名 搾取"
+   ]
+  },
+  {
+   "id": "w-dispense-with",
+   "headword": "dispense with",
+   "pos": "熟",
+   "meanings": [
+    "〜なしで済ませる"
+   ],
+   "level": 5,
+   "example": {
+    "en": "We can dispense with formalities.",
+    "ja": "形式ばったことは省略してよい。"
+   },
+   "synonyms": [
+    "do without"
+   ]
+  },
+  {
+   "id": "w-endeavor",
+   "headword": "endeavor",
+   "pos": "名",
+   "meanings": [
+    "努力",
+    "試み"
+   ],
+   "level": 5,
+   "ipa": "/ɪnˈdevər/",
+   "example": {
+    "en": "Scientific endeavor requires patience.",
+    "ja": "科学的な営みには忍耐が必要だ。"
+   },
+   "note": "英式綴り endeavour。動詞 endeavor to do（〜しようと努める）。"
+  },
+  {
+   "id": "w-rhetoric",
+   "headword": "rhetoric",
+   "pos": "名",
+   "meanings": [
+    "修辞",
+    "（中身のない）美辞麗句"
+   ],
+   "level": 5,
+   "ipa": "/ˈretərɪk/",
+   "example": {
+    "en": "Voters are tired of empty political rhetoric.",
+    "ja": "有権者は中身のない政治的美辞麗句にうんざりしている。"
+   }
+  },
+  {
+   "id": "w-contradict",
+   "headword": "contradict",
+   "pos": "動",
+   "meanings": [
+    "矛盾する",
+    "反論する"
+   ],
+   "level": 5,
+   "ipa": "/ˌkɒntrəˈdɪkt/",
+   "example": {
+    "en": "The new findings contradict earlier studies.",
+    "ja": "新たな発見は以前の研究と矛盾する。"
+   },
+   "derivatives": [
+    "contradiction 名 矛盾"
+   ]
+  }
+ ]
+}

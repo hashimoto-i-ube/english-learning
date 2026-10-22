@@ -1,0 +1,650 @@
+{
+ "schemaVersion": 1,
+ "id": "construction.core",
+ "revision": 1,
+ "skill": "construction",
+ "title": "英文解釈・構文",
+ "description": "文型判定から難関大の下線部和訳まで、精読の技術を段階的に習得",
+ "units": [
+  {
+   "id": "c-svoc",
+   "title": "文型を見抜く（SVO と SVOC）",
+   "level": 2,
+   "category": "文構造",
+   "summary": "動詞の後ろの名詞・形容詞の関係から文型を判定し、正確な訳につなげる。",
+   "explanation": "## 精読の第一歩は「動詞を見つけて文型を決める」\n\n英文を読むときは、まず**述語動詞**を見つけ、その後ろに何が続くかで文型を判定する。\n\n| 文型 | 見分け方 | 例 |\n|---|---|---|\n| SVO | O は1つ | I found **the book**. |\n| SVOO | O₁ ≠ O₂（人に物を） | He gave **me a book**. |\n| SVOC | O = C の関係（O is C が成り立つ） | I found **the book easy**. |\n\n## SVOC の訳し方\n\nO と C の間に「主語と述語の関係（ネクサス）」がある。\n- I found the book **easy**. → 「その本は**簡単だ**とわかった」\n- The news made her **happy**. → 「その知らせで彼女は**うれしくなった**」（無生物主語は理由として訳すと自然）\n- Leave the door **open**. → 「ドアを**開けたままに**しておきなさい」\n\n## 判定のコツ\n\nO と C の間に be 動詞を補って意味が通れば SVOC：the book **is** easy ✓",
+   "examples": [
+    {
+     "en": "The doctor advised him to get more exercise.",
+     "ja": "医師は彼にもっと運動するよう助言した。",
+     "note": "SVO + to do"
+    },
+    {
+     "en": "People in the village call the mountain \"the Sleeping Giant.\"",
+     "ja": "村の人々はその山を「眠れる巨人」と呼ぶ。",
+     "note": "SVOC"
+    },
+    {
+     "en": "Her smile made everyone in the room feel relaxed.",
+     "ja": "彼女の笑顔で部屋の全員がくつろいだ気分になった。",
+     "note": "使役 make O do"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-svoc-1",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "その箱が空だとわかった。"
+     ],
+     "explanation": "the box (is) empty の関係が成り立つので SVOC。find O C「OがCだとわかる」。",
+     "sentence": "I found the box empty.",
+     "choices": [
+      "その空の箱を見つけた。",
+      "その箱が空だとわかった。",
+      "その箱を空にした。",
+      "空の箱を探した。"
+     ]
+    },
+    {
+     "id": "c-svoc-2",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "彼に良い席を見つけてあげた。"
+     ],
+     "explanation": "him ≠ a good seat なので SVOO。find 人 物「人に物を見つけてやる」。",
+     "sentence": "I found him a good seat.",
+     "choices": [
+      "彼が良い席だとわかった。",
+      "彼に良い席を見つけてあげた。",
+      "彼は良い席を見つけた。",
+      "良い席の彼を見つけた。"
+     ]
+    },
+    {
+     "id": "c-svoc-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "現代の技術によって、人々はほとんどどこからでも働けるようになった。",
+      "現代のテクノロジーのおかげで、人はほぼどこからでも仕事ができるようになった。"
+     ],
+     "explanation": "it は形式目的語で to work 以下を指す。SVOC（made it possible）。",
+     "sentence": "Modern technology has made it possible for people to work from almost anywhere.",
+     "keyPoints": [
+      "make it possible for A to do（形式目的語 it）",
+      "無生物主語は「〜によって」と原因で訳す",
+      "almost anywhere「ほとんどどこでも」"
+     ]
+    },
+    {
+     "id": "c-svoc-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "エアコンがついている間は窓を閉めたままにしておきなさい。"
+     ],
+     "explanation": "the windows (are) closed の関係なので SVOC。",
+     "sentence": "Keep the windows closed while the air conditioner is on.",
+     "keyPoints": [
+      "keep O C「OをCのままにしておく」",
+      "closed（閉められた状態）",
+      "on「（電気製品が）ついている」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-formal-subject",
+   "title": "形式主語 It と真主語",
+   "level": 2,
+   "category": "文構造",
+   "summary": "It is 〜 to do / that … / wh- 節 の構造を見抜き、強調構文と区別する。",
+   "explanation": "## 形式主語構文\n\n英語は長い主語を嫌うため、主語を It で置き換え、本当の主語（真主語）を後ろに回す。\n\n- **It** is important **to get enough sleep**.\n- **It** is clear **that he made a mistake**.\n- **It** doesn't matter **whether you win or lose**.\n- **It** is said **that** 〜「〜と言われている」\n\n## 強調構文との区別\n\n| | 構造 | 見分け方 |\n|---|---|---|\n| 形式主語 | It is + **形容詞・名詞** + that S V（完全な文） | It is と that を取ると文が不完全 |\n| 強調構文 | It is + **名詞・副詞(句)** + that + 不完全文／完全文 | It is と that を取ると元の文が完成する |\n\nIt was **in 2010** that he moved to Paris. → He moved to Paris in 2010. ✓ → 強調構文",
+   "examples": [
+    {
+     "en": "It is no use crying over spilt milk.",
+     "ja": "こぼれたミルクを嘆いても仕方がない（覆水盆に返らず）。"
+    },
+    {
+     "en": "It occurred to me that I had left my phone at home.",
+     "ja": "携帯電話を家に置いてきたことにふと気づいた。"
+    },
+    {
+     "en": "It remains to be seen whether the plan will succeed.",
+     "ja": "その計画が成功するかどうかはまだわからない。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-fs-1",
+     "type": "choice",
+     "prompt": "下線部の構文を選びなさい。",
+     "answers": [
+      "強調構文"
+     ],
+     "explanation": "It was と that を取ると The famous writer was born in this small village. と完全な文になるので強調構文。",
+     "sentence": "It was in this small village that the famous writer was born.",
+     "choices": [
+      "形式主語構文",
+      "強調構文",
+      "関係代名詞",
+      "同格の that"
+     ]
+    },
+    {
+     "id": "c-fs-2",
+     "type": "choice",
+     "prompt": "下線部の構文を選びなさい。",
+     "answers": [
+      "形式主語構文"
+     ],
+     "explanation": "It is + 形容詞 + that 節（完全な文）。It は that 以下を指す形式主語。",
+     "sentence": "It is surprising that so few people know about this problem.",
+     "choices": [
+      "形式主語構文",
+      "強調構文",
+      "関係代名詞",
+      "同格の that"
+     ]
+    },
+    {
+     "id": "c-fs-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "大切なのは何を持っているかではなく、どんな人間であるかだ。"
+     ],
+     "explanation": "not what you have but who you are が強調されている。matter は「重要である」という自動詞。",
+     "sentence": "It is not what you have but who you are that matters.",
+     "keyPoints": [
+      "強調構文 It is 〜 that matters「重要なのは〜だ」",
+      "not A but B「AではなくB」",
+      "who you are「あなたが何者であるか（人柄）」"
+     ]
+    },
+    {
+     "id": "c-fs-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "科学者たちがその病気の広がり方を理解するのに何十年もかかった。"
+     ],
+     "explanation": "It takes 人 時間 to do の構文。decades は「数十年」。",
+     "sentence": "It took scientists decades to understand how the disease spreads.",
+     "keyPoints": [
+      "It takes 人 時間 to do「人が〜するのに（時間）がかかる」",
+      "how the disease spreads「病気がどのように広がるか」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-parallel",
+   "title": "等位接続と並列構造",
+   "level": 3,
+   "category": "文構造",
+   "summary": "and / but / or が何と何を結んでいるかを見極める。長文読解の誤読の多くはここで起こる。",
+   "explanation": "## 原則：等位接続詞は「同じ形・同じ働き」のものを結ぶ\n\nand の**後ろ**を見て形（名詞・to do・doing・that 節・前置詞句など）を確認し、**前**に同じ形を探す。\n\n例：The aim of the program is **to help** students think critically **and** (to) **express** their ideas clearly.\n→ and の後ろの express は原形。前に to help ... と think がある。意味から help と並列（または think と並列）を判断する。\n\n## 相関接続詞\n\n- both A and B / either A or B / neither A nor B\n- not only A but (also) B = B as well as A\n- not A but B\n\nA と B は**同じ形**になる：He is interested **not only in** music **but also in** art.\n\n## 共通関係\n\n(A + B) C の形：Some people **support**, and others **oppose**, the new law.\n→ the new law が support と oppose の共通の目的語。",
+   "examples": [
+    {
+     "en": "She spends her weekends reading novels, playing the piano, and walking her dog.",
+     "ja": "彼女は週末を小説を読んだり、ピアノを弾いたり、犬を散歩させたりして過ごす。"
+    },
+    {
+     "en": "What matters is not how long you study but how well you concentrate.",
+     "ja": "重要なのはどれだけ長く勉強するかではなく、どれだけうまく集中するかだ。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-par-1",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "to ask"
+     ],
+     "explanation": "and の後ろが to learn なので、前の同じ形 to ask と並列。encourage students to ask … and to learn …。",
+     "sentence": "Good teachers encourage students to ask questions and to learn from their mistakes.\nto learn は何と並列か。",
+     "choices": [
+      "encourage",
+      "to ask",
+      "questions",
+      "students"
+     ]
+    },
+    {
+     "id": "c-par-2",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "believe"
+     ],
+     "explanation": "and の後ろが that 節なので、前の that technology … と並列。どちらも believe の目的語。",
+     "sentence": "Many people believe that technology makes life easier and that it will solve most of our problems.\n2つ目の that 節は何の目的語か。",
+     "choices": [
+      "makes",
+      "believe",
+      "solve",
+      "easier"
+     ]
+    },
+    {
+     "id": "c-par-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "言語は私たちの考え方を反映するだけでなく、形作りもする。"
+     ],
+     "explanation": "reflects と shapes が the way we think を共通の目的語としている共通関係。",
+     "sentence": "Language not only reflects but also shapes the way we think.",
+     "keyPoints": [
+      "not only A but also B",
+      "reflects と shapes の共通の目的語 the way we think",
+      "the way we think「私たちの考え方」"
+     ]
+    },
+    {
+     "id": "c-par-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "研究者たちは、よく眠る子どもは学校の成績が良く、不安を感じにくいことを発見した。"
+     ],
+     "explanation": "and は perform better と are less likely を結び、ともに children の述語。",
+     "sentence": "The researchers found that children who sleep well perform better at school and are less likely to feel anxious.",
+     "keyPoints": [
+      "that 節の主語は children（who sleep well が修飾）",
+      "perform と are が並列（主語 children の述語）",
+      "be less likely to do「〜する可能性が低い」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-inanimate-subject",
+   "title": "無生物主語構文の訳し方",
+   "level": 3,
+   "category": "訳出技術",
+   "summary": "「物・事」が主語の英文を、自然な日本語（〜によって・〜のおかげで・〜すると）に直す。",
+   "explanation": "## 基本の発想\n\n英語では「物・事」が主語になり、人に何かを**させる**表現が多い。日本語では主語を「原因・手段・条件」として訳し、目的語の「人」を主語にすると自然になる。\n\n| 動詞 | 直訳 | 自然な訳 |\n|---|---|---|\n| bring | 〜が…を連れてくる | 〜で…は来た |\n| enable O to do | 〜がOに…することを可能にする | 〜のおかげでOは…できる |\n| prevent O from doing | 〜がOが…するのを妨げる | 〜のためにOは…できない |\n| make O do | 〜がOに…させる | 〜でOは…する |\n| remind O of | 〜がOに…を思い出させる | 〜を見るとOは…を思い出す |\n| show / tell | 〜は…を示す | 〜によって…がわかる |\n\n## 例\n\nThis medicine will **make you feel** better. → この薬を飲めば気分が良くなるでしょう。",
+   "examples": [
+    {
+     "en": "A ten-minute walk brought us to the beach.",
+     "ja": "10分歩くと私たちは浜辺に着いた。"
+    },
+    {
+     "en": "Heavy snow prevented the train from running on time.",
+     "ja": "大雪のために電車は定刻通りに運行できなかった。"
+    },
+    {
+     "en": "This photo always reminds me of my grandfather.",
+     "ja": "この写真を見ると、いつも祖父のことを思い出す。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-is-1",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "奨学金のおかげで、彼女は海外の大学で学ぶことができた。"
+     ],
+     "explanation": "無生物主語 + enable O to do。",
+     "sentence": "The scholarship enabled her to study at a university abroad.",
+     "keyPoints": [
+      "enable O to do → 「〜のおかげでOは…できる」",
+      "主語（奨学金）を原因として訳す"
+     ]
+    },
+    {
+     "id": "c-is-2",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "どうして気が変わったのですか。",
+      "なぜ考えを変えたのですか。"
+     ],
+     "explanation": "What made you 〜? は Why did you 〜? とほぼ同じ意味。",
+     "sentence": "What made you change your mind?",
+     "keyPoints": [
+      "What made you do「何があなたに〜させたか」→「なぜ〜したのか」"
+     ]
+    },
+    {
+     "id": "c-is-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "最近の研究によって、定期的な運動が心臓病のリスクを減らしうることがわかっている。"
+     ],
+     "explanation": "無生物主語 + show は「〜によって…がわかる」と訳すと自然。",
+     "sentence": "Recent studies show that regular exercise can reduce the risk of heart disease.",
+     "keyPoints": [
+      "Studies show that 〜「研究によって〜がわかる」",
+      "can「〜しうる」（可能性）",
+      "the risk of heart disease「心臓病のリスク」"
+     ]
+    },
+    {
+     "id": "c-is-4",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "病気のために彼は式に出席できなかった。"
+     ],
+     "explanation": "keep O from doing「Oが〜するのを妨げる」→「〜のためにOは…できない」。",
+     "sentence": "His illness kept him from attending the ceremony.",
+     "choices": [
+      "彼は病気を式に持っていかなかった。",
+      "病気のために彼は式に出席できなかった。",
+      "彼は式に出席して病気になった。",
+      "病気でも彼は式に出席した。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-relative-complex",
+   "title": "複雑な関係詞節（前置詞＋関係詞・非制限用法・関係詞の連鎖）",
+   "level": 4,
+   "category": "修飾構造",
+   "summary": "関係詞節の範囲を見極め、主節の動詞を見失わないようにする。",
+   "explanation": "## 主語が長いときは「主節の動詞」を探す\n\nThe book **that my teacher recommended to me last year** **changed** my life.\n関係詞節が終わる場所 = 主節の動詞（changed）が現れる場所。\n\n## 非制限用法（カンマ + 関係詞）\n\n先行詞に**補足説明**を加える。前から訳し下すと自然。\n- My brother, **who lives in Osaka**, is a doctor.（兄は大阪に住んでいるが、医者だ）\n- He said nothing, **which** made her angry.（前の文全体が先行詞：彼は何も言わず、そのことが彼女を怒らせた）\n\n## 数量表現 + of + 関係代名詞\n\nI have three brothers, **all of whom** are older than me.\n\n## 関係詞の連鎖（挿入）\n\nThis is the man **who I think** is the best candidate.（I think は挿入。who は is の主語）",
+   "examples": [
+    {
+     "en": "The museum, which was built in the 19th century, attracts millions of visitors every year.",
+     "ja": "その博物館は19世紀に建てられたもので、毎年何百万人もの来館者を集めている。"
+    },
+    {
+     "en": "She did what she believed was right.",
+     "ja": "彼女は自分が正しいと信じることをした。",
+     "note": "she believed は挿入"
+    },
+    {
+     "en": "He has written many novels, most of which have been translated into English.",
+     "ja": "彼は多くの小説を書いており、その大部分は英訳されている。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-rc-1",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "keep"
+     ],
+     "explanation": "who live in the house next to ours が関係詞節。それが終わった後の keep が主節の動詞。",
+     "sentence": "The people who live in the house next to ours keep a large dog.\nこの文の主節の動詞はどれか。",
+     "choices": [
+      "live",
+      "keep",
+      "next",
+      "house"
+     ]
+    },
+    {
+     "id": "c-rc-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "which"
+     ],
+     "explanation": "前の文全体を先行詞とする非制限用法の which。that は非制限用法では使えない。",
+     "sentence": "He failed the test, ___ surprised everyone.",
+     "choices": [
+      "that",
+      "which",
+      "what",
+      "it"
+     ]
+    },
+    {
+     "id": "c-rc-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "科学者たちが長い間答えようとしてきた疑問は、なぜ私たちは眠る必要があるのかということだ。"
+     ],
+     "explanation": "主語 The question … answer、動詞 is、補語 why 節。",
+     "sentence": "The question which scientists have long tried to answer is why we need to sleep.",
+     "keyPoints": [
+      "関係詞節 which scientists have long tried to answer が The question を修飾",
+      "主節の動詞 is",
+      "why we need to sleep（名詞節）が補語"
+     ]
+    },
+    {
+     "id": "c-rc-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その町は、私が子ども時代の大半を過ごした場所だが、あまりに変わってしまったので、ほとんど見分けがつかない。"
+     ],
+     "explanation": "in which … childhood は補足説明。so much that 以下は結果。",
+     "sentence": "The town, in which I spent most of my childhood, has changed so much that I hardly recognize it.",
+     "keyPoints": [
+      "非制限用法（前から訳し下す）",
+      "so 〜 that …「とても〜なので…」",
+      "hardly「ほとんど〜ない」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-comparison-advanced",
+   "title": "比較の重要構文（the 比較級・no more than など）",
+   "level": 4,
+   "category": "比較構文",
+   "summary": "the 比較級 …, the 比較級 ～ と、no more / no less を用いた紛らわしい比較構文。",
+   "explanation": "## the + 比較級 …, the + 比較級 ～\n\n「…すればするほど、ますます～」\n**The more** you practice, **the better** you become.\n※ 元の文：You practice much. / You become good. → 比較級を文頭へ。\n\n## no + 比較級 than：「差がゼロ」＋話し手の評価\n\n| 表現 | 意味 | ニュアンス |\n|---|---|---|\n| no more than 10 | たった10（= only） | 少ない |\n| no less than 10 | 10も（= as many/much as） | 多い |\n| not more than 10 | 多くても10（= at most） | 上限 |\n| not less than 10 | 少なくとも10（= at least） | 下限 |\n\n## クジラの構文\n\nA whale is **no more** a fish **than** a horse is.\n「馬が魚でないのと同様、クジラは魚ではない」（両方否定）",
+   "examples": [
+    {
+     "en": "The older we grow, the more we tend to value our health.",
+     "ja": "年をとればとるほど、私たちは健康を大切にするようになる。"
+    },
+    {
+     "en": "He has no more than 1,000 yen.",
+     "ja": "彼はたった1,000円しか持っていない。"
+    },
+    {
+     "en": "She is no less beautiful than her sister.",
+     "ja": "彼女は姉（妹）に劣らず美しい。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-cmp-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "The more"
+     ],
+     "explanation": "the 比較級 …, the 比較級 ～ の構文。",
+     "sentence": "___ I learn about the universe, the more mysterious it seems.",
+     "choices": [
+      "More",
+      "The more",
+      "Most",
+      "The most"
+     ]
+    },
+    {
+     "id": "c-cmp-2",
+     "type": "choice",
+     "prompt": "下線部の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "5時間もかかった"
+     ],
+     "explanation": "no less than = as much/many as「〜も（多い）」。",
+     "sentence": "It took no less than five hours to get there.",
+     "choices": [
+      "たった5時間しかかからなかった",
+      "5時間もかかった",
+      "少なくとも5時間かかった",
+      "せいぜい5時間だった"
+     ]
+    },
+    {
+     "id": "c-cmp-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "情報を多く持てば持つほど、決断を下すのがより難しくなりうる。"
+     ],
+     "explanation": "後半は it can be more difficult to make a decision の more difficult が前に出た形。",
+     "sentence": "The more information we have, the more difficult it can be to make a decision.",
+     "keyPoints": [
+      "the 比較級 …, the 比較級 ～",
+      "it は形式主語（to make a decision）",
+      "can「〜しうる」"
+     ]
+    },
+    {
+     "id": "c-cmp-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "歌が単なる音の集まりでないのと同様に、本も単なる物体ではない。"
+     ],
+     "explanation": "クジラの構文。than 以下も否定の意味で訳す。",
+     "sentence": "A book is no more a mere object than a song is a mere set of sounds.",
+     "keyPoints": [
+      "no more A than B「Bでないのと同様Aでない」（クジラの構文）",
+      "a mere set of sounds「単なる音の集まり」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-abstract-noun",
+   "title": "名詞構文（抽象名詞を動詞・形容詞に開いて訳す）",
+   "level": 5,
+   "category": "訳出技術",
+   "summary": "名詞中心の英文を「誰が・何を・どうする」に分解して自然な日本語にする。",
+   "explanation": "## 名詞構文とは\n\n動詞や形容詞から派生した名詞（arrival, importance, failure など）を使って、文の内容を名詞句に凝縮した表現。\nそのまま訳すと硬い日本語になるので、**元の動詞・形容詞に戻して節のように訳す**。\n\n| 英文 | 直訳 | 開いた訳 |\n|---|---|---|\n| his **arrival** in Tokyo | 彼の東京への到着 | 彼が東京に到着したこと |\n| the **importance** of sleep | 睡眠の重要性 | 睡眠が重要であること |\n| her **refusal** to help | 手伝うことの彼女の拒否 | 彼女が手伝うのを断ったこと |\n\n## of の二つの働き\n\n- 主格の of：the **arrival of** the guests（客**が**到着する）\n- 目的格の of：the **discovery of** penicillin（ペニシリン**を**発見する）\n\n## 形容詞 + 名詞 → 副詞 + 動詞\n\na **careful reading** of the text → テキストを**注意深く読む**こと",
+   "examples": [
+    {
+     "en": "The rapid spread of smartphones has changed how people communicate.",
+     "ja": "スマートフォンが急速に普及したことで、人々の意思疎通の仕方が変わった。"
+    },
+    {
+     "en": "His failure to keep his promise disappointed us.",
+     "ja": "彼が約束を守らなかったことに私たちは失望した。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-an-1",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "政府が迅速に対応しなかったことが、国民の怒りを招いた。"
+     ],
+     "explanation": "名詞構文 failure to respond を「対応しなかったこと」と節に開く。",
+     "sentence": "The government's failure to respond quickly led to public anger.",
+     "keyPoints": [
+      "failure to do → 「〜しなかったこと」",
+      "The government's（主格）→「政府が」",
+      "lead to 〜「〜につながる」"
+     ]
+    },
+    {
+     "id": "c-an-2",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "データを詳しく調べると、いくつかの誤りが明らかになった。"
+     ],
+     "explanation": "形容詞 close + 名詞 examination を「詳しく調べる」と副詞 + 動詞に開く。",
+     "sentence": "A close examination of the data revealed several errors.",
+     "keyPoints": [
+      "a close examination of the data → 「データを詳しく調べること」",
+      "無生物主語 + reveal「〜によって…が明らかになる」"
+     ]
+    },
+    {
+     "id": "c-an-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "環境問題への意識が高まってきたことで、多くの企業が廃棄物を減らそうとするようになった。"
+     ],
+     "explanation": "名詞構文と無生物主語の組み合わせ。",
+     "sentence": "The growing awareness of environmental problems has encouraged many companies to reduce waste.",
+     "keyPoints": [
+      "growing awareness → 「意識が高まっていること」",
+      "encourage O to do（無生物主語）",
+      "reduce waste「廃棄物を減らす」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c-long-sentence",
+   "title": "長文構造の総合（挿入・倒置・省略を含む難文）",
+   "level": 6,
+   "category": "総合",
+   "summary": "旧帝大・医学部レベルの下線部和訳。構造分析 → 直訳 → こなれた訳の3段階で取り組む。",
+   "explanation": "## 難文和訳の手順\n\n1. **述語動詞を特定**し、主節の S と V を決める\n2. 接続詞・関係詞・準動詞の**範囲をカッコでくくる**\n3. 挿入（カンマやダッシュではさまれた部分）を一時的に外して骨格を見る\n4. 直訳を作り、名詞構文・無生物主語を開いて自然な日本語にする\n5. **採点ポイント**（構文・語彙・指示語）が訳文に反映されているか確認する\n\n## よく出る落とし穴\n\n- 文頭の分詞・前置詞句を主語と誤認する（Among the factors **is** …：倒置）\n- that の種類の判別（関係代名詞・同格・接続詞・強調構文）\n- 指示語 it / this / that の指す内容（和訳問題では具体化を求められることが多い）",
+   "examples": [
+    {
+     "en": "Among the factors that contribute to longevity is a sense of purpose in life.",
+     "ja": "長寿の一因となる要素の中には、人生の目的意識がある。",
+     "note": "倒置：補語(句)が文頭、S = a sense of purpose"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "c-ls-1",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "しばしば指摘されてきたように、私たちに何が見えるかは、目の前に何があるかよりも、そこに何があると予期しているかによって決まる。"
+     ],
+     "explanation": "挿入を外すと What we see depends less on A than on B。less A than B は「AよりむしろB」。",
+     "sentence": "What we see, it has often been pointed out, depends less on what is in front of our eyes than on what we expect to find there.",
+     "keyPoints": [
+      "挿入 it has often been pointed out",
+      "主語 What we see（名詞節）",
+      "depend less on A than on B「AよりもむしろBによる」",
+      "what we expect to find there"
+     ]
+    },
+    {
+     "id": "c-ls-2",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "過去を理解することによってのみ、私たちはその過ちを繰り返すのを避けたいと望むことができる。",
+      "過去を理解して初めて、私たちはその過ちを繰り返さずにすむことが期待できる。"
+     ],
+     "explanation": "Only by doing 〜 が文頭に出たため助動詞 can と主語 we が倒置している。",
+     "sentence": "Only by understanding the past can we hope to avoid repeating its mistakes.",
+     "keyPoints": [
+      "Only + 副詞句が文頭 → 倒置（can we hope）",
+      "avoid doing",
+      "its mistakes = the past's mistakes（過去の過ち）"
+     ]
+    },
+    {
+     "id": "c-ls-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "そうでないことを私たちがどれほど望もうとも、証拠が示すところでは、すべての人に合う単一の食事法など存在しない。"
+     ],
+     "explanation": "Much as は譲歩を表す。otherwise は「そうではないように」で、後半の内容と反対のことを指す。",
+     "sentence": "Much as we may wish otherwise, the evidence suggests that no single diet suits everyone.",
+     "keyPoints": [
+      "Much as S V「〜だけれども・どれほど〜でも」（譲歩）",
+      "wish otherwise「そうでないことを望む」",
+      "no single diet suits everyone「すべての人に合う食事法は一つもない」"
+     ]
+    }
+   ]
+  }
+ ]
+}

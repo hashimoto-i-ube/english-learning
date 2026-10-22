@@ -1,0 +1,256 @@
+{
+ "schemaVersion": 1,
+ "id": "composition.core",
+ "revision": 1,
+ "skill": "composition",
+ "title": "英作文",
+ "description": "和文英訳・自由英作文・要約",
+ "compositions": [
+  {
+   "id": "comp-jaen-1",
+   "kind": "jaToEn",
+   "title": "現在完了と経験",
+   "level": 1,
+   "promptJa": "私はこれまでに一度も海外に行ったことがないが、いつかイギリスを訪れてみたい。",
+   "modelAnswers": [
+    "I have never been abroad, but I want to visit the UK someday.",
+    "I have never been to a foreign country, but I would like to visit Britain someday."
+   ],
+   "keyPoints": [
+    "経験の否定 have never been abroad / to a foreign country",
+    "abroad は副詞（×to abroad）",
+    "want to / would like to do",
+    "someday（いつか）"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "I have never been to ~",
+     "ja": "〜に行ったことがない"
+    },
+    {
+     "en": "someday / one day",
+     "ja": "いつか"
+    }
+   ]
+  },
+  {
+   "id": "comp-jaen-2",
+   "kind": "jaToEn",
+   "title": "比較と最上級相当表現",
+   "level": 2,
+   "promptJa": "健康ほど大切なものはないと言われるが、そのことに気づくのは病気になってからであることが多い。",
+   "modelAnswers": [
+    "It is said that nothing is more important than health, but we often do not realize this until we get sick.",
+    "They say nothing is as important as health, but in many cases we do not realize it until we become ill."
+   ],
+   "keyPoints": [
+    "It is said that 〜 / They say 〜",
+    "Nothing is more important than 〜（最上級相当）",
+    "not 〜 until …「…して初めて〜」",
+    "get sick / become ill"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "not ... until ~",
+     "ja": "〜して初めて…する"
+    },
+    {
+     "en": "It is not until ~ that ...",
+     "ja": "〜して初めて…（強調構文）"
+    }
+   ]
+  },
+  {
+   "id": "comp-jaen-3",
+   "kind": "jaToEn",
+   "title": "無生物主語を使った英訳",
+   "level": 4,
+   "promptJa": "インターネットのおかげで、私たちは世界中の情報に瞬時にアクセスできるようになったが、その情報が正しいかどうかを判断する力がこれまで以上に求められている。",
+   "modelAnswers": [
+    "The Internet has enabled us to access information from all over the world instantly, but we now need the ability to judge whether that information is accurate more than ever before.",
+    "Thanks to the Internet, we can now get information from around the world in an instant. However, it is more important than ever to be able to judge whether the information is true."
+   ],
+   "keyPoints": [
+    "無生物主語 The Internet has enabled us to do / Thanks to 〜",
+    "access は他動詞（×access to 〜 は名詞用法）",
+    "whether 節「〜かどうか」",
+    "more than ever (before)「これまで以上に」",
+    "information は不可算"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "S enable O to do",
+     "ja": "SのおかげでOは〜できる"
+    },
+    {
+     "en": "more than ever before",
+     "ja": "これまで以上に"
+    }
+   ]
+  },
+  {
+   "id": "comp-jaen-4",
+   "kind": "jaToEn",
+   "title": "抽象的な内容の英訳（難関大）",
+   "level": 6,
+   "promptJa": "他人の意見に耳を傾けることは、自分の考えを捨てることではない。むしろ、異なる視点に触れることで、自分の考えをより深く理解できるようになるのである。",
+   "modelAnswers": [
+    "Listening to other people's opinions does not mean giving up your own ideas. Rather, being exposed to different perspectives allows you to understand your own thinking more deeply.",
+    "To listen to the opinions of others is not to abandon your own views. On the contrary, encountering different points of view helps you understand your own ideas better."
+   ],
+   "keyPoints": [
+    "A does not mean B（AはBということではない）",
+    "Rather / On the contrary「むしろ」",
+    "動名詞主語＋無生物主語構文（allows you to do / helps you do）",
+    "perspective / point of view",
+    "「理解できるようになる」を自然に表現"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "Doing A does not mean doing B.",
+     "ja": "AすることはBすることを意味しない"
+    },
+    {
+     "en": "be exposed to ~",
+     "ja": "〜に触れる・さらされる"
+    }
+   ]
+  },
+  {
+   "id": "comp-free-1",
+   "kind": "free",
+   "title": "制服は必要か",
+   "level": 3,
+   "promptJa": "高校の制服は必要だと思うか。あなたの意見を、理由を2つ挙げて英語で書きなさい。",
+   "conditions": "60〜80語",
+   "minWords": 60,
+   "maxWords": 80,
+   "modelAnswers": [
+    "I think school uniforms are necessary for high school students. First, uniforms save students time and money. They do not have to think about what to wear every morning, and their parents do not have to buy many clothes. Second, uniforms create a sense of unity. When all students wear the same clothes, they feel that they belong to the same community. For these reasons, I believe high schools should keep uniforms."
+   ],
+   "keyPoints": [
+    "冒頭で賛否を明確に述べている",
+    "理由が2つあり、それぞれ具体的に説明されている",
+    "First / Second / For these reasons で論理が明確",
+    "語数条件（60〜80語）を満たしている",
+    "文法・語法の誤りが少ない"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "a sense of unity",
+     "ja": "一体感"
+    },
+    {
+     "en": "what to wear",
+     "ja": "何を着るか"
+    },
+    {
+     "en": "belong to ~",
+     "ja": "〜に所属する"
+    }
+   ]
+  },
+  {
+   "id": "comp-free-2",
+   "kind": "free",
+   "title": "オンライン授業と対面授業",
+   "level": 4,
+   "promptJa": "大学の授業は、オンラインで行うのと対面で行うのとでは、どちらが望ましいと考えるか。あなたの考えを理由とともに英語で述べなさい。",
+   "conditions": "80〜100語",
+   "minWords": 80,
+   "maxWords": 100,
+   "modelAnswers": [
+    "I believe face-to-face classes are better than online classes for university students. First, students can ask questions and discuss ideas with teachers and classmates more easily in a classroom. Such interaction helps them understand difficult topics deeply. Second, attending classes in person helps students make friends and build networks, which can be valuable after graduation. Of course, online classes are convenient because students can study anywhere. However, I think the benefits of learning together in the same place are greater. Therefore, universities should mainly offer face-to-face classes."
+   ],
+   "keyPoints": [
+    "立場の明確さ",
+    "理由2つ＋具体的説明",
+    "譲歩（Of course 〜. However, …）で反対意見に配慮",
+    "語数条件 80〜100語",
+    "in person / face-to-face などの適切な語彙"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "in person",
+     "ja": "対面で、直接"
+    },
+    {
+     "en": "Of course ~. However, ...",
+     "ja": "もちろん〜だが、しかし…（譲歩）"
+    },
+    {
+     "en": "the benefits outweigh the drawbacks",
+     "ja": "利点が欠点を上回る"
+    }
+   ]
+  },
+  {
+   "id": "comp-free-3",
+   "kind": "free",
+   "title": "AI と医療（医学部頻出テーマ）",
+   "level": 6,
+   "promptJa": "近い将来、人工知能（AI）が医師の診断を代替するべきだという意見がある。この意見について、あなたの考えを具体的な理由を挙げて英語で述べなさい。",
+   "conditions": "120〜150語",
+   "minWords": 120,
+   "maxWords": 150,
+   "modelAnswers": [
+    "I do not think artificial intelligence should replace doctors' diagnoses, although it should play an important supporting role. Admittedly, AI can analyze huge amounts of medical data far faster than humans, and some systems already detect certain diseases in X-ray images with high accuracy. Using such tools could reduce doctors' workloads and prevent oversights. However, diagnosis is not simply a matter of identifying a disease. Doctors must consider each patient's background, values, and feelings, and explain the situation in a way the patient can accept. Moreover, when an AI system makes a mistake, it is unclear who should take responsibility. For these reasons, the final decision should remain with human doctors, who can combine the results of AI analysis with careful communication. AI should be a powerful assistant, not a replacement."
+   ],
+   "keyPoints": [
+    "主張の明確さ（代替すべきでない／すべき）",
+    "譲歩（Admittedly 〜. However, …）で多面的に論じている",
+    "医療特有の観点（患者との対話・責任の所在・データ処理能力）",
+    "語数条件 120〜150語",
+    "抽象語（diagnosis, responsibility, accuracy）の正確な使用"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "play a supporting role",
+     "ja": "補助的な役割を果たす"
+    },
+    {
+     "en": "Admittedly, ~",
+     "ja": "確かに〜"
+    },
+    {
+     "en": "take responsibility (for ~)",
+     "ja": "（〜の）責任をとる"
+    },
+    {
+     "en": "not A but B / A, not B",
+     "ja": "AではなくB"
+    }
+   ]
+  },
+  {
+   "id": "comp-summary-1",
+   "kind": "summary",
+   "title": "要約：睡眠と記憶",
+   "level": 5,
+   "promptJa": "次の内容を英語40〜50語で要約しなさい。\n「睡眠は単なる休息ではない。研究によれば、眠っている間に脳はその日に学んだ情報を整理し、重要なものを長期記憶として定着させる。そのため、試験前に徹夜するよりも、十分な睡眠をとる方が学習の効果は高い。」",
+   "conditions": "40〜50語",
+   "minWords": 40,
+   "maxWords": 50,
+   "modelAnswers": [
+    "Sleep is more than rest. Research shows that during sleep the brain organizes the information learned that day and turns important parts into long-term memories. Therefore, getting enough sleep is more effective for learning than staying up all night before an exam."
+   ],
+   "keyPoints": [
+    "主旨（睡眠は記憶の定着に重要）を含む",
+    "具体例・根拠を簡潔に",
+    "結論（徹夜より睡眠）",
+    "語数条件",
+    "原文の直訳ではなく言い換え"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "stay up all night",
+     "ja": "徹夜する"
+    },
+    {
+     "en": "long-term memory",
+     "ja": "長期記憶"
+    }
+   ]
+  }
+ ]
+}

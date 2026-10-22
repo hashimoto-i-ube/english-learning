@@ -1,0 +1,543 @@
+{
+ "schemaVersion": 1,
+ "id": "vocab.core.l3",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv3 共通テスト基礎語彙",
+ "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
+ "words": [
+  {
+   "id": "w-acquire",
+   "headword": "acquire",
+   "pos": "動",
+   "meanings": [
+    "習得する",
+    "獲得する"
+   ],
+   "level": 3,
+   "ipa": "/əˈkwaɪər/",
+   "example": {
+    "en": "Children acquire language without formal teaching.",
+    "ja": "子どもは正式に教わらなくても言語を習得する。"
+   },
+   "derivatives": [
+    "acquisition 名 習得"
+   ]
+  },
+  {
+   "id": "w-maintain",
+   "headword": "maintain",
+   "pos": "動",
+   "meanings": [
+    "維持する",
+    "主張する"
+   ],
+   "level": 3,
+   "ipa": "/meɪnˈteɪn/",
+   "example": {
+    "en": "It is hard to maintain a healthy diet.",
+    "ja": "健康的な食生活を維持するのは難しい。"
+   },
+   "derivatives": [
+    "maintenance 名 維持；整備"
+   ]
+  },
+  {
+   "id": "w-obtain",
+   "headword": "obtain",
+   "pos": "動",
+   "meanings": [
+    "得る",
+    "手に入れる"
+   ],
+   "level": 3,
+   "ipa": "/əbˈteɪn/",
+   "example": {
+    "en": "You need to obtain permission first.",
+    "ja": "まず許可を得る必要がある。"
+   }
+  },
+  {
+   "id": "w-contribute",
+   "headword": "contribute",
+   "pos": "動",
+   "meanings": [
+    "貢献する",
+    "一因となる"
+   ],
+   "level": 3,
+   "ipa": "/kənˈtrɪbjuːt/",
+   "example": {
+    "en": "Many factors contributed to his success.",
+    "ja": "多くの要因が彼の成功に寄与した。"
+   },
+   "derivatives": [
+    "contribution 名 貢献"
+   ],
+   "collocations": [
+    "contribute to ~（〜に貢献する・〜の一因となる）"
+   ],
+   "accentNote": "con-TRI-bute（第2音節）。"
+  },
+  {
+   "id": "w-emphasize",
+   "headword": "emphasize",
+   "pos": "動",
+   "meanings": [
+    "強調する"
+   ],
+   "level": 3,
+   "ipa": "/ˈemfəsaɪz/",
+   "example": {
+    "en": "The teacher emphasized the importance of reviewing.",
+    "ja": "先生は復習の重要性を強調した。"
+   },
+   "derivatives": [
+    "emphasis 名 強調"
+   ]
+  },
+  {
+   "id": "w-estimate",
+   "headword": "estimate",
+   "pos": "動",
+   "meanings": [
+    "見積もる",
+    "推定する"
+   ],
+   "level": 3,
+   "ipa": "/ˈestɪmeɪt/",
+   "example": {
+    "en": "Experts estimate that the population will decline.",
+    "ja": "専門家は人口が減少すると推定している。"
+   },
+   "note": "名詞の発音は /ˈestɪmət/。"
+  },
+  {
+   "id": "w-encourage",
+   "headword": "encourage",
+   "pos": "動",
+   "meanings": [
+    "励ます",
+    "促す"
+   ],
+   "level": 3,
+   "ipa": "/ɪnˈkʌrɪdʒ/",
+   "example": {
+    "en": "My teacher encouraged me to apply.",
+    "ja": "先生は私に出願するよう勧めてくれた。"
+   },
+   "antonyms": [
+    "discourage 思いとどまらせる"
+   ],
+   "note": "encourage O to do。"
+  },
+  {
+   "id": "w-establish",
+   "headword": "establish",
+   "pos": "動",
+   "meanings": [
+    "設立する",
+    "確立する"
+   ],
+   "level": 3,
+   "ipa": "/ɪˈstæblɪʃ/",
+   "example": {
+    "en": "The university was established in 1877.",
+    "ja": "その大学は1877年に設立された。"
+   },
+   "derivatives": [
+    "establishment 名 設立；施設"
+   ]
+  },
+  {
+   "id": "w-interpret",
+   "headword": "interpret",
+   "pos": "動",
+   "meanings": [
+    "解釈する",
+    "通訳する"
+   ],
+   "level": 3,
+   "ipa": "/ɪnˈtɜːprɪt/",
+   "example": {
+    "en": "The same data can be interpreted in different ways.",
+    "ja": "同じデータでもさまざまに解釈されうる。"
+   },
+   "derivatives": [
+    "interpretation 名 解釈",
+    "interpreter 名 通訳者"
+   ]
+  },
+  {
+   "id": "w-perceive",
+   "headword": "perceive",
+   "pos": "動",
+   "meanings": [
+    "知覚する",
+    "（〜と）理解する"
+   ],
+   "level": 3,
+   "ipa": "/pəˈsiːv/",
+   "example": {
+    "en": "How do others perceive you?",
+    "ja": "他人はあなたのことをどう見ているだろうか。"
+   },
+   "derivatives": [
+    "perception 名 知覚；認識"
+   ]
+  },
+  {
+   "id": "w-assume",
+   "headword": "assume",
+   "pos": "動",
+   "meanings": [
+    "（当然と）思い込む",
+    "仮定する",
+    "（責任を）負う"
+   ],
+   "level": 3,
+   "ipa": "/əˈsjuːm/",
+   "example": {
+    "en": "Don't assume that everyone agrees with you.",
+    "ja": "みんなが自分に賛成だと思い込んではいけない。"
+   },
+   "derivatives": [
+    "assumption 名 仮定；思い込み"
+   ]
+  },
+  {
+   "id": "w-evidence",
+   "headword": "evidence",
+   "pos": "名",
+   "meanings": [
+    "証拠",
+    "根拠"
+   ],
+   "level": 3,
+   "ipa": "/ˈevɪdəns/",
+   "example": {
+    "en": "There is no scientific evidence for this claim.",
+    "ja": "この主張には科学的根拠がない。"
+   },
+   "note": "不可算名詞。a piece of evidence。"
+  },
+  {
+   "id": "w-phenomenon",
+   "headword": "phenomenon",
+   "pos": "名",
+   "meanings": [
+    "現象"
+   ],
+   "level": 3,
+   "ipa": "/fəˈnɒmɪnən/",
+   "example": {
+    "en": "Global warming is a worldwide phenomenon.",
+    "ja": "地球温暖化は世界規模の現象だ。"
+   },
+   "note": "複数形は phenomena。"
+  },
+  {
+   "id": "w-consequence",
+   "headword": "consequence",
+   "pos": "名",
+   "meanings": [
+    "結果",
+    "重大さ"
+   ],
+   "level": 3,
+   "ipa": "/ˈkɒnsɪkwəns/",
+   "example": {
+    "en": "You must accept the consequences of your actions.",
+    "ja": "自分の行動の結果は受け入れなければならない。"
+   },
+   "derivatives": [
+    "consequently 副 その結果"
+   ],
+   "collocations": [
+    "as a consequence（その結果）"
+   ]
+  },
+  {
+   "id": "w-perspective",
+   "headword": "perspective",
+   "pos": "名",
+   "meanings": [
+    "観点",
+    "見方"
+   ],
+   "level": 3,
+   "ipa": "/pəˈspektɪv/",
+   "example": {
+    "en": "Try to see the problem from a different perspective.",
+    "ja": "その問題を別の観点から見てみなさい。"
+   },
+   "synonyms": [
+    "viewpoint",
+    "point of view"
+   ]
+  },
+  {
+   "id": "w-attitude",
+   "headword": "attitude",
+   "pos": "名",
+   "meanings": [
+    "態度",
+    "考え方"
+   ],
+   "level": 3,
+   "ipa": "/ˈætɪtjuːd/",
+   "example": {
+    "en": "Her positive attitude impressed everyone.",
+    "ja": "彼女の前向きな態度は皆に感銘を与えた。"
+   },
+   "collocations": [
+    "attitude toward(s) ~（〜に対する態度）"
+   ]
+  },
+  {
+   "id": "w-factor",
+   "headword": "factor",
+   "pos": "名",
+   "meanings": [
+    "要因",
+    "要素"
+   ],
+   "level": 3,
+   "ipa": "/ˈfæktər/",
+   "example": {
+    "en": "Price is an important factor in choosing a product.",
+    "ja": "価格は製品を選ぶ際の重要な要因だ。"
+   }
+  },
+  {
+   "id": "w-aspect",
+   "headword": "aspect",
+   "pos": "名",
+   "meanings": [
+    "側面",
+    "観点"
+   ],
+   "level": 3,
+   "ipa": "/ˈæspekt/",
+   "example": {
+    "en": "We discussed every aspect of the plan.",
+    "ja": "私たちはその計画のあらゆる側面について話し合った。"
+   }
+  },
+  {
+   "id": "w-appropriate",
+   "headword": "appropriate",
+   "pos": "形",
+   "meanings": [
+    "適切な"
+   ],
+   "level": 3,
+   "ipa": "/əˈprəʊpriət/",
+   "example": {
+    "en": "Jeans are not appropriate for a job interview.",
+    "ja": "ジーンズは就職面接にふさわしくない。"
+   },
+   "antonyms": [
+    "inappropriate 不適切な"
+   ]
+  },
+  {
+   "id": "w-significant",
+   "headword": "significant",
+   "pos": "形",
+   "meanings": [
+    "重要な",
+    "かなりの"
+   ],
+   "level": 3,
+   "ipa": "/sɪɡˈnɪfɪkənt/",
+   "example": {
+    "en": "There was a significant increase in sales.",
+    "ja": "売上がかなり増加した。"
+   },
+   "derivatives": [
+    "significance 名 重要性"
+   ]
+  },
+  {
+   "id": "w-obvious",
+   "headword": "obvious",
+   "pos": "形",
+   "meanings": [
+    "明らかな"
+   ],
+   "level": 3,
+   "ipa": "/ˈɒbviəs/",
+   "example": {
+    "en": "It was obvious that he was lying.",
+    "ja": "彼がうそをついているのは明らかだった。"
+   },
+   "synonyms": [
+    "clear",
+    "evident"
+   ]
+  },
+  {
+   "id": "w-essential",
+   "headword": "essential",
+   "pos": "形",
+   "meanings": [
+    "不可欠な",
+    "本質的な"
+   ],
+   "level": 3,
+   "ipa": "/ɪˈsenʃl/",
+   "example": {
+    "en": "Water is essential for all living things.",
+    "ja": "水はすべての生物に不可欠だ。"
+   },
+   "derivatives": [
+    "essence 名 本質"
+   ],
+   "note": "It is essential that S (should) 原形。"
+  },
+  {
+   "id": "w-sufficient",
+   "headword": "sufficient",
+   "pos": "形",
+   "meanings": [
+    "十分な"
+   ],
+   "level": 3,
+   "ipa": "/səˈfɪʃnt/",
+   "example": {
+    "en": "We have sufficient food for a week.",
+    "ja": "1週間分の十分な食料がある。"
+   },
+   "synonyms": [
+    "enough"
+   ],
+   "antonyms": [
+    "insufficient 不十分な"
+   ]
+  },
+  {
+   "id": "w-flexible",
+   "headword": "flexible",
+   "pos": "形",
+   "meanings": [
+    "柔軟な"
+   ],
+   "level": 3,
+   "ipa": "/ˈfleksəbl/",
+   "example": {
+    "en": "Our company offers flexible working hours.",
+    "ja": "当社は柔軟な勤務時間を提供している。"
+   },
+   "derivatives": [
+    "flexibility 名 柔軟性"
+   ]
+  },
+  {
+   "id": "w-previous",
+   "headword": "previous",
+   "pos": "形",
+   "meanings": [
+    "前の",
+    "以前の"
+   ],
+   "level": 3,
+   "ipa": "/ˈpriːviəs/",
+   "example": {
+    "en": "I had met her on a previous occasion.",
+    "ja": "以前の機会に彼女に会ったことがあった。"
+   },
+   "derivatives": [
+    "previously 副 以前に"
+   ]
+  },
+  {
+   "id": "w-despite",
+   "headword": "despite",
+   "pos": "前",
+   "meanings": [
+    "〜にもかかわらず"
+   ],
+   "level": 3,
+   "ipa": "/dɪˈspaɪt/",
+   "example": {
+    "en": "Despite the rain, the game continued.",
+    "ja": "雨にもかかわらず試合は続行された。"
+   },
+   "synonyms": [
+    "in spite of"
+   ],
+   "note": "前置詞なので後ろは名詞（句）。×despite of。"
+  },
+  {
+   "id": "w-otherwise",
+   "headword": "otherwise",
+   "pos": "副",
+   "meanings": [
+    "さもなければ",
+    "それ以外の点では",
+    "別の方法で"
+   ],
+   "level": 3,
+   "ipa": "/ˈʌðəwaɪz/",
+   "example": {
+    "en": "Hurry up, otherwise you'll miss the bus.",
+    "ja": "急ぎなさい、さもないとバスに乗り遅れますよ。"
+   }
+  },
+  {
+   "id": "w-regard",
+   "headword": "regard",
+   "pos": "動",
+   "meanings": [
+    "みなす"
+   ],
+   "level": 3,
+   "ipa": "/rɪˈɡɑːd/",
+   "example": {
+    "en": "He is regarded as the best player on the team.",
+    "ja": "彼はチームで最高の選手とみなされている。"
+   },
+   "collocations": [
+    "regard A as B（AをBとみなす）",
+    "with regard to ~（〜に関して）"
+   ]
+  },
+  {
+   "id": "w-insist",
+   "headword": "insist",
+   "pos": "動",
+   "meanings": [
+    "主張する",
+    "要求する"
+   ],
+   "level": 3,
+   "ipa": "/ɪnˈsɪst/",
+   "example": {
+    "en": "She insisted on paying for dinner.",
+    "ja": "彼女は夕食代を払うと言い張った。"
+   },
+   "collocations": [
+    "insist on doing",
+    "insist that S (should) 原形"
+   ]
+  },
+  {
+   "id": "w-cope-with",
+   "headword": "cope with",
+   "pos": "熟",
+   "meanings": [
+    "〜にうまく対処する"
+   ],
+   "level": 3,
+   "example": {
+    "en": "She learned to cope with stress.",
+    "ja": "彼女はストレスにうまく対処できるようになった。"
+   },
+   "synonyms": [
+    "deal with",
+    "handle"
+   ]
+  }
+ ]
+}

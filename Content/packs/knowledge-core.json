@@ -1,0 +1,264 @@
+{
+ "schemaVersion": 1,
+ "id": "knowledge.core",
+ "revision": 1,
+ "skill": "knowledge",
+ "title": "基礎知識",
+ "description": "発音・アクセント、会話表現、読解・英作文の技術",
+ "units": [
+  {
+   "id": "k-accent-rules",
+   "title": "アクセントの規則（語尾で決まるパターン）",
+   "level": 2,
+   "category": "発音・アクセント",
+   "summary": "語尾から第1アクセントの位置を判断する規則と、入試頻出の例外。",
+   "explanation": "## 語尾で決まるアクセント\n\n| 語尾 | アクセント位置 | 例 |\n|---|---|---|\n| -tion, -sion, -ic, -ical, -ity, -ian, -ious | **直前**の音節 | informA-tion, ecoNO-mic, abI-li-ty |\n| -ate, -ize, -ism（3音節以上） | **2つ前**の音節 | CON-cen-trate, REC-og-nize |\n| -ee, -eer, -oo, -ese | **その語尾自体** | em-ploy-EE, vol-un-TEER, Jap-a-NESE |\n\n## 名前動後（名詞は前、動詞は後ろ）\n\nrecord, present, object, increase, export, import, contrast など。\n例：a **RE**cord（記録）／ to re**CORD**（記録する）\n\n## 入試頻出の要注意語\n\n- **e**vent ではなく e**VENT**、**ho**tel ではなく ho**TEL**\n- **cal**endar、**cat**alog は第1音節\n- in**ter**pret、de**vel**op、com**mit**tee",
+   "examples": [
+    {
+     "en": "We need to analyze the economic situation carefully.",
+     "ja": "経済状況を慎重に分析する必要がある。",
+     "note": "ana-lyze は第1音節、eco-NO-mic は -ic の直前"
+    },
+    {
+     "en": "She is an employee of a large company.",
+     "ja": "彼女は大企業の社員だ。",
+     "note": "employ-EE"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-ac-1",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "hotel"
+     ],
+     "explanation": "ho-TEL（第2音節）。calendar, average, instrument はいずれも第1音節。",
+     "sentence": "最も強く発音する位置が第2音節であるものを選びなさい。",
+     "choices": [
+      "calendar",
+      "hotel",
+      "average",
+      "instrument"
+     ]
+    },
+    {
+     "id": "k-ac-2",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "politics"
+     ],
+     "explanation": "-ic の直前にアクセント（eco-NO-mic, scien-TI-fic, ath-LE-tic）が原則だが、politics は PO-li-tics と例外。",
+     "sentence": "下線部（第1アクセント）の位置が他と異なるものを選びなさい。",
+     "choices": [
+      "economic",
+      "scientific",
+      "politics",
+      "athletic"
+     ]
+    },
+    {
+     "id": "k-ac-3",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "record"
+     ],
+     "explanation": "名前動後：名詞 RE-cord、動詞 re-CORD。",
+     "sentence": "動詞として用いた場合にアクセントが第2音節に来るものを選びなさい。",
+     "choices": [
+      "record",
+      "promise",
+      "visit",
+      "answer"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-conversation",
+   "title": "会話表現（共通テスト・私大頻出）",
+   "level": 2,
+   "category": "会話表現",
+   "summary": "応答として自然な表現、依頼・許可・提案への返答のパターン。",
+   "explanation": "## 依頼・許可への応答\n\n| 発言 | 承諾 | 断り |\n|---|---|---|\n| Would you mind 〜ing? | **Not at all.** / Of course not.（気にしない＝OK） | I'm sorry, but … |\n| Can I 〜? / May I 〜? | Sure. / Go ahead. | I'm afraid not. |\n\n※ mind は「嫌だと思う」なので、承諾するときは**否定**で答える。\n\n## 提案・誘い\n\n- Why don't we 〜? / How about 〜ing? / Shall we 〜? → Sounds good. / That's a good idea.\n\n## 感謝・謝罪への応答\n\n- Thank you. → You're welcome. / My pleasure. / Don't mention it.\n- I'm sorry. → That's all right. / No problem. / Never mind.\n\n## 頻出の決まり文句\n\n- Help yourself (to 〜).（ご自由にお取りください）\n- I'll take it.（〈買い物で〉それをください）\n- Hold on, please.（〈電話で〉少々お待ちください）\n- It depends.（場合によります）",
+   "examples": [
+    {
+     "en": "\"Would you mind closing the window?\" \"Not at all.\"",
+     "ja": "「窓を閉めていただけますか」「いいですよ」"
+    },
+    {
+     "en": "\"Can I use your pen?\" \"Sure, go ahead.\"",
+     "ja": "「ペンを借りてもいい？」「もちろん、どうぞ」"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-cv-1",
+     "type": "choice",
+     "prompt": "会話が成り立つように空所に入るものを選びなさい。",
+     "answers": [
+      "Of course not."
+     ],
+     "explanation": "mind は「気にする」。承諾は否定で答える（Of course not. / Not at all.）。",
+     "sentence": "A: Would you mind if I opened the window?\nB: ___ It's hot in here.",
+     "choices": [
+      "Yes, I would.",
+      "Of course not.",
+      "Yes, please don't.",
+      "No, you mustn't."
+     ]
+    },
+    {
+     "id": "k-cv-2",
+     "type": "choice",
+     "prompt": "会話が成り立つように空所に入るものを選びなさい。",
+     "answers": [
+      "My pleasure."
+     ],
+     "explanation": "感謝への応答 My pleasure.（どういたしまして）。",
+     "sentence": "A: Thank you for helping me with my homework.\nB: ___",
+     "choices": [
+      "My pleasure.",
+      "That's too bad.",
+      "Same to you.",
+      "You're right."
+     ]
+    },
+    {
+     "id": "k-cv-3",
+     "type": "choice",
+     "prompt": "会話が成り立つように空所に入るものを選びなさい。",
+     "answers": [
+      "Sounds good."
+     ],
+     "explanation": "提案に賛成し、続けて見たい映画を尋ねている。",
+     "sentence": "A: How about going to the movies this weekend?\nB: ___ What do you want to see?",
+     "choices": [
+      "Sounds good.",
+      "No, thank you very much.",
+      "It doesn't matter to me.",
+      "I'm afraid so."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-discourse-markers",
+   "title": "ディスコースマーカー（論理展開の目印）",
+   "level": 3,
+   "category": "読解の技術",
+   "summary": "however, therefore, for example などの接続表現から、筆者の主張と論理を先読みする。",
+   "explanation": "## 長文は「論理の目印」で速く正確に読める\n\n| 働き | 表現 | 読み方 |\n|---|---|---|\n| 逆接・対比 | however, but, yet, on the other hand, in contrast, nevertheless | **後ろが筆者の主張**であることが多い |\n| 譲歩→主張 | It is true that 〜, but … / Of course 〜, but … | but 以下が主張 |\n| 因果 | therefore, thus, as a result, consequently | 後ろが結論 |\n| 例示 | for example, for instance, such as | 前の抽象的な主張の具体例 |\n| 言い換え | in other words, that is (to say), namely | 前と同じ内容。わかりやすい方で理解 |\n| 追加 | moreover, furthermore, in addition, besides | 同じ方向の情報の追加 |\n\n## 段落の構造\n\n英語の段落は「**主題文（トピックセンテンス）→ 具体例・説明 → まとめ**」が基本。第1文と However の後ろに注目すると要旨がつかめる。",
+   "examples": [
+    {
+     "en": "Many people think that talent is fixed. However, research suggests that abilities can be developed through effort.",
+     "ja": "多くの人は才能は固定的だと考えている。しかし、研究によれば能力は努力によって伸ばせる。",
+     "note": "However の後ろが筆者の主張"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-dm-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "However"
+     ],
+     "explanation": "「便利だ」と「依存性がある」は逆の評価なので逆接。",
+     "sentence": "Smartphones are convenient. ___, they can be addictive.",
+     "choices": [
+      "Therefore",
+      "For example",
+      "However",
+      "In other words"
+     ]
+    },
+    {
+     "id": "k-dm-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "For instance"
+     ],
+     "explanation": "前の一般論（道具を使う動物もいる）の具体例。",
+     "sentence": "Some animals use tools. ___, chimpanzees use sticks to catch insects.",
+     "choices": [
+      "For instance",
+      "Nevertheless",
+      "In contrast",
+      "Consequently"
+     ]
+    },
+    {
+     "id": "k-dm-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "but"
+     ],
+     "explanation": "It is true that 〜, but …「確かに〜だが…」（譲歩→主張）。",
+     "sentence": "It is true that the plan is expensive, ___ it will save money in the long run.",
+     "choices": [
+      "and",
+      "but",
+      "so",
+      "for"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-essay-structure",
+   "title": "自由英作文の型（意見論述）",
+   "level": 4,
+   "category": "英作文の技術",
+   "summary": "主張 → 理由2つ（具体例つき）→ 結論 の型で、80〜150語の意見論述を安定して書く。",
+   "explanation": "## 基本の型（100語前後）\n\n1. **主張**：I agree / disagree with the idea that 〜. / I believe that 〜.\n2. **理由1**：First, 〜. For example, 〜.\n3. **理由2**：Second, 〜. In addition, 〜.\n4. **結論**：For these reasons, I believe that 〜.\n\n## 採点で見られるポイント\n\n- 設問の問いに**正面から答えているか**（賛否を明確に）\n- 理由が**具体的**で、主張と論理的につながっているか\n- 語数条件を守っているか（不足・超過は減点）\n- **自分が確実に書ける表現**で書いているか（難しい語より正確さ）\n\n## よくある減点\n\n- 主語と動詞の一致、冠詞・単複の誤り\n- 1文が長すぎて構造が崩れる → 短い文をつなぐ\n- 理由が主張の繰り返しになっている\n- 口語表現（gonna, kids など）の多用",
+   "examples": [
+    {
+     "en": "I believe that high school students should read newspapers every day.",
+     "ja": "私は高校生は毎日新聞を読むべきだと考える。"
+    },
+    {
+     "en": "For these reasons, I think the benefits outweigh the drawbacks.",
+     "ja": "これらの理由から、利点が欠点を上回ると考える。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-es-1",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "First, smartphones help students contact their parents in an emergency, which makes them feel safe."
+     ],
+     "explanation": "具体的な利点（緊急時の連絡）と、その結果（安心）を示しており、主張を支える理由になっている。",
+     "sentence": "自由英作文で「理由」を述べる段落として最も適切なものを選びなさい。（テーマ：中学生にスマートフォンは必要か）",
+     "choices": [
+      "Smartphones are very popular in Japan.",
+      "First, smartphones help students contact their parents in an emergency, which makes them feel safe.",
+      "I like my smartphone very much.",
+      "Some people agree and some people disagree."
+     ]
+    },
+    {
+     "id": "k-es-2",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「これらの理由から、私は大学生は留学すべきだと考える。」",
+     "answers": [
+      "For these reasons, I believe that university students should study abroad.",
+      "For these reasons, I think university students should study abroad.",
+      "For these reasons, I believe college students should study abroad."
+     ],
+     "explanation": "結論文の定型表現。abroad は副詞なので前置詞をつけない。",
+     "keyPoints": [
+      "For these reasons（結論の定型）",
+      "study abroad（abroad は副詞：×study in abroad）"
+     ]
+    }
+   ]
+  }
+ ]
+}

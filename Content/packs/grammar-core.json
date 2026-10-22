@@ -1,0 +1,1441 @@
+{
+ "schemaVersion": 1,
+ "id": "grammar.core",
+ "revision": 1,
+ "skill": "grammar",
+ "title": "文法・語法 基本〜発展",
+ "description": "高校文法の全分野を入試頻出ポイントに絞って解説＋演習",
+ "units": [
+  {
+   "id": "g-tense-perfect",
+   "title": "現在完了と過去形",
+   "level": 1,
+   "category": "時制",
+   "summary": "「今」とつながる現在完了、「過去の一点」で切れる過去形を区別する。",
+   "explanation": "## 基本の考え方\n\n現在完了（have / has + 過去分詞）は「過去の出来事が**現在と結びついている**」ことを表す。過去形は「過去のある時点で完結した出来事」を表し、現在とは切り離されている。\n\n| 用法 | 例 | よく伴う語 |\n|---|---|---|\n| 完了・結果 | I have just finished my homework. | just, already, yet |\n| 経験 | I have visited Kyoto twice. | ever, never, before, 〜 times |\n| 継続 | She has lived here for ten years. | for, since, How long |\n\n## 過去を示す語とは一緒に使えない\n\nyesterday / last week / ~ ago / When ...? / in 2010 など**明確な過去の時点**を表す語句は現在完了と共に使えない。\n\n> ×I have seen him yesterday. → ○I saw him yesterday.\n> ×When have you arrived? → ○When did you arrive?\n\n## 現在完了進行形\n\nhave been doing は「（今まで）ずっと〜し続けている」という動作の継続を表す。know, like, belong などの状態動詞は進行形にしないため、継続は現在完了形で表す。",
+   "examples": [
+    {
+     "en": "I have lost my key, so I can't get in.",
+     "ja": "鍵をなくしてしまったので中に入れない。",
+     "note": "結果：今も鍵がない"
+    },
+    {
+     "en": "I lost my key yesterday, but I found it this morning.",
+     "ja": "昨日鍵をなくしたが、今朝見つけた。",
+     "note": "過去形：今とは切れている"
+    },
+    {
+     "en": "It has been raining since this morning.",
+     "ja": "今朝からずっと雨が降り続いている。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-tp-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "have known"
+     ],
+     "explanation": "since 〜（〜以来）があり、子どもの頃から今まで「ずっと知っている」という継続。know は状態動詞なので進行形にしない。",
+     "sentence": "I ___ him since we were children.",
+     "choices": [
+      "know",
+      "knew",
+      "have known",
+      "am knowing"
+     ]
+    },
+    {
+     "id": "g-tp-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "went"
+     ],
+     "explanation": "three years ago は明確な過去の時点を示すので過去形。現在完了とは一緒に使えない。",
+     "sentence": "My father ___ to Australia three years ago.",
+     "choices": [
+      "has gone",
+      "has been",
+      "went",
+      "goes"
+     ]
+    },
+    {
+     "id": "g-tp-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "has gone"
+     ],
+     "explanation": "have gone to は「〜へ行ってしまった（今ここにいない）」という結果。have been to は「〜へ行ったことがある／行ってきたところだ」。",
+     "sentence": "\"Where is Ken?\" \"He ___ to the library. He'll be back soon.\"",
+     "choices": [
+      "has gone",
+      "has been",
+      "went",
+      "goes"
+     ]
+    },
+    {
+     "id": "g-tp-4",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "have"
+     ],
+     "explanation": "How long と現在完了進行形（have been doing）で「どのくらいの間〜し続けているか」を尋ねる。",
+     "sentence": "How long ___ you been studying English?"
+    },
+    {
+     "id": "g-tp-5",
+     "type": "reorder",
+     "prompt": "日本語の意味になるように語句を並べ替えなさい。\n「私はこんなに美しい景色を見たことがない。」",
+     "answers": [
+      "I have never seen such a beautiful view"
+     ],
+     "explanation": "経験の否定 have never + 過去分詞。such a + 形容詞 + 名詞の語順に注意。",
+     "choices": [
+      "I",
+      "have",
+      "never",
+      "seen",
+      "such",
+      "a",
+      "beautiful",
+      "view"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-passive",
+   "title": "受動態",
+   "level": 1,
+   "category": "態",
+   "summary": "be + 過去分詞の基本形と、助動詞・進行形・完了形との組み合わせを押さえる。",
+   "explanation": "## 形\n\n受動態は **be動詞 + 過去分詞** で「〜される」を表す。行為者は by 〜 で示すが、明らかなとき・不明なときは省略する。\n\n| 形 | 例 |\n|---|---|\n| 助動詞 | The work must be finished today. |\n| 進行形 | The bridge is being repaired. |\n| 完了形 | The letter has been sent. |\n\n## by 以外の前置詞をとる受動態\n\n- be known **to** 〜（〜に知られている）\n- be covered **with** 〜（〜に覆われている）\n- be made **of** 〜（材料：見てわかる）／ be made **from** 〜（原料：変化している）\n- be interested **in** 〜／ be surprised **at** 〜\n\n## 第4文型・第5文型の受動態\n\n- He gave me a book. → I was given a book (by him).\n- They call him Ken. → He is called Ken.\n- 知覚・使役動詞の受動態では原形が **to 不定詞** になる：We saw him enter. → He was seen **to enter**.",
+   "examples": [
+    {
+     "en": "This temple was built about 400 years ago.",
+     "ja": "この寺は約400年前に建てられた。"
+    },
+    {
+     "en": "The road is being repaired now.",
+     "ja": "その道路は今修理中だ。",
+     "note": "進行形の受動態"
+    },
+    {
+     "en": "He was made to wait for an hour.",
+     "ja": "彼は1時間待たされた。",
+     "note": "make O 原形 → be made to do"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-ps-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "with"
+     ],
+     "explanation": "be covered with 〜「〜に覆われている」。",
+     "sentence": "The mountain is covered ___ snow all year round.",
+     "choices": [
+      "by",
+      "with",
+      "in",
+      "at"
+     ]
+    },
+    {
+     "id": "g-ps-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "is being built"
+     ],
+     "explanation": "now があり「建設されている最中」なので進行形の受動態 be being + 過去分詞。",
+     "sentence": "A new hospital ___ in our town now.",
+     "choices": [
+      "is building",
+      "is being built",
+      "has built",
+      "builds"
+     ]
+    },
+    {
+     "id": "g-ps-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "to"
+     ],
+     "explanation": "be known to 〜「〜に知られている」。be known for 〜は「〜で有名」、be known as 〜は「〜として知られる」。",
+     "sentence": "The singer is known ___ young people all over the world.",
+     "choices": [
+      "by",
+      "to",
+      "for",
+      "as"
+     ]
+    },
+    {
+     "id": "g-ps-4",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "to"
+     ],
+     "explanation": "知覚動詞 see O do の受動態では原形が to 不定詞になる（be seen to do）。",
+     "sentence": "The boy was seen ___ cross the street."
+    },
+    {
+     "id": "g-ps-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「この本は多くの言語に翻訳されている。」",
+     "answers": [
+      "This book has been translated into many languages.",
+      "This book is translated into many languages.",
+      "This book has been translated into a lot of languages."
+     ],
+     "explanation": "translate A into B の受動態。現在までの結果として has been translated が自然。",
+     "keyPoints": [
+      "translate A into B（AをBに翻訳する）",
+      "受動態（be / has been translated）",
+      "language は可算名詞 → many languages"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-infinitive",
+   "title": "不定詞の3用法",
+   "level": 1,
+   "category": "準動詞",
+   "summary": "名詞的・形容詞的・副詞的用法と、意味上の主語・不定詞を使った重要構文。",
+   "explanation": "## 3つの用法\n\n| 用法 | 働き | 例 |\n|---|---|---|\n| 名詞的 | 「〜すること」主語・目的語・補語 | My dream is **to become** a doctor. |\n| 形容詞的 | 名詞を後ろから修飾「〜するための／すべき」 | I have a lot of work **to do**. |\n| 副詞的 | 目的・感情の原因・判断の根拠・結果 | He went to Tokyo **to study** law. |\n\n## 意味上の主語\n\n- It is easy **for me** to answer the question.（for + 人）\n- It is kind **of you** to help me.（人の性質を表す形容詞 kind, careless, wise などは of + 人）\n\n## 重要構文\n\n- too 〜 to do「あまりに〜なので…できない」\n- 〜 enough to do「…するのに十分〜」（enough は形容詞・副詞の**後ろ**）\n- in order to do / so as to do「〜するために」（否定は in order not to do）",
+   "examples": [
+    {
+     "en": "I was surprised to hear the news.",
+     "ja": "その知らせを聞いて驚いた。",
+     "note": "感情の原因"
+    },
+    {
+     "en": "He grew up to be a famous pianist.",
+     "ja": "彼は成長して有名なピアニストになった。",
+     "note": "結果"
+    },
+    {
+     "en": "This box is too heavy for me to carry.",
+     "ja": "この箱は重すぎて私には運べない。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-inf-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "of"
+     ],
+     "explanation": "careless は人の性質を表す形容詞なので of + 人。",
+     "sentence": "It was careless ___ you to leave the door unlocked.",
+     "choices": [
+      "for",
+      "of",
+      "to",
+      "with"
+     ]
+    },
+    {
+     "id": "g-inf-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "enough"
+     ],
+     "explanation": "形容詞 + enough to do「〜するのに十分…」。enough は形容詞の後ろに置く。",
+     "sentence": "She is old ___ to travel alone.",
+     "choices": [
+      "enough",
+      "so",
+      "too",
+      "very"
+     ]
+    },
+    {
+     "id": "g-inf-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "with"
+     ],
+     "explanation": "形容詞的用法で「話し相手」。talk with someone の関係なので前置詞 with が必要。",
+     "sentence": "I need someone to talk ___.",
+     "choices": [
+      "with",
+      "it",
+      "them",
+      "for"
+     ]
+    },
+    {
+     "id": "g-inf-4",
+     "type": "reorder",
+     "prompt": "日本語の意味になるように語句を並べ替えなさい。\n「彼は風邪をひかないように早く寝た。」",
+     "answers": [
+      "He went to bed early so as not to catch a cold"
+     ],
+     "explanation": "so as not to do「〜しないように」。not の位置は to の直前。",
+     "choices": [
+      "He",
+      "went",
+      "to",
+      "bed",
+      "early",
+      "so",
+      "as",
+      "not",
+      "to",
+      "catch",
+      "a",
+      "cold"
+     ]
+    },
+    {
+     "id": "g-inf-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "そんな話を信じるなんて、彼はばかに違いない。",
+      "そんな話を信じるとは彼は愚か者に違いない。"
+     ],
+     "explanation": "副詞的用法の「判断の根拠」。must（推量）とセットで用いられることが多い。",
+     "sentence": "He must be a fool to believe such a story.",
+     "keyPoints": [
+      "must be 〜「〜に違いない」",
+      "to believe は判断の根拠「〜するなんて」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-gerund",
+   "title": "動名詞と不定詞の使い分け",
+   "level": 1,
+   "category": "準動詞",
+   "summary": "目的語に動名詞をとる動詞・不定詞をとる動詞、意味が変わる動詞を整理する。",
+   "explanation": "## 動名詞だけを目的語にとる動詞（MEGAFEPS など）\n\nmind, enjoy, give up, avoid, finish, escape, practice, stop, consider, deny, admit, put off など。\n**「すでに起きていること・現実の行為」に目を向ける**動詞が多い。\n\n## 不定詞だけを目的語にとる動詞\n\nwant, hope, decide, plan, promise, refuse, agree, manage, fail, afford など。\n**「これからのこと（未来志向）」**を表す動詞が多い。\n\n## 意味が変わる動詞\n\n| 動詞 | + to do | + doing |\n|---|---|---|\n| remember | （これから）忘れずに〜する | （過去に）〜したことを覚えている |\n| forget | 〜するのを忘れる | 〜したことを忘れる |\n| try | 〜しようとする | 試しに〜してみる |\n| stop | 〜するために立ち止まる（不定詞は目的語ではない） | 〜するのをやめる |\n| regret | 残念ながら〜する | 〜したことを後悔する |\n\n## 動名詞の意味上の主語\n\n所有格または目的格で表す：Do you mind **my (me)** opening the window?",
+   "examples": [
+    {
+     "en": "Remember to lock the door.",
+     "ja": "忘れずにドアに鍵をかけなさい。"
+    },
+    {
+     "en": "I remember locking the door.",
+     "ja": "ドアに鍵をかけたことは覚えている。"
+    },
+    {
+     "en": "Would you mind my sitting here?",
+     "ja": "ここに座ってもかまいませんか。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-ger-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "writing"
+     ],
+     "explanation": "finish は動名詞を目的語にとる。",
+     "sentence": "Have you finished ___ the report?",
+     "choices": [
+      "write",
+      "to write",
+      "writing",
+      "written"
+     ]
+    },
+    {
+     "id": "g-ger-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "seeing"
+     ],
+     "explanation": "never forget doing「（過去に）〜したことを決して忘れない」。",
+     "sentence": "I'll never forget ___ Mt. Fuji for the first time.",
+     "choices": [
+      "to see",
+      "seeing",
+      "see",
+      "to have seen"
+     ]
+    },
+    {
+     "id": "g-ger-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "to answer"
+     ],
+     "explanation": "refuse は不定詞を目的語にとる（未来志向）。",
+     "sentence": "He refused ___ my question.",
+     "choices": [
+      "answering",
+      "to answer",
+      "answer",
+      "answered"
+     ]
+    },
+    {
+     "id": "g-ger-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "seeing"
+     ],
+     "explanation": "look forward to の to は前置詞なので後ろは動名詞。be used to doing, when it comes to doing なども同様。",
+     "sentence": "I'm looking forward to ___ you again.",
+     "choices": [
+      "see",
+      "seeing",
+      "be seen",
+      "have seen"
+     ]
+    },
+    {
+     "id": "g-ger-5",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "making"
+     ],
+     "explanation": "stop doing「〜するのをやめる」。make noise「音を立てる」。",
+     "sentence": "Please stop ___ noise. I'm trying to sleep.",
+     "hint": "make を適切な形に"
+    }
+   ]
+  },
+  {
+   "id": "g-comparison",
+   "title": "比較の基本と重要表現",
+   "level": 1,
+   "category": "比較",
+   "summary": "原級・比較級・最上級の基本形と、倍数表現・最上級相当表現。",
+   "explanation": "## 基本形\n\n- 原級：as 〜 as …「…と同じくらい〜」／ not as(so) 〜 as …「…ほど〜でない」\n- 比較級：〜er than … / more 〜 than …\n- 最上級：the 〜est in（場所・集団）/ of（複数のもの）\n\n## 比較級の強調\n\n**much, far, even, still, a lot** を使う。very は比較級を強調できない。\n\n## 倍数表現\n\nX times as 〜 as … ／ twice as 〜 as … ／ half as 〜 as …\n例：This room is **three times as large as** that one.\n\n## 最上級と同じ意味を表す表現\n\n- No (other) mountain in Japan is **higher than** Mt. Fuji.\n- No (other) mountain in Japan is **as high as** Mt. Fuji.\n- Mt. Fuji is **higher than any other** mountain in Japan.（any other + 単数名詞）",
+   "examples": [
+    {
+     "en": "This book is much more interesting than that one.",
+     "ja": "この本はあの本よりずっとおもしろい。"
+    },
+    {
+     "en": "Nothing is more precious than time.",
+     "ja": "時間ほど貴重なものはない。"
+    },
+    {
+     "en": "She has twice as many books as I do.",
+     "ja": "彼女は私の2倍の本を持っている。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-cmp-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "much"
+     ],
+     "explanation": "比較級の強調は much / far / even / still。very は不可。",
+     "sentence": "This problem is ___ easier than the last one.",
+     "choices": [
+      "very",
+      "much",
+      "more",
+      "most"
+     ]
+    },
+    {
+     "id": "g-cmp-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "city"
+     ],
+     "explanation": "比較級 + than any other + 単数名詞 で最上級の意味。",
+     "sentence": "Tokyo is larger than any other ___ in Japan.",
+     "choices": [
+      "city",
+      "cities",
+      "the city",
+      "a city"
+     ]
+    },
+    {
+     "id": "g-cmp-3",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "large",
+      "big"
+     ],
+     "explanation": "倍数表現 half as 〜 as …。as と as の間は原級。",
+     "sentence": "My room is half as ___ as yours."
+    },
+    {
+     "id": "g-cmp-4",
+     "type": "reorder",
+     "prompt": "日本語の意味になるように語句を並べ替えなさい。\n「健康ほど大切なものはない。」",
+     "answers": [
+      "Nothing is more important than health"
+     ],
+     "explanation": "否定主語 Nothing + 比較級 + than で最上級の意味。",
+     "choices": [
+      "Nothing",
+      "is",
+      "more",
+      "important",
+      "than",
+      "health"
+     ]
+    },
+    {
+     "id": "g-cmp-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「この川は日本で2番目に長い。」",
+     "answers": [
+      "This river is the second longest in Japan.",
+      "This river is the second longest river in Japan.",
+      "This is the second longest river in Japan."
+     ],
+     "explanation": "「〜番目に…」は the second longest のように the + 序数 + 最上級。",
+     "keyPoints": [
+      "the + 序数 + 最上級「〜番目に…な」",
+      "in Japan（範囲）"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-relative",
+   "title": "関係代名詞の基本",
+   "level": 1,
+   "category": "関係詞",
+   "summary": "who / which / that / whose と目的格の省略、前置詞 + 関係代名詞。",
+   "explanation": "## 格と先行詞\n\n| 先行詞 | 主格 | 所有格 | 目的格 |\n|---|---|---|---|\n| 人 | who | whose | who(m) |\n| 人以外 | which | whose | which |\n| どちらでも | that | — | that |\n\n目的格の関係代名詞は省略できる：This is the book (which) I bought yesterday.\n\n## 前置詞 + 関係代名詞\n\nThis is the house **in which** he lives. = This is the house (which) he lives **in**.\n前置詞を前に出した場合、that は使えず、関係代名詞は省略できない。\n\n## that が好まれる場合\n\n先行詞に最上級・序数・the only・all・every・no などが付くとき、また先行詞が「人＋人以外」のとき。",
+   "examples": [
+    {
+     "en": "I have a friend whose father is a pilot.",
+     "ja": "父親がパイロットをしている友人がいる。"
+    },
+    {
+     "en": "This is the best movie that I have ever seen.",
+     "ja": "これは私が今までに見た中で最高の映画だ。"
+    },
+    {
+     "en": "The person to whom I spoke was very kind.",
+     "ja": "私が話しかけた人はとても親切だった。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-rel-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "whose"
+     ],
+     "explanation": "「髪が長い女の子」：the girl's hair の関係なので所有格 whose。",
+     "sentence": "The girl ___ hair is long is my sister.",
+     "choices": [
+      "who",
+      "whose",
+      "which",
+      "whom"
+     ]
+    },
+    {
+     "id": "g-rel-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "in which"
+     ],
+     "explanation": "I was born in the town の関係。前置詞 + 関係代名詞（in which）。関係副詞 where でも可。",
+     "sentence": "This is the town ___ I was born.",
+     "choices": [
+      "which",
+      "in which",
+      "that",
+      "what"
+     ]
+    },
+    {
+     "id": "g-rel-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "that"
+     ],
+     "explanation": "先行詞に the only が付くときは that が好まれる。主格なので whom は不可。",
+     "sentence": "He is the only person ___ knows the truth.",
+     "choices": [
+      "that",
+      "which",
+      "whom",
+      "whose"
+     ]
+    },
+    {
+     "id": "g-rel-4",
+     "type": "reorder",
+     "prompt": "日本語の意味になるように語句を並べ替えなさい。\n「これは私がずっと探していた辞書だ。」",
+     "answers": [
+      "This is the dictionary I have been looking for"
+     ],
+     "explanation": "目的格の関係代名詞が省略された形。look for の for が文末に残る点に注意。",
+     "choices": [
+      "This",
+      "is",
+      "the",
+      "dictionary",
+      "I",
+      "have",
+      "been",
+      "looking",
+      "for"
+     ]
+    },
+    {
+     "id": "g-rel-5",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "whose"
+     ],
+     "explanation": "「息子が有名な俳優である女性」：所有格 whose。",
+     "sentence": "I met a woman ___ son is a famous actor."
+    }
+   ]
+  },
+  {
+   "id": "g-subjunctive",
+   "title": "仮定法過去・仮定法過去完了",
+   "level": 2,
+   "category": "仮定法",
+   "summary": "現在の事実の反対は過去形、過去の事実の反対は過去完了形。混合型も押さえる。",
+   "explanation": "## 2つの基本形\n\n| | if 節 | 主節 | 意味 |\n|---|---|---|---|\n| 仮定法過去 | If S + 過去形（be は were） | S + would / could / might + 原形 | 現在の事実に反する仮定 |\n| 仮定法過去完了 | If S + had + 過去分詞 | S + would / could / might + have + 過去分詞 | 過去の事実に反する仮定 |\n\n## 混合型\n\nif 節が過去、主節が現在の場合：\nIf I **had taken** the medicine, I **would be** fine **now**.（あの時薬を飲んでいたら、今ごろ元気なのに）\n\n## 「時制は1つ過去にずらす」が本質\n\n仮定法は現実との距離を**時制を1つ過去にずらすこと**で表す。だから現在の仮定に過去形、過去の仮定に過去完了形を用いる。",
+   "examples": [
+    {
+     "en": "If I were you, I would accept the offer.",
+     "ja": "私があなたなら、その申し出を受けるだろう。"
+    },
+    {
+     "en": "If he had studied harder, he could have passed the exam.",
+     "ja": "もっと勉強していたら、彼は試験に合格できただろうに。"
+    },
+    {
+     "en": "If it had not rained yesterday, the ground would not be wet now.",
+     "ja": "昨日雨が降らなかったら、今地面はぬれていないだろう。",
+     "note": "混合型"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-sj-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "had"
+     ],
+     "explanation": "主節が would buy（仮定法過去）なので if 節は過去形。",
+     "sentence": "If I ___ enough money, I would buy a new bike.",
+     "choices": [
+      "have",
+      "had",
+      "will have",
+      "had had"
+     ]
+    },
+    {
+     "id": "g-sj-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "would have caught"
+     ],
+     "explanation": "if 節が had left（仮定法過去完了）なので主節は would have + 過去分詞。",
+     "sentence": "If you had left earlier, you ___ the train.",
+     "choices": [
+      "would catch",
+      "will catch",
+      "would have caught",
+      "had caught"
+     ]
+    },
+    {
+     "id": "g-sj-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "would be"
+     ],
+     "explanation": "then（過去）の仮定と now（現在）の結果を組み合わせた混合型。",
+     "sentence": "If I had followed your advice then, I ___ happier now.",
+     "choices": [
+      "would be",
+      "would have been",
+      "will be",
+      "am"
+     ]
+    },
+    {
+     "id": "g-sj-4",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「もし時間があれば、あなたを手伝えるのに。」",
+     "answers": [
+      "If I had time, I could help you.",
+      "If I had time, I would help you.",
+      "If I had the time, I could help you."
+     ],
+     "explanation": "現在の事実の反対なので仮定法過去。",
+     "keyPoints": [
+      "仮定法過去：If S 過去形, S could/would 原形",
+      "現在の事実（時間がない）の反対"
+     ]
+    },
+    {
+     "id": "g-sj-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "あなたの助けがなかったら、私は失敗していただろう。"
+     ],
+     "explanation": "If it had not been for 〜 = But for 〜 = Without 〜。",
+     "sentence": "If it had not been for your help, I would have failed.",
+     "keyPoints": [
+      "If it had not been for 〜「（過去に）〜がなかったら」",
+      "would have failed「失敗していただろう」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-subjunctive-adv",
+   "title": "仮定法の応用（if の省略・wish・as if など）",
+   "level": 3,
+   "category": "仮定法",
+   "summary": "if の省略による倒置、I wish / as if / It is time、without / but for。",
+   "explanation": "## if の省略と倒置\n\nif を省略すると **疑問文の語順（倒置）** になる。入試頻出。\n\n- If I were rich → **Were I** rich\n- If he had known → **Had he** known\n- If you should need help → **Should you** need help\n\n## 願望・様態・時期\n\n| 表現 | 形 | 例 |\n|---|---|---|\n| I wish | S + 過去形／過去完了形 | I wish I **had** more time. |\n| as if / as though | S + 過去形／過去完了形 | He talks **as if** he **knew** everything. |\n| It is (high) time | S + 過去形 | It is time you **went** to bed. |\n\n## 条件を表す語句\n\nwithout 〜 / but for 〜（〜がなければ・なかったら）、otherwise（さもなければ）、主語に条件が含まれる場合（A wise man would not do such a thing.）",
+   "examples": [
+    {
+     "en": "Had I known the truth, I would have told you.",
+     "ja": "真実を知っていたら、あなたに話していただろう。"
+    },
+    {
+     "en": "I wish I had studied harder in high school.",
+     "ja": "高校時代にもっと勉強していればよかった。"
+    },
+    {
+     "en": "Without water, no living thing could survive.",
+     "ja": "水がなければ、どんな生物も生きられないだろう。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-sja-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Had"
+     ],
+     "explanation": "If I had known の if を省略した倒置 Had I known。",
+     "sentence": "___ I known about the meeting, I would have attended it.",
+     "choices": [
+      "If",
+      "Had",
+      "Have",
+      "Were"
+     ]
+    },
+    {
+     "id": "g-sja-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "cleaned"
+     ],
+     "explanation": "It is (high) time S + 過去形「もう〜してもよい頃だ」。",
+     "sentence": "It's high time you ___ your room.",
+     "choices": [
+      "clean",
+      "cleaned",
+      "will clean",
+      "have cleaned"
+     ]
+    },
+    {
+     "id": "g-sja-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "had seen"
+     ],
+     "explanation": "主節の時点（looked）よりも前のことなので as if + 過去完了。",
+     "sentence": "He looked as if he ___ a ghost.",
+     "choices": [
+      "sees",
+      "has seen",
+      "had seen",
+      "would see"
+     ]
+    },
+    {
+     "id": "g-sja-4",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "Should",
+      "If"
+     ],
+     "explanation": "If you should need の倒置 Should you need「万一〜なら」。If でも文法的に成立する。",
+     "sentence": "___ you need any help, please let me know."
+    },
+    {
+     "id": "g-sja-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "本当の友人なら、決してあなたを裏切らないだろう。"
+     ],
+     "explanation": "if 節がなくても主語に仮定の意味が込められている仮定法。",
+     "sentence": "A true friend would never betray you.",
+     "keyPoints": [
+      "主語に条件が含まれる「本当の友人なら」",
+      "would never「決して〜しないだろう」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-participle-construction",
+   "title": "分詞構文",
+   "level": 2,
+   "category": "準動詞",
+   "summary": "時・理由・条件・付帯状況を表す分詞構文と、独立分詞構文・with の付帯状況。",
+   "explanation": "## 作り方\n\n1. 接続詞を消す\n2. 主節と主語が同じなら主語を消す\n3. 動詞を doing にする（時制が主節より前なら having done、受動なら (being) done）\n\nWhen I entered the room, I found him asleep.\n→ **Entering** the room, I found him asleep.\n\n## 意味\n\n時（〜するとき）・理由（〜なので）・条件（〜すれば）・譲歩（〜だけれども）・付帯状況（〜しながら／そして〜）。文脈で判断する。\n\n## 独立分詞構文\n\n主語が異なる場合は主語を残す：**The weather being** fine, we went on a picnic.\n慣用表現：generally speaking, judging from 〜, considering 〜, weather permitting\n\n## with + O + 分詞（付帯状況）\n\nHe was sitting **with his eyes closed**.（目を閉じて：目は「閉じられた」ので過去分詞）",
+   "examples": [
+    {
+     "en": "Seen from a distance, the rock looks like a lion.",
+     "ja": "遠くから見ると、その岩はライオンのように見える。",
+     "note": "受動の分詞構文（Being を省略）"
+    },
+    {
+     "en": "Having finished my homework, I went out.",
+     "ja": "宿題を終えたので、私は出かけた。",
+     "note": "完了形の分詞構文"
+    },
+    {
+     "en": "She listened to music with her legs crossed.",
+     "ja": "彼女は脚を組んで音楽を聴いていた。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-pc-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Written"
+     ],
+     "explanation": "本は「書かれている」ので受動の分詞構文（Being written の Being 省略）。",
+     "sentence": "___ in simple English, the book is easy to read.",
+     "choices": [
+      "Writing",
+      "Written",
+      "To write",
+      "Having written"
+     ]
+    },
+    {
+     "id": "g-pc-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Having"
+     ],
+     "explanation": "As I had nothing to do の分詞構文。",
+     "sentence": "___ nothing to do, I went to bed early.",
+     "choices": [
+      "Having",
+      "Had",
+      "Have",
+      "To have"
+     ]
+    },
+    {
+     "id": "g-pc-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "folded"
+     ],
+     "explanation": "腕は「組まれた」状態なので with + O + 過去分詞。",
+     "sentence": "He stood there with his arms ___.",
+     "choices": [
+      "fold",
+      "folding",
+      "folded",
+      "to fold"
+     ]
+    },
+    {
+     "id": "g-pc-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Judging"
+     ],
+     "explanation": "judging from 〜「〜から判断すると」は慣用的な分詞構文。",
+     "sentence": "___ from his accent, he must be from Osaka.",
+     "choices": [
+      "Judge",
+      "Judging",
+      "Judged",
+      "To judge"
+     ]
+    },
+    {
+     "id": "g-pc-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "何と言えばよいかわからなかったので、彼女は黙ったままだった。"
+     ],
+     "explanation": "分詞構文の否定は not を分詞の直前に置く。",
+     "sentence": "Not knowing what to say, she remained silent.",
+     "keyPoints": [
+      "Not knowing「わからなかったので」（理由）",
+      "否定語 not は分詞の前",
+      "remain silent「黙ったままでいる」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-modal-perfect",
+   "title": "助動詞 + have + 過去分詞",
+   "level": 2,
+   "category": "助動詞",
+   "summary": "過去への推量・後悔・非難を表す must / can't / may / should have done。",
+   "explanation": "## 一覧\n\n| 形 | 意味 |\n|---|---|\n| must have done | 〜したに違いない |\n| can't (cannot) have done | 〜したはずがない |\n| may (might) have done | 〜したかもしれない |\n| should (ought to) have done | 〜すべきだったのに（しなかった） |\n| shouldn't have done | 〜すべきではなかったのに（してしまった） |\n| need not have done | 〜する必要はなかったのに（してしまった） |\n\n## 「現在から過去を推量する」形\n\n助動詞自体は**現在の話し手の判断**、have done が**過去の出来事**を表す。",
+   "examples": [
+    {
+     "en": "He must have left his umbrella on the train.",
+     "ja": "彼は電車に傘を置き忘れたに違いない。"
+    },
+    {
+     "en": "You should have told me earlier.",
+     "ja": "もっと早く言ってくれればよかったのに。"
+    },
+    {
+     "en": "She can't have said such a thing.",
+     "ja": "彼女がそんなことを言ったはずがない。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-mp-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "must have rained"
+     ],
+     "explanation": "現在の状況から過去の出来事を推量「降ったに違いない」。",
+     "sentence": "The ground is wet. It ___ last night.",
+     "choices": [
+      "must rain",
+      "must have rained",
+      "should rain",
+      "can't have rained"
+     ]
+    },
+    {
+     "id": "g-mp-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "should have studied"
+     ],
+     "explanation": "過去の後悔「もっと勉強すべきだったのに」。",
+     "sentence": "I failed the test. I ___ harder.",
+     "choices": [
+      "should study",
+      "must have studied",
+      "should have studied",
+      "can't have studied"
+     ]
+    },
+    {
+     "id": "g-mp-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "need not have"
+     ],
+     "explanation": "need not have done「〜する必要はなかったのに（実際はした）」。",
+     "sentence": "You ___ bought a ticket. Children can enter for free.",
+     "choices": [
+      "need not have",
+      "must have",
+      "should have",
+      "cannot"
+     ]
+    },
+    {
+     "id": "g-mp-4",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "can't",
+      "cannot",
+      "couldn't"
+     ],
+     "explanation": "私はそこにいなかったので「見たはずがない」→ can't have done。",
+     "sentence": "He ___ have seen me; I wasn't there at that time."
+    },
+    {
+     "id": "g-mp-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「彼女は道に迷ったのかもしれない。」",
+     "answers": [
+      "She may have lost her way.",
+      "She might have lost her way.",
+      "She may have got lost.",
+      "She might have gotten lost.",
+      "She may have gotten lost.",
+      "She might have got lost."
+     ],
+     "explanation": "過去についての推量 may have done。",
+     "keyPoints": [
+      "may / might have + 過去分詞「〜したかもしれない」",
+      "lose one's way / get lost「道に迷う」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-relative-adv",
+   "title": "関係副詞・複合関係詞・what",
+   "level": 2,
+   "category": "関係詞",
+   "summary": "where / when / why / how、関係代名詞 what、whoever / whatever / however。",
+   "explanation": "## 関係副詞\n\n| 先行詞 | 関係副詞 |\n|---|---|\n| 場所（place, house など） | where |\n| 時（time, day など） | when |\n| 理由（reason） | why |\n| 方法（way） | how ※ the way how とは言わない |\n\n**判別のポイント**：関係詞の後ろが「完全な文」なら関係副詞、「名詞が欠けた文」なら関係代名詞。\nThis is the house **where** he lives.（he lives は完全）／ This is the house **which** he built.（built の目的語が欠ける）\n\n## 関係代名詞 what\n\n先行詞を含み「〜すること・もの」。What he said is true.\n慣用：what is called（いわゆる）、what is more（さらに）、A is to B what C is to D（AとBの関係はCとDの関係と同じ）\n\n## 複合関係詞\n\n- whoever = anyone who（〜する人は誰でも）／ no matter who（誰が〜しても）\n- whatever = anything that ／ no matter what\n- however + 形容詞・副詞 = no matter how（どんなに〜でも）",
+   "examples": [
+    {
+     "en": "I'll never forget the day when I first met her.",
+     "ja": "彼女に初めて会った日を決して忘れない。"
+    },
+    {
+     "en": "What surprised me most was his calmness.",
+     "ja": "私を最も驚かせたのは彼の冷静さだった。"
+    },
+    {
+     "en": "However hard you try, you can't finish it in a day.",
+     "ja": "どんなに頑張っても、それを1日で終えることはできない。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-ra-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "where"
+     ],
+     "explanation": "I often played（自動詞）で文が完全なので関係副詞 where。",
+     "sentence": "This is the park ___ I often played as a child.",
+     "choices": [
+      "which",
+      "where",
+      "what",
+      "when"
+     ]
+    },
+    {
+     "id": "g-ra-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "which"
+     ],
+     "explanation": "visited の目的語が欠けているので関係代名詞 which。",
+     "sentence": "This is the park ___ I visited last year.",
+     "choices": [
+      "where",
+      "which",
+      "when",
+      "what"
+     ]
+    },
+    {
+     "id": "g-ra-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Whatever"
+     ],
+     "explanation": "says の目的語にあたる部分なので Whatever（= No matter what）。",
+     "sentence": "___ he says, I won't change my mind.",
+     "choices": [
+      "Whatever",
+      "However",
+      "Whoever",
+      "Whenever"
+     ]
+    },
+    {
+     "id": "g-ra-4",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "what"
+     ],
+     "explanation": "A is to B what C is to D「AとBの関係はCとDの関係に等しい」。",
+     "sentence": "Reading is to the mind ___ food is to the body."
+    },
+    {
+     "id": "g-ra-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "そういうわけで、私は教師になろうと決めた。",
+      "それが私が教師になろうと決めた理由だ。"
+     ],
+     "explanation": "That is why の後ろは結果、That is because の後ろは原因。",
+     "sentence": "That is why I decided to become a teacher.",
+     "keyPoints": [
+      "That is why 〜「そういうわけで〜」（結果）",
+      "That is because 〜（原因）との区別"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-inversion-emphasis",
+   "title": "倒置・強調構文・省略",
+   "level": 4,
+   "category": "特殊構文",
+   "summary": "否定語句の文頭による倒置、It is 〜 that の強調構文、共通要素の省略。",
+   "explanation": "## 否定語句が文頭に出る倒置\n\n否定の副詞（句）が文頭に来ると、後ろが **疑問文の語順** になる。\n\n- **Never have I seen** such a beautiful sunset.\n- **Not only did he** win the race, but he (also) broke the record.\n- **Hardly had I** arrived **when** it began to rain.（〜するとすぐに）\n- **Little did I dream** that I would win.\n- **Only after** the accident **did he realize** the danger.\n\n## 強調構文 It is 〜 that …\n\n強調したい語句を It is と that ではさむ。It is と that を取り除いて**完全な文が残れば強調構文**。\nIt was **in this room** that the meeting was held.\n\n## So / Neither + V + S\n\n「〜もそうだ／〜もそうでない」：I like jazz. — **So do I.** ／ I can't swim. — **Neither can I.**\n\n## 省略\n\n- 副詞節の S + be の省略：**While (I was) in London**, I visited many museums.\n- 繰り返しの省略：He can speak French, but I can't (speak French).",
+   "examples": [
+    {
+     "en": "Not until yesterday did I know the truth.",
+     "ja": "昨日になって初めて真実を知った。"
+    },
+    {
+     "en": "It was not until he lost his health that he realized its value.",
+     "ja": "健康を失って初めて、彼はその価値に気づいた。"
+    },
+    {
+     "en": "Seldom does she complain.",
+     "ja": "彼女はめったに不平を言わない。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-inv-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "have I heard"
+     ],
+     "explanation": "否定語 Never が文頭なので疑問文の語順（have I heard）。",
+     "sentence": "Never ___ such a strange story.",
+     "choices": [
+      "I have heard",
+      "have I heard",
+      "I heard",
+      "heard I"
+     ]
+    },
+    {
+     "id": "g-inv-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "had I got"
+     ],
+     "explanation": "No sooner had S done than …「〜するとすぐに…」。過去完了の倒置。",
+     "sentence": "No sooner ___ home than it started snowing.",
+     "choices": [
+      "I got",
+      "had I got",
+      "I had got",
+      "did I get"
+     ]
+    },
+    {
+     "id": "g-inv-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Neither"
+     ],
+     "explanation": "否定文を受けて「私もそうではない」は Neither (Nor) + V + S。",
+     "sentence": "\"I don't like spicy food.\" \"___ do I.\"",
+     "choices": [
+      "So",
+      "Neither",
+      "Either",
+      "Too"
+     ]
+    },
+    {
+     "id": "g-inv-4",
+     "type": "reorder",
+     "prompt": "日本語の意味になるように語句を並べ替えなさい。\n「彼が本当のことを話したのはその時だった。」",
+     "answers": [
+      "It was then that he told the truth"
+     ],
+     "explanation": "強調構文 It is 〜 that …。then を強調している。",
+     "choices": [
+      "It",
+      "was",
+      "then",
+      "that",
+      "he",
+      "told",
+      "the",
+      "truth"
+     ]
+    },
+    {
+     "id": "g-inv-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "健康を失って初めて、私たちはそれがいかに貴重かに気づく。"
+     ],
+     "explanation": "Only + 副詞（節）が文頭に出ると倒置が起こる。",
+     "sentence": "Only when we lose our health do we realize how precious it is.",
+     "keyPoints": [
+      "Only when 〜 do we realize「〜して初めて気づく」",
+      "倒置（do we realize）",
+      "how precious it is「それがいかに貴重か」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-noun-clause",
+   "title": "名詞節（that / whether / 疑問詞）と同格",
+   "level": 3,
+   "category": "接続詞",
+   "summary": "名詞節を導く that・whether・if・疑問詞と、同格の that。",
+   "explanation": "## 名詞節\n\n| 接続詞 | 意味 | 例 |\n|---|---|---|\n| that | 〜ということ | I believe **that** he is honest. |\n| whether / if | 〜かどうか | I wonder **whether (if)** she will come. |\n| 疑問詞 | 何が／いつ／なぜ〜か | Tell me **where** he lives.（間接疑問は S + V の語順） |\n\nif は主語や前置詞の目的語になる節では使えない：**Whether** it is true is not clear.\n\n## 形式主語・形式目的語の it\n\n- **It** is surprising **that** he passed.\n- I found **it** difficult **to** solve the problem.\n\n## 同格の that\n\n名詞の内容を説明する。後ろは **完全な文**（関係代名詞 that との違い）。\nthe fact / news / idea / belief / possibility **that** S V\n例：The news **that** he had won surprised us.",
+   "examples": [
+    {
+     "en": "Whether we go or not depends on the weather.",
+     "ja": "行くかどうかは天気次第だ。"
+    },
+    {
+     "en": "I don't know what he wants.",
+     "ja": "彼が何を望んでいるのかわからない。"
+    },
+    {
+     "en": "There is little possibility that she will fail.",
+     "ja": "彼女が失敗する可能性はほとんどない。",
+     "note": "同格の that"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-nc-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Whether"
+     ],
+     "explanation": "主語になる「〜かどうか」の節は whether（if は不可）。",
+     "sentence": "___ he will accept the offer is uncertain.",
+     "choices": [
+      "If",
+      "Whether",
+      "That",
+      "What"
+     ]
+    },
+    {
+     "id": "g-nc-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "where she lives"
+     ],
+     "explanation": "間接疑問は疑問詞 + S + V の平叙文の語順。",
+     "sentence": "Do you know ___?",
+     "choices": [
+      "where does she live",
+      "where she lives",
+      "where lives she",
+      "she lives where"
+     ]
+    },
+    {
+     "id": "g-nc-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "it"
+     ],
+     "explanation": "make it a rule to do「〜することにしている」。形式目的語 it。",
+     "sentence": "I made ___ a rule to get up at six.",
+     "choices": [
+      "it",
+      "that",
+      "this",
+      "what"
+     ]
+    },
+    {
+     "id": "g-nc-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "that"
+     ],
+     "explanation": "the team had won は完全な文なので同格の that。",
+     "sentence": "We were surprised at the news ___ the team had won.",
+     "choices": [
+      "which",
+      "that",
+      "what",
+      "when"
+     ]
+    },
+    {
+     "id": "g-nc-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "お金で幸福が買えるという考えは広く信じられているが、研究によって裏付けられてはいない。"
+     ],
+     "explanation": "The idea that ... の that は同格。後ろが完全な文であることを確認する。",
+     "sentence": "The idea that money can buy happiness is widely held, but it is not supported by research.",
+     "keyPoints": [
+      "同格の that「〜という考え」",
+      "be widely held「広く抱かれている」",
+      "be supported by research「研究で裏付けられる」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-verb-usage",
+   "title": "動詞の語法（入試頻出）",
+   "level": 4,
+   "category": "語法",
+   "summary": "tell/say/speak/talk、rob/steal、lie/lay、suggest型の that 節など、間違えやすい動詞の型。",
+   "explanation": "## 「言う」系の動詞\n\n| 動詞 | 主な型 |\n|---|---|\n| tell | tell 人 物／tell 人 to do／tell 人 that 節 |\n| say | say (to 人) that 節（人を直接目的語にとらない） |\n| speak | speak to/with 人、speak 言語 |\n| talk | talk to/with 人 about 物、talk 人 into doing |\n\n## 「奪う」「盗む」\n\n- rob **人・場所** of 物：He robbed me of my wallet.\n- steal **物** from 人：He stole my wallet. → I **had** my wallet **stolen**.\n\n## 自動詞と他動詞の紛らわしいペア\n\n| 自動詞 | 他動詞 |\n|---|---|\n| lie（横たわる）lie - lay - lain | lay（横たえる・置く）lay - laid - laid |\n| rise（上がる） | raise（上げる） |\n\n## 提案・要求・命令の that 節\n\nsuggest, propose, demand, insist, recommend, require などの that 節では **(should) + 原形**。\nHe demanded that the meeting **(should) be** postponed.",
+   "examples": [
+    {
+     "en": "She told me to wait outside.",
+     "ja": "彼女は私に外で待つように言った。"
+    },
+    {
+     "en": "I had my bike stolen yesterday.",
+     "ja": "昨日自転車を盗まれた。"
+    },
+    {
+     "en": "The doctor recommended that he stop smoking.",
+     "ja": "医者は彼に禁煙するよう勧めた。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-vu-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "told"
+     ],
+     "explanation": "tell 人 that 節。say は人を直接目的語にとれない（say to me that ...）。",
+     "sentence": "He ___ me that he would be late.",
+     "choices": [
+      "said",
+      "told",
+      "spoke",
+      "talked"
+     ]
+    },
+    {
+     "id": "g-vu-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "stole"
+     ],
+     "explanation": "steal 物（from 人）。rob は rob 人 of 物 の型。",
+     "sentence": "Someone ___ my purse on the train.",
+     "choices": [
+      "robbed",
+      "stole",
+      "deprived",
+      "took off"
+     ]
+    },
+    {
+     "id": "g-vu-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "lay"
+     ],
+     "explanation": "自動詞 lie（横たわる）の過去形は lay。laid は他動詞 lay の過去形。",
+     "sentence": "She ___ on the sofa and fell asleep.",
+     "choices": [
+      "laid",
+      "lay",
+      "lied",
+      "layed"
+     ]
+    },
+    {
+     "id": "g-vu-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "submit"
+     ],
+     "explanation": "insist that S (should) 原形（主張・要求）。",
+     "sentence": "The teacher insisted that every student ___ the essay by Friday.",
+     "choices": [
+      "submits",
+      "submitted",
+      "submit",
+      "will submit"
+     ]
+    },
+    {
+     "id": "g-vu-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「母は私を説得して新しい塾に行かせた。」",
+     "answers": [
+      "My mother talked me into going to a new cram school.",
+      "My mother persuaded me to go to a new cram school.",
+      "My mother talked me into attending a new cram school."
+     ],
+     "explanation": "「説得して〜させる」は talk 人 into doing または persuade 人 to do。",
+     "keyPoints": [
+      "talk 人 into doing / persuade 人 to do「説得して〜させる」",
+      "cram school「塾」"
+     ]
+    }
+   ]
+  }
+ ]
+}
