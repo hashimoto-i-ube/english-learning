@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T12:54:38Z",
+  "generatedAt" : "2026-10-22T12:55:52Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -69,8 +69,8 @@
     {
       "file" : "packs/vocab-l3.json",
       "id" : "vocab.core.l3",
-      "revision" : 2,
-      "sha256" : "15c9ffa7970c177f369c0361f542405b021e34e530ef46d4f36f76a71113359a",
+      "revision" : 3,
+      "sha256" : "64937dcb7366ada0bbb631ea6c764e0613a45d74a7f94d2a55637fa838109bb2",
       "skill" : "vocabulary",
       "title" : "Lv3 共通テスト基礎語彙"
     },
