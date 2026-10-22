@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T12:49:51Z",
+  "generatedAt" : "2026-10-22T12:53:30Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -53,8 +53,8 @@
     {
       "file" : "packs/vocab-l1.json",
       "id" : "vocab.core.l1",
-      "revision" : 2,
-      "sha256" : "3383aa2d6ea6f4af9c39a5668d15e06b2a67f504eb003a0810d9a8ab0c96711c",
+      "revision" : 3,
+      "sha256" : "69d35b8c8632cc29f9c2e9d7abedd3fc003e15140423a28acf9dc3ebf48f781c",
       "skill" : "vocabulary",
       "title" : "Lv1 基本語彙"
     },

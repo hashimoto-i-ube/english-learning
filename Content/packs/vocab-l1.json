@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "vocab.core.l1",
- "revision": 2,
+ "revision": 3,
  "skill": "vocabulary",
  "title": "Lv1 基本語彙",
  "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
@@ -1857,6 +1857,1718 @@
     "be worth doing"
    ],
    "note": "worth の後ろの動名詞は能動形（×worth being read）。"
+  },
+  {
+   "id": "w-abroad",
+   "headword": "abroad",
+   "pos": "副",
+   "meanings": [
+    "海外へ",
+    "海外で"
+   ],
+   "level": 1,
+   "ipa": "/əˈbrɔːd/",
+   "example": {
+    "en": "She wants to study abroad.",
+    "ja": "彼女は留学したいと思っている。"
+   },
+   "note": "副詞なので前置詞不要（×go to abroad）。"
+  },
+  {
+   "id": "w-accident",
+   "headword": "accident",
+   "pos": "名",
+   "meanings": [
+    "事故",
+    "偶然"
+   ],
+   "level": 1,
+   "ipa": "/ˈæksɪdənt/",
+   "example": {
+    "en": "He was injured in a car accident.",
+    "ja": "彼は自動車事故でけがをした。"
+   },
+   "collocations": [
+    "by accident（偶然に）"
+   ]
+  },
+  {
+   "id": "w-activity",
+   "headword": "activity",
+   "pos": "名",
+   "meanings": [
+    "活動"
+   ],
+   "level": 1,
+   "ipa": "/ækˈtɪvəti/",
+   "example": {
+    "en": "Club activities are popular at our school.",
+    "ja": "私たちの学校では部活動が盛んだ。"
+   },
+   "derivatives": [
+    "active 形 活動的な"
+   ]
+  },
+  {
+   "id": "w-actually",
+   "headword": "actually",
+   "pos": "副",
+   "meanings": [
+    "実際は",
+    "本当は"
+   ],
+   "level": 1,
+   "ipa": "/ˈæktʃuəli/",
+   "example": {
+    "en": "He looks young, but he is actually forty.",
+    "ja": "彼は若く見えるが、実は40歳だ。"
+   }
+  },
+  {
+   "id": "w-adult",
+   "headword": "adult",
+   "pos": "名",
+   "meanings": [
+    "大人"
+   ],
+   "level": 1,
+   "ipa": "/ˈædʌlt/",
+   "example": {
+    "en": "Tickets are 1,000 yen for adults.",
+    "ja": "大人のチケットは1,000円だ。"
+   },
+   "antonyms": [
+    "child 子ども"
+   ]
+  },
+  {
+   "id": "w-afraid",
+   "headword": "afraid",
+   "pos": "形",
+   "meanings": [
+    "恐れて",
+    "心配して"
+   ],
+   "level": 1,
+   "ipa": "/əˈfreɪd/",
+   "example": {
+    "en": "Don't be afraid of making mistakes.",
+    "ja": "間違えることを恐れるな。"
+   },
+   "collocations": [
+    "be afraid of ~",
+    "I'm afraid (that) ~（残念ながら〜）"
+   ]
+  },
+  {
+   "id": "w-alive",
+   "headword": "alive",
+   "pos": "形",
+   "meanings": [
+    "生きている"
+   ],
+   "level": 1,
+   "ipa": "/əˈlaɪv/",
+   "example": {
+    "en": "The fish is still alive.",
+    "ja": "その魚はまだ生きている。"
+   },
+   "note": "名詞の前には置かない（×an alive fish → a living fish / a live fish）。"
+  },
+  {
+   "id": "w-alone",
+   "headword": "alone",
+   "pos": "副",
+   "meanings": [
+    "一人で"
+   ],
+   "level": 1,
+   "ipa": "/əˈləʊn/",
+   "example": {
+    "en": "She lives alone in a small apartment.",
+    "ja": "彼女は小さなアパートで一人暮らしをしている。"
+   },
+   "note": "lonely は「寂しい」。"
+  },
+  {
+   "id": "w-although",
+   "headword": "although",
+   "pos": "接",
+   "meanings": [
+    "〜だけれども"
+   ],
+   "level": 1,
+   "ipa": "/ɔːlˈðəʊ/",
+   "example": {
+    "en": "Although it was raining, we went out.",
+    "ja": "雨が降っていたが、私たちは出かけた。"
+   },
+   "synonyms": [
+    "though"
+   ]
+  },
+  {
+   "id": "w-amount",
+   "headword": "amount",
+   "pos": "名",
+   "meanings": [
+    "量",
+    "額"
+   ],
+   "level": 1,
+   "ipa": "/əˈmaʊnt/",
+   "example": {
+    "en": "He spent a large amount of money on books.",
+    "ja": "彼は本に多額のお金を使った。"
+   },
+   "note": "不可算名詞に使う（可算名詞は number）。"
+  },
+  {
+   "id": "w-anxious",
+   "headword": "anxious",
+   "pos": "形",
+   "meanings": [
+    "心配して",
+    "切望して"
+   ],
+   "level": 1,
+   "ipa": "/ˈæŋkʃəs/",
+   "example": {
+    "en": "She was anxious about the exam.",
+    "ja": "彼女は試験のことを心配していた。"
+   },
+   "collocations": [
+    "be anxious about ~（心配）",
+    "be anxious to do（切望）"
+   ]
+  },
+  {
+   "id": "w-area",
+   "headword": "area",
+   "pos": "名",
+   "meanings": [
+    "地域",
+    "領域"
+   ],
+   "level": 1,
+   "ipa": "/ˈeəriə/",
+   "example": {
+    "en": "This area is famous for its hot springs.",
+    "ja": "この地域は温泉で有名だ。"
+   }
+  },
+  {
+   "id": "w-asleep",
+   "headword": "asleep",
+   "pos": "形",
+   "meanings": [
+    "眠って"
+   ],
+   "level": 1,
+   "ipa": "/əˈsliːp/",
+   "example": {
+    "en": "The baby fell asleep quickly.",
+    "ja": "赤ちゃんはすぐに眠りについた。"
+   },
+   "collocations": [
+    "fall asleep（寝入る）"
+   ],
+   "note": "名詞の前には置かない。"
+  },
+  {
+   "id": "w-attack",
+   "headword": "attack",
+   "pos": "動",
+   "meanings": [
+    "攻撃する",
+    "襲う"
+   ],
+   "level": 1,
+   "ipa": "/əˈtæk/",
+   "example": {
+    "en": "The dog attacked the cat.",
+    "ja": "犬が猫を襲った。"
+   },
+   "collocations": [
+    "heart attack（心臓発作）"
+   ]
+  },
+  {
+   "id": "w-award",
+   "headword": "award",
+   "pos": "名",
+   "meanings": [
+    "賞"
+   ],
+   "level": 1,
+   "ipa": "/əˈwɔːd/",
+   "example": {
+    "en": "She won an award for her novel.",
+    "ja": "彼女は小説で賞を受けた。"
+   }
+  },
+  {
+   "id": "w-basic",
+   "headword": "basic",
+   "pos": "形",
+   "meanings": [
+    "基本的な"
+   ],
+   "level": 1,
+   "ipa": "/ˈbeɪsɪk/",
+   "example": {
+    "en": "Food and water are basic needs.",
+    "ja": "食べ物と水は基本的な必需品だ。"
+   },
+   "derivatives": [
+    "basis 名 基礎"
+   ]
+  },
+  {
+   "id": "w-belong",
+   "headword": "belong",
+   "pos": "動",
+   "meanings": [
+    "属する"
+   ],
+   "level": 1,
+   "ipa": "/bɪˈlɒŋ/",
+   "example": {
+    "en": "This book belongs to the library.",
+    "ja": "この本は図書館のものだ。"
+   },
+   "collocations": [
+    "belong to ~"
+   ],
+   "note": "進行形にしない。"
+  },
+  {
+   "id": "w-birth",
+   "headword": "birth",
+   "pos": "名",
+   "meanings": [
+    "誕生",
+    "出産"
+   ],
+   "level": 1,
+   "ipa": "/bɜːθ/",
+   "example": {
+    "en": "Write your date of birth here.",
+    "ja": "ここに生年月日を書いてください。"
+   },
+   "collocations": [
+    "birth rate（出生率）"
+   ]
+  },
+  {
+   "id": "w-blood",
+   "headword": "blood",
+   "pos": "名",
+   "meanings": [
+    "血液"
+   ],
+   "level": 1,
+   "ipa": "/blʌd/",
+   "example": {
+    "en": "He gives blood twice a year.",
+    "ja": "彼は年に2回献血している。"
+   },
+   "note": "発音は /ʌ/（ブラッド）。"
+  },
+  {
+   "id": "w-border",
+   "headword": "border",
+   "pos": "名",
+   "meanings": [
+    "国境",
+    "境界"
+   ],
+   "level": 1,
+   "ipa": "/ˈbɔːdər/",
+   "example": {
+    "en": "They crossed the border into France.",
+    "ja": "彼らは国境を越えてフランスに入った。"
+   }
+  },
+  {
+   "id": "w-brain",
+   "headword": "brain",
+   "pos": "名",
+   "meanings": [
+    "脳",
+    "頭脳"
+   ],
+   "level": 1,
+   "ipa": "/breɪn/",
+   "example": {
+    "en": "The brain needs a lot of energy.",
+    "ja": "脳は多くのエネルギーを必要とする。"
+   }
+  },
+  {
+   "id": "w-breath",
+   "headword": "breath",
+   "pos": "名",
+   "meanings": [
+    "息",
+    "呼吸"
+   ],
+   "level": 1,
+   "ipa": "/breθ/",
+   "example": {
+    "en": "Take a deep breath and relax.",
+    "ja": "深呼吸してリラックスしなさい。"
+   },
+   "derivatives": [
+    "breathe 動 呼吸する /briːð/"
+   ]
+  },
+  {
+   "id": "w-burn",
+   "headword": "burn",
+   "pos": "動",
+   "meanings": [
+    "燃える",
+    "燃やす",
+    "やけどする"
+   ],
+   "level": 1,
+   "ipa": "/bɜːn/",
+   "example": {
+    "en": "Be careful not to burn yourself.",
+    "ja": "やけどしないように気をつけて。"
+   }
+  },
+  {
+   "id": "w-business",
+   "headword": "business",
+   "pos": "名",
+   "meanings": [
+    "商売",
+    "事業",
+    "用事"
+   ],
+   "level": 1,
+   "ipa": "/ˈbɪznəs/",
+   "example": {
+    "en": "My father runs a small business.",
+    "ja": "父は小さな事業を営んでいる。"
+   },
+   "collocations": [
+    "on business（仕事で）"
+   ]
+  },
+  {
+   "id": "w-calm",
+   "headword": "calm",
+   "pos": "形",
+   "meanings": [
+    "落ち着いた",
+    "穏やかな"
+   ],
+   "level": 1,
+   "ipa": "/kɑːm/",
+   "example": {
+    "en": "Try to stay calm in an emergency.",
+    "ja": "緊急時には落ち着いているよう心がけなさい。"
+   },
+   "note": "l は発音しない。"
+  },
+  {
+   "id": "w-cancel",
+   "headword": "cancel",
+   "pos": "動",
+   "meanings": [
+    "取り消す",
+    "中止する"
+   ],
+   "level": 1,
+   "ipa": "/ˈkænsl/",
+   "example": {
+    "en": "The game was canceled because of rain.",
+    "ja": "試合は雨のため中止された。"
+   }
+  },
+  {
+   "id": "w-capital",
+   "headword": "capital",
+   "pos": "名",
+   "meanings": [
+    "首都",
+    "資本"
+   ],
+   "level": 1,
+   "ipa": "/ˈkæpɪtl/",
+   "example": {
+    "en": "Canberra is the capital of Australia.",
+    "ja": "キャンベラはオーストラリアの首都だ。"
+   },
+   "note": "capital letter は「大文字」。"
+  },
+  {
+   "id": "w-case",
+   "headword": "case",
+   "pos": "名",
+   "meanings": [
+    "場合",
+    "事例",
+    "事件",
+    "箱"
+   ],
+   "level": 1,
+   "ipa": "/keɪs/",
+   "example": {
+    "en": "In that case, I'll call you later.",
+    "ja": "その場合は、後で電話します。"
+   },
+   "collocations": [
+    "in case of ~（〜の場合には）"
+   ]
+  },
+  {
+   "id": "w-certain",
+   "headword": "certain",
+   "pos": "形",
+   "meanings": [
+    "確かな",
+    "ある〜"
+   ],
+   "level": 1,
+   "ipa": "/ˈsɜːtn/",
+   "example": {
+    "en": "I am certain that he will come.",
+    "ja": "彼はきっと来ると確信している。"
+   },
+   "derivatives": [
+    "certainly 副 確かに"
+   ],
+   "note": "名詞の前では「ある特定の」：a certain person。"
+  },
+  {
+   "id": "w-chance",
+   "headword": "chance",
+   "pos": "名",
+   "meanings": [
+    "機会",
+    "可能性"
+   ],
+   "level": 1,
+   "ipa": "/tʃɑːns/",
+   "example": {
+    "en": "There is a good chance that it will rain.",
+    "ja": "雨が降る可能性が高い。"
+   },
+   "collocations": [
+    "by chance（偶然に）"
+   ]
+  },
+  {
+   "id": "w-charge",
+   "headword": "charge",
+   "pos": "名",
+   "meanings": [
+    "料金",
+    "責任"
+   ],
+   "level": 1,
+   "ipa": "/tʃɑːdʒ/",
+   "example": {
+    "en": "Delivery is free of charge.",
+    "ja": "配達は無料です。"
+   },
+   "collocations": [
+    "free of charge（無料で）",
+    "in charge of ~（〜を担当して）"
+   ]
+  },
+  {
+   "id": "w-cheap",
+   "headword": "cheap",
+   "pos": "形",
+   "meanings": [
+    "安い"
+   ],
+   "level": 1,
+   "ipa": "/tʃiːp/",
+   "example": {
+    "en": "This shirt was very cheap.",
+    "ja": "このシャツはとても安かった。"
+   },
+   "antonyms": [
+    "expensive 高い"
+   ],
+   "note": "price（価格）が安いは low を使う。"
+  },
+  {
+   "id": "w-chemical",
+   "headword": "chemical",
+   "pos": "名",
+   "meanings": [
+    "化学物質"
+   ],
+   "level": 1,
+   "ipa": "/ˈkemɪkl/",
+   "example": {
+    "en": "Some chemicals are harmful to the skin.",
+    "ja": "肌に有害な化学物質もある。"
+   },
+   "derivatives": [
+    "chemistry 名 化学"
+   ]
+  },
+  {
+   "id": "w-citizen",
+   "headword": "citizen",
+   "pos": "名",
+   "meanings": [
+    "市民",
+    "国民"
+   ],
+   "level": 1,
+   "ipa": "/ˈsɪtɪzn/",
+   "example": {
+    "en": "Every citizen has the right to vote.",
+    "ja": "すべての国民に投票権がある。"
+   }
+  },
+  {
+   "id": "w-coast",
+   "headword": "coast",
+   "pos": "名",
+   "meanings": [
+    "海岸",
+    "沿岸"
+   ],
+   "level": 1,
+   "ipa": "/kəʊst/",
+   "example": {
+    "en": "They live on the east coast.",
+    "ja": "彼らは東海岸に住んでいる。"
+   }
+  },
+  {
+   "id": "w-common",
+   "headword": "common",
+   "pos": "形",
+   "meanings": [
+    "共通の",
+    "よくある"
+   ],
+   "level": 1,
+   "ipa": "/ˈkɒmən/",
+   "example": {
+    "en": "It is common for students to have part-time jobs.",
+    "ja": "学生がアルバイトをするのはよくあることだ。"
+   },
+   "collocations": [
+    "have ~ in common（〜を共通にもつ）"
+   ]
+  },
+  {
+   "id": "w-community",
+   "headword": "community",
+   "pos": "名",
+   "meanings": [
+    "地域社会",
+    "共同体"
+   ],
+   "level": 1,
+   "ipa": "/kəˈmjuːnəti/",
+   "example": {
+    "en": "He is an important member of the community.",
+    "ja": "彼は地域社会の重要な一員だ。"
+   }
+  },
+  {
+   "id": "w-company",
+   "headword": "company",
+   "pos": "名",
+   "meanings": [
+    "会社",
+    "仲間",
+    "同席"
+   ],
+   "level": 1,
+   "ipa": "/ˈkʌmpəni/",
+   "example": {
+    "en": "She works for a computer company.",
+    "ja": "彼女はコンピューター会社に勤めている。"
+   },
+   "note": "「同席・一緒にいること」の意味もある：I enjoyed your company."
+  },
+  {
+   "id": "w-complete",
+   "headword": "complete",
+   "pos": "動",
+   "meanings": [
+    "完成させる",
+    "終える"
+   ],
+   "level": 1,
+   "ipa": "/kəmˈpliːt/",
+   "example": {
+    "en": "The new bridge will be completed next year.",
+    "ja": "新しい橋は来年完成する。"
+   },
+   "note": "形容詞「完全な」。completely 副 完全に。"
+  },
+  {
+   "id": "w-connect",
+   "headword": "connect",
+   "pos": "動",
+   "meanings": [
+    "つなぐ",
+    "関連づける"
+   ],
+   "level": 1,
+   "ipa": "/kəˈnekt/",
+   "example": {
+    "en": "The tunnel connects the two islands.",
+    "ja": "そのトンネルが2つの島をつないでいる。"
+   },
+   "derivatives": [
+    "connection 名 関係；接続"
+   ]
+  },
+  {
+   "id": "w-control",
+   "headword": "control",
+   "pos": "動",
+   "meanings": [
+    "管理する",
+    "制御する"
+   ],
+   "level": 1,
+   "ipa": "/kənˈtrəʊl/",
+   "example": {
+    "en": "He couldn't control his anger.",
+    "ja": "彼は怒りを抑えられなかった。"
+   },
+   "accentNote": "con-TROL（第2音節）。"
+  },
+  {
+   "id": "w-cost",
+   "headword": "cost",
+   "pos": "動",
+   "meanings": [
+    "（費用が）かかる"
+   ],
+   "level": 1,
+   "ipa": "/kɒst/",
+   "example": {
+    "en": "The tickets cost 3,000 yen each.",
+    "ja": "チケットは1枚3,000円する。"
+   },
+   "note": "活用 cost - cost - cost。名詞「費用」。"
+  },
+  {
+   "id": "w-couple",
+   "headword": "couple",
+   "pos": "名",
+   "meanings": [
+    "2つ",
+    "夫婦"
+   ],
+   "level": 1,
+   "ipa": "/ˈkʌpl/",
+   "example": {
+    "en": "I'll be back in a couple of days.",
+    "ja": "2、3日で戻ります。"
+   },
+   "collocations": [
+    "a couple of ~（2つの・2、3の）"
+   ]
+  },
+  {
+   "id": "w-courage",
+   "headword": "courage",
+   "pos": "名",
+   "meanings": [
+    "勇気"
+   ],
+   "level": 1,
+   "ipa": "/ˈkʌrɪdʒ/",
+   "example": {
+    "en": "It took courage to tell the truth.",
+    "ja": "真実を話すには勇気が必要だった。"
+   },
+   "derivatives": [
+    "encourage 動 励ます"
+   ]
+  },
+  {
+   "id": "w-cover",
+   "headword": "cover",
+   "pos": "動",
+   "meanings": [
+    "覆う",
+    "扱う"
+   ],
+   "level": 1,
+   "ipa": "/ˈkʌvər/",
+   "example": {
+    "en": "Snow covered the ground.",
+    "ja": "雪が地面を覆った。"
+   },
+   "collocations": [
+    "be covered with ~"
+   ]
+  },
+  {
+   "id": "w-crowd",
+   "headword": "crowd",
+   "pos": "名",
+   "meanings": [
+    "群衆",
+    "人込み"
+   ],
+   "level": 1,
+   "ipa": "/kraʊd/",
+   "example": {
+    "en": "A large crowd gathered in the square.",
+    "ja": "大勢の群衆が広場に集まった。"
+   },
+   "derivatives": [
+    "crowded 形 混雑した"
+   ]
+  },
+  {
+   "id": "w-cure",
+   "headword": "cure",
+   "pos": "動",
+   "meanings": [
+    "治す"
+   ],
+   "level": 1,
+   "ipa": "/kjʊər/",
+   "example": {
+    "en": "This medicine will cure your cold.",
+    "ja": "この薬で風邪が治るだろう。"
+   },
+   "collocations": [
+    "cure A of B（AのBを治す）"
+   ]
+  },
+  {
+   "id": "w-daily",
+   "headword": "daily",
+   "pos": "形",
+   "meanings": [
+    "毎日の"
+   ],
+   "level": 1,
+   "ipa": "/ˈdeɪli/",
+   "example": {
+    "en": "Exercise should be part of your daily life.",
+    "ja": "運動は日常生活の一部にすべきだ。"
+   }
+  },
+  {
+   "id": "w-danger",
+   "headword": "danger",
+   "pos": "名",
+   "meanings": [
+    "危険"
+   ],
+   "level": 1,
+   "ipa": "/ˈdeɪndʒər/",
+   "example": {
+    "en": "The animals are in danger of extinction.",
+    "ja": "その動物たちは絶滅の危機にある。"
+   },
+   "derivatives": [
+    "dangerous 形 危険な"
+   ],
+   "collocations": [
+    "in danger of ~"
+   ]
+  },
+  {
+   "id": "w-data",
+   "headword": "data",
+   "pos": "名",
+   "meanings": [
+    "データ",
+    "資料"
+   ],
+   "level": 1,
+   "ipa": "/ˈdeɪtə/",
+   "example": {
+    "en": "We collected data from 1,000 students.",
+    "ja": "私たちは1,000人の生徒からデータを集めた。"
+   },
+   "note": "本来は datum の複数形。単数扱いも一般的。"
+  },
+  {
+   "id": "w-deal",
+   "headword": "deal",
+   "pos": "動",
+   "meanings": [
+    "扱う",
+    "対処する"
+   ],
+   "level": 1,
+   "ipa": "/diːl/",
+   "example": {
+    "en": "We must deal with this problem quickly.",
+    "ja": "この問題に早急に対処しなければならない。"
+   },
+   "collocations": [
+    "deal with ~",
+    "a great deal of ~（大量の）"
+   ]
+  },
+  {
+   "id": "w-deep",
+   "headword": "deep",
+   "pos": "形",
+   "meanings": [
+    "深い"
+   ],
+   "level": 1,
+   "ipa": "/diːp/",
+   "example": {
+    "en": "The lake is very deep.",
+    "ja": "その湖はとても深い。"
+   },
+   "derivatives": [
+    "depth 名 深さ"
+   ]
+  },
+  {
+   "id": "w-degree",
+   "headword": "degree",
+   "pos": "名",
+   "meanings": [
+    "程度",
+    "度",
+    "学位"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈɡriː/",
+   "example": {
+    "en": "The temperature rose to 35 degrees.",
+    "ja": "気温は35度まで上がった。"
+   },
+   "collocations": [
+    "to some degree（ある程度）"
+   ]
+  },
+  {
+   "id": "w-delay",
+   "headword": "delay",
+   "pos": "動",
+   "meanings": [
+    "遅らせる"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈleɪ/",
+   "example": {
+    "en": "The flight was delayed by two hours.",
+    "ja": "飛行機は2時間遅れた。"
+   },
+   "note": "名詞「遅れ」：without delay（すぐに）。"
+  },
+  {
+   "id": "w-deliver",
+   "headword": "deliver",
+   "pos": "動",
+   "meanings": [
+    "配達する",
+    "（演説を）する"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈlɪvər/",
+   "example": {
+    "en": "The package was delivered this morning.",
+    "ja": "荷物は今朝配達された。"
+   },
+   "derivatives": [
+    "delivery 名 配達"
+   ]
+  },
+  {
+   "id": "w-design",
+   "headword": "design",
+   "pos": "動",
+   "meanings": [
+    "設計する"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈzaɪn/",
+   "example": {
+    "en": "This car was designed for families.",
+    "ja": "この車は家族向けに設計された。"
+   },
+   "note": "g は発音しない。"
+  },
+  {
+   "id": "w-detail",
+   "headword": "detail",
+   "pos": "名",
+   "meanings": [
+    "細部",
+    "詳細"
+   ],
+   "level": 1,
+   "ipa": "/ˈdiːteɪl/",
+   "example": {
+    "en": "Please explain the plan in detail.",
+    "ja": "計画を詳しく説明してください。"
+   },
+   "collocations": [
+    "in detail（詳細に）"
+   ]
+  },
+  {
+   "id": "w-diet",
+   "headword": "diet",
+   "pos": "名",
+   "meanings": [
+    "日常の食事",
+    "食事制限"
+   ],
+   "level": 1,
+   "ipa": "/ˈdaɪət/",
+   "example": {
+    "en": "A healthy diet includes lots of vegetables.",
+    "ja": "健康的な食生活には野菜がたくさん含まれる。"
+   },
+   "collocations": [
+    "be on a diet（ダイエット中）"
+   ]
+  },
+  {
+   "id": "w-difficulty",
+   "headword": "difficulty",
+   "pos": "名",
+   "meanings": [
+    "困難"
+   ],
+   "level": 1,
+   "ipa": "/ˈdɪfɪkəlti/",
+   "example": {
+    "en": "He had difficulty finding a job.",
+    "ja": "彼は仕事を見つけるのに苦労した。"
+   },
+   "collocations": [
+    "have difficulty (in) doing"
+   ]
+  },
+  {
+   "id": "w-direction",
+   "headword": "direction",
+   "pos": "名",
+   "meanings": [
+    "方向",
+    "指示"
+   ],
+   "level": 1,
+   "ipa": "/dəˈrekʃn/",
+   "example": {
+    "en": "We walked in the direction of the station.",
+    "ja": "私たちは駅の方向へ歩いた。"
+   },
+   "note": "「〜の方向に」は in the direction of（×to）。"
+  },
+  {
+   "id": "w-distance",
+   "headword": "distance",
+   "pos": "名",
+   "meanings": [
+    "距離"
+   ],
+   "level": 1,
+   "ipa": "/ˈdɪstəns/",
+   "example": {
+    "en": "The school is within walking distance.",
+    "ja": "学校は歩いて行ける距離にある。"
+   },
+   "derivatives": [
+    "distant 形 遠い"
+   ]
+  },
+  {
+   "id": "w-divide",
+   "headword": "divide",
+   "pos": "動",
+   "meanings": [
+    "分ける"
+   ],
+   "level": 1,
+   "ipa": "/dɪˈvaɪd/",
+   "example": {
+    "en": "The teacher divided the class into four groups.",
+    "ja": "先生はクラスを4つのグループに分けた。"
+   },
+   "collocations": [
+    "divide A into B"
+   ]
+  },
+  {
+   "id": "w-double",
+   "headword": "double",
+   "pos": "動",
+   "meanings": [
+    "2倍になる",
+    "2倍にする"
+   ],
+   "level": 1,
+   "ipa": "/ˈdʌbl/",
+   "example": {
+    "en": "The price has doubled in five years.",
+    "ja": "価格は5年で2倍になった。"
+   }
+  },
+  {
+   "id": "w-doubt",
+   "headword": "doubt",
+   "pos": "動",
+   "meanings": [
+    "疑う"
+   ],
+   "level": 1,
+   "ipa": "/daʊt/",
+   "example": {
+    "en": "I doubt that he will come.",
+    "ja": "彼は来ないのではないかと思う。"
+   },
+   "note": "b は発音しない。doubt that ~「〜ではないと思う」、suspect that ~「〜ではないかと思う」。"
+  },
+  {
+   "id": "w-duty",
+   "headword": "duty",
+   "pos": "名",
+   "meanings": [
+    "義務",
+    "任務"
+   ],
+   "level": 1,
+   "ipa": "/ˈdjuːti/",
+   "example": {
+    "en": "It is our duty to protect children.",
+    "ja": "子どもを守ることは私たちの義務だ。"
+   },
+   "collocations": [
+    "on duty（勤務中）",
+    "duty-free（免税の）"
+   ]
+  },
+  {
+   "id": "w-earthquake",
+   "headword": "earthquake",
+   "pos": "名",
+   "meanings": [
+    "地震"
+   ],
+   "level": 1,
+   "ipa": "/ˈɜːθkweɪk/",
+   "example": {
+    "en": "Japan has many earthquakes.",
+    "ja": "日本では地震が多い。"
+   }
+  },
+  {
+   "id": "w-effort",
+   "headword": "effort",
+   "pos": "名",
+   "meanings": [
+    "努力"
+   ],
+   "level": 1,
+   "ipa": "/ˈefət/",
+   "example": {
+    "en": "Learning a language takes a lot of effort.",
+    "ja": "言語の習得には多くの努力が必要だ。"
+   },
+   "collocations": [
+    "make an effort to do"
+   ]
+  },
+  {
+   "id": "w-electricity",
+   "headword": "electricity",
+   "pos": "名",
+   "meanings": [
+    "電気"
+   ],
+   "level": 1,
+   "ipa": "/ɪˌlekˈtrɪsəti/",
+   "example": {
+    "en": "Wind can be used to produce electricity.",
+    "ja": "風は発電に使うことができる。"
+   },
+   "derivatives": [
+    "electric 形 電気の"
+   ]
+  },
+  {
+   "id": "w-emergency",
+   "headword": "emergency",
+   "pos": "名",
+   "meanings": [
+    "緊急事態"
+   ],
+   "level": 1,
+   "ipa": "/ɪˈmɜːdʒənsi/",
+   "example": {
+    "en": "Call 119 in an emergency.",
+    "ja": "緊急時は119番に電話しなさい。"
+   }
+  },
+  {
+   "id": "w-empty",
+   "headword": "empty",
+   "pos": "形",
+   "meanings": [
+    "空の"
+   ],
+   "level": 1,
+   "ipa": "/ˈempti/",
+   "example": {
+    "en": "The room was empty.",
+    "ja": "その部屋は空っぽだった。"
+   },
+   "antonyms": [
+    "full いっぱいの"
+   ]
+  },
+  {
+   "id": "w-enemy",
+   "headword": "enemy",
+   "pos": "名",
+   "meanings": [
+    "敵"
+   ],
+   "level": 1,
+   "ipa": "/ˈenəmi/",
+   "example": {
+    "en": "Fear is the enemy of learning.",
+    "ja": "恐怖は学びの敵だ。"
+   }
+  },
+  {
+   "id": "w-enter",
+   "headword": "enter",
+   "pos": "動",
+   "meanings": [
+    "入る",
+    "入学する"
+   ],
+   "level": 1,
+   "ipa": "/ˈentər/",
+   "example": {
+    "en": "She entered the room quietly.",
+    "ja": "彼女は静かに部屋に入った。"
+   },
+   "note": "他動詞：×enter into the room。entrance 名 入口。"
+  },
+  {
+   "id": "w-equipment",
+   "headword": "equipment",
+   "pos": "名",
+   "meanings": [
+    "装置",
+    "用具"
+   ],
+   "level": 1,
+   "ipa": "/ɪˈkwɪpmənt/",
+   "example": {
+    "en": "The hospital bought new equipment.",
+    "ja": "病院は新しい機器を購入した。"
+   },
+   "note": "不可算名詞。"
+  },
+  {
+   "id": "w-event",
+   "headword": "event",
+   "pos": "名",
+   "meanings": [
+    "出来事",
+    "行事"
+   ],
+   "level": 1,
+   "ipa": "/ɪˈvent/",
+   "example": {
+    "en": "The festival is the biggest event of the year.",
+    "ja": "その祭りは1年で最大の行事だ。"
+   },
+   "accentNote": "e-VENT（第2音節）。"
+  },
+  {
+   "id": "w-exactly",
+   "headword": "exactly",
+   "pos": "副",
+   "meanings": [
+    "正確に",
+    "まさに"
+   ],
+   "level": 1,
+   "ipa": "/ɪɡˈzæktli/",
+   "example": {
+    "en": "That's exactly what I wanted.",
+    "ja": "それはまさに私が欲しかったものだ。"
+   },
+   "derivatives": [
+    "exact 形 正確な"
+   ]
+  },
+  {
+   "id": "w-exchange",
+   "headword": "exchange",
+   "pos": "動",
+   "meanings": [
+    "交換する"
+   ],
+   "level": 1,
+   "ipa": "/ɪksˈtʃeɪndʒ/",
+   "example": {
+    "en": "Let's exchange email addresses.",
+    "ja": "メールアドレスを交換しよう。"
+   },
+   "collocations": [
+    "exchange A for B（AをBと交換する）",
+    "exchange student（交換留学生）"
+   ]
+  },
+  {
+   "id": "w-exercise",
+   "headword": "exercise",
+   "pos": "名",
+   "meanings": [
+    "運動",
+    "練習問題"
+   ],
+   "level": 1,
+   "ipa": "/ˈeksəsaɪz/",
+   "example": {
+    "en": "Regular exercise is good for your health.",
+    "ja": "定期的な運動は健康に良い。"
+   },
+   "note": "「運動」の意味では不可算。"
+  },
+  {
+   "id": "w-exist",
+   "headword": "exist",
+   "pos": "動",
+   "meanings": [
+    "存在する"
+   ],
+   "level": 1,
+   "ipa": "/ɪɡˈzɪst/",
+   "example": {
+    "en": "Do you think aliens exist?",
+    "ja": "宇宙人は存在すると思いますか。"
+   },
+   "derivatives": [
+    "existence 名 存在"
+   ]
+  },
+  {
+   "id": "w-experiment",
+   "headword": "experiment",
+   "pos": "名",
+   "meanings": [
+    "実験"
+   ],
+   "level": 1,
+   "ipa": "/ɪkˈsperɪmənt/",
+   "example": {
+    "en": "We did an experiment in science class.",
+    "ja": "理科の授業で実験をした。"
+   },
+   "collocations": [
+    "do / carry out an experiment"
+   ]
+  },
+  {
+   "id": "w-fact",
+   "headword": "fact",
+   "pos": "名",
+   "meanings": [
+    "事実"
+   ],
+   "level": 1,
+   "ipa": "/fækt/",
+   "example": {
+    "en": "In fact, he had never been there.",
+    "ja": "実は、彼はそこに行ったことがなかった。"
+   },
+   "collocations": [
+    "in fact（実際は）",
+    "the fact that ~（〜という事実）"
+   ]
+  },
+  {
+   "id": "w-fair",
+   "headword": "fair",
+   "pos": "形",
+   "meanings": [
+    "公平な",
+    "まずまずの"
+   ],
+   "level": 1,
+   "ipa": "/feər/",
+   "example": {
+    "en": "It's not fair to blame only him.",
+    "ja": "彼だけを責めるのは公平ではない。"
+   },
+   "antonyms": [
+    "unfair 不公平な"
+   ]
+  },
+  {
+   "id": "w-false",
+   "headword": "false",
+   "pos": "形",
+   "meanings": [
+    "誤った",
+    "偽の"
+   ],
+   "level": 1,
+   "ipa": "/fɔːls/",
+   "example": {
+    "en": "Is the statement true or false?",
+    "ja": "その記述は正しいか誤りか。"
+   },
+   "antonyms": [
+    "true 正しい"
+   ]
+  },
+  {
+   "id": "w-fear",
+   "headword": "fear",
+   "pos": "名",
+   "meanings": [
+    "恐怖"
+   ],
+   "level": 1,
+   "ipa": "/fɪər/",
+   "example": {
+    "en": "She has a fear of heights.",
+    "ja": "彼女は高所恐怖症だ。"
+   },
+   "collocations": [
+    "for fear of ~（〜を恐れて）"
+   ]
+  },
+  {
+   "id": "w-feed",
+   "headword": "feed",
+   "pos": "動",
+   "meanings": [
+    "食べ物を与える",
+    "養う"
+   ],
+   "level": 1,
+   "ipa": "/fiːd/",
+   "example": {
+    "en": "Don't feed the animals.",
+    "ja": "動物にえさを与えないでください。"
+   },
+   "note": "活用 feed - fed - fed。"
+  },
+  {
+   "id": "w-fight",
+   "headword": "fight",
+   "pos": "動",
+   "meanings": [
+    "戦う",
+    "けんかする"
+   ],
+   "level": 1,
+   "ipa": "/faɪt/",
+   "example": {
+    "en": "Doctors are fighting the disease.",
+    "ja": "医師たちはその病気と闘っている。"
+   },
+   "note": "活用 fight - fought - fought。"
+  },
+  {
+   "id": "w-figure",
+   "headword": "figure",
+   "pos": "名",
+   "meanings": [
+    "数字",
+    "姿",
+    "人物"
+   ],
+   "level": 1,
+   "ipa": "/ˈfɪɡər/",
+   "example": {
+    "en": "The figures show a rise in sales.",
+    "ja": "数字は売上の増加を示している。"
+   },
+   "collocations": [
+    "figure out（理解する・解決する）"
+   ]
+  },
+  {
+   "id": "w-final",
+   "headword": "final",
+   "pos": "形",
+   "meanings": [
+    "最後の",
+    "最終的な"
+   ],
+   "level": 1,
+   "ipa": "/ˈfaɪnl/",
+   "example": {
+    "en": "This is your final chance.",
+    "ja": "これが最後のチャンスだ。"
+   },
+   "derivatives": [
+    "finally 副 ついに"
+   ]
+  },
+  {
+   "id": "w-flood",
+   "headword": "flood",
+   "pos": "名",
+   "meanings": [
+    "洪水"
+   ],
+   "level": 1,
+   "ipa": "/flʌd/",
+   "example": {
+    "en": "The heavy rain caused a flood.",
+    "ja": "大雨が洪水を引き起こした。"
+   },
+   "note": "発音は /ʌ/（フラッド）。"
+  },
+  {
+   "id": "w-follow",
+   "headword": "follow",
+   "pos": "動",
+   "meanings": [
+    "後について行く",
+    "従う"
+   ],
+   "level": 1,
+   "ipa": "/ˈfɒləʊ/",
+   "example": {
+    "en": "Please follow the instructions.",
+    "ja": "指示に従ってください。"
+   },
+   "collocations": [
+    "as follows（次のとおり）"
+   ]
+  },
+  {
+   "id": "w-force",
+   "headword": "force",
+   "pos": "動",
+   "meanings": [
+    "強制する"
+   ],
+   "level": 1,
+   "ipa": "/fɔːs/",
+   "example": {
+    "en": "The rain forced us to stay inside.",
+    "ja": "雨のため私たちは屋内にいざるをえなかった。"
+   },
+   "collocations": [
+    "force O to do"
+   ],
+   "note": "名詞「力・軍隊」。"
+  },
+  {
+   "id": "w-forest",
+   "headword": "forest",
+   "pos": "名",
+   "meanings": [
+    "森林"
+   ],
+   "level": 1,
+   "ipa": "/ˈfɒrɪst/",
+   "example": {
+    "en": "Forests cover two-thirds of Japan.",
+    "ja": "森林は日本の3分の2を覆っている。"
+   }
+  },
+  {
+   "id": "w-freedom",
+   "headword": "freedom",
+   "pos": "名",
+   "meanings": [
+    "自由"
+   ],
+   "level": 1,
+   "ipa": "/ˈfriːdəm/",
+   "example": {
+    "en": "Freedom of speech is important.",
+    "ja": "言論の自由は重要だ。"
+   },
+   "derivatives": [
+    "free 形 自由な"
+   ]
+  },
+  {
+   "id": "w-fuel",
+   "headword": "fuel",
+   "pos": "名",
+   "meanings": [
+    "燃料"
+   ],
+   "level": 1,
+   "ipa": "/ˈfjuːəl/",
+   "example": {
+    "en": "Cars need fuel to run.",
+    "ja": "車は走るのに燃料が必要だ。"
+   },
+   "collocations": [
+    "fossil fuel（化石燃料）"
+   ]
+  },
+  {
+   "id": "w-garbage",
+   "headword": "garbage",
+   "pos": "名",
+   "meanings": [
+    "ごみ"
+   ],
+   "level": 1,
+   "ipa": "/ˈɡɑːbɪdʒ/",
+   "example": {
+    "en": "Please take out the garbage.",
+    "ja": "ごみを出してください。"
+   },
+   "synonyms": [
+    "trash",
+    "rubbish（英）"
+   ]
+  },
+  {
+   "id": "w-global",
+   "headword": "global",
+   "pos": "形",
+   "meanings": [
+    "地球規模の",
+    "全体的な"
+   ],
+   "level": 1,
+   "ipa": "/ˈɡləʊbl/",
+   "example": {
+    "en": "Global warming affects all countries.",
+    "ja": "地球温暖化はすべての国に影響する。"
+   },
+   "derivatives": [
+    "globe 名 地球"
+   ]
+  },
+  {
+   "id": "w-grade",
+   "headword": "grade",
+   "pos": "名",
+   "meanings": [
+    "成績",
+    "学年"
+   ],
+   "level": 1,
+   "ipa": "/ɡreɪd/",
+   "example": {
+    "en": "She got good grades in math.",
+    "ja": "彼女は数学で良い成績をとった。"
+   }
+  },
+  {
+   "id": "w-guess",
+   "headword": "guess",
+   "pos": "動",
+   "meanings": [
+    "推測する"
+   ],
+   "level": 1,
+   "ipa": "/ɡes/",
+   "example": {
+    "en": "Guess what happened!",
+    "ja": "何があったと思う？"
+   }
+  },
+  {
+   "id": "w-guest",
+   "headword": "guest",
+   "pos": "名",
+   "meanings": [
+    "客"
+   ],
+   "level": 1,
+   "ipa": "/ɡest/",
+   "example": {
+    "en": "We have guests tonight.",
+    "ja": "今夜はお客さんが来る。"
+   },
+   "note": "招待客は guest、店の客は customer。"
+  },
+  {
+   "id": "w-harm",
+   "headword": "harm",
+   "pos": "名",
+   "meanings": [
+    "害"
+   ],
+   "level": 1,
+   "ipa": "/hɑːm/",
+   "example": {
+    "en": "Too much sun can do harm to your skin.",
+    "ja": "日光を浴びすぎると肌に害を与えうる。"
+   },
+   "derivatives": [
+    "harmful 形 有害な"
+   ],
+   "collocations": [
+    "do harm to ~"
+   ]
+  },
+  {
+   "id": "w-heat",
+   "headword": "heat",
+   "pos": "名",
+   "meanings": [
+    "熱",
+    "暑さ"
+   ],
+   "level": 1,
+   "ipa": "/hiːt/",
+   "example": {
+    "en": "I can't stand this heat.",
+    "ja": "この暑さには耐えられない。"
+   },
+   "collocations": [
+    "heat wave（熱波）"
+   ]
+  },
+  {
+   "id": "w-huge",
+   "headword": "huge",
+   "pos": "形",
+   "meanings": [
+    "巨大な"
+   ],
+   "level": 1,
+   "ipa": "/hjuːdʒ/",
+   "example": {
+    "en": "The project was a huge success.",
+    "ja": "その計画は大成功だった。"
+   }
+  },
+  {
+   "id": "w-human",
+   "headword": "human",
+   "pos": "形",
+   "meanings": [
+    "人間の"
+   ],
+   "level": 1,
+   "ipa": "/ˈhjuːmən/",
+   "example": {
+    "en": "Human activity is changing the climate.",
+    "ja": "人間の活動が気候を変えつつある。"
+   },
+   "collocations": [
+    "human being（人間）",
+    "human rights（人権）"
+   ]
   }
  ]
 }
