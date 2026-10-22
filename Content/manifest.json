@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T12:46:02Z",
+  "generatedAt" : "2026-10-22T12:47:16Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -45,8 +45,8 @@
     {
       "file" : "packs/reading-core.json",
       "id" : "reading.core",
-      "revision" : 3,
-      "sha256" : "d63efa0540d274a120c1a8d38d943434ea0d53dd6bf2fe0d88a3757ee0458583",
+      "revision" : 4,
+      "sha256" : "08237c74998ba251cd6fb4ca2d1b03104d40f5e78569240a1718ec583dc49252",
       "skill" : "reading",
       "title" : "長文読解"
     },

@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "reading.core",
- "revision": 3,
+ "revision": 4,
  "skill": "reading",
  "title": "長文読解",
  "description": "オリジナル英文（全訳・語注・設問付き）。共通テストから難関大・医学部レベルまで",
@@ -2033,6 +2033,462 @@
       "Chocolate became cheaper and could be eaten as a solid.",
       "Chocolate was used as money.",
       "People stopped eating chocolate."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-bees",
+   "title": "Why Bees Matter",
+   "level": 3,
+   "topic": "自然・環境",
+   "targetMinutes": 4,
+   "paragraphs": [
+    "When people think of bees, they often think of honey or of being stung. Few realize how much of the food on their plates depends on these small insects.",
+    "Many plants cannot produce fruit or seeds unless pollen is carried from one flower to another. This process, called pollination, is often done by insects, and bees are among the most important of them. Apples, strawberries, almonds, and many vegetables rely heavily on bees. Without them, these foods would become much rarer and more expensive.",
+    "In recent years, however, scientists in many parts of the world have reported declines in bee populations. The causes seem to be a combination of factors rather than a single one. The use of certain pesticides, the loss of wild flowers due to development, diseases, and changes in climate have all been suggested as possible reasons.",
+    "Fortunately, there are things that ordinary people can do. Planting flowers that bloom at different times of the year provides food for bees from spring to autumn. Reducing the use of chemicals in gardens also helps. Some cities have even started placing beehives on the roofs of buildings.",
+    "Protecting bees is not only about saving one kind of insect. It is about protecting the system that supports much of our food supply. In that sense, the future of bees is closely connected to our own."
+   ],
+   "translation": [
+    "ミツバチと聞くと、人はしばしばはちみつや刺されることを思い浮かべる。自分の皿の上の食べ物のどれほど多くがこの小さな昆虫に頼っているかに気づいている人はほとんどいない。",
+    "多くの植物は、花粉が一つの花から別の花へ運ばれなければ実や種をつけることができない。受粉と呼ばれるこの過程はしばしば昆虫によって行われ、ミツバチはその中でも最も重要なものの一つである。リンゴ、イチゴ、アーモンド、そして多くの野菜はミツバチに大きく依存している。ミツバチがいなければ、これらの食べ物ははるかに希少で高価なものになるだろう。",
+    "しかし近年、世界の多くの地域の科学者がミツバチの個体数の減少を報告している。原因は単一のものではなく、複数の要因の組み合わせであるようだ。特定の農薬の使用、開発による野生の花の減少、病気、そして気候の変化が、いずれも考えられる理由として挙げられている。",
+    "幸いなことに、普通の人々にもできることがある。1年のさまざまな時期に咲く花を植えれば、春から秋までミツバチに食べ物を提供できる。庭での化学薬品の使用を減らすことも役に立つ。都市の中には、建物の屋上に巣箱を置き始めたところさえある。",
+    "ミツバチを守ることは、単に一種類の昆虫を救うことではない。それは私たちの食料供給の多くを支える仕組みを守ることなのだ。その意味で、ミツバチの未来は私たち自身の未来と密接に結びついている。"
+   ],
+   "glossary": [
+    {
+     "term": "sting",
+     "meaning": "刺す（過去分詞 stung）"
+    },
+    {
+     "term": "pollen",
+     "meaning": "花粉"
+    },
+    {
+     "term": "pollination",
+     "meaning": "受粉"
+    },
+    {
+     "term": "pesticide",
+     "meaning": "農薬・殺虫剤"
+    },
+    {
+     "term": "bloom",
+     "meaning": "咲く"
+    },
+    {
+     "term": "beehive",
+     "meaning": "巣箱"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-be-1",
+     "type": "choice",
+     "prompt": "What is pollination?",
+     "answers": [
+      "Carrying pollen from one flower to another"
+     ],
+     "explanation": "第2段落第1・2文。",
+     "choices": [
+      "Making honey",
+      "Carrying pollen from one flower to another",
+      "Growing vegetables in a city",
+      "Using chemicals in gardens"
+     ]
+    },
+    {
+     "id": "r-be-2",
+     "type": "choice",
+     "prompt": "According to paragraph 3, what is causing the decline in bees?",
+     "answers": [
+      "A combination of several factors"
+     ],
+     "explanation": "a combination of factors rather than a single one。",
+     "choices": [
+      "Only climate change",
+      "A combination of several factors",
+      "Too many flowers",
+      "Honey production"
+     ]
+    },
+    {
+     "id": "r-be-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "True"
+     ],
+     "explanation": "第4段落第2文に一致。",
+     "sentence": "Planting flowers that bloom at different times can help bees.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-be-4",
+     "type": "shortAnswer",
+     "prompt": "最終文 \"the future of bees is closely connected to our own\" とはどういうことか、日本語で説明しなさい。",
+     "answers": [
+      "ミツバチは受粉を通じて私たちの食料供給の多くを支えているので、ミツバチが減れば私たちの食生活も脅かされるということ。"
+     ],
+     "explanation": "第2段落（食べ物の依存）と最終段落第2文を根拠にまとめる。",
+     "keyPoints": [
+      "受粉＝食料供給を支える仕組み",
+      "ミツバチの減少→食べ物が希少・高価に",
+      "our own = our own future"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-music-language",
+   "title": "Can Music Help You Learn a Language?",
+   "level": 3,
+   "topic": "学習・教育",
+   "targetMinutes": 4,
+   "paragraphs": [
+    "Many people say that they learned their first English words from songs. Is this just a pleasant memory, or can music really help us learn a foreign language?",
+    "There are several reasons to think that it can. First, songs repeat the same words and phrases many times, and repetition is important for memory. Second, melody and rhythm make words easier to remember. Most of us can still sing songs we learned as children, even if we have forgotten other things from that time.",
+    "Songs can also help with pronunciation. Because singers must fit words into a rhythm, learners notice how sounds connect in natural speech. For example, in many songs, \"want to\" sounds like \"wanna,\" and \"going to\" sounds like \"gonna.\" Hearing these patterns can make it easier to understand native speakers.",
+    "However, music alone is not enough. Song lyrics often break grammar rules or use unusual expressions to fit the music. Learners who rely only on songs may pick up expressions that sound strange in everyday conversation. In addition, simply listening without paying attention to meaning does little to improve understanding.",
+    "The best approach, then, is to use music as one tool among many. Look up the lyrics, check the meaning of new words, and try singing along. Combined with regular study of grammar and reading, songs can make learning both more effective and more enjoyable."
+   ],
+   "translation": [
+    "多くの人が、初めての英単語を歌から覚えたと言う。これは単なる楽しい思い出なのだろうか、それとも音楽は本当に外国語の学習に役立つのだろうか。",
+    "役立つと考える理由がいくつかある。第一に、歌は同じ単語や句を何度も繰り返すが、繰り返しは記憶にとって重要である。第二に、旋律とリズムは言葉を覚えやすくする。私たちのほとんどは、子どもの頃に覚えた歌を今でも歌うことができる。その頃の他のことは忘れてしまっていてもである。",
+    "歌は発音にも役立ちうる。歌い手は言葉をリズムに合わせなければならないので、学習者は自然な話し言葉で音がどのようにつながるかに気づく。たとえば、多くの歌では want to が wanna のように、going to が gonna のように聞こえる。こうしたパターンを聞くことで、母語話者の言うことが理解しやすくなりうる。",
+    "しかし、音楽だけでは十分ではない。歌詞は音楽に合わせるために、しばしば文法の規則を破ったり、普通でない表現を使ったりする。歌だけに頼る学習者は、日常会話では奇妙に聞こえる表現を身につけてしまうかもしれない。さらに、意味に注意を払わずにただ聞くだけでは、理解力はほとんど向上しない。",
+    "それならば、最善の方法は、音楽を多くの道具の一つとして使うことである。歌詞を調べ、新しい単語の意味を確かめ、一緒に歌ってみよう。文法や読解の定期的な学習と組み合わせれば、歌は学習をより効果的で、より楽しいものにしてくれる。"
+   ],
+   "glossary": [
+    {
+     "term": "repetition",
+     "meaning": "繰り返し"
+    },
+    {
+     "term": "melody",
+     "meaning": "旋律"
+    },
+    {
+     "term": "pronunciation",
+     "meaning": "発音"
+    },
+    {
+     "term": "lyrics",
+     "meaning": "歌詞"
+    },
+    {
+     "term": "sing along",
+     "meaning": "一緒に歌う"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-ml-1",
+     "type": "choice",
+     "prompt": "Which is given as a reason why songs help memory?",
+     "answers": [
+      "They repeat words and phrases."
+     ],
+     "explanation": "第2段落 songs repeat the same words and phrases many times。",
+     "choices": [
+      "They are short.",
+      "They repeat words and phrases.",
+      "They are always grammatically correct.",
+      "They are sung by native speakers only."
+     ]
+    },
+    {
+     "id": "r-ml-2",
+     "type": "choice",
+     "prompt": "What does the example of \"wanna\" show?",
+     "answers": [
+      "Sounds connect in natural speech."
+     ],
+     "explanation": "第3段落 learners notice how sounds connect in natural speech。",
+     "choices": [
+      "Songs use difficult words.",
+      "Sounds connect in natural speech.",
+      "Singers make mistakes.",
+      "English has no rhythm."
+     ]
+    },
+    {
+     "id": "r-ml-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落 music alone is not enough。",
+     "sentence": "The writer believes that listening to songs is enough to learn a language.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-ml-4",
+     "type": "choice",
+     "prompt": "What is the writer's main point?",
+     "answers": [
+      "Music is a useful tool when combined with other study."
+     ],
+     "explanation": "最終段落 use music as one tool among many ... Combined with regular study。",
+     "choices": [
+      "Music should never be used in class.",
+      "Music is a useful tool when combined with other study.",
+      "Only children can learn from songs.",
+      "Grammar is not important."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-boredom",
+   "title": "In Praise of Boredom",
+   "level": 4,
+   "topic": "心理・現代社会",
+   "targetMinutes": 5,
+   "paragraphs": [
+    "Few people today ever have to be bored. Whenever we have a free moment — waiting for a train, standing in line, lying in bed — we can reach for a smartphone and fill the gap with videos, messages, or games. Boredom, it seems, has almost been eliminated. But is that necessarily a good thing?",
+    "Some psychologists argue that boredom serves an important purpose. Like hunger, which tells us that we need food, boredom may be a signal that our current situation is not satisfying and that we should look for something more meaningful to do. If we immediately silence that signal with entertainment, we may never ask ourselves what we really want.",
+    "There is also evidence that boredom can encourage creativity. In one frequently cited type of experiment, participants are first asked to do a dull task, such as copying numbers from a phone book, and then asked to think of creative uses for an everyday object. Those who did the boring task often come up with more ideas than those who did not. Researchers suggest that when the mind is not occupied, it begins to wander, and this wandering can lead to unexpected connections.",
+    "This does not mean that we should seek out boredom for its own sake, or that all boredom is beneficial. Long periods of boredom at work or school can lower motivation and even harm mental health. The point is rather that brief moments of having nothing to do are not simply wasted time.",
+    "Perhaps the next time you find yourself waiting with nothing to do, you could resist the urge to check your phone. Let your mind drift for a few minutes. You might be surprised by where it takes you."
+   ],
+   "translation": [
+    "今日、退屈しなければならない人はほとんどいない。電車を待っている時、列に並んでいる時、ベッドで横になっている時など、空いた時間があればいつでも、私たちはスマートフォンに手を伸ばし、動画やメッセージやゲームでその隙間を埋めることができる。退屈はほとんどなくなってしまったように思われる。しかし、それは必ずしも良いことなのだろうか。",
+    "退屈には重要な役割があると主張する心理学者もいる。空腹が食べ物が必要だと教えてくれるのと同じように、退屈は、今の状況が満足のいくものではなく、もっと意味のあることを探すべきだという合図なのかもしれない。もしその合図を娯楽ですぐに黙らせてしまえば、自分が本当に何を望んでいるのかを自問することは決してないかもしれない。",
+    "退屈が創造性を促しうるという証拠もある。よく引用される種類の実験では、参加者はまず電話帳から数字を書き写すといった退屈な作業をするよう求められ、その後、日用品の創造的な使い方を考えるよう求められる。退屈な作業をした人は、しなかった人よりも多くのアイデアを思いつくことが多い。研究者は、心が何かに占められていないとさまよい始め、このさまよいが思いがけない結びつきにつながりうると示唆している。",
+    "これは、退屈そのものを求めるべきだということでも、あらゆる退屈が有益だということでもない。職場や学校での長期間の退屈は、意欲を低下させ、心の健康を損なうことさえある。要点はむしろ、何もすることがない短い時間は単なる無駄な時間ではないということである。",
+    "おそらく、次に何もすることがなく待っている自分に気づいたら、スマートフォンを確認したい衝動を抑えてみてもよいだろう。数分間、心を漂わせてみよう。それがあなたをどこへ連れて行くかに、驚くかもしれない。"
+   ],
+   "glossary": [
+    {
+     "term": "eliminate",
+     "meaning": "取り除く"
+    },
+    {
+     "term": "silence",
+     "meaning": "黙らせる"
+    },
+    {
+     "term": "dull",
+     "meaning": "退屈な"
+    },
+    {
+     "term": "wander",
+     "meaning": "さまよう"
+    },
+    {
+     "term": "drift",
+     "meaning": "漂う"
+    },
+    {
+     "term": "urge",
+     "meaning": "衝動"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-bd-1",
+     "type": "choice",
+     "prompt": "Why does the writer compare boredom to hunger?",
+     "answers": [
+      "Both are signals that tell us we need something."
+     ],
+     "explanation": "第2段落第2文：空腹＝食べ物が必要という合図、退屈＝より意味のあることを探すべきという合図。",
+     "choices": [
+      "Both make us eat more.",
+      "Both are signals that tell us we need something.",
+      "Both are caused by smartphones.",
+      "Both are harmful to health."
+     ]
+    },
+    {
+     "id": "r-bd-2",
+     "type": "choice",
+     "prompt": "In the experiment, what did participants who did the boring task tend to do?",
+     "answers": [
+      "Come up with more creative ideas"
+     ],
+     "explanation": "第3段落第3文。",
+     "choices": [
+      "Give up quickly",
+      "Come up with more creative ideas",
+      "Copy more numbers",
+      "Fall asleep"
+     ]
+    },
+    {
+     "id": "r-bd-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落 This does not mean ... that all boredom is beneficial。",
+     "sentence": "The writer says that all kinds of boredom are good for us.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-bd-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "もしその合図を娯楽ですぐに黙らせてしまえば、私たちは自分が本当に何を望んでいるのかを自問することは決してないかもしれない。"
+     ],
+     "explanation": "silence は動詞で「黙らせる」。",
+     "sentence": "If we immediately silence that signal with entertainment, we may never ask ourselves what we really want.",
+     "keyPoints": [
+      "silence（動詞）「黙らせる」",
+      "that signal = 退屈という合図",
+      "ask oneself 〜「自問する」",
+      "what we really want（間接疑問）"
+     ]
+    },
+    {
+     "id": "r-bd-5",
+     "type": "shortAnswer",
+     "prompt": "筆者が第3段落で述べる、退屈が創造性につながる仕組みを日本語で説明しなさい。",
+     "answers": [
+      "心が何かに占められていないとさまよい始め、そのさまよいが思いがけない考えの結びつきを生むから。"
+     ],
+     "explanation": "第3段落最終文をまとめる。",
+     "keyPoints": [
+      "the mind is not occupied",
+      "begins to wander",
+      "unexpected connections"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-fast-fashion",
+   "title": "The Hidden Cost of Cheap Clothes",
+   "level": 4,
+   "topic": "経済・環境",
+   "targetMinutes": 5,
+   "paragraphs": [
+    "Clothes have never been cheaper. A T-shirt can cost less than a cup of coffee, and some stores introduce new designs every week. This business model, often called \"fast fashion,\" allows people to follow the latest trends without spending much money. Its costs, however, are paid elsewhere.",
+    "The first cost is environmental. Producing clothes requires large amounts of water and energy, and many cheap garments are made from synthetic fibers derived from oil. Because these clothes are designed to be worn only a few times, huge quantities end up in landfills or are burned. When synthetic clothes are washed, tiny fibers are also released into rivers and oceans.",
+    "The second cost is human. To keep prices low, many companies produce clothes in countries where wages are low and working conditions can be poor. Reports of long working hours and unsafe factories have led to criticism of the industry and calls for greater transparency about how clothes are made.",
+    "In response, some companies have started recycling programs or promised to use more sustainable materials. Critics argue that such efforts are not enough as long as the basic model — selling more and more clothes at lower and lower prices — remains unchanged.",
+    "Consumers also have a role to play. Buying fewer but better-quality clothes, repairing items instead of throwing them away, and choosing second-hand goods can all reduce the impact of fashion. The cheapest T-shirt, it turns out, may be the one that is already in your closet."
+   ],
+   "translation": [
+    "衣服がこれほど安かったことはない。Tシャツ1枚がコーヒー1杯より安いこともあり、毎週新しいデザインを出す店もある。しばしば「ファストファッション」と呼ばれるこのビジネスモデルのおかげで、人々はあまりお金をかけずに最新の流行を追うことができる。しかし、その代償は別の場所で支払われている。",
+    "第一の代償は環境に関するものである。衣服の生産には大量の水とエネルギーが必要で、多くの安い衣類は石油由来の合成繊維で作られている。こうした衣服は数回しか着られないように作られているため、膨大な量が埋め立て地に行き着くか、焼却される。合成繊維の服を洗うと、小さな繊維が川や海へ流れ出ることもある。",
+    "第二の代償は人に関するものである。価格を低く抑えるために、多くの企業は賃金が低く労働条件が劣悪なこともある国々で衣服を生産している。長時間労働や危険な工場についての報告は、業界への批判と、衣服がどのように作られているかについてのより高い透明性を求める声につながっている。",
+    "これを受けて、リサイクルの取り組みを始めたり、より持続可能な素材を使うと約束したりする企業も出てきた。批判する人々は、より多くの服をより安い価格で売るという基本的なモデルが変わらない限り、そうした取り組みは十分ではないと主張する。",
+    "消費者にも果たすべき役割がある。数は少なくても質の良い服を買うこと、捨てる代わりに修理すること、古着を選ぶことは、いずれもファッションの影響を減らしうる。最も安いTシャツとは、実はすでにあなたのクローゼットの中にあるものなのかもしれない。"
+   ],
+   "glossary": [
+    {
+     "term": "garment",
+     "meaning": "衣服"
+    },
+    {
+     "term": "synthetic fiber",
+     "meaning": "合成繊維"
+    },
+    {
+     "term": "wage",
+     "meaning": "賃金"
+    },
+    {
+     "term": "transparency",
+     "meaning": "透明性"
+    },
+    {
+     "term": "sustainable",
+     "meaning": "持続可能な"
+    },
+    {
+     "term": "second-hand",
+     "meaning": "中古の"
+    }
+   ],
+   "questions": [
+    {
+     "id": "r-ff-1",
+     "type": "choice",
+     "prompt": "What does \"Its costs, however, are paid elsewhere\" suggest?",
+     "answers": [
+      "The low prices have hidden costs for the environment and workers."
+     ],
+     "explanation": "第2・3段落で環境と人の代償が説明されている。",
+     "choices": [
+      "Clothes are actually very expensive in stores.",
+      "The low prices have hidden costs for the environment and workers.",
+      "Customers pay by credit card.",
+      "Clothes are made in the same city."
+     ]
+    },
+    {
+     "id": "r-ff-2",
+     "type": "choice",
+     "prompt": "Why do huge quantities of cheap clothes end up in landfills?",
+     "answers": [
+      "Because they are designed to be worn only a few times."
+     ],
+     "explanation": "第2段落第3文。",
+     "choices": [
+      "Because they are made of cotton.",
+      "Because they are designed to be worn only a few times.",
+      "Because recycling is illegal.",
+      "Because they are too expensive to keep."
+     ]
+    },
+    {
+     "id": "r-ff-3",
+     "type": "choice",
+     "prompt": "本文の内容と一致するか答えなさい。",
+     "answers": [
+      "False"
+     ],
+     "explanation": "第4段落 such efforts are not enough as long as the basic model ... remains unchanged。",
+     "sentence": "Critics believe recycling programs alone are enough to solve the problem.",
+     "choices": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "id": "r-ff-4",
+     "type": "choice",
+     "prompt": "Which is NOT suggested as an action for consumers?",
+     "answers": [
+      "Buying new designs every week"
+     ],
+     "explanation": "最終段落の提案に含まれない（むしろファストファッションの特徴）。",
+     "choices": [
+      "Buying fewer but better clothes",
+      "Repairing clothes",
+      "Choosing second-hand goods",
+      "Buying new designs every week"
+     ]
+    },
+    {
+     "id": "r-ff-5",
+     "type": "shortAnswer",
+     "prompt": "最終文 \"The cheapest T-shirt ... may be the one that is already in your closet\" とはどういうことか、日本語で説明しなさい。",
+     "answers": [
+      "新しい服を買わずに手持ちの服を着続けることが、お金の面でも、環境や労働者への負担という隠れた代償の面でも、最も負担の少ない選択だということ。"
+     ],
+     "explanation": "本文の「隠れた代償」を踏まえて cheapest を解釈する。",
+     "keyPoints": [
+      "新たに買わない＝手持ちの服を使う",
+      "金銭的な安さだけでなく環境・人の代償も考慮",
+      "cheapest の二重の意味"
      ]
     }
    ]
