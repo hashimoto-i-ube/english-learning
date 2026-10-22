@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "grammar.core",
- "revision": 4,
+ "revision": 5,
  "skill": "grammar",
  "title": "文法・語法 基本〜発展",
  "description": "高校文法の全分野を入試頻出ポイントに絞って解説＋演習",
@@ -1140,6 +1140,53 @@
       "主語に条件が含まれる「本当の友人なら」",
       "would never「決して〜しないだろう」"
      ]
+    },
+    {
+     "id": "g-sja-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "had studied"
+     ],
+     "explanation": "過去の事実に反する願望は I wish + 過去完了。",
+     "sentence": "I wish I ___ harder when I was a student.",
+     "choices": [
+      "studied",
+      "had studied",
+      "have studied",
+      "would study"
+     ]
+    },
+    {
+     "id": "g-sja-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "for"
+     ],
+     "explanation": "But for 〜 = Without 〜「〜がなかったら」。",
+     "sentence": "But ___ your help, I could not have finished the work.",
+     "choices": [
+      "for",
+      "of",
+      "with",
+      "without"
+     ]
+    },
+    {
+     "id": "g-sja-8",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「彼はまるで何でも知っているかのように話す。」",
+     "answers": [
+      "He talks as if he knew everything.",
+      "He speaks as if he knew everything.",
+      "He talks as though he knew everything."
+     ],
+     "explanation": "主節と同時点の内容は as if + 過去形。",
+     "keyPoints": [
+      "as if / as though + 仮定法過去",
+      "主節と同時のことなので過去形 knew"
+     ]
     }
    ]
   },
@@ -1686,6 +1733,52 @@
       "倒置（do we realize）",
       "how precious it is「それがいかに貴重か」"
      ]
+    },
+    {
+     "id": "g-inv-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "did he dream"
+     ],
+     "explanation": "否定語 Little が文頭 → 倒置（did he dream）。",
+     "sentence": "Little ___ that he would become a famous writer.",
+     "choices": [
+      "he dreamed",
+      "did he dream",
+      "he did dream",
+      "dreamed he"
+     ]
+    },
+    {
+     "id": "g-inv-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "that"
+     ],
+     "explanation": "強調構文 It was 〜 that …。It was と that を外すと完全な文になる。",
+     "sentence": "It was in this room ___ the treaty was signed.",
+     "choices": [
+      "which",
+      "where",
+      "that",
+      "what"
+     ]
+    },
+    {
+     "id": "g-inv-8",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「私が彼女に会ったのはパリでのことだった。」",
+     "answers": [
+      "It was in Paris that I met her.",
+      "It was in Paris that I saw her."
+     ],
+     "explanation": "場所の副詞句 in Paris を強調構文で強調する。",
+     "keyPoints": [
+      "強調構文 It was 〜 that …",
+      "強調する語句 in Paris"
+     ]
     }
    ]
   },
@@ -1790,6 +1883,52 @@
       "be widely held「広く抱かれている」",
       "be supported by research「研究で裏付けられる」"
      ]
+    },
+    {
+     "id": "g-nc-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "whether"
+     ],
+     "explanation": "「〜かどうか」が問題だ → whether。",
+     "sentence": "The question is ___ we can finish the work on time.",
+     "choices": [
+      "that",
+      "whether",
+      "what",
+      "which"
+     ]
+    },
+    {
+     "id": "g-nc-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "it"
+     ],
+     "explanation": "形式目的語 it（find it C to do）。",
+     "sentence": "I found ___ impossible to answer the question.",
+     "choices": [
+      "it",
+      "that",
+      "this",
+      "what"
+     ]
+    },
+    {
+     "id": "g-nc-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その城は約400年前に建てられたと言われている。"
+     ],
+     "explanation": "形式主語 It が that 節を指す。",
+     "sentence": "It is said that the castle was built about 400 years ago.",
+     "keyPoints": [
+      "It is said that 〜「〜と言われている」",
+      "was built（受動態）"
+     ]
     }
    ]
   },
@@ -1892,6 +2031,54 @@
      "keyPoints": [
       "talk 人 into doing / persuade 人 to do「説得して〜させる」",
       "cram school「塾」"
+     ]
+    },
+    {
+     "id": "g-vu-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "tell"
+     ],
+     "explanation": "tell 人 how to do。say は人を直接目的語にとらない。",
+     "sentence": "Please ___ me how to get to the station.",
+     "choices": [
+      "say",
+      "tell",
+      "speak",
+      "talk"
+     ]
+    },
+    {
+     "id": "g-vu-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "of"
+     ],
+     "explanation": "rob 人 of 物。",
+     "sentence": "The thief robbed her ___ her bag.",
+     "choices": [
+      "from",
+      "of",
+      "off",
+      "away"
+     ]
+    },
+    {
+     "id": "g-vu-8",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "rose"
+     ],
+     "explanation": "自動詞 rise（上がる）の過去形 rose。raise は他動詞。",
+     "sentence": "Prices ___ sharply last year.",
+     "choices": [
+      "raised",
+      "rose",
+      "rised",
+      "arose"
      ]
     }
    ]
@@ -2733,6 +2920,48 @@
       "過去完了進行形 had been doing",
       "過去のある時点（電話）までの継続"
      ]
+    },
+    {
+     "id": "g-ta-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "had met"
+     ],
+     "explanation": "認識した（過去）より前に会っていた → 過去完了。",
+     "sentence": "I recognized him at once because I ___ him before.",
+     "choices": [
+      "met",
+      "have met",
+      "had met",
+      "meet"
+     ]
+    },
+    {
+     "id": "g-ta-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "will have started"
+     ],
+     "explanation": "未来のある時点（到着時）までに完了 → 未来完了。",
+     "sentence": "By the time we arrive, the show ___.",
+     "choices": [
+      "will start",
+      "will have started",
+      "has started",
+      "had started"
+     ]
+    },
+    {
+     "id": "g-ta-8",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "had"
+     ],
+     "explanation": "時制の一致：told（過去）より前の経験 → had never been。",
+     "sentence": "She told me that she ___ never been abroad."
     }
    ]
   },
@@ -2832,6 +3061,51 @@
      "explanation": "部分否定 not always / not necessarily を使う。",
      "keyPoints": [
       "部分否定 not always / not necessarily"
+     ]
+    },
+    {
+     "id": "g-ng-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "necessarily"
+     ],
+     "explanation": "not necessarily「必ずしも〜とは限らない」（部分否定）。",
+     "sentence": "I don't ___ agree with you.",
+     "choices": [
+      "necessary",
+      "necessarily",
+      "necessity",
+      "need"
+     ]
+    },
+    {
+     "id": "g-ng-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "but"
+     ],
+     "explanation": "否定の先行詞 + but（= who ... not）「弱点のない人はいない」。",
+     "sentence": "There is no one ___ has some weak points.",
+     "choices": [
+      "but",
+      "who",
+      "that",
+      "what"
+     ]
+    },
+    {
+     "id": "g-ng-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼の答えは決して満足のいくものではなかった。"
+     ],
+     "explanation": "not を使わない否定表現。",
+     "sentence": "His answer was far from satisfactory.",
+     "keyPoints": [
+      "far from 〜「決して〜ではない」"
      ]
     }
    ]
@@ -2933,6 +3207,54 @@
      ],
      "explanation": "差を表す by（30分遅れた）。for でも「30分間遅れた」の意味で成立する。",
      "sentence": "The train was delayed ___ thirty minutes because of the snow."
+    },
+    {
+     "id": "g-pp-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "on"
+     ],
+     "explanation": "曜日には on。",
+     "sentence": "We will have a test ___ Friday.",
+     "choices": [
+      "in",
+      "at",
+      "on",
+      "by"
+     ]
+    },
+    {
+     "id": "g-pp-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "for"
+     ],
+     "explanation": "期間の長さは for。",
+     "sentence": "I have lived here ___ ten years.",
+     "choices": [
+      "since",
+      "for",
+      "during",
+      "in"
+     ]
+    },
+    {
+     "id": "g-pp-8",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "of"
+     ],
+     "explanation": "材料が見てわかる場合は be made of。",
+     "sentence": "The bridge is made ___ steel.",
+     "choices": [
+      "by",
+      "of",
+      "from",
+      "with"
+     ]
     }
    ]
   },
@@ -3037,6 +3359,54 @@
       "(C) follow",
       "(D) every day"
      ]
+    },
+    {
+     "id": "g-ag-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "are"
+     ],
+     "explanation": "a number of + 複数名詞（多くの〜）は複数扱い。",
+     "sentence": "A number of students ___ absent today.",
+     "choices": [
+      "is",
+      "are",
+      "was",
+      "has been"
+     ]
+    },
+    {
+     "id": "g-ag-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "is"
+     ],
+     "explanation": "時間のひとまとまりは単数扱い。",
+     "sentence": "Ten years ___ a long time to wait.",
+     "choices": [
+      "is",
+      "are",
+      "were",
+      "have been"
+     ]
+    },
+    {
+     "id": "g-ag-8",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "is"
+     ],
+     "explanation": "A as well as B は A（The teacher）に一致。",
+     "sentence": "The teacher, as well as the students, ___ excited about the trip.",
+     "choices": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ]
     }
    ]
   },
@@ -3140,6 +3510,54 @@
       "economical",
       "economy",
       "economics"
+     ]
+    },
+    {
+     "id": "g-aa-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "hard"
+     ],
+     "explanation": "hard「熱心に」。hardly は「ほとんど〜ない」。",
+     "sentence": "She works ___ every day.",
+     "choices": [
+      "hard",
+      "hardly",
+      "harder than",
+      "hardness"
+     ]
+    },
+    {
+     "id": "g-aa-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "surprised"
+     ],
+     "explanation": "人が「驚かされた」→ 過去分詞形容詞 surprised。",
+     "sentence": "I was very ___ to hear the news.",
+     "choices": [
+      "surprising",
+      "surprised",
+      "surprise",
+      "surprisingly"
+     ]
+    },
+    {
+     "id": "g-aa-8",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "sensible"
+     ],
+     "explanation": "sensible「分別のある」。sensitive は「敏感な」。",
+     "sentence": "It is ___ of you to say so.",
+     "choices": [
+      "sensible",
+      "sensitive",
+      "sensation",
+      "sensory"
      ]
     }
    ]
