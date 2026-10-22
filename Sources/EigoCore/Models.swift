@@ -127,6 +127,9 @@ public struct Word: Codable, Identifiable, Hashable, Sendable {
     public var media: [MediaRef]?
 
     public var primaryMeaning: String { meanings.first ?? "" }
+
+    /// 熟語・イディオムか（熟語パックの項目、または品詞が「熟」）
+    public var isIdiom: Bool { pos == "熟" || tags?.contains("idiom") == true }
 }
 
 // MARK: - 演習問題

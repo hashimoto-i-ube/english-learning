@@ -6,6 +6,7 @@ struct VocabularyView: View {
     @State private var level: Level?
     @State private var search = ""
     @State private var filter: Filter = .all
+    @State private var kind: Kind = .all
     @State private var mode: WordMode = .flashcard
     @State private var session: [StudyItem]?
     @State private var selected: Word?
@@ -13,6 +14,19 @@ struct VocabularyView: View {
     enum Filter: String, CaseIterable, Identifiable {
         case all = "すべて", unseen = "未学習", learning = "学習中", mastered = "定着", bookmarked = "★"
         var id: String { rawValue }
+    }
+
+    enum Kind: String, CaseIterable, Identifiable {
+        case all = "単語＋熟語", words = "単語", idioms = "熟語"
+        var id: String { rawValue }
+
+        func includes(_ w: Word) -> Bool {
+            switch self {
+            case .all: return true
+            case .words: return !w.isIdiom
+            case .idioms: return w.isIdiom
+            }
+        }
     }
 
     var body: some View {
@@ -59,6 +73,7 @@ struct VocabularyView: View {
     private var filtered: [Word] {
         store.library.words.filter { w in
             if let level, w.level != level { return false }
+            if !kind.includes(w) { return false }
             let key = ItemKey.word(w.id)
             let card = store.progress.cards[key]
             switch filter {
@@ -88,6 +103,11 @@ struct VocabularyView: View {
                     }
                     .frame(width: 150)
                 }
+                Picker("種類", selection: $kind) {
+                    ForEach(Kind.allCases) { Text($0.rawValue).tag($0) }
+                }
+                .pickerStyle(.segmented)
+                .labelsHidden()
                 HStack {
                     Picker("形式", selection: $mode) {
                         ForEach(WordMode.allCases) { Text($0.rawValue).tag($0) }
@@ -95,7 +115,10 @@ struct VocabularyView: View {
                     .frame(width: 220)
                     Spacer()
                     Button {
-                        let due = store.planner.dueItems(skill: .vocabulary)
+                        let due = store.planner.dueItems(skill: .vocabulary).filter {
+                            if case let .word(w) = $0 { return kind.includes(w) }
+                            return false
+                        }
                         let newOnes = words.filter { store.progress.cards[ItemKey.word($0.id)] == nil }.prefix(store.progress.settings.dailyNewWords)
                         session = due + newOnes.map { .word($0) }
                     } label: { Label("復習＋新出", systemImage: "play.fill") }

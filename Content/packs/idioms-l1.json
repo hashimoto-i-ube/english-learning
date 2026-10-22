@@ -1,0 +1,845 @@
+{
+ "schemaVersion": 1,
+ "id": "idioms.l1",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv1 熟語・イディオム",
+ "description": "入試頻出の熟語・句動詞・慣用表現（オリジナル例文付き）",
+ "words": [
+  {
+   "id": "i-look-after",
+   "headword": "look after",
+   "pos": "熟",
+   "meanings": [
+    "〜の世話をする"
+   ],
+   "level": 1,
+   "example": {
+    "en": "She looks after her little brother after school.",
+    "ja": "彼女は放課後、弟の世話をしている。"
+   },
+   "note": "= take care of",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-look-forward-to",
+   "headword": "look forward to",
+   "pos": "熟",
+   "meanings": [
+    "〜を楽しみに待つ"
+   ],
+   "level": 1,
+   "example": {
+    "en": "I'm looking forward to seeing you.",
+    "ja": "あなたに会えるのを楽しみにしています。"
+   },
+   "note": "to は前置詞なので後ろは名詞・動名詞。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-look-up",
+   "headword": "look up",
+   "pos": "熟",
+   "meanings": [
+    "（辞書などで）調べる"
+   ],
+   "level": 1,
+   "example": {
+    "en": "Look up the word in your dictionary.",
+    "ja": "その単語を辞書で調べなさい。"
+   },
+   "note": "look up A / look A up。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-take-part-in",
+   "headword": "take part in",
+   "pos": "熟",
+   "meanings": [
+    "〜に参加する"
+   ],
+   "level": 1,
+   "example": {
+    "en": "Many students took part in the event.",
+    "ja": "多くの生徒がその行事に参加した。"
+   },
+   "note": "= participate in",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-take-place",
+   "headword": "take place",
+   "pos": "熟",
+   "meanings": [
+    "行われる",
+    "起こる"
+   ],
+   "level": 1,
+   "example": {
+    "en": "The concert will take place in the gym.",
+    "ja": "コンサートは体育館で行われる。"
+   },
+   "note": "受動態にしない。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-take-care-of",
+   "headword": "take care of",
+   "pos": "熟",
+   "meanings": [
+    "〜の世話をする",
+    "〜に気をつける"
+   ],
+   "level": 1,
+   "example": {
+    "en": "Take care of yourself.",
+    "ja": "体に気をつけてね。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-get-along-with",
+   "headword": "get along with",
+   "pos": "熟",
+   "meanings": [
+    "〜と仲良くやっていく"
+   ],
+   "level": 1,
+   "example": {
+    "en": "I get along well with my classmates.",
+    "ja": "私はクラスメートと仲良くやっている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-give-up",
+   "headword": "give up",
+   "pos": "熟",
+   "meanings": [
+    "あきらめる",
+    "やめる"
+   ],
+   "level": 1,
+   "example": {
+    "en": "Don't give up your dream.",
+    "ja": "夢をあきらめないで。"
+   },
+   "note": "give up doing（〜するのをやめる）。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-put-off",
+   "headword": "put off",
+   "pos": "熟",
+   "meanings": [
+    "延期する"
+   ],
+   "level": 1,
+   "example": {
+    "en": "The meeting was put off until next week.",
+    "ja": "会議は来週まで延期された。"
+   },
+   "note": "= postpone。put off doing。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-turn-down",
+   "headword": "turn down",
+   "pos": "熟",
+   "meanings": [
+    "断る",
+    "（音量を）下げる"
+   ],
+   "level": 1,
+   "example": {
+    "en": "He turned down the job offer.",
+    "ja": "彼はその仕事の申し出を断った。"
+   },
+   "note": "= refuse / reject",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-find-out",
+   "headword": "find out",
+   "pos": "熟",
+   "meanings": [
+    "（調べて）わかる",
+    "知る"
+   ],
+   "level": 1,
+   "example": {
+    "en": "I found out that the shop was closed.",
+    "ja": "その店が閉まっていることがわかった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-come-up-with",
+   "headword": "come up with",
+   "pos": "熟",
+   "meanings": [
+    "〜を思いつく"
+   ],
+   "level": 1,
+   "example": {
+    "en": "She came up with a great idea.",
+    "ja": "彼女はすばらしい考えを思いついた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-run-out-of",
+   "headword": "run out of",
+   "pos": "熟",
+   "meanings": [
+    "〜を使い果たす"
+   ],
+   "level": 1,
+   "example": {
+    "en": "We have run out of milk.",
+    "ja": "牛乳を切らしてしまった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-pick-up",
+   "headword": "pick up",
+   "pos": "熟",
+   "meanings": [
+    "拾う",
+    "（車で）迎えに行く"
+   ],
+   "level": 1,
+   "example": {
+    "en": "I'll pick you up at the station.",
+    "ja": "駅まで車で迎えに行くよ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-carry-out",
+   "headword": "carry out",
+   "pos": "熟",
+   "meanings": [
+    "実行する"
+   ],
+   "level": 1,
+   "example": {
+    "en": "The plan was carried out successfully.",
+    "ja": "計画は無事に実行された。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-be-good-at",
+   "headword": "be good at",
+   "pos": "熟",
+   "meanings": [
+    "〜が得意だ"
+   ],
+   "level": 1,
+   "example": {
+    "en": "He is good at playing the guitar.",
+    "ja": "彼はギターを弾くのが得意だ。"
+   },
+   "note": "反対は be poor at。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-be-proud-of",
+   "headword": "be proud of",
+   "pos": "熟",
+   "meanings": [
+    "〜を誇りに思う"
+   ],
+   "level": 1,
+   "example": {
+    "en": "We are proud of our team.",
+    "ja": "私たちはチームを誇りに思っている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-be-interested-in",
+   "headword": "be interested in",
+   "pos": "熟",
+   "meanings": [
+    "〜に興味がある"
+   ],
+   "level": 1,
+   "example": {
+    "en": "I'm interested in Japanese history.",
+    "ja": "私は日本の歴史に興味がある。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-be-tired-of",
+   "headword": "be tired of",
+   "pos": "熟",
+   "meanings": [
+    "〜にうんざりしている"
+   ],
+   "level": 1,
+   "example": {
+    "en": "I'm tired of eating the same food.",
+    "ja": "同じ食べ物を食べるのにはうんざりだ。"
+   },
+   "note": "be tired from 〜は「〜で疲れている」。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-be-full-of",
+   "headword": "be full of",
+   "pos": "熟",
+   "meanings": [
+    "〜でいっぱいだ"
+   ],
+   "level": 1,
+   "example": {
+    "en": "The station was full of people.",
+    "ja": "駅は人でいっぱいだった。"
+   },
+   "note": "= be filled with",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-be-able-to",
+   "headword": "be able to",
+   "pos": "熟",
+   "meanings": [
+    "〜することができる"
+   ],
+   "level": 1,
+   "example": {
+    "en": "You will be able to swim soon.",
+    "ja": "あなたはすぐに泳げるようになるだろう。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-be-about-to",
+   "headword": "be about to",
+   "pos": "熟",
+   "meanings": [
+    "まさに〜しようとしている"
+   ],
+   "level": 1,
+   "example": {
+    "en": "The train is about to leave.",
+    "ja": "電車はまさに出発しようとしている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-plenty-of",
+   "headword": "plenty of",
+   "pos": "熟",
+   "meanings": [
+    "たくさんの"
+   ],
+   "level": 1,
+   "example": {
+    "en": "We have plenty of time.",
+    "ja": "時間はたっぷりある。"
+   },
+   "note": "可算・不可算どちらにも使える。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-at-first",
+   "headword": "at first",
+   "pos": "熟",
+   "meanings": [
+    "最初は"
+   ],
+   "level": 1,
+   "example": {
+    "en": "At first, I didn't like natto.",
+    "ja": "最初は納豆が好きではなかった。"
+   },
+   "note": "後で変化したことを含意する。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-at-last",
+   "headword": "at last",
+   "pos": "熟",
+   "meanings": [
+    "ついに"
+   ],
+   "level": 1,
+   "example": {
+    "en": "At last, we reached the top.",
+    "ja": "ついに私たちは頂上に着いた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-at-least",
+   "headword": "at least",
+   "pos": "熟",
+   "meanings": [
+    "少なくとも"
+   ],
+   "level": 1,
+   "example": {
+    "en": "It will take at least an hour.",
+    "ja": "少なくとも1時間はかかるだろう。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-at-once",
+   "headword": "at once",
+   "pos": "熟",
+   "meanings": [
+    "すぐに",
+    "同時に"
+   ],
+   "level": 1,
+   "example": {
+    "en": "Come here at once!",
+    "ja": "すぐにここに来なさい。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-by-the-way",
+   "headword": "by the way",
+   "pos": "熟",
+   "meanings": [
+    "ところで"
+   ],
+   "level": 1,
+   "example": {
+    "en": "By the way, have you finished your homework?",
+    "ja": "ところで、宿題は終わった？"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-for-the-first-time",
+   "headword": "for the first time",
+   "pos": "熟",
+   "meanings": [
+    "初めて"
+   ],
+   "level": 1,
+   "example": {
+    "en": "I visited Kyoto for the first time last year.",
+    "ja": "去年初めて京都を訪れた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-front-of",
+   "headword": "in front of",
+   "pos": "熟",
+   "meanings": [
+    "〜の前に"
+   ],
+   "level": 1,
+   "example": {
+    "en": "There is a bus stop in front of the school.",
+    "ja": "学校の前にバス停がある。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-the-end",
+   "headword": "in the end",
+   "pos": "熟",
+   "meanings": [
+    "最後には",
+    "結局"
+   ],
+   "level": 1,
+   "example": {
+    "en": "In the end, everything went well.",
+    "ja": "結局、すべてうまくいった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-instead-of",
+   "headword": "instead of",
+   "pos": "熟",
+   "meanings": [
+    "〜の代わりに"
+   ],
+   "level": 1,
+   "example": {
+    "en": "I drank tea instead of coffee.",
+    "ja": "コーヒーの代わりに紅茶を飲んだ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-time",
+   "headword": "on time",
+   "pos": "熟",
+   "meanings": [
+    "時間通りに"
+   ],
+   "level": 1,
+   "example": {
+    "en": "The train arrived on time.",
+    "ja": "電車は時間通りに到着した。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-time",
+   "headword": "in time",
+   "pos": "熟",
+   "meanings": [
+    "間に合って"
+   ],
+   "level": 1,
+   "example": {
+    "en": "We were just in time for the movie.",
+    "ja": "私たちは映画にぎりぎり間に合った。"
+   },
+   "note": "in time for 〜（〜に間に合って）。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-after-all",
+   "headword": "after all",
+   "pos": "熟",
+   "meanings": [
+    "結局",
+    "何しろ〜だから"
+   ],
+   "level": 1,
+   "example": {
+    "en": "After all, he is still a child.",
+    "ja": "何しろ彼はまだ子どもなのだから。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-all-over-the-world",
+   "headword": "all over the world",
+   "pos": "熟",
+   "meanings": [
+    "世界中で"
+   ],
+   "level": 1,
+   "example": {
+    "en": "The song is popular all over the world.",
+    "ja": "その歌は世界中で人気がある。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-as-soon-as",
+   "headword": "as soon as",
+   "pos": "熟",
+   "meanings": [
+    "〜するとすぐに"
+   ],
+   "level": 1,
+   "example": {
+    "en": "Call me as soon as you arrive.",
+    "ja": "着いたらすぐに電話して。"
+   },
+   "note": "後ろの節は未来のことでも現在形。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-as-well-as",
+   "headword": "as well as",
+   "pos": "熟",
+   "meanings": [
+    "〜と同様に",
+    "〜だけでなく"
+   ],
+   "level": 1,
+   "example": {
+    "en": "She speaks French as well as English.",
+    "ja": "彼女は英語だけでなくフランス語も話す。"
+   },
+   "note": "A as well as B は「BだけでなくAも」。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-so-that",
+   "headword": "so that",
+   "pos": "熟",
+   "meanings": [
+    "〜するために",
+    "〜できるように"
+   ],
+   "level": 1,
+   "example": {
+    "en": "Speak louder so that everyone can hear you.",
+    "ja": "全員に聞こえるようにもっと大きな声で話して。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-not-only-a-but-also-b",
+   "headword": "not only A but also B",
+   "pos": "熟",
+   "meanings": [
+    "AだけでなくBも"
+   ],
+   "level": 1,
+   "example": {
+    "en": "He is not only smart but also kind.",
+    "ja": "彼は頭が良いだけでなく親切だ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-both-a-and-b",
+   "headword": "both A and B",
+   "pos": "熟",
+   "meanings": [
+    "AもBも両方"
+   ],
+   "level": 1,
+   "example": {
+    "en": "Both my father and my mother are teachers.",
+    "ja": "父も母も教師だ。"
+   },
+   "note": "動詞は複数で受ける。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-either-a-or-b",
+   "headword": "either A or B",
+   "pos": "熟",
+   "meanings": [
+    "AかBのどちらか"
+   ],
+   "level": 1,
+   "example": {
+    "en": "You can choose either tea or coffee.",
+    "ja": "紅茶かコーヒーのどちらかを選べます。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-thanks-to",
+   "headword": "thanks to",
+   "pos": "熟",
+   "meanings": [
+    "〜のおかげで"
+   ],
+   "level": 1,
+   "example": {
+    "en": "Thanks to your help, I finished on time.",
+    "ja": "あなたの助けのおかげで時間通りに終えられた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-because-of",
+   "headword": "because of",
+   "pos": "熟",
+   "meanings": [
+    "〜のために",
+    "〜が原因で"
+   ],
+   "level": 1,
+   "example": {
+    "en": "The game was canceled because of the rain.",
+    "ja": "雨のため試合は中止になった。"
+   },
+   "note": "後ろは名詞（句）。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-used-to",
+   "headword": "used to",
+   "pos": "熟",
+   "meanings": [
+    "以前はよく〜した",
+    "以前は〜だった"
+   ],
+   "level": 1,
+   "example": {
+    "en": "I used to live in Osaka.",
+    "ja": "以前は大阪に住んでいた。"
+   },
+   "note": "be used to doing（〜に慣れている）と区別。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-had-better",
+   "headword": "had better",
+   "pos": "熟",
+   "meanings": [
+    "〜したほうがよい"
+   ],
+   "level": 1,
+   "example": {
+    "en": "You had better see a doctor.",
+    "ja": "医者に診てもらったほうがいい。"
+   },
+   "note": "否定は had better not do。目上の人には強く響く。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-would-like-to",
+   "headword": "would like to",
+   "pos": "熟",
+   "meanings": [
+    "〜したい（丁寧）"
+   ],
+   "level": 1,
+   "example": {
+    "en": "I would like to ask you a question.",
+    "ja": "質問をしたいのですが。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-make-friends-with",
+   "headword": "make friends with",
+   "pos": "熟",
+   "meanings": [
+    "〜と友達になる"
+   ],
+   "level": 1,
+   "example": {
+    "en": "I made friends with a student from Brazil.",
+    "ja": "ブラジルから来た生徒と友達になった。"
+   },
+   "note": "friends は必ず複数形。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-the-other-hand",
+   "headword": "on the other hand",
+   "pos": "熟",
+   "meanings": [
+    "一方で"
+   ],
+   "level": 1,
+   "example": {
+    "en": "City life is convenient. On the other hand, it is expensive.",
+    "ja": "都会の生活は便利だ。一方で、お金がかかる。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-each-other",
+   "headword": "each other",
+   "pos": "熟",
+   "meanings": [
+    "お互い"
+   ],
+   "level": 1,
+   "example": {
+    "en": "They help each other.",
+    "ja": "彼らは互いに助け合う。"
+   },
+   "note": "代名詞なので前置詞が必要な場合に注意（talk to each other）。",
+   "tags": [
+    "idiom"
+   ]
+  }
+ ]
+}

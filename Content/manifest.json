@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T13:01:45Z",
+  "generatedAt" : "2026-10-22T13:05:46Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -25,6 +25,22 @@
       "sha256" : "343474dd2f3ee6f5ae0a8e631994d5b8bc8aeb4ef48655668b72c528f2106af7",
       "skill" : "grammar",
       "title" : "文法・語法 基本〜発展"
+    },
+    {
+      "file" : "packs/idioms-l1.json",
+      "id" : "idioms.l1",
+      "revision" : 1,
+      "sha256" : "bd2e54150530cec088882c2e2495dd3c20ebe33927e601b4af21669aafa8c93b",
+      "skill" : "vocabulary",
+      "title" : "Lv1 熟語・イディオム"
+    },
+    {
+      "file" : "packs/idioms-l2.json",
+      "id" : "idioms.l2",
+      "revision" : 1,
+      "sha256" : "e2b93c37c87a2d526820f70c973be96f3c2ca7216ace9f5a7c9f30e21973b4ed",
+      "skill" : "vocabulary",
+      "title" : "Lv2 熟語・イディオム"
     },
     {
       "file" : "packs/knowledge-core.json",
