@@ -1,0 +1,830 @@
+{
+ "schemaVersion": 1,
+ "id": "idioms.l6",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv6 熟語・イディオム",
+ "description": "入試頻出の熟語・句動詞・慣用表現（オリジナル例文付き）",
+ "words": [
+  {
+   "id": "i-a-far-cry-from",
+   "headword": "a far cry from",
+   "pos": "熟",
+   "meanings": [
+    "〜とはほど遠い"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The reality was a far cry from what we had expected.",
+    "ja": "現実は私たちが期待していたものとはほど遠かった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-against-the-backdrop-of",
+   "headword": "against the backdrop of",
+   "pos": "熟",
+   "meanings": [
+    "〜を背景にして"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The novel is set against the backdrop of war.",
+    "ja": "その小説は戦争を背景にしている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-at-the-heart-of",
+   "headword": "at the heart of",
+   "pos": "熟",
+   "meanings": [
+    "〜の核心に"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Trust lies at the heart of any relationship.",
+    "ja": "信頼はあらゆる関係の核心にある。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-be-subject-to",
+   "headword": "be subject to",
+   "pos": "熟",
+   "meanings": [
+    "〜を受けやすい",
+    "〜に従う"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Prices are subject to change.",
+    "ja": "価格は変更されることがある。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-bear-witness-to",
+   "headword": "bear witness to",
+   "pos": "熟",
+   "meanings": [
+    "〜を証明する"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The ruins bear witness to a great civilization.",
+    "ja": "その遺跡は偉大な文明の存在を物語っている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-by-the-same-token",
+   "headword": "by the same token",
+   "pos": "熟",
+   "meanings": [
+    "同様に",
+    "同じ理由で"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Hard work brings success; by the same token, laziness leads to failure.",
+    "ja": "努力は成功をもたらす。同様に、怠惰は失敗につながる。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-come-to-grips-with",
+   "headword": "come to grips with",
+   "pos": "熟",
+   "meanings": [
+    "〜に真剣に取り組む"
+   ],
+   "level": 6,
+   "example": {
+    "en": "We must come to grips with climate change.",
+    "ja": "私たちは気候変動に真剣に取り組まなければならない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-fall-into-place",
+   "headword": "fall into place",
+   "pos": "熟",
+   "meanings": [
+    "うまくまとまる"
+   ],
+   "level": 6,
+   "example": {
+    "en": "After much effort, everything fell into place.",
+    "ja": "多くの努力の末、すべてがうまくまとまった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-fly-in-the-face-of",
+   "headword": "fly in the face of",
+   "pos": "熟",
+   "meanings": [
+    "〜に真っ向から反する"
+   ],
+   "level": 6,
+   "example": {
+    "en": "His claim flies in the face of the evidence.",
+    "ja": "彼の主張は証拠に真っ向から反している。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-for-better-or-worse",
+   "headword": "for better or worse",
+   "pos": "熟",
+   "meanings": [
+    "良かれ悪しかれ"
+   ],
+   "level": 6,
+   "example": {
+    "en": "For better or worse, the internet has changed our lives.",
+    "ja": "良かれ悪しかれ、インターネットは私たちの生活を変えた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-give-credence-to",
+   "headword": "give credence to",
+   "pos": "熟",
+   "meanings": [
+    "〜を信じる",
+    "信憑性を与える"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The new findings give credence to the theory.",
+    "ja": "新しい発見はその理論に信憑性を与える。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-go-hand-in-hand-with",
+   "headword": "go hand in hand with",
+   "pos": "熟",
+   "meanings": [
+    "〜と密接に関係している"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Freedom goes hand in hand with responsibility.",
+    "ja": "自由は責任と表裏一体だ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-hand-down",
+   "headword": "hand down",
+   "pos": "熟",
+   "meanings": [
+    "（次の世代に）伝える"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The tradition has been handed down for centuries.",
+    "ja": "その伝統は何世紀にもわたって受け継がれてきた。"
+   },
+   "note": "= pass down",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-a-nutshell",
+   "headword": "in a nutshell",
+   "pos": "熟",
+   "meanings": [
+    "要するに"
+   ],
+   "level": 6,
+   "example": {
+    "en": "In a nutshell, the plan failed because of poor planning.",
+    "ja": "要するに、その計画は準備不足のせいで失敗した。"
+   },
+   "note": "= in short",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-its-own-right",
+   "headword": "in its own right",
+   "pos": "熟",
+   "meanings": [
+    "それ自体で"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Translation is an art in its own right.",
+    "ja": "翻訳はそれ自体が一つの芸術である。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-the-absence-of",
+   "headword": "in the absence of",
+   "pos": "熟",
+   "meanings": [
+    "〜がないので",
+    "〜がない場合に"
+   ],
+   "level": 6,
+   "example": {
+    "en": "In the absence of evidence, we cannot decide.",
+    "ja": "証拠がない以上、判断できない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-the-same-vein",
+   "headword": "in the same vein",
+   "pos": "熟",
+   "meanings": [
+    "同じ調子で",
+    "同様に"
+   ],
+   "level": 6,
+   "example": {
+    "en": "In the same vein, the author criticizes modern education.",
+    "ja": "同様の調子で、著者は現代の教育を批判している。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-lend-itself-to",
+   "headword": "lend itself to",
+   "pos": "熟",
+   "meanings": [
+    "〜に適している"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The story lends itself to film adaptation.",
+    "ja": "その物語は映画化に向いている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-lose-touch-with",
+   "headword": "lose touch with",
+   "pos": "熟",
+   "meanings": [
+    "〜との接触を失う"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Politicians sometimes lose touch with ordinary people.",
+    "ja": "政治家は時に一般の人々の感覚を見失う。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-make-inroads-into",
+   "headword": "make inroads into",
+   "pos": "熟",
+   "meanings": [
+    "〜に進出する",
+    "食い込む"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Online shopping has made inroads into traditional retail.",
+    "ja": "ネット通販は従来の小売業に食い込んできた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-not-least-because",
+   "headword": "not least because",
+   "pos": "熟",
+   "meanings": [
+    "特に〜という理由で"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The plan was rejected, not least because of its cost.",
+    "ja": "その計画は、とりわけ費用の点で却下された。"
+   },
+   "note": "not least because of 〜 の形もある。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-nothing-short-of",
+   "headword": "nothing short of",
+   "pos": "熟",
+   "meanings": [
+    "まさに〜にほかならない"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The recovery was nothing short of a miracle.",
+    "ja": "その回復はまさに奇跡としか言いようがなかった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-a-par-with",
+   "headword": "on a par with",
+   "pos": "熟",
+   "meanings": [
+    "〜と同等で"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Her skills are on a par with those of professionals.",
+    "ja": "彼女の技術はプロと同等だ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-the-face-of-it",
+   "headword": "on the face of it",
+   "pos": "熟",
+   "meanings": [
+    "一見したところ"
+   ],
+   "level": 6,
+   "example": {
+    "en": "On the face of it, the offer seems generous.",
+    "ja": "一見したところ、その申し出は気前がよさそうだ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-play-down",
+   "headword": "play down",
+   "pos": "熟",
+   "meanings": [
+    "軽視する",
+    "控えめに言う"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The government played down the risks.",
+    "ja": "政府はリスクを軽く見せようとした。"
+   },
+   "note": "= downplay。反対は play up。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-pose-a-threat-to",
+   "headword": "pose a threat to",
+   "pos": "熟",
+   "meanings": [
+    "〜に脅威を与える"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Rising sea levels pose a threat to coastal cities.",
+    "ja": "海面上昇は沿岸都市に脅威を与える。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-put-into-perspective",
+   "headword": "put ~ into perspective",
+   "pos": "熟",
+   "meanings": [
+    "〜を正しく捉え直す"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The figures put the problem into perspective.",
+    "ja": "その数字は問題の大きさを正しく捉え直させる。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-rule-of-thumb",
+   "headword": "rule of thumb",
+   "pos": "熟",
+   "meanings": [
+    "経験則"
+   ],
+   "level": 6,
+   "example": {
+    "en": "As a rule of thumb, drink two liters of water a day.",
+    "ja": "経験則として、1日に2リットルの水を飲みなさい。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-run-counter-to",
+   "headword": "run counter to",
+   "pos": "熟",
+   "meanings": [
+    "〜に反する"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The result runs counter to our expectations.",
+    "ja": "その結果は私たちの予想に反している。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-set-in-motion",
+   "headword": "set in motion",
+   "pos": "熟",
+   "meanings": [
+    "始動させる"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The decision set in motion a series of reforms.",
+    "ja": "その決定は一連の改革を始動させた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-shed-light-on",
+   "headword": "shed light on",
+   "pos": "熟",
+   "meanings": [
+    "〜を解明する"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The study sheds light on how memory works.",
+    "ja": "その研究は記憶の仕組みを明らかにしている。"
+   },
+   "note": "= throw light on",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-stand-to-reason",
+   "headword": "stand to reason",
+   "pos": "熟",
+   "meanings": [
+    "理にかなっている"
+   ],
+   "level": 6,
+   "example": {
+    "en": "It stands to reason that practice improves skill.",
+    "ja": "練習で技術が上達するのは当然のことだ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-strike-a-balance",
+   "headword": "strike a balance",
+   "pos": "熟",
+   "meanings": [
+    "バランスをとる"
+   ],
+   "level": 6,
+   "example": {
+    "en": "We must strike a balance between work and rest.",
+    "ja": "仕事と休息のバランスをとらなければならない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-take-at-face-value",
+   "headword": "take ~ at face value",
+   "pos": "熟",
+   "meanings": [
+    "〜を額面通りに受け取る"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Don't take everything you read at face value.",
+    "ja": "読んだことをすべて額面通りに受け取ってはいけない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-the-other-way-around",
+   "headword": "the other way around",
+   "pos": "熟",
+   "meanings": [
+    "逆に",
+    "反対に"
+   ],
+   "level": 6,
+   "example": {
+    "en": "It's not that I need him; it's the other way around.",
+    "ja": "私が彼を必要としているのではなく、その逆だ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-to-the-detriment-of",
+   "headword": "to the detriment of",
+   "pos": "熟",
+   "meanings": [
+    "〜を犠牲にして",
+    "〜を損なって"
+   ],
+   "level": 6,
+   "example": {
+    "en": "He worked long hours to the detriment of his health.",
+    "ja": "彼は健康を犠牲にして長時間働いた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-turn-a-blind-eye-to",
+   "headword": "turn a blind eye to",
+   "pos": "熟",
+   "meanings": [
+    "〜を見て見ぬふりをする"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The teacher turned a blind eye to the cheating.",
+    "ja": "先生はカンニングを見て見ぬふりをした。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-up-to-a-point",
+   "headword": "up to a point",
+   "pos": "熟",
+   "meanings": [
+    "ある程度までは"
+   ],
+   "level": 6,
+   "example": {
+    "en": "I agree with you up to a point.",
+    "ja": "ある程度まではあなたに賛成だ。"
+   },
+   "note": "= to some extent",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-weigh-up",
+   "headword": "weigh up",
+   "pos": "熟",
+   "meanings": [
+    "比較検討する"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Weigh up the pros and cons before deciding.",
+    "ja": "決める前に長所と短所を比較検討しなさい。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-with-the-exception-of",
+   "headword": "with the exception of",
+   "pos": "熟",
+   "meanings": [
+    "〜を除いて"
+   ],
+   "level": 6,
+   "example": {
+    "en": "All the students passed, with the exception of two.",
+    "ja": "2人を除いて全員の生徒が合格した。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-by-extension",
+   "headword": "by extension",
+   "pos": "熟",
+   "meanings": [
+    "ひいては"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The policy affects teachers and, by extension, students.",
+    "ja": "その政策は教師に、ひいては生徒に影響を与える。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-hindsight",
+   "headword": "in hindsight",
+   "pos": "熟",
+   "meanings": [
+    "後から考えると"
+   ],
+   "level": 6,
+   "example": {
+    "en": "In hindsight, it was a bad decision.",
+    "ja": "後から考えると、それは誤った判断だった。"
+   },
+   "note": "= in retrospect",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-as-such",
+   "headword": "as such",
+   "pos": "熟",
+   "meanings": [
+    "それ自体としては",
+    "そういうものとして"
+   ],
+   "level": 6,
+   "example": {
+    "en": "He is a guest, and as such he should be treated politely.",
+    "ja": "彼は客であり、客として丁寧に扱われるべきだ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-all-the-same",
+   "headword": "all the same",
+   "pos": "熟",
+   "meanings": [
+    "それでもやはり"
+   ],
+   "level": 6,
+   "example": {
+    "en": "It was raining. All the same, we went out.",
+    "ja": "雨が降っていた。それでもやはり私たちは出かけた。"
+   },
+   "note": "= nevertheless",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-for-that-matter",
+   "headword": "for that matter",
+   "pos": "熟",
+   "meanings": [
+    "さらに言えば"
+   ],
+   "level": 6,
+   "example": {
+    "en": "I don't like coffee, or tea for that matter.",
+    "ja": "コーヒーは好きではないし、さらに言えば紅茶もだ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-so-to-speak",
+   "headword": "so to speak",
+   "pos": "熟",
+   "meanings": [
+    "いわば"
+   ],
+   "level": 6,
+   "example": {
+    "en": "He is, so to speak, a walking dictionary.",
+    "ja": "彼はいわば生き字引だ。"
+   },
+   "note": "= as it were",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-take-precedence-over",
+   "headword": "take precedence over",
+   "pos": "熟",
+   "meanings": [
+    "〜より優先される"
+   ],
+   "level": 6,
+   "example": {
+    "en": "Safety takes precedence over speed.",
+    "ja": "安全はスピードより優先される。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-leave-much-to-be-desired",
+   "headword": "leave much to be desired",
+   "pos": "熟",
+   "meanings": [
+    "不満な点が多い"
+   ],
+   "level": 6,
+   "example": {
+    "en": "The service left much to be desired.",
+    "ja": "サービスには不満な点が多かった。"
+   },
+   "note": "反対は leave nothing to be desired（申し分ない）。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-the-part-of",
+   "headword": "on the part of",
+   "pos": "熟",
+   "meanings": [
+    "〜の側の"
+   ],
+   "level": 6,
+   "example": {
+    "en": "There was no mistake on the part of the doctor.",
+    "ja": "医師の側に過失はなかった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-the-interest-of",
+   "headword": "in the interest of",
+   "pos": "熟",
+   "meanings": [
+    "〜のために"
+   ],
+   "level": 6,
+   "example": {
+    "en": "In the interest of safety, please remain seated.",
+    "ja": "安全のため、席に着いたままでいてください。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  }
+ ]
+}

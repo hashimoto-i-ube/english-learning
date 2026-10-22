@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T13:07:27Z",
+  "generatedAt" : "2026-10-22T13:09:18Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -57,6 +57,30 @@
       "sha256" : "d7f46b4fa85e961f887a158b2a4c83fad3cef78b7016ec46b4645d44b746a1f1",
       "skill" : "vocabulary",
       "title" : "Lv4 熟語・イディオム"
+    },
+    {
+      "file" : "packs/idioms-l5.json",
+      "id" : "idioms.l5",
+      "revision" : 1,
+      "sha256" : "e1f04a5b6fd9b0c441a446d27dbe78d777aa109105183e6a2b40d8d8a6a65dcb",
+      "skill" : "vocabulary",
+      "title" : "Lv5 熟語・イディオム"
+    },
+    {
+      "file" : "packs/idioms-l6.json",
+      "id" : "idioms.l6",
+      "revision" : 1,
+      "sha256" : "460a61d3b5e367cb9c65527f59108ef647432cb7db7bc98f374fd37a6c0c898f",
+      "skill" : "vocabulary",
+      "title" : "Lv6 熟語・イディオム"
+    },
+    {
+      "file" : "packs/idioms-l7.json",
+      "id" : "idioms.l7",
+      "revision" : 1,
+      "sha256" : "5e39999992cf8b1ff67d25f69344399d67f46c56aa2d594499e19599fd9ca9b7",
+      "skill" : "vocabulary",
+      "title" : "Lv7 熟語・イディオム"
     },
     {
       "file" : "packs/knowledge-core.json",

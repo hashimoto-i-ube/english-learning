@@ -1,0 +1,843 @@
+{
+ "schemaVersion": 1,
+ "id": "idioms.l5",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv5 熟語・イディオム",
+ "description": "入試頻出の熟語・句動詞・慣用表現（オリジナル例文付き）",
+ "words": [
+  {
+   "id": "i-be-at-odds-with",
+   "headword": "be at odds with",
+   "pos": "熟",
+   "meanings": [
+    "〜と対立している",
+    "食い違っている"
+   ],
+   "level": 5,
+   "example": {
+    "en": "His words are at odds with his actions.",
+    "ja": "彼の言葉は行動と食い違っている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-bear-in-mind",
+   "headword": "bear ~ in mind",
+   "pos": "熟",
+   "meanings": [
+    "〜を心に留める"
+   ],
+   "level": 5,
+   "example": {
+    "en": "Bear in mind that the deadline is Friday.",
+    "ja": "締め切りが金曜日であることを覚えておいて。"
+   },
+   "note": "= keep ~ in mind",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-bring-home-to",
+   "headword": "bring home to",
+   "pos": "熟",
+   "meanings": [
+    "〜に痛感させる"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The disaster brought home to us the importance of preparation.",
+    "ja": "その災害は私たちに備えの重要性を痛感させた。"
+   },
+   "note": "bring home to 人 that 〜 の語順も多い。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-by-virtue-of",
+   "headword": "by virtue of",
+   "pos": "熟",
+   "meanings": [
+    "〜のおかげで",
+    "〜によって"
+   ],
+   "level": 5,
+   "example": {
+    "en": "He got the job by virtue of his experience.",
+    "ja": "彼は経験によってその職を得た。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-call-for",
+   "headword": "call for",
+   "pos": "熟",
+   "meanings": [
+    "〜を必要とする",
+    "要求する"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The situation calls for immediate action.",
+    "ja": "状況は即座の行動を必要としている。"
+   },
+   "note": "= require / demand",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-call-into-question",
+   "headword": "call into question",
+   "pos": "熟",
+   "meanings": [
+    "〜に疑問を投げかける"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The new data call the theory into question.",
+    "ja": "新しいデータはその理論に疑問を投げかけている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-come-into-play",
+   "headword": "come into play",
+   "pos": "熟",
+   "meanings": [
+    "作用し始める",
+    "関わってくる"
+   ],
+   "level": 5,
+   "example": {
+    "en": "Many factors come into play when choosing a career.",
+    "ja": "職業を選ぶ際には多くの要因が関わってくる。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-come-to-light",
+   "headword": "come to light",
+   "pos": "熟",
+   "meanings": [
+    "明るみに出る"
+   ],
+   "level": 5,
+   "example": {
+    "en": "New facts have come to light.",
+    "ja": "新たな事実が明るみに出た。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-contrary-to",
+   "headword": "contrary to",
+   "pos": "熟",
+   "meanings": [
+    "〜に反して"
+   ],
+   "level": 5,
+   "example": {
+    "en": "Contrary to expectations, the plan succeeded.",
+    "ja": "予想に反してその計画は成功した。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-fall-short-of",
+   "headword": "fall short of",
+   "pos": "熟",
+   "meanings": [
+    "〜に達しない"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The results fell short of our expectations.",
+    "ja": "結果は私たちの期待に届かなかった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-get-the-better-of",
+   "headword": "get the better of",
+   "pos": "熟",
+   "meanings": [
+    "〜に打ち勝つ"
+   ],
+   "level": 5,
+   "example": {
+    "en": "Don't let your anger get the better of you.",
+    "ja": "怒りに負けてはいけない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-give-rise-to",
+   "headword": "give rise to",
+   "pos": "熟",
+   "meanings": [
+    "〜を引き起こす"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The policy gave rise to strong criticism.",
+    "ja": "その政策は強い批判を引き起こした。"
+   },
+   "note": "= cause / bring about",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-go-so-far-as-to",
+   "headword": "go so far as to",
+   "pos": "熟",
+   "meanings": [
+    "〜しさえする"
+   ],
+   "level": 5,
+   "example": {
+    "en": "He went so far as to call me a liar.",
+    "ja": "彼は私をうそつき呼ばわりまでした。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-have-nothing-to-do-with",
+   "headword": "have nothing to do with",
+   "pos": "熟",
+   "meanings": [
+    "〜と何の関係もない"
+   ],
+   "level": 5,
+   "example": {
+    "en": "This problem has nothing to do with money.",
+    "ja": "この問題はお金とは何の関係もない。"
+   },
+   "note": "have something / much / little to do with も。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-hold-true",
+   "headword": "hold true",
+   "pos": "熟",
+   "meanings": [
+    "当てはまる"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The same rule holds true for adults.",
+    "ja": "同じ規則が大人にも当てはまる。"
+   },
+   "note": "= apply",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-accordance-with",
+   "headword": "in accordance with",
+   "pos": "熟",
+   "meanings": [
+    "〜に従って"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The work was done in accordance with the rules.",
+    "ja": "作業は規則に従って行われた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-favor-of",
+   "headword": "in favor of",
+   "pos": "熟",
+   "meanings": [
+    "〜に賛成して",
+    "〜のために"
+   ],
+   "level": 5,
+   "example": {
+    "en": "Most people are in favor of the plan.",
+    "ja": "ほとんどの人がその計画に賛成している。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-light-of",
+   "headword": "in light of",
+   "pos": "熟",
+   "meanings": [
+    "〜を考慮して",
+    "〜に照らして"
+   ],
+   "level": 5,
+   "example": {
+    "en": "In light of recent events, we changed the plan.",
+    "ja": "最近の出来事を考慮して計画を変更した。"
+   },
+   "note": "= in view of",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-the-wake-of",
+   "headword": "in the wake of",
+   "pos": "熟",
+   "meanings": [
+    "〜の後で",
+    "〜に続いて"
+   ],
+   "level": 5,
+   "example": {
+    "en": "Prices rose in the wake of the disaster.",
+    "ja": "災害の後、物価が上がった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-view-of",
+   "headword": "in view of",
+   "pos": "熟",
+   "meanings": [
+    "〜を考慮して"
+   ],
+   "level": 5,
+   "example": {
+    "en": "In view of the weather, the event was postponed.",
+    "ja": "天候を考慮してその行事は延期された。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-lay-out",
+   "headword": "lay out",
+   "pos": "熟",
+   "meanings": [
+    "配置する",
+    "詳しく説明する"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The report lays out three possible solutions.",
+    "ja": "その報告書は3つの可能な解決策を詳しく示している。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-make-sense-of",
+   "headword": "make sense of",
+   "pos": "熟",
+   "meanings": [
+    "〜を理解する"
+   ],
+   "level": 5,
+   "example": {
+    "en": "I couldn't make sense of the instructions.",
+    "ja": "説明書の意味がわからなかった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-account-of",
+   "headword": "on account of",
+   "pos": "熟",
+   "meanings": [
+    "〜のために（理由）"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The game was delayed on account of rain.",
+    "ja": "雨のため試合は遅れた。"
+   },
+   "note": "= because of / owing to",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-the-grounds-that",
+   "headword": "on the grounds that",
+   "pos": "熟",
+   "meanings": [
+    "〜という理由で"
+   ],
+   "level": 5,
+   "example": {
+    "en": "He refused on the grounds that he was too busy.",
+    "ja": "彼は忙しすぎるという理由で断った。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-owe-a-to-b",
+   "headword": "owe A to B",
+   "pos": "熟",
+   "meanings": [
+    "AはBのおかげである"
+   ],
+   "level": 5,
+   "example": {
+    "en": "I owe my success to my teachers.",
+    "ja": "私の成功は先生たちのおかげだ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-pave-the-way-for",
+   "headword": "pave the way for",
+   "pos": "熟",
+   "meanings": [
+    "〜への道を開く"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The discovery paved the way for new treatments.",
+    "ja": "その発見は新しい治療法への道を開いた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-put-into-practice",
+   "headword": "put into practice",
+   "pos": "熟",
+   "meanings": [
+    "実行に移す"
+   ],
+   "level": 5,
+   "example": {
+    "en": "It's time to put the plan into practice.",
+    "ja": "計画を実行に移す時だ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-run-the-risk-of",
+   "headword": "run the risk of",
+   "pos": "熟",
+   "meanings": [
+    "〜の危険を冒す"
+   ],
+   "level": 5,
+   "example": {
+    "en": "If you don't study, you run the risk of failing.",
+    "ja": "勉強しなければ落第する危険がある。"
+   },
+   "note": "= risk doing",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-stem-from",
+   "headword": "stem from",
+   "pos": "熟",
+   "meanings": [
+    "〜に起因する"
+   ],
+   "level": 5,
+   "example": {
+    "en": "Many problems stem from poor communication.",
+    "ja": "多くの問題は意思疎通の不足に起因する。"
+   },
+   "note": "= result from / arise from",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-take-seriously",
+   "headword": "take ~ seriously",
+   "pos": "熟",
+   "meanings": [
+    "〜を真剣に受け止める"
+   ],
+   "level": 5,
+   "example": {
+    "en": "You should take his advice seriously.",
+    "ja": "彼の忠告を真剣に受け止めるべきだ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-there-is-no-doing",
+   "headword": "there is no doing",
+   "pos": "熟",
+   "meanings": [
+    "〜することはできない"
+   ],
+   "level": 5,
+   "example": {
+    "en": "There is no telling what will happen.",
+    "ja": "何が起こるかわからない。"
+   },
+   "note": "= It is impossible to do",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-to-the-point",
+   "headword": "to the point",
+   "pos": "熟",
+   "meanings": [
+    "要領を得た",
+    "的を射た"
+   ],
+   "level": 5,
+   "example": {
+    "en": "His answer was short and to the point.",
+    "ja": "彼の答えは短く要領を得ていた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-with-a-view-to-doing",
+   "headword": "with a view to doing",
+   "pos": "熟",
+   "meanings": [
+    "〜する目的で"
+   ],
+   "level": 5,
+   "example": {
+    "en": "He saved money with a view to buying a house.",
+    "ja": "彼は家を買う目的でお金を貯めた。"
+   },
+   "note": "to は前置詞。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-by-means-of",
+   "headword": "by means of",
+   "pos": "熟",
+   "meanings": [
+    "〜によって（手段）"
+   ],
+   "level": 5,
+   "example": {
+    "en": "We communicate by means of language.",
+    "ja": "私たちは言語によって意思疎通する。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-for-all",
+   "headword": "for all",
+   "pos": "熟",
+   "meanings": [
+    "〜にもかかわらず"
+   ],
+   "level": 5,
+   "example": {
+    "en": "For all his wealth, he is not happy.",
+    "ja": "財産があるにもかかわらず彼は幸せではない。"
+   },
+   "note": "= in spite of / despite",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-the-face-of",
+   "headword": "in the face of",
+   "pos": "熟",
+   "meanings": [
+    "〜に直面して",
+    "〜にもかかわらず"
+   ],
+   "level": 5,
+   "example": {
+    "en": "She remained calm in the face of danger.",
+    "ja": "危険に直面しても彼女は冷静だった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-keep-pace-with",
+   "headword": "keep pace with",
+   "pos": "熟",
+   "meanings": [
+    "〜に遅れずについていく"
+   ],
+   "level": 5,
+   "example": {
+    "en": "Wages have not kept pace with prices.",
+    "ja": "賃金は物価に追いついていない。"
+   },
+   "note": "= keep up with",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-make-allowances-for",
+   "headword": "make allowances for",
+   "pos": "熟",
+   "meanings": [
+    "〜を考慮に入れる",
+    "大目に見る"
+   ],
+   "level": 5,
+   "example": {
+    "en": "We should make allowances for his inexperience.",
+    "ja": "彼の経験不足は大目に見るべきだ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-more-often-than-not",
+   "headword": "more often than not",
+   "pos": "熟",
+   "meanings": [
+    "たいてい"
+   ],
+   "level": 5,
+   "example": {
+    "en": "More often than not, he is late.",
+    "ja": "たいてい彼は遅刻する。"
+   },
+   "note": "= usually",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-not-to-mention",
+   "headword": "not to mention",
+   "pos": "熟",
+   "meanings": [
+    "〜は言うまでもなく"
+   ],
+   "level": 5,
+   "example": {
+    "en": "She speaks French, not to mention English.",
+    "ja": "彼女は英語は言うまでもなくフランス語も話す。"
+   },
+   "note": "= to say nothing of / let alone",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-the-basis-of",
+   "headword": "on the basis of",
+   "pos": "熟",
+   "meanings": [
+    "〜に基づいて"
+   ],
+   "level": 5,
+   "example": {
+    "en": "Decisions should be made on the basis of evidence.",
+    "ja": "決定は証拠に基づいて下されるべきだ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-prior-to",
+   "headword": "prior to",
+   "pos": "熟",
+   "meanings": [
+    "〜より前に"
+   ],
+   "level": 5,
+   "example": {
+    "en": "Please arrive prior to the start of the exam.",
+    "ja": "試験開始前に到着してください。"
+   },
+   "note": "= before",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-rest-on",
+   "headword": "rest on",
+   "pos": "熟",
+   "meanings": [
+    "〜に基づいている",
+    "〜次第である"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The theory rests on two assumptions.",
+    "ja": "その理論は2つの仮定に基づいている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-single-out",
+   "headword": "single out",
+   "pos": "熟",
+   "meanings": [
+    "選び出す"
+   ],
+   "level": 5,
+   "example": {
+    "en": "She was singled out for praise.",
+    "ja": "彼女は特に選ばれて称賛された。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-take-issue-with",
+   "headword": "take issue with",
+   "pos": "熟",
+   "meanings": [
+    "〜に異議を唱える"
+   ],
+   "level": 5,
+   "example": {
+    "en": "I take issue with your conclusion.",
+    "ja": "あなたの結論には異議がある。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-to-the-contrary",
+   "headword": "to the contrary",
+   "pos": "熟",
+   "meanings": [
+    "それと反対の（に）"
+   ],
+   "level": 5,
+   "example": {
+    "en": "There is no evidence to the contrary.",
+    "ja": "それに反する証拠はない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-when-it-comes-to",
+   "headword": "when it comes to",
+   "pos": "熟",
+   "meanings": [
+    "〜のこととなると"
+   ],
+   "level": 5,
+   "example": {
+    "en": "When it comes to cooking, she is an expert.",
+    "ja": "料理のこととなると彼女は専門家だ。"
+   },
+   "note": "to は前置詞（後ろは名詞・動名詞）。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-let-alone",
+   "headword": "let alone",
+   "pos": "熟",
+   "meanings": [
+    "〜は言うまでもなく（否定文で）"
+   ],
+   "level": 5,
+   "example": {
+    "en": "He can't speak English, let alone French.",
+    "ja": "彼は英語も話せない、ましてフランス語なんて。"
+   },
+   "note": "否定文の後で使う。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-all-but",
+   "headword": "all but",
+   "pos": "熟",
+   "meanings": [
+    "ほとんど"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The task is all but impossible.",
+    "ja": "その仕事はほとんど不可能だ。"
+   },
+   "note": "= almost",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-anything-but",
+   "headword": "anything but",
+   "pos": "熟",
+   "meanings": [
+    "決して〜ではない"
+   ],
+   "level": 5,
+   "example": {
+    "en": "The exam was anything but easy.",
+    "ja": "試験は決して簡単ではなかった。"
+   },
+   "note": "nothing but（〜にすぎない）と区別。",
+   "tags": [
+    "idiom"
+   ]
+  }
+ ]
+}

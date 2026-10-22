@@ -1,0 +1,835 @@
+{
+ "schemaVersion": 1,
+ "id": "idioms.l7",
+ "revision": 1,
+ "skill": "vocabulary",
+ "title": "Lv7 熟語・イディオム",
+ "description": "入試頻出の熟語・句動詞・慣用表現（オリジナル例文付き）",
+ "words": [
+  {
+   "id": "i-bedside-manner",
+   "headword": "bedside manner",
+   "pos": "熟",
+   "meanings": [
+    "（医師の）患者への接し方"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The doctor is known for her excellent bedside manner.",
+    "ja": "その医師は患者への接し方がすばらしいことで知られている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-second-opinion",
+   "headword": "second opinion",
+   "pos": "熟",
+   "meanings": [
+    "セカンドオピニオン（別の医師の意見）"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Before surgery, she asked for a second opinion.",
+    "ja": "手術の前に、彼女はセカンドオピニオンを求めた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-side-effect",
+   "headword": "side effect",
+   "pos": "熟",
+   "meanings": [
+    "副作用"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The drug has few side effects.",
+    "ja": "その薬には副作用がほとんどない。"
+   },
+   "note": "= adverse effect",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-clean-bill-of-health",
+   "headword": "clean bill of health",
+   "pos": "熟",
+   "meanings": [
+    "健康であるという診断",
+    "問題なしの判定"
+   ],
+   "level": 7,
+   "example": {
+    "en": "After the checkup, he was given a clean bill of health.",
+    "ja": "健康診断の後、彼は異常なしと診断された。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-remission",
+   "headword": "in remission",
+   "pos": "熟",
+   "meanings": [
+    "（病気が）寛解して"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Her cancer has been in remission for five years.",
+    "ja": "彼女のがんは5年間寛解している。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-the-mend",
+   "headword": "on the mend",
+   "pos": "熟",
+   "meanings": [
+    "快方に向かって"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The patient is on the mend.",
+    "ja": "患者は快方に向かっている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-under-the-weather",
+   "headword": "under the weather",
+   "pos": "熟",
+   "meanings": [
+    "体調がすぐれない"
+   ],
+   "level": 7,
+   "example": {
+    "en": "I'm feeling a bit under the weather today.",
+    "ja": "今日は少し体調がすぐれない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-quality-of-life",
+   "headword": "quality of life",
+   "pos": "熟",
+   "meanings": [
+    "生活の質"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The treatment improved her quality of life.",
+    "ja": "その治療は彼女の生活の質を向上させた。"
+   },
+   "note": "QOL。医療倫理で頻出。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-life-expectancy",
+   "headword": "life expectancy",
+   "pos": "熟",
+   "meanings": [
+    "平均余命",
+    "平均寿命"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Life expectancy in Japan is among the highest in the world.",
+    "ja": "日本の平均寿命は世界で最も高い水準にある。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-trial-and-error",
+   "headword": "trial and error",
+   "pos": "熟",
+   "meanings": [
+    "試行錯誤"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The method was developed through trial and error.",
+    "ja": "その方法は試行錯誤を通じて開発された。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-conflict-of-interest",
+   "headword": "conflict of interest",
+   "pos": "熟",
+   "meanings": [
+    "利益相反"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Researchers must disclose any conflict of interest.",
+    "ja": "研究者は利益相反があれば開示しなければならない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-peer-review",
+   "headword": "peer review",
+   "pos": "熟",
+   "meanings": [
+    "査読",
+    "同僚による審査"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The paper has not yet undergone peer review.",
+    "ja": "その論文はまだ査読を受けていない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-err-on-the-side-of-caution",
+   "headword": "err on the side of caution",
+   "pos": "熟",
+   "meanings": [
+    "大事をとる",
+    "慎重すぎるほうを選ぶ"
+   ],
+   "level": 7,
+   "example": {
+    "en": "When in doubt, doctors err on the side of caution.",
+    "ja": "迷ったとき、医師は大事をとる。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-double-edged-sword",
+   "headword": "double-edged sword",
+   "pos": "熟",
+   "meanings": [
+    "もろ刃の剣"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Technology is a double-edged sword.",
+    "ja": "技術はもろ刃の剣だ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-slippery-slope",
+   "headword": "slippery slope",
+   "pos": "熟",
+   "meanings": [
+    "（悪い方向への）坂道",
+    "歯止めの利かない事態"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Some fear that legalizing it would be a slippery slope.",
+    "ja": "それを合法化すれば歯止めが利かなくなると恐れる人もいる。"
+   },
+   "note": "議論の形式（滑りやすい坂論法）としても出題される。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-vicious-circle",
+   "headword": "vicious circle",
+   "pos": "熟",
+   "meanings": [
+    "悪循環"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Poverty and poor health form a vicious circle.",
+    "ja": "貧困と健康不良は悪循環をなす。"
+   },
+   "note": "= vicious cycle。反対は virtuous circle（好循環）。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-the-tip-of-the-iceberg",
+   "headword": "the tip of the iceberg",
+   "pos": "熟",
+   "meanings": [
+    "氷山の一角"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The reported cases are only the tip of the iceberg.",
+    "ja": "報告された事例は氷山の一角にすぎない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-the-jury-is-still-out",
+   "headword": "the jury is still out",
+   "pos": "熟",
+   "meanings": [
+    "まだ結論が出ていない"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The jury is still out on whether the diet works.",
+    "ja": "その食事法が効果的かどうかはまだ結論が出ていない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-a-blessing-in-disguise",
+   "headword": "a blessing in disguise",
+   "pos": "熟",
+   "meanings": [
+    "不幸に見えて実は幸いなこと"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Losing that job was a blessing in disguise.",
+    "ja": "その仕事を失ったことは、結果的には幸いだった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-first-and-foremost",
+   "headword": "first and foremost",
+   "pos": "熟",
+   "meanings": [
+    "まず第一に"
+   ],
+   "level": 7,
+   "example": {
+    "en": "First and foremost, a doctor must listen to patients.",
+    "ja": "何よりもまず、医師は患者の話を聞かなければならない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-for-all-intents-and-purposes",
+   "headword": "for all intents and purposes",
+   "pos": "熟",
+   "meanings": [
+    "事実上"
+   ],
+   "level": 7,
+   "example": {
+    "en": "For all intents and purposes, the project is finished.",
+    "ja": "事実上その計画は終わっている。"
+   },
+   "note": "= virtually / in effect",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-come-to-the-fore",
+   "headword": "come to the fore",
+   "pos": "熟",
+   "meanings": [
+    "表面化する",
+    "注目を集める"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Ethical questions have come to the fore.",
+    "ja": "倫理的な問題が表面化している。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-the-throes-of",
+   "headword": "in the throes of",
+   "pos": "熟",
+   "meanings": [
+    "（困難の）さなかに"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The country was in the throes of an economic crisis.",
+    "ja": "その国は経済危機のさなかにあった。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-be-predisposed-to",
+   "headword": "be predisposed to",
+   "pos": "熟",
+   "meanings": [
+    "〜にかかりやすい素因がある",
+    "〜する傾向がある"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Some people are genetically predisposed to diabetes.",
+    "ja": "遺伝的に糖尿病になりやすい人もいる。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-bear-the-brunt-of",
+   "headword": "bear the brunt of",
+   "pos": "熟",
+   "meanings": [
+    "〜の矢面に立つ",
+    "〜の打撃をまともに受ける"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The poor bear the brunt of climate change.",
+    "ja": "貧しい人々が気候変動の打撃をまともに受ける。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-beg-the-question",
+   "headword": "beg the question",
+   "pos": "熟",
+   "meanings": [
+    "論点を先取りする",
+    "疑問を生じさせる"
+   ],
+   "level": 7,
+   "example": {
+    "en": "His answer begs the question of who will pay.",
+    "ja": "彼の答えは、誰が支払うのかという疑問を生じさせる。"
+   },
+   "note": "本来は論理学の「論点先取」の意味。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-by-dint-of",
+   "headword": "by dint of",
+   "pos": "熟",
+   "meanings": [
+    "〜によって"
+   ],
+   "level": 7,
+   "example": {
+    "en": "She succeeded by dint of hard work.",
+    "ja": "彼女は努力によって成功した。"
+   },
+   "note": "= by means of / by virtue of",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-cut-both-ways",
+   "headword": "cut both ways",
+   "pos": "熟",
+   "meanings": [
+    "両刃の剣である",
+    "両面に作用する"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The argument cuts both ways.",
+    "ja": "その議論はどちらの側にも当てはまる。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-hold-accountable",
+   "headword": "hold ~ accountable",
+   "pos": "熟",
+   "meanings": [
+    "〜に責任を負わせる"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Leaders must be held accountable for their decisions.",
+    "ja": "指導者は自らの決定に責任を問われなければならない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-tandem-with",
+   "headword": "in tandem with",
+   "pos": "熟",
+   "meanings": [
+    "〜と連携して",
+    "同時に"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The drug works in tandem with diet changes.",
+    "ja": "その薬は食生活の改善と組み合わせて効果を発揮する。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-lay-the-groundwork-for",
+   "headword": "lay the groundwork for",
+   "pos": "熟",
+   "meanings": [
+    "〜の基礎を築く"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Early research laid the groundwork for the vaccine.",
+    "ja": "初期の研究がそのワクチンの基礎を築いた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-mutually-exclusive",
+   "headword": "mutually exclusive",
+   "pos": "熟",
+   "meanings": [
+    "相互に排他的な",
+    "両立しない"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Economic growth and environmental protection are not mutually exclusive.",
+    "ja": "経済成長と環境保護は両立しないものではない。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-the-premise-that",
+   "headword": "on the premise that",
+   "pos": "熟",
+   "meanings": [
+    "〜という前提で"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The plan was made on the premise that prices would stay low.",
+    "ja": "その計画は物価が低いままだという前提で立てられた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-play-into-the-hands-of",
+   "headword": "play into the hands of",
+   "pos": "熟",
+   "meanings": [
+    "〜の思うつぼになる"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Panic would only play into the hands of the attackers.",
+    "ja": "パニックになれば攻撃者の思うつぼになるだけだ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-run-its-course",
+   "headword": "run its course",
+   "pos": "熟",
+   "meanings": [
+    "自然に終わるまで続く"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The cold will run its course in a week.",
+    "ja": "風邪は1週間ほどで自然に治るだろう。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-stand-the-test-of-time",
+   "headword": "stand the test of time",
+   "pos": "熟",
+   "meanings": [
+    "時の試練に耐える"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Her theory has stood the test of time.",
+    "ja": "彼女の理論は時の試練に耐えてきた。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-take-a-toll-on",
+   "headword": "take a toll on",
+   "pos": "熟",
+   "meanings": [
+    "〜に悪影響を及ぼす",
+    "〜を消耗させる"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Long shifts take a toll on doctors' health.",
+    "ja": "長時間の勤務は医師の健康をむしばむ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-the-lion-s-share-of",
+   "headword": "the lion's share of",
+   "pos": "熟",
+   "meanings": [
+    "〜の最大の部分"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The lion's share of the budget goes to defense.",
+    "ja": "予算の大部分は防衛に充てられる。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-with-impunity",
+   "headword": "with impunity",
+   "pos": "熟",
+   "meanings": [
+    "罰を受けずに"
+   ],
+   "level": 7,
+   "example": {
+    "en": "They broke the law with impunity.",
+    "ja": "彼らは罰を受けずに法を破った。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-raise-awareness-of",
+   "headword": "raise awareness of",
+   "pos": "熟",
+   "meanings": [
+    "〜への意識を高める"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The campaign aims to raise awareness of mental health.",
+    "ja": "その運動は心の健康への意識を高めることを目的としている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-benefit-of-the-doubt",
+   "headword": "benefit of the doubt",
+   "pos": "熟",
+   "meanings": [
+    "（疑わしい点を）善意に解釈すること"
+   ],
+   "level": 7,
+   "example": {
+    "en": "I'll give him the benefit of the doubt.",
+    "ja": "彼のことは善意に解釈しておこう。"
+   },
+   "note": "give A the benefit of the doubt の形で使う。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-informed-decision",
+   "headword": "informed decision",
+   "pos": "熟",
+   "meanings": [
+    "十分な情報に基づいた判断"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Patients need clear information to make an informed decision.",
+    "ja": "患者が十分な情報に基づいて判断するには、明確な説明が必要だ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-on-a-case-by-case-basis",
+   "headword": "on a case-by-case basis",
+   "pos": "熟",
+   "meanings": [
+    "個々の事例ごとに"
+   ],
+   "level": 7,
+   "example": {
+    "en": "Requests are considered on a case-by-case basis.",
+    "ja": "要望は個別に検討される。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-at-the-cutting-edge-of",
+   "headword": "at the cutting edge of",
+   "pos": "熟",
+   "meanings": [
+    "〜の最先端で"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The hospital is at the cutting edge of cancer research.",
+    "ja": "その病院はがん研究の最先端にある。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-in-vitro",
+   "headword": "in vitro",
+   "pos": "熟",
+   "meanings": [
+    "生体外で",
+    "試験管内で"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The drug was first tested in vitro.",
+    "ja": "その薬はまず試験管内で試験された。"
+   },
+   "note": "反対は in vivo（生体内で）。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-double-blind",
+   "headword": "double-blind",
+   "pos": "熟",
+   "meanings": [
+    "二重盲検の"
+   ],
+   "level": 7,
+   "example": {
+    "en": "The study was a double-blind trial.",
+    "ja": "その研究は二重盲検試験だった。"
+   },
+   "note": "患者も医師もどちらが実薬か知らない試験。",
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-pros-and-cons",
+   "headword": "pros and cons",
+   "pos": "熟",
+   "meanings": [
+    "賛否両論",
+    "長所と短所"
+   ],
+   "level": 7,
+   "example": {
+    "en": "We discussed the pros and cons of genetic testing.",
+    "ja": "遺伝子検査の長所と短所を議論した。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-a-matter-of-life-and-death",
+   "headword": "a matter of life and death",
+   "pos": "熟",
+   "meanings": [
+    "死活問題"
+   ],
+   "level": 7,
+   "example": {
+    "en": "For these patients, access to the drug is a matter of life and death.",
+    "ja": "これらの患者にとって、その薬を入手できるかは死活問題だ。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-go-to-great-lengths",
+   "headword": "go to great lengths",
+   "pos": "熟",
+   "meanings": [
+    "大変な努力をする"
+   ],
+   "level": 7,
+   "example": {
+    "en": "They went to great lengths to protect patient privacy.",
+    "ja": "彼らは患者のプライバシーを守るために大変な努力をした。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "i-call-the-shots",
+   "headword": "call the shots",
+   "pos": "熟",
+   "meanings": [
+    "主導権を握る"
+   ],
+   "level": 7,
+   "example": {
+    "en": "In this hospital, the senior doctors call the shots.",
+    "ja": "この病院では上級医が主導権を握っている。"
+   },
+   "tags": [
+    "idiom"
+   ]
+  }
+ ]
+}
