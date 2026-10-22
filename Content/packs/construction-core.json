@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "construction.core",
- "revision": 3,
+ "revision": 4,
  "skill": "construction",
  "title": "英文解釈・構文",
  "description": "文型判定から難関大の下線部和訳まで、精読の技術を段階的に習得",
@@ -93,6 +93,67 @@
       "closed（閉められた状態）",
       "on「（電気製品が）ついている」"
      ]
+    },
+    {
+     "id": "c-svoc-5",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "私たちは犬をマックスと名づけた。"
+     ],
+     "explanation": "our dog = Max の関係 → SVOC。name O C「OをCと名づける」。",
+     "sentence": "We named our dog Max.",
+     "choices": [
+      "私たちはマックスに犬をあげた。",
+      "私たちは犬をマックスと名づけた。",
+      "私たちの犬はマックスを呼んだ。",
+      "マックスが私たちの犬に名前をつけた。"
+     ]
+    },
+    {
+     "id": "c-svoc-6",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "彼女は息子にケーキを作ってあげた。"
+     ],
+     "explanation": "her son ≠ a cake → SVOO「息子にケーキを作った」。",
+     "sentence": "She made her son a cake.",
+     "choices": [
+      "彼女は息子をケーキにした。",
+      "彼女は息子にケーキを作ってあげた。",
+      "息子が彼女にケーキを作った。",
+      "彼女は息子をケーキ職人にした。"
+     ]
+    },
+    {
+     "id": "c-svoc-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "定期的な運動は体を健康に、頭を鋭く保つ。",
+      "定期的に運動すれば、体は健康で頭は冴えた状態に保たれる。"
+     ],
+     "explanation": "and は O C の組を2つ並べている。",
+     "sentence": "Regular exercise keeps your body healthy and your mind sharp.",
+     "keyPoints": [
+      "keep O C の並列（your body healthy / your mind sharp）",
+      "無生物主語を条件的に訳してもよい"
+     ]
+    },
+    {
+     "id": "c-svoc-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "長旅で皆へとへとになった。"
+     ],
+     "explanation": "everyone (was) exhausted の関係。",
+     "sentence": "The long journey left everyone exhausted.",
+     "keyPoints": [
+      "leave O C「OをCの状態にする」",
+      "無生物主語は原因として訳す"
+     ]
     }
    ]
   },
@@ -178,6 +239,66 @@
       "It takes 人 時間 to do「人が〜するのに（時間）がかかる」",
       "how the disease spreads「病気がどのように広がるか」"
      ]
+    },
+    {
+     "id": "c-fs-5",
+     "type": "choice",
+     "prompt": "下線部の構文を選びなさい。",
+     "answers": [
+      "形式主語構文"
+     ],
+     "explanation": "It is + 形容詞 + that 節（完全な文）。",
+     "sentence": "It was clear that the plan would not work.",
+     "choices": [
+      "形式主語構文",
+      "強調構文",
+      "関係代名詞",
+      "同格の that"
+     ]
+    },
+    {
+     "id": "c-fs-6",
+     "type": "choice",
+     "prompt": "下線部の構文を選びなさい。",
+     "answers": [
+      "強調構文"
+     ],
+     "explanation": "It was と that を取ると My brother broke the vase. が完成する。",
+     "sentence": "It was my brother that broke the vase.",
+     "choices": [
+      "形式主語構文",
+      "強調構文",
+      "関係代名詞",
+      "同格の that"
+     ]
+    },
+    {
+     "id": "c-fs-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼女が寂しいのかもしれないとは一度も思いつかなかった。"
+     ],
+     "explanation": "形式主語 It が that 節を指す。",
+     "sentence": "It never occurred to me that she might be lonely.",
+     "keyPoints": [
+      "It occurs to 人 that 〜「〜という考えがふと浮かぶ」",
+      "might「〜かもしれない」"
+     ]
+    },
+    {
+     "id": "c-fs-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "行くか残るかはあなた次第だ。"
+     ],
+     "explanation": "真主語は whether 節。",
+     "sentence": "It is up to you whether we go or stay.",
+     "keyPoints": [
+      "It is up to 人「〜次第だ」",
+      "whether A or B が真主語"
+     ]
     }
    ]
   },
@@ -259,6 +380,66 @@
       "that 節の主語は children（who sleep well が修飾）",
       "perform と are が並列（主語 children の述語）",
       "be less likely to do「〜する可能性が低い」"
+     ]
+    },
+    {
+     "id": "c-par-5",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "improve"
+     ],
+     "explanation": "help O do の do が2つ並列（improve / develop）。",
+     "sentence": "The program helps students improve their English and develop confidence.\ndevelop は何と並列か。",
+     "choices": [
+      "helps",
+      "improve",
+      "students",
+      "English"
+     ]
+    },
+    {
+     "id": "c-par-6",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "as a singer と as a writer"
+     ],
+     "explanation": "not only A but also B の A・B は同じ形（as + 名詞）。",
+     "sentence": "She is famous not only as a singer but also as a writer.\n並列されているものは？",
+     "choices": [
+      "famous と singer",
+      "as a singer と as a writer",
+      "not と also",
+      "She と writer"
+     ]
+    },
+    {
+     "id": "c-par-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "幅広く読むこと、批判的に考えること、明確に書くことが、大学生が最も必要とする技能である。"
+     ],
+     "explanation": "A, B, and C の3つが主語。",
+     "sentence": "Reading widely, thinking critically, and writing clearly are the skills that university students need most.",
+     "keyPoints": [
+      "3つの動名詞句の並列（主語）",
+      "the skills that 〜（関係代名詞）"
+     ]
+    },
+    {
+     "id": "c-par-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その講座の目的は、学習者が英文学を理解し、最終的には楽しめるように手助けすることである。"
+     ],
+     "explanation": "カンマに挟まれた and eventually enjoy は挿入的な並列。",
+     "sentence": "The aim of the course is to help learners understand, and eventually enjoy, English literature.",
+     "keyPoints": [
+      "understand と enjoy が English literature を共通の目的語とする",
+      "eventually「最終的には」"
      ]
     }
    ]
@@ -342,6 +523,65 @@
       "病気のために彼は式に出席できなかった。",
       "彼は式に出席して病気になった。",
       "病気でも彼は式に出席した。"
+     ]
+    },
+    {
+     "id": "c-is-5",
+     "type": "choice",
+     "prompt": "英文の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "少し歩くと湖に着いた。"
+     ],
+     "explanation": "無生物主語 + take O to 〜「〜すると…に着く」。",
+     "sentence": "A short walk took me to the lake.",
+     "choices": [
+      "短い散歩が湖を連れてきた。",
+      "少し歩くと湖に着いた。",
+      "湖まで散歩するのは短かった。",
+      "湖を散歩するのに少し時間がかかった。"
+     ]
+    },
+    {
+     "id": "c-is-6",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "大雨のため、私たちは一日中屋内にいた。"
+     ],
+     "explanation": "無生物主語を理由として訳す。",
+     "sentence": "The heavy rain kept us indoors all day.",
+     "keyPoints": [
+      "keep O C（indoors）",
+      "無生物主語 → 原因「〜のため」"
+     ]
+    },
+    {
+     "id": "c-is-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼の助言のおかげで、私は多くの時間を節約できた。"
+     ],
+     "explanation": "save O O の構文。",
+     "sentence": "His advice saved me a lot of time.",
+     "keyPoints": [
+      "save 人 物「人の物を省く」",
+      "無生物主語 → 「〜のおかげで」"
+     ]
+    },
+    {
+     "id": "c-is-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "データをより詳しく見ると、違った状況が浮かび上がってくる。"
+     ],
+     "explanation": "名詞構文の主語を条件的に訳す。",
+     "sentence": "A closer look at the data reveals a different picture.",
+     "keyPoints": [
+      "A closer look at the data（名詞構文）→「データをより詳しく見ると」",
+      "reveal「明らかにする」",
+      "a different picture「異なる状況」"
      ]
     }
    ]
@@ -430,6 +670,66 @@
       "so 〜 that …「とても〜なので…」",
       "hardly「ほとんど〜ない」"
      ]
+    },
+    {
+     "id": "c-rc-5",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "is"
+     ],
+     "explanation": "in which the poet was born は関係詞節。主節の動詞は is。",
+     "sentence": "The house in which the poet was born is now a museum.\n述語動詞はどれか。",
+     "choices": [
+      "was born",
+      "is",
+      "in",
+      "museum"
+     ]
+    },
+    {
+     "id": "c-rc-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "which"
+     ],
+     "explanation": "非制限用法の which（先行詞 my bike）。that は非制限用法不可。",
+     "sentence": "I lent him my bike, ___ he never returned.",
+     "choices": [
+      "that",
+      "which",
+      "what",
+      "it"
+     ]
+    },
+    {
+     "id": "c-rc-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼女には兄弟が2人いるが、どちらも日本には住んでいない。"
+     ],
+     "explanation": "非制限用法は訳し下すと自然。",
+     "sentence": "She has two brothers, neither of whom lives in Japan.",
+     "keyPoints": [
+      "neither of whom（非制限・数量表現 + of + 関係代名詞）",
+      "前から訳し下す"
+     ]
+    },
+    {
+     "id": "c-rc-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "先ほど私が触れた研究の科学者が、明日講演を行う。"
+     ],
+     "explanation": "whose research が mentioned の目的語。",
+     "sentence": "The scientist whose research I mentioned earlier will give a lecture tomorrow.",
+     "keyPoints": [
+      "whose research I mentioned earlier（所有格関係代名詞）",
+      "主節の動詞 will give"
+     ]
     }
    ]
   },
@@ -514,6 +814,68 @@
      "keyPoints": [
       "no more A than B「Bでないのと同様Aでない」（クジラの構文）",
       "a mere set of sounds「単なる音の集まり」"
+     ]
+    },
+    {
+     "id": "c-cmp-5",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "the more successful"
+     ],
+     "explanation": "the 比較級 …, the 比較級 ～。",
+     "sentence": "The harder you work, ___ you will become.",
+     "choices": [
+      "more successful",
+      "the more successful",
+      "most successful",
+      "the most successful"
+     ]
+    },
+    {
+     "id": "c-cmp-6",
+     "type": "choice",
+     "prompt": "下線部の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "500人も"
+     ],
+     "explanation": "no less than「〜も（多い）」。",
+     "sentence": "There were no less than 500 people at the meeting.",
+     "choices": [
+      "たった500人",
+      "500人も",
+      "少なくとも500人",
+      "多くても500人"
+     ]
+    },
+    {
+     "id": "c-cmp-7",
+     "type": "choice",
+     "prompt": "下線部の意味として最も適切なものを選びなさい。",
+     "answers": [
+      "多くても1,000円しかない"
+     ],
+     "explanation": "not more than = at most「多くても」。",
+     "sentence": "I have not more than 1,000 yen.",
+     "choices": [
+      "たった1,000円しかない",
+      "1,000円もある",
+      "多くても1,000円しかない",
+      "少なくとも1,000円ある"
+     ]
+    },
+    {
+     "id": "c-cmp-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "脳について知れば知るほど、私たちは自分がいかに脳を理解していないかに気づく。"
+     ],
+     "explanation": "後半の how little は「いかにわずかしか〜ないか」。",
+     "sentence": "The more we know about the brain, the more we realize how little we understand it.",
+     "keyPoints": [
+      "the 比較級 …, the 比較級 ～",
+      "how little we understand it（間接疑問）"
      ]
     }
    ]
@@ -724,6 +1086,66 @@
       "to close the factory が decision を修飾（同格的な不定詞）",
       "living in the town が workers を修飾"
      ]
+    },
+    {
+     "id": "c-ms-5",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "is"
+     ],
+     "explanation": "standing 〜 bag は girl を修飾。述語動詞は is。",
+     "sentence": "The girl standing by the door with a red bag is my cousin.\n述語動詞はどれか。",
+     "choices": [
+      "standing",
+      "is",
+      "with",
+      "bag"
+     ]
+    },
+    {
+     "id": "c-ms-6",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "The tools used by ancient people"
+     ],
+     "explanation": "過去分詞 used 以下が tools を修飾し、tell が述語動詞。",
+     "sentence": "The tools used by ancient people tell us a lot about their lives.\n主語の範囲は？",
+     "choices": [
+      "The tools",
+      "The tools used by ancient people",
+      "ancient people",
+      "The tools used"
+     ]
+    },
+    {
+     "id": "c-ms-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "旅行への参加を希望する生徒は、金曜日までに用紙を提出しなければならない。"
+     ],
+     "explanation": "現在分詞の後置修飾。",
+     "sentence": "Students wishing to join the trip must submit the form by Friday.",
+     "keyPoints": [
+      "wishing to join the trip が Students を修飾",
+      "述語動詞 must submit"
+     ]
+    },
+    {
+     "id": "c-ms-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その催しで集められたお金は、村に図書館を建てるために使われる。"
+     ],
+     "explanation": "raised は過去分詞。述語動詞は will be used。",
+     "sentence": "The money raised at the event will be used to build a library in the village.",
+     "keyPoints": [
+      "raised at the event が money を修飾（過去分詞）",
+      "will be used to do（受動態 + 目的の不定詞）"
+     ]
     }
    ]
   },
@@ -807,6 +1229,68 @@
       "not A but B",
       "what we know / what we choose to do（名詞節）"
      ]
+    },
+    {
+     "id": "c-wt-5",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "that"
+     ],
+     "explanation": "後ろが完全な文 → 接続詞 that。",
+     "sentence": "I believe ___ honesty is the best policy.",
+     "choices": [
+      "what",
+      "that",
+      "which",
+      "who"
+     ]
+    },
+    {
+     "id": "c-wt-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "what"
+     ],
+     "explanation": "want の目的語が欠けている → what。",
+     "sentence": "Tell me ___ you want for your birthday.",
+     "choices": [
+      "that",
+      "what",
+      "which",
+      "it"
+     ]
+    },
+    {
+     "id": "c-wt-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "that"
+     ],
+     "explanation": "the news の内容を述べる同格の that（後ろは完全な文）。",
+     "sentence": "The news ___ he had passed the exam made us happy.",
+     "choices": [
+      "what",
+      "that",
+      "which",
+      "who"
+     ]
+    },
+    {
+     "id": "c-wt-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "失敗から学ぶことは、しばしば成功から学ぶことより価値がある。"
+     ],
+     "explanation": "what 節同士を比較している。",
+     "sentence": "What we learn from failure is often more valuable than what we learn from success.",
+     "keyPoints": [
+      "What we learn 〜（関係代名詞 what）× 2",
+      "more valuable than"
+     ]
     }
    ]
   },
@@ -884,6 +1368,65 @@
       "much as we do「私たちとほぼ同じように」",
       "If so = 動物が感情を感じるなら",
       "them = animals"
+     ]
+    },
+    {
+     "id": "c-rf-5",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "お金がすべてだという考え"
+     ],
+     "explanation": "直前の文の内容 money is everything を指す。",
+     "sentence": "Some people think money is everything. I don't agree with this view.\nthis view の内容は？",
+     "choices": [
+      "お金を使うべきだという考え",
+      "お金がすべてだという考え",
+      "お金は不要だという考え",
+      "人は皆同じだという考え"
+     ]
+    },
+    {
+     "id": "c-rf-6",
+     "type": "choice",
+     "prompt": "問いに答えなさい。",
+     "answers": [
+      "towers"
+     ],
+     "explanation": "those = the towers（複数名詞の繰り返し回避）。",
+     "sentence": "The tower is taller than those in neighboring cities.\nthose が指すものは？",
+     "choices": [
+      "cities",
+      "towers",
+      "neighbors",
+      "people"
+     ]
+    },
+    {
+     "id": "c-rf-7",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "多くの若者が大都市へ移り住んでいる。このことによって、多くの村では住民がほとんどいなくなっている。"
+     ],
+     "explanation": "This は前文全体の内容を受ける。",
+     "sentence": "Many young people are moving to big cities. This has left many villages with few residents.",
+     "keyPoints": [
+      "This = 若者が大都市へ移り住んでいること",
+      "leave O with 〜「Oを〜の状態にする」"
+     ]
+    },
+    {
+     "id": "c-rf-8",
+     "type": "shortAnswer",
+     "prompt": "次の英文の下線部 such behavior の内容を日本語で具体的に説明しなさい。\nSome tourists leave trash on the beach and write on old walls. Such behavior damages the town's reputation.",
+     "answers": [
+      "観光客が浜辺にごみを捨てたり、古い壁に落書きをしたりすること。"
+     ],
+     "explanation": "Such は前文の内容（2つの行為）を指す。",
+     "keyPoints": [
+      "前文の2つの行為を両方含める",
+      "ごみを捨てる・落書きをする"
      ]
     }
    ]

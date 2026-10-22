@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T13:16:12Z",
+  "generatedAt" : "2026-10-22T13:17:00Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -13,8 +13,8 @@
     {
       "file" : "packs/construction-core.json",
       "id" : "construction.core",
-      "revision" : 3,
-      "sha256" : "d85cbda43dd1667d4bb23bd32e432daefeeeda15444c66b0e7c69cdf5d7480eb",
+      "revision" : 4,
+      "sha256" : "7f1eb8dc7edc2affe2befa84d5d5e785f1150940514994aaf06cc044d58ace1c",
       "skill" : "construction",
       "title" : "英文解釈・構文"
     },
