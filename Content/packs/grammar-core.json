@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "grammar.core",
- "revision": 3,
+ "revision": 4,
  "skill": "grammar",
  "title": "文法・語法 基本〜発展",
  "description": "高校文法の全分野を入試頻出ポイントに絞って解説＋演習",
@@ -106,6 +106,48 @@
       "beautiful",
       "view"
      ]
+    },
+    {
+     "id": "g-tp-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "haven't finished"
+     ],
+     "explanation": "yet（まだ）を伴う否定は現在完了。",
+     "sentence": "I ___ my homework yet.",
+     "choices": [
+      "didn't finish",
+      "haven't finished",
+      "don't finish",
+      "hadn't finished"
+     ]
+    },
+    {
+     "id": "g-tp-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "been"
+     ],
+     "explanation": "経験「〜へ行ったことがある」は have been to。",
+     "sentence": "\"Have you ever ___ to Okinawa?\" \"Yes, twice.\"",
+     "choices": [
+      "gone",
+      "been",
+      "went",
+      "go"
+     ]
+    },
+    {
+     "id": "g-tp-8",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "since"
+     ],
+     "explanation": "起点（1960年）を示すので since。期間なら for。",
+     "sentence": "My grandmother has lived in this town ___ 1960."
     }
    ]
   },
@@ -205,6 +247,54 @@
       "translate A into B（AをBに翻訳する）",
       "受動態（be / has been translated）",
       "language は可算名詞 → many languages"
+     ]
+    },
+    {
+     "id": "g-ps-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "is spoken"
+     ],
+     "explanation": "英語は「話される」側なので受動態。",
+     "sentence": "English ___ in many countries.",
+     "choices": [
+      "speaks",
+      "is spoken",
+      "is speaking",
+      "has spoken"
+     ]
+    },
+    {
+     "id": "g-ps-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "with"
+     ],
+     "explanation": "be covered with 〜「〜で覆われている」。",
+     "sentence": "The roof of the house was covered ___ snow.",
+     "choices": [
+      "by",
+      "with",
+      "of",
+      "at"
+     ]
+    },
+    {
+     "id": "g-ps-8",
+     "type": "reorder",
+     "prompt": "日本語の意味になるように語句を並べ替えなさい。\n「その手紙はいつ書かれたのですか。」",
+     "answers": [
+      "When was the letter written"
+     ],
+     "explanation": "疑問詞 + be動詞 + 主語 + 過去分詞。",
+     "choices": [
+      "When",
+      "was",
+      "the",
+      "letter",
+      "written"
      ]
     }
    ]
@@ -318,6 +408,48 @@
       "must be 〜「〜に違いない」",
       "to believe は判断の根拠「〜するなんて」"
      ]
+    },
+    {
+     "id": "g-inf-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "to do"
+     ],
+     "explanation": "形容詞的用法「すべきこと」。",
+     "sentence": "I have nothing ___ today.",
+     "choices": [
+      "do",
+      "to do",
+      "doing",
+      "done"
+     ]
+    },
+    {
+     "id": "g-inf-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "to show"
+     ],
+     "explanation": "形容詞 + enough to do。",
+     "sentence": "He was kind enough ___ me the way.",
+     "choices": [
+      "show",
+      "to show",
+      "showing",
+      "shown"
+     ]
+    },
+    {
+     "id": "g-inf-8",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "to"
+     ],
+     "explanation": "too 〜 to do「〜すぎて…できない」。",
+     "sentence": "This book is too difficult for me ___ read."
     }
    ]
   },
@@ -417,6 +549,54 @@
      "explanation": "stop doing「〜するのをやめる」。make noise「音を立てる」。",
      "sentence": "Please stop ___ noise. I'm trying to sleep.",
      "hint": "make を適切な形に"
+    },
+    {
+     "id": "g-ger-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "closing"
+     ],
+     "explanation": "mind は動名詞を目的語にとる。",
+     "sentence": "Would you mind ___ the door?",
+     "choices": [
+      "close",
+      "to close",
+      "closing",
+      "closed"
+     ]
+    },
+    {
+     "id": "g-ger-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "to drink"
+     ],
+     "explanation": "疲れていたので「コーヒーを飲むために立ち止まった」。stop to do（目的の不定詞）。",
+     "sentence": "I stopped ___ a cup of coffee because I was tired.",
+     "choices": [
+      "drinking",
+      "to drink",
+      "drink",
+      "drank"
+     ]
+    },
+    {
+     "id": "g-ger-8",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "drawing"
+     ],
+     "explanation": "前置詞 at の後ろは動名詞。",
+     "sentence": "She is good at ___ pictures.",
+     "choices": [
+      "draw",
+      "to draw",
+      "drawing",
+      "drawn"
+     ]
     }
    ]
   },
@@ -515,6 +695,52 @@
      "keyPoints": [
       "the + 序数 + 最上級「〜番目に…な」",
       "in Japan（範囲）"
+     ]
+    },
+    {
+     "id": "g-cmp-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "best"
+     ],
+     "explanation": "the + 最上級 + I have ever seen。good の最上級は best。",
+     "sentence": "This is the ___ movie I have ever seen.",
+     "choices": [
+      "good",
+      "better",
+      "best",
+      "most good"
+     ]
+    },
+    {
+     "id": "g-cmp-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "than"
+     ],
+     "explanation": "比較級 + than。",
+     "sentence": "My brother is three years older ___ me.",
+     "choices": [
+      "to",
+      "than",
+      "as",
+      "from"
+     ]
+    },
+    {
+     "id": "g-cmp-8",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「富士山は日本の他のどの山よりも高い。」",
+     "answers": [
+      "Mt. Fuji is higher than any other mountain in Japan.",
+      "Mount Fuji is higher than any other mountain in Japan.",
+      "Mt. Fuji is taller than any other mountain in Japan."
+     ],
+     "explanation": "最上級の意味を比較級で表す形。",
+     "keyPoints": [
+      "比較級 + than any other + 単数名詞"
      ]
     }
    ]
@@ -618,6 +844,57 @@
      ],
      "explanation": "「息子が有名な俳優である女性」：所有格 whose。",
      "sentence": "I met a woman ___ son is a famous actor."
+    },
+    {
+     "id": "g-rel-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "who"
+     ],
+     "explanation": "先行詞が人で、is talking の主語 → 主格 who。",
+     "sentence": "The man ___ is talking to Ken is my uncle.",
+     "choices": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+     ]
+    },
+    {
+     "id": "g-rel-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "which"
+     ],
+     "explanation": "先行詞が物、took の目的語 → which（that も可、省略も可）。",
+     "sentence": "Show me the pictures ___ you took in Kyoto.",
+     "choices": [
+      "who",
+      "which",
+      "whose",
+      "what"
+     ]
+    },
+    {
+     "id": "g-rel-8",
+     "type": "reorder",
+     "prompt": "日本語の意味になるように語句を並べ替えなさい。\n「私には英語を上手に話す友達がいる。」",
+     "answers": [
+      "I have a friend who speaks English well"
+     ],
+     "explanation": "主格の関係代名詞 who。",
+     "choices": [
+      "I",
+      "have",
+      "a",
+      "friend",
+      "who",
+      "speaks",
+      "English",
+      "well"
+     ]
     }
    ]
   },
@@ -719,6 +996,52 @@
      "keyPoints": [
       "If it had not been for 〜「（過去に）〜がなかったら」",
       "would have failed「失敗していただろう」"
+     ]
+    },
+    {
+     "id": "g-sj-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "were"
+     ],
+     "explanation": "I wish + 仮定法過去（現在の事実に反する願望）。",
+     "sentence": "I wish I ___ a bird.",
+     "choices": [
+      "am",
+      "were",
+      "will be",
+      "have been"
+     ]
+    },
+    {
+     "id": "g-sj-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "would have sent"
+     ],
+     "explanation": "仮定法過去完了の主節は would have done。",
+     "sentence": "If I had known your address, I ___ you a letter.",
+     "choices": [
+      "would send",
+      "would have sent",
+      "will send",
+      "had sent"
+     ]
+    },
+    {
+     "id": "g-sj-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "もし私があなたの立場なら、彼女に本当のことを言うだろう。"
+     ],
+     "explanation": "If I were 〜, I would 〜 の基本形。",
+     "sentence": "If I were in your position, I would tell her the truth.",
+     "keyPoints": [
+      "仮定法過去（現在の事実に反する仮定）",
+      "in your position「あなたの立場で」"
      ]
     }
    ]
@@ -922,6 +1245,52 @@
       "否定語 not は分詞の前",
       "remain silent「黙ったままでいる」"
      ]
+    },
+    {
+     "id": "g-pc-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Hearing"
+     ],
+     "explanation": "When she heard the news の分詞構文（能動）。",
+     "sentence": "___ the news, she began to cry.",
+     "choices": [
+      "Hear",
+      "Hearing",
+      "Heard",
+      "To hearing"
+     ]
+    },
+    {
+     "id": "g-pc-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "being"
+     ],
+     "explanation": "主語が異なる独立分詞構文 The weather being fine。",
+     "sentence": "The weather ___ fine, we went for a walk.",
+     "choices": [
+      "is",
+      "was",
+      "being",
+      "been"
+     ]
+    },
+    {
+     "id": "g-pc-8",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "浜辺を歩いていると、きれいな貝殻を見つけた。"
+     ],
+     "explanation": "時を表す分詞構文。",
+     "sentence": "Walking along the beach, I found a beautiful shell.",
+     "keyPoints": [
+      "Walking 〜（時：〜していると）",
+      "found（過去形）"
+     ]
     }
    ]
   },
@@ -1024,6 +1393,48 @@
       "may / might have + 過去分詞「〜したかもしれない」",
       "lose one's way / get lost「道に迷う」"
      ]
+    },
+    {
+     "id": "g-mp-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "must have stayed"
+     ],
+     "explanation": "現在の様子から過去を推量「夜更かししたに違いない」。",
+     "sentence": "He looks very tired. He ___ up late last night.",
+     "choices": [
+      "must stay",
+      "must have stayed",
+      "should stay",
+      "can't stay"
+     ]
+    },
+    {
+     "id": "g-mp-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "shouldn't"
+     ],
+     "explanation": "過去の行為への非難・後悔「言うべきではなかった」。",
+     "sentence": "You ___ have told her the secret. Now everyone knows.",
+     "choices": [
+      "shouldn't",
+      "mustn't",
+      "needn't",
+      "can't"
+     ]
+    },
+    {
+     "id": "g-mp-8",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "have"
+     ],
+     "explanation": "may have done「〜したかもしれない」。",
+     "sentence": "She may ___ missed the train. She isn't here yet."
     }
    ]
   },
@@ -1120,6 +1531,54 @@
      "keyPoints": [
       "That is why 〜「そういうわけで〜」（結果）",
       "That is because 〜（原因）との区別"
+     ]
+    },
+    {
+     "id": "g-ra-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "why"
+     ],
+     "explanation": "the reason の後は関係副詞 why。",
+     "sentence": "Tell me the reason ___ you were late.",
+     "choices": [
+      "which",
+      "why",
+      "where",
+      "what"
+     ]
+    },
+    {
+     "id": "g-ra-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "when"
+     ],
+     "explanation": "先行詞が時（the day）、後ろが完全な文 → when。",
+     "sentence": "Do you remember the day ___ we first met?",
+     "choices": [
+      "when",
+      "where",
+      "which",
+      "what"
+     ]
+    },
+    {
+     "id": "g-ra-8",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Whoever"
+     ],
+     "explanation": "Whoever = Anyone who「来たい人は誰でも」。",
+     "sentence": "___ wants to come is welcome.",
+     "choices": [
+      "Whoever",
+      "Whatever",
+      "Whichever",
+      "However"
      ]
     }
    ]
@@ -1535,6 +1994,53 @@
      ],
      "explanation": "条件の副詞節では未来のことも現在形。",
      "sentence": "If it ___ fine tomorrow, we will go hiking."
+    },
+    {
+     "id": "g-tb-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "come"
+     ],
+     "explanation": "until が作る時の副詞節なので未来のことも現在形。",
+     "sentence": "Please wait here until I ___ back.",
+     "choices": [
+      "come",
+      "will come",
+      "came",
+      "am coming"
+     ]
+    },
+    {
+     "id": "g-tb-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "am having"
+     ],
+     "explanation": "確定した近い予定は現在進行形で表せる。",
+     "sentence": "\"Why are you wearing a suit?\" \"I ___ a job interview this afternoon.\"",
+     "choices": [
+      "have",
+      "am having",
+      "had",
+      "will have had"
+     ]
+    },
+    {
+     "id": "g-tb-8",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「明日晴れたら、私たちは海に行くつもりだ。」",
+     "answers": [
+      "If it is fine tomorrow, we are going to go to the beach.",
+      "If it is sunny tomorrow, we will go to the sea.",
+      "We are going to go to the beach if it is sunny tomorrow."
+     ],
+     "explanation": "if 節は未来でも現在形。主節は will / be going to。",
+     "keyPoints": [
+      "条件の副詞節は現在形（If it is fine）",
+      "be going to / will"
+     ]
     }
    ]
   },
@@ -1637,6 +2143,48 @@
      "keyPoints": [
       "would rather A than B（A・B は原形）"
      ]
+    },
+    {
+     "id": "g-aux-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "must not"
+     ],
+     "explanation": "規則違反なので禁止 must not。",
+     "sentence": "You ___ smoke here. It's against the rules.",
+     "choices": [
+      "must not",
+      "don't have to",
+      "need not",
+      "may"
+     ]
+    },
+    {
+     "id": "g-aux-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "can't"
+     ],
+     "explanation": "数分前に出かけたのを見た → 家にいるはずがない。",
+     "sentence": "She ___ be at home now. I saw her leave a few minutes ago.",
+     "choices": [
+      "must",
+      "can't",
+      "should",
+      "will"
+     ]
+    },
+    {
+     "id": "g-aux-8",
+     "type": "fill",
+     "prompt": "空所に適切な語句を入れなさい。",
+     "answers": [
+      "than"
+     ],
+     "explanation": "would rather A than B「BよりむしろAしたい」。",
+     "sentence": "I would rather walk ___ take a taxi."
     }
    ]
   },
@@ -1740,6 +2288,53 @@
       "make oneself heard「自分の声を聞いてもらう」",
       "because of + 名詞"
      ]
+    },
+    {
+     "id": "g-cs-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "write"
+     ],
+     "explanation": "make O 原形「（強制的に）〜させる」。",
+     "sentence": "The teacher made us ___ the essay again.",
+     "choices": [
+      "write",
+      "to write",
+      "writing",
+      "written"
+     ]
+    },
+    {
+     "id": "g-cs-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "call"
+     ],
+     "explanation": "知覚動詞 hear O 原形「Oが〜するのが聞こえる」。",
+     "sentence": "I heard someone ___ my name.",
+     "choices": [
+      "call",
+      "to call",
+      "called",
+      "be called"
+     ]
+    },
+    {
+     "id": "g-cs-8",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「私は美容院で髪を短く切ってもらった。」",
+     "answers": [
+      "I had my hair cut short at the beauty salon.",
+      "I had my hair cut short at the hair salon.",
+      "I got my hair cut short at the beauty salon."
+     ],
+     "explanation": "髪は「切られる」ので過去分詞 cut。",
+     "keyPoints": [
+      "have / get + O + 過去分詞「〜してもらう」",
+      "cut の過去分詞は cut"
+     ]
     }
    ]
   },
@@ -1838,6 +2433,54 @@
      ],
      "explanation": "A is one thing, and B is another.「AとBは別物だ」。",
      "sentence": "To know is one thing, and to teach is ___."
+    },
+    {
+     "id": "g-pr-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "the other"
+     ],
+     "explanation": "2つのうちの残りの1つは the other。",
+     "sentence": "I have two dogs. One is white, and ___ is black.",
+     "choices": [
+      "another",
+      "the other",
+      "other",
+      "the others"
+     ]
+    },
+    {
+     "id": "g-pr-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "another"
+     ],
+     "explanation": "（もう）1つ別の → another + 単数名詞。",
+     "sentence": "This cake is delicious. May I have ___ piece?",
+     "choices": [
+      "another",
+      "other",
+      "the other",
+      "others"
+     ]
+    },
+    {
+     "id": "g-pr-8",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Neither"
+     ],
+     "explanation": "「どちらも好きではない（音楽のほうが好き）」→ Neither。",
+     "sentence": "___ of the twins likes sports. They both prefer music.",
+     "choices": [
+      "Either",
+      "Neither",
+      "Both",
+      "Each"
+     ]
     }
    ]
   },
@@ -1942,6 +2585,54 @@
      "keyPoints": [
       "luggage / baggage は不可算 → much",
       "should not / had better not"
+     ]
+    },
+    {
+     "id": "g-an-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "some good"
+     ],
+     "explanation": "advice は不可算名詞なので a / many / a few は使えない。",
+     "sentence": "He gave me ___ advice.",
+     "choices": [
+      "a good",
+      "some good",
+      "many good",
+      "a few good"
+     ]
+    },
+    {
+     "id": "g-an-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "fewer"
+     ],
+     "explanation": "people は可算名詞（複数扱い）なので fewer。",
+     "sentence": "There were ___ people at the concert than I expected.",
+     "choices": [
+      "less",
+      "fewer",
+      "little",
+      "much"
+     ]
+    },
+    {
+     "id": "g-an-8",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "The"
+     ],
+     "explanation": "唯一のものには the。",
+     "sentence": "___ sun rises in the east.",
+     "choices": [
+      "A",
+      "The",
+      "An",
+      "（無冠詞）"
      ]
     }
    ]
