@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T12:53:30Z",
+  "generatedAt" : "2026-10-22T12:54:38Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -61,8 +61,8 @@
     {
       "file" : "packs/vocab-l2.json",
       "id" : "vocab.core.l2",
-      "revision" : 2,
-      "sha256" : "a7cb7d87d4d6bd7d060f81f3300d998cf3a6ad44bd95178667d695e8f14c3162",
+      "revision" : 3,
+      "sha256" : "8b9377fb90c293da8d3f4677cbcfe0d8c11d51209614182875aeb8449d7b85a6",
       "skill" : "vocabulary",
       "title" : "Lv2 高1標準語彙"
     },

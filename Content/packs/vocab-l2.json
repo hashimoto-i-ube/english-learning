@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "vocab.core.l2",
- "revision": 2,
+ "revision": 3,
  "skill": "vocabulary",
  "title": "Lv2 高1標準語彙",
  "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
@@ -1865,6 +1865,1745 @@
     "ja": "これは貴重な経験だった。"
    },
    "note": "invaluable は「非常に貴重な」（否定ではない）。"
+  },
+  {
+   "id": "w-injury",
+   "headword": "injury",
+   "pos": "名",
+   "meanings": [
+    "けが",
+    "損害"
+   ],
+   "level": 2,
+   "ipa": "/ˈɪndʒəri/",
+   "example": {
+    "en": "He suffered a serious injury in the game.",
+    "ja": "彼は試合で重傷を負った。"
+   },
+   "derivatives": [
+    "injure 動 傷つける（be injured）"
+   ]
+  },
+  {
+   "id": "w-insect",
+   "headword": "insect",
+   "pos": "名",
+   "meanings": [
+    "昆虫"
+   ],
+   "level": 2,
+   "ipa": "/ˈɪnsekt/",
+   "example": {
+    "en": "Many insects are active at night.",
+    "ja": "多くの昆虫は夜に活動する。"
+   }
+  },
+  {
+   "id": "w-interview",
+   "headword": "interview",
+   "pos": "名",
+   "meanings": [
+    "面接",
+    "インタビュー"
+   ],
+   "level": 2,
+   "ipa": "/ˈɪntəvjuː/",
+   "example": {
+    "en": "I have a job interview tomorrow.",
+    "ja": "明日、就職の面接がある。"
+   }
+  },
+  {
+   "id": "w-introduce",
+   "headword": "introduce",
+   "pos": "動",
+   "meanings": [
+    "紹介する",
+    "導入する"
+   ],
+   "level": 2,
+   "ipa": "/ˌɪntrəˈdjuːs/",
+   "example": {
+    "en": "The school introduced a new system.",
+    "ja": "学校は新しい制度を導入した。"
+   },
+   "derivatives": [
+    "introduction 名 紹介；導入"
+   ]
+  },
+  {
+   "id": "w-invite",
+   "headword": "invite",
+   "pos": "動",
+   "meanings": [
+    "招待する"
+   ],
+   "level": 2,
+   "ipa": "/ɪnˈvaɪt/",
+   "example": {
+    "en": "She invited me to her birthday party.",
+    "ja": "彼女は誕生日パーティーに私を招待してくれた。"
+   },
+   "derivatives": [
+    "invitation 名 招待"
+   ]
+  },
+  {
+   "id": "w-journey",
+   "headword": "journey",
+   "pos": "名",
+   "meanings": [
+    "旅",
+    "道のり"
+   ],
+   "level": 2,
+   "ipa": "/ˈdʒɜːni/",
+   "example": {
+    "en": "Life is a long journey.",
+    "ja": "人生は長い旅だ。"
+   }
+  },
+  {
+   "id": "w-judge",
+   "headword": "judge",
+   "pos": "動",
+   "meanings": [
+    "判断する",
+    "審査する"
+   ],
+   "level": 2,
+   "ipa": "/dʒʌdʒ/",
+   "example": {
+    "en": "Don't judge people by their appearance.",
+    "ja": "人を外見で判断してはいけない。"
+   },
+   "derivatives": [
+    "judgment 名 判断"
+   ]
+  },
+  {
+   "id": "w-law",
+   "headword": "law",
+   "pos": "名",
+   "meanings": [
+    "法律",
+    "法則"
+   ],
+   "level": 2,
+   "ipa": "/lɔː/",
+   "example": {
+    "en": "Everyone must obey the law.",
+    "ja": "誰もが法律に従わなければならない。"
+   },
+   "derivatives": [
+    "lawyer 名 弁護士"
+   ]
+  },
+  {
+   "id": "w-lead",
+   "headword": "lead",
+   "pos": "動",
+   "meanings": [
+    "導く",
+    "（〜に）つながる"
+   ],
+   "level": 2,
+   "ipa": "/liːd/",
+   "example": {
+    "en": "Hard work led to her success.",
+    "ja": "努力が彼女の成功につながった。"
+   },
+   "collocations": [
+    "lead to ~"
+   ],
+   "note": "活用 lead - led - led。"
+  },
+  {
+   "id": "w-level",
+   "headword": "level",
+   "pos": "名",
+   "meanings": [
+    "水準",
+    "程度"
+   ],
+   "level": 2,
+   "ipa": "/ˈlevl/",
+   "example": {
+    "en": "The water level of the river rose.",
+    "ja": "川の水位が上がった。"
+   }
+  },
+  {
+   "id": "w-limit",
+   "headword": "limit",
+   "pos": "名",
+   "meanings": [
+    "限界",
+    "制限"
+   ],
+   "level": 2,
+   "ipa": "/ˈlɪmɪt/",
+   "example": {
+    "en": "There is a limit to what I can do.",
+    "ja": "私にできることには限界がある。"
+   },
+   "collocations": [
+    "speed limit（制限速度）"
+   ]
+  },
+  {
+   "id": "w-material",
+   "headword": "material",
+   "pos": "名",
+   "meanings": [
+    "材料",
+    "資料"
+   ],
+   "level": 2,
+   "ipa": "/məˈtɪəriəl/",
+   "example": {
+    "en": "Wood is a natural material.",
+    "ja": "木は天然の素材だ。"
+   }
+  },
+  {
+   "id": "w-measure",
+   "headword": "measure",
+   "pos": "動",
+   "meanings": [
+    "測る"
+   ],
+   "level": 2,
+   "ipa": "/ˈmeʒər/",
+   "example": {
+    "en": "The doctor measured my blood pressure.",
+    "ja": "医師が私の血圧を測った。"
+   },
+   "note": "名詞「対策」：take measures（対策を講じる）。"
+  },
+  {
+   "id": "w-medicine",
+   "headword": "medicine",
+   "pos": "名",
+   "meanings": [
+    "薬",
+    "医学"
+   ],
+   "level": 2,
+   "ipa": "/ˈmedsn/",
+   "example": {
+    "en": "Take this medicine after meals.",
+    "ja": "この薬を食後に飲みなさい。"
+   },
+   "note": "薬を「飲む」は take。"
+  },
+  {
+   "id": "w-member",
+   "headword": "member",
+   "pos": "名",
+   "meanings": [
+    "一員",
+    "会員"
+   ],
+   "level": 2,
+   "ipa": "/ˈmembər/",
+   "example": {
+    "en": "She is a member of the tennis club.",
+    "ja": "彼女はテニス部の部員だ。"
+   }
+  },
+  {
+   "id": "w-modern",
+   "headword": "modern",
+   "pos": "形",
+   "meanings": [
+    "現代の",
+    "近代的な"
+   ],
+   "level": 2,
+   "ipa": "/ˈmɒdn/",
+   "example": {
+    "en": "Modern life is very busy.",
+    "ja": "現代の生活はとても忙しい。"
+   }
+  },
+  {
+   "id": "w-moment",
+   "headword": "moment",
+   "pos": "名",
+   "meanings": [
+    "瞬間",
+    "ちょっとの間"
+   ],
+   "level": 2,
+   "ipa": "/ˈməʊmənt/",
+   "example": {
+    "en": "Wait a moment, please.",
+    "ja": "少々お待ちください。"
+   },
+   "collocations": [
+    "at the moment（今のところ）"
+   ]
+  },
+  {
+   "id": "w-nation",
+   "headword": "nation",
+   "pos": "名",
+   "meanings": [
+    "国家",
+    "国民"
+   ],
+   "level": 2,
+   "ipa": "/ˈneɪʃn/",
+   "example": {
+    "en": "The whole nation celebrated the victory.",
+    "ja": "国中がその勝利を祝った。"
+   },
+   "derivatives": [
+    "national 形 国の",
+    "nationality 名 国籍"
+   ]
+  },
+  {
+   "id": "w-nearly",
+   "headword": "nearly",
+   "pos": "副",
+   "meanings": [
+    "ほとんど",
+    "危うく"
+   ],
+   "level": 2,
+   "ipa": "/ˈnɪəli/",
+   "example": {
+    "en": "It's nearly ten o'clock.",
+    "ja": "もうすぐ10時だ。"
+   },
+   "synonyms": [
+    "almost"
+   ]
+  },
+  {
+   "id": "w-neighbor",
+   "headword": "neighbor",
+   "pos": "名",
+   "meanings": [
+    "隣人"
+   ],
+   "level": 2,
+   "ipa": "/ˈneɪbər/",
+   "example": {
+    "en": "Our neighbors are very friendly.",
+    "ja": "うちの近所の人たちはとても親切だ。"
+   },
+   "derivatives": [
+    "neighborhood 名 近所"
+   ]
+  },
+  {
+   "id": "w-object",
+   "headword": "object",
+   "pos": "名",
+   "meanings": [
+    "物体",
+    "目的",
+    "対象"
+   ],
+   "level": 2,
+   "ipa": "/ˈɒbdʒɪkt/",
+   "example": {
+    "en": "A strange object appeared in the sky.",
+    "ja": "空に奇妙な物体が現れた。"
+   },
+   "accentNote": "名詞 OB-ject、動詞 ob-JECT（反対する：object to ~）。"
+  },
+  {
+   "id": "w-ocean",
+   "headword": "ocean",
+   "pos": "名",
+   "meanings": [
+    "海洋",
+    "大洋"
+   ],
+   "level": 2,
+   "ipa": "/ˈəʊʃn/",
+   "example": {
+    "en": "The Pacific is the largest ocean.",
+    "ja": "太平洋は最大の海洋だ。"
+   }
+  },
+  {
+   "id": "w-official",
+   "headword": "official",
+   "pos": "形",
+   "meanings": [
+    "公式の"
+   ],
+   "level": 2,
+   "ipa": "/əˈfɪʃl/",
+   "example": {
+    "en": "English is an official language of India.",
+    "ja": "英語はインドの公用語の一つだ。"
+   },
+   "note": "名詞「役人・職員」。"
+  },
+  {
+   "id": "w-operate",
+   "headword": "operate",
+   "pos": "動",
+   "meanings": [
+    "操作する",
+    "手術する",
+    "運営する"
+   ],
+   "level": 2,
+   "ipa": "/ˈɒpəreɪt/",
+   "example": {
+    "en": "The doctor operated on his knee.",
+    "ja": "医師は彼のひざを手術した。"
+   },
+   "derivatives": [
+    "operation 名 手術；操作"
+   ],
+   "collocations": [
+    "operate on ~（〜を手術する）"
+   ]
+  },
+  {
+   "id": "w-order",
+   "headword": "order",
+   "pos": "名",
+   "meanings": [
+    "命令",
+    "注文",
+    "順序"
+   ],
+   "level": 2,
+   "ipa": "/ˈɔːdər/",
+   "example": {
+    "en": "Please list the names in alphabetical order.",
+    "ja": "名前をアルファベット順に並べてください。"
+   },
+   "collocations": [
+    "in order to do（〜するために）",
+    "out of order（故障して）"
+   ]
+  },
+  {
+   "id": "w-pain",
+   "headword": "pain",
+   "pos": "名",
+   "meanings": [
+    "痛み",
+    "苦労"
+   ],
+   "level": 2,
+   "ipa": "/peɪn/",
+   "example": {
+    "en": "I have a pain in my back.",
+    "ja": "背中が痛い。"
+   },
+   "derivatives": [
+    "painful 形 痛い"
+   ]
+  },
+  {
+   "id": "w-peace",
+   "headword": "peace",
+   "pos": "名",
+   "meanings": [
+    "平和",
+    "平穏"
+   ],
+   "level": 2,
+   "ipa": "/piːs/",
+   "example": {
+    "en": "They want to live in peace.",
+    "ja": "彼らは平和に暮らしたいと願っている。"
+   },
+   "derivatives": [
+    "peaceful 形 平和な"
+   ]
+  },
+  {
+   "id": "w-period",
+   "headword": "period",
+   "pos": "名",
+   "meanings": [
+    "期間",
+    "時代"
+   ],
+   "level": 2,
+   "ipa": "/ˈpɪəriəd/",
+   "example": {
+    "en": "The Edo period lasted over 250 years.",
+    "ja": "江戸時代は250年以上続いた。"
+   }
+  },
+  {
+   "id": "w-plastic",
+   "headword": "plastic",
+   "pos": "名",
+   "meanings": [
+    "プラスチック"
+   ],
+   "level": 2,
+   "ipa": "/ˈplæstɪk/",
+   "example": {
+    "en": "Plastic waste is a big problem.",
+    "ja": "プラスチックごみは大きな問題だ。"
+   }
+  },
+  {
+   "id": "w-pleasure",
+   "headword": "pleasure",
+   "pos": "名",
+   "meanings": [
+    "喜び",
+    "楽しみ"
+   ],
+   "level": 2,
+   "ipa": "/ˈpleʒər/",
+   "example": {
+    "en": "It's a pleasure to meet you.",
+    "ja": "お会いできてうれしいです。"
+   },
+   "collocations": [
+    "with pleasure（喜んで）"
+   ]
+  },
+  {
+   "id": "w-polite",
+   "headword": "polite",
+   "pos": "形",
+   "meanings": [
+    "礼儀正しい"
+   ],
+   "level": 2,
+   "ipa": "/pəˈlaɪt/",
+   "example": {
+    "en": "It is polite to say thank you.",
+    "ja": "お礼を言うのは礼儀正しいことだ。"
+   },
+   "antonyms": [
+    "rude 失礼な"
+   ]
+  },
+  {
+   "id": "w-position",
+   "headword": "position",
+   "pos": "名",
+   "meanings": [
+    "位置",
+    "立場",
+    "地位"
+   ],
+   "level": 2,
+   "ipa": "/pəˈzɪʃn/",
+   "example": {
+    "en": "Put yourself in my position.",
+    "ja": "私の立場になって考えてみて。"
+   }
+  },
+  {
+   "id": "w-positive",
+   "headword": "positive",
+   "pos": "形",
+   "meanings": [
+    "肯定的な",
+    "前向きな"
+   ],
+   "level": 2,
+   "ipa": "/ˈpɒzətɪv/",
+   "example": {
+    "en": "She has a positive attitude.",
+    "ja": "彼女は前向きな態度をもっている。"
+   },
+   "antonyms": [
+    "negative 否定的な"
+   ]
+  },
+  {
+   "id": "w-poverty",
+   "headword": "poverty",
+   "pos": "名",
+   "meanings": [
+    "貧困"
+   ],
+   "level": 2,
+   "ipa": "/ˈpɒvəti/",
+   "example": {
+    "en": "Many children live in poverty.",
+    "ja": "多くの子どもが貧困の中で暮らしている。"
+   },
+   "derivatives": [
+    "poor 形 貧しい"
+   ]
+  },
+  {
+   "id": "w-power",
+   "headword": "power",
+   "pos": "名",
+   "meanings": [
+    "力",
+    "権力",
+    "電力"
+   ],
+   "level": 2,
+   "ipa": "/ˈpaʊər/",
+   "example": {
+    "en": "The power went out during the storm.",
+    "ja": "嵐の間に停電した。"
+   },
+   "derivatives": [
+    "powerful 形 強力な"
+   ]
+  },
+  {
+   "id": "w-praise",
+   "headword": "praise",
+   "pos": "動",
+   "meanings": [
+    "ほめる"
+   ],
+   "level": 2,
+   "ipa": "/preɪz/",
+   "example": {
+    "en": "The teacher praised her for her hard work.",
+    "ja": "先生は彼女の努力をほめた。"
+   },
+   "collocations": [
+    "praise A for B"
+   ]
+  },
+  {
+   "id": "w-present",
+   "headword": "present",
+   "pos": "形",
+   "meanings": [
+    "出席している",
+    "現在の"
+   ],
+   "level": 2,
+   "ipa": "/ˈpreznt/",
+   "example": {
+    "en": "All the students were present.",
+    "ja": "生徒は全員出席していた。"
+   },
+   "note": "名詞「贈り物・現在」。動詞 pre-SENT「提示する・贈る」。"
+  },
+  {
+   "id": "w-price",
+   "headword": "price",
+   "pos": "名",
+   "meanings": [
+    "価格"
+   ],
+   "level": 2,
+   "ipa": "/praɪs/",
+   "example": {
+    "en": "The price of rice has gone up.",
+    "ja": "米の価格が上がった。"
+   },
+   "note": "高い・安いは high / low。"
+  },
+  {
+   "id": "w-prize",
+   "headword": "prize",
+   "pos": "名",
+   "meanings": [
+    "賞",
+    "賞品"
+   ],
+   "level": 2,
+   "ipa": "/praɪz/",
+   "example": {
+    "en": "He won first prize in the contest.",
+    "ja": "彼はコンテストで1等賞をとった。"
+   }
+  },
+  {
+   "id": "w-project",
+   "headword": "project",
+   "pos": "名",
+   "meanings": [
+    "計画",
+    "事業"
+   ],
+   "level": 2,
+   "ipa": "/ˈprɒdʒekt/",
+   "example": {
+    "en": "We are working on a research project.",
+    "ja": "私たちは研究計画に取り組んでいる。"
+   },
+   "accentNote": "名詞 PRO-ject、動詞 pro-JECT（投影する・予測する）。"
+  },
+  {
+   "id": "w-promise",
+   "headword": "promise",
+   "pos": "動",
+   "meanings": [
+    "約束する"
+   ],
+   "level": 2,
+   "ipa": "/ˈprɒmɪs/",
+   "example": {
+    "en": "He promised to call me.",
+    "ja": "彼は私に電話すると約束した。"
+   },
+   "collocations": [
+    "promise to do"
+   ]
+  },
+  {
+   "id": "w-quiet",
+   "headword": "quiet",
+   "pos": "形",
+   "meanings": [
+    "静かな"
+   ],
+   "level": 2,
+   "ipa": "/ˈkwaɪət/",
+   "example": {
+    "en": "Please be quiet in the library.",
+    "ja": "図書館では静かにしてください。"
+   },
+   "note": "quite（かなり）と区別。"
+  },
+  {
+   "id": "w-raise",
+   "headword": "raise",
+   "pos": "動",
+   "meanings": [
+    "上げる",
+    "育てる",
+    "集める"
+   ],
+   "level": 2,
+   "ipa": "/reɪz/",
+   "example": {
+    "en": "Raise your hand if you have a question.",
+    "ja": "質問があれば手を挙げなさい。"
+   },
+   "note": "他動詞。自動詞 rise（上がる）と区別。"
+  },
+  {
+   "id": "w-range",
+   "headword": "range",
+   "pos": "名",
+   "meanings": [
+    "範囲",
+    "幅"
+   ],
+   "level": 2,
+   "ipa": "/reɪndʒ/",
+   "example": {
+    "en": "The store sells a wide range of goods.",
+    "ja": "その店は幅広い商品を販売している。"
+   }
+  },
+  {
+   "id": "w-rate",
+   "headword": "rate",
+   "pos": "名",
+   "meanings": [
+    "割合",
+    "速度",
+    "料金"
+   ],
+   "level": 2,
+   "ipa": "/reɪt/",
+   "example": {
+    "en": "The unemployment rate fell last year.",
+    "ja": "昨年、失業率が下がった。"
+   },
+   "collocations": [
+    "at any rate（とにかく）"
+   ]
+  },
+  {
+   "id": "w-reach",
+   "headword": "reach",
+   "pos": "動",
+   "meanings": [
+    "着く",
+    "届く"
+   ],
+   "level": 2,
+   "ipa": "/riːtʃ/",
+   "example": {
+    "en": "We reached the top of the mountain.",
+    "ja": "私たちは山頂に到着した。"
+   },
+   "note": "他動詞：×reach to the top。"
+  },
+  {
+   "id": "w-react",
+   "headword": "react",
+   "pos": "動",
+   "meanings": [
+    "反応する"
+   ],
+   "level": 2,
+   "ipa": "/riˈækt/",
+   "example": {
+    "en": "How did she react to the news?",
+    "ja": "その知らせに彼女はどう反応しましたか。"
+   },
+   "derivatives": [
+    "reaction 名 反応"
+   ],
+   "collocations": [
+    "react to ~"
+   ]
+  },
+  {
+   "id": "w-reason",
+   "headword": "reason",
+   "pos": "名",
+   "meanings": [
+    "理由",
+    "理性"
+   ],
+   "level": 2,
+   "ipa": "/ˈriːzn/",
+   "example": {
+    "en": "There is no reason to worry.",
+    "ja": "心配する理由はない。"
+   },
+   "derivatives": [
+    "reasonable 形 妥当な・手ごろな"
+   ]
+  },
+  {
+   "id": "w-recycle",
+   "headword": "recycle",
+   "pos": "動",
+   "meanings": [
+    "再利用する"
+   ],
+   "level": 2,
+   "ipa": "/ˌriːˈsaɪkl/",
+   "example": {
+    "en": "We recycle paper and bottles.",
+    "ja": "私たちは紙とびんをリサイクルしている。"
+   }
+  },
+  {
+   "id": "w-region",
+   "headword": "region",
+   "pos": "名",
+   "meanings": [
+    "地域",
+    "地方"
+   ],
+   "level": 2,
+   "ipa": "/ˈriːdʒən/",
+   "example": {
+    "en": "This region is famous for its apples.",
+    "ja": "この地域はりんごで有名だ。"
+   },
+   "derivatives": [
+    "regional 形 地域の"
+   ]
+  },
+  {
+   "id": "w-relax",
+   "headword": "relax",
+   "pos": "動",
+   "meanings": [
+    "くつろぐ"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈlæks/",
+   "example": {
+    "en": "I like to relax with a good book.",
+    "ja": "良い本を読んでくつろぐのが好きだ。"
+   }
+  },
+  {
+   "id": "w-remove",
+   "headword": "remove",
+   "pos": "動",
+   "meanings": [
+    "取り除く"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈmuːv/",
+   "example": {
+    "en": "Please remove your shoes here.",
+    "ja": "ここで靴を脱いでください。"
+   },
+   "collocations": [
+    "remove A from B"
+   ]
+  },
+  {
+   "id": "w-repair",
+   "headword": "repair",
+   "pos": "動",
+   "meanings": [
+    "修理する"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈpeər/",
+   "example": {
+    "en": "I had my bike repaired.",
+    "ja": "自転車を修理してもらった。"
+   },
+   "synonyms": [
+    "fix",
+    "mend"
+   ]
+  },
+  {
+   "id": "w-repeat",
+   "headword": "repeat",
+   "pos": "動",
+   "meanings": [
+    "繰り返す"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈpiːt/",
+   "example": {
+    "en": "Could you repeat that, please?",
+    "ja": "もう一度言っていただけますか。"
+   },
+   "derivatives": [
+    "repetition 名 繰り返し"
+   ]
+  },
+  {
+   "id": "w-reply",
+   "headword": "reply",
+   "pos": "動",
+   "meanings": [
+    "返事をする"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈplaɪ/",
+   "example": {
+    "en": "She didn't reply to my email.",
+    "ja": "彼女は私のメールに返信しなかった。"
+   },
+   "collocations": [
+    "reply to ~"
+   ]
+  },
+  {
+   "id": "w-report",
+   "headword": "report",
+   "pos": "名",
+   "meanings": [
+    "報告（書）",
+    "報道"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈpɔːt/",
+   "example": {
+    "en": "I have to write a report on the trip.",
+    "ja": "旅行についての報告書を書かなければならない。"
+   }
+  },
+  {
+   "id": "w-rescue",
+   "headword": "rescue",
+   "pos": "動",
+   "meanings": [
+    "救助する"
+   ],
+   "level": 2,
+   "ipa": "/ˈreskjuː/",
+   "example": {
+    "en": "The firefighters rescued the child.",
+    "ja": "消防士たちがその子を救助した。"
+   }
+  },
+  {
+   "id": "w-return",
+   "headword": "return",
+   "pos": "動",
+   "meanings": [
+    "戻る",
+    "返す"
+   ],
+   "level": 2,
+   "ipa": "/rɪˈtɜːn/",
+   "example": {
+    "en": "Please return the book by Friday.",
+    "ja": "金曜日までに本を返してください。"
+   },
+   "note": "return back は重複表現。"
+  },
+  {
+   "id": "w-rise",
+   "headword": "rise",
+   "pos": "動",
+   "meanings": [
+    "上がる",
+    "昇る"
+   ],
+   "level": 2,
+   "ipa": "/raɪz/",
+   "example": {
+    "en": "The sun rises in the east.",
+    "ja": "太陽は東から昇る。"
+   },
+   "note": "自動詞。活用 rise - rose - risen。"
+  },
+  {
+   "id": "w-role",
+   "headword": "role",
+   "pos": "名",
+   "meanings": [
+    "役割",
+    "役"
+   ],
+   "level": 2,
+   "ipa": "/rəʊl/",
+   "example": {
+    "en": "Parents play an important role in education.",
+    "ja": "親は教育において重要な役割を果たす。"
+   },
+   "collocations": [
+    "play a role in ~"
+   ]
+  },
+  {
+   "id": "w-rule",
+   "headword": "rule",
+   "pos": "名",
+   "meanings": [
+    "規則",
+    "支配"
+   ],
+   "level": 2,
+   "ipa": "/ruːl/",
+   "example": {
+    "en": "You must follow the school rules.",
+    "ja": "校則に従わなければならない。"
+   },
+   "collocations": [
+    "as a rule（一般に）"
+   ]
+  },
+  {
+   "id": "w-scene",
+   "headword": "scene",
+   "pos": "名",
+   "meanings": [
+    "場面",
+    "現場",
+    "景色"
+   ],
+   "level": 2,
+   "ipa": "/siːn/",
+   "example": {
+    "en": "The police arrived at the scene.",
+    "ja": "警察が現場に到着した。"
+   },
+   "derivatives": [
+    "scenery 名 景色（不可算）"
+   ]
+  },
+  {
+   "id": "w-schedule",
+   "headword": "schedule",
+   "pos": "名",
+   "meanings": [
+    "予定（表）"
+   ],
+   "level": 2,
+   "ipa": "/ˈʃedjuːl/",
+   "example": {
+    "en": "The train arrived on schedule.",
+    "ja": "電車は予定通りに着いた。"
+   },
+   "collocations": [
+    "on schedule（予定通りに）",
+    "behind schedule（予定より遅れて）"
+   ]
+  },
+  {
+   "id": "w-search",
+   "headword": "search",
+   "pos": "動",
+   "meanings": [
+    "探す",
+    "捜索する"
+   ],
+   "level": 2,
+   "ipa": "/sɜːtʃ/",
+   "example": {
+    "en": "They searched the forest for the lost child.",
+    "ja": "彼らは迷子を探して森を捜索した。"
+   },
+   "collocations": [
+    "search A for B（Bを求めてAを探す）"
+   ]
+  },
+  {
+   "id": "w-secret",
+   "headword": "secret",
+   "pos": "名",
+   "meanings": [
+    "秘密"
+   ],
+   "level": 2,
+   "ipa": "/ˈsiːkrət/",
+   "example": {
+    "en": "Can you keep a secret?",
+    "ja": "秘密を守れますか。"
+   },
+   "collocations": [
+    "in secret（ひそかに）"
+   ]
+  },
+  {
+   "id": "w-select",
+   "headword": "select",
+   "pos": "動",
+   "meanings": [
+    "選ぶ"
+   ],
+   "level": 2,
+   "ipa": "/sɪˈlekt/",
+   "example": {
+    "en": "She was selected as captain.",
+    "ja": "彼女はキャプテンに選ばれた。"
+   },
+   "derivatives": [
+    "selection 名 選択"
+   ]
+  },
+  {
+   "id": "w-sense",
+   "headword": "sense",
+   "pos": "名",
+   "meanings": [
+    "感覚",
+    "意味",
+    "分別"
+   ],
+   "level": 2,
+   "ipa": "/sens/",
+   "example": {
+    "en": "He has a good sense of humor.",
+    "ja": "彼はユーモアのセンスがある。"
+   },
+   "collocations": [
+    "make sense（意味をなす）",
+    "in a sense（ある意味で）"
+   ]
+  },
+  {
+   "id": "w-separate",
+   "headword": "separate",
+   "pos": "動",
+   "meanings": [
+    "分ける",
+    "離す"
+   ],
+   "level": 2,
+   "ipa": "/ˈsepəreɪt/",
+   "example": {
+    "en": "Separate the white clothes from the colored ones.",
+    "ja": "白い服と色物を分けなさい。"
+   },
+   "note": "形容詞 /ˈseprət/「別々の」。"
+  },
+  {
+   "id": "w-sign",
+   "headword": "sign",
+   "pos": "名",
+   "meanings": [
+    "兆候",
+    "標識",
+    "合図"
+   ],
+   "level": 2,
+   "ipa": "/saɪn/",
+   "example": {
+    "en": "Dark clouds are a sign of rain.",
+    "ja": "黒い雲は雨の兆しだ。"
+   },
+   "note": "動詞「署名する」。「サイン（署名）」は signature。"
+  },
+  {
+   "id": "w-situation",
+   "headword": "situation",
+   "pos": "名",
+   "meanings": [
+    "状況"
+   ],
+   "level": 2,
+   "ipa": "/ˌsɪtʃuˈeɪʃn/",
+   "example": {
+    "en": "The situation is getting worse.",
+    "ja": "状況は悪化している。"
+   }
+  },
+  {
+   "id": "w-social",
+   "headword": "social",
+   "pos": "形",
+   "meanings": [
+    "社会の",
+    "社交的な"
+   ],
+   "level": 2,
+   "ipa": "/ˈsəʊʃl/",
+   "example": {
+    "en": "Poverty is a serious social problem.",
+    "ja": "貧困は深刻な社会問題だ。"
+   },
+   "collocations": [
+    "social media（ソーシャルメディア）"
+   ]
+  },
+  {
+   "id": "w-soil",
+   "headword": "soil",
+   "pos": "名",
+   "meanings": [
+    "土",
+    "土壌"
+   ],
+   "level": 2,
+   "ipa": "/sɔɪl/",
+   "example": {
+    "en": "This soil is good for growing rice.",
+    "ja": "この土は稲作に適している。"
+   }
+  },
+  {
+   "id": "w-source",
+   "headword": "source",
+   "pos": "名",
+   "meanings": [
+    "源",
+    "出所"
+   ],
+   "level": 2,
+   "ipa": "/sɔːs/",
+   "example": {
+    "en": "Fish is a good source of protein.",
+    "ja": "魚はタンパク質の良い供給源だ。"
+   }
+  },
+  {
+   "id": "w-species",
+   "headword": "species",
+   "pos": "名",
+   "meanings": [
+    "（生物の）種"
+   ],
+   "level": 2,
+   "ipa": "/ˈspiːʃiːz/",
+   "example": {
+    "en": "Many species are in danger of extinction.",
+    "ja": "多くの種が絶滅の危機にある。"
+   },
+   "note": "単複同形。"
+  },
+  {
+   "id": "w-speech",
+   "headword": "speech",
+   "pos": "名",
+   "meanings": [
+    "演説",
+    "話すこと"
+   ],
+   "level": 2,
+   "ipa": "/spiːtʃ/",
+   "example": {
+    "en": "He made a speech at the ceremony.",
+    "ja": "彼は式典で演説をした。"
+   },
+   "collocations": [
+    "make / give a speech"
+   ]
+  },
+  {
+   "id": "w-spirit",
+   "headword": "spirit",
+   "pos": "名",
+   "meanings": [
+    "精神",
+    "気分"
+   ],
+   "level": 2,
+   "ipa": "/ˈspɪrɪt/",
+   "example": {
+    "en": "The team showed a great fighting spirit.",
+    "ja": "チームは素晴らしい闘志を見せた。"
+   }
+  },
+  {
+   "id": "w-spread",
+   "headword": "spread",
+   "pos": "動",
+   "meanings": [
+    "広がる",
+    "広げる"
+   ],
+   "level": 2,
+   "ipa": "/spred/",
+   "example": {
+    "en": "The news spread quickly.",
+    "ja": "その知らせはすぐに広まった。"
+   },
+   "note": "活用 spread - spread - spread。"
+  },
+  {
+   "id": "w-stage",
+   "headword": "stage",
+   "pos": "名",
+   "meanings": [
+    "段階",
+    "舞台"
+   ],
+   "level": 2,
+   "ipa": "/steɪdʒ/",
+   "example": {
+    "en": "The project is still in its early stages.",
+    "ja": "その計画はまだ初期の段階にある。"
+   }
+  },
+  {
+   "id": "w-standard",
+   "headword": "standard",
+   "pos": "名",
+   "meanings": [
+    "基準",
+    "水準"
+   ],
+   "level": 2,
+   "ipa": "/ˈstændəd/",
+   "example": {
+    "en": "The standard of living has improved.",
+    "ja": "生活水準が向上した。"
+   }
+  },
+  {
+   "id": "w-state",
+   "headword": "state",
+   "pos": "名",
+   "meanings": [
+    "状態",
+    "国家",
+    "州"
+   ],
+   "level": 2,
+   "ipa": "/steɪt/",
+   "example": {
+    "en": "The house was in a poor state.",
+    "ja": "その家はひどい状態だった。"
+   },
+   "note": "動詞「述べる」。statement 名 声明。"
+  },
+  {
+   "id": "w-store",
+   "headword": "store",
+   "pos": "動",
+   "meanings": [
+    "蓄える",
+    "保存する"
+   ],
+   "level": 2,
+   "ipa": "/stɔːr/",
+   "example": {
+    "en": "Store the food in a cool place.",
+    "ja": "食品は涼しい場所に保存してください。"
+   },
+   "note": "名詞「店・蓄え」。"
+  },
+  {
+   "id": "w-subject",
+   "headword": "subject",
+   "pos": "名",
+   "meanings": [
+    "教科",
+    "主題",
+    "主語"
+   ],
+   "level": 2,
+   "ipa": "/ˈsʌbdʒɪkt/",
+   "example": {
+    "en": "What is your favorite subject?",
+    "ja": "好きな教科は何ですか。"
+   },
+   "collocations": [
+    "be subject to ~（〜を受けやすい）"
+   ]
+  },
+  {
+   "id": "w-suddenly",
+   "headword": "suddenly",
+   "pos": "副",
+   "meanings": [
+    "突然"
+   ],
+   "level": 2,
+   "ipa": "/ˈsʌdənli/",
+   "example": {
+    "en": "Suddenly, the lights went out.",
+    "ja": "突然、明かりが消えた。"
+   },
+   "collocations": [
+    "all of a sudden（突然）"
+   ]
+  },
+  {
+   "id": "w-suffer",
+   "headword": "suffer",
+   "pos": "動",
+   "meanings": [
+    "苦しむ",
+    "（損害を）受ける"
+   ],
+   "level": 2,
+   "ipa": "/ˈsʌfər/",
+   "example": {
+    "en": "He suffers from back pain.",
+    "ja": "彼は腰痛に苦しんでいる。"
+   },
+   "collocations": [
+    "suffer from ~"
+   ]
+  },
+  {
+   "id": "w-supply",
+   "headword": "supply",
+   "pos": "名",
+   "meanings": [
+    "供給"
+   ],
+   "level": 2,
+   "ipa": "/səˈplaɪ/",
+   "example": {
+    "en": "The water supply was cut off.",
+    "ja": "給水が止められた。"
+   },
+   "antonyms": [
+    "demand 需要"
+   ],
+   "collocations": [
+    "supply A with B（動 AにBを供給する）"
+   ]
+  },
+  {
+   "id": "w-surface",
+   "headword": "surface",
+   "pos": "名",
+   "meanings": [
+    "表面"
+   ],
+   "level": 2,
+   "ipa": "/ˈsɜːfɪs/",
+   "example": {
+    "en": "About 70% of the earth's surface is covered with water.",
+    "ja": "地球の表面の約70%は水で覆われている。"
+   },
+   "accentNote": "SUR-face（第1音節）。"
+  },
+  {
+   "id": "w-surround",
+   "headword": "surround",
+   "pos": "動",
+   "meanings": [
+    "囲む"
+   ],
+   "level": 2,
+   "ipa": "/səˈraʊnd/",
+   "example": {
+    "en": "The house is surrounded by trees.",
+    "ja": "その家は木々に囲まれている。"
+   },
+   "derivatives": [
+    "surroundings 名 環境"
+   ]
+  },
+  {
+   "id": "w-symbol",
+   "headword": "symbol",
+   "pos": "名",
+   "meanings": [
+    "象徴",
+    "記号"
+   ],
+   "level": 2,
+   "ipa": "/ˈsɪmbl/",
+   "example": {
+    "en": "The dove is a symbol of peace.",
+    "ja": "ハトは平和の象徴だ。"
+   }
+  },
+  {
+   "id": "w-system",
+   "headword": "system",
+   "pos": "名",
+   "meanings": [
+    "制度",
+    "体系",
+    "仕組み"
+   ],
+   "level": 2,
+   "ipa": "/ˈsɪstəm/",
+   "example": {
+    "en": "The education system needs reform.",
+    "ja": "教育制度には改革が必要だ。"
+   }
+  },
+  {
+   "id": "w-target",
+   "headword": "target",
+   "pos": "名",
+   "meanings": [
+    "目標",
+    "標的"
+   ],
+   "level": 2,
+   "ipa": "/ˈtɑːɡɪt/",
+   "example": {
+    "en": "We met our sales target.",
+    "ja": "私たちは販売目標を達成した。"
+   }
+  },
+  {
+   "id": "w-task",
+   "headword": "task",
+   "pos": "名",
+   "meanings": [
+    "仕事",
+    "課題"
+   ],
+   "level": 2,
+   "ipa": "/tɑːsk/",
+   "example": {
+    "en": "Cleaning the house is a difficult task.",
+    "ja": "家の掃除は大変な仕事だ。"
+   }
+  },
+  {
+   "id": "w-theory",
+   "headword": "theory",
+   "pos": "名",
+   "meanings": [
+    "理論",
+    "学説"
+   ],
+   "level": 2,
+   "ipa": "/ˈθɪəri/",
+   "example": {
+    "en": "Einstein developed the theory of relativity.",
+    "ja": "アインシュタインは相対性理論を構築した。"
+   },
+   "collocations": [
+    "in theory（理論上は）"
+   ]
+  },
+  {
+   "id": "w-threat",
+   "headword": "threat",
+   "pos": "名",
+   "meanings": [
+    "脅威",
+    "脅し"
+   ],
+   "level": 2,
+   "ipa": "/θret/",
+   "example": {
+    "en": "Climate change is a threat to all life.",
+    "ja": "気候変動はすべての生命にとって脅威だ。"
+   },
+   "derivatives": [
+    "threaten 動 脅かす"
+   ]
+  },
+  {
+   "id": "w-total",
+   "headword": "total",
+   "pos": "名",
+   "meanings": [
+    "合計"
+   ],
+   "level": 2,
+   "ipa": "/ˈtəʊtl/",
+   "example": {
+    "en": "The total comes to 5,000 yen.",
+    "ja": "合計で5,000円になります。"
+   },
+   "collocations": [
+    "in total（合計で）"
+   ]
+  },
+  {
+   "id": "w-trade",
+   "headword": "trade",
+   "pos": "名",
+   "meanings": [
+    "貿易",
+    "取引"
+   ],
+   "level": 2,
+   "ipa": "/treɪd/",
+   "example": {
+    "en": "Japan has a lot of trade with China.",
+    "ja": "日本は中国と多くの貿易をしている。"
+   }
+  },
+  {
+   "id": "w-traffic",
+   "headword": "traffic",
+   "pos": "名",
+   "meanings": [
+    "交通（量）"
+   ],
+   "level": 2,
+   "ipa": "/ˈtræfɪk/",
+   "example": {
+    "en": "There was heavy traffic on the highway.",
+    "ja": "高速道路は渋滞していた。"
+   },
+   "note": "不可算。「交通量が多い」は heavy traffic。"
+  },
+  {
+   "id": "w-translate",
+   "headword": "translate",
+   "pos": "動",
+   "meanings": [
+    "翻訳する"
+   ],
+   "level": 2,
+   "ipa": "/trænsˈleɪt/",
+   "example": {
+    "en": "Translate this sentence into English.",
+    "ja": "この文を英語に訳しなさい。"
+   },
+   "derivatives": [
+    "translation 名 翻訳"
+   ],
+   "collocations": [
+    "translate A into B"
+   ]
+  },
+  {
+   "id": "w-trust",
+   "headword": "trust",
+   "pos": "動",
+   "meanings": [
+    "信頼する"
+   ],
+   "level": 2,
+   "ipa": "/trʌst/",
+   "example": {
+    "en": "I trust you completely.",
+    "ja": "私はあなたを完全に信頼している。"
+   }
+  },
+  {
+   "id": "w-upset",
+   "headword": "upset",
+   "pos": "形",
+   "meanings": [
+    "動揺して",
+    "腹を立てて"
+   ],
+   "level": 2,
+   "ipa": "/ʌpˈset/",
+   "example": {
+    "en": "She was upset about the result.",
+    "ja": "彼女は結果に動揺していた。"
+   }
+  },
+  {
+   "id": "w-volunteer",
+   "headword": "volunteer",
+   "pos": "名",
+   "meanings": [
+    "ボランティア",
+    "志願者"
+   ],
+   "level": 2,
+   "ipa": "/ˌvɒlənˈtɪər/",
+   "example": {
+    "en": "Many volunteers helped after the earthquake.",
+    "ja": "地震の後、多くのボランティアが支援した。"
+   },
+   "accentNote": "vol-un-TEER（最後の音節）。"
+  },
+  {
+   "id": "w-vote",
+   "headword": "vote",
+   "pos": "動",
+   "meanings": [
+    "投票する"
+   ],
+   "level": 2,
+   "ipa": "/vəʊt/",
+   "example": {
+    "en": "Young people should vote in elections.",
+    "ja": "若者は選挙で投票すべきだ。"
+   },
+   "collocations": [
+    "vote for / against ~"
+   ]
+  },
+  {
+   "id": "w-weight",
+   "headword": "weight",
+   "pos": "名",
+   "meanings": [
+    "重さ",
+    "体重"
+   ],
+   "level": 2,
+   "ipa": "/weɪt/",
+   "example": {
+    "en": "He has lost a lot of weight.",
+    "ja": "彼はかなり体重が減った。"
+   },
+   "derivatives": [
+    "weigh 動 重さがある"
+   ],
+   "collocations": [
+    "gain / lose weight"
+   ]
+  },
+  {
+   "id": "w-wild",
+   "headword": "wild",
+   "pos": "形",
+   "meanings": [
+    "野生の"
+   ],
+   "level": 2,
+   "ipa": "/waɪld/",
+   "example": {
+    "en": "We saw wild deer in the forest.",
+    "ja": "森で野生のシカを見た。"
+   },
+   "collocations": [
+    "in the wild（野生で）"
+   ]
+  },
+  {
+   "id": "w-worry",
+   "headword": "worry",
+   "pos": "動",
+   "meanings": [
+    "心配する"
+   ],
+   "level": 2,
+   "ipa": "/ˈwʌri/",
+   "example": {
+    "en": "Don't worry about the test.",
+    "ja": "テストのことは心配しないで。"
+   },
+   "collocations": [
+    "worry about ~",
+    "be worried about ~"
+   ]
   }
  ]
 }
