@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "vocab.core.l7",
- "revision": 2,
+ "revision": 3,
  "skill": "vocabulary",
  "title": "Lv7 最難関・医学部 語彙",
  "description": "オリジナル例文付きの入試必修語彙（コンテンツ更新で順次拡充）",
@@ -1615,6 +1615,1694 @@
     "ja": "新薬の有効性はまだ証明されていない。"
    },
    "note": "efficiency（効率）と区別。"
+  },
+  {
+   "id": "w-abdomen",
+   "headword": "abdomen",
+   "pos": "名",
+   "meanings": [
+    "腹部"
+   ],
+   "level": 7,
+   "ipa": "/ˈæbdəmən/",
+   "example": {
+    "en": "He complained of pain in his abdomen.",
+    "ja": "彼は腹部の痛みを訴えた。"
+   },
+   "derivatives": [
+    "abdominal 形 腹部の"
+   ]
+  },
+  {
+   "id": "w-allergy",
+   "headword": "allergy",
+   "pos": "名",
+   "meanings": [
+    "アレルギー"
+   ],
+   "level": 7,
+   "ipa": "/ˈælədʒi/",
+   "example": {
+    "en": "She has an allergy to peanuts.",
+    "ja": "彼女はピーナッツアレルギーがある。"
+   },
+   "derivatives": [
+    "allergic 形 アレルギーの（be allergic to ~）"
+   ],
+   "accentNote": "AL-ler-gy（第1音節）。"
+  },
+  {
+   "id": "w-anatomy",
+   "headword": "anatomy",
+   "pos": "名",
+   "meanings": [
+    "解剖学",
+    "（体の）構造"
+   ],
+   "level": 7,
+   "ipa": "/əˈnætəmi/",
+   "example": {
+    "en": "Medical students study human anatomy.",
+    "ja": "医学生は人体解剖学を学ぶ。"
+   }
+  },
+  {
+   "id": "w-asthma",
+   "headword": "asthma",
+   "pos": "名",
+   "meanings": [
+    "ぜんそく"
+   ],
+   "level": 7,
+   "ipa": "/ˈæsmə/",
+   "example": {
+    "en": "Air pollution can trigger asthma attacks.",
+    "ja": "大気汚染はぜんそくの発作を引き起こしうる。"
+   },
+   "note": "th は発音しない。"
+  },
+  {
+   "id": "w-bacteria",
+   "headword": "bacteria",
+   "pos": "名",
+   "meanings": [
+    "細菌"
+   ],
+   "level": 7,
+   "ipa": "/bækˈtɪəriə/",
+   "example": {
+    "en": "Some bacteria are beneficial to health.",
+    "ja": "健康に有益な細菌もある。"
+   },
+   "note": "bacterium の複数形。"
+  },
+  {
+   "id": "w-cardiac",
+   "headword": "cardiac",
+   "pos": "形",
+   "meanings": [
+    "心臓の"
+   ],
+   "level": 7,
+   "ipa": "/ˈkɑːdiæk/",
+   "example": {
+    "en": "He suffered a cardiac arrest.",
+    "ja": "彼は心停止を起こした。"
+   },
+   "collocations": [
+    "cardiac arrest（心停止）"
+   ]
+  },
+  {
+   "id": "w-cerebral",
+   "headword": "cerebral",
+   "pos": "形",
+   "meanings": [
+    "大脳の",
+    "知的な"
+   ],
+   "level": 7,
+   "ipa": "/ˈserəbrəl/",
+   "example": {
+    "en": "The patient had a cerebral hemorrhage.",
+    "ja": "患者は脳出血を起こした。"
+   }
+  },
+  {
+   "id": "w-cholesterol",
+   "headword": "cholesterol",
+   "pos": "名",
+   "meanings": [
+    "コレステロール"
+   ],
+   "level": 7,
+   "ipa": "/kəˈlestərɒl/",
+   "example": {
+    "en": "High cholesterol increases the risk of heart disease.",
+    "ja": "高コレステロールは心臓病のリスクを高める。"
+   }
+  },
+  {
+   "id": "w-coma",
+   "headword": "coma",
+   "pos": "名",
+   "meanings": [
+    "昏睡（状態）"
+   ],
+   "level": 7,
+   "ipa": "/ˈkəʊmə/",
+   "example": {
+    "en": "He was in a coma for three days.",
+    "ja": "彼は3日間昏睡状態にあった。"
+   }
+  },
+  {
+   "id": "w-diabetes",
+   "headword": "diabetes",
+   "pos": "名",
+   "meanings": [
+    "糖尿病"
+   ],
+   "level": 7,
+   "ipa": "/ˌdaɪəˈbiːtiːz/",
+   "example": {
+    "en": "Diabetes can be controlled with diet and exercise.",
+    "ja": "糖尿病は食事と運動で管理できる。"
+   },
+   "derivatives": [
+    "diabetic 形 糖尿病の"
+   ]
+  },
+  {
+   "id": "w-digestion",
+   "headword": "digestion",
+   "pos": "名",
+   "meanings": [
+    "消化"
+   ],
+   "level": 7,
+   "ipa": "/daɪˈdʒestʃən/",
+   "example": {
+    "en": "Fiber aids digestion.",
+    "ja": "食物繊維は消化を助ける。"
+   },
+   "derivatives": [
+    "digest 動 消化する"
+   ]
+  },
+  {
+   "id": "w-disorder",
+   "headword": "disorder",
+   "pos": "名",
+   "meanings": [
+    "障害",
+    "疾患",
+    "混乱"
+   ],
+   "level": 7,
+   "ipa": "/dɪsˈɔːdər/",
+   "example": {
+    "en": "She was diagnosed with an anxiety disorder.",
+    "ja": "彼女は不安障害と診断された。"
+   }
+  },
+  {
+   "id": "w-epidemiology",
+   "headword": "epidemiology",
+   "pos": "名",
+   "meanings": [
+    "疫学"
+   ],
+   "level": 7,
+   "ipa": "/ˌepɪˌdiːmiˈɒlədʒi/",
+   "example": {
+    "en": "Epidemiology studies how diseases spread in populations.",
+    "ja": "疫学は病気が集団の中でどのように広がるかを研究する。"
+   }
+  },
+  {
+   "id": "w-fracture",
+   "headword": "fracture",
+   "pos": "名",
+   "meanings": [
+    "骨折"
+   ],
+   "level": 7,
+   "ipa": "/ˈfræktʃər/",
+   "example": {
+    "en": "The X-ray showed a fracture in his arm.",
+    "ja": "X線写真で彼の腕の骨折がわかった。"
+   }
+  },
+  {
+   "id": "w-gland",
+   "headword": "gland",
+   "pos": "名",
+   "meanings": [
+    "腺"
+   ],
+   "level": 7,
+   "ipa": "/ɡlænd/",
+   "example": {
+    "en": "Sweat glands help control body temperature.",
+    "ja": "汗腺は体温の調節を助ける。"
+   }
+  },
+  {
+   "id": "w-hemorrhage",
+   "headword": "hemorrhage",
+   "pos": "名",
+   "meanings": [
+    "出血"
+   ],
+   "level": 7,
+   "ipa": "/ˈhemərɪdʒ/",
+   "example": {
+    "en": "The patient died of a brain hemorrhage.",
+    "ja": "その患者は脳出血で亡くなった。"
+   },
+   "note": "英式綴り haemorrhage。"
+  },
+  {
+   "id": "w-hygiene",
+   "headword": "hygiene",
+   "pos": "名",
+   "meanings": [
+    "衛生"
+   ],
+   "level": 7,
+   "ipa": "/ˈhaɪdʒiːn/",
+   "example": {
+    "en": "Good hygiene prevents infection.",
+    "ja": "良好な衛生状態は感染を防ぐ。"
+   },
+   "derivatives": [
+    "hygienic 形 衛生的な"
+   ]
+  },
+  {
+   "id": "w-infection",
+   "headword": "infection",
+   "pos": "名",
+   "meanings": [
+    "感染（症）"
+   ],
+   "level": 7,
+   "ipa": "/ɪnˈfekʃn/",
+   "example": {
+    "en": "Wash the wound to prevent infection.",
+    "ja": "感染を防ぐために傷口を洗いなさい。"
+   },
+   "derivatives": [
+    "infect 動 感染させる",
+    "infectious 形 感染性の"
+   ]
+  },
+  {
+   "id": "w-insomnia",
+   "headword": "insomnia",
+   "pos": "名",
+   "meanings": [
+    "不眠症"
+   ],
+   "level": 7,
+   "ipa": "/ɪnˈsɒmniə/",
+   "example": {
+    "en": "Stress often causes insomnia.",
+    "ja": "ストレスはしばしば不眠症の原因となる。"
+   }
+  },
+  {
+   "id": "w-kidney",
+   "headword": "kidney",
+   "pos": "名",
+   "meanings": [
+    "腎臓"
+   ],
+   "level": 7,
+   "ipa": "/ˈkɪdni/",
+   "example": {
+    "en": "The kidneys remove waste from the blood.",
+    "ja": "腎臓は血液から老廃物を取り除く。"
+   }
+  },
+  {
+   "id": "w-liver",
+   "headword": "liver",
+   "pos": "名",
+   "meanings": [
+    "肝臓"
+   ],
+   "level": 7,
+   "ipa": "/ˈlɪvər/",
+   "example": {
+    "en": "Too much alcohol damages the liver.",
+    "ja": "過度の飲酒は肝臓を傷める。"
+   }
+  },
+  {
+   "id": "w-lung",
+   "headword": "lung",
+   "pos": "名",
+   "meanings": [
+    "肺"
+   ],
+   "level": 7,
+   "ipa": "/lʌŋ/",
+   "example": {
+    "en": "Smoking causes lung cancer.",
+    "ja": "喫煙は肺がんの原因となる。"
+   }
+  },
+  {
+   "id": "w-medication",
+   "headword": "medication",
+   "pos": "名",
+   "meanings": [
+    "薬物（療法）"
+   ],
+   "level": 7,
+   "ipa": "/ˌmedɪˈkeɪʃn/",
+   "example": {
+    "en": "Are you currently taking any medication?",
+    "ja": "現在何か薬を服用していますか。"
+   }
+  },
+  {
+   "id": "w-membrane",
+   "headword": "membrane",
+   "pos": "名",
+   "meanings": [
+    "膜"
+   ],
+   "level": 7,
+   "ipa": "/ˈmembreɪn/",
+   "example": {
+    "en": "The cell membrane controls what enters the cell.",
+    "ja": "細胞膜は細胞に何が入るかを制御する。"
+   }
+  },
+  {
+   "id": "w-molecule",
+   "headword": "molecule",
+   "pos": "名",
+   "meanings": [
+    "分子"
+   ],
+   "level": 7,
+   "ipa": "/ˈmɒlɪkjuːl/",
+   "example": {
+    "en": "A water molecule contains two hydrogen atoms.",
+    "ja": "水分子には水素原子が2つ含まれる。"
+   },
+   "derivatives": [
+    "molecular 形 分子の"
+   ]
+  },
+  {
+   "id": "w-nerve",
+   "headword": "nerve",
+   "pos": "名",
+   "meanings": [
+    "神経",
+    "度胸"
+   ],
+   "level": 7,
+   "ipa": "/nɜːv/",
+   "example": {
+    "en": "The nerve carries signals to the brain.",
+    "ja": "その神経は脳へ信号を伝える。"
+   },
+   "derivatives": [
+    "nervous 形 神経の；緊張した"
+   ]
+  },
+  {
+   "id": "w-organism",
+   "headword": "organism",
+   "pos": "名",
+   "meanings": [
+    "生物",
+    "有機体"
+   ],
+   "level": 7,
+   "ipa": "/ˈɔːɡənɪzəm/",
+   "example": {
+    "en": "Bacteria are single-celled organisms.",
+    "ja": "細菌は単細胞生物だ。"
+   }
+  },
+  {
+   "id": "w-outpatient",
+   "headword": "outpatient",
+   "pos": "名",
+   "meanings": [
+    "外来患者"
+   ],
+   "level": 7,
+   "ipa": "/ˈaʊtpeɪʃnt/",
+   "example": {
+    "en": "The clinic treats outpatients only.",
+    "ja": "その診療所は外来患者のみを診る。"
+   },
+   "antonyms": [
+    "inpatient 入院患者"
+   ]
+  },
+  {
+   "id": "w-pediatric",
+   "headword": "pediatric",
+   "pos": "形",
+   "meanings": [
+    "小児科の"
+   ],
+   "level": 7,
+   "ipa": "/ˌpiːdiˈætrɪk/",
+   "example": {
+    "en": "She works in a pediatric hospital.",
+    "ja": "彼女は小児病院で働いている。"
+   },
+   "derivatives": [
+    "pediatrician 名 小児科医"
+   ]
+  },
+  {
+   "id": "w-pharmaceutical",
+   "headword": "pharmaceutical",
+   "pos": "形",
+   "meanings": [
+    "製薬の"
+   ],
+   "level": 7,
+   "ipa": "/ˌfɑːməˈsjuːtɪkl/",
+   "example": {
+    "en": "Pharmaceutical companies spend billions on research.",
+    "ja": "製薬会社は研究に数十億ドルを費やす。"
+   },
+   "derivatives": [
+    "pharmacy 名 薬局"
+   ]
+  },
+  {
+   "id": "w-physician",
+   "headword": "physician",
+   "pos": "名",
+   "meanings": [
+    "内科医",
+    "医師"
+   ],
+   "level": 7,
+   "ipa": "/fɪˈzɪʃn/",
+   "example": {
+    "en": "Consult your physician before taking this drug.",
+    "ja": "この薬を飲む前にかかりつけ医に相談してください。"
+   },
+   "note": "physicist（物理学者）と区別。"
+  },
+  {
+   "id": "w-pneumonia",
+   "headword": "pneumonia",
+   "pos": "名",
+   "meanings": [
+    "肺炎"
+   ],
+   "level": 7,
+   "ipa": "/njuːˈməʊniə/",
+   "example": {
+    "en": "Pneumonia is especially dangerous for the elderly.",
+    "ja": "肺炎は高齢者にとって特に危険だ。"
+   },
+   "note": "p は発音しない。"
+  },
+  {
+   "id": "w-pulse",
+   "headword": "pulse",
+   "pos": "名",
+   "meanings": [
+    "脈拍"
+   ],
+   "level": 7,
+   "ipa": "/pʌls/",
+   "example": {
+    "en": "The nurse took my pulse.",
+    "ja": "看護師が私の脈をとった。"
+   }
+  },
+  {
+   "id": "w-rehabilitation",
+   "headword": "rehabilitation",
+   "pos": "名",
+   "meanings": [
+    "リハビリテーション",
+    "社会復帰"
+   ],
+   "level": 7,
+   "ipa": "/ˌriːəˌbɪlɪˈteɪʃn/",
+   "example": {
+    "en": "He is in rehabilitation after the accident.",
+    "ja": "彼は事故の後リハビリ中だ。"
+   }
+  },
+  {
+   "id": "w-sedative",
+   "headword": "sedative",
+   "pos": "名",
+   "meanings": [
+    "鎮静剤"
+   ],
+   "level": 7,
+   "ipa": "/ˈsedətɪv/",
+   "example": {
+    "en": "The patient was given a sedative.",
+    "ja": "患者は鎮静剤を投与された。"
+   }
+  },
+  {
+   "id": "w-spine",
+   "headword": "spine",
+   "pos": "名",
+   "meanings": [
+    "脊椎",
+    "背骨"
+   ],
+   "level": 7,
+   "ipa": "/spaɪn/",
+   "example": {
+    "en": "Poor posture can damage your spine.",
+    "ja": "悪い姿勢は背骨を傷めうる。"
+   },
+   "derivatives": [
+    "spinal 形 脊椎の"
+   ]
+  },
+  {
+   "id": "w-stroke",
+   "headword": "stroke",
+   "pos": "名",
+   "meanings": [
+    "脳卒中",
+    "一撃"
+   ],
+   "level": 7,
+   "ipa": "/strəʊk/",
+   "example": {
+    "en": "High blood pressure increases the risk of stroke.",
+    "ja": "高血圧は脳卒中のリスクを高める。"
+   }
+  },
+  {
+   "id": "w-surgery",
+   "headword": "surgery",
+   "pos": "名",
+   "meanings": [
+    "外科手術",
+    "外科"
+   ],
+   "level": 7,
+   "ipa": "/ˈsɜːdʒəri/",
+   "example": {
+    "en": "She had surgery on her knee.",
+    "ja": "彼女はひざの手術を受けた。"
+   },
+   "derivatives": [
+    "surgeon 名 外科医",
+    "surgical 形 外科の"
+   ]
+  },
+  {
+   "id": "w-transfusion",
+   "headword": "transfusion",
+   "pos": "名",
+   "meanings": [
+    "輸血"
+   ],
+   "level": 7,
+   "ipa": "/trænsˈfjuːʒn/",
+   "example": {
+    "en": "He needed a blood transfusion.",
+    "ja": "彼には輸血が必要だった。"
+   }
+  },
+  {
+   "id": "w-ulcer",
+   "headword": "ulcer",
+   "pos": "名",
+   "meanings": [
+    "潰瘍"
+   ],
+   "level": 7,
+   "ipa": "/ˈʌlsər/",
+   "example": {
+    "en": "Stress was once thought to cause stomach ulcers.",
+    "ja": "かつてはストレスが胃潰瘍の原因だと考えられていた。"
+   }
+  },
+  {
+   "id": "w-virus",
+   "headword": "virus",
+   "pos": "名",
+   "meanings": [
+    "ウイルス"
+   ],
+   "level": 7,
+   "ipa": "/ˈvaɪrəs/",
+   "example": {
+    "en": "Viruses can only reproduce inside living cells.",
+    "ja": "ウイルスは生きた細胞の中でしか増殖できない。"
+   },
+   "note": "発音は「ヴァイラス」。"
+  },
+  {
+   "id": "w-wound",
+   "headword": "wound",
+   "pos": "名",
+   "meanings": [
+    "傷"
+   ],
+   "level": 7,
+   "ipa": "/wuːnd/",
+   "example": {
+    "en": "The wound healed quickly.",
+    "ja": "傷はすぐに治った。"
+   },
+   "note": "wind（巻く）の過去形 wound /waʊnd/ と区別。"
+  },
+  {
+   "id": "w-vein",
+   "headword": "vein",
+   "pos": "名",
+   "meanings": [
+    "静脈"
+   ],
+   "level": 7,
+   "ipa": "/veɪn/",
+   "example": {
+    "en": "The nurse inserted a needle into a vein.",
+    "ja": "看護師は静脈に針を刺した。"
+   },
+   "antonyms": [
+    "artery 動脈"
+   ]
+  },
+  {
+   "id": "w-contraception",
+   "headword": "contraception",
+   "pos": "名",
+   "meanings": [
+    "避妊"
+   ],
+   "level": 7,
+   "ipa": "/ˌkɒntrəˈsepʃn/",
+   "example": {
+    "en": "The clinic gives advice on contraception.",
+    "ja": "その診療所は避妊について助言している。"
+   }
+  },
+  {
+   "id": "w-sanitize",
+   "headword": "sanitize",
+   "pos": "動",
+   "meanings": [
+    "消毒する"
+   ],
+   "level": 7,
+   "ipa": "/ˈsænɪtaɪz/",
+   "example": {
+    "en": "Please sanitize your hands before entering.",
+    "ja": "入室前に手を消毒してください。"
+   }
+  },
+  {
+   "id": "w-biodiversity",
+   "headword": "biodiversity",
+   "pos": "名",
+   "meanings": [
+    "生物多様性"
+   ],
+   "level": 7,
+   "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+   "example": {
+    "en": "Deforestation threatens biodiversity.",
+    "ja": "森林破壊は生物多様性を脅かす。"
+   }
+  },
+  {
+   "id": "w-ecosystem",
+   "headword": "ecosystem",
+   "pos": "名",
+   "meanings": [
+    "生態系"
+   ],
+   "level": 7,
+   "ipa": "/ˈiːkəʊsɪstəm/",
+   "example": {
+    "en": "Coral reefs are fragile ecosystems.",
+    "ja": "サンゴ礁はもろい生態系だ。"
+   }
+  },
+  {
+   "id": "w-photosynthesis",
+   "headword": "photosynthesis",
+   "pos": "名",
+   "meanings": [
+    "光合成"
+   ],
+   "level": 7,
+   "ipa": "/ˌfəʊtəʊˈsɪnθəsɪs/",
+   "example": {
+    "en": "Plants produce oxygen through photosynthesis.",
+    "ja": "植物は光合成によって酸素を作る。"
+   }
+  },
+  {
+   "id": "w-specimen",
+   "headword": "specimen",
+   "pos": "名",
+   "meanings": [
+    "標本",
+    "見本"
+   ],
+   "level": 7,
+   "ipa": "/ˈspesɪmən/",
+   "example": {
+    "en": "The museum has specimens of rare insects.",
+    "ja": "その博物館には珍しい昆虫の標本がある。"
+   }
+  },
+  {
+   "id": "w-variable",
+   "headword": "variable",
+   "pos": "名",
+   "meanings": [
+    "変数",
+    "変動要因"
+   ],
+   "level": 7,
+   "ipa": "/ˈveəriəbl/",
+   "example": {
+    "en": "The researchers controlled several variables.",
+    "ja": "研究者たちはいくつかの変数を統制した。"
+   },
+   "note": "形容詞「変わりやすい」。"
+  },
+  {
+   "id": "w-quantitative",
+   "headword": "quantitative",
+   "pos": "形",
+   "meanings": [
+    "量的な"
+   ],
+   "level": 7,
+   "ipa": "/ˈkwɒntɪtətɪv/",
+   "example": {
+    "en": "The study used quantitative methods.",
+    "ja": "その研究は量的手法を用いた。"
+   },
+   "antonyms": [
+    "qualitative 質的な"
+   ]
+  },
+  {
+   "id": "w-qualitative",
+   "headword": "qualitative",
+   "pos": "形",
+   "meanings": [
+    "質的な"
+   ],
+   "level": 7,
+   "ipa": "/ˈkwɒlɪtətɪv/",
+   "example": {
+    "en": "Qualitative research relies on interviews.",
+    "ja": "質的研究はインタビューに依拠する。"
+   }
+  },
+  {
+   "id": "w-probability",
+   "headword": "probability",
+   "pos": "名",
+   "meanings": [
+    "確率",
+    "見込み"
+   ],
+   "level": 7,
+   "ipa": "/ˌprɒbəˈbɪləti/",
+   "example": {
+    "en": "The probability of rain is 70%.",
+    "ja": "降水確率は70%だ。"
+   }
+  },
+  {
+   "id": "w-hypothetical",
+   "headword": "hypothetical",
+   "pos": "形",
+   "meanings": [
+    "仮定の"
+   ],
+   "level": 7,
+   "ipa": "/ˌhaɪpəˈθetɪkl/",
+   "example": {
+    "en": "Let me ask you a hypothetical question.",
+    "ja": "仮定の質問をさせてください。"
+   }
+  },
+  {
+   "id": "w-synthesis",
+   "headword": "synthesis",
+   "pos": "名",
+   "meanings": [
+    "統合",
+    "合成"
+   ],
+   "level": 7,
+   "ipa": "/ˈsɪnθəsɪs/",
+   "example": {
+    "en": "The book is a synthesis of many studies.",
+    "ja": "その本は多くの研究を統合したものだ。"
+   },
+   "derivatives": [
+    "synthesize 動 合成する",
+    "synthetic 形 合成の"
+   ]
+  },
+  {
+   "id": "w-threshold",
+   "headword": "threshold",
+   "pos": "名",
+   "meanings": [
+    "閾値",
+    "入口"
+   ],
+   "level": 7,
+   "ipa": "/ˈθreʃhəʊld/",
+   "example": {
+    "en": "Pain thresholds differ from person to person.",
+    "ja": "痛みを感じる閾値は人によって異なる。"
+   },
+   "collocations": [
+    "on the threshold of ~（〜の始まりに）"
+   ]
+  },
+  {
+   "id": "w-aberration",
+   "headword": "aberration",
+   "pos": "名",
+   "meanings": [
+    "逸脱",
+    "異常"
+   ],
+   "level": 7,
+   "ipa": "/ˌæbəˈreɪʃn/",
+   "example": {
+    "en": "The poor result was an aberration.",
+    "ja": "その悪い結果は例外的なものだった。"
+   }
+  },
+  {
+   "id": "w-adjacent",
+   "headword": "adjacent",
+   "pos": "形",
+   "meanings": [
+    "隣接した"
+   ],
+   "level": 7,
+   "ipa": "/əˈdʒeɪsnt/",
+   "example": {
+    "en": "The hospital is adjacent to the park.",
+    "ja": "その病院は公園に隣接している。"
+   },
+   "collocations": [
+    "be adjacent to ~"
+   ]
+  },
+  {
+   "id": "w-allegory",
+   "headword": "allegory",
+   "pos": "名",
+   "meanings": [
+    "寓話",
+    "たとえ話"
+   ],
+   "level": 7,
+   "ipa": "/ˈæləɡəri/",
+   "example": {
+    "en": "The novel is an allegory of political power.",
+    "ja": "その小説は政治権力の寓話だ。"
+   }
+  },
+  {
+   "id": "w-anachronism",
+   "headword": "anachronism",
+   "pos": "名",
+   "meanings": [
+    "時代錯誤"
+   ],
+   "level": 7,
+   "ipa": "/əˈnækrənɪzəm/",
+   "example": {
+    "en": "Some argue that the monarchy is an anachronism.",
+    "ja": "君主制は時代錯誤だと主張する人もいる。"
+   }
+  },
+  {
+   "id": "w-antithesis",
+   "headword": "antithesis",
+   "pos": "名",
+   "meanings": [
+    "正反対",
+    "対照"
+   ],
+   "level": 7,
+   "ipa": "/ænˈtɪθəsɪs/",
+   "example": {
+    "en": "Violence is the antithesis of democracy.",
+    "ja": "暴力は民主主義の対極にある。"
+   }
+  },
+  {
+   "id": "w-archaic",
+   "headword": "archaic",
+   "pos": "形",
+   "meanings": [
+    "古風な",
+    "時代遅れの"
+   ],
+   "level": 7,
+   "ipa": "/ɑːˈkeɪɪk/",
+   "example": {
+    "en": "The law is archaic and should be changed.",
+    "ja": "その法律は時代遅れで、変えるべきだ。"
+   }
+  },
+  {
+   "id": "w-attest",
+   "headword": "attest",
+   "pos": "動",
+   "meanings": [
+    "証明する",
+    "証言する"
+   ],
+   "level": 7,
+   "ipa": "/əˈtest/",
+   "example": {
+    "en": "The ruins attest to the city's former wealth.",
+    "ja": "遺跡はその都市がかつて豊かだったことを物語っている。"
+   },
+   "collocations": [
+    "attest to ~"
+   ]
+  },
+  {
+   "id": "w-benevolent",
+   "headword": "benevolent",
+   "pos": "形",
+   "meanings": [
+    "慈悲深い",
+    "善意の"
+   ],
+   "level": 7,
+   "ipa": "/bəˈnevələnt/",
+   "example": {
+    "en": "He was a benevolent ruler.",
+    "ja": "彼は慈悲深い統治者だった。"
+   }
+  },
+  {
+   "id": "w-cohesion",
+   "headword": "cohesion",
+   "pos": "名",
+   "meanings": [
+    "結束",
+    "まとまり"
+   ],
+   "level": 7,
+   "ipa": "/kəʊˈhiːʒn/",
+   "example": {
+    "en": "Shared values promote social cohesion.",
+    "ja": "共有された価値観は社会の結束を促す。"
+   }
+  },
+  {
+   "id": "w-contingent",
+   "headword": "contingent",
+   "pos": "形",
+   "meanings": [
+    "〜次第の",
+    "偶発的な"
+   ],
+   "level": 7,
+   "ipa": "/kənˈtɪndʒənt/",
+   "example": {
+    "en": "Our plans are contingent on the weather.",
+    "ja": "私たちの計画は天候次第だ。"
+   },
+   "collocations": [
+    "be contingent on / upon ~"
+   ]
+  },
+  {
+   "id": "w-convergence",
+   "headword": "convergence",
+   "pos": "名",
+   "meanings": [
+    "収束",
+    "一点に集まること"
+   ],
+   "level": 7,
+   "ipa": "/kənˈvɜːdʒəns/",
+   "example": {
+    "en": "There is a convergence of opinion on this issue.",
+    "ja": "この問題については意見が一致しつつある。"
+   },
+   "derivatives": [
+    "converge 動 収束する"
+   ]
+  },
+  {
+   "id": "w-culpable",
+   "headword": "culpable",
+   "pos": "形",
+   "meanings": [
+    "責められるべき"
+   ],
+   "level": 7,
+   "ipa": "/ˈkʌlpəbl/",
+   "example": {
+    "en": "Who is culpable for the error?",
+    "ja": "その誤りの責任は誰にあるのか。"
+   }
+  },
+  {
+   "id": "w-cursory",
+   "headword": "cursory",
+   "pos": "形",
+   "meanings": [
+    "大まかな",
+    "ぞんざいな"
+   ],
+   "level": 7,
+   "ipa": "/ˈkɜːsəri/",
+   "example": {
+    "en": "He gave the document only a cursory glance.",
+    "ja": "彼は書類にざっと目を通しただけだった。"
+   }
+  },
+  {
+   "id": "w-deference",
+   "headword": "deference",
+   "pos": "名",
+   "meanings": [
+    "敬意",
+    "服従"
+   ],
+   "level": 7,
+   "ipa": "/ˈdefərəns/",
+   "example": {
+    "en": "He bowed in deference to the elders.",
+    "ja": "彼は年長者に敬意を表してお辞儀をした。"
+   },
+   "derivatives": [
+    "defer 動 従う；延期する"
+   ]
+  },
+  {
+   "id": "w-denounce",
+   "headword": "denounce",
+   "pos": "動",
+   "meanings": [
+    "公然と非難する"
+   ],
+   "level": 7,
+   "ipa": "/dɪˈnaʊns/",
+   "example": {
+    "en": "The leaders denounced the attack.",
+    "ja": "指導者たちはその攻撃を非難した。"
+   }
+  },
+  {
+   "id": "w-discourse",
+   "headword": "discourse",
+   "pos": "名",
+   "meanings": [
+    "言説",
+    "談話"
+   ],
+   "level": 7,
+   "ipa": "/ˈdɪskɔːs/",
+   "example": {
+    "en": "The issue has become central to political discourse.",
+    "ja": "その問題は政治的言説の中心になっている。"
+   }
+  },
+  {
+   "id": "w-dissent",
+   "headword": "dissent",
+   "pos": "名",
+   "meanings": [
+    "異議",
+    "反対意見"
+   ],
+   "level": 7,
+   "ipa": "/dɪˈsent/",
+   "example": {
+    "en": "A healthy democracy tolerates dissent.",
+    "ja": "健全な民主主義は異議を容認する。"
+   }
+  },
+  {
+   "id": "w-eloquent",
+   "headword": "eloquent",
+   "pos": "形",
+   "meanings": [
+    "雄弁な"
+   ],
+   "level": 7,
+   "ipa": "/ˈeləkwənt/",
+   "example": {
+    "en": "She gave an eloquent speech.",
+    "ja": "彼女は雄弁な演説をした。"
+   },
+   "derivatives": [
+    "eloquence 名 雄弁"
+   ]
+  },
+  {
+   "id": "w-emancipate",
+   "headword": "emancipate",
+   "pos": "動",
+   "meanings": [
+    "解放する"
+   ],
+   "level": 7,
+   "ipa": "/ɪˈmænsɪpeɪt/",
+   "example": {
+    "en": "Education can emancipate people from poverty.",
+    "ja": "教育は人々を貧困から解放しうる。"
+   },
+   "derivatives": [
+    "emancipation 名 解放"
+   ]
+  },
+  {
+   "id": "w-epitome",
+   "headword": "epitome",
+   "pos": "名",
+   "meanings": [
+    "典型",
+    "縮図"
+   ],
+   "level": 7,
+   "ipa": "/ɪˈpɪtəmi/",
+   "example": {
+    "en": "She is the epitome of kindness.",
+    "ja": "彼女は優しさの見本のような人だ。"
+   },
+   "note": "発音は「イピトミ」。"
+  },
+  {
+   "id": "w-equitable",
+   "headword": "equitable",
+   "pos": "形",
+   "meanings": [
+    "公平な"
+   ],
+   "level": 7,
+   "ipa": "/ˈekwɪtəbl/",
+   "example": {
+    "en": "We need a more equitable distribution of wealth.",
+    "ja": "より公平な富の分配が必要だ。"
+   },
+   "derivatives": [
+    "equity 名 公平"
+   ]
+  },
+  {
+   "id": "w-exemplary",
+   "headword": "exemplary",
+   "pos": "形",
+   "meanings": [
+    "模範的な"
+   ],
+   "level": 7,
+   "ipa": "/ɪɡˈzempləri/",
+   "example": {
+    "en": "Her conduct was exemplary.",
+    "ja": "彼女の行いは模範的だった。"
+   }
+  },
+  {
+   "id": "w-facet",
+   "headword": "facet",
+   "pos": "名",
+   "meanings": [
+    "（物事の）面"
+   ],
+   "level": 7,
+   "ipa": "/ˈfæsɪt/",
+   "example": {
+    "en": "The book explores every facet of the problem.",
+    "ja": "その本は問題のあらゆる側面を探っている。"
+   }
+  },
+  {
+   "id": "w-fallible",
+   "headword": "fallible",
+   "pos": "形",
+   "meanings": [
+    "誤りを犯しがちな"
+   ],
+   "level": 7,
+   "ipa": "/ˈfæləbl/",
+   "example": {
+    "en": "Even experts are fallible.",
+    "ja": "専門家でさえ誤りを犯すことがある。"
+   },
+   "antonyms": [
+    "infallible 絶対に誤らない"
+   ]
+  },
+  {
+   "id": "w-impasse",
+   "headword": "impasse",
+   "pos": "名",
+   "meanings": [
+    "行き詰まり"
+   ],
+   "level": 7,
+   "ipa": "/ˈæmpɑːs/",
+   "example": {
+    "en": "The negotiations reached an impasse.",
+    "ja": "交渉は行き詰まった。"
+   }
+  },
+  {
+   "id": "w-inertia",
+   "headword": "inertia",
+   "pos": "名",
+   "meanings": [
+    "惰性",
+    "慣性"
+   ],
+   "level": 7,
+   "ipa": "/ɪˈnɜːʃə/",
+   "example": {
+    "en": "Institutional inertia makes reform difficult.",
+    "ja": "組織の惰性が改革を難しくしている。"
+   }
+  },
+  {
+   "id": "w-insidious",
+   "headword": "insidious",
+   "pos": "形",
+   "meanings": [
+    "知らぬ間に進行する",
+    "陰険な"
+   ],
+   "level": 7,
+   "ipa": "/ɪnˈsɪdiəs/",
+   "example": {
+    "en": "High blood pressure is an insidious condition.",
+    "ja": "高血圧は知らぬ間に進行する病気だ。"
+   }
+  },
+  {
+   "id": "w-judicious",
+   "headword": "judicious",
+   "pos": "形",
+   "meanings": [
+    "賢明な",
+    "思慮深い"
+   ],
+   "level": 7,
+   "ipa": "/dʒuˈdɪʃəs/",
+   "example": {
+    "en": "The judicious use of antibiotics is essential.",
+    "ja": "抗生物質の賢明な使用が不可欠だ。"
+   }
+  },
+  {
+   "id": "w-juxtapose",
+   "headword": "juxtapose",
+   "pos": "動",
+   "meanings": [
+    "並置する"
+   ],
+   "level": 7,
+   "ipa": "/ˌdʒʌkstəˈpəʊz/",
+   "example": {
+    "en": "The exhibition juxtaposes old and new art.",
+    "ja": "その展覧会は新旧の美術を並べて見せている。"
+   },
+   "derivatives": [
+    "juxtaposition 名 並置"
+   ]
+  },
+  {
+   "id": "w-latent",
+   "headword": "latent",
+   "pos": "形",
+   "meanings": [
+    "潜在的な"
+   ],
+   "level": 7,
+   "ipa": "/ˈleɪtnt/",
+   "example": {
+    "en": "The virus can remain latent for years.",
+    "ja": "そのウイルスは何年も潜伏したままでいることがある。"
+   }
+  },
+  {
+   "id": "w-malleable",
+   "headword": "malleable",
+   "pos": "形",
+   "meanings": [
+    "柔軟な",
+    "影響を受けやすい"
+   ],
+   "level": 7,
+   "ipa": "/ˈmæliəbl/",
+   "example": {
+    "en": "Children's minds are highly malleable.",
+    "ja": "子どもの心は非常に柔軟だ。"
+   }
+  },
+  {
+   "id": "w-meritocracy",
+   "headword": "meritocracy",
+   "pos": "名",
+   "meanings": [
+    "能力主義（社会）"
+   ],
+   "level": 7,
+   "ipa": "/ˌmerɪˈtɒkrəsi/",
+   "example": {
+    "en": "Critics question whether true meritocracy exists.",
+    "ja": "真の能力主義が存在するのかを疑問視する批評家もいる。"
+   }
+  },
+  {
+   "id": "w-nascent",
+   "headword": "nascent",
+   "pos": "形",
+   "meanings": [
+    "発生期の",
+    "初期の"
+   ],
+   "level": 7,
+   "ipa": "/ˈnæsnt/",
+   "example": {
+    "en": "The industry is still in a nascent stage.",
+    "ja": "その産業はまだ初期段階にある。"
+   }
+  },
+  {
+   "id": "w-notwithstanding",
+   "headword": "notwithstanding",
+   "pos": "前",
+   "meanings": [
+    "〜にもかかわらず"
+   ],
+   "level": 7,
+   "ipa": "/ˌnɒtwɪθˈstændɪŋ/",
+   "example": {
+    "en": "Notwithstanding the risks, they continued the research.",
+    "ja": "危険があったにもかかわらず、彼らは研究を続けた。"
+   },
+   "synonyms": [
+    "despite",
+    "in spite of"
+   ]
+  },
+  {
+   "id": "w-pejorative",
+   "headword": "pejorative",
+   "pos": "形",
+   "meanings": [
+    "軽蔑的な"
+   ],
+   "level": 7,
+   "ipa": "/pɪˈdʒɒrətɪv/",
+   "example": {
+    "en": "The word is often used in a pejorative sense.",
+    "ja": "その語はしばしば軽蔑的な意味で使われる。"
+   }
+  },
+  {
+   "id": "w-perennial",
+   "headword": "perennial",
+   "pos": "形",
+   "meanings": [
+    "絶え間ない",
+    "多年生の"
+   ],
+   "level": 7,
+   "ipa": "/pəˈreniəl/",
+   "example": {
+    "en": "Funding is a perennial problem for schools.",
+    "ja": "資金は学校にとって絶えない問題だ。"
+   }
+  },
+  {
+   "id": "w-pertinent",
+   "headword": "pertinent",
+   "pos": "形",
+   "meanings": [
+    "適切な",
+    "関連のある"
+   ],
+   "level": 7,
+   "ipa": "/ˈpɜːtɪnənt/",
+   "example": {
+    "en": "Please keep your questions pertinent to the topic.",
+    "ja": "質問は話題に関連したものにしてください。"
+   },
+   "synonyms": [
+    "relevant"
+   ]
+  },
+  {
+   "id": "w-polarize",
+   "headword": "polarize",
+   "pos": "動",
+   "meanings": [
+    "二極化させる"
+   ],
+   "level": 7,
+   "ipa": "/ˈpəʊləraɪz/",
+   "example": {
+    "en": "The issue has polarized public opinion.",
+    "ja": "その問題は世論を二極化させた。"
+   },
+   "derivatives": [
+    "polarization 名 二極化"
+   ]
+  },
+  {
+   "id": "w-preliminary",
+   "headword": "preliminary",
+   "pos": "形",
+   "meanings": [
+    "予備的な"
+   ],
+   "level": 7,
+   "ipa": "/prɪˈlɪmɪnəri/",
+   "example": {
+    "en": "Preliminary results look promising.",
+    "ja": "予備的な結果は有望に見える。"
+   }
+  },
+  {
+   "id": "w-proponent",
+   "headword": "proponent",
+   "pos": "名",
+   "meanings": [
+    "支持者"
+   ],
+   "level": 7,
+   "ipa": "/prəˈpəʊnənt/",
+   "example": {
+    "en": "She is a leading proponent of renewable energy.",
+    "ja": "彼女は再生可能エネルギーの主要な支持者だ。"
+   },
+   "antonyms": [
+    "opponent 反対者"
+   ]
+  },
+  {
+   "id": "w-provisional",
+   "headword": "provisional",
+   "pos": "形",
+   "meanings": [
+    "暫定的な"
+   ],
+   "level": 7,
+   "ipa": "/prəˈvɪʒənl/",
+   "example": {
+    "en": "This is only a provisional agreement.",
+    "ja": "これは暫定的な合意にすぎない。"
+   }
+  },
+  {
+   "id": "w-quantify",
+   "headword": "quantify",
+   "pos": "動",
+   "meanings": [
+    "数量化する"
+   ],
+   "level": 7,
+   "ipa": "/ˈkwɒntɪfaɪ/",
+   "example": {
+    "en": "It is difficult to quantify happiness.",
+    "ja": "幸福を数量化するのは難しい。"
+   }
+  },
+  {
+   "id": "w-relegate",
+   "headword": "relegate",
+   "pos": "動",
+   "meanings": [
+    "格下げする",
+    "追いやる"
+   ],
+   "level": 7,
+   "ipa": "/ˈrelɪɡeɪt/",
+   "example": {
+    "en": "The issue was relegated to the back pages.",
+    "ja": "その問題は紙面の後ろのほうに追いやられた。"
+   }
+  },
+  {
+   "id": "w-reminiscent",
+   "headword": "reminiscent",
+   "pos": "形",
+   "meanings": [
+    "思い出させる"
+   ],
+   "level": 7,
+   "ipa": "/ˌremɪˈnɪsnt/",
+   "example": {
+    "en": "The town is reminiscent of old Europe.",
+    "ja": "その町は古いヨーロッパを思わせる。"
+   },
+   "collocations": [
+    "be reminiscent of ~"
+   ]
+  },
+  {
+   "id": "w-repudiate",
+   "headword": "repudiate",
+   "pos": "動",
+   "meanings": [
+    "拒絶する",
+    "否認する"
+   ],
+   "level": 7,
+   "ipa": "/rɪˈpjuːdieɪt/",
+   "example": {
+    "en": "He repudiated the accusations.",
+    "ja": "彼はその告発を否認した。"
+   }
+  },
+  {
+   "id": "w-resurgence",
+   "headword": "resurgence",
+   "pos": "名",
+   "meanings": [
+    "復活",
+    "再起"
+   ],
+   "level": 7,
+   "ipa": "/rɪˈsɜːdʒəns/",
+   "example": {
+    "en": "There has been a resurgence of interest in vinyl records.",
+    "ja": "レコード盤への関心が再燃している。"
+   }
+  },
+  {
+   "id": "w-stipulate",
+   "headword": "stipulate",
+   "pos": "動",
+   "meanings": [
+    "規定する"
+   ],
+   "level": 7,
+   "ipa": "/ˈstɪpjuleɪt/",
+   "example": {
+    "en": "The contract stipulates the terms of payment.",
+    "ja": "契約は支払い条件を規定している。"
+   }
+  },
+  {
+   "id": "w-subjective",
+   "headword": "subjective",
+   "pos": "形",
+   "meanings": [
+    "主観的な"
+   ],
+   "level": 7,
+   "ipa": "/səbˈdʒektɪv/",
+   "example": {
+    "en": "Beauty is subjective.",
+    "ja": "美しさは主観的なものだ。"
+   },
+   "antonyms": [
+    "objective 客観的な"
+   ]
+  },
+  {
+   "id": "w-superficial",
+   "headword": "superficial",
+   "pos": "形",
+   "meanings": [
+    "表面的な",
+    "浅薄な"
+   ],
+   "level": 7,
+   "ipa": "/ˌsuːpəˈfɪʃl/",
+   "example": {
+    "en": "His knowledge of the subject is superficial.",
+    "ja": "その分野についての彼の知識は表面的だ。"
+   }
+  },
+  {
+   "id": "w-supersede",
+   "headword": "supersede",
+   "pos": "動",
+   "meanings": [
+    "取って代わる"
+   ],
+   "level": 7,
+   "ipa": "/ˌsuːpəˈsiːd/",
+   "example": {
+    "en": "The old rules have been superseded.",
+    "ja": "古い規則は新しいものに取って代わられた。"
+   }
+  },
+  {
+   "id": "w-tenet",
+   "headword": "tenet",
+   "pos": "名",
+   "meanings": [
+    "信条",
+    "教義"
+   ],
+   "level": 7,
+   "ipa": "/ˈtenɪt/",
+   "example": {
+    "en": "Freedom of speech is a basic tenet of democracy.",
+    "ja": "言論の自由は民主主義の基本的信条だ。"
+   }
+  },
+  {
+   "id": "w-vehement",
+   "headword": "vehement",
+   "pos": "形",
+   "meanings": [
+    "激しい",
+    "猛烈な"
+   ],
+   "level": 7,
+   "ipa": "/ˈviːəmənt/",
+   "example": {
+    "en": "There was vehement opposition to the plan.",
+    "ja": "その計画には激しい反対があった。"
+   }
+  },
+  {
+   "id": "w-zeal",
+   "headword": "zeal",
+   "pos": "名",
+   "meanings": [
+    "熱意"
+   ],
+   "level": 7,
+   "ipa": "/ziːl/",
+   "example": {
+    "en": "She worked with great zeal.",
+    "ja": "彼女は大変な熱意をもって働いた。"
+   },
+   "derivatives": [
+    "zealous 形 熱心な"
+   ]
   }
  ]
 }

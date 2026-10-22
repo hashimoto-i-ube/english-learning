@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T13:00:06Z",
+  "generatedAt" : "2026-10-22T13:01:45Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -101,8 +101,8 @@
     {
       "file" : "packs/vocab-l7.json",
       "id" : "vocab.core.l7",
-      "revision" : 2,
-      "sha256" : "61b2d9902e28f752f7da88c8fe2ec8bbbc3caf7b399c028c9287e77385ae3d9a",
+      "revision" : 3,
+      "sha256" : "3bc5270bd6d5b4a98effcd1ccd3294362dd6e8ac3d4ef5b8eb48ab99da1ddb06",
       "skill" : "vocabulary",
       "title" : "Lv7 最難関・医学部 語彙"
     }
