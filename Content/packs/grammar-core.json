@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "grammar.core",
- "revision": 2,
+ "revision": 3,
  "skill": "grammar",
  "title": "文法・語法 基本〜発展",
  "description": "高校文法の全分野を入試頻出ポイントに絞って解説＋演習",
@@ -2742,6 +2742,926 @@
      "keyPoints": [
       "It is (high / about) time S + 過去形",
       "reconsider / review the way we live"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-infinitive-advanced",
+   "title": "不定詞の発展（完了・受動・be to・独立不定詞）",
+   "level": 5,
+   "category": "準動詞",
+   "summary": "時のずれを表す完了不定詞、be to 構文の5つの意味、文全体を修飾する独立不定詞。",
+   "explanation": "## 完了不定詞 to have done：述語動詞より「前」のこと\n\n| 文 | 意味 |\n|---|---|\n| He seems **to be** ill. | 彼は（今）病気のようだ |\n| He seems **to have been** ill. | 彼は（以前）病気だったようだ |\n| She is said **to have lived** in Paris. | 彼女はパリに住んでいたと言われている |\n\n**希望・意図の動詞の過去形 + 完了不定詞** は「実現しなかったこと」を表す。\nI **intended to have called** you.（電話するつもりだったのに、しなかった）\n\n## 受動不定詞 to be done\n\nThis problem is too complex **to be solved** in a day.\n\n## be to 構文\n\n| 意味 | 例 |\n|---|---|\n| 予定 | The meeting **is to be** held tomorrow. |\n| 義務 | You **are to** finish this by noon. |\n| 可能（否定・受動で） | Not a sound **was to be heard**. |\n| 運命 | He **was** never **to see** his hometown again. |\n| 意図（if 節で） | If you **are to** succeed, you must work hard. |\n\n## 独立不定詞（慣用表現）\n\nto tell (you) the truth（実を言えば）、to be frank with you（率直に言えば）、needless to say（言うまでもなく）、to make matters worse（さらに悪いことに）、so to speak（いわば）、to say nothing of 〜（〜は言うまでもなく）",
+   "examples": [
+    {
+     "en": "He appears to have made a mistake.",
+     "ja": "彼は間違いを犯したようだ。",
+     "note": "完了不定詞＝述語より前"
+    },
+    {
+     "en": "If we are to protect the environment, we must change our lifestyle.",
+     "ja": "環境を守るつもりなら、私たちは生活様式を変えなければならない。"
+    },
+    {
+     "en": "To make matters worse, it began to rain.",
+     "ja": "さらに悪いことに、雨が降り始めた。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-ia-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "to have earned"
+     ],
+     "explanation": "when she was young（過去）のことを現在の seems で述べる → 完了不定詞。",
+     "sentence": "She seems ___ a lot of money when she was young.",
+     "choices": [
+      "to earn",
+      "to have earned",
+      "earning",
+      "to be earned"
+     ]
+    },
+    {
+     "id": "g-ia-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "is to"
+     ],
+     "explanation": "be to do（予定）「〜することになっている」。",
+     "sentence": "The new library ___ open next month.",
+     "choices": [
+      "is to",
+      "is going",
+      "has to be",
+      "is about"
+     ]
+    },
+    {
+     "id": "g-ia-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "to return"
+     ],
+     "explanation": "結果の不定詞 never to do「（そして）二度と〜しなかった」。",
+     "sentence": "He left his hometown, never ___ again.",
+     "choices": [
+      "to return",
+      "returning",
+      "returned",
+      "to have returned"
+     ]
+    },
+    {
+     "id": "g-ia-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "not to mention"
+     ],
+     "explanation": "not to mention 〜「〜は言うまでもなく」（独立不定詞）。",
+     "sentence": "He can speak French, ___ English.",
+     "choices": [
+      "not to mention",
+      "not mentioning",
+      "to mention not",
+      "mentioning"
+     ]
+    },
+    {
+     "id": "g-ia-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その本は、一度も村を出たことのない女性によって書かれたと言われている。"
+     ],
+     "explanation": "完了かつ受動の不定詞 to have been written。",
+     "sentence": "The book is said to have been written by a woman who had never left her village.",
+     "keyPoints": [
+      "be said to have been done「〜されたと言われている」（完了・受動不定詞）",
+      "had never left（過去完了）"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-gerund-advanced",
+   "title": "動名詞の発展（意味上の主語・完了形・慣用表現）",
+   "level": 5,
+   "category": "準動詞",
+   "summary": "動名詞の意味上の主語・完了動名詞・受動動名詞と、入試頻出の動名詞慣用表現。",
+   "explanation": "## 意味上の主語\n\n所有格（文語的）または目的格で表す。\n- I don't like **his (him)** coming late.\n- I'm sure of **her** passing the exam.（= I'm sure that she will pass the exam.）\n- There being no bus, we had to walk.（独立分詞構文と区別：there being は動名詞にもなる）\n\n## 完了動名詞 having done：述語動詞より前\n\nHe is proud of **having won** the prize.（受賞したことを誇りに思っている）\n\n## 受動動名詞 being done\n\nI don't like **being treated** like a child.\n\n※ need / want / deserve + doing は能動形で受動の意味：This car **needs washing**.（= needs to be washed）\n\n## 動名詞の慣用表現\n\n| 表現 | 意味 |\n|---|---|\n| There is no doing | 〜することはできない |\n| It is no use (good) doing | 〜しても無駄だ |\n| It goes without saying that 〜 | 〜は言うまでもない |\n| On doing | 〜するとすぐに |\n| In doing | 〜するときに・〜する際に |\n| come near (close to) doing | 危うく〜しそうになる |\n| feel like doing | 〜したい気がする |\n| make a point of doing | 必ず〜することにしている |\n| be on the point of doing | まさに〜しようとしている |",
+   "examples": [
+    {
+     "en": "I'm ashamed of having been so rude to her.",
+     "ja": "彼女にあんなに失礼な態度をとったことを恥じている。"
+    },
+    {
+     "en": "On arriving at the airport, he called his wife.",
+     "ja": "空港に着くとすぐに、彼は妻に電話した。"
+    },
+    {
+     "en": "There is no telling what will happen next.",
+     "ja": "次に何が起こるかはわからない。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-ga-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "having stolen"
+     ],
+     "explanation": "deny は動名詞をとる。否定した時点より前に盗んだので完了動名詞（stealing でも可）。",
+     "sentence": "He denied ___ the money.",
+     "choices": [
+      "to steal",
+      "having stolen",
+      "to have stolen",
+      "steal"
+     ]
+    },
+    {
+     "id": "g-ga-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "repairing"
+     ],
+     "explanation": "need doing = need to be done（受動の意味）。",
+     "sentence": "My shoes need ___.",
+     "choices": [
+      "repair",
+      "repairing",
+      "to repair",
+      "repaired"
+     ]
+    },
+    {
+     "id": "g-ga-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "saying"
+     ],
+     "explanation": "It goes without saying that 〜「〜は言うまでもない」。",
+     "sentence": "It goes without ___ that health is more important than wealth.",
+     "choices": [
+      "say",
+      "said",
+      "saying",
+      "to say"
+     ]
+    },
+    {
+     "id": "g-ga-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "being hit"
+     ],
+     "explanation": "come close to doing「危うく〜しそうになる」。車に「ひかれる」ので受動動名詞。",
+     "sentence": "I came close to ___ by a car.",
+     "choices": [
+      "hit",
+      "be hit",
+      "being hit",
+      "hitting"
+     ]
+    },
+    {
+     "id": "g-ga-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「彼女が試験に合格することを私は確信している。」",
+     "answers": [
+      "I am sure of her passing the exam.",
+      "I am sure that she will pass the exam.",
+      "I'm sure she will pass the exam."
+     ],
+     "explanation": "動名詞の意味上の主語 her を使うか、that 節で書く。",
+     "keyPoints": [
+      "be sure of + 意味上の主語 + doing",
+      "または be sure that S will do"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-relative-expert",
+   "title": "関係詞の発展（as / than / but・前置詞＋which＋to do・連鎖）",
+   "level": 5,
+   "category": "関係詞",
+   "summary": "関係代名詞として働く as・than・but、前置詞＋関係代名詞＋to 不定詞など、難関大で問われる関係詞。",
+   "explanation": "## 関係代名詞の as\n\n- 先行詞に **such / the same / as** が付くとき：\n  Choose **such** friends **as** will help you.\n  This is **the same** watch **as** I lost.（同種のもの）\n- 前後の文の内容を受ける（非制限用法）：\n  **As** is often the case with him, he was late.（彼にはよくあることだが）\n\n## 関係代名詞の than / but\n\n- than：先行詞に比較級：There is **more** money **than** is needed.（必要以上のお金）\n- but（= that ... not）：古風な表現。There is no rule **but** has exceptions.（例外のない規則はない）\n\n## 前置詞 + 関係代名詞 + to 不定詞\n\nI need a pen **with which to write**.（= a pen to write with）\nHe has no one **on whom to rely**.\n\n## 関係詞の連鎖（S + think などの挿入）\n\nHe is the man **who I believe** is honest.（who は is の主語。whom は誤り）\n\n## 先行詞と関係詞の分離\n\nA rumor spread **that** the company would close.（that 節は rumor の同格。主語と離れている）",
+   "examples": [
+    {
+     "en": "As is often the case with teenagers, he stayed up late.",
+     "ja": "10代にはよくあることだが、彼は夜更かしした。"
+    },
+    {
+     "en": "She is looking for a house in which to live with her family.",
+     "ja": "彼女は家族と住む家を探している。"
+    },
+    {
+     "en": "Don't spend more money than is necessary.",
+     "ja": "必要以上にお金を使うな。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-rx-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "As"
+     ],
+     "explanation": "As is often the case「よくあることだが」。文頭で前に出られるのは as。",
+     "sentence": "___ is often the case, he forgot his homework.",
+     "choices": [
+      "Which",
+      "As",
+      "What",
+      "That"
+     ]
+    },
+    {
+     "id": "g-rx-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "as"
+     ],
+     "explanation": "the same 〜 as …「…と同じ種類の〜」。that を使うと「まさにその物」の意味になる。ここでは同種のものとして as が標準。",
+     "sentence": "This is the same bag ___ I bought last year.",
+     "choices": [
+      "that",
+      "as",
+      "which",
+      "what"
+     ]
+    },
+    {
+     "id": "g-rx-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "who"
+     ],
+     "explanation": "I thought は挿入。who は was の主語なので主格。",
+     "sentence": "He is the man ___ I thought was the best candidate.",
+     "choices": [
+      "whom",
+      "who",
+      "which",
+      "whose"
+     ]
+    },
+    {
+     "id": "g-rx-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "in which"
+     ],
+     "explanation": "前置詞 + 関係代名詞 + to 不定詞（a place in which to hold …）。",
+     "sentence": "We need a place ___ to hold the meeting.",
+     "choices": [
+      "which",
+      "in which",
+      "where to",
+      "what"
+     ]
+    },
+    {
+     "id": "g-rx-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "会議には予想されていたよりも多くの人々が来ていた。"
+     ],
+     "explanation": "than が関係代名詞として had been expected の主語の働きをしている。",
+     "sentence": "There were more people at the meeting than had been expected.",
+     "keyPoints": [
+      "関係代名詞 than（先行詞 more people）",
+      "had been expected（過去完了受動）"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-subjunctive-expert",
+   "title": "仮定法の上級（仮定法現在・were to・should・as it were）",
+   "level": 6,
+   "category": "仮定法",
+   "summary": "要求・提案の that 節の仮定法現在、実現性の低い仮定 were to / should、慣用表現。",
+   "explanation": "## 仮定法現在（原形）\n\n**要求・提案・命令・必要**を表す語に続く that 節では動詞の原形（英では should + 原形も）。\n- 動詞：demand, insist, propose, recommend, require, suggest, order\n- 形容詞：necessary, essential, important, vital, imperative\n- 名詞：proposal, suggestion, requirement\n\nIt is essential that every patient **be** informed of the risks.\n\n## 未来の仮定 were to / should\n\n| 形 | ニュアンス | 主節 |\n|---|---|---|\n| If S **were to** do | 純粋な仮定（実現性は問わない） | would / could など（過去形） |\n| If S **should** do | 万一〜なら（可能性は低い） | 命令文・will も可 |\n\nIf the sun **were to** disappear, all life would end.\nIf you **should** have any questions, please contact us.\n\n## if 以外で仮定を表す\n\n- **Suppose / Supposing / Provided (that)**：Suppose you won the lottery, what would you do?\n- **otherwise**：I was busy; otherwise I would have come.\n- **to 不定詞**：**To hear** him speak, you would think he was a native speaker.\n- **with / without / but for**\n\n## 慣用表現\n\nas it were（いわば）、if it were not for 〜（〜がなければ）、if anything（どちらかと言えば）",
+   "examples": [
+    {
+     "en": "The committee recommended that the plan be postponed.",
+     "ja": "委員会はその計画を延期するよう勧告した。"
+    },
+    {
+     "en": "If you were to live on Mars, what would you miss most?",
+     "ja": "仮に火星に住むとしたら、何がいちばん恋しくなるだろうか。"
+    },
+    {
+     "en": "He is, as it were, a walking dictionary.",
+     "ja": "彼はいわば生き字引だ。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-sx-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "follow"
+     ],
+     "explanation": "vital that S (should) 原形（仮定法現在）。",
+     "sentence": "It is vital that everyone ___ the safety rules.",
+     "choices": [
+      "follows",
+      "follow",
+      "followed",
+      "will follow"
+     ]
+    },
+    {
+     "id": "g-sx-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "were"
+     ],
+     "explanation": "If S were to do「仮に〜するとしたら」。",
+     "sentence": "If the earth ___ to stop turning, what would happen?",
+     "choices": [
+      "is",
+      "were",
+      "will",
+      "should"
+     ]
+    },
+    {
+     "id": "g-sx-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Should"
+     ],
+     "explanation": "If you should have の倒置 Should you have。主節が命令文なので should が適切。",
+     "sentence": "___ you have any trouble, call me at once.",
+     "choices": [
+      "Were",
+      "Had",
+      "Should",
+      "If"
+     ]
+    },
+    {
+     "id": "g-sx-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "otherwise"
+     ],
+     "explanation": "otherwise「さもなければ」が仮定の条件を表す。",
+     "sentence": "I took a taxi; ___ I would have missed the train.",
+     "choices": [
+      "however",
+      "otherwise",
+      "therefore",
+      "unless"
+     ]
+    },
+    {
+     "id": "g-sx-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼女が英語を話すのを聞けば、アメリカ人だと思うだろう。"
+     ],
+     "explanation": "不定詞が if 節の働きをしている。",
+     "sentence": "To hear her speak English, you would take her for an American.",
+     "keyPoints": [
+      "To hear 〜 が条件「〜を聞けば」",
+      "take A for B「AをBだと思う」",
+      "would（仮定法）"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-comparison-expert",
+   "title": "比較の上級（not so much A as B・all the more・最上級の譲歩）",
+   "level": 6,
+   "category": "比較",
+   "summary": "比較を使った慣用構文と、比較の形をしているが意味が直感に反する表現。",
+   "explanation": "## not so much A as B：「AというよりむしろB」\n\nHe is **not so much** a scholar **as** a journalist.\n= He is **less** a scholar **than** a journalist.\n= He is a journalist **rather than** a scholar.\n\n**not so much as do**：「〜さえしない」He did **not so much as** say goodbye.\n\n## all the + 比較級 + for / because：「〜だからいっそう…」\n\nI like him **all the better for** his faults.（欠点があるからいっそう好きだ）\n**none the + 比較級 + for**：「〜だからといって少しも…ない」\nHe is **none the happier for** his wealth.\n\n## 最上級の譲歩\n\n**The wisest man** cannot know everything.（どんなに賢い人でも）\n\n## 比較の慣用\n\n| 表現 | 意味 |\n|---|---|\n| know better than to do | 〜するほど愚かではない |\n| more often than not | たいてい |\n| as 〜 as any … | どの…にも劣らず〜 |\n| as 〜 as ever | 相変わらず〜 |\n| no sooner 〜 than … | 〜するとすぐに… |\n| would rather A than B | BするよりむしろAしたい |\n| the last 〜 to do | 最も〜しそうにない |",
+   "examples": [
+    {
+     "en": "Success depends not so much on talent as on effort.",
+     "ja": "成功は才能というよりむしろ努力にかかっている。"
+    },
+    {
+     "en": "I respect her all the more because she admitted her mistake.",
+     "ja": "彼女が自分の誤りを認めたので、私はいっそう彼女を尊敬している。"
+    },
+    {
+     "en": "You should know better than to believe such a rumor.",
+     "ja": "そんなうわさを信じるほど愚かであってはいけない。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-cx-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "as"
+     ],
+     "explanation": "not so much A as B「AというよりむしろB」。",
+     "sentence": "He is not so much a teacher ___ a friend to his students.",
+     "choices": [
+      "than",
+      "as",
+      "but",
+      "that"
+     ]
+    },
+    {
+     "id": "g-cx-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "as"
+     ],
+     "explanation": "without so much as doing「〜さえしないで」。",
+     "sentence": "He left without so much ___ saying goodbye.",
+     "choices": [
+      "than",
+      "as",
+      "to",
+      "for"
+     ]
+    },
+    {
+     "id": "g-cx-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "all"
+     ],
+     "explanation": "all the better for 〜「〜だからいっそう」。",
+     "sentence": "I love the city ___ the better for its old streets.",
+     "choices": [
+      "all",
+      "much",
+      "very",
+      "so"
+     ]
+    },
+    {
+     "id": "g-cx-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "none"
+     ],
+     "explanation": "none the + 比較級 + for 〜「〜だからといって少しも…ない」。",
+     "sentence": "She is ___ the wiser for her experience.",
+     "choices": [
+      "none",
+      "no",
+      "not",
+      "nothing"
+     ]
+    },
+    {
+     "id": "g-cx-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "民主主義において重要なのは、決定そのものというよりも、むしろその決定に至る過程である。"
+     ],
+     "explanation": "not so much A as B を「AというよりむしろB」と訳す。",
+     "sentence": "What matters in a democracy is not so much the decisions themselves as the way in which they are reached.",
+     "keyPoints": [
+      "What matters is 〜（主語の名詞節）",
+      "not so much A as B",
+      "the way in which they are reached「それらが下される方法・過程」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-conjunction-expert",
+   "title": "接続詞の上級（in that・now that・lest・once・insofar as）",
+   "level": 6,
+   "category": "接続詞",
+   "summary": "意味を取り違えやすい接続詞・接続表現を整理し、論理関係を正確に読む。",
+   "explanation": "## 理由・根拠\n\n| 表現 | 意味 |\n|---|---|\n| now (that) S V | 今や〜なので |\n| in that S V | 〜という点で |\n| seeing (that) S V | 〜であることを考えると |\n| for S V（文語） | というのは〜だから（前の内容の根拠） |\n\n## 条件\n\n| 表現 | 意味 |\n|---|---|\n| provided / providing (that) | 〜という条件で |\n| as long as / so long as | 〜する限り（条件） |\n| as far as / so far as | 〜する限り（範囲）as far as I know |\n| insofar as | 〜する限りにおいて |\n| once S V | いったん〜すると |\n| in case S V | 〜するといけないから／〜の場合に備えて |\n| unless | 〜でない限り |\n\n## 目的・否定的目的\n\n- so that S can / will 〜（〜するために）\n- **lest S (should) 原形**（〜しないように：文語）\n- for fear (that) S might 〜（〜するといけないから）\n\n## 譲歩\n\neven if（たとえ〜でも：仮定）、even though（〜だけれども：事実）、whereas（〜である一方）",
+   "examples": [
+    {
+     "en": "Now that you are eighteen, you can vote.",
+     "ja": "もう18歳になったのだから、投票できる。"
+    },
+    {
+     "en": "Humans differ from other animals in that they use complex language.",
+     "ja": "人間は複雑な言語を使うという点で他の動物と異なる。"
+    },
+    {
+     "en": "Take an umbrella in case it rains.",
+     "ja": "雨が降るといけないから傘を持って行きなさい。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-jx-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Now that"
+     ],
+     "explanation": "now that「今や〜なので」。",
+     "sentence": "___ you have finished the work, you can go home.",
+     "choices": [
+      "Even if",
+      "Now that",
+      "Unless",
+      "Whereas"
+     ]
+    },
+    {
+     "id": "g-jx-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "provided"
+     ],
+     "explanation": "provided (that)「〜という条件で」。",
+     "sentence": "You can borrow my car ___ you drive carefully.",
+     "choices": [
+      "unless",
+      "provided",
+      "in case",
+      "lest"
+     ]
+    },
+    {
+     "id": "g-jx-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "wake"
+     ],
+     "explanation": "lest S (should) 原形「〜しないように」。",
+     "sentence": "He spoke quietly lest he ___ the baby.",
+     "choices": [
+      "wake",
+      "woke",
+      "would wake",
+      "wakes"
+     ]
+    },
+    {
+     "id": "g-jx-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Once"
+     ],
+     "explanation": "once「いったん〜すると」。",
+     "sentence": "___ you start, you must finish.",
+     "choices": [
+      "Once",
+      "Unless",
+      "Though",
+      "Whereas"
+     ]
+    },
+    {
+     "id": "g-jx-5",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その二つの理論は、どちらも人間が合理的に行動すると仮定している点で似ているが、合理性をどう定義するかという点で異なる。"
+     ],
+     "explanation": "in that と in how の対比に注意。",
+     "sentence": "The two theories are similar in that both assume that people act rationally, but they differ in how they define rationality.",
+     "keyPoints": [
+      "in that 〜「〜という点で」",
+      "both assume that 〜",
+      "differ in how 〜「どのように〜かという点で異なる」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-aspect-nuance",
+   "title": "時制と相のニュアンス（would・現在完了の含意・進行形の感情）",
+   "level": 7,
+   "category": "時制",
+   "summary": "同じ出来事でも時制・相の選択で意味が変わる。最難関の和訳・英作文で問われる微妙な違い。",
+   "explanation": "## 現在完了の含意\n\n| 文 | 含意 |\n|---|---|\n| I **lost** my key. | 過去の事実（今は見つかっているかもしれない） |\n| I **have lost** my key. | 今も鍵がない |\n| He **has been** to Paris. | 経験（今は戻っている） |\n| Who **has eaten** my cake?! | 結果が目の前にある（ケーキがない） |\n\n## would の主な用法\n\n- 過去の習慣：He **would** often walk along the river.（used to は現在との対比を含む）\n- 過去における未来：I knew he **would** come.\n- 婉曲・丁寧：I **would** say that ...（〜と言えるでしょう）\n- 強い意志（否定で拒絶）：The door **wouldn't** open.\n\n## 進行形の特殊な用法\n\n- always + 進行形：話し手の非難・いらだち\n  He **is always complaining**.\n- 状態動詞の進行形：一時的な状態の強調\n  You **are being** very rude today.（今日はやけに失礼だね）\n- 過去進行形の婉曲：I **was wondering** if you could help me.\n\n## 歴史的現在・物語の現在\n\nニュースの見出しや物語では過去のことを現在形で生き生きと表す：Scientists **discover** new planet.",
+   "examples": [
+    {
+     "en": "When I was a child, I would spend hours reading in the library.",
+     "ja": "子どもの頃、図書館で何時間も読書をして過ごしたものだった。"
+    },
+    {
+     "en": "She is always forgetting her keys.",
+     "ja": "彼女はしょっちゅう鍵を忘れてばかりいる。",
+     "note": "いらだち"
+    },
+    {
+     "en": "I was wondering if I could ask you a favor.",
+     "ja": "お願いがあるのですが。",
+     "note": "婉曲"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-an7-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "has gone"
+     ],
+     "explanation": "今ここにいない（結果）→ has gone。",
+     "sentence": "\"Where's Tom?\" \"He ___ to the bank. He'll be back in ten minutes.\"",
+     "choices": [
+      "has been",
+      "has gone",
+      "went",
+      "goes"
+     ]
+    },
+    {
+     "id": "g-an7-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "are being"
+     ],
+     "explanation": "状態動詞 be の進行形で「（普段と違って）今日は」という一時性を強調。",
+     "sentence": "You ___ very quiet today. Is something wrong?",
+     "choices": [
+      "are",
+      "are being",
+      "have been being",
+      "were"
+     ]
+    },
+    {
+     "id": "g-an7-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "wouldn't"
+     ],
+     "explanation": "would not で物の「どうしても〜しない」（拒絶）。",
+     "sentence": "I tried to start the car, but it ___.",
+     "choices": [
+      "didn't",
+      "wouldn't",
+      "couldn't",
+      "won't"
+     ]
+    },
+    {
+     "id": "g-an7-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼はよく何時間も窓辺に座り、行き交う人々を眺めていたものだった。まるで決して来ることのない誰かを待っているかのように。"
+     ],
+     "explanation": "1つ目の would は習慣、2つ目は過去から見た未来。",
+     "sentence": "He would sit for hours by the window, watching the people go by, as though he were waiting for someone who would never come.",
+     "keyPoints": [
+      "would（過去の習慣）",
+      "watching 〜（付帯状況の分詞構文）",
+      "as though + 仮定法過去",
+      "who would never come（過去から見た未来）"
+     ]
+    },
+    {
+     "id": "g-an7-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「彼はいつも人の悪口ばかり言っている。」",
+     "answers": [
+      "He is always speaking ill of others.",
+      "He is always saying bad things about other people.",
+      "He is always speaking badly of others."
+     ],
+     "explanation": "話し手のいらだちを always + 進行形で表す。",
+     "keyPoints": [
+      "always + 進行形（非難・いらだち）",
+      "speak ill of 〜「〜の悪口を言う」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-modal-nuance",
+   "title": "助動詞の上級（判断の should・婉曲の might/could・shall）",
+   "level": 7,
+   "category": "助動詞",
+   "summary": "感情・判断を表す should、確信度を調整する助動詞、文語的な shall など、精緻な読解と論述のための助動詞。",
+   "explanation": "## 感情・判断の should\n\n驚き・意外・遺憾・当然などを表す形容詞・名詞の後の that 節で、**話し手の主観的な受け止め**を示す。\nIt is strange that he **should** say such a thing.（彼がそんなことを言うとは不思議だ）\nIt is natural that she **should** be angry.\n\n※ 事実として淡々と述べる場合は should なし：It is strange that he said such a thing.\n\n## 確信度のグラデーション（推量）\n\nmust（〜に違いない）＞ will（〜だろう）＞ should / ought to（〜のはずだ）＞ may（〜かもしれない）＞ might / could（ひょっとすると〜かもしれない）\n\n学術的な文章では、断定を避けるため **may / might / could** が多用される（ヘッジ）。\nThese results **may** suggest that ...\n\n## shall の用法\n\n- 疑問文での申し出・提案：**Shall** I open the window? / **Shall** we go?\n- 話し手の意志（文語）：You **shall** have the book.（君にその本をあげよう）\n- 規則・法律文：The tenant **shall** pay the rent by the 5th.\n\n## 疑問詞 + should\n\nWhy **should** I apologize?（なぜ私が謝らなければならないのか：反語）\nWho **should** come in but the teacher!（入ってきたのはなんと先生だった）",
+   "examples": [
+    {
+     "en": "It is surprising that such a young child should understand the problem.",
+     "ja": "そんな幼い子がその問題を理解するとは驚きだ。"
+    },
+    {
+     "en": "These findings could have important implications for treatment.",
+     "ja": "これらの発見は治療に重要な意味をもつ可能性がある。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-mn-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "should"
+     ],
+     "explanation": "遺憾を表す that 節の should（感情の should）。",
+     "sentence": "It is a pity that he ___ have failed the exam.",
+     "choices": [
+      "should",
+      "must",
+      "will",
+      "can"
+     ]
+    },
+    {
+     "id": "g-mn-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "Shall"
+     ],
+     "explanation": "Shall I 〜?「〜しましょうか」（申し出）。",
+     "sentence": "\"___ I carry your bag?\" \"Yes, please.\"",
+     "choices": [
+      "Will",
+      "Shall",
+      "Must",
+      "Would"
+     ]
+    },
+    {
+     "id": "g-mn-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "should"
+     ],
+     "explanation": "反語の Why should 〜?「なぜ〜しなければならないのか（いや、ない）」。",
+     "sentence": "Why ___ I pay for his mistake?",
+     "choices": [
+      "should",
+      "shall",
+      "will",
+      "must"
+     ]
+    },
+    {
+     "id": "g-mn-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "彼女ほど名声のある科学者がそのような初歩的な誤りを犯したとは、説明しがたいことだ。"
+     ],
+     "explanation": "主語の that 節の中の should は話し手の意外さを表す。",
+     "sentence": "That a scientist of her reputation should have made such a basic error is difficult to explain.",
+     "keyPoints": [
+      "That 節が主語",
+      "should have made（意外・驚きの should + 完了形）",
+      "a scientist of her reputation「彼女ほどの名声の科学者」"
+     ]
+    },
+    {
+     "id": "g-mn-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「この結果は、睡眠不足が記憶に影響を与える可能性を示唆している。」",
+     "answers": [
+      "These results suggest that lack of sleep may affect memory.",
+      "This result suggests that a lack of sleep might affect memory.",
+      "These results suggest that sleep deprivation may influence memory."
+     ],
+     "explanation": "学術的な断定回避は may / might で表す。suggest（示唆する）の that 節は仮定法現在にならない点にも注意。",
+     "keyPoints": [
+      "suggest that 〜（示唆する）",
+      "may / might（ヘッジ）",
+      "lack of sleep / sleep deprivation"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-academic-writing",
+   "title": "学術的な英文の文法（名詞化・ヘッジ・無生物主語・受動態）",
+   "level": 7,
+   "category": "総合",
+   "summary": "論文・評論で使われる文体の文法的特徴を理解し、読解と高度な英作文に生かす。",
+   "explanation": "## 学術英語の4つの特徴\n\n| 特徴 | 例 |\n|---|---|\n| 名詞化 | The rapid **increase in** temperature **led to** the **collapse of** the ice sheet. |\n| ヘッジ（断定回避） | This **appears to** suggest / It **is likely that** / **tend to** |\n| 無生物主語 | The data **indicate** that … / This finding **raises** the question … |\n| 受動態 | The samples **were analyzed** using … （行為者より事実を前に出す） |\n\n## 名詞化の功罪\n\n情報を凝縮できるが、多用すると読みにくい。英作文では、\n\nbecause people use social media more → **the growing use of** social media\n\nのように**1か所のポイント**で使うと引き締まる。\n\n## ヘッジの表現\n\n- 動詞：appear, seem, tend, suggest, indicate\n- 助動詞：may, might, could\n- 副詞：possibly, probably, arguably, largely\n- 形容詞句：It is likely / possible / probable that …\n\n## 自由英作文での使い方\n\n断定しすぎる主張（Everyone knows that … / always / never）は論理的な弱点として減点されやすい。**Many / often / tend to** で適度に限定すると説得力が増す。",
+   "examples": [
+    {
+     "en": "The widespread use of antibiotics has contributed to the emergence of resistant bacteria.",
+     "ja": "抗生物質が広く使われてきたことが、耐性菌の出現の一因となっている。"
+    },
+    {
+     "en": "It is arguably the most important discovery of the century.",
+     "ja": "それはおそらく今世紀で最も重要な発見だろう。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "g-aw-1",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "Smartphones can reduce some students' ability to concentrate."
+     ],
+     "explanation": "can / some で主張を適度に限定している。always, only, everyone は過度な一般化。",
+     "sentence": "最も適切なヘッジ（断定を避けた）表現を選びなさい。",
+     "choices": [
+      "Smartphones always destroy students' concentration.",
+      "Smartphones can reduce some students' ability to concentrate.",
+      "Smartphones are the only cause of poor grades.",
+      "Everyone agrees that smartphones are harmful."
+     ]
+    },
+    {
+     "id": "g-aw-2",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「人口が急速に高齢化したことで、医療費が大幅に増加した。」",
+     "answers": [
+      "The rapid aging of the population has led to a significant increase in medical costs.",
+      "The rapid aging of the population has resulted in a sharp rise in healthcare costs.",
+      "Rapid population aging has caused a large increase in medical expenses."
+     ],
+     "explanation": "名詞化した主語と lead to で因果関係を簡潔に表す。",
+     "keyPoints": [
+      "名詞化 the rapid aging of the population",
+      "無生物主語 + lead to / result in",
+      "a significant increase in 〜"
+     ]
+    },
+    {
+     "id": "g-aw-3",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "その政策の失敗は、設計のまずさよりもむしろ国民の信頼の欠如に起因すると考えられる。"
+     ],
+     "explanation": "名詞化・受動態・比較を組み合わせた典型的な学術文。",
+     "sentence": "The failure of the policy can be attributed less to poor design than to a lack of public trust.",
+     "keyPoints": [
+      "The failure of the policy（名詞化）",
+      "attribute A to B の受動態",
+      "less to A than to B「AよりむしろBに」",
+      "can be「〜と考えられる」（ヘッジ）"
+     ]
+    },
+    {
+     "id": "g-aw-4",
+     "type": "translateToJa",
+     "prompt": "下線部（英文）を和訳しなさい。",
+     "answers": [
+      "これらの発見は、まだ予備的なものではあるが、早期の介入によってその病気の重症度が軽減されうることを示しているように思われる。"
+     ],
+     "explanation": "while 節の省略と二重のヘッジ（appear to / may）。",
+     "sentence": "These findings, while preliminary, appear to indicate that early intervention may reduce the severity of the condition.",
+     "keyPoints": [
+      "挿入 while preliminary（= while they are preliminary）",
+      "appear to indicate（ヘッジ）",
+      "may reduce（ヘッジ）",
+      "early intervention を条件として訳す"
+     ]
+    },
+    {
+     "id": "g-aw-5",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「この問題は単純な解決策では対処できないと言ってよいだろう。」",
+     "answers": [
+      "It is arguable that this problem cannot be dealt with by a simple solution.",
+      "Arguably, this problem cannot be addressed with a simple solution.",
+      "It could be argued that this problem cannot be solved by a simple solution."
+     ],
+     "explanation": "「〜と言ってよいだろう」は arguably / It could be argued that で表す。",
+     "keyPoints": [
+      "Arguably / It could be argued that（ヘッジ）",
+      "deal with / address の受動態"
      ]
     }
    ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T12:35:18Z",
+  "generatedAt" : "2026-10-22T12:38:35Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -21,8 +21,8 @@
     {
       "file" : "packs/grammar-core.json",
       "id" : "grammar.core",
-      "revision" : 2,
-      "sha256" : "4b6dade6d06e34beb9b99b1a34fa51c4e4b6ea994501b4a5bae028b6c09d881c",
+      "revision" : 3,
+      "sha256" : "343474dd2f3ee6f5ae0a8e631994d5b8bc8aeb4ef48655668b72c528f2106af7",
       "skill" : "grammar",
       "title" : "文法・語法 基本〜発展"
     },
