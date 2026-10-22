@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T12:57:01Z",
+  "generatedAt" : "2026-10-22T12:57:14Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -78,7 +78,7 @@
       "file" : "packs/vocab-l4.json",
       "id" : "vocab.core.l4",
       "revision" : 3,
-      "sha256" : "eff948c09ca273dd3c1ecfa5c4aeb57fdc19b146b6eae0d12e3e6e7020eacb9e",
+      "sha256" : "3d47f3a0fb597b255ebd1e37f80ed03f0e496aec5592efd2ff8d4302e016e4f5",
       "skill" : "vocabulary",
       "title" : "Lv4 共通テスト・中堅大語彙"
     },

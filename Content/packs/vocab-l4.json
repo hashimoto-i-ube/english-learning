@@ -3338,6 +3338,80 @@
     "en": "The fire alarm went off.",
     "ja": "火災報知器が鳴った。"
    }
+  },
+  {
+   "id": "w-dispose-of",
+   "headword": "dispose of",
+   "pos": "熟",
+   "meanings": [
+    "〜を処分する"
+   ],
+   "level": 4,
+   "example": {
+    "en": "How should we dispose of old batteries?",
+    "ja": "古い電池はどのように処分すべきか。"
+   },
+   "derivatives": [
+    "disposal 名 処分"
+   ]
+  },
+  {
+   "id": "w-deprived",
+   "headword": "deprived",
+   "pos": "形",
+   "meanings": [
+    "恵まれない",
+    "奪われた"
+   ],
+   "level": 4,
+   "ipa": "/dɪˈpraɪvd/",
+   "example": {
+    "en": "The charity helps deprived children.",
+    "ja": "その慈善団体は恵まれない子どもたちを支援している。"
+   }
+  },
+  {
+   "id": "w-feasibility",
+   "headword": "feasibility",
+   "pos": "名",
+   "meanings": [
+    "実現可能性"
+   ],
+   "level": 4,
+   "ipa": "/ˌfiːzəˈbɪləti/",
+   "example": {
+    "en": "They are studying the feasibility of the project.",
+    "ja": "彼らはその計画の実現可能性を検討している。"
+   }
+  },
+  {
+   "id": "w-outstanding",
+   "headword": "outstanding",
+   "pos": "形",
+   "meanings": [
+    "傑出した",
+    "未払いの"
+   ],
+   "level": 4,
+   "ipa": "/aʊtˈstændɪŋ/",
+   "example": {
+    "en": "She is an outstanding student.",
+    "ja": "彼女は傑出した生徒だ。"
+   }
+  },
+  {
+   "id": "w-participant",
+   "headword": "participant",
+   "pos": "名",
+   "meanings": [
+    "参加者"
+   ],
+   "level": 4,
+   "ipa": "/pɑːˈtɪsɪpənt/",
+   "example": {
+    "en": "Each participant received a certificate.",
+    "ja": "参加者全員が修了証を受け取った。"
+   }
   }
  ]
 }
