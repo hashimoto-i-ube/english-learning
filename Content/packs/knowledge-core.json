@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "knowledge.core",
- "revision": 2,
+ "revision": 3,
  "skill": "knowledge",
  "title": "基礎知識",
  "description": "発音・アクセント、会話表現、読解・英作文の技術",
@@ -592,6 +592,742 @@
       "譲歩 It is true that 〜, but … / Admittedly, 〜. However, …",
       "動名詞主語 using them too much",
       "have a bad effect on 〜"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-pronunciation",
+   "title": "発音の基本（つづりと音・黙字・語尾の発音）",
+   "level": 1,
+   "category": "発音・アクセント",
+   "summary": "つづりと発音の対応、発音しない文字（黙字）、-ed / -s の語尾の発音を整理する。",
+   "explanation": "## つづりが同じでも発音が違う\n\n| つづり | 発音 | 例 |\n|---|---|---|\n| ea | /iː/ | meat, team, speak |\n| ea | /e/ | bread, head, heavy |\n| ou | /aʊ/ | house, mouth, cloud |\n| ou | /ʌ/ | country, cousin, touch |\n| oo | /uː/ | food, school, moon |\n| oo | /ʊ/ | book, good, foot |\n\n## 黙字（発音しない文字）\n\n- kn- の k：know, knife, knee\n- wr- の w：write, wrong\n- -mb の b：climb, comb\n- -st(l)en の t：listen, castle\n- h：hour, honest\n\n## -ed の発音\n\n| 直前の音 | 発音 | 例 |\n|---|---|---|\n| /t/ /d/ | /ɪd/ | wanted, needed |\n| 無声音（/p/ /k/ /s/ /ʃ/ /tʃ/ /f/） | /t/ | stopped, washed |\n| 有声音・母音 | /d/ | played, lived |\n\n## 複数形・三単現の -s\n\n無声音の後は /s/（books, cats）、有声音の後は /z/（dogs, pens）、/s/ /z/ /ʃ/ /tʃ/ /dʒ/ の後は /ɪz/（buses, watches）。",
+   "examples": [
+    {
+     "en": "I know the answer.",
+     "ja": "私は答えを知っている。",
+     "note": "know の k は発音しない"
+    },
+    {
+     "en": "She washed the dishes and wanted to rest.",
+     "ja": "彼女は皿を洗い、休みたいと思った。",
+     "note": "washed /t/、wanted /ɪd/"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-pn-1",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "meat"
+     ],
+     "explanation": "meat は /iː/、他は /e/。",
+     "sentence": "ea の発音が他と異なる語を選びなさい。",
+     "choices": [
+      "bread",
+      "head",
+      "heavy",
+      "meat"
+     ]
+    },
+    {
+     "id": "k-pn-2",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "country"
+     ],
+     "explanation": "country は /ʌ/、他は /aʊ/。",
+     "sentence": "ou の発音が他と異なる語を選びなさい。",
+     "choices": [
+      "house",
+      "mouth",
+      "cloud",
+      "country"
+     ]
+    },
+    {
+     "id": "k-pn-3",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "speak"
+     ],
+     "explanation": "knife の k、write の w、listen の t は発音しない。",
+     "sentence": "発音しない文字（黙字）を含まない語を選びなさい。",
+     "choices": [
+      "knife",
+      "write",
+      "listen",
+      "speak"
+     ]
+    },
+    {
+     "id": "k-pn-4",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "mother"
+     ],
+     "explanation": "mother は /ð/、他は無声音 /θ/。",
+     "sentence": "th が有声音 /ð/ で発音される語を選びなさい。",
+     "choices": [
+      "think",
+      "thank",
+      "mother",
+      "month"
+     ]
+    },
+    {
+     "id": "k-pn-5",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "wanted"
+     ],
+     "explanation": "直前が /t/ なので /ɪd/。",
+     "sentence": "-ed が /ɪd/ と発音される語を選びなさい。",
+     "choices": [
+      "played",
+      "wanted",
+      "stopped",
+      "called"
+     ]
+    },
+    {
+     "id": "k-pn-6",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "washed"
+     ],
+     "explanation": "直前が無声音 /ʃ/ なので /t/。",
+     "sentence": "-ed が /t/ と発音される語を選びなさい。",
+     "choices": [
+      "lived",
+      "opened",
+      "washed",
+      "needed"
+     ]
+    },
+    {
+     "id": "k-pn-7",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "book"
+     ],
+     "explanation": "book は短い /ʊ/、他は /uː/。",
+     "sentence": "oo が /ʊ/ と発音される語を選びなさい。",
+     "choices": [
+      "food",
+      "school",
+      "book",
+      "moon"
+     ]
+    },
+    {
+     "id": "k-pn-8",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "dogs"
+     ],
+     "explanation": "直前が有声音 /ɡ/ なので /z/。",
+     "sentence": "語尾の -s が /z/ と発音される語を選びなさい。",
+     "choices": [
+      "books",
+      "cats",
+      "dogs",
+      "cups"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-collocation",
+   "title": "コロケーション（make / do / take / have など）",
+   "level": 2,
+   "category": "語法",
+   "summary": "日本語の発想では選びにくい動詞と名詞の組み合わせを覚え、英作文の不自然さをなくす。",
+   "explanation": "## よく使う組み合わせ\n\n| 動詞 | 名詞 |\n|---|---|\n| make | a mistake, a decision, an effort, progress, a choice, a plan, a speech, friends |\n| do | homework, one's best, research, damage, business, the dishes, harm |\n| take | a photo, a break, a look, a seat, a walk, medicine, part in |\n| have | a good time, a meal, a cold, a dream, an idea, a chance |\n\n## 形容詞 + 名詞\n\n- **heavy** rain / traffic（×strong rain）\n- **high / low** price, salary（×expensive price）\n- **large / small** population（×many population）\n- **strong** coffee / wind\n- **deep** sleep, **fast** asleep\n\n## 日本語に引きずられやすい例\n\n- 薬を飲む：**take** medicine（×drink）\n- 夢を見る：**have** a dream（×see）\n- 写真を撮る：**take** a photo\n- 風邪をひく：**catch** a cold / **have** a cold",
+   "examples": [
+    {
+     "en": "I made a big mistake.",
+     "ja": "大きな間違いをした。"
+    },
+    {
+     "en": "Take this medicine after meals.",
+     "ja": "この薬は食後に飲みなさい。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-co-1",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "makes"
+     ],
+     "explanation": "make a mistake。",
+     "sentence": "Everyone ___ mistakes.",
+     "choices": [
+      "does",
+      "makes",
+      "takes",
+      "has"
+     ]
+    },
+    {
+     "id": "k-co-2",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "do"
+     ],
+     "explanation": "do one's homework。",
+     "sentence": "I have to ___ my homework tonight.",
+     "choices": [
+      "make",
+      "do",
+      "take",
+      "have"
+     ]
+    },
+    {
+     "id": "k-co-3",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "take"
+     ],
+     "explanation": "take a photo。",
+     "sentence": "Let's ___ a photo in front of the castle.",
+     "choices": [
+      "make",
+      "do",
+      "take",
+      "get"
+     ]
+    },
+    {
+     "id": "k-co-4",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "had"
+     ],
+     "explanation": "have a good time。",
+     "sentence": "We ___ a good time at the party.",
+     "choices": [
+      "made",
+      "did",
+      "took",
+      "had"
+     ]
+    },
+    {
+     "id": "k-co-5",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "make"
+     ],
+     "explanation": "make a decision（英では take a decision も見られるが、make が標準）。",
+     "sentence": "You need to ___ a decision by tomorrow.",
+     "choices": [
+      "do",
+      "make",
+      "take",
+      "give"
+     ]
+    },
+    {
+     "id": "k-co-6",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "heavy"
+     ],
+     "explanation": "heavy rain（×strong rain）。",
+     "sentence": "There was ___ rain last night.",
+     "choices": [
+      "strong",
+      "heavy",
+      "big",
+      "hard"
+     ]
+    },
+    {
+     "id": "k-co-7",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "high"
+     ],
+     "explanation": "price の高低は high / low。expensive は物が主語。",
+     "sentence": "The price of this car is too ___.",
+     "choices": [
+      "expensive",
+      "high",
+      "much",
+      "big"
+     ]
+    },
+    {
+     "id": "k-co-8",
+     "type": "choice",
+     "prompt": "空所に入る最も適切なものを選びなさい。",
+     "answers": [
+      "take"
+     ],
+     "explanation": "薬を飲む = take medicine。",
+     "sentence": "Don't forget to ___ your medicine.",
+     "choices": [
+      "drink",
+      "take",
+      "eat",
+      "have"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-email",
+   "title": "英文メール・手紙の書き方",
+   "level": 2,
+   "category": "英作文の技術",
+   "summary": "書き出し・目的の述べ方・依頼・結びの定型表現を身につけ、メール形式の英作文問題に備える。",
+   "explanation": "## 基本の構成\n\n1. **宛名**：Dear Mr. / Ms. 〜,（親しい相手なら Hi 〜,）\n2. **目的**：I am writing to 〜（〜のためにご連絡しています）\n3. **本文**：用件・質問・依頼\n4. **結び**：I look forward to hearing from you.\n5. **署名前の結語**：Best regards, / Sincerely,（親しい相手なら Best, / Thanks,）\n\n## 丁寧な依頼\n\n- Could you (please) 〜?\n- I would appreciate it if you could 〜.\n- Would it be possible to 〜?\n\n## 便利な表現\n\n| 表現 | 意味 |\n|---|---|\n| Thank you for your email. | メールをありがとうございます。 |\n| I'm sorry for the late reply. | 返信が遅くなり申し訳ありません。 |\n| I have attached 〜. | 〜を添付しました。 |\n| Please let me know if 〜. | 〜であればお知らせください。 |\n\n## 注意\n\n「ご都合がよければ」は if it is convenient for you（×if you are convenient）。",
+   "examples": [
+    {
+     "en": "I am writing to ask about the summer program.",
+     "ja": "夏期講座についてお尋ねしたくご連絡しました。"
+    },
+    {
+     "en": "I look forward to hearing from you.",
+     "ja": "お返事をお待ちしております。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-em-1",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "Dear Mr. Smith,"
+     ],
+     "explanation": "敬称 + 姓で Dear Mr. Smith,。",
+     "sentence": "先生（Mr. Smith）へのメールの書き出しとして最も適切なものを選びなさい。",
+     "choices": [
+      "Dear Mr. Smith,",
+      "Hey Smith!",
+      "To Smith teacher,",
+      "Hello, Mr. John,"
+     ]
+    },
+    {
+     "id": "k-em-2",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "Best regards,"
+     ],
+     "explanation": "Best regards, / Sincerely, が一般的。",
+     "sentence": "正式なメールの結語として最も適切なものを選びなさい。",
+     "choices": [
+      "Best regards,",
+      "See ya!",
+      "Bye bye,",
+      "That's all."
+     ]
+    },
+    {
+     "id": "k-em-3",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "I am writing to ask about the entrance exam."
+     ],
+     "explanation": "I am writing to do が定型。",
+     "sentence": "メールの目的を述べる文として最も適切なものを選びなさい。",
+     "choices": [
+      "I am writing to ask about the entrance exam.",
+      "I write about exam.",
+      "This is a writing about the exam.",
+      "I wrote to the exam."
+     ]
+    },
+    {
+     "id": "k-em-4",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "Could you please send me the schedule?"
+     ],
+     "explanation": "Could you please 〜? は丁寧な依頼。",
+     "sentence": "最も丁寧な依頼を選びなさい。",
+     "choices": [
+      "Send me the schedule.",
+      "You must send me the schedule.",
+      "Could you please send me the schedule?",
+      "I want the schedule."
+     ]
+    },
+    {
+     "id": "k-em-5",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "if it is convenient for you"
+     ],
+     "explanation": "convenient は人を主語にしない。",
+     "sentence": "「ご都合がよければ」として正しいものを選びなさい。",
+     "choices": [
+      "if you are convenient",
+      "if it is convenient for you",
+      "if you have convenient",
+      "if convenient you are"
+     ]
+    },
+    {
+     "id": "k-em-6",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "I'm sorry for the late reply."
+     ],
+     "explanation": "定型表現。",
+     "sentence": "「返信が遅くなり申し訳ありません」として最も適切なものを選びなさい。",
+     "choices": [
+      "I'm sorry for the late reply.",
+      "Sorry for late.",
+      "I'm late to reply you.",
+      "Excuse my lately reply."
+     ]
+    },
+    {
+     "id": "k-em-7",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「お返事をお待ちしております。」",
+     "answers": [
+      "I look forward to hearing from you.",
+      "I am looking forward to hearing from you.",
+      "I look forward to your reply."
+     ],
+     "explanation": "メールの結びの定型。",
+     "keyPoints": [
+      "look forward to doing（to は前置詞）",
+      "hear from 〜「〜から便りがある」"
+     ]
+    },
+    {
+     "id": "k-em-8",
+     "type": "translateToEn",
+     "prompt": "次の日本文を英訳しなさい。\n「資料を添付しましたので、ご確認ください。」",
+     "answers": [
+      "I have attached the document, so please check it.",
+      "Please find the attached document.",
+      "I have attached the materials. Please take a look at them."
+     ],
+     "explanation": "添付の定型表現。",
+     "keyPoints": [
+      "I have attached 〜",
+      "please check / take a look"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-word-formation",
+   "title": "語の成り立ち（接頭辞・接尾辞）",
+   "level": 3,
+   "category": "語彙の技術",
+   "summary": "接頭辞・接尾辞の意味を知り、未知語の意味や品詞を推測する力をつける。",
+   "explanation": "## 否定・反対の接頭辞\n\n| 接頭辞 | 例 |\n|---|---|\n| un- | unhappy, unusual |\n| in- / im- / il- / ir- | independent, impossible, illegal, irregular |\n| dis- | disagree, dishonest |\n| non- | nonsense, nonverbal |\n| mis-（誤って） | misunderstand, mislead |\n\nim- は p / b / m の前、il- は l の前、ir- は r の前。\n\n## 意味をもつ接頭辞\n\npre-（前）preview / re-（再び）rebuild / inter-（間）international / trans-（越えて）transport / sub-（下）subway / over-（過度に）overwork / co-（共に）cooperate\n\n## 品詞を決める接尾辞\n\n| 接尾辞 | 品詞 | 例 |\n|---|---|---|\n| -tion / -sion / -ment / -ness / -ity | 名詞 | decision, movement, kindness, ability |\n| -ize / -en / -ify | 動詞 | modernize, widen, simplify |\n| -able / -ful / -less / -ous / -ive | 形容詞 | readable, careful, careless, dangerous, active |\n| -ly | 副詞 | quickly |\n\n## 読解での使い方\n\n未知語でも、語根と接辞から意味と品詞を推測できることが多い（un-believ-able → 信じられない）。",
+   "examples": [
+    {
+     "en": "The rule seems irregular at first.",
+     "ja": "その規則は最初は不規則に思える。"
+    },
+    {
+     "en": "They plan to modernize the old station.",
+     "ja": "彼らは古い駅を近代化する計画だ。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-wf-1",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "impossible"
+     ],
+     "explanation": "p の前では im-。",
+     "sentence": "possible の反意語を選びなさい。",
+     "choices": [
+      "unpossible",
+      "inpossible",
+      "impossible",
+      "dispossible"
+     ]
+    },
+    {
+     "id": "k-wf-2",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "irregular"
+     ],
+     "explanation": "r の前では ir-。",
+     "sentence": "regular の反意語を選びなさい。",
+     "choices": [
+      "unregular",
+      "irregular",
+      "inregular",
+      "disregular"
+     ]
+    },
+    {
+     "id": "k-wf-3",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "〜できる"
+     ],
+     "explanation": "readable（読める）、washable（洗える）。",
+     "sentence": "接尾辞 -able の意味として最も適切なものを選びなさい。",
+     "choices": [
+      "〜できる",
+      "〜しない",
+      "〜する人",
+      "〜の状態"
+     ]
+    },
+    {
+     "id": "k-wf-4",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "前の"
+     ],
+     "explanation": "preview（下見）、prehistoric（先史時代の）。",
+     "sentence": "接頭辞 pre- の意味として最も適切なものを選びなさい。",
+     "choices": [
+      "後の",
+      "前の",
+      "再び",
+      "反対の"
+     ]
+    },
+    {
+     "id": "k-wf-5",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "modernize"
+     ],
+     "explanation": "-ize は動詞をつくる。",
+     "sentence": "形容詞 modern を動詞にしたものを選びなさい。",
+     "choices": [
+      "modernity",
+      "modernize",
+      "modernly",
+      "modernism"
+     ]
+    },
+    {
+     "id": "k-wf-6",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "越えて・別の場所へ"
+     ],
+     "explanation": "transport（輸送する）、translate（翻訳する）。",
+     "sentence": "接頭辞 trans- の意味として最も適切なものを選びなさい。",
+     "choices": [
+      "越えて・別の場所へ",
+      "下に",
+      "共に",
+      "再び"
+     ]
+    },
+    {
+     "id": "k-wf-7",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "誤解する"
+     ],
+     "explanation": "mis- は「誤って」。",
+     "sentence": "misunderstand の意味として最も適切なものを選びなさい。",
+     "choices": [
+      "よく理解する",
+      "誤解する",
+      "理解しない",
+      "再び理解する"
+     ]
+    },
+    {
+     "id": "k-wf-8",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "happiness"
+     ],
+     "explanation": "-ness は名詞をつくる（y → i）。",
+     "sentence": "形容詞 happy の名詞形を選びなさい。",
+     "choices": [
+      "happily",
+      "happiness",
+      "happen",
+      "happiful"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-reading-strategy",
+   "title": "長文読解の解き方（共通テスト対策）",
+   "level": 3,
+   "category": "読解の技術",
+   "summary": "スキミング・スキャニング、設問の先読み、言い換えの見抜き方など、得点につながる読み方を身につける。",
+   "explanation": "## 2つの読み方\n\n| 読み方 | 目的 |\n|---|---|\n| スキミング（skimming） | 全体の要旨・流れをつかむためにざっと読む |\n| スキャニング（scanning） | 数字・固有名詞など特定の情報を探して読む |\n\n## 解答の手順（共通テスト型）\n\n1. **設問を先に読む**：何を探せばよいかを決めてから本文を読む\n2. **段落ごとに要旨をつかむ**：主題文は段落の冒頭にあることが多い\n3. **根拠を本文で確認**：記憶で解かず、該当箇所に戻る\n\n## 選択肢の見分け方\n\n- 正解は本文の**言い換え（パラフレーズ）**であることが多い\n- 本文の語句をそのまま使った選択肢は**ひっかけ**の可能性がある\n- **always / only / never / all** など断定の強い選択肢は本文と矛盾しやすい\n\n## 未知語の扱い\n\n前後の文脈・言い換え・対比から推測する。設問に関係なければ立ち止まらない。\n\n## 時間配分\n\nリーディングは80分で大量の英文を処理する。1つの問題に固執せず、解ける問題から確実に得点する。",
+   "examples": [
+    {
+     "en": "The answer is usually a paraphrase of the text.",
+     "ja": "正解は通常、本文の言い換えになっている。"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k-rs-1",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "特定の情報を探して読む"
+     ],
+     "explanation": "日時・数字・固有名詞などを探す読み方。",
+     "sentence": "スキャニングの説明として最も適切なものを選びなさい。",
+     "choices": [
+      "全体の要旨をつかむためにざっと読む",
+      "特定の情報を探して読む",
+      "一語一語を丁寧に訳す",
+      "声に出して読む"
+     ]
+    },
+    {
+     "id": "k-rs-2",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "全体の要旨・流れをつかむためにざっと読む"
+     ],
+     "explanation": "skim は「ざっと目を通す」。",
+     "sentence": "スキミングの説明として最も適切なものを選びなさい。",
+     "choices": [
+      "全体の要旨・流れをつかむためにざっと読む",
+      "特定の数字を探す",
+      "未知語を辞書で調べる",
+      "文法を分析する"
+     ]
+    },
+    {
+     "id": "k-rs-3",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "何を探しながら読めばよいかがわかる"
+     ],
+     "explanation": "目的をもって読むことで処理が速く正確になる。",
+     "sentence": "設問を先に読む主な利点として最も適切なものを選びなさい。",
+     "choices": [
+      "本文を読まなくてよくなる",
+      "何を探しながら読めばよいかがわかる",
+      "単語を覚えられる",
+      "時間が増える"
+     ]
+    },
+    {
+     "id": "k-rs-4",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "always や only など断定が強い"
+     ],
+     "explanation": "断定の強い表現は本文の限定と矛盾しやすい。",
+     "sentence": "内容一致問題で特に注意すべき選択肢の特徴を選びなさい。",
+     "choices": [
+      "本文の言い換えになっている",
+      "always や only など断定が強い",
+      "短い",
+      "日本語で書かれている"
+     ]
+    },
+    {
+     "id": "k-rs-5",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "段落の冒頭"
+     ],
+     "explanation": "英語の段落は主題文 → 具体例・説明の順が基本。",
+     "sentence": "段落の主題文（トピックセンテンス）が最も多く置かれる位置を選びなさい。",
+     "choices": [
+      "段落の冒頭",
+      "段落の真ん中",
+      "段落の最後の語",
+      "脚注"
+     ]
+    },
+    {
+     "id": "k-rs-6",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "前後の文脈や言い換えから意味を推測する"
+     ],
+     "explanation": "試験では文脈からの推測が基本。",
+     "sentence": "本文中の未知語への対処として最も適切なものを選びなさい。",
+     "choices": [
+      "必ず辞書で調べるまで先に進まない",
+      "前後の文脈や言い換えから意味を推測する",
+      "その段落を飛ばす",
+      "似たつづりの単語の意味を当てはめる"
+     ]
+    },
+    {
+     "id": "k-rs-7",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "本文の内容を別の表現で言い換えている"
+     ],
+     "explanation": "パラフレーズが正解の典型。そのままの語句はひっかけのこともある。",
+     "sentence": "正解の選択肢の特徴として最もよく当てはまるものを選びなさい。",
+     "choices": [
+      "本文の語句をそのまま並べている",
+      "本文の内容を別の表現で言い換えている",
+      "本文に書かれていない一般論",
+      "最も長い選択肢"
+     ]
+    },
+    {
+     "id": "k-rs-8",
+     "type": "choice",
+     "prompt": "次の問いに答えなさい。",
+     "answers": [
+      "Many students preferred studying at home."
+     ],
+     "explanation": "Most → Many、at home rather than at the library → preferred studying at home の言い換え。他は断定が強すぎる。",
+     "sentence": "次の本文に対し、内容が一致する選択肢を選びなさい。\n本文：Most students in the survey said they studied at home rather than at the library.",
+     "choices": [
+      "All students studied at the library.",
+      "Many students preferred studying at home.",
+      "No students studied at home.",
+      "Students never use the library."
      ]
     }
    ]
