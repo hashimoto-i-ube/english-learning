@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "id": "composition.core",
- "revision": 2,
+ "revision": 3,
  "skill": "composition",
  "title": "英作文",
  "description": "和文英訳・自由英作文・要約",
@@ -446,6 +446,262 @@
     {
      "en": "including its uncertainties",
      "ja": "不確実性も含めて"
+    }
+   ]
+  },
+  {
+   "id": "comp-l1-jaen-2",
+   "kind": "jaToEn",
+   "title": "和文英訳：不定詞と目的",
+   "level": 1,
+   "promptJa": "私は将来、困っている人を助けるために医者になりたい。",
+   "modelAnswers": [
+    "I want to become a doctor in the future to help people in need.",
+    "In the future, I would like to be a doctor so that I can help people who are in trouble."
+   ],
+   "keyPoints": [
+    "want to / would like to + 動詞の原形",
+    "become (be) a doctor（a を忘れない）",
+    "目的の不定詞 to help ... / so that I can help ...",
+    "「困っている人」people in need / people who are in trouble"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "people in need",
+     "ja": "困っている人々"
+    },
+    {
+     "en": "so that S can ~",
+     "ja": "〜できるように"
+    }
+   ]
+  },
+  {
+   "id": "comp-l1-jaen-3",
+   "kind": "jaToEn",
+   "title": "和文英訳：比較",
+   "level": 1,
+   "promptJa": "私にとって、数学は英語よりも難しいが、ずっとおもしろい。",
+   "modelAnswers": [
+    "For me, math is more difficult than English, but it is much more interesting.",
+    "Math is harder than English for me, but it is far more interesting."
+   ],
+   "keyPoints": [
+    "比較級 more difficult / harder than",
+    "比較級の強調 much / far（very は不可）",
+    "「私にとって」for me",
+    "but で対比をつなぐ"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "much more ~",
+     "ja": "ずっと〜"
+    },
+    {
+     "en": "for me",
+     "ja": "私にとって"
+    }
+   ]
+  },
+  {
+   "id": "comp-l1-free-1",
+   "kind": "free",
+   "title": "自由英作文：好きな季節",
+   "level": 1,
+   "promptJa": "あなたが一番好きな季節は何ですか。その理由を含めて英語で書きなさい。",
+   "conditions": "25〜35語",
+   "minWords": 25,
+   "maxWords": 35,
+   "modelAnswers": [
+    "My favorite season is autumn. First, the weather is cool and comfortable, so I can enjoy walking. Second, there are many delicious foods, such as sweet potatoes and chestnuts."
+   ],
+   "keyPoints": [
+    "最初の文で質問に答えている",
+    "理由を2つ（First / Second）",
+    "such as で具体例を挙げている",
+    "三人称単数・複数形の誤りがない"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "My favorite ~ is ...",
+     "ja": "私の一番好きな〜は…だ"
+    },
+    {
+     "en": "such as ~",
+     "ja": "〜のような"
+    }
+   ]
+  },
+  {
+   "id": "comp-l2-jaen-2",
+   "kind": "jaToEn",
+   "title": "和文英訳：関係代名詞",
+   "level": 2,
+   "promptJa": "昨日駅で会った女性は、私の母が若い頃に教えていた生徒だった。",
+   "modelAnswers": [
+    "The woman I met at the station yesterday was a student whom my mother had taught when she was young.",
+    "The woman who I saw at the station yesterday turned out to be one of the students my mother taught when she was young."
+   ],
+   "keyPoints": [
+    "関係代名詞（目的格は省略可）The woman (who/whom) I met",
+    "時制：母が教えていたのは「会った」より前 → had taught（過去形でも可）",
+    "when she was young",
+    "主語が長くても動詞 was を見失わない"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "turn out to be ~",
+     "ja": "〜だとわかる"
+    }
+   ]
+  },
+  {
+   "id": "comp-l2-jaen-3",
+   "kind": "jaToEn",
+   "title": "和文英訳：動名詞と現在完了",
+   "level": 2,
+   "promptJa": "毎朝早く起きることは簡単ではないが、私はこの3か月間ずっと続けている。",
+   "modelAnswers": [
+    "Getting up early every morning is not easy, but I have kept doing it for the past three months.",
+    "It is not easy to get up early every morning, but I have been doing it for three months."
+   ],
+   "keyPoints": [
+    "動名詞主語 Getting up ... / 形式主語 It is ... to ...",
+    "現在完了（継続）have kept doing / have been doing",
+    "for the past three months",
+    "it / so で前の内容を受ける"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "keep doing",
+     "ja": "〜し続ける"
+    },
+    {
+     "en": "for the past ~",
+     "ja": "この〜の間"
+    }
+   ]
+  },
+  {
+   "id": "comp-l2-free-1",
+   "kind": "free",
+   "title": "自由英作文：部活動は必要か",
+   "level": 2,
+   "promptJa": "高校生は部活動に参加すべきだと思いますか。あなたの考えを理由とともに英語で書きなさい。",
+   "conditions": "40〜60語",
+   "minWords": 40,
+   "maxWords": 60,
+   "modelAnswers": [
+    "I think high school students should join a club. First, they can make friends with students from other classes and grades. Second, they can learn how to work as a team and keep trying even when things are hard. These experiences will be useful in the future."
+   ],
+   "keyPoints": [
+    "賛否を最初に明示（I think ... should ...）",
+    "理由2つと具体的な説明",
+    "最後に結論・まとめの1文",
+    "語数条件 40〜60 語"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "make friends with ~",
+     "ja": "〜と友達になる"
+    },
+    {
+     "en": "work as a team",
+     "ja": "チームとして協力する"
+    },
+    {
+     "en": "how to do",
+     "ja": "〜の仕方"
+    }
+   ]
+  },
+  {
+   "id": "comp-l3-jaen-1",
+   "kind": "jaToEn",
+   "title": "和文英訳：形式主語と仮定法",
+   "level": 3,
+   "promptJa": "もしスマートフォンがなかったら、私たちの生活はずっと不便だろう。しかし、それに頼りすぎるのは危険だ。",
+   "modelAnswers": [
+    "If it were not for smartphones, our lives would be much less convenient. However, it is dangerous to depend on them too much.",
+    "Without smartphones, our lives would be far more inconvenient. It is risky, however, to rely too heavily on them."
+   ],
+   "keyPoints": [
+    "仮定法過去 If it were not for / Without ..., ... would ...",
+    "比較級の強調 much / far",
+    "形式主語 it is dangerous to do",
+    "depend on / rely on ... too much"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "If it were not for ~",
+     "ja": "〜がなければ"
+    },
+    {
+     "en": "rely too heavily on ~",
+     "ja": "〜に頼りすぎる"
+    }
+   ]
+  },
+  {
+   "id": "comp-l3-free-2",
+   "kind": "free",
+   "title": "自由英作文：一人旅と団体旅行",
+   "level": 3,
+   "promptJa": "旅行をするなら、一人旅と友人との旅行のどちらがよいと思いますか。理由を2つ挙げて英語で書きなさい。",
+   "conditions": "60〜80語",
+   "minWords": 60,
+   "maxWords": 80,
+   "modelAnswers": [
+    "I prefer traveling with friends to traveling alone. First, it is safer. If one of us gets sick or loses something, the others can help. Second, sharing experiences makes them more enjoyable. When we see a beautiful view or eat local food together, we can talk about it and create memories that we will remember for a long time. For these reasons, I would choose to travel with my friends."
+   ],
+   "keyPoints": [
+    "prefer A to B で立場を明示",
+    "理由2つ（安全・経験の共有）とその具体化",
+    "結論で主張を繰り返している",
+    "語数条件 60〜80 語"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "prefer A to B",
+     "ja": "BよりAを好む"
+    },
+    {
+     "en": "create memories",
+     "ja": "思い出を作る"
+    }
+   ]
+  },
+  {
+   "id": "comp-l3-graph-1",
+   "kind": "graph",
+   "title": "図表描写：高校生の平均睡眠時間",
+   "level": 3,
+   "promptJa": "次のデータは、ある高校の生徒の平日の平均睡眠時間の推移を示している。データから読み取れることを説明し、その原因として考えられることを1つ挙げて英語で書きなさい。\n【データ】2015年：7.2時間　2020年：6.6時間　2025年：6.1時間",
+   "conditions": "50〜70語",
+   "minWords": 50,
+   "maxWords": 70,
+   "modelAnswers": [
+    "The data shows that the average sleeping time of students at the school on weekdays has decreased steadily, from 7.2 hours in 2015 to 6.1 hours in 2025. This means students now sleep more than one hour less than ten years ago. One possible reason is that more students use smartphones late at night, which keeps them awake."
+   ],
+   "keyPoints": [
+    "傾向（減少）を正確に述べる decrease steadily / fall from A to B",
+    "具体的な数値の引用",
+    "変化量の言い換え（1時間以上少ない）",
+    "原因を推測として示す One possible reason is that ...",
+    "語数条件 50〜70 語"
+   ],
+   "usefulExpressions": [
+    {
+     "en": "decrease steadily from A to B",
+     "ja": "AからBへ着実に減少する"
+    },
+    {
+     "en": "One possible reason is that ~",
+     "ja": "考えられる理由の一つは〜だ"
+    },
+    {
+     "en": "The data shows that ~",
+     "ja": "データは〜を示している"
     }
    ]
   }
