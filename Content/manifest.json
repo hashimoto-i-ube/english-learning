@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-10-22T12:57:14Z",
+  "generatedAt" : "2026-10-22T12:58:51Z",
   "minAppVersion" : "1.0.0",
   "packs" : [
     {
@@ -85,8 +85,8 @@
     {
       "file" : "packs/vocab-l5.json",
       "id" : "vocab.core.l5",
-      "revision" : 2,
-      "sha256" : "7a40f741d05524ae2d1f9419018ddc0b8d13205b3bef24ecf4097d158ba3beae",
+      "revision" : 3,
+      "sha256" : "aa54e69eb97c574f5050ec2d53eaf22c8c9423816c79ae9c350175c758a61b83",
       "skill" : "vocabulary",
       "title" : "Lv5 国公立・GMARCH 語彙"
     },
